@@ -1,0 +1,69 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "fixed-table/variants_states",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "reviewType": "adopted-public-branch-contract-review",
+    "subject": "fixed-table",
+    "contract": "assets/search-workspace/src/components-specs/source-fixed-table.md",
+    "contractSha256": "e0032e8204b2135ffa8b7979f107cac550acc3be3c928a4e2654a01864a896d9",
+    "model": "references/first-release-foundation-contracts.json",
+    "modelSha256": "94cbea686d0c989ee105cd37e50e3babdf7ea04875b90d14bef1c2db9288e528",
+    "namedStates": [
+      "static-data",
+      "striped-data",
+      "scrollable-data",
+      "sticky-header"
+    ],
+    "transitionRules": [
+      "actual table/caption/headers and consistent column count",
+      "unique row/column IDs",
+      "named focusable local scrolling container",
+      "SourceServiceTable is compatibility adapter"
+    ],
+    "unsupportedOrHostOwned": [
+      "no sorting/editing/complex merged cells",
+      "no independent red activity-column or mobile folded skin"
+    ],
+    "scope": "Source contract/specification and finite supported-state definition reviewed against the current public entry and source contract. This is not runtime execution of every state, new source visual approval, responsive-long-content acceptance or manual accessibility certification.",
+    "newOwnerApprovals": 0,
+    "newRuntimePasses": 0
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/fixed-table--variants_states.json",
+    "recordSha256": "632ce279bd0735ea41be21b5580f04abb909ed9ba2f994c14bfc4f61f658aefc",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/fixed-table--variants_states.json",
+    "sha256": "eec17e5173d4c01eb3e990b328b791243e8b94c052cea328fd58d07e23fb7d5d"
+  }
+}

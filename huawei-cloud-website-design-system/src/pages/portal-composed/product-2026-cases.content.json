@@ -1,0 +1,142 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "2026案例验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "customer-cases-2026",
+      "id": "cases-2026",
+      "title": "客户实践",
+      "background": "white",
+      "items": [
+        {
+          "id": "customer-1",
+          "customer": "慧科",
+          "logo": "product-2026-case-logo-1",
+          "title": "客户案例布局验证 1",
+          "mediaWidth": 60,
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-case-photo",
+            "mode": "cover",
+            "alt": "原设计案例场景摄影"
+          },
+          "paragraphs": [
+            [
+              {
+                "text": "此页面仅验证案例组件，不代表客户的实际业务成果。"
+              }
+            ]
+          ],
+          "metrics": [
+            {
+              "value": "测试指标",
+              "label": "业务数据由实际项目提供"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解案例",
+              "href": "#cases-2026",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "customer-2",
+          "customer": "数云",
+          "logo": "product-2026-case-logo-2",
+          "title": "客户案例布局验证 2",
+          "mediaWidth": 60,
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-case-photo",
+            "mode": "cover",
+            "alt": "原设计案例场景摄影"
+          },
+          "paragraphs": [
+            [
+              {
+                "text": "此页面仅验证案例组件，不代表客户的实际业务成果。"
+              }
+            ]
+          ],
+          "metrics": [
+            {
+              "value": "测试指标",
+              "label": "业务数据由实际项目提供"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解案例",
+              "href": "#cases-2026",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "customer-3",
+          "customer": "方寸智能",
+          "logo": "product-2026-case-logo-3",
+          "title": "客户案例布局验证 3",
+          "mediaWidth": 60,
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-case-photo",
+            "mode": "cover",
+            "alt": "原设计案例场景摄影"
+          },
+          "paragraphs": [
+            [
+              {
+                "text": "此页面仅验证案例组件，不代表客户的实际业务成果。"
+              }
+            ]
+          ],
+          "metrics": [
+            {
+              "value": "测试指标",
+              "label": "业务数据由实际项目提供"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解案例",
+              "href": "#cases-2026",
+              "variant": "text"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "customers": "选择客户案例",
+        "actions": "案例入口",
+        "video": {
+          "play": "播放视频",
+          "close": "关闭视频",
+          "failed": "加载失败",
+          "retry": "重新加载",
+          "blocked": "请手动播放",
+          "actions": "视频入口"
+        },
+        "demo": {
+          "tabs": "演示分类",
+          "previousTab": "前一演示分类",
+          "nextTab": "后一演示分类",
+          "previous": "上一展示",
+          "next": "下一展示",
+          "reset": "重置展示",
+          "pause": "暂停演示",
+          "resume": "继续演示",
+          "media": "当前展示",
+          "failed": "媒体加载失败",
+          "retry": "重新加载",
+          "actions": "功能入口"
+        }
+      }
+    }
+  ]
+}

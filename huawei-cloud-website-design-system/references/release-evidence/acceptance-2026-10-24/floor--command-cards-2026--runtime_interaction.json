@@ -1,0 +1,68 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "floor/command-cards-2026/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "sourceId": "pix-001-2-195803",
+    "floorId": "command-cards-2026",
+    "actualPassedCases": [
+      {
+        "name": "commands/native-browser-copy-tick-only",
+        "date": "2026-10-25T03:57:31.168Z",
+        "scope": "Native Enter in Storybook invokes the configured clipboard write interface and displays tick-only success. Exact OS clipboard contents not independently proven."
+      },
+      {
+        "name": "commands/native-End-switches-tool",
+        "date": "2026-10-25T03:57:44.197Z",
+        "scope": "Native End activates configured bun command, exposes matching text and reset copy state; hidden mobile templates excluded"
+      }
+    ],
+    "historicalObservations": [
+      {
+        "name": "commands/native-clipboard-roundtrip",
+        "classification": "platform-reference-observation",
+        "disposition": "Independent clipboard readback is unavailable in this test surface: bare native reference also completes write feedback but bridge returns empty and page read remains pending. Retain unverified roundtrip; do not infer a component bug or claim exact OS clipboard delivery."
+      }
+    ],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-interactions-v20.json",
+    "wholeSourceApproval": false,
+    "scope": "Only listed native keys, pointer actions, timer/media and configured local fixture branches. No blanket all-state, source-visual, screen-reader, physical-touch, real-browser-zoom, production service or owner approval."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/floor--command-cards-2026--runtime_interaction.json",
+    "recordSha256": "a5cc2f509a6d61ef84d46b2e2ba49e418c6d6937273820e9137f6dc2cb40b390",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/floor--command-cards-2026--runtime_interaction.json",
+    "sha256": "78b7730711d9ef24f33e76bf0f9695b822124325d12e967899dbcb837e2fd493"
+  }
+}

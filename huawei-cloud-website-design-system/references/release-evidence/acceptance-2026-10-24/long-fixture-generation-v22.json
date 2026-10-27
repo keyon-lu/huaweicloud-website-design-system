@@ -1,0 +1,277 @@
+{
+  "kind": "actual-prop-content-generation",
+  "sourceOrigins": [
+    {
+      "kind": "general-banner",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "latest-updates",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "icon-text-cards",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "scene-media",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "process-flow",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "learning-links",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "recommended-docs",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "faq-list",
+      "source": "src/pages/portal-composed/content-floors.content.json"
+    },
+    {
+      "kind": "advantage-grid-2026",
+      "source": "src/pages/portal-composed/product-2026-advantages.content.json"
+    },
+    {
+      "kind": "agent-cards-2026",
+      "source": "src/pages/portal-composed/product-2026-agents.content.json"
+    },
+    {
+      "kind": "assistant-search-2026",
+      "source": "src/pages/portal-composed/product-2026-assistant.content.json"
+    },
+    {
+      "kind": "product-banner-2026",
+      "source": "src/pages/portal-composed/product-2026-banner.content.json"
+    },
+    {
+      "kind": "customer-cases-2026",
+      "source": "src/pages/portal-composed/product-2026-cases.content.json"
+    },
+    {
+      "kind": "command-cards-2026",
+      "source": "src/pages/portal-composed/product-2026-commands.content.json"
+    },
+    {
+      "kind": "demo-architecture-2026",
+      "source": "src/pages/portal-composed/product-2026-demo.content.json"
+    },
+    {
+      "kind": "faq-2026",
+      "source": "src/pages/portal-composed/product-2026-faq.content.json"
+    },
+    {
+      "kind": "folded-media-2026",
+      "source": "src/pages/portal-composed/product-2026-folded.content.json"
+    },
+    {
+      "kind": "hover-expand-2026",
+      "source": "src/pages/portal-composed/product-2026-hover.content.json"
+    },
+    {
+      "kind": "model-catalog-2026",
+      "source": "src/pages/portal-composed/product-2026-models.content.json"
+    },
+    {
+      "kind": "news-2026",
+      "source": "src/pages/portal-composed/product-2026-news.content.json"
+    },
+    {
+      "kind": "next-step-2026",
+      "source": "src/pages/portal-composed/product-2026-next.content.json"
+    },
+    {
+      "kind": "package-cards-2026",
+      "source": "src/pages/portal-composed/product-2026-packages.content.json"
+    },
+    {
+      "kind": "pricing-table-2026",
+      "source": "src/pages/portal-composed/product-2026-pricing.content.json"
+    },
+    {
+      "kind": "scenario-solutions-2026",
+      "source": "src/pages/portal-composed/product-2026-scenarios.content.json"
+    },
+    {
+      "kind": "scene-carousel-2026",
+      "source": "src/pages/portal-composed/product-2026-scene-carousel.content.json"
+    },
+    {
+      "kind": "split-media-2026",
+      "source": "src/pages/portal-composed/product-2026-split.content.json"
+    },
+    {
+      "kind": "video-cards-2026",
+      "source": "src/pages/portal-composed/product-2026-video.content.json"
+    },
+    {
+      "kind": "wide-carousel-2026",
+      "source": "src/pages/portal-composed/product-2026-wide.content.json"
+    },
+    {
+      "kind": "activity-countdown-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-activities.content.json"
+    },
+    {
+      "kind": "advantage-illustrations-v1",
+      "source": "src/pages/portal-composed/product-v1-advantages.content.json"
+    },
+    {
+      "kind": "ai-architecture-columns-v1",
+      "source": "src/pages/portal-composed/product-v1-ai-architecture.content.json"
+    },
+    {
+      "kind": "architecture-media-v1",
+      "source": "src/pages/portal-composed/product-v1-architecture.content.json"
+    },
+    {
+      "kind": "illustrated-benefits-v1",
+      "source": "src/pages/portal-composed/product-v1-benefits.content.json"
+    },
+    {
+      "kind": "product-recommendations-v1",
+      "source": "src/pages/portal-composed/product-v1-cards.content.json"
+    },
+    {
+      "kind": "generic-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-cards.content.json"
+    },
+    {
+      "kind": "customer-story-v1",
+      "source": "src/pages/portal-composed/product-v1-cases.content.json"
+    },
+    {
+      "kind": "anchored-product-catalog",
+      "source": "src/pages/portal-composed/product-v1-catalog.content.json"
+    },
+    {
+      "kind": "editorial-grid-v1",
+      "source": "src/pages/portal-composed/product-v1-editorial.content.json"
+    },
+    {
+      "kind": "folded-media-v1",
+      "source": "src/pages/portal-composed/product-v1-folded.content.json"
+    },
+    {
+      "kind": "image-filter-v1",
+      "source": "src/pages/portal-composed/product-v1-image-filter.content.json"
+    },
+    {
+      "kind": "information-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-information.content.json"
+    },
+    {
+      "kind": "live-preview-v1",
+      "source": "src/pages/portal-composed/product-v1-live-preview.content.json"
+    },
+    {
+      "kind": "live-video-v1",
+      "source": "src/pages/portal-composed/product-v1-live.content.json"
+    },
+    {
+      "kind": "logo-filter-v1",
+      "source": "src/pages/portal-composed/product-v1-logo-filter.content.json"
+    },
+    {
+      "kind": "logo-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-logos.content.json"
+    },
+    {
+      "kind": "campaign-mosaic-v1",
+      "source": "src/pages/portal-composed/product-v1-mosaic.content.json"
+    },
+    {
+      "kind": "news-list-v1",
+      "source": "src/pages/portal-composed/product-v1-news-list.content.json"
+    },
+    {
+      "kind": "photo-wall-v1",
+      "source": "src/pages/portal-composed/product-v1-photo-wall.content.json"
+    },
+    {
+      "kind": "publication-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-publications.content.json"
+    },
+    {
+      "kind": "expert-quote-v1",
+      "source": "src/pages/portal-composed/product-v1-quote.content.json"
+    },
+    {
+      "kind": "report-filter-v1",
+      "source": "src/pages/portal-composed/product-v1-report-filter.content.json"
+    },
+    {
+      "kind": "session-entry-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-sessions.content.json"
+    },
+    {
+      "kind": "featured-solutions-v1",
+      "source": "src/pages/portal-composed/product-v1-solutions.content.json"
+    },
+    {
+      "kind": "speaker-cards-v1",
+      "source": "src/pages/portal-composed/product-v1-speakers.content.json"
+    },
+    {
+      "kind": "text",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "cards",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "process-steps",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "folded-media",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "solution-cards",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "customer-cases",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "resources",
+      "source": "legacy-host.content.json"
+    },
+    {
+      "kind": "faq",
+      "source": "legacy-host.content.json"
+    }
+  ],
+  "results": [
+    {
+      "mode": "normal",
+      "kinds": 62,
+      "generated": true,
+      "output": "{\n  \"ok\": true,\n  \"pageType\": \"website-composed\",\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\prerelease-2026-10-22\\\\review\\\\long-normal-v22\\\\long-normal.shadcn.html\",\n  \"template\": \"src/pages/portal-composed/index.tsx\",\n  \"variant\": \"default\",\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"smBreakpoint\": 1024,\n  \"referenceQuality\": \"not-certified\"\n}\n",
+      "error": ""
+    },
+    {
+      "mode": "chinese",
+      "kinds": 62,
+      "generated": true,
+      "output": "{\n  \"ok\": true,\n  \"pageType\": \"website-composed\",\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\prerelease-2026-10-22\\\\review\\\\long-chinese-v22\\\\long-chinese.shadcn.html\",\n  \"template\": \"src/pages/portal-composed/index.tsx\",\n  \"variant\": \"default\",\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"smBreakpoint\": 1024,\n  \"referenceQuality\": \"not-certified\"\n}\n",
+      "error": ""
+    },
+    {
+      "mode": "unbreakable",
+      "kinds": 62,
+      "generated": true,
+      "output": "{\n  \"ok\": true,\n  \"pageType\": \"website-composed\",\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\prerelease-2026-10-22\\\\review\\\\long-unbreakable-v22\\\\long-unbreakable.shadcn.html\",\n  \"template\": \"src/pages/portal-composed/index.tsx\",\n  \"variant\": \"default\",\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"smBreakpoint\": 1024,\n  \"referenceQuality\": \"not-certified\"\n}\n",
+      "error": ""
+    }
+  ],
+  "scope": "One existing configured content branch per generation kind; not all source states, browser zoom or visual approval"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "sourceFrame": "2:53324",
+  "after": {
+    "actionLine": "22px",
+    "height": 48,
+    "menuLine": "18px",
+    "moreButtons": 1,
+    "rootOverflow": false,
+    "titleLine": "18px",
+    "visibleEntries": 8
+  },
+  "legacy": {
+    "height": 48,
+    "legacyClass": true,
+    "menuLine": "22px",
+    "titleLine": "18px"
+  },
+  "passed": true
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "source-release-check",
+  "check": "link/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "family": "link",
+    "execution": "references/release-evidence/acceptance-2026-10-24/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcereference-navigation--matrix",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-link/navigation-reference.stories.tsx",
+        "sourceSha256": "81e0fc1ca90f52aec939ac2c51aed351f5b99d59c043dbf24d59fc3252dd978b"
+      },
+      {
+        "id": "sourcefamilies-link--playground",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      },
+      {
+        "id": "sourcefamilies-link--matrix",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      },
+      {
+        "id": "sourcefamilies-link--disabled-activation",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      },
+      {
+        "id": "sourcefamilies-link--long-content",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/link--runtime_interaction.json",
+    "recordSha256": "9c48ac8e8c801aefc36eed9dda78ac810fc1d2d4826a7938d7043db86e0b57eb",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/link--runtime_interaction.json",
+    "sha256": "e58799b3569cd8c105022b4383487f9fd3472a3c84d9f3c249d2ba5ccd8f5caa"
+  }
+}

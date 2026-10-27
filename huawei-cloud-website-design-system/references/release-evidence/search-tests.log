@@ -1,0 +1,37 @@
+✔ Chinese number policy preserves ungrouped snapshot counts and zero (0.6204ms)
+✔ snapshot calendar date keeps approved date form and explicit time zone (0.2268ms)
+✔ returns successful JSON (16.0192ms)
+✔ rejects non-JSON response (0.4739ms)
+✔ retains explicit server error (0.2311ms)
+✔ network error is actionable Chinese text (0.1778ms)
+✔ timeout aborts request and is distinct from cancellation (16.4682ms)
+✔ caller cancellation is preserved without retry or timeout message (0.3727ms)
+✔ Chinese retrieval finds traceable grid source (6.5377ms)
+✔ English, fullwidth and case normalization (1.7102ms)
+✔ AND semantics and empty results (0.2707ms)
+✔ blank query browses all documents (0.2493ms)
+✔ category filtering and facets (0.2738ms)
+✔ pagination preserves uniqueness and total (0.4449ms)
+✔ page beyond last returns empty without changing total (0.2276ms)
+✔ stable ordering and excerpt bounds (0.5788ms)
+✔ invalid query: negative (0.2118ms)
+✔ invalid query: decimal (0.1294ms)
+✔ invalid query: zero (0.0888ms)
+✔ invalid query: oversize (0.0597ms)
+✔ invalid query: category (0.0443ms)
+✔ invalid query: sort (0.0564ms)
+✔ invalid query: long (0.0674ms)
+✔ invalid query: unknown (0.0972ms)
+✔ invalid query: control (0.0501ms)
+✔ duplicate parameters rejected (0.1016ms)
+✔ HTML payload remains plain text and never executes (1.0859ms)
+✔ HTTP API, detail, errors, HEAD, method, origin and filesystem boundary (151.7376ms)
+✔ tampered index rejected at startup (3.736ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 347.9636

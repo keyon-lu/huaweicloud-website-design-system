@@ -1,0 +1,16 @@
+{
+  "storyId": "releasescope-pix-002-16-35427--default",
+  "snapshotId": "62c90eead52c1610f3fd3beaa08193d58038e3e1a16118d50d63a1da2dfc8546",
+  "before": {
+    "focus": true,
+    "outline": "solid",
+    "outlineWidth": "2px",
+    "scroll": 504
+  },
+  "after": {
+    "focus": true,
+    "scroll": 516.5
+  },
+  "tabEscapes": true,
+  "ownerApproval": false
+}

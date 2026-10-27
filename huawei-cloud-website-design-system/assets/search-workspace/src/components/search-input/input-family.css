@@ -1,0 +1,14 @@
+/* Layout adaptation for source fixed-width fields; source tokens own appearance. */
+.source-autocomplete,.source-textarea{max-width:var(--hc-t-input-available-width)}
+.source-autocomplete input,.source-textarea textarea{max-width:var(--hc-t-input-available-width)}
+.source-textarea label,.source-autocomplete label,.por-text-wrap label{display:block}
+.source-input-field .por-help-block,.source-textarea .por-textarea-wordwrap{color:var(--por-color-text-secondary)}
+.source-textarea .por-textarea-word-warn,.source-textarea .por-textarea-word-error{color:var(--por-color-text-primary)}
+.source-input:not(:disabled)::placeholder,.source-textarea textarea:not(:disabled)::placeholder{color:var(--por-color-text-secondary)}
+.source-autocomplete .por-input-option-list [role=status]{color:var(--por-color-text-secondary)}
+.source-autocomplete-options{display:block;position:fixed;right:auto;margin-top:0}
+.source-autocomplete-options li{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.source-autocomplete-options [role=status]{color:var(--por-color-text-secondary)}
+
+/* Keep the source intrinsic field width, cap it only when its parent is narrower. */
+.source-input-field,.source-input{max-width:var(--hc-t-input-available-width)}

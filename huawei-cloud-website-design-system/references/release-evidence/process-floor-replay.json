@@ -1,0 +1,32 @@
+{
+  "evidence": [
+    {
+      "attributes": [
+        [
+          "type",
+          "application/json"
+        ],
+        [
+          "data-a11y-evidence",
+          "process-steps"
+        ]
+      ],
+      "data": "{\"label\":\"process-steps\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-16T08:26:44.852Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\",\"aria-conditional-attr\",\"aria-deprecated-role\",\"aria-hidden-focus\",\"aria-prohibited-attr\",\"aria-required-attr\",\"aria-required-children\",\"aria-required-parent\",\"aria-roles\",\"aria-valid-attr-value\",\"aria-valid-attr\",\"color-contrast\",\"link-name\",\"target-size\"]}"
+    },
+    {
+      "attributes": [
+        [
+          "type",
+          "application/json"
+        ],
+        [
+          "data-floor-evidence",
+          "process-steps"
+        ]
+      ],
+      "data": "{\"orderedList\":true,\"items\":4,\"nativeLinkFocus\":true,\"visibleAction\":true,\"source\":\"Owner-selected partners process-v2/2.4.31; base3.0.17 retained; no pixel/Pixso claim\"}"
+    }
+  ],
+  "overflow": false,
+  "url": "http://127.0.0.1:6010/iframe.html?id=sourcefloors-processsteps--playground&viewMode=story"
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "owner-authorized-motion-fallback",
+  "date": "2026-10-23",
+  "authority": "User: 允许提取原GIF首帧",
+  "originalAssetMappingsPreserved": 96,
+  "defaultMotionBehavior": "original GIF, same img DOM/alt/className; unchanged source pixels",
+  "reducedMotionBehavior": "original decoded first-frame PNG; changes react to matchMedia change and listeners clean up",
+  "added": [
+    {
+      "originalId": "developer-space",
+      "id": "developer-space-static-first-frame",
+      "source": "src/assets/developer-space-static-first-frame.png",
+      "originalSource": "src/assets/developer-space.gif",
+      "originalSha256": "4428405a77c230911f85d830f4fe988076c6c26717a8e00ba476ce3af9e14602",
+      "sha256": "a4bad86dec9bffd42818e290579e649b5b7464505f65d46834eb257faa0a74cf",
+      "decodedPixelSha256": "701bce9f51b7eeaa521972f0657133b12a1886a055b86bf55922933a966cb417",
+      "width": 2740,
+      "height": 1375,
+      "frameIndex": 0
+    },
+    {
+      "originalId": "developer-ability",
+      "id": "developer-ability-static-first-frame",
+      "source": "src/assets/developer-ability-static-first-frame.png",
+      "originalSource": "src/assets/developer-ability.gif",
+      "originalSha256": "71c9542ee7a187f1a17d1e7b66828f201fc462670b8ae6a7e1d7e1cbb6686ae2",
+      "sha256": "5515bc63ef39a42eb866bebd1cfef86f21921297be913aaadddf1a427353f0dd",
+      "decodedPixelSha256": "3b41817bf37495ab9eabff03db1bf64be31f9c479d976e900a95ce979f54f8e7",
+      "width": 1600,
+      "height": 516,
+      "frameIndex": 0
+    },
+    {
+      "originalId": "developer-ability-mobile",
+      "id": "developer-ability-mobile-static-first-frame",
+      "source": "src/assets/developer-ability-mobile-static-first-frame.png",
+      "originalSource": "src/assets/developer-ability-mobile.gif",
+      "originalSha256": "442db73deb8c81eadaa683362e83791aa5d2eaa001e8c7d72a937245b671eb8a",
+      "sha256": "55b6b24e3086bde00b992e65b418864cb4d1bc3aa076fc35fce764fabe300383",
+      "decodedPixelSha256": "4ce3f3acd22e56a49388a08456032a27294aa6ee60df7251e29edec7d6eda47f",
+      "width": 960,
+      "height": 516,
+      "frameIndex": 0
+    }
+  ],
+  "scope": "Exactly three developer GIF assets. No style token, protected page function or CSS change; no new visual/reader approval.",
+  "normalRendererAstEquivalent": true,
+  "exactlyThreeMotionAssets": true,
+  "unchangedReviewedFamilyImplementationFiles": 17,
+  "currentRendererFiles": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "sha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/portal-asset/portal-asset.tsx",
+      "sha256": "5d50123bc6172003671cd38a2200d49d80ab2a57c26943e56e0ea036df83f7ce"
+    }
+  ],
+  "addedOriginalTemplateMappings": [
+    {
+      "id": "developer-space",
+      "source": "src/assets/developer-space.gif",
+      "sha256": "4428405a77c230911f85d830f4fe988076c6c26717a8e00ba476ce3af9e14602",
+      "sourceId": "existing-original-gif"
+    },
+    {
+      "id": "developer-ability",
+      "source": "src/assets/developer-ability.gif",
+      "sha256": "71c9542ee7a187f1a17d1e7b66828f201fc462670b8ae6a7e1d7e1cbb6686ae2",
+      "sourceId": "existing-original-gif"
+    },
+    {
+      "id": "developer-ability-mobile",
+      "source": "src/assets/developer-ability-mobile.gif",
+      "sha256": "442db73deb8c81eadaa683362e83791aa5d2eaa001e8c7d72a937245b671eb8a",
+      "sourceId": "existing-original-gif"
+    }
+  ]
+}

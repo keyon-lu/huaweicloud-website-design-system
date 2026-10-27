@@ -1,0 +1,1414 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "1056:13876",
+      "name": "单选项组",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1056:13873",
+          "name": "排列方式=横向,个数=2",
+          "type": "COMPONENT",
+          "width": 143,
+          "height": 22,
+          "properties": {
+            "个数": "2",
+            "排列方式": "横向"
+          }
+        },
+        {
+          "id": "1056:13874",
+          "name": "排列方式=横向,个数=3",
+          "type": "COMPONENT",
+          "width": 228,
+          "height": 22,
+          "properties": {
+            "个数": "3",
+            "排列方式": "横向"
+          }
+        },
+        {
+          "id": "1056:13875",
+          "name": "排列方式=横向,个数=4",
+          "type": "COMPONENT",
+          "width": 313,
+          "height": 22,
+          "properties": {
+            "个数": "4",
+            "排列方式": "横向"
+          }
+        },
+        {
+          "id": "1056:13896",
+          "name": "排列方式=纵向,个数=2",
+          "type": "COMPONENT",
+          "width": 61,
+          "height": 60,
+          "properties": {
+            "个数": "2",
+            "排列方式": "纵向"
+          }
+        },
+        {
+          "id": "1056:13910",
+          "name": "排列方式=纵向,个数=3",
+          "type": "COMPONENT",
+          "width": 61,
+          "height": 98,
+          "properties": {
+            "个数": "3",
+            "排列方式": "纵向"
+          }
+        },
+        {
+          "id": "1056:13928",
+          "name": "排列方式=纵向,个数=4",
+          "type": "COMPONENT",
+          "width": 61,
+          "height": 136,
+          "properties": {
+            "个数": "4",
+            "排列方式": "纵向"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "2",
+          "3",
+          "4"
+        ],
+        "排列方式": [
+          "横向",
+          "纵向"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1056:13876",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1056:13993",
+      "name": "复选框",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1056:13981",
+          "name": "是否选中=未选中,状态=默认",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "未选中",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1056:13983",
+          "name": "是否选中=半选,状态=默认",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1056:13982",
+          "name": "是否选中=选中,状态=默认",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "选中",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1056:13995",
+          "name": "是否选中=未选中,状态=悬停",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "未选中",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1056:13998",
+          "name": "是否选中=选中,状态=悬停",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "选中",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1056:14001",
+          "name": "是否选中=半选,状态=悬停",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1056:14003",
+          "name": "是否选中=未选中,状态=禁用",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "未选中",
+            "状态": "禁用"
+          }
+        },
+        {
+          "id": "1056:14006",
+          "name": "是否选中=选中,状态=禁用",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "选中",
+            "状态": "禁用"
+          }
+        },
+        {
+          "id": "1056:14009",
+          "name": "是否选中=半选,状态=禁用",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "禁用"
+          }
+        },
+        {
+          "id": "3529:38050",
+          "name": "是否选中=半选, 状态=悬停",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "悬停"
+          }
+        }
+      ],
+      "axes": {
+        "是否选中": [
+          "未选中",
+          "半选",
+          "选中"
+        ],
+        "状态": [
+          "默认",
+          "悬停",
+          "禁用"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1056:13993",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1056:14018",
+      "name": "复选项",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1056:14013",
+          "name": "是否选中=未选中,状态=默认",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "未选中",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1056:14022",
+          "name": "是否选中=半选,状态=默认",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1056:14029",
+          "name": "是否选中=选中,状态=默认",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "选中",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1056:14035",
+          "name": "是否选中=未选中,状态=悬停",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "未选中",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1056:14041",
+          "name": "是否选中=半选,状态=悬停",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1056:14048",
+          "name": "是否选中=选中,状态=悬停",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "选中",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1058:13893",
+          "name": "是否选中=未选中,状态=禁用",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "未选中",
+            "状态": "禁用"
+          }
+        },
+        {
+          "id": "1058:13899",
+          "name": "是否选中=半选,状态=禁用",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "半选",
+            "状态": "禁用"
+          }
+        },
+        {
+          "id": "1058:13906",
+          "name": "是否选中=选中,状态=禁用",
+          "type": "COMPONENT",
+          "width": 66,
+          "height": 22,
+          "properties": {
+            "是否选中": "选中",
+            "状态": "禁用"
+          }
+        }
+      ],
+      "axes": {
+        "是否选中": [
+          "未选中",
+          "半选",
+          "选中"
+        ],
+        "状态": [
+          "默认",
+          "悬停",
+          "禁用"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1056:14018",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1058:13919",
+      "name": "复选项组",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1058:13918",
+          "name": "排列方式=横向,个数=2",
+          "type": "COMPONENT",
+          "width": 143,
+          "height": 22,
+          "properties": {
+            "个数": "2",
+            "排列方式": "横向"
+          }
+        },
+        {
+          "id": "1058:13929",
+          "name": "排列方式=横向,个数=3",
+          "type": "COMPONENT",
+          "width": 228,
+          "height": 22,
+          "properties": {
+            "个数": "3",
+            "排列方式": "横向"
+          }
+        },
+        {
+          "id": "1058:13958",
+          "name": "排列方式=横向,个数=4",
+          "type": "COMPONENT",
+          "width": 313,
+          "height": 22,
+          "properties": {
+            "个数": "4",
+            "排列方式": "横向"
+          }
+        },
+        {
+          "id": "1058:13972",
+          "name": "排列方式=纵向,个数=2",
+          "type": "COMPONENT",
+          "width": 61,
+          "height": 60,
+          "properties": {
+            "个数": "2",
+            "排列方式": "纵向"
+          }
+        },
+        {
+          "id": "1058:13986",
+          "name": "排列方式=纵向,个数=3",
+          "type": "COMPONENT",
+          "width": 61,
+          "height": 98,
+          "properties": {
+            "个数": "3",
+            "排列方式": "纵向"
+          }
+        },
+        {
+          "id": "1058:14004",
+          "name": "排列方式=纵向,个数=4",
+          "type": "COMPONENT",
+          "width": 61,
+          "height": 136,
+          "properties": {
+            "个数": "4",
+            "排列方式": "纵向"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "2",
+          "3",
+          "4"
+        ],
+        "排列方式": [
+          "横向",
+          "纵向"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1058:13919",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "29:1567",
+      "name": "视频",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "29:1568",
+          "name": "样式=播放,状态=禁用态,大小=40px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "播放",
+            "浅色": "ON",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1572",
+          "name": "样式=播放,状态=默认态,大小=40px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "播放",
+            "浅色": "ON",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1576",
+          "name": "样式=播放,状态=悬浮态,大小=40px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "播放",
+            "浅色": "ON",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1580",
+          "name": "样式=暂停,状态=禁用态,大小=40px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "暂停",
+            "浅色": "ON",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1584",
+          "name": "样式=播放,状态=禁用态,大小=40px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "播放",
+            "浅色": "OFF",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1588",
+          "name": "样式=暂停,状态=默认态,大小=40px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "暂停",
+            "浅色": "ON",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1592",
+          "name": "样式=播放,状态=默认态,大小=40px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "播放",
+            "浅色": "OFF",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1596",
+          "name": "样式=暂停,状态=悬浮态,大小=40px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "暂停",
+            "浅色": "ON",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1600",
+          "name": "样式=播放,状态=悬浮态,大小=40px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "播放",
+            "浅色": "OFF",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1604",
+          "name": "样式=暂停,状态=禁用态,大小=40px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "暂停",
+            "浅色": "OFF",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1608",
+          "name": "样式=暂停,状态=默认态,大小=40px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "暂停",
+            "浅色": "OFF",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1612",
+          "name": "样式=暂停,状态=悬浮态,大小=40px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 40,
+          "properties": {
+            "大小": "40px",
+            "样式": "暂停",
+            "浅色": "OFF",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1616",
+          "name": "样式=播放,状态=禁用态,大小=60px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "播放",
+            "浅色": "ON",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1620",
+          "name": "样式=暂停,状态=禁用态,大小=60px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "暂停",
+            "浅色": "ON",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1624",
+          "name": "样式=播放,状态=默认态,大小=60px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "播放",
+            "浅色": "ON",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1628",
+          "name": "样式=暂停,状态=默认态,大小=60px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "暂停",
+            "浅色": "ON",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1632",
+          "name": "样式=播放,状态=悬浮态,大小=60px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "播放",
+            "浅色": "ON",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1636",
+          "name": "样式=暂停,状态=悬浮态,大小=60px,浅色=ON",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "暂停",
+            "浅色": "ON",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1640",
+          "name": "样式=播放,状态=禁用态,大小=60px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "播放",
+            "浅色": "OFF",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1644",
+          "name": "样式=播放,状态=默认态,大小=60px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "播放",
+            "浅色": "OFF",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1648",
+          "name": "样式=播放,状态=悬浮态,大小=60px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "播放",
+            "浅色": "OFF",
+            "状态": "悬浮态"
+          }
+        },
+        {
+          "id": "29:1652",
+          "name": "样式=暂停,状态=禁用态,大小=60px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "暂停",
+            "浅色": "OFF",
+            "状态": "禁用态"
+          }
+        },
+        {
+          "id": "29:1656",
+          "name": "样式=暂停,状态=默认态,大小=60px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "暂停",
+            "浅色": "OFF",
+            "状态": "默认态"
+          }
+        },
+        {
+          "id": "29:1660",
+          "name": "样式=暂停,状态=悬浮态,大小=60px,浅色=OFF",
+          "type": "COMPONENT",
+          "width": 60,
+          "height": 60,
+          "properties": {
+            "大小": "60px",
+            "样式": "暂停",
+            "浅色": "OFF",
+            "状态": "悬浮态"
+          }
+        }
+      ],
+      "axes": {
+        "大小": [
+          "40px",
+          "60px"
+        ],
+        "样式": [
+          "播放",
+          "暂停"
+        ],
+        "浅色": [
+          "ON",
+          "OFF"
+        ],
+        "状态": [
+          "禁用态",
+          "默认态",
+          "悬浮态"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=29:1567",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "156:464",
+      "name": "基础标签",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "156:463",
+          "name": "颜色=灰,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "灰"
+          }
+        },
+        {
+          "id": "156:476",
+          "name": "颜色=灰,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "灰"
+          }
+        },
+        {
+          "id": "156:484",
+          "name": "颜色=灰,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "尺寸": "Large",
+            "颜色": "灰"
+          }
+        },
+        {
+          "id": "156:496",
+          "name": "颜色=红,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "红"
+          }
+        },
+        {
+          "id": "156:500",
+          "name": "颜色=红,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "红"
+          }
+        },
+        {
+          "id": "1013:13682",
+          "name": "颜色=红,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "尺寸": "Medium",
+            "颜色": "红"
+          }
+        },
+        {
+          "id": "156:504",
+          "name": "颜色=红,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "尺寸": "Large",
+            "颜色": "红"
+          }
+        },
+        {
+          "id": "156:508",
+          "name": "颜色=橙,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "橙"
+          }
+        },
+        {
+          "id": "156:512",
+          "name": "颜色=橙,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "橙"
+          }
+        },
+        {
+          "id": "1013:13690",
+          "name": "颜色=橙,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "尺寸": "Medium",
+            "颜色": "橙"
+          }
+        },
+        {
+          "id": "156:516",
+          "name": "颜色=橙,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "尺寸": "Large",
+            "颜色": "橙"
+          }
+        },
+        {
+          "id": "156:520",
+          "name": "颜色=绿,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "绿"
+          }
+        },
+        {
+          "id": "156:524",
+          "name": "颜色=绿,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "绿"
+          }
+        },
+        {
+          "id": "1013:13698",
+          "name": "颜色=绿,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "尺寸": "Medium",
+            "颜色": "绿"
+          }
+        },
+        {
+          "id": "156:528",
+          "name": "颜色=绿,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "尺寸": "Large",
+            "颜色": "绿"
+          }
+        },
+        {
+          "id": "156:532",
+          "name": "颜色=蓝,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "蓝"
+          }
+        },
+        {
+          "id": "156:545",
+          "name": "颜色=蓝,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "尺寸": "Large",
+            "颜色": "蓝"
+          }
+        },
+        {
+          "id": "156:549",
+          "name": "颜色=紫,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "紫"
+          }
+        },
+        {
+          "id": "156:553",
+          "name": "颜色=紫,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "紫"
+          }
+        },
+        {
+          "id": "1013:13714",
+          "name": "颜色=紫,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "尺寸": "Medium",
+            "颜色": "紫"
+          }
+        },
+        {
+          "id": "156:557",
+          "name": "颜色=紫,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "尺寸": "Large",
+            "颜色": "紫"
+          }
+        },
+        {
+          "id": "156:540",
+          "name": "颜色=蓝,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "蓝"
+          }
+        },
+        {
+          "id": "1013:13706",
+          "name": "颜色=蓝,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "尺寸": "Medium",
+            "颜色": "蓝"
+          }
+        },
+        {
+          "id": "1013:13674",
+          "name": "颜色=灰,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "尺寸": "Medium",
+            "颜色": "灰"
+          }
+        }
+      ],
+      "axes": {
+        "尺寸": [
+          "Small",
+          "Medium",
+          "Default",
+          "Large"
+        ],
+        "颜色": [
+          "灰",
+          "红",
+          "橙",
+          "绿",
+          "蓝",
+          "紫"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=156:464",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "156:567",
+      "name": "角标",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "156:566",
+          "name": "颜色=红,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 48,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "红"
+          }
+        },
+        {
+          "id": "156:571",
+          "name": "颜色=红,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "红"
+          }
+        },
+        {
+          "id": "156:573",
+          "name": "颜色=橙,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 48,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "橙"
+          }
+        },
+        {
+          "id": "156:575",
+          "name": "颜色=橙,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "橙"
+          }
+        },
+        {
+          "id": "156:577",
+          "name": "颜色=绿,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 48,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "绿"
+          }
+        },
+        {
+          "id": "156:579",
+          "name": "颜色=绿,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "绿"
+          }
+        },
+        {
+          "id": "156:581",
+          "name": "颜色=蓝,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 48,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "蓝"
+          }
+        },
+        {
+          "id": "156:585",
+          "name": "颜色=蓝,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "蓝"
+          }
+        },
+        {
+          "id": "156:587",
+          "name": "颜色=紫,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 48,
+          "height": 18,
+          "properties": {
+            "尺寸": "Small",
+            "颜色": "紫"
+          }
+        },
+        {
+          "id": "156:589",
+          "name": "颜色=紫,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 24,
+          "properties": {
+            "尺寸": "Default",
+            "颜色": "紫"
+          }
+        }
+      ],
+      "axes": {
+        "尺寸": [
+          "Small",
+          "Default"
+        ],
+        "颜色": [
+          "红",
+          "橙",
+          "绿",
+          "蓝",
+          "紫"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=156:567",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "156:595",
+      "name": "其他标签",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "156:594",
+          "name": "类型=金色标签",
+          "type": "COMPONENT",
+          "width": 56,
+          "height": 18,
+          "properties": {
+            "类型": "金色标签"
+          }
+        },
+        {
+          "id": "156:597",
+          "name": "类型=英文标签",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 14,
+          "properties": {
+            "类型": "英文标签"
+          }
+        }
+      ],
+      "axes": {
+        "类型": [
+          "金色标签",
+          "英文标签"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=156:595",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "200:1538",
+      "name": "标签组",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "200:1537",
+          "name": "个数=3,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 104,
+          "height": 18,
+          "properties": {
+            "个数": "3",
+            "尺寸": "Small"
+          }
+        },
+        {
+          "id": "200:1568",
+          "name": "个数=3,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 140,
+          "height": 24,
+          "properties": {
+            "个数": "3",
+            "尺寸": "Default"
+          }
+        },
+        {
+          "id": "1013:13740",
+          "name": "个数=3,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 128,
+          "height": 22,
+          "properties": {
+            "个数": "3",
+            "尺寸": "Medium"
+          }
+        },
+        {
+          "id": "200:1581",
+          "name": "个数=3,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 164,
+          "height": 32,
+          "properties": {
+            "个数": "3",
+            "尺寸": "Large"
+          }
+        },
+        {
+          "id": "200:1631",
+          "name": "个数=2,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 68,
+          "height": 18,
+          "properties": {
+            "个数": "2",
+            "尺寸": "Small"
+          }
+        },
+        {
+          "id": "200:1640",
+          "name": "个数=1,尺寸=Small",
+          "type": "COMPONENT",
+          "width": 32,
+          "height": 18,
+          "properties": {
+            "个数": "1",
+            "尺寸": "Small"
+          }
+        },
+        {
+          "id": "200:1653",
+          "name": "个数=2,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 92,
+          "height": 24,
+          "properties": {
+            "个数": "2",
+            "尺寸": "Default"
+          }
+        },
+        {
+          "id": "200:1662",
+          "name": "个数=1,尺寸=Default",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "个数": "1",
+            "尺寸": "Default"
+          }
+        },
+        {
+          "id": "200:1675",
+          "name": "个数=2,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 108,
+          "height": 32,
+          "properties": {
+            "个数": "2",
+            "尺寸": "Large"
+          }
+        },
+        {
+          "id": "200:1684",
+          "name": "个数=1,尺寸=Large",
+          "type": "COMPONENT",
+          "width": 52,
+          "height": 32,
+          "properties": {
+            "个数": "1",
+            "尺寸": "Large"
+          }
+        },
+        {
+          "id": "1013:13762",
+          "name": "个数=2,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 84,
+          "height": 22,
+          "properties": {
+            "个数": "2",
+            "尺寸": "Medium"
+          }
+        },
+        {
+          "id": "1013:13771",
+          "name": "个数=1,尺寸=Medium",
+          "type": "COMPONENT",
+          "width": 40,
+          "height": 22,
+          "properties": {
+            "个数": "1",
+            "尺寸": "Medium"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "3",
+          "2",
+          "1"
+        ],
+        "尺寸": [
+          "Small",
+          "Medium",
+          "Default",
+          "Large"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=200:1538",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "268:10355",
+      "name": "icon",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "268:10360",
+          "name": "选中=on",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "选中": "on"
+          }
+        },
+        {
+          "id": "268:10363",
+          "name": "选中=off",
+          "type": "COMPONENT",
+          "width": 16,
+          "height": 16,
+          "properties": {
+            "选中": "off"
+          }
+        }
+      ],
+      "axes": {
+        "选中": [
+          "on",
+          "off"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=268:10355",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

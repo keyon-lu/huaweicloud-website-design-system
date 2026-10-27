@@ -1,0 +1,112 @@
+{
+  "kind": "storybook-real-browser-execution",
+  "snapshotId": "3f82fb00fc58ed88173865c1435c0ee4962f8baebb5d0cc35a493cf1ded7a809",
+  "scope": "Existing render/play only; not human acceptance",
+  "rows": [
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 1",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "5e57cb6f4fd598"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-26T03:59:48.267Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\""
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 2",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "edcfbd944b2d28"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-26T03:59:54.739Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\""
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 3",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "e88ea67d5822d"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-26T04:00:00.783Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\""
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 4",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "b6c5f8e0f00e38"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-26T04:00:06.835Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\""
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 5",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "60f918e128f23"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-26T04:00:12.904Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "active": "开发资源",
+  "audit": {
+    "at": "2026-10-16T07:39:14.197Z",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.10.3"
+    },
+    "incomplete": [],
+    "label": "breadcrumb-default",
+    "passedRules": [
+      "aria-allowed-attr",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "color-contrast",
+      "link-name",
+      "listitem",
+      "target-size"
+    ],
+    "scope": "rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate",
+    "violations": []
+  },
+  "current": "当前资料",
+  "outline": "solid"
+}

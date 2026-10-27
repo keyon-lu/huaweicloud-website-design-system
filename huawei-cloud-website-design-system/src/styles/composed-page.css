@@ -1,0 +1,10 @@
+/* Scoped composition styles; preserve accepted product/developer styling. */
+.hc-page-composed .hc-composed-text{max-width:var(--hc-t-hc-page-composed-hc-composed-text-max-width-700a1cac);margin:0 auto;overflow-wrap:anywhere}
+.hc-page-composed .hc-composed-text>p{margin:0 0 var(--hc-t-hc-page-composed-hc-composed-text-p-margin-41cbfcb5);white-space:pre-wrap}
+.hc-page-composed .hc-composed-text>p:last-child{margin-bottom:0}
+.hc-page-composed .hc-composed-text>img{display:block;max-width:var(--hc-t-hc-page-composed-hc-composed-text-img-max-width-143bee4c);height:auto;margin:var(--hc-t-hc-page-composed-hc-composed-text-img-margin-d3bf99da) auto}
+.hc-page-composed .hc-composed-links{display:flex;flex-wrap:wrap;gap:var(--hc-t-hc-page-composed-hc-composed-links-gap-e7796a29) var(--hc-t-hc-page-composed-hc-composed-links-gap-3b16c7ed);margin-top:var(--hc-t-hc-page-composed-hc-composed-links-margin-top-23f090d8)}
+.hc-page-composed .hc-card h3,.hc-page-composed .hc-card p{overflow-wrap:anywhere}
+.hc-page-composed .hc-hero h1{overflow-wrap:anywhere}
+
+.hc-page-composed .hc-cards{grid-template-columns:repeat(auto-fit,minmax(min(var(--hc-t-hc-page-composed-hc-cards-grid-template-columns-caee011a),var(--hc-t-hc-page-composed-hc-cards-grid-template-columns-f516888d)),1fr))}

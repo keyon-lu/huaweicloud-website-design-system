@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "components": 7,
+  "dedicatedFamilies": 5,
+  "rows": [
+    {
+      "id": "source-button",
+      "entry": "assets/search-workspace/src/components/source-button/index.ts",
+      "exports": [
+        "SourceButton"
+      ],
+      "dependencies": [],
+      "status": "passed"
+    },
+    {
+      "id": "search-input",
+      "entry": "assets/search-workspace/src/components/search-input/index.ts",
+      "exports": [
+        "SearchInput",
+        "SourceInputField",
+        "SourceTextarea",
+        "SourceAutocomplete"
+      ],
+      "dependencies": [],
+      "status": "passed"
+    },
+    {
+      "id": "source-modal",
+      "entry": "assets/search-workspace/src/components/source-modal/index.ts",
+      "exports": [
+        "SourceModal"
+      ],
+      "dependencies": [
+        "source-button"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "source-link",
+      "entry": "assets/search-workspace/src/components/source-link/index.ts",
+      "exports": [
+        "SourceLink"
+      ],
+      "dependencies": [],
+      "status": "passed"
+    },
+    {
+      "id": "source-breadcrumb",
+      "entry": "assets/search-workspace/src/components/source-breadcrumb/index.ts",
+      "exports": [
+        "SourceBreadcrumb"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "portal-asset",
+      "entry": "assets/search-workspace/src/components/portal-asset/index.ts",
+      "exports": [
+        "PortalAsset"
+      ],
+      "dependencies": [],
+      "status": "passed"
+    },
+    {
+      "id": "process-steps",
+      "entry": "assets/search-workspace/src/components/process-steps/index.ts",
+      "exports": [
+        "PortalProcessSteps"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "status": "passed"
+    }
+  ],
+  "scope": "Public entry/owned implementation/dependency structure only; no visual or manual accessibility approval"
+}

@@ -1,0 +1,12 @@
+{
+  "action": "native browser pointer click from default enabled link; hover measured after click release",
+  "before": {
+    "decoration": "none",
+    "weight": "400"
+  },
+  "after": {
+    "decoration": "underline",
+    "weight": "700"
+  },
+  "navigation": "http://127.0.0.1:6010/iframe.html?id=sourcefamilies-link--matrix&viewMode=story#matrix-target"
+}

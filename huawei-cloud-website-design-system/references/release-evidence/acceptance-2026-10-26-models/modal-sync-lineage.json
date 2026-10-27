@@ -1,0 +1,8 @@
+{
+  "kind": "story-paint-synchronization",
+  "date": "2026-10-26",
+  "sourceArchive": "references/release-evidence/acceptance-2026-10-26-models/modal-story-before.tsx",
+  "currentCorrection": "references/release-evidence/modal-test-sync-2026-10-26.json",
+  "scope": "Only the NestedAutocomplete story gains two paint waits and an expanded-state assertion before its existing visible-option assertions. Product implementations and styles are unchanged. Original V25 whole run1 failure and isolated4/5 failures are preserved; current V26 isolated5/5 pass plus native pointer/keyboard/empty-state evidence are attached. No hidden query, retry masking, timeout increase or whole-family approval. Current full engineering run follows.",
+  "formalRelease": false
+}

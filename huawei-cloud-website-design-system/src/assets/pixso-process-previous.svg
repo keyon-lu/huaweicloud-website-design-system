@@ -1,0 +1,9 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.000000" height="32.000000" fill="none" customFrame="#000000">
+	<g id="编组 10">
+		<circle id="圆" cx="16" cy="16" r="16" fill="rgb(255,255,255)" fill-opacity="0.298039228" transform="matrix(-1,0,0,1,32,0)" />
+		<g id="展开icon-5959">
+			<path id="Fill 1" d="M0 16L16 16L16 0L0 0L0 16Z" fill="rgb(255,255,255)" fill-opacity="0" fill-rule="evenodd" transform="matrix(0,1,-1,0,24,8)" />
+			<path id="Stroke 2" d="M9.529 0L4.837 4.764L0 0" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-opacity="0.701960802" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.100000" transform="matrix(0,1,-1,0,18.3818,11.2354)" />
+		</g>
+	</g>
+</svg>

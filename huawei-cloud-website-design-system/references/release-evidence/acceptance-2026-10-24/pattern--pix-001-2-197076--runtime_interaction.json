@@ -1,0 +1,88 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "pattern/pix-001-2-197076/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "sourceId": "pix-001-2-197076",
+    "floorId": "scene-carousel-2026",
+    "actualPassedCases": [
+      {
+        "name": "scene-carousel/native-Enter-expands",
+        "date": "2026-10-25T04:05:53.840Z",
+        "scope": "Native Enter opens configured scene overlay and exposes action without mouse"
+      },
+      {
+        "name": "scene-carousel/native-Escape-collapses",
+        "date": "2026-10-25T04:06:03.083Z",
+        "scope": "Native Escape restores card while retaining trigger focus"
+      },
+      {
+        "name": "scene-carousel/fixed-native-last-boundary",
+        "date": "2026-10-25T04:22:03.228Z",
+        "scope": "V20 actual scroll edge disables next, including fractional scrollLeft; V19 confirmed defect retained"
+      },
+      {
+        "name": "scene-carousel/resize954-keeps-real-edge",
+        "date": "2026-10-25T04:22:38.085Z",
+        "scope": "V20 viewport resize clamps track and recomputes real end boundary"
+      },
+      {
+        "name": "scene-carousel/resize1920-keeps-real-edge",
+        "date": "2026-10-25T04:23:05.645Z",
+        "scope": "Browser scroll-snap retains last visible position on expansion; observer correctly retains end disabled state"
+      },
+      {
+        "name": "scene-carousel/fixed-native-start-boundary",
+        "date": "2026-10-25T04:23:58.721Z",
+        "scope": "V20 native Space reverses to true start, disables previous and re-enables next"
+      }
+    ],
+    "historicalObservations": [
+      {
+        "name": "scene-carousel/native-track-last-boundary",
+        "classification": "confirmed-defect-fixed",
+        "disposition": "V19 actual end389.5/max389 left next enabled. V20 uses actual scroll bounds and ResizeObserver; fixed-native-last-boundary verifies disabled next. Original failure retained."
+      }
+    ],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-interactions-v20.json",
+    "wholeSourceApproval": false,
+    "scope": "Only listed native keys, pointer actions, timer/media and configured local fixture branches. No blanket all-state, source-visual, screen-reader, physical-touch, real-browser-zoom, production service or owner approval."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/pattern--pix-001-2-197076--runtime_interaction.json",
+    "recordSha256": "551b142605907c1b64d477544f278a57f1e8e9125d2efdf95bc9b9ef3c083bb0",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/pattern--pix-001-2-197076--runtime_interaction.json",
+    "sha256": "4213318a74f879e5eb25c3a67c6e7337ff0db18a9a15723f752cf4e97521dbc0"
+  }
+}

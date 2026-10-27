@@ -1,0 +1,16 @@
+import React from 'react';
+import {PortalAsset} from '@/components/portal-asset';
+import {SourceProduct2026Actions} from '@/components/product-2026-commands';
+import type {Product2026Action} from '@/components/product-2026-commands';
+import type {ProductV1QuoteSegment} from '@/components/product-v1-quote';
+import './product-v1-publications.css';
+export type ProductV1Publication={id:string;title:string;asset:string;alt:string;paragraphs:readonly (readonly ProductV1QuoteSegment[])[];actions?:readonly Product2026Action[]};
+export type ProductV1PublicationsFloor={kind:'publication-cards-v1';id:string;title:string;subtitle?:string;background:'white'|'grey';cardBackground:'white'|'grey';columns:2|3;copyAlign:'left'|'center';mobileCopyAlign:'left'|'center';items:readonly ProductV1Publication[];mobileItems?:readonly ProductV1Publication[];labels:{actions:string;slides:string;slide:string}};
+export function SourceProductV1Publications({data}:{data:ProductV1PublicationsFloor}){
+ const [phone,setPhone]=React.useState(()=>typeof matchMedia!=='undefined'&&matchMedia('(max-width:768px)').matches),[selected,setSelected]=React.useState(0),track=React.useRef<HTMLDivElement>(null);React.useEffect(()=>{const q=matchMedia('(max-width:768px)'),update=()=>{setPhone(q.matches);setSelected(0)};q.addEventListener('change',update);return()=>q.removeEventListener('change',update)},[]);const items=phone&&data.mobileItems?data.mobileItems:data.items;
+ React.useEffect(()=>{const el=track.current;if(!el)return;const read=()=>{if(!phone)return;let index=0,near=Infinity;Array.from(el.children).forEach((e,i)=>{const d=Math.abs((e as HTMLElement).offsetLeft-el.offsetLeft-el.scrollLeft);if(d<near){near=d;index=i}});setSelected(index)};el.addEventListener('scroll',read,{passive:true});return()=>el.removeEventListener('scroll',read)},[phone,items]);
+ return <section id={data.id} className={'hc-pv1-pub hc-pv1-pub-'+data.background+' hc-pv1-pub-cols-'+data.columns+' hc-pv1-pub-align-'+data.copyAlign+' hc-pv1-pub-mobile-'+data.mobileCopyAlign} data-source-pattern="pix-002-26-5684"><div className="por-container"><header><h2>{data.title}</h2>{data.subtitle&&<p>{data.subtitle}</p>}</header>
+ <div ref={track} className="hc-pv1-pub-grid">{items.map(i=><article key={i.id} className={'hc-pv1-pub-card hc-pv1-pub-card-'+data.cardBackground}><PortalAsset className="hc-pv1-pub-image" assetId={i.asset} alt={i.alt}/><div className="hc-pv1-pub-copy"><h3>{i.title}</h3><div className="hc-pv1-pub-body">{i.paragraphs.map((p,index)=><p key={index}>{p.map((s,j)=>{const value=s.strong?<strong>{s.text}</strong>:s.text;return s.href?<a key={j} href={s.href}>{value}</a>:<React.Fragment key={j}>{value}</React.Fragment>})}</p>)}</div>{i.actions&&<SourceProduct2026Actions placement="card" label={data.labels.actions} items={i.actions}/>}</div></article>)}</div>
+ {phone&&items.length>1&&<div className="hc-pv1-pub-dots" role="group" aria-label={data.labels.slides}>{items.map((item,i)=><button type="button" key={item.id} aria-label={data.labels.slide+' '+(i+1)} aria-pressed={selected===i} onClick={()=>{const el=track.current,n=el?.children[i] as HTMLElement|undefined;if(el&&n)el.scrollTo({left:n.offsetLeft-el.offsetLeft,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'})}}><span/></button>)}</div>}
+ </div></section>
+}

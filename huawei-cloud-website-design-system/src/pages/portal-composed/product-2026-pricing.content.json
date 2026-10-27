@@ -1,0 +1,157 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "2026定价组件验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "pricing-table-2026",
+      "id": "pricing-2026",
+      "title": "灵活多样的计费方式",
+      "description": "以下为组件测试数据，不代表实际价格",
+      "background": "grey",
+      "tables": [
+        {
+          "id": "usage",
+          "label": "按量计费（测试示例）",
+          "columns": [
+            {
+              "id": "model",
+              "title": "模型名称"
+            },
+            {
+              "id": "input",
+              "title": "输入价格（测试单位）"
+            },
+            {
+              "id": "output",
+              "title": "输出价格（测试单位）"
+            }
+          ],
+          "rows": [
+            {
+              "id": "model-0",
+              "kind": "data",
+              "cells": [
+                {
+                  "title": "测试模型 1"
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.001（仅测试数据）"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.0065（仅测试数据）"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "model-1",
+              "kind": "data",
+              "cells": [
+                {
+                  "title": "测试模型 2"
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.001（仅测试数据）"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.0065（仅测试数据）"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "model-2",
+              "kind": "data",
+              "cells": [
+                {
+                  "title": "测试模型 3"
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.001（仅测试数据）"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.0065（仅测试数据）"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "model-3",
+              "kind": "data",
+              "cells": [
+                {
+                  "title": "测试模型 4"
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.001（仅测试数据）"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    [
+                      {
+                        "text": "0.0065（仅测试数据）"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "background": "white"
+        }
+      ],
+      "mobileLayout": "rows",
+      "labels": {
+        "tabs": "计费方式",
+        "previousTab": "前一计费方式",
+        "nextTab": "后一计费方式",
+        "tableScroll": "计费表格",
+        "actions": "计费入口"
+      }
+    }
+  ]
+}

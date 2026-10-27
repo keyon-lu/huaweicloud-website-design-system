@@ -1,0 +1,132 @@
+{
+  "observedAt": "2026-10-26T04:33:10.182Z",
+  "checks": [
+    {
+      "name": "verify-approved-presentation",
+      "exitCode": 0
+    },
+    {
+      "name": "test-visual-foundations",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-source-png-assets",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-token-consumption",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-copy-resources",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-required-resources",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-contract-docs",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-component-behavior",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-responsive-source",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-composed-scenes",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-p2-model",
+      "exitCode": 0
+    },
+    {
+      "name": "portal-verify-package",
+      "exitCode": 0
+    },
+    {
+      "name": "test-required-resources",
+      "exitCode": 0
+    },
+    {
+      "name": "test-expanded-release",
+      "exitCode": 0
+    },
+    {
+      "name": "test-pattern-conversions",
+      "exitCode": 0
+    },
+    {
+      "name": "test-process-flow",
+      "exitCode": 0
+    },
+    {
+      "name": "test-scene-media",
+      "exitCode": 0
+    },
+    {
+      "name": "test-content-floors",
+      "exitCode": 0
+    },
+    {
+      "name": "test-product-2026",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-search-template",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-website-palette",
+      "exitCode": 0
+    },
+    {
+      "name": "test-palette-source",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-process-steps",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-family-public-entries",
+      "exitCode": 0
+    },
+    {
+      "name": "test-foundation-facades",
+      "exitCode": 0
+    },
+    {
+      "name": "test-foundation-batch",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-pattern-execution-queue",
+      "exitCode": 0
+    },
+    {
+      "name": "test-pixso-generation",
+      "exitCode": 0
+    },
+    {
+      "name": "test-pixso-import",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-script-syntax",
+      "exitCode": 0
+    },
+    {
+      "name": "template-type-build-api",
+      "exitCode": 0
+    }
+  ],
+  "ok": true,
+  "formalRelease": false,
+  "scope": "Source/model/template engineering checks; browser play/geometry and Pixso visual separately recorded"
+}

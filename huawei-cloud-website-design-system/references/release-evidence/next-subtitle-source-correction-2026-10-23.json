@@ -1,0 +1,45 @@
+{
+  "kind": "exact-source-subtitle-font-correction",
+  "date": "2026-10-23",
+  "sourceUrl": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:65947",
+  "sourceCells": [
+    "2:65956",
+    "2:65957"
+  ],
+  "scope": "Next-step card subtitle font-size at1536 and1280 only; source-based implementation correction, no new owner visual approval. Original line-height unchanged.",
+  "changes": [
+    {
+      "path": "src/styles/product-2026-next.css",
+      "beforeSha256": "65b5f545730762414ea85c3f1a7c073a8868ac0c39e93f0c8049b9ec3393ef26",
+      "afterSha256": "54f71e86fd6eb56c6323192443c8d5aa8c90c48460c61c68d8007ab7a1a6883e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.css",
+      "beforeSha256": "65b5f545730762414ea85c3f1a7c073a8868ac0c39e93f0c8049b9ec3393ef26",
+      "afterSha256": "54f71e86fd6eb56c6323192443c8d5aa8c90c48460c61c68d8007ab7a1a6883e"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "b851856233c6501bd5ec629676448abd3baccec39c094b8d3c91a27ba2cdf9e5",
+      "afterSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "b851856233c6501bd5ec629676448abd3baccec39c094b8d3c91a27ba2cdf9e5",
+      "afterSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "51bd1298df486068008f008541daeb221d2ae1d2925f9a33c4d23bc1d4b70506",
+      "afterSha256": "c5edcf5e5cc55a86e2058b31c6de74d23cfc1ba0371cfe9a183aecc516ec9d7f"
+    },
+    {
+      "path": "references/product-2026-next.md",
+      "beforeSha256": "163a29273ca3f65a7c1c2758bfec1ff6ca228629eeb08d972e3d6d37dec5fef8",
+      "afterSha256": "e007029a5dbf25c38a5f0ba92de831e0fdc95d5f8eed128bcfc38e5a868bb1cd"
+    }
+  ],
+  "unchangedImplementationTsx": true,
+  "newOwnerApprovals": 0,
+  "browserEvidence": "references/release-evidence/browser-execution-2026-10-23/next-source-comparison-fixed-v12.json"
+}

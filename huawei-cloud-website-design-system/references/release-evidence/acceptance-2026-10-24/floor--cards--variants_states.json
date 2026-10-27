@@ -1,0 +1,61 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "floor/cards/variants_states",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "reviewType": "adopted-public-branch-contract-review",
+    "subject": "cards",
+    "contract": "references/component-contract.md",
+    "contractSha256": "17848914ded6eeb2db209c443d5b06f76d685c283661099448ba17f04f350533",
+    "model": "references/first-release-floor-family-contracts.json",
+    "modelSha256": "dd924fc0ff36dc4b01ed58a0997d8d8696d11299bf4443ee292574e71c20e56f",
+    "namedStates": [
+      "ready",
+      "native-link",
+      "hover",
+      "focus-visible"
+    ],
+    "transitionRules": "Existing product/skills/practice layout roles and optional configured native link; content remains editable.",
+    "unsupportedOrHostOwned": "Compatibility PortalCards is not a replacement for a calibrated source floor; no card-selected/async state.",
+    "scope": "Source contract/specification and finite supported-state definition reviewed against the current public entry and source contract. This is not runtime execution of every state, new source visual approval, responsive-long-content acceptance or manual accessibility certification.",
+    "newOwnerApprovals": 0,
+    "newRuntimePasses": 0
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/floor--cards--variants_states.json",
+    "recordSha256": "f79a6a4be09b8962099995709a1ed64ef04356d83a3b664fab0f56c8642d748f",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/floor--cards--variants_states.json",
+    "sha256": "5678d490097a28053750acb02c4727aa55709ad28446dab9879a6113ec6aa265"
+  }
+}

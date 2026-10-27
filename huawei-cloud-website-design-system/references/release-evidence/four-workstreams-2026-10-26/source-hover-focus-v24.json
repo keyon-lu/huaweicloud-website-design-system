@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "snapshotId": "779905d61eeaa7d01032eb44f9a1505e9b063d0df485b349ef9cee4f6d065093",
+  "end": {
+    "focus": "region",
+    "left": 40,
+    "next": true
+  },
+  "beforePhone": {
+    "focus": "前一组卡片"
+  },
+  "phone": {
+    "controls": 0,
+    "focus": "region",
+    "rootOverflow": false
+  },
+  "passed": true
+}

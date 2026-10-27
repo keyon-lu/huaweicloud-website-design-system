@@ -1,0 +1,41 @@
+{
+  "kind": "source-release-check",
+  "check": "countdown/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "countdown",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-countdown--fixed",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+        "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146"
+      },
+      {
+        "id": "sourcefamilies-countdown--day-to-hours",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+        "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146"
+      },
+      {
+        "id": "sourcefamilies-countdown--completion-once",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+        "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146"
+      },
+      {
+        "id": "sourcefamilies-countdown--vertical-black",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+        "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

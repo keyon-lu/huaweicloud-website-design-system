@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "name": "hover/pointer-expansion",
+      "before": [
+        {
+          "expanded": false,
+          "h": 580,
+          "width": 385,
+          "x": 160,
+          "y": 166
+        },
+        {
+          "expanded": false,
+          "h": 580,
+          "width": 385,
+          "x": 565,
+          "y": 166
+        },
+        {
+          "expanded": false,
+          "h": 580,
+          "width": 385,
+          "x": 970,
+          "y": 166
+        },
+        {
+          "expanded": false,
+          "h": 580,
+          "width": 385,
+          "x": 1375,
+          "y": 166
+        }
+      ],
+      "after": [
+        {
+          "aria": "true",
+          "expanded": true,
+          "width": 604
+        },
+        {
+          "aria": "false",
+          "expanded": false,
+          "width": 312
+        },
+        {
+          "aria": "false",
+          "expanded": false,
+          "width": 312
+        },
+        {
+          "aria": "false",
+          "expanded": false,
+          "width": 312
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "hover/Escape-retains-trigger",
+      "passed": true
+    },
+    {
+      "name": "faq/desktop-toggle-category-retention",
+      "passed": true
+    },
+    {
+      "name": "faq/599-to600-independent-state",
+      "passed": true,
+      "actual": {
+        "expanded": [
+          "false",
+          "true"
+        ],
+        "orientation": "vertical"
+      }
+    },
+    {
+      "name": "faq/phone-state-retained-after-desktop",
+      "passed": true
+    }
+  ],
+  "scope": "Named native pointer/key operations and FAQ viewport-state separation; not all modeled states or real device approval"
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-17",
+  "ownerWorkflow": "defer questions until consolidated build/test review",
+  "issues": [
+    {
+      "id": "ONLINE-06-online",
+      "kind": "online-read",
+      "detail": "Pixso MCP returned Internal server error in directory and exact-node calls; imported local source snapshot to continue",
+      "blockingBranch": "online revision/visual confirmation only",
+      "resolution": "defer for consolidated owner review; do not pause other imports"
+    },
+    {
+      "id": "SRC-VISUAL-CLIP-001",
+      "kind": "source-visual",
+      "sourceId": "PIX-002",
+      "nodeId": "26:3306",
+      "detail": "Original scene/case screenshot has very long scroll content and bottom actions intersecting crop edge; source layout note must be reconciled before certifying long-content variant",
+      "blockingBranch": "scene-media long-content visual certification",
+      "resolution": "Keep generated actions outside scroll region; do not edit source design or claim pixel pass yet"
+    },
+    {
+      "id": "SCENE-TITLE-001",
+      "sourceId": "PIX-002",
+      "kind": "source-conflict",
+      "nodes": [
+        "26:3354",
+        "26:3579"
+      ],
+      "detail": "1600–1281px example uses 36px heading while adaptation table specifies32px",
+      "blockingBranch": "scene-media medium heading visual acceptance",
+      "resolution": "preserve both; no unapproved default; ask at consolidated review"
+    },
+    {
+      "id": "SCENE-MOBILE-001",
+      "sourceId": "PIX-002",
+      "kind": "source-conflict",
+      "nodes": [
+        "26:3469",
+        "26:3604"
+      ],
+      "detail": "Mobile note says unrestricted image height; adaptation table contains303/160 in image maximum-height row",
+      "blockingBranch": "scene-media mobile image sizing visual acceptance",
+      "resolution": "need original mobile frame geometry before resolving interpretation; continue other components"
+    },
+    {
+      "id": "LABEL-GRAY-001",
+      "kind": "source-version-difference",
+      "sourceId": "PIX-015",
+      "nodes": [
+        "1013:13674",
+        "1013:13673"
+      ],
+      "baseline": "PortalUI3.0.17 --por-label-font-color resolves to #595959; current SourceLabel gray Medium observed rgb89,89,89",
+      "design": "Online gray label text uses #191919; background gray opacity.1",
+      "blockingBranch": "Pixso gray-label visual adoption; not baseline label generation",
+      "resolution": "Preserve approved source-baseline palette for current API; no silent global override. Consolidate source/profile choice after full construction."
+    },
+    {
+      "id": "PROCESS-CTA-001",
+      "kind": "source-conflict",
+      "sourceId": "PIX-002",
+      "nodes": [
+        "26:12415",
+        "26:12094",
+        "26:12159",
+        "26:11904"
+      ],
+      "detail": "Bottom CTA normative default height48px;1920 examples40px and mobile40px. Need scenario-specific owner decision before source visual acceptance.",
+      "blockingBranch": "Pixso process-flow bottom CTA exact source adoption",
+      "resolution": "Preserve textual rule and measured examples; continue independent components and present once with all other issues after construction."
+    },
+    {
+      "id": "ANCHOR-GAP-001",
+      "kind": "source-conflict",
+      "sourceId": "PortalUI3.0.17",
+      "detail": "anchor.md states64px between anchors; source CSS por-anchor-slide margin-right56px. Do not choose silently.",
+      "blockingBranch": "Unified anchor gap source adoption; standalone baseline supports explicit css-56/docs-64 profiles",
+      "resolution": "Continue with caller-selected source profile and collect for consolidated owner decision"
+    },
+    {
+      "id": "ICON-TEXT-SIZE-001",
+      "sourceId": "PIX-002",
+      "kind": "source-conflict",
+      "nodes": [
+        "16:37064",
+        "16:37295"
+      ],
+      "detail": "Desktop source rule says62x62; original1920 example icon is56x56",
+      "blockingBranch": "icon-text-cards wide icon visual acceptance",
+      "resolution": "Explicit iconProfile rule-62/example-56 required; defer owner decision to consolidated review"
+    },
+    {
+      "id": "P26-SCENARIO-TITLE",
+      "sourceId": "PIX-001",
+      "kind": "source-conflict",
+      "nodes": [
+        "2:60336",
+        "2:60039"
+      ],
+      "detail": "Normative rule says2–3cards24px and4+20px; original four-card example title is28px/48px. Current prototype follows normative20px, not silently28px.",
+      "blockingBranch": "2026 scenario example-perfect visual acceptance",
+      "resolution": "defer consolidated owner decision; continue normative branch"
+    },
+    {
+      "id": "P26-FOUNDATION-TITLE",
+      "sourceId": "PIX-001",
+      "kind": "source-conflict",
+      "nodes": [
+        "2:308"
+      ],
+      "detail": "Text says28px but actual text style24px with42px line height. Preserve source; do not generalize this inconsistent combination.",
+      "blockingBranch": "foundation1024 example exact typography",
+      "resolution": "defer consolidated owner decision; clear component-specific typography continues"
+    },
+    {
+      "id": "P26-COMMAND-CONTRAST",
+      "sourceId": "PIX-001",
+      "kind": "accessibility-profile",
+      "nodes": [
+        "2:196213"
+      ],
+      "detail": "Source command syntaxgreen#029931/blue#1476FF may fail small-text contrast. Explicit source/accessible profiles preserve original versus adjusted syntax; button colors remain neutral.",
+      "blockingBranch": "source-color versus accessibility profile final acceptance",
+      "resolution": "current fixture explicitly accessible; source values remain available; owner review deferred"
+    },
+    {
+      "id": "P26-FONT-ENVIRONMENT",
+      "sourceId": "PIX-001",
+      "kind": "environment",
+      "nodes": [
+        "2:65485",
+        "2:64528"
+      ],
+      "detail": "Source referencesPingFang SC/HarmonyOS fonts. No redistributable font asset is provided by D2C/fonts or runtime. System fallback is declared, so pixel-identical font acceptance cannot be claimed.",
+      "blockingBranch": "exact source font visual certification",
+      "resolution": "keep functional/geometry checks moving; consolidate target-font requirement for owner review"
+    },
+    {
+      "id": "P26-NAV-MOBILE-CTA",
+      "sourceId": "PIX-001",
+      "kind": "source-conflict",
+      "nodes": [
+        "2:53444",
+        "2:53455"
+      ],
+      "detail": "H5 actions hidden versus later note saying mobile button retained. Caller explicitly selects show/hide, no default decision.",
+      "blockingBranch": "final mobile CTA profile selection",
+      "resolution": "defer owner consolidated decision; implement both explicit branches"
+    },
+    {
+      "id": "P26-PRICING-GRID",
+      "sourceId": "PIX-001",
+      "nodeId": "2:158484",
+      "kind": "source-conflict",
+      "detail": "Source phone margin16 conflicts with owner confirmed global14/24 grid; tablet thresholds also differ",
+      "resolution": "Use owner global grid; retain original source note; consolidated review"
+    },
+    {
+      "id": "P26-HOVER-CONTROL",
+      "sourceId": "PIX-001",
+      "nodeId": "2:73428",
+      "kind": "source-conflict",
+      "detail": "Source >=4 arrow instruction versus <=4 fixed in-container cards; currently controls for >4 actual overflow",
+      "resolution": "Full four-card control behavior pending consolidated review"
+    },
+    {
+      "id": "P26-FOLDED-PROGRESS",
+      "sourceId": "PIX-001",
+      "nodeId": "2:155968",
+      "kind": "missing-value",
+      "detail": "Source progress gradient does not specify exact color stops; neutral engineering ramp retained",
+      "resolution": "Do not certify gradient visual until owner review"
+    },
+    {
+      "id": "P26-SPLIT-VIEWER",
+      "sourceId": "PIX-001",
+      "nodeId": "2:55733",
+      "kind": "missing-value",
+      "detail": "Image zoom backdrop blur stated without exact radius;8px is engineering candidate",
+      "resolution": "Consolidated review"
+    },
+    {
+      "id": "P26-ASSISTANT-SEND",
+      "sourceId": "PIX-001",
+      "nodeId": "2:157347",
+      "kind": "owner-override",
+      "detail": "Source send button background1476FF conflicts with owner avoid-in-buttons rule; hidden original exported empty",
+      "resolution": "Use neutral black/white official arrow candidate; confirm final icon at consolidated review"
+    },
+    {
+      "id": "P26-MODEL-BACKGROUND",
+      "sourceId": "PIX-001",
+      "nodeId": "2:202444",
+      "kind": "source-conflict",
+      "detail": "Same source note assigns both gray and white cards to gray floor; equal2/3 June update and original stacked>=5 are different versions",
+      "resolution": "Keep explicit cardBackground and layout profiles; source version applicability for consolidated owner review"
+    }
+  ]
+}

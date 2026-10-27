@@ -1,0 +1,8 @@
+{
+  "kind": "source-scoped-navigation-typography-correction",
+  "date": "2026-10-26",
+  "source": "references/release-evidence/acceptance-2026-10-26-models/navigation-source-excerpts.json",
+  "changeProof": "references/release-evidence/navigation-source-repair-2026-10-26.json",
+  "scope": "Only2026 direct first-level nav label and More line-height22→18 according to eight exact original text rows. V1, submenu, title, actions and all TSX are unchanged. Old scoped checks retained, no whole-source/device approval. Full engineering and actual native branch comparison executed separately.",
+  "formalRelease": false
+}

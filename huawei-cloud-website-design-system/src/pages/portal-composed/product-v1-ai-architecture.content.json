@@ -1,0 +1,204 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "按列能力卡片来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "ai-architecture-columns-v1",
+      "id": "v1-ai-architecture",
+      "title": "AI能力服务专区",
+      "background": "grey",
+      "position": "top",
+      "columns": [
+        {
+          "id": "column-one",
+          "ratio": "one",
+          "items": [
+            {
+              "id": "card-one",
+              "label": "能力入口 card-one",
+              "title": "可编辑的能力标题",
+              "backgroundAsset": "product-v1-ai-architecture-background",
+              "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+              "tone": "ink",
+              "entries": [
+                {
+                  "label": "能力专区",
+                  "href": "#v1-ai-architecture"
+                },
+                {
+                  "label": "应用专区",
+                  "href": "#v1-ai-architecture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "column-two",
+          "ratio": "top-heavy",
+          "items": [
+            {
+              "id": "card-two",
+              "label": "能力入口 card-two",
+              "title": "可编辑的能力标题",
+              "backgroundAsset": "product-v1-ai-architecture-background",
+              "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+              "tone": "ink",
+              "entries": [
+                {
+                  "label": "能力专区",
+                  "href": "#v1-ai-architecture"
+                },
+                {
+                  "label": "应用专区",
+                  "href": "#v1-ai-architecture"
+                }
+              ]
+            },
+            {
+              "id": "card-three",
+              "label": "能力入口 card-three",
+              "title": "可编辑的能力标题",
+              "backgroundAsset": "product-v1-ai-architecture-background",
+              "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+              "tone": "ink",
+              "entries": [
+                {
+                  "label": "能力专区",
+                  "href": "#v1-ai-architecture"
+                },
+                {
+                  "label": "应用专区",
+                  "href": "#v1-ai-architecture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "column-three",
+          "ratio": "three",
+          "items": [
+            {
+              "id": "card-four",
+              "label": "能力入口 card-four",
+              "title": "可编辑的能力标题",
+              "backgroundAsset": "product-v1-ai-architecture-background",
+              "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+              "tone": "ink",
+              "entries": [
+                {
+                  "label": "能力专区",
+                  "href": "#v1-ai-architecture"
+                },
+                {
+                  "label": "应用专区",
+                  "href": "#v1-ai-architecture"
+                }
+              ]
+            },
+            {
+              "id": "card-five",
+              "label": "能力入口 card-five",
+              "title": "可编辑的能力标题",
+              "backgroundAsset": "product-v1-ai-architecture-background",
+              "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+              "tone": "ink",
+              "entries": [
+                {
+                  "label": "能力专区",
+                  "href": "#v1-ai-architecture"
+                },
+                {
+                  "label": "应用专区",
+                  "href": "#v1-ai-architecture"
+                }
+              ]
+            },
+            {
+              "id": "card-six",
+              "label": "能力入口 card-six",
+              "title": "可编辑的能力标题",
+              "backgroundAsset": "product-v1-ai-architecture-background",
+              "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+              "tone": "ink",
+              "entries": [
+                {
+                  "label": "能力专区",
+                  "href": "#v1-ai-architecture"
+                },
+                {
+                  "label": "应用专区",
+                  "href": "#v1-ai-architecture"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mobileItems": [
+        {
+          "id": "phone-one",
+          "label": "能力入口 phone-one",
+          "title": "可编辑的能力标题",
+          "backgroundAsset": "product-v1-ai-architecture-background",
+          "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+          "tone": "ink",
+          "entries": [
+            {
+              "label": "能力专区",
+              "href": "#v1-ai-architecture"
+            },
+            {
+              "label": "应用专区",
+              "href": "#v1-ai-architecture"
+            }
+          ]
+        },
+        {
+          "id": "phone-two",
+          "label": "能力入口 phone-two",
+          "title": "可编辑的能力标题",
+          "backgroundAsset": "product-v1-ai-architecture-background",
+          "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+          "tone": "ink",
+          "entries": [
+            {
+              "label": "能力专区",
+              "href": "#v1-ai-architecture"
+            },
+            {
+              "label": "应用专区",
+              "href": "#v1-ai-architecture"
+            }
+          ]
+        },
+        {
+          "id": "phone-three",
+          "label": "能力入口 phone-three",
+          "title": "可编辑的能力标题",
+          "backgroundAsset": "product-v1-ai-architecture-background",
+          "mobileBackgroundAsset": "product-v1-ai-architecture-mobile",
+          "tone": "ink",
+          "entries": [
+            {
+              "label": "能力专区",
+              "href": "#v1-ai-architecture"
+            },
+            {
+              "label": "应用专区",
+              "href": "#v1-ai-architecture"
+            }
+          ]
+        }
+      ],
+      "more": {
+        "label": "查看更多",
+        "href": "#v1-ai-architecture"
+      }
+    }
+  ]
+}

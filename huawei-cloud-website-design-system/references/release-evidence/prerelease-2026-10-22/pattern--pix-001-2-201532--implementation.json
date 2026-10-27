@@ -1,0 +1,28 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-001-2-201532/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-001-2-201532",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProduct2026Models",
+        "contract": "references/product-2026-models.md",
+        "generationKind": "model-catalog-2026",
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ],
+        "scope": "source-scoped model equal/stacked layouts, actual image heights/tags/actions and mobile image data; full source variants/visual pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "b5957d981472f4c4f92ab35167b111a707b068ccd60a3122c42b7715506aa9fc"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "2026常见问题验证"
+  },
+  "sections": [
+    {
+      "kind": "faq-2026",
+      "id": "faq-2026",
+      "title": "常见问题",
+      "description": "了解服务的使用方式",
+      "categoriesLabel": "问题分类",
+      "desktopExpanded": true,
+      "groups": [
+        {
+          "id": "intro",
+          "label": "服务简介",
+          "items": [
+            {
+              "id": "what",
+              "question": "什么是云服务？",
+              "answers": [
+                [
+                  {
+                    "text": "这是用于验证富文本答案的说明。"
+                  },
+                  {
+                    "text": "查看详情",
+                    "href": "#faq-2026",
+                    "strong": true
+                  }
+                ]
+              ]
+            },
+            {
+              "id": "start",
+              "question": "如何快速上手服务？",
+              "answers": [
+                [
+                  {
+                    "text": "选择实践资源并按操作指南完成配置。"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "use",
+          "label": "应用场景",
+          "items": [
+            {
+              "id": "scenario",
+              "question": "有哪些应用场景？",
+              "answers": [
+                [
+                  {
+                    "text": "根据业务需要选择对应场景。"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "id": "phone",
+          "title": "售前咨询",
+          "description": "了解产品与服务",
+          "icon": "product-2026-faq-phone",
+          "href": "tel:950808"
+        },
+        {
+          "id": "mail",
+          "title": "预约咨询",
+          "description": "查看咨询与支持入口",
+          "icon": "product-2026-faq-mail",
+          "href": "#faq-2026"
+        }
+      ]
+    }
+  ]
+}

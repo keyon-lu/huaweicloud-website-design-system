@@ -1,0 +1,5578 @@
+{
+  "onlineId": "ONLINE-08",
+  "fileKey": "vp1L5h_3ra0WNdgcUle6vQ",
+  "url": "https://pixso.cn/app/design/vp1L5h_3ra0WNdgcUle6vQ?item-id=60:25104",
+  "sourceId": "PIX-008",
+  "fileName": "按钮规范",
+  "localSource": "基础样式规范2026/按钮规范.pix",
+  "archiveSha256": "4d554de75de11b0a859b7263ab7260ccb34ff336c3395fe828d50033b31a6c5f",
+  "onlineRead": "verified-directory-and-normative-rule-text",
+  "correspondence": "Public page rule text checked online, with inherited instance text included; no claim of whole-file byte/style/image identity",
+  "ownerIssuePolicy": "collect questions and continue independent construction; conflicting branches remain scoped pending; no silent approvals",
+  "pages": [
+    {
+      "pageId": "0:1",
+      "name": "按钮规范",
+      "path": "按钮规范",
+      "url": "https://pixso.cn/app/design/vp1L5h_3ra0WNdgcUle6vQ?item-id=0:1",
+      "frames": [
+        "60:25104",
+        "40:1464"
+      ],
+      "designNotes": [
+        {
+          "text": "PC端（共3个尺寸）",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25138;2:14335"
+          ]
+        },
+        {
+          "text": "XLarge：高度为48px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:25142"
+          ]
+        },
+        {
+          "text": "按钮文本14px，文本距离按钮边距48px。按钮高度48px，宽度自适应，最小宽度为124px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25143;2:14333"
+          ]
+        },
+        {
+          "text": "Large：高度为40px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:25184"
+          ]
+        },
+        {
+          "text": "按钮文本14px，文本距离按钮边距32px。按钮高度40px，宽度自适应，最小宽度112px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25185;2:14333"
+          ]
+        },
+        {
+          "text": "Medium：高度为32px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:25226"
+          ]
+        },
+        {
+          "text": "按钮文本14px，文本距离按钮边距24px。按钮高度32px，宽度自适应，最小宽度96px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25234;2:14333",
+            "I60:25282;2:14333"
+          ]
+        },
+        {
+          "text": "移动端（共2个尺寸）",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25270;2:14335"
+          ]
+        },
+        {
+          "text": "Normal：高度为32px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:25274"
+          ]
+        },
+        {
+          "text": "Small：高度为24px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:25317"
+          ]
+        },
+        {
+          "text": "按钮文本12px，文本距离按钮边距16px。按钮高度24px，宽度自适应，最小宽度72px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25318;2:14333"
+          ]
+        },
+        {
+          "text": "【组件规范】产品页&首页标题字号及按钮高度",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:25359;2:14321"
+          ]
+        },
+        {
+          "text": "字号",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25415;2:13718",
+            "I2:12890;2:13718"
+          ]
+        },
+        {
+          "text": "产品页标题字号",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25433;2:13718",
+            "I2:12891;2:13718"
+          ]
+        },
+        {
+          "text": "36px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25451;2:13435",
+            "I2:12892;2:13435"
+          ]
+        },
+        {
+          "text": "20px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25453;2:13435",
+            "I60:25510;2:13435",
+            "I2:12893;2:13435",
+            "I2:12906;2:13435"
+          ]
+        },
+        {
+          "text": "24px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25455;2:13435",
+            "I60:25459;2:13435",
+            "I60:25512;2:13435",
+            "I60:25516;2:13435",
+            "I2:12894;2:13435",
+            "I2:12896;2:13435",
+            "I2:12907;2:13435",
+            "I2:12909;2:13435"
+          ]
+        },
+        {
+          "text": "28px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25457;2:13435",
+            "I60:25514;2:13435",
+            "I2:12895;2:13435",
+            "I2:12908;2:13435"
+          ]
+        },
+        {
+          "text": "40px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25461;2:13435",
+            "I60:25463;2:13435",
+            "I60:25569;2:13435",
+            "I60:25571;2:13435",
+            "I60:25573;2:13435",
+            "I60:25575;2:13435",
+            "I60:25626;2:13435",
+            "I60:25628;2:13435",
+            "I60:25630;2:13435",
+            "I2:12897;2:13435",
+            "I2:12898;2:13435",
+            "I2:12920;2:13435",
+            "I2:12921;2:13435",
+            "I2:12922;2:13435",
+            "I2:12923;2:13435",
+            "I2:12933;2:13435",
+            "I2:12934;2:13435",
+            "I2:12935;2:13435"
+          ]
+        },
+        {
+          "text": "首页标题字号",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25472;2:13718",
+            "I60:25490;2:13718",
+            "I2:12903;2:13718",
+            "I2:12904;2:13718"
+          ]
+        },
+        {
+          "text": "44px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25508;2:13435",
+            "I2:12905;2:13435"
+          ]
+        },
+        {
+          "text": "54px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25518;2:13435",
+            "I2:12910;2:13435"
+          ]
+        },
+        {
+          "text": "52px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25520;2:13435",
+            "I2:12911;2:13435"
+          ]
+        },
+        {
+          "text": "32px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25567;2:13435",
+            "I60:25624;2:13435",
+            "I2:12919;2:13435",
+            "I2:12932;2:13435"
+          ]
+        },
+        {
+          "text": "48px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I60:25577;2:13435",
+            "I60:25632;2:13435",
+            "I60:25634;2:13435",
+            "I2:12924;2:13435",
+            "I2:12936;2:13435",
+            "I2:12937;2:13435"
+          ]
+        },
+        {
+          "text": "定义：系统中的关键操作建议使用主按钮。在每个对话框、提交类动作均提供一个默认命令焦点状态，支持Enter键激活；将最可靠（防止数据 丢失或系统访问）且最安全或者最常用最方便的命令作为默认值。提交类动作均提供默认操作焦点，如“登录”“搜索”“确定”“是”等按钮。\n使用场景：通用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "60:25691"
+          ]
+        },
+        {
+          "text": "定义：用于跳转至其他页面或窗口的链接，当用户将鼠标指向某个链接时，该链接的文本应当跟默认状态有明显区分，且鼠标指针变为手形。\n使用场景：官网顶部导航、帮助中心成长地图。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "60:25753"
+          ]
+        },
+        {
+          "text": "定义：下拉按钮可让用户在多重选项之间进行选择，容器可选。下拉面板最小宽度164px，最大宽度400px。\n使用场景：通用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "60:25778"
+          ]
+        },
+        {
+          "text": "下拉默认",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:40528"
+          ]
+        },
+        {
+          "text": "下拉hover",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:40529"
+          ]
+        },
+        {
+          "text": "最小宽度164px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "sourceNodeIds": [
+            "67:40532"
+          ]
+        },
+        {
+          "text": "随着内容增多，下拉框宽度也变宽，最大值宽度400px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "sourceNodeIds": [
+            "67:40533"
+          ]
+        },
+        {
+          "text": "定义：区分于基础下拉样式，下载下拉按钮展开后支持增加图标展示。用户鼠标移入“立即下载”按钮时展开下拉选项，可选择不同下载方式；点击“立即下载“按钮可直接下载（需支持系统识别，比如我是windows系统，可直接下载windows安装包）。下拉面板最小宽度160px，最大宽度400px。\n使用场景：用于官网页面需要选择不同的下载类型场景。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "60:25831"
+          ]
+        },
+        {
+          "text": "定义：基于胶囊按钮的样式进行拓展，采用红色以突出购买时的促销属性。\n使用场景：用于官网活动页，仅按钮在hover时使用该颜色。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "60:25911"
+          ]
+        },
+        {
+          "text": "1.  按钮容器（可选）\n2. 按钮文本：建议采用简单通俗的动词形式，如无法满足可采用“动词+名词”的形式处理；文本长度建议少于等于10个，过长请简化，英文少于等于6个单词。",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "sourceNodeIds": [
+            "60:25961"
+          ]
+        },
+        {
+          "text": "1.2 错误案例\n按钮数量不建议超过3个\n主要按钮位置在左，次要按钮位置在右",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "78:6045"
+          ]
+        },
+        {
+          "text": "热门模型一键调用，提供昇腾适配的主流大模型服务，灵活调用、成本可控，成为企业与开发者的大模型敏捷应用枢纽",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "sourceNodeIds": [
+            "60:26069"
+          ]
+        },
+        {
+          "text": "悬停hover/按下active",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26098;2:14321",
+            "I60:26645;2:14321"
+          ]
+        },
+        {
+          "text": "用于新版组件主要按钮样式，增强视觉效果\n投影属性：25px粗细的线段做线性渐变投影，线段长度根据按钮宽度左右各减16px，距离按钮下方10px\n投影色值：3% #FF8335——28% #FF4531——42% #F92735——74% D7469E——100% #7390F3\n高斯模糊：blur20 ",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26113",
+            "60:26660"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26118;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26124;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26130;2:14333",
+            "I60:26143;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n按钮文本：苹方-Regular，14px，#C2C2C2\n图标：16*16px，#C2C2C2",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26134;2:14333",
+            "I60:26681;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px #595959，全圆角\n按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26149;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#C2C2C2，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26155;2:14333"
+          ]
+        },
+        {
+          "text": "用于新版组件次要按钮样式，增强视觉效果\n容器描边：1px，#191919，全圆角\n按钮文本：苹方-常规，14px，#191919\n容器填充：#000000 | Alpha5%",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26161;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#191919\n图标：16px*16px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "61:54"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#191919\n文本修饰：下划线\n图标：16px*16px，#191919，向右偏移4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I61:62;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#C2C2C2\n图标：16px*16px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I61:68;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26281;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-中粗，14px，#191919\n图标：16*16，#191919\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26283;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，14px，#C2C2C2\n图标：16*16，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26285;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#595959",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26299"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919，",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26304"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26307;2:14333",
+            "I78:6284;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:27240"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:27243"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27236;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6277"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6281"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF\n外链图标：16*16，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6320"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF，\n文本修饰：下划线\n外链图标：16*16，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6324"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n外链图标：16*16，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I78:6327;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px ，#FFFFFF\n图标：16*16px，#FFFFFF\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26388",
+            "60:26439"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n按钮文本：苹方-常规，14px ，#FFFFFF\n图标：16*16px，#FFFFFF\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26397",
+            "60:26448"
+          ]
+        },
+        {
+          "text": "下拉框圆角24，左右间距16px，上下间距24px\n悬浮背景全圆角，色值#000000 3%\n下拉框距离按钮8px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:40557"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26421;2:14333",
+            "I60:26483;2:14333"
+          ]
+        },
+        {
+          "text": "悬停",
+          "fontSize": 11.40999984741211,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26423",
+            "60:26485",
+            "60:26968",
+            "60:27029"
+          ]
+        },
+        {
+          "text": "下拉框圆角24，左右间距16px，上下间距24px\n悬浮背景全圆角，色值#000000 3%\nlogo图标：16*16，#191919；下载图标：16*16，默认#595959，悬浮#191919\n下拉框距离按钮8px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:40568"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26498;2:14333",
+            "I60:26549;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边#595959，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26505;2:14333",
+            "I60:26558;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF，描边#595959，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26512;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n图标：16*16px，#C2C2C2\n按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26519;2:14333",
+            "I60:26535;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26527;2:14333",
+            "I60:26577;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边#C2C2C2，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26567;2:14333"
+          ]
+        },
+        {
+          "text": "默认状态同次要按钮样式",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26591;2:14333",
+            "I60:27135;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：线性渐变，全圆角\n色值：3% #F12684——45% #ED4242——77% #FE0404——99% FE7004\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26599;2:14333",
+            "I60:27143;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26665;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 80%，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26671;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #FFFFFF 15%，全圆角\n按钮文本：苹方-常规，14px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26677;2:14333",
+            "I60:26690;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px #FFFFFF 80%，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26696;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#808080，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26702;2:14333"
+          ]
+        },
+        {
+          "text": "用于新版组件次要按钮样式，增强视觉效果\n容器描边：1px，#FFFFFF 80%；容器填充：#FFFFFF 10%\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26708;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#E6E6E6\n图标：16px*16px，#B3B3B3",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "61:103"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#E6E6E6\n文本修饰：下划线\n图标：16px*16px，#B3B3B3，向右偏移4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I61:111;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#808080\n图标：16px*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I61:116;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，14px，#E6E6E6\n图标：16*16，#B3B3B3",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26828;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-中粗，14px，#E6E6E6\n图标：16*16，#E6E6E6\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26830;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，14px，#808080\n图标：16*16，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26832;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#B3B3B3",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26846"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#E6E6E6",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26851"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26854;2:14333",
+            "I61:14;2:14333",
+            "I78:6477;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px ，#E6E6E6",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "61:6"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px ，#E6E6E6\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "61:11"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#5291FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6470"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#5291FF\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6474"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#5291FF\n外链图标：16*16，#5291FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6508"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#5291FF\n文本修饰：下划线\n外链图标：16*16，#5291FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "78:6512"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#808080\n外链图标：16*16，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I78:6515;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF，全圆角\n按钮文本：苹方-常规，14px ，#191919\n图标：16*16px，#191919\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26934",
+            "60:26984",
+            "I60:27042;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 10%，全圆角\n按钮文本：苹方-常规，14px ，#191919\n图标：16*16px，#191919\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "60:26943",
+            "60:26993"
+          ]
+        },
+        {
+          "text": "下拉框圆角24，左右间距16px，上下间距24px\n悬浮背景全圆角，色值#000000 6%\n下拉框距离按钮8px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:40567"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 15%，全圆角\n按钮文本：苹方-常规，14px，#808080\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:26966;2:14333"
+          ]
+        },
+        {
+          "text": "下拉框圆角24，左右间距16px，上下间距24px\n悬浮背景全圆角，色值#000000 6%\nlogo图标：16*16，#FFFFFF；下载图标：16*16，默认#B3B3B3，悬浮#FFFFFF\n下拉框距离按钮8px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:40570"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 15%，全圆角\n按钮文本：苹方-常规，14px，#808080\n图标：16*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27027;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：#FFFFFF 80%，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27049;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：#808080，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27056;2:14333",
+            "I60:27111;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 15%，全圆角\n图标：16*16px，#808080\n按钮文本：苹方-常规，14px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27063;2:14333",
+            "I60:27079;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 10%，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px ，#191919\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27071;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27093;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边#595959，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27102;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I60:27121;2:14333"
+          ]
+        },
+        {
+          "text": "使用场景：楼层中需要引导查看全量内容。\n使用建议：\n1.  文字按钮：楼层只有主标题，建议搭配文字按钮使用\n2.  胶囊按钮：楼层有主标题及副标题，建议搭配胶囊按钮使用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "60:27186"
+          ]
+        },
+        {
+          "text": "按钮尺寸\n\n补充清楚是pc，还是移动端，这个表格放在按钮尺寸模块里",
+          "fontSize": 50,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "40:1466"
+          ]
+        },
+        {
+          "text": "产品页&首页按钮字号大小规范",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I2:12876;2:14321"
+          ]
+        }
+      ],
+      "sourceTextNodeCount": 280,
+      "typographySamples": [
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "78:6474",
+            "78:6277",
+            "78:6320",
+            "78:6508",
+            "78:6512",
+            "78:6324",
+            "78:6470",
+            "78:6281"
+          ],
+          "occurrences": 38
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14593
+          },
+          "sampleNodeIds": [
+            "78:6569",
+            "78:6563",
+            "78:6541",
+            "78:6535"
+          ],
+          "occurrences": 4
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "78:6211",
+            "78:6045",
+            "78:6031",
+            "78:2540",
+            "78:2559",
+            "67:37542",
+            "78:2589",
+            "78:2586"
+          ],
+          "occurrences": 105
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28794
+          },
+          "sampleNodeIds": [
+            "78:6554"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Light",
+            "postscript": ""
+          },
+          "fontSize": 11.40999984741211,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "78:6411",
+            "78:6270",
+            "60:26735",
+            "60:26684",
+            "60:26105",
+            "60:26188",
+            "60:26968",
+            "60:26969"
+          ],
+          "occurrences": 32
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:37682",
+            "67:37363",
+            "78:5649",
+            "78:2548",
+            "78:5660",
+            "67:37350",
+            "78:2549",
+            "78:2550"
+          ],
+          "occurrences": 29
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": {
+            "value": 16,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "78:2553",
+            "78:2571"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:40533",
+            "67:40532"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "78:5713"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25226",
+            "60:25184",
+            "60:25142",
+            "60:25317",
+            "60:25274"
+          ],
+          "occurrences": 5
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25128"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25129"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-B-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "61:49",
+            "61:57",
+            "61:98",
+            "61:106"
+          ],
+          "occurrences": 4
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 29047
+          },
+          "sampleNodeIds": [
+            "61:66",
+            "61:52",
+            "61:60",
+            "61:101",
+            "61:114",
+            "61:109"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28794
+          },
+          "sampleNodeIds": [
+            "61:9",
+            "61:4",
+            "61:13",
+            "60:26853",
+            "60:26302",
+            "60:26306",
+            "60:26848",
+            "60:26296"
+          ],
+          "occurrences": 12
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14168
+          },
+          "sampleNodeIds": [
+            "61:27"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "HarmonyHeiTi",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 50,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "40:1466",
+            "40:1468",
+            "40:1469",
+            "40:1465",
+            "40:1467",
+            "40:1471"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 40,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25937"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 43,
+            "localID": 33866
+          },
+          "sampleNodeIds": [
+            "60:26041",
+            "60:26084",
+            "60:26045",
+            "60:26082",
+            "60:26037",
+            "60:26039",
+            "60:26088",
+            "60:26090"
+          ],
+          "occurrences": 10
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25916",
+            "60:26079",
+            "60:25933",
+            "60:26073",
+            "60:26621",
+            "60:25928",
+            "60:26596",
+            "60:26076"
+          ],
+          "occurrences": 10
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 48,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:26058"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25873"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25334"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 48,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:26052"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "SimSun",
+            "style": "",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25965"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "value": 36,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:26068"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 27797
+          },
+          "sampleNodeIds": [
+            "60:26069"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 16,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:25961"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "60:27182"
+          ],
+          "occurrences": 1
+        }
+      ],
+      "stateGroups": [],
+      "viewportEvidence": [
+        {
+          "id": "60:25176",
+          "name": "容器 91334333",
+          "size": {
+            "x": 320,
+            "y": 48
+          },
+          "path": "按钮规范 / 官网按钮 Button / 按钮尺寸 / 容器 91334336 / 容器 91334335 / 组合 91334324 / 容器 91334333"
+        },
+        {
+          "id": "60:25895",
+          "name": "编组 11",
+          "size": {
+            "x": 320,
+            "y": 40
+          },
+          "path": "按钮规范 / 官网按钮 Button / 按钮种类 / 8. 加载按钮 / gm.40.10 / 编组 11"
+        }
+      ],
+      "adoption": "source-specific rules; current owner decisions override stated conflicts; no newest-file priority",
+      "onlineRuleVerification": {
+        "method": "direct page traversal; complete matching normative text and instance text",
+        "nodeCount": 188,
+        "sourceTextNodeCount": 643,
+        "receiptJob": 14,
+        "scope": "Rule text and resolved note typography; not whole-file visual/style/asset acceptance"
+      }
+    },
+    {
+      "pageId": "82:26506",
+      "name": "文字按钮样式分析",
+      "path": "文字按钮样式分析",
+      "url": "https://pixso.cn/app/design/vp1L5h_3ra0WNdgcUle6vQ?item-id=82:26506",
+      "frames": [],
+      "designNotes": [
+        {
+          "text": "导航下划线间距4px",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "82:26805"
+          ]
+        },
+        {
+          "text": "文字无下划线，按钮有hover效果",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "82:26828"
+          ]
+        },
+        {
+          "text": "底部下划线间距 4px，文字颜色变化",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "82:26807"
+          ]
+        },
+        {
+          "text": "文档链接下划线间距 2px，文字颜色变化",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "82:26809"
+          ]
+        },
+        {
+          "text": "建议优化方案",
+          "fontSize": 60,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "82:26921"
+          ]
+        },
+        {
+          "text": "文档中的黑色文字按钮，悬浮下划线样式不变，距文字间距修改为4px",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "87:26769"
+          ]
+        },
+        {
+          "text": "文档中的蓝色文字链接，悬浮下划线样式不变，距文字间距修改为4px",
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 60
+          },
+          "sourceNodeIds": [
+            "87:26771"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#191919\n图标：16px*16px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27390",
+            "84:27615"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#191919\n文本修饰：下划线\n图标：16px*16px，#191919，向右偏移4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27398;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，16px，#C2C2C2\n图标：16px*16px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27404;2:14333",
+            "I84:27636;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27408;2:14333",
+            "I84:27728;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-中粗，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27409;2:14333",
+            "I84:27730;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-常规，14px，#C2C2C2\n图标：16*16，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27410;2:14333",
+            "I84:27732;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#595959",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27421",
+            "84:27744"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919，",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27425",
+            "84:27748"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27428;2:14333",
+            "I84:27456;2:14333",
+            "I84:27751;2:14333",
+            "I84:27790;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27431",
+            "84:27755"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27433"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27436;2:14333",
+            "I84:27760;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27449",
+            "84:27775"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27453"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF\n外链图标：16*16，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27464",
+            "84:27800"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF，\n文本修饰：下划线\n外链图标：16*16，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27472"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n外链图标：16*16，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27475;2:14333",
+            "I84:27815;2:14333"
+          ]
+        },
+        {
+          "text": "文本：苹方-中粗，16px，#191919\n图标：16px*16px，#191919，向右偏移4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I84:27626;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#191919\n文本修饰：下划线，距离文字4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27757"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF\n文本修饰：下划线，距离文字4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27784"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px ，#1476FF，\n文本修饰：下划线，距离文字4px\n外链图标：16*16，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "84:27809"
+          ]
+        }
+      ],
+      "sourceTextNodeCount": 81,
+      "typographySamples": [
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-B-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "87:26757",
+            "84:27618",
+            "84:27393",
+            "84:27607",
+            "84:27385"
+          ],
+          "occurrences": 5
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "value": 60,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "87:26767",
+            "87:26769",
+            "87:26771",
+            "82:26925",
+            "82:26809",
+            "82:26807",
+            "82:26805",
+            "84:27864"
+          ],
+          "occurrences": 17
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 60,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "87:26779",
+            "87:26773"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 84,
+            "localID": 27884
+          },
+          "sampleNodeIds": [
+            "87:26760"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 60,
+          "lineHeight": {
+            "value": 60,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "82:26921",
+            "82:26914",
+            "82:26804",
+            "82:26823",
+            "82:26825",
+            "82:26830"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28794
+          },
+          "sampleNodeIds": [
+            "84:27742",
+            "84:27754",
+            "84:27750",
+            "84:27432",
+            "84:27419",
+            "84:27427",
+            "84:27423",
+            "84:27430"
+          ],
+          "occurrences": 11
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "84:27433",
+            "84:27809",
+            "84:27784",
+            "84:27800",
+            "84:27449",
+            "84:27453",
+            "84:27431",
+            "84:27775"
+          ],
+          "occurrences": 18
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 18,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "84:27852",
+            "84:27867",
+            "84:27843"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 14,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "84:27825",
+            "84:27834",
+            "84:27756"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14593
+          },
+          "sampleNodeIds": [
+            "84:27796"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14593
+          },
+          "sampleNodeIds": [
+            "84:27469",
+            "84:27461"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Light",
+            "postscript": ""
+          },
+          "fontSize": 11.40999984741211,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "84:27440",
+            "84:27600",
+            "84:27378",
+            "84:27414",
+            "84:27765",
+            "84:27737"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 29047
+          },
+          "sampleNodeIds": [
+            "84:27610",
+            "84:27631",
+            "84:27402",
+            "84:27388",
+            "84:27396"
+          ],
+          "occurrences": 5
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 84,
+            "localID": 27973
+          },
+          "sampleNodeIds": [
+            "84:27621"
+          ],
+          "occurrences": 1
+        }
+      ],
+      "stateGroups": [],
+      "viewportEvidence": [],
+      "adoption": "source-specific rules; current owner decisions override stated conflicts; no newest-file priority",
+      "onlineRuleVerification": {
+        "method": "direct page traversal; complete matching normative text and instance text",
+        "nodeCount": 43,
+        "sourceTextNodeCount": 112,
+        "receiptJob": 14,
+        "scope": "Rule text and resolved note typography; not whole-file visual/style/asset acceptance"
+      }
+    },
+    {
+      "pageId": "50:29446",
+      "name": "过程稿",
+      "path": "过程稿",
+      "url": "https://pixso.cn/app/design/vp1L5h_3ra0WNdgcUle6vQ?item-id=50:29446",
+      "frames": [
+        "67:30722",
+        "50:52866",
+        "50:53053",
+        "50:52685",
+        "67:27341",
+        "50:51963",
+        "50:52323",
+        "67:28302",
+        "67:28305",
+        "50:52141",
+        "50:52504"
+      ],
+      "designNotes": [
+        {
+          "text": "未开通账号密钥对的用户该参数无效，默认会创建SSH_RSA_2048的密钥对。当前仅RSA算法支持windows系统，其他算法不支持windows获取密码。",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52005;43:29294",
+            "I50:52018;43:29294",
+            "I50:52031;43:29294",
+            "I50:52183;43:29294",
+            "I50:52196;43:29294",
+            "I50:52209;43:29294",
+            "I50:52365;43:29294",
+            "I50:52378;43:29294",
+            "I50:52391;43:29294",
+            "I50:52546;43:29294",
+            "I50:52559;43:29294",
+            "I50:52572;43:29294",
+            "I50:52727;43:29294",
+            "I50:52740;43:29294",
+            "I50:52753;43:29294",
+            "I50:52908;43:29294",
+            "I50:52921;43:29294",
+            "I50:52934;43:29294"
+          ]
+        },
+        {
+          "text": "虚拟私有云(VPC)",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52017;43:30041",
+            "I50:52140;43:28680;43:30041",
+            "I50:52195;43:30041",
+            "I50:52322;43:28680;43:30041",
+            "I50:52377;43:30041",
+            "I50:52503;43:28680;43:30041",
+            "I50:52558;43:30041",
+            "I50:52684;43:28680;43:30041",
+            "I50:52739;43:30041",
+            "I50:52865;43:28680;43:30041",
+            "I50:52920;43:30041",
+            "I50:53046;43:28680;43:30041"
+          ]
+        },
+        {
+          "text": "huaweicloud_vpc",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52030;43:30041",
+            "I50:52208;43:30041",
+            "I50:52390;43:30041",
+            "I50:52571;43:30041",
+            "I50:52752;43:30041",
+            "I50:52933;43:30041"
+          ]
+        },
+        {
+          "text": "本平台将通过您的登录信息获取临时密钥以管理资源。请注意部分操作需要计费，请务必在操作前对照模板及相关计费规则核实费用。",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "50:52038",
+            "50:52216",
+            "50:52398",
+            "50:52579",
+            "50:52760",
+            "50:52941"
+          ]
+        },
+        {
+          "text": "启用此能力可让表格内容自动折行，禁用此功能可截断文本。",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52046;43:31159",
+            "I50:52224;43:31159",
+            "I50:52406;43:31159",
+            "I50:52587;43:31159",
+            "I50:52768;43:31159",
+            "I50:52949;43:31159"
+          ]
+        },
+        {
+          "text": "VPC所属的区域",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "50:52052",
+            "50:52232",
+            "50:52414",
+            "50:52595",
+            "50:52776",
+            "50:52957"
+          ]
+        },
+        {
+          "text": "VPC的私网网段",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "50:52058",
+            "50:52238",
+            "50:52420",
+            "50:52601",
+            "50:52782",
+            "50:52963"
+          ]
+        },
+        {
+          "text": "VPC私网域名开启状态",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "50:52081",
+            "50:52261",
+            "50:52443",
+            "50:52624",
+            "50:52805",
+            "50:52986"
+          ]
+        },
+        {
+          "text": "VPC对应的描述信息",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "50:52118",
+            "50:52298",
+            "50:52480",
+            "50:52661",
+            "50:52842",
+            "50:53023"
+          ]
+        },
+        {
+          "text": "平台通过已登录用户信息获取当前账号临时 Access Key 进行线上资源的创建、更新和删除等操作，部分资源会产生相应的费用，在运行前请根据模板内容和相应云产品的计费规则确认费用详情。",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52341;43:25198",
+            "I50:52505;43:25033",
+            "I50:52686;43:25362",
+            "I50:52867;43:22582"
+          ]
+        },
+        {
+          "text": "huaweicloud_vpc_20260508-164955",
+          "fontSize": 18,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "sourceNodeIds": [
+            "I50:52341;43:25208",
+            "I50:52505;43:25043",
+            "I50:52686;43:25372",
+            "I50:52867;43:22592"
+          ]
+        },
+        {
+          "text": "terraform {\n  required_providers {\n    alicloud = {\n      source   = \"aliyun/alicloud\"\n      version  = \"1.277.0\"\n    }\n  }\n}\n\nresource \"alicloud_vpc\" \"default\" {\n  is_default                                  = false\n  enable_ipv6                                 = false\n  classic_link_enabled                        = false\n  force_delete                                = false\n  system_route_table_route_propagation_enable = false\n  dry_run                                     = false\n}\n",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52341;43:25322"
+          ]
+        },
+        {
+          "text": "Terraform v1.5.7\non linux_amd64\n+ provider registry.terraform.io/huaweicloud v1.277.0\n\nYour version of Terraform is out of date! The latest version\nis 1.15.2. You can update by downloading from https://www.terraform.io/downloads.html\n\nTerraform used the selected providers to generate the following execucion\nplan. Resource actions are indicated with the following symbols:\n  + create\n\nTerraform will perform the following actions:\n\n  # huaweicloud_vpc.default will be created\n  + resource \"huaweicloud_vpc\" \"default\" {\n      + cidr_block                                 = (known after apply)\n      + classic_link_enabled                       = false\n      + create_time                                = (known after apply)\n      + dns_hostname_status                        = (known after apply)\n      + dry_run                                    = false\n      + enable_ipv6                                = false\n      + force_delete                               = false\n      + id                                         = (known after apply)\n      + ipv6_cidr_block                            = (known after apply)\n      + ipv6_cidr_blocks                           = (known after apply)\n      + is_default                                 = false\n      + name                                       = (known after apply)\n      + region_id                                  = (known after apply)\n      + resource_group_id                          = (known after apply)\n      + route_table_id                             = (known after apply)\n      + router_id                                  = (known after apply)\n      + router_table_id                            = (known after apply)\n      + secondary_cidr_blocks                      = (known after apply)\n      + status                                     = (known after apply)",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I50:52867;43:22689"
+          ]
+        },
+        {
+          "text": "支持与服务",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "50:53146"
+          ]
+        },
+        {
+          "text": "热门模型一键调用，提供昇腾适配的主流大模型服务，灵活调用、成本可控，成为企业与开发者的大模型敏捷应用枢纽",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "sourceNodeIds": [
+            "50:53258",
+            "67:31196"
+          ]
+        },
+        {
+          "text": "1.  按钮容器（可选）\n2. 按钮文本：建议采用简单通俗的动词形式，如无法满足可采用“动词+名词”的形式处理；文本长度建议少于等于10个，过长请简化，英文少于等于6个单词。\n3. 图标（可选）",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "sourceNodeIds": [
+            "67:27410"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n按钮文本：苹方-Regular，14px，#C2C2C2\n图标：16*16px，#C2C2C2",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27425;2:14333",
+            "I67:31247;2:14333",
+            "I67:31617;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px #595959，全圆角\n按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#808080",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27433;2:14333"
+          ]
+        },
+        {
+          "text": "用于ux2.0官网产品页\n以25px粗细的线段做线性渐变投影，线段长度根据按钮宽度左右各减16px，距离按钮下方6px\n投影色值：3% #FF8335——28% #FF4531——42% #F92735——74% D7469E——100% #7390F3\n高斯模糊：blur20 \n深浅背景下的投影效果一致",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27482"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF\n图标：16*16px，#FFFFFF",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27510;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF\n图标：16*16px，#FFFFFF",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27511;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n按钮文本：苹方-常规，14px，#C2C2C2\n图标：16*16px，#C2C2C2",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27512;2:14333",
+            "I67:27524;2:14333"
+          ]
+        },
+        {
+          "text": "悬停hover",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27513;2:14321"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#C2C2C2，全圆角\n按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#191919",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27552;2:14333"
+          ]
+        },
+        {
+          "text": "用于ux2.0官网产品页\n浅色背景：\n容器描边：1px，#191919，全圆角\n按钮文本：苹方-常规，14px，#191919\n容器填充：#000000 | Alpha5%\n深色背景：\n容器描边：1px，全圆角，默认（#FFFFFF 80%）、悬浮（#FFFFFF）；\n按钮文本：苹方-常规，14px，#191919\n容器填充：#FFFFFF | Alpha10%",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27553;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#1476FF",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27559;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#1476FF",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27560;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#C2C2C2  ",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27561;2:14333"
+          ]
+        },
+        {
+          "text": "1.按钮文本：苹方-常规，14px ，#595959\n2.按钮文本：苹方-常规，16px ，#191919",
+          "fontSize": 7.980000019073486,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27568"
+          ]
+        },
+        {
+          "text": "1.按钮文本：苹方-常规，14px ，#191919，文本修饰：下划线\n2.按钮文本：苹方-常规，16px ，#191919，文本修饰：加粗，下划线\n",
+          "fontSize": 7.980000019073486,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27570"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n文本修饰：下划线",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27571;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，18px，#191919\n右箭头：24px*24px\n",
+          "fontSize": 7.980000019073486,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27587"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，18px，#191919\n文本修饰：下划线\n右箭头：24px*24px，向右偏移4px",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27588;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：方正兰亭黑简体，18px，#C2C2C2\n右箭头：24px",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27589;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#191919\n文本修饰：下划线\n图标：16*16，#191919",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27615;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#595959\n文本修饰：下划线\n图标：16*16，#595959",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27616;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n文本修饰：下划线\n图标：16*16，#C2C2C2   ",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27617;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27650;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27651;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n图标：16*16，#C2C2C2",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27652;2:14333"
+          ]
+        },
+        {
+          "text": "图标：16*16px，#191919",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27653;2:14333"
+          ]
+        },
+        {
+          "text": "图标：16*16px，#191919\n容器背景：24*24px，#000000 | Alpha 5%，4px圆角",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27684;2:14333"
+          ]
+        },
+        {
+          "text": "图标：16*16px，#C2C2C2\n",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27745;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#F23030，全圆角\n按钮文本：苹方-常规，14px，#F23030",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27755;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#F76360，全圆角\n按钮文本：苹方-常规，14px，#FAA9A5",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27756;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27757;2:14333"
+          ]
+        },
+        {
+          "text": "XLarge：高度为48px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27765",
+            "67:30757"
+          ]
+        },
+        {
+          "text": "Large：高度为40px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27766",
+            "67:30775"
+          ]
+        },
+        {
+          "text": "Medium：高度为32px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27767",
+            "67:30793"
+          ]
+        },
+        {
+          "text": "Small：高度为24px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:27768",
+            "67:30835"
+          ]
+        },
+        {
+          "text": "文本距离按钮边距48px，宽度自适应，最小宽度为124px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27769;2:14333"
+          ]
+        },
+        {
+          "text": "文本距离按钮边距32px，宽度自适应，最小宽度112px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27784;2:14333"
+          ]
+        },
+        {
+          "text": "文本距离按钮边距24px，宽度自适应，最小宽度96px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27800;2:14333"
+          ]
+        },
+        {
+          "text": "文本距离按钮边距16px，宽度自适应，最小宽度72px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27816;2:14333"
+          ]
+        },
+        {
+          "text": "系统中的关键操作建议使用主按钮。在每个对话框、提交类动作均提供一个默认命令焦点状态，支持Enter键激活；将最可靠（防止数据 丢失或系统访问）且最安全或者最常用最方便的命令作为默认值。提交类动作均提供默认操作焦点，如“登录”“搜索”“确定”“是”等按钮。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:27835"
+          ]
+        },
+        {
+          "text": "图标+文本按钮是命令按钮的一种，图文结合的样式，强调图形表达命令的可视性。不推荐使用，建议直接使用次要按钮。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:27850"
+          ]
+        },
+        {
+          "text": "图标按钮优先级较低，一般适用于辅助功能；图标表达的含义务必是可直接识别的。支持16/24/32/48等不同尺寸。建议：所有的图标按钮均需加tips提示，Tips提示具体请查看“提示类”规范。\n",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:27853"
+          ]
+        },
+        {
+          "text": "用于跳转至其他页面或窗口的链接，如果是查看类链接则打开新的浏览器页签，当用户将鼠标指向某个链接时，该链接的文本应当跟默认状态有明显区分，且鼠标指针变为手形。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:27866"
+          ]
+        },
+        {
+          "text": "下拉按钮可让用户在多重选项之间进行选择，容器可选。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:27896"
+          ]
+        },
+        {
+          "text": "此按钮用于构建智能体等场景，相比纯文字增加“+”图标后按钮的视觉样式更强，存在感更高。按钮hover及禁用状态遵循主次按钮的样式。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:27933"
+          ]
+        },
+        {
+          "text": "【组件规范】产品页&首页标题字号及按钮高度",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:27948;2:14321",
+            "I67:30855;2:14321"
+          ]
+        },
+        {
+          "text": "字号",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27962;2:13718",
+            "I67:30869;2:13718"
+          ]
+        },
+        {
+          "text": "产品页标题字号",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27963;2:13718",
+            "I67:30870;2:13718"
+          ]
+        },
+        {
+          "text": "36px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27964;2:13435",
+            "I67:30871;2:13435"
+          ]
+        },
+        {
+          "text": "20px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27965;2:13435",
+            "I67:27978;2:13435",
+            "I67:30872;2:13435",
+            "I67:30885;2:13435"
+          ]
+        },
+        {
+          "text": "24px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27966;2:13435",
+            "I67:27968;2:13435",
+            "I67:27979;2:13435",
+            "I67:27981;2:13435",
+            "I67:30873;2:13435",
+            "I67:30875;2:13435",
+            "I67:30886;2:13435",
+            "I67:30888;2:13435"
+          ]
+        },
+        {
+          "text": "28px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27967;2:13435",
+            "I67:27980;2:13435",
+            "I67:30874;2:13435",
+            "I67:30887;2:13435"
+          ]
+        },
+        {
+          "text": "40px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27969;2:13435",
+            "I67:27970;2:13435",
+            "I67:27992;2:13435",
+            "I67:27993;2:13435",
+            "I67:27994;2:13435",
+            "I67:27995;2:13435",
+            "I67:28005;2:13435",
+            "I67:28006;2:13435",
+            "I67:28007;2:13435",
+            "I67:30876;2:13435",
+            "I67:30877;2:13435",
+            "I67:30899;2:13435",
+            "I67:30900;2:13435",
+            "I67:30901;2:13435",
+            "I67:30902;2:13435",
+            "I67:30912;2:13435",
+            "I67:30913;2:13435",
+            "I67:30914;2:13435"
+          ]
+        },
+        {
+          "text": "首页标题字号",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27975;2:13718",
+            "I67:27976;2:13718",
+            "I67:30882;2:13718",
+            "I67:30883;2:13718"
+          ]
+        },
+        {
+          "text": "44px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27977;2:13435",
+            "I67:30884;2:13435"
+          ]
+        },
+        {
+          "text": "54px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27982;2:13435",
+            "I67:30889;2:13435"
+          ]
+        },
+        {
+          "text": "52px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27983;2:13435",
+            "I67:30890;2:13435"
+          ]
+        },
+        {
+          "text": "32px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27991;2:13435",
+            "I67:28004;2:13435",
+            "I67:30898;2:13435",
+            "I67:30911;2:13435"
+          ]
+        },
+        {
+          "text": "48px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "I67:27996;2:13435",
+            "I67:28008;2:13435",
+            "I67:28009;2:13435",
+            "I67:30903;2:13435",
+            "I67:30915;2:13435",
+            "I67:30916;2:13435"
+          ]
+        },
+        {
+          "text": "容器描边：1px #595959，全圆角\n按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#808080",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28053;2:14333",
+            "I67:28055;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF\n图标：16*16px #FFFFFF",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28054;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#C2C2C2，全圆角\n按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#191919",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28056;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#F23030，全圆角\n按钮文本：苹方-常规，14px，#F23030",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28058;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF\n图标：16*16px，#FFFFFF",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28064;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#191919",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28073"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#595959 / #191919",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28077"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，18px，#191919\n右箭头：24px*24px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28078"
+          ]
+        },
+        {
+          "text": "Text：苹方 regular 14px #1476FF",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28079;2:14333"
+          ]
+        },
+        {
+          "text": "图标：16*16px，#191919",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28111;2:14333"
+          ]
+        },
+        {
+          "text": "Icon：16*16px #191919",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28112;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF\n",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28115;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px #595959，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28116;2:14333"
+          ]
+        },
+        {
+          "text": "默认",
+          "fontSize": 7.984790802001953,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28156",
+            "67:28158"
+          ]
+        },
+        {
+          "text": "默认",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28288;2:14333"
+          ]
+        },
+        {
+          "text": "禁用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:28291;2:14333"
+          ]
+        },
+        {
+          "text": "悬浮状态：16*16px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28295"
+          ]
+        },
+        {
+          "text": "悬浮状态：16*16px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28296"
+          ]
+        },
+        {
+          "text": "悬浮状态：16*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28297"
+          ]
+        },
+        {
+          "text": "分pc 和 app，建议主要按钮的位置",
+          "fontSize": 50,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:28318"
+          ]
+        },
+        {
+          "text": "PC端（共3个尺寸）",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:30754;2:14335"
+          ]
+        },
+        {
+          "text": "按钮文本14px，文本距离按钮边距48px。按钮高度48px，宽度自适应，最小宽度为124px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:30758;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本14px，文本距离按钮边距32px。按钮高度40px，宽度自适应，最小宽度112px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:30776;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本14px，文本距离按钮边距24px。按钮高度32px，宽度自适应，最小宽度96px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:30795;2:14333",
+            "I67:30818;2:14333"
+          ]
+        },
+        {
+          "text": "移动端（共2个尺寸）",
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:30813;2:14335"
+          ]
+        },
+        {
+          "text": "Normal：高度为32px",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:30816"
+          ]
+        },
+        {
+          "text": "按钮文本12px，文本距离按钮边距16px。按钮高度24px，宽度自适应，最小宽度72px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:30836;2:14333"
+          ]
+        },
+        {
+          "text": "定义：系统中的关键操作建议使用主按钮。在每个对话框、提交类动作均提供一个默认命令焦点状态，支持Enter键激活；将最可靠（防止数据 丢失或系统访问）且最安全或者最常用最方便的命令作为默认值。提交类动作均提供默认操作焦点，如“登录”“搜索”“确定”“是”等按钮。\n使用场景：通用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:30925"
+          ]
+        },
+        {
+          "text": "定义：用于跳转至其他页面或窗口的链接，当用户将鼠标指向某个链接时，该链接的文本应当跟默认状态有明显区分，且鼠标指针变为手形。\n使用场景：通用\n外链图标是否显示：链接跳转方式默认当前页打开，如果有外链图标，一定是通过新开页打开；\n文字是否为蓝色：仅文档内链接按钮颜色为#1476FF，其余如顶部导航链接按钮颜色为#595959、文档成长地图链接按钮颜色为#191919；\n箭头图标是否显示：用于“查看更多”、“查看所有”等场景时增加箭头，如官网首页产品楼层“查看所有产品”",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:30949"
+          ]
+        },
+        {
+          "text": "定义：下拉按钮可让用户在多重选项之间进行选择，容器可选。下拉面板宽度以下拉按钮宽度为准，详细规范遵循下拉选择组件。\n使用场景：通用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:30965"
+          ]
+        },
+        {
+          "text": "定义：基于胶囊按钮的样式进行拓展，采用红色以突出购买时的促销属性。\n使用场景：用于官网活动页，仅按钮在hover时使用该颜色。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:31083"
+          ]
+        },
+        {
+          "text": "1.  按钮容器（可选）\n2. 按钮文本：建议采用简单通俗的动词形式，如无法满足可采用“动词+名词”的形式处理；文本长度建议少于等于10个，过长请简化，英文少于等于6个单词。",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "sourceNodeIds": [
+            "67:31122"
+          ]
+        },
+        {
+          "text": "定义：多个按钮有同时展示时使用，一个页面或卡片内只能有一个主按钮，建议按钮数量不超过3个。\n使用场景：通用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:31131"
+          ]
+        },
+        {
+          "text": "悬停hover/按下active",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31224;2:14321",
+            "I67:31594;2:14321"
+          ]
+        },
+        {
+          "text": "用于新版组件主要按钮样式，增强视觉效果\n投影属性：25px粗细的线段做线性渐变投影，线段长度根据按钮宽度左右各减16px，距离按钮下方10px\n投影色值：3% #FF8335——28% #FF4531——42% #F92735——74% D7469E——100% #7390F3\n高斯模糊：blur20 ",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31235",
+            "67:31605"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31238;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31241;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31244;2:14333",
+            "I67:31253;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px #595959，全圆角\n按钮文本：苹方-常规，14px，#191919\n图标：16*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31256;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#C2C2C2，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31259;2:14333"
+          ]
+        },
+        {
+          "text": "用于新版组件次要按钮样式，增强视觉效果\n容器描边：1px，#191919，全圆角\n按钮文本：苹方-常规，14px，#191919\n容器填充：#000000 | Alpha5%",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31262;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31271;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#1476FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31275;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#C2C2C2  ",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31279;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31290;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#191919\n图标：16*16，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31291;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n图标：16*16，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31292;2:14333"
+          ]
+        },
+        {
+          "text": "1.按钮文本：苹方-常规，14px ，#595959\n2.按钮文本：苹方-常规，14px ，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31305"
+          ]
+        },
+        {
+          "text": "1.按钮文本：苹方-常规，14px ，#191919，\n2.按钮文本：苹方-常规，14px ，#191919，\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31310"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31313;2:14333",
+            "I67:31403;2:14333",
+            "I67:31463;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px，#191919\n右箭头：16px*16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31321"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#1476FF\n图标：16px*16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31326"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#1476FF\n图标：16px*16px\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31331"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#C2C2C2\n图标：16px*16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31336"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px，#191919\n文本修饰：下划线\n右箭头：16px*16px，向右偏移4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31344;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px，#C2C2C2\n右箭头：16px*16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31350;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n按钮文本：苹方-常规，14px ，#FFFFFF\n图标：16*16px，#FFFFFF\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31370",
+            "67:31420"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n按钮文本：苹方-常规，14px ，#FFFFFF\n图标：16*16px，#FFFFFF\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31379",
+            "67:31429"
+          ]
+        },
+        {
+          "text": "悬停",
+          "fontSize": 11.40999984741211,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31404",
+            "67:31464",
+            "67:31772",
+            "67:31831"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31477;2:14333",
+            "I67:31519;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边#595959，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31482;2:14333",
+            "I67:31527;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF，描边#595959，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31487;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #000000 | Alpha 5%，全圆角\n图标：16*16px，#C2C2C2\n按钮文本：苹方-常规，14px，#C2C2C2",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31492;2:14333",
+            "I67:31506;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31499;2:14333",
+            "I67:31544;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边#C2C2C2，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31535;2:14333"
+          ]
+        },
+        {
+          "text": "默认状态同次要按钮样式",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31554;2:14333",
+            "I67:31921;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：线性渐变，全圆角\n色值：3% #F12684——45% #ED4242——77% #FE0404——99% FE7004\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31561;2:14333",
+            "I67:31928;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31608;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 80%，全圆角\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31611;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景： #FFFFFF 15%，全圆角\n按钮文本：苹方-常规，14px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31614;2:14333",
+            "I67:31623;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px #FFFFFF 80%，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31626;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：1px，#808080，全圆角\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31629;2:14333"
+          ]
+        },
+        {
+          "text": "用于新版组件次要按钮样式，增强视觉效果\n容器描边：1px，#FFFFFF 80%；容器填充：#FFFFFF 10%\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31632;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#5291FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31641;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#5291FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31645;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31649;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#E6E6E6\n图标：16*16，#B3B3B3",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31660;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-中粗，14px，#E6E6E6\n图标：16*16，#E6E6E6",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31661;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#808080\n图标：16*16，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31662;2:14333"
+          ]
+        },
+        {
+          "text": "1.按钮文本：苹方-常规，14px ，#B3B3B3\n2.按钮文本：苹方-常规，16px ，#E6E6E6",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31675"
+          ]
+        },
+        {
+          "text": "1.按钮文本：苹方-常规，14px ，#B3B3B3\n文本修饰：下划线\n2.按钮文本：苹方-常规，16px ，#E6E6E6\n文本修饰：加粗，下划线\n",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31680"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#808080\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31683;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px，#E6E6E6\n右箭头：16px*16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31691"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#5291FF\n图标：16px*16px，#5291FF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31696"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#5291FF\n图标：16px*16px，#5291FF\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31701"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，14px，#808080\n图标：16px*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31706"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px，#E6E6E6\n文本修饰：下划线\n右箭头：16px*16px，向右偏移4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31714;2:14333"
+          ]
+        },
+        {
+          "text": "按钮文本：苹方-常规，16px，#808080\n右箭头：16px*16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31719;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF，全圆角\n按钮文本：苹方-常规，14px ，#191919\n图标：16*16px，#191919\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31739",
+            "67:31788",
+            "I67:31844;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 10%，全圆角\n按钮文本：苹方-常规，14px ，#191919\n图标：16*16px，#191919\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "67:31748",
+            "67:31797"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 15%，全圆角\n按钮文本：苹方-常规，14px，#808080\n文本修饰：下划线",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31771;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 15%，全圆角\n按钮文本：苹方-常规，14px，#808080\n图标：16*16px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31830;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：#FFFFFF 80%，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31849;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边：#808080，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31854;2:14333",
+            "I67:31902;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 15%，全圆角\n图标：16*16px，#808080\n按钮文本：苹方-常规，14px，#808080",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31859;2:14333",
+            "I67:31873;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#FFFFFF 10%，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px ，#191919\n文本和图标距离4px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31866;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#191919，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31886;2:14333"
+          ]
+        },
+        {
+          "text": "容器描边#595959，全圆角\n图标：16*16px，#FFFFFF\n按钮文本：苹方-常规，14px，#FFFFFF",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31894;2:14333"
+          ]
+        },
+        {
+          "text": "容器背景：#595959，全圆角\n图标：16*16px，#191919\n按钮文本：苹方-常规，14px，#191919",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I67:31911;2:14333"
+          ]
+        },
+        {
+          "text": "使用场景：楼层中需要引导查看全量内容。\n使用建议：\n1.  文字按钮：楼层只有主标题，建议搭配文字按钮使用\n2.  胶囊按钮：楼层有主标题及副标题，建议搭配胶囊按钮使用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:31957"
+          ]
+        },
+        {
+          "text": "使用场景：产品页banner、智能体卡片\n使用建议：\n1. 按钮数量不建议超过3个，且主要按钮在最左边\n2. APP上按钮居中展示\n3. 建议主要按钮在左，次要按钮在右",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "67:31971"
+          ]
+        }
+      ],
+      "sourceTextNodeCount": 589,
+      "typographySamples": [
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31946",
+            "67:31579",
+            "67:31748",
+            "67:31701",
+            "67:31696",
+            "67:31536",
+            "67:31680",
+            "67:31321"
+          ],
+          "occurrences": 29
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31374",
+            "67:31865",
+            "67:31843",
+            "67:31826",
+            "67:31767",
+            "67:31543",
+            "67:31415",
+            "67:31505"
+          ],
+          "occurrences": 111
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-B-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31339",
+            "67:31709",
+            "67:31686",
+            "67:27573",
+            "67:31316",
+            "67:27579"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31942",
+            "67:31575",
+            "67:31925",
+            "67:31206",
+            "67:31203",
+            "67:31200",
+            "67:31088",
+            "50:53309"
+          ],
+          "occurrences": 50
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Light",
+            "postscript": ""
+          },
+          "fontSize": 11.40999984741211,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31724",
+            "67:31619",
+            "67:31831",
+            "67:31636",
+            "67:31567",
+            "67:31510",
+            "67:31361",
+            "67:31469"
+          ],
+          "occurrences": 40
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31815",
+            "67:31763",
+            "67:31454",
+            "67:31007",
+            "67:31006",
+            "67:30996",
+            "67:30994",
+            "67:31039"
+          ],
+          "occurrences": 38
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28794
+          },
+          "sampleNodeIds": [
+            "67:31648",
+            "67:31677",
+            "67:31673",
+            "67:31672",
+            "67:31682"
+          ],
+          "occurrences": 5
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28798
+          },
+          "sampleNodeIds": [
+            "67:31644",
+            "67:31678"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31762",
+            "67:31393",
+            "67:30995",
+            "67:31043",
+            "67:31819",
+            "67:31451",
+            "67:28214",
+            "67:28234"
+          ],
+          "occurrences": 10
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 29047
+          },
+          "sampleNodeIds": [
+            "67:31712",
+            "67:31689",
+            "67:31717"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 48,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31185",
+            "50:53247"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.100000381469727,
+          "lineHeight": {
+            "value": 12.600000381469727,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 29047
+          },
+          "sampleNodeIds": [
+            "67:31319",
+            "67:31342",
+            "67:31348"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 43,
+            "localID": 33866
+          },
+          "sampleNodeIds": [
+            "67:31164",
+            "67:31217",
+            "67:31209",
+            "67:31172",
+            "67:31170",
+            "67:31168",
+            "67:31166",
+            "50:53271"
+          ],
+          "occurrences": 19
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28794
+          },
+          "sampleNodeIds": [
+            "67:31307",
+            "67:31303",
+            "67:31302",
+            "67:31278",
+            "67:31312"
+          ],
+          "occurrences": 5
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 48,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31179",
+            "50:53241"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31049"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12.600000381469727,
+          "lineHeight": {
+            "value": 19.600000381469727,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14168
+          },
+          "sampleNodeIds": [
+            "67:30959"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 27797
+          },
+          "sampleNodeIds": [
+            "67:31196",
+            "50:53258"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 16,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31122",
+            "67:27410"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:30843",
+            "67:27823",
+            "67:28137",
+            "67:28153"
+          ],
+          "occurrences": 4
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 40,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31108",
+            "67:27392"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:30816",
+            "67:30757",
+            "67:30775",
+            "67:27768",
+            "67:30793",
+            "67:30835",
+            "67:27767",
+            "67:27766"
+          ],
+          "occurrences": 9
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:30747",
+            "67:27386"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27543",
+            "67:27481",
+            "67:27566",
+            "67:27534",
+            "67:27562",
+            "67:27517",
+            "67:27462",
+            "67:27474"
+          ],
+          "occurrences": 21
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.100000381469727,
+          "lineHeight": {
+            "value": 12.600000381469727,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27575",
+            "67:27581",
+            "67:27585"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 7.980000019073486,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27568",
+            "67:27587",
+            "67:27570"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 18,
+          "lineHeight": {
+            "value": 28,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53308",
+            "50:53292",
+            "50:53288",
+            "50:53296",
+            "50:53312",
+            "50:53328",
+            "50:53284",
+            "50:53316"
+          ],
+          "occurrences": 12
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "value": 36,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53257",
+            "67:31195"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53144",
+            "50:53145",
+            "50:53136",
+            "50:53138",
+            "50:53147",
+            "50:53142",
+            "50:53143",
+            "50:53140"
+          ],
+          "occurrences": 10
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-DB-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53223"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-DB-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53219"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "HarmonyHeiTi",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53100",
+            "50:53086",
+            "50:53064"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14028
+          },
+          "sampleNodeIds": [
+            "50:52780",
+            "50:52978",
+            "50:52980",
+            "50:52437",
+            "50:52618",
+            "50:52399",
+            "50:52418",
+            "50:52434"
+          ],
+          "occurrences": 72
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 36,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53052",
+            "50:53051",
+            "50:53050",
+            "50:53049",
+            "50:53048",
+            "50:53047"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14028
+          },
+          "sampleNodeIds": [
+            "50:52611",
+            "50:52973",
+            "50:52792",
+            "50:52430",
+            "50:52296",
+            "50:52274",
+            "50:52317",
+            "50:52298"
+          ],
+          "occurrences": 41
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:52398",
+            "50:52760",
+            "50:52579",
+            "50:52216",
+            "50:52941",
+            "50:52038"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 43,
+            "localID": 33866
+          },
+          "sampleNodeIds": [
+            "50:51990",
+            "50:52168"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "HarmonyHeiTi",
+            "style": "",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:28296",
+            "67:28295",
+            "67:28297"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "HarmonyHeiTi",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 50,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:28328",
+            "67:28329",
+            "67:28325",
+            "67:28326",
+            "67:28310",
+            "67:28315",
+            "67:28324",
+            "67:28322"
+          ],
+          "occurrences": 21
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31954"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28794
+          },
+          "sampleNodeIds": [
+            "67:31308"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:30746",
+            "67:27385"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "SimSun",
+            "style": "",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:31125",
+            "67:27390"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 50,
+            "localID": 28798
+          },
+          "sampleNodeIds": [
+            "67:31274"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27748",
+            "67:27509",
+            "67:27523"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 8.399999618530273,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27621",
+            "67:27565",
+            "67:27556"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 7.984790802001953,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27482",
+            "67:28158",
+            "67:28156",
+            "67:28159",
+            "67:28157"
+          ],
+          "occurrences": 5
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Light",
+            "postscript": ""
+          },
+          "fontSize": 11.40999984741211,
+          "lineHeight": {
+            "value": 14,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27447"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-DB-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53333"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 2,
+            "localID": 14028
+          },
+          "sampleNodeIds": [
+            "50:52223",
+            "50:52045"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 13.199999809265137,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:28075",
+            "67:28074"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12.600000381469727,
+          "lineHeight": {
+            "value": 19.600000381469727,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "67:27884"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "50:53196",
+            "50:53157",
+            "50:53156",
+            "50:53199",
+            "50:53158",
+            "50:53192",
+            "50:53195",
+            "50:53154"
+          ],
+          "occurrences": 9
+        }
+      ],
+      "stateGroups": [],
+      "viewportEvidence": [
+        {
+          "id": "67:31068",
+          "name": "编组 11",
+          "size": {
+            "x": 320,
+            "y": 40
+          },
+          "path": "过程稿 / 按钮ButtonV2 / 按钮种类 / 8. 加载按钮 / gm.40.10 / 编组 11"
+        },
+        {
+          "id": "50:52866",
+          "name": "调试任务",
+          "size": {
+            "x": 1920,
+            "y": 1080
+          },
+          "path": "过程稿 / 调试任务"
+        },
+        {
+          "id": "50:53232",
+          "name": "矩形",
+          "size": {
+            "x": 1920,
+            "y": 1187
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 组合 677 / 矩形"
+        },
+        {
+          "id": "50:53231",
+          "name": "组合 677",
+          "size": {
+            "x": 1920,
+            "y": 2136
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 组合 677"
+        },
+        {
+          "id": "50:53055",
+          "name": "灰条",
+          "size": {
+            "x": 1920,
+            "y": 24
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 灰条"
+        },
+        {
+          "id": "50:53053",
+          "name": "多卡片",
+          "size": {
+            "x": 1920,
+            "y": 1183
+          },
+          "path": "过程稿 / 多卡片"
+        },
+        {
+          "id": "50:52685",
+          "name": "调试任务",
+          "size": {
+            "x": 1920,
+            "y": 1080
+          },
+          "path": "过程稿 / 调试任务"
+        },
+        {
+          "id": "67:30771",
+          "name": "容器 91334333",
+          "size": {
+            "x": 320,
+            "y": 48
+          },
+          "path": "过程稿 / 按钮ButtonV2 / 按钮尺寸 / 容器 91334336 / 容器 91334335 / 组合 91334324 / 容器 91334333"
+        },
+        {
+          "id": "50:53054",
+          "name": "容器 1",
+          "size": {
+            "x": 1920,
+            "y": 2374
+          },
+          "path": "过程稿 / 多卡片 / 容器 1"
+        },
+        {
+          "id": "50:51963",
+          "name": "调试任务",
+          "size": {
+            "x": 1920,
+            "y": 1080
+          },
+          "path": "过程稿 / 调试任务"
+        },
+        {
+          "id": "50:52323",
+          "name": "调试任务",
+          "size": {
+            "x": 1920,
+            "y": 1080
+          },
+          "path": "过程稿 / 调试任务"
+        },
+        {
+          "id": "67:27919",
+          "name": "编组 11",
+          "size": {
+            "x": 320,
+            "y": 40
+          },
+          "path": "过程稿 / 按钮ButtonV1 / 容器 91334141 / 组合 91334315 / gm.40.10 / 编组 11"
+        },
+        {
+          "id": "50:52141",
+          "name": "调试任务",
+          "size": {
+            "x": 1920,
+            "y": 1080
+          },
+          "path": "过程稿 / 调试任务"
+        },
+        {
+          "id": "50:53222",
+          "name": "导航",
+          "size": {
+            "x": 1920,
+            "y": 34
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 组合 676 / 导航"
+        },
+        {
+          "id": "50:53208",
+          "name": "矩形",
+          "size": {
+            "x": 1920,
+            "y": 150
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 组合 676 / 矩形"
+        },
+        {
+          "id": "50:53101",
+          "name": "菜单",
+          "size": {
+            "x": 1920,
+            "y": 64
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 菜单"
+        },
+        {
+          "id": "50:53207",
+          "name": "组合 676",
+          "size": {
+            "x": 1920,
+            "y": 150
+          },
+          "path": "过程稿 / 多卡片 / 容器 1 / 组合 676"
+        },
+        {
+          "id": "50:52504",
+          "name": "调试任务",
+          "size": {
+            "x": 1920,
+            "y": 1080
+          },
+          "path": "过程稿 / 调试任务"
+        }
+      ],
+      "adoption": "source-specific rules; current owner decisions override stated conflicts; no newest-file priority",
+      "onlineRuleVerification": {
+        "method": "direct page traversal; complete matching normative text and instance text",
+        "nodeCount": 325,
+        "sourceTextNodeCount": 1588,
+        "receiptJob": 14,
+        "scope": "Rule text and resolved note typography; not whole-file visual/style/asset acceptance"
+      }
+    }
+  ],
+  "onlineRulesVerifiedPages": 3
+}

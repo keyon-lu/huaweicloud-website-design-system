@@ -1,0 +1,29 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-26-8108/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-002-26-8108",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "contract": "references/pixso-recommended-docs.md",
+        "generationKind": "recommended-docs",
+        "validationScripts": [
+          "scripts/content-floor-content.mjs",
+          "scripts/composed-content.mjs"
+        ],
+        "scope": "Specific source branch; full source acceptance pending",
+        "export": "PortalRecommendedDocs",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "242642e05c7fc213d14cbc8f9482b6f102b0dcc3729a9dd8d446fc61a081865b"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

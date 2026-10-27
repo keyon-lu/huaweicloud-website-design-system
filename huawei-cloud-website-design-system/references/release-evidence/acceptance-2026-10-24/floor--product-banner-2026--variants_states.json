@@ -1,0 +1,64 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "floor/product-banner-2026/variants_states",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "reviewType": "adopted-public-branch-contract-review",
+    "subject": "product-banner-2026",
+    "contract": "references/product-2026-banner-responsive.md",
+    "contractSha256": "6abf933a9e2dc338f74e052a401f4409d01d78b29a57020f2e65ef4b866c671d",
+    "model": "references/first-release-floor-family-contracts.json",
+    "modelSha256": "dd924fc0ff36dc4b01ed58a0997d8d8696d11299bf4443ee292574e71c20e56f",
+    "namedStates": [
+      "slide-selected",
+      "slide-hidden",
+      "rotation-running",
+      "rotation-paused",
+      "poster",
+      "video-playing",
+      "video-paused"
+    ],
+    "transitionRules": "Manual default; optional >=5s rotation pauses on hover/focus/hidden/offscreen/reduced motion; explicit pause retained; hidden slides do not load video.",
+    "unsupportedOrHostOwned": "No production ad scheduling; local white-on-image is not global dark theme.",
+    "scope": "Source contract/specification and finite supported-state definition reviewed against the current public entry and source contract. This is not runtime execution of every state, new source visual approval, responsive-long-content acceptance or manual accessibility certification.",
+    "newOwnerApprovals": 0,
+    "newRuntimePasses": 0
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/floor--product-banner-2026--variants_states.json",
+    "recordSha256": "aafeed6bc624ce28a93a8c6bd559cae6e2d096893a10ffef381281cb67bc228e",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/floor--product-banner-2026--variants_states.json",
+    "sha256": "99ef4a20a16883571e1e9017d32f5aa17bb2b3c43f593ac52689c1cbc094fc0c"
+  }
+}

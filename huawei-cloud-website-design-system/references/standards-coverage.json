@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-10-14 Asia/Shanghai",
+  "rules": "current-standards.md",
+  "acceptance": "acceptance-ledger.json",
+  "dimensions": {
+    "color": "USER_CONFIRMED text button + source semantic CSS; no universal blue links",
+    "spacing": "USER_CONFIRMED grid16px, floor subtitle12px and scoped component gaps",
+    "typography": "source/scoped implementation; source font not bundled",
+    "radius-shadow-elevation": "source CSS and scoped accepted page",
+    "states": "documented implemented states; not all official component variants",
+    "responsive": "USER_CONFIRMED24/8/4grid; component-specific boundaries;1776 assumption remains",
+    "accessibility": "implementation requirements; formal audit gap; user acceptance not keyboard trace",
+    "copy-i18n": "truthful content contract; RTL/internationalization unsupported",
+    "assets": "navigation logo and registered sample media included; full brand library/font/video gap",
+    "technical-boundary": "React wrappers, no source jQuery execution/backend resource operations",
+    "page-composition": "configured product floors + accepted developer sample; no normative whole-site order"
+  },
+  "formal_creator_phase": "P2 modeling gate passed; next P4 source-based component planning; Pixso branch deferred"
+}

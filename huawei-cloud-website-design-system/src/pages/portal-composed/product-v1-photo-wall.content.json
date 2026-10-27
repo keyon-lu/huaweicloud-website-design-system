@@ -1,0 +1,141 @@
+{
+  "scene": "campaign",
+  "hero": {
+    "title": "照片墙来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "photo-wall-v1",
+      "id": "v1-photo-wall",
+      "title": "活动照片墙",
+      "background": "grey",
+      "bleed": "container",
+      "autoScrollPixelsPerSecond": 20,
+      "groups": [
+        {
+          "id": "group-0",
+          "layout": "six",
+          "large": {
+            "id": "large-0",
+            "asset": "product-v1-photo-wall-large",
+            "alt": "设计规范中的活动大图示例"
+          },
+          "small": [
+            {
+              "id": "small-0",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-1",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-2",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-3",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-4",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            }
+          ]
+        },
+        {
+          "id": "group-1",
+          "layout": "six",
+          "large": {
+            "id": "large-1",
+            "asset": "product-v1-photo-wall-large",
+            "alt": "设计规范中的活动大图示例"
+          },
+          "small": [
+            {
+              "id": "small-0",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-1",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-2",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-3",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-4",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            }
+          ]
+        }
+      ],
+      "mobileGroups": [
+        {
+          "id": "mobile-0",
+          "layout": "three",
+          "large": {
+            "id": "mobile-large-0",
+            "asset": "product-v1-photo-wall-large",
+            "alt": "设计规范中的活动大图示例"
+          },
+          "small": [
+            {
+              "id": "small-0",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-1",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            }
+          ]
+        },
+        {
+          "id": "mobile-1",
+          "layout": "three",
+          "large": {
+            "id": "mobile-large-1",
+            "asset": "product-v1-photo-wall-large",
+            "alt": "设计规范中的活动大图示例"
+          },
+          "small": [
+            {
+              "id": "small-0",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            },
+            {
+              "id": "small-1",
+              "asset": "product-v1-photo-wall-small",
+              "alt": "设计规范中的活动小图示例"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "pause": "暂停照片滚动",
+        "resume": "继续照片滚动",
+        "slides": "照片组切换",
+        "slide": "照片组"
+      }
+    }
+  ]
+}

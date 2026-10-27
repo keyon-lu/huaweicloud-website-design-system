@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-10-14 Asia/Shanghai",
+  "records": [
+    {
+      "sample": "developer-home",
+      "date": "2026-10-14",
+      "accepted_version": "2.0.24-draft",
+      "evidence_label": "USER_CONFIRMED",
+      "artifact_sha256": "f801acda361125b17048e1331809c96a62e06234220846928ae89c985436d2d6",
+      "confirmation": "可以了，这个页面我验证通过了",
+      "scope": "Current developer-home preview after the shared mobile menu, compact Skills card spacing, navigation/footer and grid corrections",
+      "acceptance": {
+        "current_developer_page": "user validated and accepted"
+      },
+      "current_applicability": "Current accepted developer presentation remains byte-identical; documentation-only2.0.25 does not assert a new user acceptance.",
+      "limits": [
+        "Manual user acceptance, not an automated live browser result.",
+        "No exact viewport list or interaction trace supplied; do not invent coverage.",
+        "This accepts the current developer preview, not all product pages, all future compositions or formal package release."
+      ]
+    },
+    {
+      "sample": "waf-baseline",
+      "date": "2026-10-13",
+      "accepted_version": "2.0.12-draft",
+      "evidence_label": "USER_CONFIRMED",
+      "artifact_sha256": "58071b3bf5f237441c0d25c0af932178f6aa5e99d90677b06b22d4dfa2f5fd07",
+      "confirmation": {
+        "visual": "这个页面我觉得也没问题了",
+        "responsive_and_interaction": "响应和交互没问题"
+      },
+      "scope": "Current implemented floors of WAF transfer preview, not a complete official WAF page or a package release",
+      "acceptance": {
+        "visual": "user accepted",
+        "responsive": "user accepted",
+        "interaction": "user accepted"
+      },
+      "current_applicability": "Historical acceptance; current shared grid/header/footer changes require new scoped review.",
+      "limits": [
+        "No exact tested viewport list or interaction trace supplied by the user; do not fabricate them.",
+        "Acceptance is manual user evidence, not an automated browser report.",
+        "Omitted official WAF floors, default-route generation reliability, developer-page coverage and formal Creator release gates are outside this acceptance."
+      ]
+    },
+    {
+      "sample": "cloudrobo-default",
+      "date": "2026-10-13",
+      "accepted_version": "2.0.13-draft",
+      "evidence_label": "USER_CONFIRMED",
+      "artifact_sha256": "99186844566048062a896690496ea94bd4714a9e4b8305fddc3f4c05b651df92",
+      "confirmation": "复用组件的效果我觉得没问题",
+      "scope": "CloudRobo default-route preview: visual effect of reused components for hero, folded advantages, customer cases and footer",
+      "acceptance": {
+        "component_reuse_visual_effect": "user accepted",
+        "responsive_all_viewports": "not separately confirmed in this message",
+        "browser_interactions": "not separately confirmed in this message"
+      },
+      "current_applicability": "Historical acceptance; current shared grid/header/footer changes require new scoped review.",
+      "limits": [
+        "Not full original CloudRobo page acceptance.",
+        "No new global official-design certification or formal release approval.",
+        "No viewport list, screenshots or browser test traces supplied; do not invent them."
+      ]
+    },
+    {
+      "sample": "agentarts-default",
+      "date": "2026-10-14",
+      "accepted_version": "2.0.26-draft",
+      "evidence_label": "USER_CONFIRMED",
+      "artifact_sha256": "e2bee141a34d0af0ff5519cc87277c13e392c83a6233b6ac1a383571bec35ef6",
+      "confirmation": "3没问题",
+      "scope": "Item3: current AgentArts shared-component migration sample, as reviewed by the user",
+      "acceptance": {
+        "current_migration_sample": "user accepted"
+      },
+      "current_applicability": "Original2.0.26 migration artifact accepted; new combinations and browser regression coverage are separate.",
+      "limits": [
+        "No exact tested viewport list or touch/keyboard trace supplied.",
+        "Does not accept omitted original-site modules, full source-site reproduction, all component states or formal P8 release.",
+        "Item4 browser regression coverage remains separate."
+      ]
+    }
+  ],
+  "gaussdb": "Historical reference/user认可 retained in Creator records; no new current-artifact acceptance inferred."
+}

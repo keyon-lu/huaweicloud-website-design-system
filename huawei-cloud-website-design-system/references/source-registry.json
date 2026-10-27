@@ -1,0 +1,2036 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\anchor.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:6100a6c0f60fc635ebba9d0960a4eba9591bd71f5bc76937fb66eb8e1ac3774a",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:47+08:00"
+    },
+    {
+      "source_id": "SRC-002",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\breadcrumb.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:3006af47984be33e59c4d0dd6772476985c554ca3bf0bb1c97867b48c1134a7a",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:47+08:00"
+    },
+    {
+      "source_id": "SRC-003",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\button.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:a97671111350ad1c7939ba73ac361fc47878d871d2b2c0fa9c44e62a3797bdb9",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:47+08:00"
+    },
+    {
+      "source_id": "SRC-004",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\card.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:de0ffee4d75c601818397ec1bb48f384069642b4c50c4c5f2982b7ea9f7b9f89",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:48+08:00"
+    },
+    {
+      "source_id": "SRC-005",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\carousel.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:25393da0ebad5fe26ed7b7859c82bfd08b2f9fe48287b7b7772f9c19dea4f144",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:48+08:00"
+    },
+    {
+      "source_id": "SRC-006",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\checkbox.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:f632b5dddc8e72ec9a02445f31e4aaa21f93213706e808682e87a50738bd015c",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:48+08:00"
+    },
+    {
+      "source_id": "SRC-007",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\collapse.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:afedcc82f243fcc0835495b922f9858a5cc4056b665c7b1fe47c097770005094",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:49+08:00"
+    },
+    {
+      "source_id": "SRC-008",
+      "type": "token",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\color.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:e9bc9f63ac9495f54d342d10375bd2a35a967cb60bb81409997039d5944b10e7",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:49+08:00"
+    },
+    {
+      "source_id": "SRC-009",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\countdown.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:abecd0154e31c23c9f2a11049b35abce66eaedc8358c482bb07bcd95de488998",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:49+08:00"
+    },
+    {
+      "source_id": "SRC-010",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\datepicker.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:6b503b40dd46752219d4e0a43ba2bee44b4bbc39f05d3acd64099d9a4dfd0b64",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:50+08:00"
+    },
+    {
+      "source_id": "SRC-011",
+      "type": "token",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\design-tokens.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c8e30fe023c4ea806bd0d9666ccc4a5a738933498556dc2b53c38b89d7cf8e62",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:50+08:00"
+    },
+    {
+      "source_id": "SRC-012",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\fixed-table.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c290b7c3cbc8d45c273762756a7ab393649d49aa0441c3cd2ca1199a624090c8",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:50+08:00"
+    },
+    {
+      "source_id": "SRC-013",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\floor.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c756b6eb4ffcb7d1c6f183c0900242c7142b9fd5b3dc67e08885f24b277181f2",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:51+08:00"
+    },
+    {
+      "source_id": "SRC-014",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\getting-started.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:bce8b60c56f4caa03ae713f11a75ea89fe087264e31fd52684a82b9530ba9c1a",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:51+08:00"
+    },
+    {
+      "source_id": "SRC-015",
+      "type": "token",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\grid.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:3a87031dc399fc7ac5ba57ad2df47f24bc349bf2fbbcdfd07a8b709f92b6a2b2",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:51+08:00"
+    },
+    {
+      "source_id": "SRC-016",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\icon.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:293e9a1f734154eebc02b1d1d312e3a040178402f6f9f8d222ff931bc9ba358c",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:51+08:00"
+    },
+    {
+      "source_id": "SRC-017",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\img-viewer.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c113a7cd7b5a91569e3f7fd83d25b7b17773df3c57c5a5461f394f5a2dad446e",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:52+08:00"
+    },
+    {
+      "source_id": "SRC-018",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\input.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:a6f6fc9f686d62511617590dae893b99d42244298446e4b64b5fc0b7e1313efc",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:52+08:00"
+    },
+    {
+      "source_id": "SRC-019",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\label.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:a70d103791683e23de7cb5e919d266182b376896fc9414789bc2b93c64928a61",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:52+08:00"
+    },
+    {
+      "source_id": "SRC-020",
+      "type": "token",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\level.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:3b6059de8f4abb71b8c9c076f996b0db2a92551c18f59ab79ef49156e2e1e056",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:53+08:00"
+    },
+    {
+      "source_id": "SRC-021",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\link.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:b330b944e1b19fcf6f255c44d629f28685c634ce60e2f18e8cc0ed82c3aa5b17",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:53+08:00"
+    },
+    {
+      "source_id": "SRC-022",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\modal.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:03c2892f97303d6f4e182c3efdf06e5a2cb81f985e5313ee39921d7b3a803a79",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:53+08:00"
+    },
+    {
+      "source_id": "SRC-023",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\pagination.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:e2b90bd70d68cb670f7e78ed54c8ec4b46a6ea09cad37a2fab0961739f495a43",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:54+08:00"
+    },
+    {
+      "source_id": "SRC-024",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\player.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:d32b6be05a463674996fdf82dca44b91e7ccd8ae79984b57e9224aa397d8592b",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:54+08:00"
+    },
+    {
+      "source_id": "SRC-025",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\price.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:022e9f3d2b63946d4c9d02f753f7ad7543a20aa8b64275cec9a1234c74bcedcd",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:54+08:00"
+    },
+    {
+      "source_id": "SRC-026",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\rate.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:53353ef618cbdde2dbfc7fa892dfeb8542726f78539f5dedbfbbf108a91fb006",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:55+08:00"
+    },
+    {
+      "source_id": "SRC-027",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\scrollbar.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:409a52430229c5834afea21196171d9fe3c2c5a87af3c6efa88a280a725011db",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:55+08:00"
+    },
+    {
+      "source_id": "SRC-028",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\select.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:9ef07533430c7276fb99a768a85215dd8ff1ed78e0b9a8b3f4d05bb219b65a43",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:55+08:00"
+    },
+    {
+      "source_id": "SRC-029",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\service-table.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:42cb52518432841a49bb91d5daf4fc32cb0452fc9ecf1192084924fc1de24bb8",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:55+08:00"
+    },
+    {
+      "source_id": "SRC-030",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\tab.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:ad528d4a55f734edc6486c73eb24ee74234da88e7e2d694d00058b1ea2aa451f",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:56+08:00"
+    },
+    {
+      "source_id": "SRC-031",
+      "type": "token",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\text.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:e4856c09fb2afe17750e9ab42d7768529b8222dfcc9d5e3b25d72d09e88bfcf3",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:56+08:00"
+    },
+    {
+      "source_id": "SRC-032",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\tips.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c851575a0ce6df2c91dffc31747cb8159a2c468acf57160aa2302e41d3dba579",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:56+08:00"
+    },
+    {
+      "source_id": "SRC-033",
+      "type": "token",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui\\variable.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:37c1550e44ca7cf865204f7f1e19d863195b9d72ac3891af9163994a2da55c50",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:57+08:00"
+    },
+    {
+      "source_id": "SRC-034",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\baseui-index.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:2a7372f6104b1652bc42933215c9d867acc13f6c97d9e9b770ad3879eac7a609",
+      "notes": "用户提供的 PortalUI 文档；版本、审批状态与两场景适用性待确认。",
+      "registered_at": "2026-10-10T16:12:57+08:00"
+    },
+    {
+      "source_id": "SRC-035",
+      "type": "code",
+      "location": "C:\\Users\\23519\\Desktop\\doc\\xtemplate-guide.md",
+      "authority": "secondary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c40334633e67ea18525be9d03c8f335a5b6e8e15e8c61dc9848ce46980055867",
+      "notes": "开发语法参考；不作为视觉设计规则来源。",
+      "registered_at": "2026-10-10T16:12:57+08:00"
+    },
+    {
+      "source_id": "SRC-036",
+      "type": "token",
+      "location": "https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "3.0.17; sha256:d24fde366303637223baa12234cd067767b381c0668e5d1fc424e24687402ca2",
+      "notes": "该版本实现证据；当前获批版本及两场景适用性待确认。含完整样式；提取须保留状态、作用域和媒体查询。",
+      "registered_at": "2026-10-10T16:12:58+08:00"
+    },
+    {
+      "source_id": "SRC-037",
+      "type": "code",
+      "location": "https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.js",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "3.0.17; sha256:6bfd6636c90333b59dd0c89686c4981821ca7d6c5ea79b47230f6bbf93035523",
+      "notes": "该版本实现证据；当前获批版本及两场景适用性待确认。仅静态读取；不是未取得的 .cjs 的替代证明。",
+      "registered_at": "2026-10-10T16:12:58+08:00"
+    },
+    {
+      "source_id": "SRC-038",
+      "type": "code",
+      "location": "https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.cjs",
+      "authority": "primary",
+      "status": "missing",
+      "scope": [
+        "public-website-product-and-developer; applicability-pending"
+      ],
+      "evidence_label": "MISSING_REQUIRED",
+      "checksum_or_version": "3.0.17",
+      "notes": "用户提供链接返回403；仅此来源缺失，不阻断 CSS 和文档基础规则提取。",
+      "registered_at": "2026-10-10T16:12:58+08:00"
+    },
+    {
+      "source_id": "SRC-039",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\material-intake\\2026-10-10\\user-decisions.md",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "text-button-color",
+        "sm-grid-breakpoint"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:7bbfbb042dabc06df071a0237403758e9b25d6ca21b487626c2ecd6fa2cd776c",
+      "notes": "用户裁定文字按钮蓝色 #1476ff，sm 栅格 max-width 1024px；原 CDN 979px 实现需后续适配，不改变全部媒体查询。 2026-10-15用户明确停用#1476FF页面界面色，旧蓝色文字按钮决定已被覆盖；sm断点等其它决定保持原范围。",
+      "registered_at": "2026-10-10T16:27:28+08:00"
+    },
+    {
+      "source_id": "SRC-040",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\material-intake\\2026-10-10\\version-baseline-decision.md",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "portalui-baseline-and-live-page-comparison"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:3d49ee5ac50f803cd3b86265fafa4d391013a06c76a98c525181a3f8f7ac5209",
+      "notes": "用户确认先将 PortalUI 3.0.17 作为基础资料，后续对照实际官网响应式表现并记录差异；不宣称版本获批或两场景完全适用。",
+      "registered_at": "2026-10-10T16:36:56+08:00"
+    },
+    {
+      "source_id": "SRC-041",
+      "type": "example",
+      "location": "https://codearts.huaweicloud.com/",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:724af2c9283ef17cf9daa1fc982a40cab594deac29109f9f2f609c3c076c5411",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:54+08:00"
+    },
+    {
+      "source_id": "SRC-042",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/officeace.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:eae4ce4611e6637f6ffb6f771c1f8cd94baa36bca2ed578a315ea0070d29ba61",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:54+08:00"
+    },
+    {
+      "source_id": "SRC-043",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/modelarts/studio.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:4854284e3b24491468106cb160a355ef96914db28abb575286753e05c75cbfca",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:54+08:00"
+    },
+    {
+      "source_id": "SRC-044",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/modelarts.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:37c27b493cdb9fc8d2b8f49b89256b940f2a686a8471c194ebff695738275cc2",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:55+08:00"
+    },
+    {
+      "source_id": "SRC-045",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/agentarts.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:194a94a69bd6c86bf8a21a556f0379393da0d9470be7718503c5ab711f1b5679",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:55+08:00"
+    },
+    {
+      "source_id": "SRC-046",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/gaussdb.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:215014abb5d00022e71bf93c74c0febb9b960a48c8672bb5f46c89bff4fde5f5",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:55+08:00"
+    },
+    {
+      "source_id": "SRC-047",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/cloudrobo.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:bfe83b07ac5e6aef74632970ee3dd8685f6cf337b8732247858b6eb8225665f6",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:55+08:00"
+    },
+    {
+      "source_id": "SRC-048",
+      "type": "example",
+      "location": "https://www.huaweicloud.com/product/waf.html",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:fa9bce9b5221c60636bfe89243cb61d0c2e8170c5f8a2b0d6823a2a76081e591",
+      "notes": "用户提供的产品页实例；HTML 已获取，逐视口视觉表现尚未验证；不得推断为全站通则。",
+      "registered_at": "2026-10-10T16:50:56+08:00"
+    },
+    {
+      "source_id": "SRC-049",
+      "type": "token",
+      "location": "https://portal.hc-cdn.com/cnpm-baseui/3.0.18/theme-token.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:26fd5917edbec7cc2582a3bb263bd9985be93cdcd8cc19b318f904641b40bed6",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:56+08:00"
+    },
+    {
+      "source_id": "SRC-050",
+      "type": "code",
+      "location": "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/css/global.min.css?sttl=1.2.20&ttr=1.2.20",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:fe3f90dc4230115a838d103bea32caa0fd06e45b71026f2aaa89219a0ae320c7",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:56+08:00"
+    },
+    {
+      "source_id": "SRC-051",
+      "type": "code",
+      "location": "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/css/global.min.css?sttl=3.0.21&ttr=1.2.20",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:fe3f90dc4230115a838d103bea32caa0fd06e45b71026f2aaa89219a0ae320c7",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:57+08:00"
+    },
+    {
+      "source_id": "SRC-052",
+      "type": "code",
+      "location": "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.61/index.css?sttl=1.2.20&ttr=1.2.20",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:69ae3d3b9e8ae2c17fd2cb9a6bbdba38f3b2816460d274820c715cb8684b5c42",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:57+08:00"
+    },
+    {
+      "source_id": "SRC-053",
+      "type": "code",
+      "location": "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.61/index.css?sttl=3.0.21&ttr=1.2.20",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:69ae3d3b9e8ae2c17fd2cb9a6bbdba38f3b2816460d274820c715cb8684b5c42",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:57+08:00"
+    },
+    {
+      "source_id": "SRC-054",
+      "type": "code",
+      "location": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/agentArtsDemo/css/styles.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:228ce99eee2490117fef16a0ea8719e6883b2d4ec1eaf86f110e206ddba4fc6b",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:57+08:00"
+    },
+    {
+      "source_id": "SRC-055",
+      "type": "code",
+      "location": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/codearts-editor/v10/index.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:7d11b5d15eafbd3f3a390162956e1a7b21c2c81c3e22e726aa38ae1f78b38866",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:58+08:00"
+    },
+    {
+      "source_id": "SRC-056",
+      "type": "code",
+      "location": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/果办OfficeAce/果办demo/dist/css/styles-1789545561893.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:5ab64c6fa586142c9c29b29b92a978a09e618c7368c770c510f895dbe624f7dd",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:58+08:00"
+    },
+    {
+      "source_id": "SRC-057",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-basic-banner/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:8fcc87005c1cdd1a523ef27c02c4ab055a06c0a7f903bb382a3075f2656b1456",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:58+08:00"
+    },
+    {
+      "source_id": "SRC-058",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-customer-case/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:a112faca34fb7d5a6f8bc3f10c67108ef5672bb20cd6a787f011620293c281ec",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:58+08:00"
+    },
+    {
+      "source_id": "SRC-059",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-folded-pictext-svelte/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:49219eaea09303c4cd6ba7a69826155d758f80636be815ef3e4e7aa266b40bad",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:59+08:00"
+    },
+    {
+      "source_id": "SRC-060",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-horizontal-carousel/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:6f391b119d7383795b31c8a410f22f7a1a2e55e469f368798cc8165971492a4a",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:59+08:00"
+    },
+    {
+      "source_id": "SRC-061",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-next-step/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:fe8c3caf9af71f37d0727570c9a83ef20e11e1cc6115e871ac9c00074bea9985",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:50:59+08:00"
+    },
+    {
+      "source_id": "SRC-062",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-problem-v3/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:a5d70b99bbdd0c0dd89486ca07d848aa0692db320682b75556ca64948311f0ef",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:00+08:00"
+    },
+    {
+      "source_id": "SRC-063",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-product-solution/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:35088b7ae118e8fe6c2a1ff778d891ff296e5b06baba6c7b8b08b6451c105186",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:00+08:00"
+    },
+    {
+      "source_id": "SRC-064",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-yunbao-assistant/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:b0546af9804921ec0f85ec6db607e9c342b725a29aead126d7a662bc3dae39a9",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:00+08:00"
+    },
+    {
+      "source_id": "SRC-065",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.201/cnpm-pep-horizontal-carousel/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:8ba3eeb629cb5c9c1a75ec563f4ee50d45b202498381c0b815cf1d4e4a6cd092",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:00+08:00"
+    },
+    {
+      "source_id": "SRC-066",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.201/cnpm-pep-scenario-carousel/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:3e42fec9c2cce14f0b30a5a8965b7025641dff30b708135411735bfe38b11d57",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:01+08:00"
+    },
+    {
+      "source_id": "SRC-067",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.202/cnpm-pep-customer-case/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:d3418cfec6d01dfd01df15ae63e5658c547ebf2c227e9e615e827905ec386ef0",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:01+08:00"
+    },
+    {
+      "source_id": "SRC-068",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.202/cnpm-pep-next-step/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:09513b06c4fca7ff60affc17f8e4380b4d527761693565bd1daea1a4d7ac1612",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:01+08:00"
+    },
+    {
+      "source_id": "SRC-069",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-basic-banner/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:6ae63b76f81355aeb37ca3eaa163e86b8206fd46ff068feca3c3af6d95dcb8aa",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:02+08:00"
+    },
+    {
+      "source_id": "SRC-070",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-folded-pictext-svelte/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:ff73b656ff06c927f63fbf1f4f19c50a9f2dd886ae6e9c0361eab95c39fc37d5",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:02+08:00"
+    },
+    {
+      "source_id": "SRC-071",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-hover-card/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:1a7f21c7d90278ecd5fd20ed0d38437e78d6712d99bf0db4330509cb230092c8",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:02+08:00"
+    },
+    {
+      "source_id": "SRC-072",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-next-step/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:a4a61138de972443fefbc0bdea69a0aebde17947f3f0f0ef92cdc6f2207f275c",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:02+08:00"
+    },
+    {
+      "source_id": "SRC-073",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-problem-v4/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:611a3ff156164f4fc5ce2c1c20633f6a17792372c3c40d65aa790bcd7b0af27d",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:03+08:00"
+    },
+    {
+      "source_id": "SRC-074",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-promotion-card/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:05a6a6ae864c8d94046b1536a4f2492599e1171945983a0e540802695af07101",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:03+08:00"
+    },
+    {
+      "source_id": "SRC-075",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.7.205/cnpm-pep-video-card/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:6b27189b691f15978d1b116f8997fa7263be26bf70dd42d9452a3ad1b47dc747",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:03+08:00"
+    },
+    {
+      "source_id": "SRC-076",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.8.201/cnpm-pep-demo-architecture/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:16440e37ce770f9126d978cce36e88761ae704dc36694240a3ce24e729472b0a",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:04+08:00"
+    },
+    {
+      "source_id": "SRC-077",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.8.201/cnpm-pep-product-advantage-v3/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:8443a6964d126be6f1f9a89984ee326c45f2c5aa025dced2f0fba189e93c2845",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:04+08:00"
+    },
+    {
+      "source_id": "SRC-078",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.8.203/cnpm-pep-customer-case/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:acd7dcbae1c6cde04afc164e521ea2b60cea22d650e64f3ac18fc6f6a087cc9c",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:04+08:00"
+    },
+    {
+      "source_id": "SRC-079",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/pep-components-svelte/11.9.102/cnpm-pep-smart-card/client/style.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-product-pages"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:4e312c68635df8615066a82307e59e246f9283b09ffbe2091c93500f911f26d5",
+      "notes": "产品页 HTML 实际引用的公开样式；保留原始版本与媒体查询，未据此升级基础规范或完成视觉验收。",
+      "registered_at": "2026-10-10T16:51:04+08:00"
+    },
+    {
+      "source_id": "SRC-080",
+      "type": "example",
+      "location": "https://developer.huaweicloud.com/",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "public-developer-homepage"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:fe3a354900ae0bf9b565478e0933dce81924392b8e1280472ef341130f64a944",
+      "notes": "用户提供开发者官网首页；动态 DOM 已读取，六视口计算布局已测量；截图与交互未完成，不作为全站通则。",
+      "registered_at": "2026-10-10T17:04:27+08:00"
+    },
+    {
+      "source_id": "SRC-081",
+      "type": "token",
+      "location": "https://portal.hc-cdn.com/cnpm-baseui/3.0.9/theme-token.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-developer-homepage"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:df5ba163ecafc48b003f31dfb0d5f35057c1dbf5859913c555b4fc4f7801edb1",
+      "notes": "开发者官网 HTML 或运行时 DOM 实际引用的公开 CSS；保留实际版本，不替代用户选择的3.0.17基础资料。",
+      "registered_at": "2026-10-10T17:04:27+08:00"
+    },
+    {
+      "source_id": "SRC-082",
+      "type": "code",
+      "location": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/css/app.05f697dc.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-developer-homepage"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:4c79e0d3ba9768f84940c709632f71a78b109f00b56d4a029373d0527b318f06",
+      "notes": "开发者官网 HTML 或运行时 DOM 实际引用的公开 CSS；保留实际版本，不替代用户选择的3.0.17基础资料。",
+      "registered_at": "2026-10-10T17:04:27+08:00"
+    },
+    {
+      "source_id": "SRC-083",
+      "type": "code",
+      "location": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/css/979.dc80ede9.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-developer-homepage"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:6bd365180d0cc7c0917a2f45db48ac6472df1bf890762b823be0217b5d4d2fc3",
+      "notes": "开发者官网 HTML 或运行时 DOM 实际引用的公开 CSS；保留实际版本，不替代用户选择的3.0.17基础资料。",
+      "registered_at": "2026-10-10T17:04:28+08:00"
+    },
+    {
+      "source_id": "SRC-084",
+      "type": "code",
+      "location": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/css/399.9885c22f.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-developer-homepage"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:ef64899b3bad9e26ac38b2e90daecc91fd0752a14187c4e95602e81ade0ed36b",
+      "notes": "开发者官网 HTML 或运行时 DOM 实际引用的公开 CSS；保留实际版本，不替代用户选择的3.0.17基础资料。",
+      "registered_at": "2026-10-10T17:04:28+08:00"
+    },
+    {
+      "source_id": "SRC-085",
+      "type": "code",
+      "location": "https://res.hc-cdn.com/cpage-pep-hwc-new-home-header-footer/1.0.92/pc/index.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-developer-homepage"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "retrieved 2026-10-10; sha256:5a7bbbdd455ae670ba69b516422abc06850fee54c5823a455ca1654388c1849f",
+      "notes": "开发者官网 HTML 或运行时 DOM 实际引用的公开 CSS；保留实际版本，不替代用户选择的3.0.17基础资料。",
+      "registered_at": "2026-10-10T17:04:28+08:00"
+    },
+    {
+      "source_id": "SRC-086",
+      "type": "code",
+      "location": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/navi/PClogonew.svg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "public-website-navigation-logo"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:1cadd84c487139668b545b841592b5d4089ceefe3b2b4cf6206d6efe8f578565",
+      "notes": "User specified official top-left navigation Logo. Original111x39; source canvas does not set rendering dimensions. Snapshot: .skill-creator/material-intake/2026-10-12-brand/navigation-logo.svg",
+      "registered_at": "2026-10-12T10:19:51+08:00"
+    },
+    {
+      "source_id": "SRC-087",
+      "type": "example",
+      "location": "https://open.huaweicloud.com/openplatform/icons",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "official-product-logo-directory"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:68d7d53c3342c6eb6d13581d140cabf3a302a171690bc2cc156d6c016d6d7850",
+      "notes": "User provided directory; dynamic UI timed out. Referenced scripts and manifest read as static sources. Snapshot: .skill-creator/material-intake/2026-10-12-brand/product-icons.html",
+      "registered_at": "2026-10-12T10:19:51+08:00"
+    },
+    {
+      "source_id": "SRC-088",
+      "type": "code",
+      "location": "https://open.huaweicloud.com/openplatform/vue-assets/index-DohoBCY8.js",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "logo-catalogue-provenance"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:d75e234e5ab5c96bd31692f987318644974498b1a7fae248319d4b0fb72847ae",
+      "notes": "Official page actual app reference; inspected without execution. Snapshot: .skill-creator/material-intake/2026-10-12-brand/product-icons-app.js",
+      "registered_at": "2026-10-12T10:19:52+08:00"
+    },
+    {
+      "source_id": "SRC-089",
+      "type": "code",
+      "location": "https://open.huaweicloud.com/openplatform/vue-assets/IconsPage-CgFwsZGs.js",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "logo-catalogue-provenance"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c8d8bd88ac1b315053fe727f41ee149fccb9493b626bee95c00a478473c54c7a",
+      "notes": "Observed router chunk declares /openplatform/icons/manifest.v1.json. Snapshot: .skill-creator/material-intake/2026-10-12-brand/product-icons-page.js",
+      "registered_at": "2026-10-12T10:19:52+08:00"
+    },
+    {
+      "source_id": "SRC-090",
+      "type": "code",
+      "location": "https://open.huaweicloud.com/openplatform/icons/manifest.v1.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "product-logo-name-mapping"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:2862d932cdaff5ca1407910d5b0a85cf826cbda9b5576e93d0291626208f1f69",
+      "notes": "196 records; architecture planned fields are unavailable. CodeArts/codeartsdoer distinct. Individual product Logo files not downloaded. Snapshot: .skill-creator/material-intake/2026-10-12-brand/product-icons-manifest.json",
+      "registered_at": "2026-10-12T10:19:52+08:00"
+    },
+    {
+      "source_id": "SRC-091",
+      "type": "code",
+      "location": "https://res-static.hc-cdn.cn/cloudbu-site/public/new-product-icon/Databases/GaussDB.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB official directory product identity"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:5c596a3b6a573667ab4689ac0eaabaf0b1814ff3e84d98a7e483b1ccb1255ca2",
+      "notes": "Distinct directory and hero assets; promoted through Creator asset helper. Snapshot: .skill-creator/refinement-2026-10-12/asset-staging/gaussdb-logo.png",
+      "registered_at": "2026-10-12T12:26:10+08:00"
+    },
+    {
+      "source_id": "SRC-092",
+      "type": "code",
+      "location": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/GaussDBxiazai/GaussDB01.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB live hero display icon"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:1756d79ed9854a19f7387cc9245964085633f881f7cb85fac353471b3fbefdc3",
+      "notes": "Distinct directory and hero assets; promoted through Creator asset helper. Snapshot: .skill-creator/refinement-2026-10-12/asset-staging/gaussdb-hero-icon.png",
+      "registered_at": "2026-10-12T12:26:10+08:00"
+    },
+    {
+      "source_id": "SRC-093",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\refinement-2026-10-12\\user-priority-decision.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "first-reference-pilot"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:b48be45667b09b232e6313dc89997c58456b1f1f79636ea47a6244560732e5ff",
+      "notes": "Human selected GaussDB in async question.",
+      "registered_at": "2026-10-12T12:29:34+08:00"
+    },
+    {
+      "source_id": "SRC-094",
+      "type": "example",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\refinement-2026-10-12\\gauss-reference-1440.json",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "GaussDB-reference-observation"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:0e0236a98ae0511965c971ac793efbd7309030dc01fa3a64ed62aaec14db1982",
+      "notes": "Live instance only; paired390 measurements and screenshots in same directory, no global normative approval.",
+      "registered_at": "2026-10-12T12:29:34+08:00"
+    },
+    {
+      "source_id": "SRC-095",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\user-first-screen-acceptance.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-first-screen"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:d82e4c9094dd246488c59af163a2eed6617dcb9eacc0ec2c9f4823afbc3f5567",
+      "notes": "Human approved visual fidelity of first screen, no global or full-page approval.",
+      "registered_at": "2026-10-12T19:14:32+08:00"
+    },
+    {
+      "source_id": "SRC-096",
+      "type": "example",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\flat-desktop.json",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "GaussDB-desktop-instance"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:a5a079877b289157205e7a5717c9388613192dad1ac586daa5aea4115ce161a6",
+      "notes": "Read-only live DOM measurements at1440; instance truth only, no normative pattern promotion.",
+      "registered_at": "2026-10-12T19:14:33+08:00"
+    },
+    {
+      "source_id": "SRC-097",
+      "type": "example",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\source-content.json",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-composition"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:055c518178a892e7718461eccaf5f56389f1d7e661a6777775cf5747c94948f8",
+      "notes": "Extracted from official saved HTML including initial data; commercial values are dated samples.",
+      "registered_at": "2026-10-12T19:14:33+08:00"
+    },
+    {
+      "source_id": "SRC-098",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5aca4a2b3344.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:33f4bc985689bc4000a7cbf7c30323fa831afc8fe51de08a58b35ca9ae862d9c",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/优势/优势03.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:33+08:00"
+    },
+    {
+      "source_id": "SRC-099",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-11429a7cab59.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:026e886f58f99a18ca18f3072dc74c6d590a402385d7f5371309ae2e0a3c42a1",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/优势/优势02.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:33+08:00"
+    },
+    {
+      "source_id": "SRC-100",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-cf2230190a50.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:ee7a5aa4c632441d5df1984fea6b33b763e37378c83a73ffb716495d21cb091c",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon01.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:34+08:00"
+    },
+    {
+      "source_id": "SRC-101",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-52a29ef6507f.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:a32781f47c816ee42c10580f0f06d032cb55bd14f07a81df0066747b5aa57181",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon02.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:34+08:00"
+    },
+    {
+      "source_id": "SRC-102",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-11e46d00496b.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:03a59b6e44b09e3eecb63ffb8b012e64306f8e18389ef4662b4ea5993a204cde",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon03.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:34+08:00"
+    },
+    {
+      "source_id": "SRC-103",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-0f5a6c446509.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:fc0a1d5adc2df23e64b2d24f848f513cfd026edc5925cf93e86bb93d6d32a070",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon04.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:35+08:00"
+    },
+    {
+      "source_id": "SRC-104",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-75028b47531f.jpg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:99182eda46ffdc69ebc8a84b6c3e285780b04a10722622fde32f4b076f134e2a",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/邮政银行.jpg; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:35+08:00"
+    },
+    {
+      "source_id": "SRC-105",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-4845da248352.jpg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:92d3549c737b5172623fdc8a4a3f33acef17028a21db7172999eaf8f25892b97",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/农商银行.jpg; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:35+08:00"
+    },
+    {
+      "source_id": "SRC-106",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-16e79a4b1149.jpg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:9c561851f0f069bfa97c22d512e0dd790d1ff2c1bc0f6fb878a511ccec214db0",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/国信证券.jpg; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:36+08:00"
+    },
+    {
+      "source_id": "SRC-107",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-3911776119de.jpg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:c601ed51f30da1481cb0c9adb4b9df930ae85e242f9420a5f1a11844c8d5deb4",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/华为MetaERP.jpg; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:36+08:00"
+    },
+    {
+      "source_id": "SRC-108",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-308e892d1519.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:077cc5afd6d8fad830a8c067799f506fbf4a33ac596ce00a72253411abc3e230",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-youzheng.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:36+08:00"
+    },
+    {
+      "source_id": "SRC-109",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-974a9e8c8fd2.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:ba0147ce8e5162eda73e4b7f5091b8f51d661ca4589f5900d09fa8f385f76d76",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-suzhou.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:36+08:00"
+    },
+    {
+      "source_id": "SRC-110",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-d2f996ca5727.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:d9a735fa7e0f9a2838810ae8b14c55303d4eb17d39ca5e4cc98665da5fc9e20b",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-guoxin.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:37+08:00"
+    },
+    {
+      "source_id": "SRC-111",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5fecf4cfffe5.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:80f0e8858425195a2275d69edd82034c2d1e688789c5dc8528d95c3580c41b3e",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-metaerp.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:37+08:00"
+    },
+    {
+      "source_id": "SRC-112",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-13abf572fd50.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:11c422dbdefdc7f2c5d569ded15a9bb22874460d8c264ab1c75ee191e3f3b397",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo920.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:37+08:00"
+    },
+    {
+      "source_id": "SRC-113",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-804869a93a33.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:09a9d1c8946b17d5d04bd7991584e4b519d918285595970fd1e2e521f6bfb450",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video01.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:38+08:00"
+    },
+    {
+      "source_id": "SRC-114",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-e55e44230a92.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:ab57df5fca14994e30591e16536f870c217f7f1a9301fa28ae22b8807f536d4f",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video02.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:38+08:00"
+    },
+    {
+      "source_id": "SRC-115",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5034674b24f0.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:d6593c3c88e1a53a76e42d4cd05d8c3201a4c9df054982093fbd5171b2dbf0ef",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video03.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:38+08:00"
+    },
+    {
+      "source_id": "SRC-116",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-7c0c9cefad64.jpg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:84e9f15e03807ea65035b4e106d76719db334d43ec7f92258781e3056c8a2de3",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/底图.jpg; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:39+08:00"
+    },
+    {
+      "source_id": "SRC-117",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-41de24e6cff5.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:3b9c382ce431b5ec8694e4a62e8f7b48a32e69102f43d4aecb26216b57adcfd0",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo-1280.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:39+08:00"
+    },
+    {
+      "source_id": "SRC-118",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5b50c6a97dfe.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:59b2ba75d8a097d7c79750087d6d35916bfca631229b4c3b9c9d009d874f101c",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo-375.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:39+08:00"
+    },
+    {
+      "source_id": "SRC-119",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-a680d30fc03e.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:9bb2010bf9ba1300a75b3b038cfed9ce2a9dcd9aab7174bf142c01cadeaacfc2",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo920.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:39+08:00"
+    },
+    {
+      "source_id": "SRC-120",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-0cd5877d1b35.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:e84a150ee9c95c18220d21d45f1c5f2fa7d9659f59927e5a9da66901c994f7c2",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo-1280.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:40+08:00"
+    },
+    {
+      "source_id": "SRC-121",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-b33e7e5ccbed.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:616c2639eb55a1440a9a76e5c211908c665cb1426d8f4c136227669eedc406e4",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo-375.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:40+08:00"
+    },
+    {
+      "source_id": "SRC-122",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-10aac9511593.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:40097633e8b6b91c9e6d24bd65fa939270d156bd806df321fb348b56378679d2",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo920.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:40+08:00"
+    },
+    {
+      "source_id": "SRC-123",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-0b1dfc797967.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:8a96eab7a2211391cff48b049e74e33d2dec73c48522ae98094d3f07ec21687b",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo-1280.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:41+08:00"
+    },
+    {
+      "source_id": "SRC-124",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-fccbe22c627f.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-official-media"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:acf7887d5420dae447487c42bf6b4653804dfaa1d2b8d9a47d6ead2f8605c555",
+      "notes": "Official page media URL: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo-375.png; reuse scope limited to this sample.",
+      "registered_at": "2026-10-12T19:14:41+08:00"
+    },
+    {
+      "source_id": "SRC-125",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\annotations-2026-10-12\\owner-comments.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-annotated-components"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:cd253133b072188116126dc296b8e62b0e0818359ecb5297111f27685322deea",
+      "notes": "Nine human browser comments; exact1920 geometry only where stated.",
+      "registered_at": "2026-10-12T19:57:22+08:00"
+    },
+    {
+      "source_id": "SRC-126",
+      "type": "example",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\annotations-2026-10-12\\responsive-source-rules.json",
+      "authority": "example",
+      "status": "available",
+      "scope": [
+        "GaussDB-annotated-components"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:f5ce89c40bea57a372b8834dac06360c0529858dfacb5bd61e5831b66d8f04a5",
+      "notes": "Selector-specific rules from cached official styles; source CSS matches for benefit/video/carousel/FAQ, analogous promotion component for featured mobile dimensions.",
+      "registered_at": "2026-10-12T19:57:22+08:00"
+    },
+    {
+      "source_id": "SRC-127",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\annotations-2026-10-12\\official-video-play.svg",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-annotated-components"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:bc4b55042d7338bbae347c3f1b3c1ad5ca056081843841aa6e1e4a84cf25646f",
+      "notes": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/global/icon-video.svg",
+      "registered_at": "2026-10-12T19:57:22+08:00"
+    },
+    {
+      "source_id": "SRC-128",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\annotations-2026-10-12\\gauss-featured-gradient.png",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-annotated-components"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:04af6fbeed0d8d8a18d992a1ce0b35a2541f58524b359fa0ad1999f0924ee161",
+      "notes": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/蓝色背景.png",
+      "registered_at": "2026-10-12T19:57:22+08:00"
+    },
+    {
+      "source_id": "SRC-129",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\annotation-followup-2026-10-12\\owner-followup.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-followup-annotations"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:c823347ebf5d6e7cabf3a6927750bd255807117e35cbe91fc3d5bfe3babd06f0",
+      "notes": "Owner requested duration before play icon and inspection of featured top-right clipping.",
+      "registered_at": "2026-10-12T20:03:32+08:00"
+    },
+    {
+      "source_id": "SRC-130",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\owner-responsive-comments.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-responsive-components"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:8e303bdde3852758b57e0573c0e0ba6bc78978250ee7486e8666cdd7f54c303a",
+      "notes": "Twelve human browser comments; width boundaries are scoped owner decisions, not global tokens.",
+      "registered_at": "2026-10-12T20:49:09+08:00"
+    },
+    {
+      "source_id": "SRC-131",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\gauss-next-step.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:fe8c3caf9af71f37d0727570c9a83ef20e11e1cc6115e871ac9c00074bea9985",
+      "notes": "https://res.hc-cdn.com/pep-components-svelte/11.6.201/cnpm-pep-next-step/client/style.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:09+08:00"
+    },
+    {
+      "source_id": "SRC-132",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\gauss-cases.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:acd7dcbae1c6cde04afc164e521ea2b60cea22d650e64f3ac18fc6f6a087cc9c",
+      "notes": "https://res.hc-cdn.com/pep-components-svelte/11.8.203/cnpm-pep-customer-case/client/style.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:09+08:00"
+    },
+    {
+      "source_id": "SRC-133",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\gauss-benefits.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:8443a6964d126be6f1f9a89984ee326c45f2c5aa025dced2f0fba189e93c2845",
+      "notes": "https://res.hc-cdn.com/pep-components-svelte/11.8.201/cnpm-pep-product-advantage-v3/client/style.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:10+08:00"
+    },
+    {
+      "source_id": "SRC-134",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\global.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:fe3f90dc4230115a838d103bea32caa0fd06e45b71026f2aaa89219a0ae320c7",
+      "notes": "https://portal.hc-cdn.com/cnpm-global-resources/1.2.20/css/global.min.css?sttl=3.0.21&ttr=1.2.20; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:10+08:00"
+    },
+    {
+      "source_id": "SRC-135",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\header.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:69ae3d3b9e8ae2c17fd2cb9a6bbdba38f3b2816460d274820c715cb8684b5c42",
+      "notes": "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.61/index.css?sttl=3.0.21&ttr=1.2.20; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:10+08:00"
+    },
+    {
+      "source_id": "SRC-136",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\product-nav-pc.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:21870b990371bb2f254129aa665658850f1f0395400f2e6018d6720ea18a6d88",
+      "notes": "https://res.hc-cdn.com/cnpm-pep-components/2.4.85/cnpm-pep-solution-page-navigate-v2/pc/index.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:10+08:00"
+    },
+    {
+      "source_id": "SRC-137",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\product-nav-m.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:21870b990371bb2f254129aa665658850f1f0395400f2e6018d6720ea18a6d88",
+      "notes": "https://res.hc-cdn.com/cnpm-pep-components/2.4.85/cnpm-pep-solution-page-navigate-v2/m/index.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:11+08:00"
+    },
+    {
+      "source_id": "SRC-138",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\pricing-pc.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:177e4cabc0563d459db83a412ca8ab175304869da6b78c6d9d5a8bd5394f4efc",
+      "notes": "https://res.hc-cdn.com/cnpm-pep-components/2.4.81/cnpm-pep-activity-promotion-v3/pc/index.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:11+08:00"
+    },
+    {
+      "source_id": "SRC-139",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\responsive-annotations-2026-10-12\\recognition-tabs-pc.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-source-responsive-styles"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:0d502464315aa587ae7be6c4ef7e29814ead1f5558738165e2894e37b4c6c987",
+      "notes": "https://res.hc-cdn.com/cnpm-pep-components/2.4.44/cnpm-pep-tab-v2/pc/index.css; fetched official CSS, no runtime screenshot verification",
+      "registered_at": "2026-10-12T20:49:11+08:00"
+    },
+    {
+      "source_id": "SRC-140",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\compact-pricing-2026-10-13\\owner-confirmation.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-pricing-responsive-content"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:3ed9a66604f966a57dbaf369122f006f219994d2413942fdccbc8be4848330df",
+      "notes": "Only title/subtitle/price at768 and below; comment capture695. Column-count rule unchanged.",
+      "registered_at": "2026-10-13T08:59:57+08:00"
+    },
+    {
+      "source_id": "SRC-141",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\partner-width-2026-10-13\\owner-width-confirmation.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-partner-responsive-width"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:06738eac121bdf2a886e742e8cdbd455651570aa9cff4f610626735f3f196d79",
+      "notes": "Human browser comment confirms1442px width at1920.",
+      "registered_at": "2026-10-13T09:03:30+08:00"
+    },
+    {
+      "source_id": "SRC-142",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\partner-width-2026-10-13\\architecture-source.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-partner-responsive-width"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:16440e37ce770f9126d978cce36e88761ae704dc36694240a3ce24e729472b0a",
+      "notes": "Official GaussDB architecture component CSS: .card-item-pc__media--center widths1442/1152/960/768; fetched source version11.8.201 preserved in prior material intake.",
+      "registered_at": "2026-10-13T09:03:30+08:00"
+    },
+    {
+      "source_id": "SRC-143",
+      "type": "decision",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\video-typography-2026-10-13\\owner-confirmation.json",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-video-card-typography"
+      ],
+      "evidence_label": "USER_CONFIRMED",
+      "checksum_or_version": "sha256:3929dcc925b3a72deac1cbf52afa696b555221cc7cb92c6171c1c15067e7f586",
+      "notes": "Human confirms14px at865; asks unified breakpoint inspection.",
+      "registered_at": "2026-10-13T09:11:48+08:00"
+    },
+    {
+      "source_id": "SRC-144",
+      "type": "code",
+      "location": "D:\\华为云官网设计skills\\.skill-creator\\video-typography-2026-10-13\\official-video-component.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "GaussDB-video-card-typography"
+      ],
+      "evidence_label": "SOURCE_CONFIRMED",
+      "checksum_or_version": "sha256:6b27189b691f15978d1b116f8997fa7263be26bf70dd42d9452a3ad1b47dc747",
+      "notes": "GaussDB video component11.7.205, .pep-video-card__title:24/36,20/30,16/24,14/22,12/18,14/22 with599 mobile override.",
+      "registered_at": "2026-10-13T09:11:49+08:00"
+    },
+    {
+      "source_id": "SRC-145",
+      "type": "code",
+      "location": "references/source-assets/process-v2-2.4.31.css",
+      "authority": "primary",
+      "status": "available",
+      "scope": [
+        "partners-process-v2-floor"
+      ],
+      "evidence_label": "SOURCE_OBSERVED",
+      "checksum_or_version": "sha256:0e40cfcfde933c00439431a04693b5e68649385bd49683ffa491101dd452b878",
+      "notes": "Owner-selected https://www.huaweicloud.com/partners/ penultimate floor; cnpm-pep-product-process-v2/2.4.31; live page foundation3.0.18 observed, package base3.0.17 retained; observed1440 desktop and375 mobile. Replaces unsuitable legacy pro-process-steps selection.",
+      "registered_at": "2026-10-16T10:25:48.529220+08:00"
+    }
+  ]
+}

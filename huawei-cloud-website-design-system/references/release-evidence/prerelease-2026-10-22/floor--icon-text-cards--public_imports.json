@@ -1,0 +1,14 @@
+{
+  "kind": "source-release-check",
+  "check": "floor/icon-text-cards/public_imports",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "floor": "icon-text-cards",
+    "source": "references/pixso-icon-text-cards.md",
+    "scope": "Existing registered floor import/generation routing compiled and source generation tests passed; no claim of source-visual approval."
+  }
+}

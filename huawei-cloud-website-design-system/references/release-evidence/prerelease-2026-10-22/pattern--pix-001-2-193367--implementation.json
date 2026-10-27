@@ -1,0 +1,28 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-001-2-193367/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-001-2-193367",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProduct2026Videos",
+        "contract": "references/product-2026-video.md",
+        "generationKind": "video-cards-2026",
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ],
+        "scope": "source-scoped editable video cards with actual native video dialog, captions/error/retry; full source visual acceptance pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "8991ee2809a9622421992727149fbe528c78c1307dfcd9bf51578c26400fd60c"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-004-7-45657/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-004-7-45657",
+    "targets": [
+      {
+        "kind": "variant",
+        "entry": "src/components/portal-components.tsx",
+        "contract": "assets/search-workspace/src/components-specs/document-pager.md",
+        "scope": "Exact source page fragment partial; full-source acceptance pending",
+        "export": "PortalDocumentPager",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "ae802b25219279352e2e8e79ffd3ce1f1ab18d80635ae915b19fba44af842569"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

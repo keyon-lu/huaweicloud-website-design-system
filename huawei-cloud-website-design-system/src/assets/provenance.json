@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "path": "src/assets/navigation-logo.svg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\material-intake\\2026-10-12-brand\\navigation-logo.svg",
+      "sha256": "1cadd84c487139668b545b841592b5d4089ceefe3b2b4cf6206d6efe8f578565",
+      "promoted_at": "2026-10-12T10:19:51+08:00",
+      "consumers": [
+        "PortalHeader through PortalAsset",
+        "portal-generate-page.mjs"
+      ]
+    },
+    {
+      "path": "src/assets/gaussdb-logo.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\refinement-2026-10-12\\asset-staging\\gaussdb-logo.png",
+      "sha256": "5c596a3b6a573667ab4689ac0eaabaf0b1814ff3e84d98a7e483b1ccb1255ca2",
+      "promoted_at": "2026-10-12T12:26:09+08:00",
+      "consumers": [
+        "portal-generate-page.mjs"
+      ],
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/new-product-icon/Databases/GaussDB.png"
+    },
+    {
+      "path": "src/assets/gaussdb-hero-icon.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\refinement-2026-10-12\\asset-staging\\gaussdb-hero-icon.png",
+      "sha256": "1756d79ed9854a19f7387cc9245964085633f881f7cb85fac353471b3fbefdc3",
+      "promoted_at": "2026-10-12T12:26:09+08:00",
+      "consumers": [
+        "PortalGaussHero through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/GaussDBxiazai/GaussDB01.png"
+    },
+    {
+      "path": "src/assets/gauss-5aca4a2b3344.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/优势/优势03.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5aca4a2b3344.png",
+      "sha256": "33f4bc985689bc4000a7cbf7c30323fa831afc8fe51de08a58b35ca9ae862d9c",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-098"
+    },
+    {
+      "path": "src/assets/gauss-11429a7cab59.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/优势/优势02.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-11429a7cab59.png",
+      "sha256": "026e886f58f99a18ca18f3072dc74c6d590a402385d7f5371309ae2e0a3c42a1",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-099"
+    },
+    {
+      "path": "src/assets/gauss-cf2230190a50.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon01.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-cf2230190a50.png",
+      "sha256": "ee7a5aa4c632441d5df1984fea6b33b763e37378c83a73ffb716495d21cb091c",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-100"
+    },
+    {
+      "path": "src/assets/gauss-52a29ef6507f.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon02.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-52a29ef6507f.png",
+      "sha256": "a32781f47c816ee42c10580f0f06d032cb55bd14f07a81df0066747b5aa57181",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-101"
+    },
+    {
+      "path": "src/assets/gauss-11e46d00496b.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon03.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-11e46d00496b.png",
+      "sha256": "03a59b6e44b09e3eecb63ffb8b012e64306f8e18389ef4662b4ea5993a204cde",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-102"
+    },
+    {
+      "path": "src/assets/gauss-0f5a6c446509.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon04.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-0f5a6c446509.png",
+      "sha256": "fc0a1d5adc2df23e64b2d24f848f513cfd026edc5925cf93e86bb93d6d32a070",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-103"
+    },
+    {
+      "path": "src/assets/gauss-75028b47531f.jpg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/邮政银行.jpg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-75028b47531f.jpg",
+      "sha256": "99182eda46ffdc69ebc8a84b6c3e285780b04a10722622fde32f4b076f134e2a",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-104"
+    },
+    {
+      "path": "src/assets/gauss-4845da248352.jpg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/农商银行.jpg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-4845da248352.jpg",
+      "sha256": "92d3549c737b5172623fdc8a4a3f33acef17028a21db7172999eaf8f25892b97",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-105"
+    },
+    {
+      "path": "src/assets/gauss-16e79a4b1149.jpg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/国信证券.jpg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-16e79a4b1149.jpg",
+      "sha256": "9c561851f0f069bfa97c22d512e0dd790d1ff2c1bc0f6fb878a511ccec214db0",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-106"
+    },
+    {
+      "path": "src/assets/gauss-3911776119de.jpg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/华为MetaERP.jpg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-3911776119de.jpg",
+      "sha256": "c601ed51f30da1481cb0c9adb4b9df930ae85e242f9420a5f1a11844c8d5deb4",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-107"
+    },
+    {
+      "path": "src/assets/gauss-308e892d1519.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-youzheng.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-308e892d1519.png",
+      "sha256": "077cc5afd6d8fad830a8c067799f506fbf4a33ac596ce00a72253411abc3e230",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-108"
+    },
+    {
+      "path": "src/assets/gauss-974a9e8c8fd2.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-suzhou.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-974a9e8c8fd2.png",
+      "sha256": "ba0147ce8e5162eda73e4b7f5091b8f51d661ca4589f5900d09fa8f385f76d76",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-109"
+    },
+    {
+      "path": "src/assets/gauss-d2f996ca5727.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-guoxin.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-d2f996ca5727.png",
+      "sha256": "d9a735fa7e0f9a2838810ae8b14c55303d4eb17d39ca5e4cc98665da5fc9e20b",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-110"
+    },
+    {
+      "path": "src/assets/gauss-5fecf4cfffe5.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-metaerp.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5fecf4cfffe5.png",
+      "sha256": "80f0e8858425195a2275d69edd82034c2d1e688789c5dc8528d95c3580c41b3e",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-111"
+    },
+    {
+      "path": "src/assets/gauss-13abf572fd50.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo920.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-13abf572fd50.png",
+      "sha256": "11c422dbdefdc7f2c5d569ded15a9bb22874460d8c264ab1c75ee191e3f3b397",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-112"
+    },
+    {
+      "path": "src/assets/gauss-804869a93a33.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video01.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-804869a93a33.png",
+      "sha256": "09a9d1c8946b17d5d04bd7991584e4b519d918285595970fd1e2e521f6bfb450",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-113"
+    },
+    {
+      "path": "src/assets/gauss-e55e44230a92.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video02.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-e55e44230a92.png",
+      "sha256": "ab57df5fca14994e30591e16536f870c217f7f1a9301fa28ae22b8807f536d4f",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-114"
+    },
+    {
+      "path": "src/assets/gauss-5034674b24f0.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video03.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5034674b24f0.png",
+      "sha256": "d6593c3c88e1a53a76e42d4cd05d8c3201a4c9df054982093fbd5171b2dbf0ef",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-115"
+    },
+    {
+      "path": "src/assets/gauss-7c0c9cefad64.jpg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/底图.jpg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-7c0c9cefad64.jpg",
+      "sha256": "84e9f15e03807ea65035b4e106d76719db334d43ec7f92258781e3056c8a2de3",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-116"
+    },
+    {
+      "path": "src/assets/gauss-41de24e6cff5.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo-1280.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-41de24e6cff5.png",
+      "sha256": "3b9c382ce431b5ec8694e4a62e8f7b48a32e69102f43d4aecb26216b57adcfd0",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-117"
+    },
+    {
+      "path": "src/assets/gauss-5b50c6a97dfe.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo-375.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-5b50c6a97dfe.png",
+      "sha256": "59b2ba75d8a097d7c79750087d6d35916bfca631229b4c3b9c9d009d874f101c",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-118"
+    },
+    {
+      "path": "src/assets/gauss-a680d30fc03e.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo920.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-a680d30fc03e.png",
+      "sha256": "9bb2010bf9ba1300a75b3b038cfed9ce2a9dcd9aab7174bf142c01cadeaacfc2",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-119"
+    },
+    {
+      "path": "src/assets/gauss-0cd5877d1b35.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo-1280.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-0cd5877d1b35.png",
+      "sha256": "e84a150ee9c95c18220d21d45f1c5f2fa7d9659f59927e5a9da66901c994f7c2",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-120"
+    },
+    {
+      "path": "src/assets/gauss-b33e7e5ccbed.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo-375.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-b33e7e5ccbed.png",
+      "sha256": "616c2639eb55a1440a9a76e5c211908c665cb1426d8f4c136227669eedc406e4",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-121"
+    },
+    {
+      "path": "src/assets/gauss-10aac9511593.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo920.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-10aac9511593.png",
+      "sha256": "40097633e8b6b91c9e6d24bd65fa939270d156bd806df321fb348b56378679d2",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-122"
+    },
+    {
+      "path": "src/assets/gauss-0b1dfc797967.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo-1280.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-0b1dfc797967.png",
+      "sha256": "8a96eab7a2211391cff48b049e74e33d2dec73c48522ae98094d3f07ec21687b",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-123"
+    },
+    {
+      "path": "src/assets/gauss-fccbe22c627f.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo-375.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\fullpage-refinement-2026-10-12\\asset-staging\\gauss-fccbe22c627f.png",
+      "sha256": "acf7887d5420dae447487c42bf6b4653804dfaa1d2b8d9a47d6ead2f8605c555",
+      "consumers": [
+        "PortalGaussFullContent through PortalAsset",
+        "portal-generate-page.mjs"
+      ],
+      "scope": "GaussDB sample only",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "source_id": "SRC-124"
+    },
+    {
+      "path": "src/assets/official-video-play.svg",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\annotations-2026-10-12\\official-video-play.svg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/global/icon-video.svg",
+      "source_id": "SRC-127",
+      "sha256": "bc4b55042d7338bbae347c3f1b3c1ad5ca056081843841aa6e1e4a84cf25646f",
+      "consumers": [
+        "PortalGaussVideos"
+      ],
+      "scope": "GaussDB sample"
+    },
+    {
+      "path": "src/assets/gauss-featured-gradient.png",
+      "source": "D:\\华为云官网设计skills\\.skill-creator\\annotations-2026-10-12\\gauss-featured-gradient.png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/蓝色背景.png",
+      "source_id": "SRC-128",
+      "sha256": "04af6fbeed0d8d8a18d992a1ce0b35a2541f58524b359fa0ad1999f0924ee161",
+      "consumers": [
+        "PortalGaussPricing"
+      ],
+      "scope": "GaussDB sample"
+    }
+  ]
+}

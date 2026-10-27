@@ -1,0 +1,45 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "2026智能体卡片验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "agent-cards-2026",
+      "id": "agents-2026",
+      "title": "用智能体打造更实用的应用",
+      "background": "white",
+      "labels": {
+        "pauseBackground": "暂停背景视频",
+        "resumeBackground": "恢复背景视频",
+        "actions": "智能体入口"
+      },
+      "items": [
+        {
+          "id": "platform",
+          "title": "智果 AgentArts 智能体平台",
+          "description": "智能流畅的开发体验，高性能安全稳定运行时",
+          "asset": "product-2026-agent-background",
+          "mobileAsset": "product-2026-agent-mobile-background",
+          "icon": "product-2026-agent-icon",
+          "mobileIcon": "product-2026-agent-icon",
+          "copyWidth": 50,
+          "cardBackground": "white",
+          "tone": "ink",
+          "tags": [
+            "开发体验",
+            "智能体"
+          ],
+          "actions": [
+            {
+              "label": "了解平台",
+              "href": "#agents-2026",
+              "variant": "primary"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

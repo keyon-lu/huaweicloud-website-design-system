@@ -1,0 +1,63 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-25",
+  "check": "floor/photo-wall-v1/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "actualPassedCases": [
+      {
+        "name": "photo-wall/native-auto-user-pause",
+        "date": "2026-10-25T07:50:11.915Z",
+        "scope": "Desktop source photo track visibly advances between observations; native Enter sets explicit user pause, later position remains unchanged. Frame-level seamless wrapping, hidden/offscreen lifecycle and physical swipe not inferred.",
+        "observationType": "native-interaction"
+      },
+      {
+        "name": "photo-wall/phone-native-manual-group",
+        "date": "2026-10-25T07:50:31.329Z",
+        "scope": "375 reduced motion manual second photo group reaches end; source phone uses two independent three-photo groups and no PC autoplay pause control. Physical swipe not claimed.",
+        "observationType": "native-interaction"
+      }
+    ],
+    "historicalObservations": [],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-host-checks-v21.json",
+    "continuityProof": "references/release-evidence/acceptance-2026-10-24/host-fixture-continuity-v21.json",
+    "wholeSourceApproval": false,
+    "scope": "Configured named runtime or pure structural fixture observations only, not every supported state. Visual, manual AT/touch/keyboard, real zoom, clipboard roundtrip and production integrations remain separate. Old solution track keyboard focus continuity explicitly not passed."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/floor--photo-wall-v1--runtime_interaction.json",
+    "recordSha256": "498720eda2eac0b93df1d98355b6fb37ca387c8561116a3ff0dd9925fd34874a",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs-v21.json",
+      "sha256": "21c80166498cc4a4101beb4e07b051a10cd5f5ae012af4bc7ff955fd57b00275"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/floor--photo-wall-v1--runtime_interaction.json",
+    "sha256": "bd12af8a18254078d938815adbdf024e21d3b34df665db4cb2c5ec89fd2448d0"
+  }
+}

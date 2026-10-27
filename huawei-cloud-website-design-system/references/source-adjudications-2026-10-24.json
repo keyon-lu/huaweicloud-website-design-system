@@ -1,0 +1,71 @@
+{
+  "kind": "agent-source-adjudication",
+  "date": "2026-10-24",
+  "authority": {
+    "type": "current-user-delegation",
+    "statement": "你继续完成剩下的验收、检查和裁定"
+  },
+  "authorType": "agent",
+  "newOwnerApprovals": 0,
+  "sourceArchiveSha256": "cd1a7c2d38c9471482240aedb3a624df4ad7e5027f912bd8d4b9026dc7e411c2",
+  "items": [
+    {
+      "id": "information-mobile-ratio",
+      "designDecision": "Use343/182 for the implemented mobile image-group branch",
+      "sourceFacts": [
+        {
+          "id": "134:936",
+          "parentId": "134:932",
+          "size": {
+            "x": 343,
+            "y": 182
+          },
+          "rawNodeSha256": "709d45b4f3a6e0e913ed3b2f105e8c3881c137d2bbec4f7ed2eabeb0c2b598cf",
+          "path": "卡片类 / 场景直播卡片 / 上图下文-综合信息 / ys.2.15 / 编组 44 / 编组 50 / 截屏2023-04-14 17.26.53"
+        },
+        {
+          "id": "134:975",
+          "parentId": "134:971",
+          "size": {
+            "x": 343,
+            "y": 182
+          },
+          "rawNodeSha256": "b81f7c2f8f5fd2cdebe93e3cdb73fa7e15a5c207edd18765be9b349fb772a2d0",
+          "path": "卡片类 / 场景直播卡片 / 上图下文-综合信息 / ys.2.15 / 编组 45 / 编组 50 / 截屏2023-04-14 17.26.53"
+        }
+      ],
+      "scope": "Only the exact implemented groups134:936/975. Text references316/182 and720/182 remain archived unadopted branches, not universal image rules.",
+      "status": "resolved-for-supported-branch",
+      "onlineVerification": {
+        "fileKey": "AnKaOlIL6H1GEhIQeH4mrQ",
+        "nodes": [
+          "134:936",
+          "134:975"
+        ],
+        "dimensions": [
+          343,
+          182
+        ],
+        "bothExportsIdentical": true,
+        "image": "references/release-evidence/information-mobile-source-2026-10-24.png",
+        "sha256": "4f9e042706f3473e32901bce18239c89282a9d6a315544dae00575a1a61b5ae7",
+        "method": "Pixso MCP original node export; no resizing or drawing"
+      }
+    },
+    {
+      "id": "next-contrast",
+      "designDecision": "Preserve the existing source-backed color/background pair in this fidelity prototype",
+      "status": "design-preservation-decided",
+      "conformance": "observed-contrast-failure-remains",
+      "scope": "No recoloring or overlay invented; no WCAG-AA pass or owner acceptance of an accessibility exception inferred."
+    },
+    {
+      "id": "live-contrast",
+      "designDecision": "Preserve source gray typography including the recorded999999 date role",
+      "status": "design-preservation-decided",
+      "conformance": "observed-contrast-failure-remains",
+      "scope": "Source26:7652/7618 and related dates. It is source fidelity evidence, not a visual-contrast pass."
+    }
+  ],
+  "formalRelease": false
+}

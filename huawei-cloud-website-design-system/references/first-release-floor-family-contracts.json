@@ -1,0 +1,1578 @@
+{
+  "kind": "reviewed-required-floor-family-contracts",
+  "date": "2026-10-24",
+  "rows": [
+    {
+      "floorId": "process-steps",
+      "publicExport": "PortalProcessSteps",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/process-steps.md",
+      "contractSha256": "f1236f9015ab3c1c1ce980003854c9fdcc7103b7cea454a3acaea626b50967ef",
+      "source": "references/source-assets/process-v2-2.4.31.css",
+      "sourceSha256": "0e40cfcfde933c00439431a04693b5e68649385bd49683ffa491101dd452b878",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Static ordered3–4 steps with registered source number/arrow assets; phone vertical; only meaningful configured href enters Tab.",
+      "unsupportedOrHostOwned": "Not progress selection; no5/6 steps, autoplay or reuse of withdrawn hexagon design.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/process-steps.md",
+        "source": "references/source-assets/process-v2-2.4.31.css",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "text",
+      "publicExport": "PortalSection",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/composed-pages.md",
+      "contractSha256": "8e1b3588b82cc2eaf0ee960e2b8a729d011dbdbbdba39fe1406af0b571efae78",
+      "source": "references/composed-pages.md",
+      "sourceSha256": "8e1b3588b82cc2eaf0ee960e2b8a729d011dbdbbdba39fe1406af0b571efae78",
+      "namedStates": [
+        "ready"
+      ],
+      "transitionRules": "Structural PortalSection wraps editable title/description/children; each descendant owns its state.",
+      "unsupportedOrHostOwned": "No internal loading/error/selected; legacy bg values are not a new global dark-theme promise.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/composed-pages.md",
+        "source": "references/composed-pages.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "cards",
+      "publicExport": "PortalCards",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/component-contract.md",
+      "contractSha256": "17848914ded6eeb2db209c443d5b06f76d685c283661099448ba17f04f350533",
+      "source": "references/component-contract.md",
+      "sourceSha256": "17848914ded6eeb2db209c443d5b06f76d685c283661099448ba17f04f350533",
+      "namedStates": [
+        "ready",
+        "native-link",
+        "hover",
+        "focus-visible"
+      ],
+      "transitionRules": "Existing product/skills/practice layout roles and optional configured native link; content remains editable.",
+      "unsupportedOrHostOwned": "Compatibility PortalCards is not a replacement for a calibrated source floor; no card-selected/async state.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/component-contract.md",
+        "source": "references/component-contract.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "folded-media",
+      "publicExport": "PortalFoldedMedia",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/shared-product-floors.md",
+      "contractSha256": "fa1d0dea4eee98578e5c3d68a95331680a546e035b0272a4ec21b047edc02593",
+      "source": "references/shared-product-floors.md",
+      "sourceSha256": "fa1d0dea4eee98578e5c3d68a95331680a546e035b0272a4ec21b047edc02593",
+      "namedStates": [
+        "initial-item-open",
+        "active-open",
+        "all-closed",
+        "focused-heading"
+      ],
+      "transitionRules": "Initial index clamped; click toggles one item and permits all closed; ArrowUp/Down/Home/End move focus without selection; artwork follows active item.",
+      "unsupportedOrHostOwned": "Manual protected WAF branch; no5000ms rotation; items must remain nonempty and changed items do not guarantee active-index reset; do not inherit2026 always-one-open rule.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/shared-product-floors.md",
+        "source": "references/shared-product-floors.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "solution-cards",
+      "publicExport": "PortalSolutionCards",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/shared-product-floors.md",
+      "contractSha256": "fa1d0dea4eee98578e5c3d68a95331680a546e035b0272a4ec21b047edc02593",
+      "source": "references/shared-product-floors.md",
+      "sourceSha256": "fa1d0dea4eee98578e5c3d68a95331680a546e035b0272a4ec21b047edc02593",
+      "namedStates": [
+        "track-start",
+        "track-middle",
+        "track-end",
+        "native-link"
+      ],
+      "transitionRules": "Manual horizontal scroll with edge-disabled controls and named keyboard region; reduced motion uses instant movement; configured source arrows.",
+      "unsupportedOrHostOwned": "No autoplay, invented modal or fake business destination; missing href is display-only and caller must supply real navigation.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/shared-product-floors.md",
+        "source": "references/shared-product-floors.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "customer-cases",
+      "publicExport": "PortalCustomerCases",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/shared-product-floors.md",
+      "contractSha256": "fa1d0dea4eee98578e5c3d68a95331680a546e035b0272a4ec21b047edc02593",
+      "source": "references/shared-product-floors.md",
+      "sourceSha256": "fa1d0dea4eee98578e5c3d68a95331680a546e035b0272a4ec21b047edc02593",
+      "namedStates": [
+        "case-selected",
+        "case-unselected",
+        "phone-track"
+      ],
+      "transitionRules": "Desktop native aria-pressed buttons select content; logos/names/items align by index; phone below840 uses all-case horizontal track.",
+      "unsupportedOrHostOwned": "Not a tablist; no invented Arrow/Home/End tab-selection behavior or automatic rotation; nonempty items required.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/shared-product-floors.md",
+        "source": "references/shared-product-floors.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "resources",
+      "publicExport": "PortalProductResources",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-pages.md",
+      "contractSha256": "19d271dfd04b09f86637c9ccecc1208a83590558de62c5bb2d9ee87770aa5bfd",
+      "source": "references/product-pages.md",
+      "sourceSha256": "19d271dfd04b09f86637c9ccecc1208a83590558de62c5bb2d9ee87770aa5bfd",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Fixed resource floor title and native configured destinations.",
+      "unsupportedOrHostOwned": "No internal search/loading/error/selection; href optional in legacy TS type does not make an absent target a valid resource navigation.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/product-pages.md",
+        "source": "references/product-pages.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "faq",
+      "publicExport": "PortalProductQuestions",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-pages.md",
+      "contractSha256": "19d271dfd04b09f86637c9ccecc1208a83590558de62c5bb2d9ee87770aa5bfd",
+      "source": "references/product-pages.md",
+      "sourceSha256": "19d271dfd04b09f86637c9ccecc1208a83590558de62c5bb2d9ee87770aa5bfd",
+      "namedStates": [
+        "question-closed",
+        "question-open"
+      ],
+      "transitionRules": "Fixed FAQ title; native details/summary with chevron; multiple questions may independently open or all close.",
+      "unsupportedOrHostOwned": "No categories, all-expand control or GaussDB-only contact text added; not the2026 FAQ state model.",
+      "binding": {
+        "model": "protected-existing-page-contract",
+        "spec": "references/product-pages.md",
+        "source": "references/product-pages.md",
+        "match": "Reviewed current function body plus component-contract/shared-product-floors/waf-special-floors; existing approved styles unchanged"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "learning-links",
+      "publicExport": "PortalLearningLinks",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/learning-links.md",
+      "contractSha256": "aab53e0c3b3cb0028eebab6572a148b60b030ced250d0766fffe62dae072c0ab",
+      "source": "references/learning-links.md",
+      "sourceSha256": "aab53e0c3b3cb0028eebab6572a148b60b030ced250d0766fffe62dae072c0ab",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Two to four link groups; distinct phone entries; hidden alternate view has no duplicate focus targets.",
+      "unsupportedOrHostOwned": "Five groups expressly excluded by owner; no intrinsic disabled/loading/error/selected.",
+      "binding": {
+        "sourceId": "pix-002-26-11030",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "process-flow",
+      "publicExport": "PortalProcessFlow",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-process-flow.md",
+      "contractSha256": "e8aac68923bc48898dc13d9d827c72dcd45a297a0df260abcbe5bae8a126c27f",
+      "source": "references/pixso-process-flow.md",
+      "sourceSha256": "e8aac68923bc48898dc13d9d827c72dcd45a297a0df260abcbe5bae8a126c27f",
+      "namedStates": [
+        "track-start",
+        "track-middle",
+        "track-end",
+        "native-link",
+        "phone-stacked"
+      ],
+      "transitionRules": "Three to five steps; tablet four visible, keyboard arrows/Home/End reach remainder; phone vertical.",
+      "unsupportedOrHostOwned": "Owner override hides scrollbar and previous/next controls; no autoplay/video/custom numbering; CTA profile explicit.",
+      "binding": {
+        "sourceId": "pix-002-26-11370",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "scene-media",
+      "publicExport": "PortalSceneMedia",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-scene-media.md",
+      "contractSha256": "5d164398f766ff35867707ced949f5d8825da7e2f932ae7371f3f5f248f15f4b",
+      "source": "references/pixso-scene-media.md",
+      "sourceSha256": "5d164398f766ff35867707ced949f5d8825da7e2f932ae7371f3f5f248f15f4b",
+      "namedStates": [
+        "single-item",
+        "tab-selected",
+        "phone-category-open",
+        "phone-category-closed"
+      ],
+      "transitionRules": "Single item hides tabs; PC tabs/phone category collapse; named text scrolling region keeps actions outside.",
+      "unsupportedOrHostOwned": "Source-conflict medium-heading and phone-image profiles explicit; no video/background/white-card source variants.",
+      "binding": {
+        "sourceId": "pix-002-26-3228",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "recommended-docs",
+      "publicExport": "PortalRecommendedDocs",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-recommended-docs.md",
+      "contractSha256": "242642e05c7fc213d14cbc8f9482b6f102b0dcc3729a9dd8d446fc61a081865b",
+      "source": "references/pixso-recommended-docs.md",
+      "sourceSha256": "242642e05c7fc213d14cbc8f9482b6f102b0dcc3729a9dd8d446fc61a081865b",
+      "namedStates": [
+        "desktop-links",
+        "phone-hidden",
+        "first-category-open",
+        "category-open",
+        "category-closed"
+      ],
+      "transitionRules": "Phone enabled explicitly; native collapse first open and mutually exclusive selection; desktop links remain native.",
+      "unsupportedOrHostOwned": "No asynchronous loading, video or background-image branch.",
+      "binding": {
+        "sourceId": "pix-002-26-8108",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "latest-updates",
+      "publicExport": "PortalLatestUpdates",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-latest-updates.md",
+      "contractSha256": "ea06b3027a1ed944260dfd55b9a60b7425fcab4c3de9f843151a0bb99a76492a",
+      "source": "references/pixso-latest-updates.md",
+      "sourceSha256": "ea06b3027a1ed944260dfd55b9a60b7425fcab4c3de9f843151a0bb99a76492a",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Exactly four entries and nonempty notice; optional native links; hover/focus uses source style.",
+      "unsupportedOrHostOwned": "Reject background video/autoplay/interval/image-background branches; no invented carousel.",
+      "binding": {
+        "sourceId": "pix-002-26-8109",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "general-banner",
+      "publicExport": "PortalGeneralBanner",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-general-banner.md",
+      "contractSha256": "eccd99c3e6463130b8534ad6e8f1dfee275ccdc28434405cf530b36ffd3e166e",
+      "source": "references/pixso-general-banner.md",
+      "sourceSha256": "eccd99c3e6463130b8534ad6e8f1dfee275ccdc28434405cf530b36ffd3e166e",
+      "namedStates": [
+        "ready",
+        "native-action"
+      ],
+      "transitionRules": "Light text-only banner with zero to three native actions; long text can increase height.",
+      "unsupportedOrHostOwned": "Reject image/video/ad/breadcrumb/icon branches; no business submission state.",
+      "binding": {
+        "sourceId": "pix-002-3-1414",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "icon-text-cards",
+      "publicExport": "PortalIconTextCards",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-icon-text-cards.md",
+      "contractSha256": "431cecd8efb236f95ff62a1a4892f90932cb0b5cd62dfbb6ff559f160217f07e",
+      "source": "references/pixso-icon-text-cards.md",
+      "sourceSha256": "431cecd8efb236f95ff62a1a4892f90932cb0b5cd62dfbb6ff559f160217f07e",
+      "namedStates": [
+        "ready",
+        "hover",
+        "focus-visible",
+        "native-link"
+      ],
+      "transitionRules": "Source icon/card geometry with native configured links; hover/focus uses existing registered styles.",
+      "unsupportedOrHostOwned": "No asynchronous/selected state; explicit rule-62/example-56 source icon profile.",
+      "binding": {
+        "sourceId": "pix-002-16-36851",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "faq-list",
+      "publicExport": "PortalFaqList",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/pixso-faq-list.md",
+      "contractSha256": "c9fb385281fd42885b669762b34b2e899f3e6612b7f5f959fd92549c8bd90bc6",
+      "source": "references/pixso-faq-list.md",
+      "sourceSha256": "c9fb385281fd42885b669762b34b2e899f3e6612b7f5f959fd92549c8bd90bc6",
+      "namedStates": [
+        "question-closed",
+        "question-open",
+        "desktop-state",
+        "phone-state"
+      ],
+      "transitionRules": "Independent native collapse per question; optional desktop expansion; phone always initially closed; close restores contained focus.",
+      "unsupportedOrHostOwned": "Only adopted gray/white text/rich-link branch; no arbitrary colored/video/button answers.",
+      "binding": {
+        "sourceId": "pix-002-26-10298",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "command-cards-2026",
+      "publicExport": "PortalProduct2026Commands",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-commands.md",
+      "contractSha256": "f3abadfa440df715aa7a6bf9d826fa2dbfb63aa3eedc0f6a942d626dcbc2af7c",
+      "source": "references/product-2026-commands.md",
+      "sourceSha256": "f3abadfa440df715aa7a6bf9d826fa2dbfb63aa3eedc0f6a942d626dcbc2af7c",
+      "namedStates": [
+        "ready",
+        "copying",
+        "copied",
+        "copy-failed",
+        "retry",
+        "tab-selected",
+        "obsolete-response",
+        "unmounted"
+      ],
+      "transitionRules": "Success changes only icon to check; failure remains retryable; request sequence invalidates old/unmounted/switched-command responses.",
+      "unsupportedOrHostOwned": "Clipboard only: no command execution; unavailable Clipboard API reports failure, never simulated success.",
+      "binding": {
+        "sourceId": "pix-001-2-195803",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "next-step-2026",
+      "publicExport": "PortalProduct2026Next",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-next.md",
+      "contractSha256": "efa6009abbbeb5cdeedfd6896291e60b683721a4428da809dc621e96d5417068",
+      "source": "references/product-2026-next.md",
+      "sourceSha256": "efa6009abbbeb5cdeedfd6896291e60b683721a4428da809dc621e96d5417068",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "One to three registered image CTAs; long content increases minimum height; independent phone/tablet media.",
+      "unsupportedOrHostOwned": "No background video, autoplay, purchase workflow or contrast AA certification for all source images.",
+      "binding": {
+        "sourceId": "pix-001-2-65031",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "faq-2026",
+      "publicExport": "PortalProduct2026Faq",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-faq.md",
+      "contractSha256": "436216864bdf3b58d0372140277aa45f43f2c494e46a3955c436575233a9c388",
+      "source": "references/product-2026-faq.md",
+      "sourceSha256": "436216864bdf3b58d0372140277aa45f43f2c494e46a3955c436575233a9c388",
+      "namedStates": [
+        "category-selected",
+        "question-closed",
+        "question-open",
+        "desktop-state",
+        "phone-state"
+      ],
+      "transitionRules": "Independent per-question states; optional desktop initial expansion; phone initially collapsed; category switches retain manual state.",
+      "unsupportedOrHostOwned": "No automatic all-expand control, arbitrary HTML or invented remote loading state.",
+      "binding": {
+        "sourceId": "pix-001-2-62685",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "scenario-solutions-2026",
+      "publicExport": "PortalProduct2026Scenarios",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-scenarios.md",
+      "contractSha256": "e6c11757dfcf7adad83c40919aa9ed665296b900557e7f74cf66e53648fc0ffa",
+      "source": "references/product-2026-scenarios.md",
+      "sourceSha256": "e6c11757dfcf7adad83c40919aa9ed665296b900557e7f74cf66e53648fc0ffa",
+      "namedStates": [
+        "card-rest",
+        "card-revealed",
+        "track-start",
+        "track-end",
+        "image-dialog-open",
+        "image-dialog-closed"
+      ],
+      "transitionRules": "Hover/focus may swap registered background; arrow navigates while plus opens architecture dialog; Escape/close returns focus.",
+      "unsupportedOrHostOwned": "No invented white-card skin or autoplay; mobile horizontal movement is manual.",
+      "binding": {
+        "sourceId": "pix-001-2-59964",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "video-cards-2026",
+      "publicExport": "PortalProduct2026Videos",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-video.md",
+      "contractSha256": "89d5dfd1086db69470e0c848a6cdd723573966aa0412a695066304b6dd2b9be2",
+      "source": "references/product-2026-video.md",
+      "sourceSha256": "89d5dfd1086db69470e0c848a6cdd723573966aa0412a695066304b6dd2b9be2",
+      "namedStates": [
+        "poster",
+        "dialog-open",
+        "autoplay-blocked",
+        "playing",
+        "paused",
+        "failed",
+        "retry",
+        "dialog-closed",
+        "focus-restored"
+      ],
+      "transitionRules": "Open native dialog/player; close/Escape/backdrop pauses and unmounts; retry on playback/decode failure; close restores trigger focus.",
+      "unsupportedOrHostOwned": "Speech requires captions metadata; source-less business videos are not supplied; native controls are engineering UI.",
+      "binding": {
+        "sourceId": "pix-001-2-193367",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "agent-cards-2026",
+      "publicExport": "PortalProduct2026Agents",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-agents.md",
+      "contractSha256": "bd4417fc11d02015ae67c1a0268bc46604df306cd6904535234b3f9f7ff35174",
+      "source": "references/product-2026-agents.md",
+      "sourceSha256": "bd4417fc11d02015ae67c1a0268bc46604df306cd6904535234b3f9f7ff35174",
+      "namedStates": [
+        "poster",
+        "video-playing",
+        "video-paused",
+        "video-failed"
+      ],
+      "transitionRules": "Silent visible/hover background video respects focus, user pause, page visibility and reduced motion; failure preserves poster.",
+      "unsupportedOrHostOwned": "No agent execution, generated response or business loading state.",
+      "binding": {
+        "sourceId": "pix-001-2-161950",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "split-media-2026",
+      "publicExport": "PortalProduct2026Split",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-split.md",
+      "contractSha256": "60d8f2f9660c03d1602b4c7a61ba091b08e10fb9773dd2c81a068848045654c8",
+      "source": "references/product-2026-split.md",
+      "sourceSha256": "60d8f2f9660c03d1602b4c7a61ba091b08e10fb9773dd2c81a068848045654c8",
+      "namedStates": [
+        "single-item",
+        "multi-item",
+        "tab-selected",
+        "image-dialog-open",
+        "video-playing",
+        "video-paused",
+        "video-failed"
+      ],
+      "transitionRules": "Single item hides tabs; architecture contains/zooms, photo covers; structured rich text; optional inline/dialog video follows shared pause/error lifecycle.",
+      "unsupportedOrHostOwned": "No raw HTML; phone major video falls back to image; actual business architecture belongs to caller.",
+      "binding": {
+        "sourceId": "pix-001-2-54672",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "folded-media-2026",
+      "publicExport": "PortalProduct2026Folded",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-folded.md",
+      "contractSha256": "8048d0e58823e9897b122d18058d226553f9a8257b66f0234cf0bddec97a57f4",
+      "source": "references/product-2026-folded.md",
+      "sourceSha256": "8048d0e58823e9897b122d18058d226553f9a8257b66f0234cf0bddec97a57f4",
+      "namedStates": [
+        "first-open",
+        "selected-open",
+        "inactive-closed",
+        "progress-running",
+        "progress-paused",
+        "dialog-open"
+      ],
+      "transitionRules": "Exactly one of 2–6 items open; cannot close active item; arrows/Home/End move focus, Enter/Space activate; optional >=5s rotation pauses for hover/focus/visibility/reduced motion.",
+      "unsupportedOrHostOwned": "No PC auto-video branch beyond current dialog; phone image-only; no focus theft on timed change.",
+      "binding": {
+        "sourceId": "pix-001-2-155205",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "news-2026",
+      "publicExport": "PortalProduct2026News",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-news.md",
+      "contractSha256": "deebb42d199960b3f09f234b43ff7521d85b1c0634b9264f538943b56998e667",
+      "source": "references/product-2026-news.md",
+      "sourceSha256": "deebb42d199960b3f09f234b43ff7521d85b1c0634b9264f538943b56998e667",
+      "namedStates": [
+        "ready",
+        "poster",
+        "video-playing",
+        "video-paused",
+        "video-failed"
+      ],
+      "transitionRules": "Configured lead media uses visibility/hover/focus pause lifecycle; failed media preserves poster and copy.",
+      "unsupportedOrHostOwned": "Phone image-only; real news content and destinations belong to caller.",
+      "binding": {
+        "sourceId": "pix-001-2-160593",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "pricing-table-2026",
+      "publicExport": "PortalProduct2026Pricing",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-pricing.md",
+      "contractSha256": "964819fdaeb8d7cbbb850f0f98ce65e185466469882ac4c32af92a3d2843e98a",
+      "source": "references/product-2026-pricing.md",
+      "sourceSha256": "964819fdaeb8d7cbbb850f0f98ce65e185466469882ac4c32af92a3d2843e98a",
+      "namedStates": [
+        "desktop-table",
+        "mobile-first-open",
+        "mobile-group-open",
+        "mobile-group-closed"
+      ],
+      "transitionRules": "Phone rows/columns are explicitly configured; first group initially open and other groups independently toggle.",
+      "unsupportedOrHostOwned": "No pricing computation, checkout, remote loading or mobile source group-header certification.",
+      "binding": {
+        "sourceId": "pix-001-2-157839",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "assistant-search-2026",
+      "publicExport": "PortalProduct2026Assistant",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-assistant.md",
+      "contractSha256": "b70eb9e726085791f16439ecffc709dfef63f691ec3691ccb14df42f54dd3cb7",
+      "source": "references/product-2026-assistant.md",
+      "sourceSha256": "b70eb9e726085791f16439ecffc709dfef63f691ec3691ccb14df42f54dd3cb7",
+      "namedStates": [
+        "idle",
+        "composing",
+        "submitting",
+        "results",
+        "empty",
+        "failed",
+        "obsolete-response",
+        "unmounted"
+      ],
+      "transitionRules": "Search normalized supplied records or async adapter; busy/error/empty are explicit; discard old results after query/unmount.",
+      "unsupportedOrHostOwned": "Local retrieval, not AI conversation or production Cloud assistant; no fabricated answer.",
+      "binding": {
+        "sourceId": "pix-001-2-156437",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "hover-expand-2026",
+      "publicExport": "PortalProduct2026Hover",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-hover.md",
+      "contractSha256": "4ed9ad5d4ff3752fd6aa1e1a55f500013370d878efd97f40cf833c78f65cad60",
+      "source": "references/product-2026-hover.md",
+      "sourceSha256": "4ed9ad5d4ff3752fd6aa1e1a55f500013370d878efd97f40cf833c78f65cad60",
+      "namedStates": [
+        "card-rest",
+        "card-open",
+        "track-start",
+        "track-middle",
+        "track-end",
+        "poster",
+        "video-playing",
+        "video-paused"
+      ],
+      "transitionRules": "Hover/focus/title control opens; Escape restores; manual controls only for >4 and actual overflow; phone exposes content directly.",
+      "unsupportedOrHostOwned": "No auto carousel; source four-card controls remain outside adopted rule.",
+      "binding": {
+        "sourceId": "pix-001-2-73017",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "demo-architecture-2026",
+      "publicExport": "PortalProduct2026Demo",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-demo.md",
+      "contractSha256": "bb3a1c78219d524c1f638e01a2e75bfa94503c25e2e8127c8b7e44393a5b5a2a",
+      "source": "references/product-2026-demo.md",
+      "sourceSha256": "bb3a1c78219d524c1f638e01a2e75bfa94503c25e2e8127c8b7e44393a5b5a2a",
+      "namedStates": [
+        "single-image",
+        "multi-image-selected",
+        "single-video-playing",
+        "multi-video-playing",
+        "paused",
+        "ended",
+        "failed",
+        "retry"
+      ],
+      "transitionRules": "Single image has no controls; manual multi-image next/previous; single video loops, multi-video plays once; explicit pause and visibility/reduced-motion handling.",
+      "unsupportedOrHostOwned": "Phone current image branch only; does not execute the depicted application.",
+      "binding": {
+        "sourceId": "pix-001-2-75962",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "customer-cases-2026",
+      "publicExport": "PortalProduct2026Cases",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-cases.md",
+      "contractSha256": "a03a06296e50f3c62052fd21cf6a2a950fe23042695073a663ea945a0c554b92",
+      "source": "references/product-2026-cases.md",
+      "sourceSha256": "a03a06296e50f3c62052fd21cf6a2a950fe23042695073a663ea945a0c554b92",
+      "namedStates": [
+        "case-selected",
+        "poster",
+        "image-dialog-open",
+        "video-dialog-open",
+        "video-playing",
+        "video-paused",
+        "failed"
+      ],
+      "transitionRules": "Logo tab Arrow/Home/End selects associated case and focus; phone uses independent image/poster; shared video error/pause/retry.",
+      "unsupportedOrHostOwned": "No automatic case rotation or source certification of engineering zoom candidate.",
+      "binding": {
+        "sourceId": "pix-001-2-61303",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "advantage-grid-2026",
+      "publicExport": "PortalProduct2026Advantages",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-advantages.md",
+      "contractSha256": "2e6e2c8257781a54728e9f8e68c7b5b7a058a95f8b5812c5c056d0a259fd6d61",
+      "source": "references/product-2026-advantages.md",
+      "sourceSha256": "2e6e2c8257781a54728e9f8e68c7b5b7a058a95f8b5812c5c056d0a259fd6d61",
+      "namedStates": [
+        "initial-rows",
+        "expanded",
+        "collapsed",
+        "native-link"
+      ],
+      "transitionRules": "Initial rows are explicit; show-more/show-less changes actual rows; separate more link navigates.",
+      "unsupportedOrHostOwned": "No per-card selection or remote fetching; configured minimum heights grow with content.",
+      "binding": {
+        "sourceId": "pix-001-2-1131",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "wide-carousel-2026",
+      "publicExport": "PortalProduct2026Wide",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-wide.md",
+      "contractSha256": "b01d21e7f7983f5e1fa5371782444ac90e0120c8aaf939e0f79965ed27ac7169",
+      "source": "references/product-2026-wide.md",
+      "sourceSha256": "b01d21e7f7983f5e1fa5371782444ac90e0120c8aaf939e0f79965ed27ac7169",
+      "namedStates": [
+        "track-start",
+        "track-middle",
+        "track-end",
+        "poster",
+        "video-playing",
+        "video-paused",
+        "video-error",
+        "dialog-open",
+        "dialog-closed"
+      ],
+      "transitionRules": "Manual track boundaries disable controls; background video pauses offscreen/hidden/reduced motion; dialog uses shared lifecycle.",
+      "unsupportedOrHostOwned": "No auto carousel or phone PC-video loading; unavailable video retains poster.",
+      "binding": {
+        "sourceId": "pix-001-2-200413",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "scene-carousel-2026",
+      "publicExport": "PortalProduct2026SceneCarousel",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-scene-carousel.md",
+      "contractSha256": "643dd8bc5dd9a8efbbead11e1993b10778cd0b9eb17d3e2c34cf18e5302fecad",
+      "source": "references/product-2026-scene-carousel.md",
+      "sourceSha256": "643dd8bc5dd9a8efbbead11e1993b10778cd0b9eb17d3e2c34cf18e5302fecad",
+      "namedStates": [
+        "ready",
+        "tab-selected",
+        "card-rest",
+        "card-revealed",
+        "poster",
+        "video-playing",
+        "video-paused"
+      ],
+      "transitionRules": "Hover/focus reveals; Escape restores; optional tabs select a group; phone content is visible without hover.",
+      "unsupportedOrHostOwned": "No automatic content rotation; phone does not load PC video.",
+      "binding": {
+        "sourceId": "pix-001-2-197076",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "model-catalog-2026",
+      "publicExport": "PortalProduct2026Models",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-models.md",
+      "contractSha256": "bea4b0bc5afe3257c6d59a3f50e65c10a6fccf798485f45c23e06efbf9f19462",
+      "source": "references/product-2026-models.md",
+      "sourceSha256": "bea4b0bc5afe3257c6d59a3f50e65c10a6fccf798485f45c23e06efbf9f19462",
+      "namedStates": [
+        "ready",
+        "tab-selected",
+        "actions-visible",
+        "actions-revealed"
+      ],
+      "transitionRules": "Optional tabs select a group; hover and focus both reveal configured actions; phone actions remain visible.",
+      "unsupportedOrHostOwned": "No automatic model selection, remote inference or autoplay.",
+      "binding": {
+        "sourceId": "pix-001-2-201532",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "package-cards-2026",
+      "publicExport": "PortalProduct2026Packages",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-packages.md",
+      "contractSha256": "7064185ad3aea3906a479ecfa8ab076d6a8b125bf9128c784ce0cb9b5a958c59",
+      "source": "references/product-2026-packages.md",
+      "sourceSha256": "7064185ad3aea3906a479ecfa8ab076d6a8b125bf9128c784ce0cb9b5a958c59",
+      "namedStates": [
+        "ready",
+        "variant-selected",
+        "additions-open",
+        "additions-closed"
+      ],
+      "transitionRules": "Selection updates displayed configured variant; native details exposes additions.",
+      "unsupportedOrHostOwned": "Purchase, billing, inventory and remote pending/error are host-owned; native select/details/meter are engineering branches.",
+      "binding": {
+        "sourceId": "pix-001-2-206776",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "product-banner-2026",
+      "publicExport": "PortalProduct2026Banner",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-2026-banner-responsive.md",
+      "contractSha256": "6abf933a9e2dc338f74e052a401f4409d01d78b29a57020f2e65ef4b866c671d",
+      "source": "references/product-2026-banner-responsive.md",
+      "sourceSha256": "6abf933a9e2dc338f74e052a401f4409d01d78b29a57020f2e65ef4b866c671d",
+      "namedStates": [
+        "slide-selected",
+        "slide-hidden",
+        "rotation-running",
+        "rotation-paused",
+        "poster",
+        "video-playing",
+        "video-paused"
+      ],
+      "transitionRules": "Manual default; optional >=5s rotation pauses on hover/focus/hidden/offscreen/reduced motion; explicit pause retained; hidden slides do not load video.",
+      "unsupportedOrHostOwned": "No production ad scheduling; local white-on-image is not global dark theme.",
+      "binding": {
+        "sourceId": "pix-001-2-70228",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "anchored-product-catalog",
+      "publicExport": "PortalProductV1AnchoredCatalog",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-catalog.md",
+      "contractSha256": "5ee272bb519023546dfbf82290265d3e6578a5258a222b215ffa93eb162ab157",
+      "source": "references/product-v1-catalog.md",
+      "sourceSha256": "5ee272bb519023546dfbf82290265d3e6578a5258a222b215ffa93eb162ab157",
+      "namedStates": [
+        "current",
+        "inactive",
+        "phone-dropdown-open",
+        "phone-dropdown-closed"
+      ],
+      "transitionRules": "Sticky source catalog; phone horizontal anchor/dropdown selects and closes; Escape returns focus; offset from host header.",
+      "unsupportedOrHostOwned": "No full sticky-header integration or target focus certification inferred from source geometry.",
+      "binding": {
+        "sourceId": "pix-002-12-2246",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "product-recommendations-v1",
+      "publicExport": "PortalProductV1Recommendations",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-cards.md",
+      "contractSha256": "defb1f49274b8cd14d251321bbed970d20e7ffdaed2490bab372ba73a21d52b7",
+      "source": "references/product-v1-cards.md",
+      "sourceSha256": "defb1f49274b8cd14d251321bbed970d20e7ffdaed2490bab372ba73a21d52b7",
+      "namedStates": [
+        "ready",
+        "tab-selected",
+        "phone-compact",
+        "phone-hidden",
+        "native-link"
+      ],
+      "transitionRules": "Optional source tabs; phone explicitly compact or hidden; compact preserves icon/title only.",
+      "unsupportedOrHostOwned": "No personalization algorithm, intrinsic async or automatic rotation.",
+      "binding": {
+        "sourceId": "pix-002-16-20250",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "generic-cards-v1",
+      "publicExport": "PortalProductV1GenericCards",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-cards.md",
+      "contractSha256": "defb1f49274b8cd14d251321bbed970d20e7ffdaed2490bab372ba73a21d52b7",
+      "source": "references/product-v1-cards.md",
+      "sourceSha256": "defb1f49274b8cd14d251321bbed970d20e7ffdaed2490bab372ba73a21d52b7",
+      "namedStates": [
+        "ready",
+        "tab-selected",
+        "native-link",
+        "native-action"
+      ],
+      "transitionRules": "Optional category tabs, explicit phone horizontal/stacked; overlay whole-card link and independent actions never nest anchors.",
+      "unsupportedOrHostOwned": "No personalized recommendation, payment or arbitrary unsupported rich text.",
+      "binding": {
+        "sourceId": "pix-002-16-20251",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "speaker-cards-v1",
+      "publicExport": "PortalProductV1Speakers",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-speakers.md",
+      "contractSha256": "10b96d661d46aa2c2825ae233e7ac47b90cfe17d3808507f268de9d93c138b08",
+      "source": "references/product-v1-speakers.md",
+      "sourceSha256": "10b96d661d46aa2c2825ae233e7ac47b90cfe17d3808507f268de9d93c138b08",
+      "namedStates": [
+        "initial-rows",
+        "expanded",
+        "collapsed",
+        "track-start",
+        "track-end",
+        "details-open",
+        "details-closed"
+      ],
+      "transitionRules": "Grid row disclosure or manual overflow carousel; hover/focus reveals details, Escape closes; phone removes desktop overlay/carousel controls.",
+      "unsupportedOrHostOwned": "No automatic rotation, full touch detail viewer or irregular source collage.",
+      "binding": {
+        "sourceId": "pix-002-16-35646",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "logo-cards-v1",
+      "publicExport": "PortalProductV1LogoCards",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-logos.md",
+      "contractSha256": "864c70d7d8fc62c3392991b87538f1cf5f796bb51afc6fd70dab76aeccca1553",
+      "source": "references/product-v1-logos.md",
+      "sourceSha256": "864c70d7d8fc62c3392991b87538f1cf5f796bb51afc6fd70dab76aeccca1553",
+      "namedStates": [
+        "ready",
+        "hover",
+        "focus-visible",
+        "phone-wall",
+        "phone-hidden"
+      ],
+      "transitionRules": "Explicit wall/hidden phone mode; registered logo media separate from editable title/copy.",
+      "unsupportedOrHostOwned": "No carousel/selected/loading state; all source image/transparent hover branches not certified.",
+      "binding": {
+        "sourceId": "pix-002-16-27208",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "photo-wall-v1",
+      "publicExport": "PortalProductV1PhotoWall",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-photo-wall.md",
+      "contractSha256": "f852386dd4260a76e2fb42ab380e4bffad513162b2d6300d808c849caabcebf0",
+      "source": "references/product-v1-photo-wall.md",
+      "sourceSha256": "f852386dd4260a76e2fb42ab380e4bffad513162b2d6300d808c849caabcebf0",
+      "namedStates": [
+        "scroll-running",
+        "scroll-paused",
+        "hover",
+        "focus-visible",
+        "track-start",
+        "track-end"
+      ],
+      "transitionRules": "Explicit speed; pause for user/hover/focus/offscreen/hidden/reduced motion; keyboard region scrolls; reduced motion disables enlargement.",
+      "unsupportedOrHostOwned": "No claim seamless end-to-start looping is implemented; no face identification/business state.",
+      "binding": {
+        "sourceId": "pix-002-16-35427",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "editorial-grid-v1",
+      "publicExport": "PortalProductV1Editorial",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-editorial.md",
+      "contractSha256": "56441276b95ae36c3f94ee4f0e5b950ed84916c4fe47e3e81db7ec6c24556fe7",
+      "source": "references/product-v1-editorial.md",
+      "sourceSha256": "56441276b95ae36c3f94ee4f0e5b950ed84916c4fe47e3e81db7ec6c24556fe7",
+      "namedStates": [
+        "ready",
+        "phone-slide-selected",
+        "native-action"
+      ],
+      "transitionRules": "Explicit desktop column compositions; independent phone cards manually slide/dot-select; phone hides description/actions only.",
+      "unsupportedOrHostOwned": "No autoplay or remote content; candidate intermediate geometry not source-approved.",
+      "binding": {
+        "sourceId": "pix-002-16-30114",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "news-list-v1",
+      "publicExport": "PortalProductV1NewsList",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-news-list.md",
+      "contractSha256": "2236f1b53ef4e3ca914e95b7c6b438c15fc5f303b71c8e30471a011bb12a0a3a",
+      "source": "references/product-v1-news-list.md",
+      "sourceSha256": "2236f1b53ef4e3ca914e95b7c6b438c15fc5f303b71c8e30471a011bb12a0a3a",
+      "namedStates": [
+        "all-selected",
+        "mixed-selected",
+        "facets-selected",
+        "query-submitted",
+        "results",
+        "empty",
+        "page-selected"
+      ],
+      "transitionRules": "Real local normalized search; dimension OR/between AND; reset page after criteria/size; source choice mixed state; live result count.",
+      "unsupportedOrHostOwned": "No remote query or list/card view toggle; current owner-approved black choice overrides historical blue note.",
+      "binding": {
+        "sourceId": "pix-002-16-30923",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "expert-quote-v1",
+      "publicExport": "PortalProductV1Quote",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-quote.md",
+      "contractSha256": "4dfd74014a576c9b8f99b8986bd1a61e1b377643d4372b22d0515e258230ecce",
+      "source": "references/product-v1-quote.md",
+      "sourceSha256": "4dfd74014a576c9b8f99b8986bd1a61e1b377643d4372b22d0515e258230ecce",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Text/avatar/portrait explicit static compositions; editable rich quote; natural long-content growth.",
+      "unsupportedOrHostOwned": "No multi-quote carousel/dots, async or selected state; source avatar/signature profiles stay contextual.",
+      "binding": {
+        "sourceId": "pix-002-26-6499",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "publication-cards-v1",
+      "publicExport": "PortalProductV1Publications",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-publications.md",
+      "contractSha256": "b8adddd8517600f75ea0b47f0d6bf641b2ecc787dcee4b06e5e08ece2934b3f1",
+      "source": "references/product-v1-publications.md",
+      "sourceSha256": "b8adddd8517600f75ea0b47f0d6bf641b2ecc787dcee4b06e5e08ece2934b3f1",
+      "namedStates": [
+        "ready",
+        "phone-slide-selected",
+        "native-action"
+      ],
+      "transitionRules": "Two/three-column publications with editable rich text; phone manual horizontal/dots and independent alignment.",
+      "unsupportedOrHostOwned": "No autoplay; supplied content is not a claim of business award/certification.",
+      "binding": {
+        "sourceId": "pix-002-26-5684",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "architecture-media-v1",
+      "publicExport": "PortalProductV1Architecture",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-architecture.md",
+      "contractSha256": "7f6e872dce7a0d3492746c923798d78e07cc5fcf2b82c3e7d89d0cc69183864a",
+      "source": "references/product-v1-architecture.md",
+      "sourceSha256": "7f6e872dce7a0d3492746c923798d78e07cc5fcf2b82c3e7d89d0cc69183864a",
+      "namedStates": [
+        "single-item",
+        "multi-item",
+        "tab-selected",
+        "image-dialog-open",
+        "video-dialog-open"
+      ],
+      "transitionRules": "V1 threshold768, single item hides tabs; complete architecture vs cropped photo; text region keyboard-scrolls; phone main video is poster.",
+      "unsupportedOrHostOwned": "No v1 models extension or claim engineering example architecture is original business image.",
+      "binding": {
+        "sourceId": "pix-002-26-1",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "folded-media-v1",
+      "publicExport": "PortalProductV1Folded",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-folded.md",
+      "contractSha256": "b0834747b922ca0527f49b0a419e7626aa048a64d867458058ada7889ec693b6",
+      "source": "references/product-v1-folded.md",
+      "sourceSha256": "b0834747b922ca0527f49b0a419e7626aa048a64d867458058ada7889ec693b6",
+      "namedStates": [
+        "first-open",
+        "active-open",
+        "inactive-closed"
+      ],
+      "transitionRules": "Exactly one item remains open; arrows/Home/End focus, Enter/Space selects; phone image after copy/actions.",
+      "unsupportedOrHostOwned": "No automatic rotation; not2026 optional rotation semantics.",
+      "binding": {
+        "sourceId": "pix-002-26-6925",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "live-video-v1",
+      "publicExport": "PortalProductV1Live",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-live.md",
+      "contractSha256": "f746a29b92b6972218350f86e1d86809d76b149999ec2557f9dc5bfabd7047f8",
+      "source": "references/product-v1-live.md",
+      "sourceSha256": "f746a29b92b6972218350f86e1d86809d76b149999ec2557f9dc5bfabd7047f8",
+      "namedStates": [
+        "poster",
+        "playing",
+        "paused",
+        "failed",
+        "retry",
+        "sidebar-open",
+        "sidebar-closed",
+        "fullscreen-requested"
+      ],
+      "transitionRules": "Native controls; double-click requests fullscreen; hide/unmount pauses; sidebar handle toggles media allocation; failure retry.",
+      "unsupportedOrHostOwned": "No production streaming service; browser-native player is not Pixso player UI certification.",
+      "binding": {
+        "sourceId": "pix-002-26-3807",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "advantage-illustrations-v1",
+      "publicExport": "PortalProductV1Advantages",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-advantages.md",
+      "contractSha256": "dfe3089e1629be93a94b12cc82370e695bd6b9991e8bbcfa276ee708e63ca592",
+      "source": "references/product-v1-advantages.md",
+      "sourceSha256": "dfe3089e1629be93a94b12cc82370e695bd6b9991e8bbcfa276ee708e63ca592",
+      "namedStates": [
+        "ready",
+        "native-action",
+        "phone-title-link"
+      ],
+      "transitionRules": "PC3/4/5-column illustration cards; phone separate horizontal grouped list hides actions; optional mobileHref is title link.",
+      "unsupportedOrHostOwned": "No internal selected/loading state; missing 3/5-column media not stretched from4-column sample.",
+      "binding": {
+        "sourceId": "pix-002-16-22704",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "customer-story-v1",
+      "publicExport": "PortalProductV1Cases",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-cases.md",
+      "contractSha256": "766c4ed5ff3e76e5109f7dc7f479c162a70e6a4df95cc9b0182811b2491c9223",
+      "source": "references/product-v1-cases.md",
+      "sourceSha256": "766c4ed5ff3e76e5109f7dc7f479c162a70e6a4df95cc9b0182811b2491c9223",
+      "namedStates": [
+        "case-selected",
+        "video-dialog-open",
+        "video-dialog-closed",
+        "failed",
+        "retry"
+      ],
+      "transitionRules": "Two to ten manual tabs switch source backgrounds; highest panel establishes height; configured video uses shared dialog.",
+      "unsupportedOrHostOwned": "No autoplay, dots/pause controls or full source phone mask branch.",
+      "binding": {
+        "sourceId": "pix-002-26-5013",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "activity-countdown-cards-v1",
+      "publicExport": "PortalProductV1Activities",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-activities.md",
+      "contractSha256": "1ff3d0d431929b5ae0154bcd4f889283a1ffd3d4f3dcdb74f4fffbbbd2a360fc",
+      "source": "references/product-v1-activities.md",
+      "sourceSha256": "1ff3d0d431929b5ae0154bcd4f889283a1ffd3d4f3dcdb74f4fffbbbd2a360fc",
+      "namedStates": [
+        "before-visible",
+        "counting",
+        "ended",
+        "initial-items",
+        "expanded",
+        "collapsed",
+        "page-hidden",
+        "page-restored"
+      ],
+      "transitionRules": "Explicit endsAt/visibleFrom/floor-or-ceil; local clock minute alignment; hidden pauses scheduling, restore recomputes; phone reveal changes items.",
+      "unsupportedOrHostOwned": "No inferred seven-day operational policy, month conversion, server reservation or purchase.",
+      "binding": {
+        "sourceId": "pix-002-16-33610",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "featured-solutions-v1",
+      "publicExport": "PortalProductV1Solutions",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-solutions.md",
+      "contractSha256": "e1a5139cd7858ad60acd215af05603500963b612269db4844a024fbe2d018f7e",
+      "source": "references/product-v1-solutions.md",
+      "sourceSha256": "e1a5139cd7858ad60acd215af05603500963b612269db4844a024fbe2d018f7e",
+      "namedStates": [
+        "single-group",
+        "multi-group",
+        "tab-selected",
+        "native-link",
+        "native-action"
+      ],
+      "transitionRules": "One group hides tab; multiple groups select panel; buttonMode explicit; independent inner links avoid nested anchors.",
+      "unsupportedOrHostOwned": "No remote recommendation, inferred personalization or async state.",
+      "binding": {
+        "sourceId": "pix-002-16-27983",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "session-entry-cards-v1",
+      "publicExport": "PortalProductV1Sessions",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-sessions.md",
+      "contractSha256": "6221dbe128e0784d03a7f0990a787905e22afcefe1cf2d25a7d8463a1a9a2e11",
+      "source": "references/product-v1-sessions.md",
+      "sourceSha256": "6221dbe128e0784d03a7f0990a787905e22afcefe1cf2d25a7d8463a1a9a2e11",
+      "namedStates": [
+        "ready",
+        "hover",
+        "focus-visible",
+        "native-link"
+      ],
+      "transitionRules": "Configured real href and keyboard focus; empty data rejected.",
+      "unsupportedOrHostOwned": "No intrinsic loading/error/selected; source phone badge/tag branch rejected.",
+      "binding": {
+        "sourceId": "pix-002-16-37699",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "live-preview-v1",
+      "publicExport": "PortalProductV1LivePreview",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-live-preview.md",
+      "contractSha256": "96e04caddae6e88c3ce9e5d7d498e304d73f92b5c3f24fd0af15e454e8343130",
+      "source": "references/product-v1-live-preview.md",
+      "sourceSha256": "96e04caddae6e88c3ce9e5d7d498e304d73f92b5c3f24fd0af15e454e8343130",
+      "namedStates": [
+        "upcoming",
+        "local-reserved",
+        "local-cancelled",
+        "live",
+        "ended"
+      ],
+      "transitionRules": "Explicit supplied status; local Set synchronizes two reserve controls; live roomHref, ended optional replayHref; countdown label/deadline explicit.",
+      "unsupportedOrHostOwned": "No real account/server reservation, remote pending/error or invented time-window policy; localNotice required.",
+      "binding": {
+        "sourceId": "pix-002-26-7351",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "campaign-mosaic-v1",
+      "publicExport": "PortalProductV1Mosaic",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-mosaic.md",
+      "contractSha256": "442c5f23a0434c6bdc86794f51b0c6c1569773aed9a429a6d78faa8b1c88a07d",
+      "source": "references/product-v1-mosaic.md",
+      "sourceSha256": "442c5f23a0434c6bdc86794f51b0c6c1569773aed9a429a6d78faa8b1c88a07d",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Exactly4/5/6 source compositions; long titles retained, extreme text may scroll inside link card.",
+      "unsupportedOrHostOwned": "No layout editor, auto carousel, async or selected state.",
+      "binding": {
+        "sourceId": "pix-002-16-38437",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "illustrated-benefits-v1",
+      "publicExport": "PortalProductV1Benefits",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-benefits.md",
+      "contractSha256": "80525d1a15c0449a098a12f712e31aa777e8bd1f4acc83992bbc18c59349e295",
+      "source": "references/product-v1-benefits.md",
+      "sourceSha256": "80525d1a15c0449a098a12f712e31aa777e8bd1f4acc83992bbc18c59349e295",
+      "namedStates": [
+        "ready",
+        "phone-first-open",
+        "phone-open",
+        "phone-closed"
+      ],
+      "transitionRules": "Phone native details first open, allows multiple or all closed; explicit mobile order covers every card.",
+      "unsupportedOrHostOwned": "No chart calculation, live data or invented mutual exclusion.",
+      "binding": {
+        "sourceId": "pix-002-16-38905",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "ai-architecture-columns-v1",
+      "publicExport": "PortalProductV1AIArchitecture",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-ai-architecture.md",
+      "contractSha256": "1a9acc1fb38d79bf73090529d8d62ba141d88453ffb3f4e46e2909c95d36a867",
+      "source": "references/product-v1-ai-architecture.md",
+      "sourceSha256": "1a9acc1fb38d79bf73090529d8d62ba141d88453ffb3f4e46e2909c95d36a867",
+      "namedStates": [
+        "ready",
+        "native-link"
+      ],
+      "transitionRules": "Explicit 2–3 columns and one/equal/top-heavy/bottom-heavy/three card counts; consistent content position; native links retain full name.",
+      "unsupportedOrHostOwned": "No diagram editor, flow execution, async or selected state.",
+      "binding": {
+        "sourceId": "pix-002-1279-40555",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "information-cards-v1",
+      "publicExport": "PortalProductV1Information",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-information.md",
+      "contractSha256": "b0681c465f99d3b620422dde15e74aa2c8ec74ea0f71afb2eb2f1d8705634771",
+      "source": "references/product-v1-information.md",
+      "sourceSha256": "b0681c465f99d3b620422dde15e74aa2c8ec74ea0f71afb2eb2f1d8705634771",
+      "namedStates": [
+        "ready",
+        "upcoming",
+        "live",
+        "ended",
+        "initial-rows",
+        "expanded",
+        "collapsed",
+        "phone-slide-selected",
+        "video-dialog-open",
+        "failed",
+        "retry"
+      ],
+      "transitionRules": "General context rejects activity; marketing uses minute-precise start/end and local clock; phone grid/carousel explicit; independent initial rows.",
+      "unsupportedOrHostOwned": "No server clock/business booking; phone ratio343/182 only for adopted source group, not all upload assets.",
+      "binding": {
+        "sourceId": "pix-002-16-23970",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "image-filter-v1",
+      "publicExport": "PortalProductV1ImageFilter",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-filters.md",
+      "contractSha256": "eab24e4ae82ad772d3e34fc3f626d55868b12c19a2f083dd6043e441f8e070a4",
+      "source": "references/product-v1-filters.md",
+      "sourceSha256": "eab24e4ae82ad772d3e34fc3f626d55868b12c19a2f083dd6043e441f8e070a4",
+      "namedStates": [
+        "results",
+        "empty",
+        "facets-selected",
+        "query-submitted",
+        "page-selected",
+        "phone-draft-open",
+        "phone-draft-changed",
+        "phone-applied",
+        "phone-cancelled",
+        "expanded",
+        "collapsed"
+      ],
+      "transitionRules": "Within-dimension OR/between-dimension AND; clear resets real local results; phone draft confirm/cancel; append-four phone batch.",
+      "unsupportedOrHostOwned": "No remote backend, activity/video branches or whole blank-card clickable claim.",
+      "binding": {
+        "sourceId": "pix-002-30-25360",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "logo-filter-v1",
+      "publicExport": "PortalProductV1LogoFilter",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-filters.md",
+      "contractSha256": "eab24e4ae82ad772d3e34fc3f626d55868b12c19a2f083dd6043e441f8e070a4",
+      "source": "references/product-v1-filters.md",
+      "sourceSha256": "eab24e4ae82ad772d3e34fc3f626d55868b12c19a2f083dd6043e441f8e070a4",
+      "namedStates": [
+        "results",
+        "empty",
+        "facets-selected",
+        "query-submitted",
+        "page-selected",
+        "phone-draft-open",
+        "phone-draft-changed",
+        "phone-applied",
+        "phone-cancelled",
+        "details-revealed",
+        "expanded",
+        "collapsed"
+      ],
+      "transitionRules": "Shared actual local filter engine; description full text on hover/focus; phone starts5/appends6; draft confirm vs cancel.",
+      "unsupportedOrHostOwned": "No remote business backend, activity/video data or complete original-media certification.",
+      "binding": {
+        "sourceId": "pix-002-30-28565",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    },
+    {
+      "floorId": "report-filter-v1",
+      "publicExport": "PortalProductV1ReportFilter",
+      "implementation": "src/components/portal-components.tsx",
+      "implementationSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+      "contract": "references/product-v1-report-filter.md",
+      "contractSha256": "feb28978690838a2175981611f588e104c7df176707a3d6ed81915df7c7bd05f",
+      "source": "references/product-v1-report-filter.md",
+      "sourceSha256": "feb28978690838a2175981611f588e104c7df176707a3d6ed81915df7c7bd05f",
+      "namedStates": [
+        "results",
+        "empty",
+        "facets-selected",
+        "query-submitted",
+        "page-selected",
+        "phone-draft-open",
+        "phone-draft-changed",
+        "phone-applied",
+        "phone-cancelled",
+        "expanded",
+        "collapsed"
+      ],
+      "transitionRules": "Real local filtering/paging; draft phone conditions apply only on confirm; cancel/Escape restores trigger; append configured batch, collapse resets count.",
+      "unsupportedOrHostOwned": "Remote API state host-owned; middle-screen media geometry candidate is not source certification.",
+      "binding": {
+        "sourceId": "pix-002-30-33254",
+        "model": "references/first-release-floor-state-contracts.json",
+        "match": "exact implementation file, public export and contract; not same-name inference"
+      },
+      "acceptanceBoundary": "Specification and state definition only; runtime, source visual, responsive long content and manual accessibility are separate."
+    }
+  ],
+  "requiredFloorFamilies": 62,
+  "exactSourceBindings": 54,
+  "protectedExistingBindings": 8,
+  "newComponentCount": 0,
+  "newOwnerApprovals": 0,
+  "newRuntimePasses": 0,
+  "formalRelease": false
+}

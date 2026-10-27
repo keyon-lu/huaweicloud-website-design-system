@@ -1,0 +1,32 @@
+{
+  "audits": [
+    {
+      "at": "2026-10-16T07:37:29.866Z",
+      "engine": {
+        "name": "axe-core",
+        "version": "4.10.3"
+      },
+      "incomplete": [],
+      "label": "breadcrumb-matrix",
+      "passedRules": [
+        "aria-allowed-attr",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-required-children",
+        "aria-roles",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "color-contrast",
+        "link-name",
+        "listitem",
+        "target-size"
+      ],
+      "scope": "rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate",
+      "violations": []
+    }
+  ],
+  "currentPages": 3,
+  "publicLinks": 4
+}

@@ -1,0 +1,167 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "活动楼层来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "activity-countdown-cards-v1",
+      "id": "v1-activities",
+      "title": "产品活动",
+      "mobileTitle": "产品活动",
+      "background": "grey",
+      "cardBackground": "white",
+      "align": "center",
+      "mobileLayout": "countdown",
+      "mobileInitialItems": 2,
+      "now": 1792368000000,
+      "labels": {
+        "days": "{days}天后结束",
+        "ended": "活动已结束",
+        "showMore": "展开全部活动",
+        "showLess": "收起活动"
+      },
+      "rows": [
+        [
+          {
+            "id": "activity-0",
+            "span": 2,
+            "title": "活动说明 1",
+            "description": "完整可编辑的活动介绍。",
+            "icon": "product-v1-activity-icon",
+            "href": "#v1-activities",
+            "tags": [
+              {
+                "text": "个人认证",
+                "color": "default"
+              }
+            ],
+            "countdown": {
+              "endsAt": 1792454400000,
+              "visibleFrom": 1792281600000,
+              "rounding": "ceil"
+            }
+          },
+          {
+            "id": "activity-1",
+            "span": 1,
+            "title": "活动说明 2",
+            "description": "完整可编辑的活动介绍。",
+            "icon": "product-v1-activity-icon",
+            "href": "#v1-activities",
+            "tags": [
+              {
+                "text": "个人认证",
+                "color": "default"
+              }
+            ],
+            "countdown": {
+              "endsAt": 1792540800000,
+              "visibleFrom": 1792281600000,
+              "rounding": "ceil"
+            }
+          },
+          {
+            "id": "activity-2",
+            "span": 1,
+            "title": "活动说明 3",
+            "description": "完整可编辑的活动介绍。",
+            "icon": "product-v1-activity-icon",
+            "href": "#v1-activities",
+            "tags": [
+              {
+                "text": "个人认证",
+                "color": "default"
+              }
+            ],
+            "countdown": {
+              "endsAt": 1792627200000,
+              "visibleFrom": 1792281600000,
+              "rounding": "ceil"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "activity-countdown-cards-v1",
+      "id": "v1-activities-compact",
+      "title": "活动紧凑列表",
+      "mobileTitle": "活动紧凑列表",
+      "background": "grey",
+      "cardBackground": "white",
+      "align": "center",
+      "mobileLayout": "compact",
+      "mobileInitialItems": 2,
+      "now": 1792368000000,
+      "labels": {
+        "days": "{days}天后结束",
+        "ended": "活动已结束",
+        "showMore": "展开全部活动",
+        "showLess": "收起活动"
+      },
+      "rows": [
+        [
+          {
+            "id": "activity-0",
+            "span": 2,
+            "title": "活动说明 1",
+            "description": "完整可编辑的活动介绍。",
+            "icon": "product-v1-activity-icon",
+            "href": "#v1-activities-compact",
+            "tags": [
+              {
+                "text": "个人认证",
+                "color": "default"
+              }
+            ],
+            "countdown": {
+              "endsAt": 1792454400000,
+              "visibleFrom": 1792281600000,
+              "rounding": "ceil"
+            }
+          },
+          {
+            "id": "activity-1",
+            "span": 1,
+            "title": "活动说明 2",
+            "description": "完整可编辑的活动介绍。",
+            "icon": "product-v1-activity-icon",
+            "href": "#v1-activities-compact",
+            "tags": [
+              {
+                "text": "个人认证",
+                "color": "default"
+              }
+            ],
+            "countdown": {
+              "endsAt": 1792540800000,
+              "visibleFrom": 1792281600000,
+              "rounding": "ceil"
+            }
+          },
+          {
+            "id": "activity-2",
+            "span": 1,
+            "title": "活动说明 3",
+            "description": "完整可编辑的活动介绍。",
+            "icon": "product-v1-activity-icon",
+            "href": "#v1-activities-compact",
+            "tags": [
+              {
+                "text": "个人认证",
+                "color": "default"
+              }
+            ],
+            "countdown": {
+              "endsAt": 1792627200000,
+              "visibleFrom": 1792281600000,
+              "rounding": "ceil"
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}

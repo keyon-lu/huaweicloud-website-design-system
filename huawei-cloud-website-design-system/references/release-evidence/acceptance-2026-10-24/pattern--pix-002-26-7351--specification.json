@@ -1,0 +1,62 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "pattern/pix-002-26-7351/specification",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "reviewType": "adopted-public-branch-contract-review",
+    "subject": "pix-002-26-7351",
+    "contract": "references/product-v1-live-preview.md",
+    "contractSha256": "96e04caddae6e88c3ce9e5d7d498e304d73f92b5c3f24fd0af15e454e8343130",
+    "model": "references/first-release-floor-state-contracts.json",
+    "modelSha256": "9c0e6949c72971c091708e311ed4745f28fe043368e0f2bc894f0916a9e37152",
+    "namedStates": [
+      "upcoming",
+      "local-reserved",
+      "local-cancelled",
+      "live",
+      "ended"
+    ],
+    "transitionRules": "Explicit supplied status; local Set synchronizes two reserve controls; live roomHref, ended optional replayHref; countdown label/deadline explicit.",
+    "unsupportedOrHostOwned": "No real account/server reservation, remote pending/error or invented time-window policy; localNotice required.",
+    "scope": "Source contract/specification and finite supported-state definition reviewed against the current public entry and source contract. This is not runtime execution of every state, new source visual approval, responsive-long-content acceptance or manual accessibility certification.",
+    "newOwnerApprovals": 0,
+    "newRuntimePasses": 0
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/pattern--pix-002-26-7351--specification.json",
+    "recordSha256": "8e7298c09071e38936f80e1b682254bd47921f7784d644ad250dac56efe66a65",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/pattern--pix-002-26-7351--specification.json",
+    "sha256": "455faf2513bda373809ea5966b9728e14c3eba3fa28096e85899aaf02ba36525"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "bounded-behavior-repair-not-owner-redesign",
+  "date": "2026-10-25",
+  "repairs": [
+    {
+      "name": "PortalSolutionCards",
+      "scope": "focus-continuity-only",
+      "beforeSource": "function PortalSolutionCards({id,title,items}:{id:string;title:string;items:SolutionMediaItem[]}){\r\n const track=React.useRef<HTMLDivElement>(null);const [position,setPosition]=React.useState({start:true,end:false})\r\n function update(){const el=track.current;if(el)setPosition({start:el.scrollLeft<=1,end:el.scrollLeft+el.clientWidth>=el.scrollWidth-1})}\r\n React.useEffect(()=>{update();window.addEventListener(\"resize\",update);return()=>window.removeEventListener(\"resize\",update)},[items.length])\r\n function scroll(direction:number){const el=track.current;if(el){const card=el.firstElementChild as HTMLElement|null;el.scrollBy({left:direction*((card?.offsetWidth||320)+parseFloat(getComputedStyle(el).gap||\"0\")),behavior:window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches?\"auto\":\"smooth\"})}}\r\n return <div className=\"hc-gauss-floor hc-solutions-floor\"><PortalSection id={id} title={title}><div className=\"hc-solutions-carousel\"><div className=\"hc-solutions-track\" ref={track} tabIndex={0} role=\"region\" aria-label={portalText(\"portal.label.9cf371c03a04\")} onScroll={update}>{items.map(item=><a key={item.title} className={`hc-solution-card ${item.theme===\"dark\"?\"is-dark\":\"is-light\"}`} href={item.href} aria-label={item.title}>{item.asset&&<PortalAsset assetId={item.asset} alt=\"\" className=\"hc-solution-background\"/>}<div className=\"hc-solution-copy\"><h3>{item.title}</h3><p>{item.description}</p></div><span className=\"hc-solution-action\" aria-hidden=\"true\"><PortalAsset assetId={item.theme===\"dark\"?\"solution-arrow-white\":\"solution-arrow-dark\"} alt=\"\" className=\"hc-solution-arrow\"/></span></a>)}</div><button type=\"button\" className=\"hc-solutions-prev\" aria-label={portalText(\"portal.label.4e4928145dad\")} disabled={position.start} onClick={()=>scroll(-1)}><PortalAsset assetId=\"solution-carousel-arrow\" alt=\"\" className=\"hc-solutions-carousel-icon\"/></button><button type=\"button\" className=\"hc-solutions-next\" aria-label={portalText(\"portal.label.ba0079cf0e93\")} disabled={position.end} onClick={()=>scroll(1)}><PortalAsset assetId=\"solution-carousel-arrow\" alt=\"\" className=\"hc-solutions-carousel-icon\"/></button></div></PortalSection></div>\r\n}",
+      "afterSha256": "45b6e1f10092fafdd922ee064980348600b5888b4a0f052809c9067728b03c22",
+      "reason": "Native test observed BODY focus after focused edge control disabled. Move focus to existing named track before disabling; unchanged return JSX, CSS and tokens.",
+      "newOwnerApproval": false
+    }
+  ]
+}

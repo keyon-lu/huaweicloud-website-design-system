@@ -1,0 +1,28 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-30-33254/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-002-30-33254",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProductV1ReportFilter",
+        "contract": "references/product-v1-report-filter.md",
+        "generationKind": "report-filter-v1",
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ],
+        "scope": "source-scoped horizontal facets, two-column portrait report cards and independent phone metadata/title/actions/load-collapse; intermediate exact visual and source branches pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "feb28978690838a2175981611f588e104c7df176707a3d6ed81915df7c7bd05f"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "综合图文产品优势来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "illustrated-benefits-v1",
+      "id": "v1-benefits-staggered",
+      "title": "综合图文优势 staggered",
+      "showTitle": true,
+      "background": "grey",
+      "cardBackground": "white",
+      "layout": "staggered",
+      "items": [
+        {
+          "id": "benefit-0",
+          "title": "产品优势说明 1",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-staggered",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-1",
+          "title": "产品优势说明 2",
+          "body": {
+            "kind": "bullets",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-staggered",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-2",
+          "title": "产品优势说明 3",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-staggered",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-3",
+          "title": "产品优势说明 4",
+          "body": {
+            "kind": "bullets",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-staggered",
+            "variant": "secondary"
+          }
+        }
+      ],
+      "mobileOrder": [
+        "benefit-0",
+        "benefit-1",
+        "benefit-2",
+        "benefit-3"
+      ],
+      "labels": {
+        "actions": "优势说明操作"
+      }
+    },
+    {
+      "kind": "illustrated-benefits-v1",
+      "id": "v1-benefits-equal",
+      "title": "综合图文优势 equal",
+      "showTitle": true,
+      "background": "grey",
+      "cardBackground": "white",
+      "layout": "equal",
+      "items": [
+        {
+          "id": "benefit-0",
+          "title": "产品优势说明 1",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-equal",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-1",
+          "title": "产品优势说明 2",
+          "body": {
+            "kind": "bullets",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-equal",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-2",
+          "title": "产品优势说明 3",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-equal",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-3",
+          "title": "产品优势说明 4",
+          "body": {
+            "kind": "bullets",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-equal",
+            "variant": "secondary"
+          }
+        }
+      ],
+      "mobileOrder": [
+        "benefit-0",
+        "benefit-1",
+        "benefit-2",
+        "benefit-3"
+      ],
+      "labels": {
+        "actions": "优势说明操作"
+      }
+    },
+    {
+      "kind": "illustrated-benefits-v1",
+      "id": "v1-benefits-feature",
+      "title": "综合图文优势 feature",
+      "showTitle": true,
+      "background": "grey",
+      "cardBackground": "white",
+      "layout": "feature",
+      "items": [
+        {
+          "id": "benefit-0",
+          "title": "产品优势说明 1",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-feature",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-1",
+          "title": "产品优势说明 2",
+          "body": {
+            "kind": "bullets",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-feature",
+            "variant": "secondary"
+          }
+        },
+        {
+          "id": "benefit-2",
+          "title": "产品优势说明 3",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-feature",
+            "variant": "secondary"
+          }
+        }
+      ],
+      "mobileOrder": [
+        "benefit-0",
+        "benefit-1",
+        "benefit-2"
+      ],
+      "labels": {
+        "actions": "优势说明操作"
+      }
+    },
+    {
+      "kind": "illustrated-benefits-v1",
+      "id": "v1-benefits-single",
+      "title": "综合图文优势 single",
+      "showTitle": true,
+      "background": "grey",
+      "cardBackground": "white",
+      "layout": "single",
+      "items": [
+        {
+          "id": "benefit-0",
+          "title": "产品优势说明 1",
+          "body": {
+            "kind": "paragraphs",
+            "items": [
+              "完整可编辑的业务说明，保留段落内容。",
+              "使用独立来源图表展示结构。"
+            ]
+          },
+          "image": {
+            "asset": "product-v1-benefits-chart",
+            "mobileAsset": "product-v1-benefits-chart",
+            "alt": "原稿技术图表，用于验证完整显示及自然比例"
+          },
+          "action": {
+            "label": "了解详情",
+            "href": "#v1-benefits-single",
+            "variant": "secondary"
+          }
+        }
+      ],
+      "mobileOrder": [
+        "benefit-0"
+      ],
+      "labels": {
+        "actions": "优势说明操作"
+      }
+    }
+  ]
+}

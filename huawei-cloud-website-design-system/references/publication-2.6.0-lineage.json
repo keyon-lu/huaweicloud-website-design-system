@@ -1,0 +1,23 @@
+{
+  "baselineManifestSha256": "96797a0e2c3af38f5e87728b203a66a57df1a8a51b223ab020c7c9acfafc7a6c",
+  "changedFiles": [
+    {
+      "path": "README.md",
+      "before": "80437d9fd7f462295303e2c849e1dddf820d9dfbf14ecc73a771a97da7ebafb4",
+      "after": "17baee6317374f01af86c70b21f2ee7e61ac16e56355cf26c607965814deaae5"
+    },
+    {
+      "path": "SKILL.md",
+      "before": "b8b64e4d1993fc838084fe153e01e669518361d0d2b051ff99d5b11d392a70b4",
+      "after": "9588997fc00c559ce5cf6483a4ecbe95a3c2f7ef99cc29dbae89f9ef9a745253"
+    },
+    {
+      "path": "references/package-manifest.yaml",
+      "before": "63bb90c49595817615ea01e8633b1ff82acd1bbddeb85137f1cb84f7d2b43994",
+      "after": "a0e1c5f7f67c2e5b9bf9c784b32973ce96c480d32068a162e585754c4a55ce96"
+    }
+  ],
+  "unchangedManagedFiles": 2391,
+  "implementationAndEvidenceUnchanged": true,
+  "historicalSnapshots": "Retained unchanged; they describe their original RC18 inputs, not the edited release documentation."
+}

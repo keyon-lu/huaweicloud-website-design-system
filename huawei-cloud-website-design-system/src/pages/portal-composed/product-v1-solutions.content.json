@@ -1,0 +1,372 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "重点解决方案来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "featured-solutions-v1",
+      "id": "v1-solutions",
+      "title": "行业解决方案",
+      "mobileTitle": "行业解决方案",
+      "background": "grey",
+      "cardBackground": "white",
+      "smallAlign": "left",
+      "buttonMode": "show",
+      "mobileShowTabs": true,
+      "groups": [
+        {
+          "id": "group-0",
+          "label": "方案分类 1",
+          "featured": {
+            "id": "solution-0",
+            "title": "解决方案示例 0",
+            "icon": "product-v1-solution-icon",
+            "paragraphs": [
+              [
+                {
+                  "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                }
+              ]
+            ],
+            "actions": [
+              {
+                "label": "了解更多",
+                "href": "#v1-solutions",
+                "variant": "secondary"
+              }
+            ],
+            "asset": "product-v1-solution-photo",
+            "alt": "来源规范中的课堂场景照片"
+          },
+          "recommendations": [
+            {
+              "id": "solution-1",
+              "title": "解决方案示例 1",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "solution-2",
+              "title": "解决方案示例 2",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "solution-3",
+              "title": "解决方案示例 3",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "solution-4",
+              "title": "解决方案示例 4",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            }
+          ],
+          "mobileItems": [
+            {
+              "id": "solution-0",
+              "title": "解决方案示例 0",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-1",
+              "title": "解决方案示例 1",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-2",
+              "title": "解决方案示例 2",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-3",
+              "title": "解决方案示例 3",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-4",
+              "title": "解决方案示例 4",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            }
+          ]
+        },
+        {
+          "id": "group-1",
+          "label": "方案分类 2",
+          "featured": {
+            "id": "solution-0",
+            "title": "解决方案示例 0",
+            "icon": "product-v1-solution-icon",
+            "paragraphs": [
+              [
+                {
+                  "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                }
+              ]
+            ],
+            "actions": [
+              {
+                "label": "了解更多",
+                "href": "#v1-solutions",
+                "variant": "secondary"
+              }
+            ],
+            "asset": "product-v1-solution-photo",
+            "alt": "来源规范中的课堂场景照片"
+          },
+          "recommendations": [
+            {
+              "id": "solution-1",
+              "title": "解决方案示例 1",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "solution-2",
+              "title": "解决方案示例 2",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "solution-3",
+              "title": "解决方案示例 3",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "solution-4",
+              "title": "解决方案示例 4",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "actions": [
+                {
+                  "label": "了解更多",
+                  "href": "#v1-solutions",
+                  "variant": "secondary"
+                }
+              ]
+            }
+          ],
+          "mobileItems": [
+            {
+              "id": "solution-0",
+              "title": "解决方案示例 0",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-1",
+              "title": "解决方案示例 1",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-2",
+              "title": "解决方案示例 2",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-3",
+              "title": "解决方案示例 3",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            },
+            {
+              "id": "solution-4",
+              "title": "解决方案示例 4",
+              "icon": "product-v1-solution-icon",
+              "paragraphs": [
+                [
+                  {
+                    "text": "可编辑的解决方案说明，保留重点推荐和独立内容。"
+                  }
+                ]
+              ],
+              "href": "#v1-solutions"
+            }
+          ]
+        }
+      ],
+      "more": {
+        "label": "查看所有行业解决方案",
+        "href": "#v1-solutions"
+      },
+      "labels": {
+        "tabs": "解决方案分类",
+        "previous": "之前的分类",
+        "next": "之后的分类",
+        "actions": "解决方案操作"
+      }
+    }
+  ]
+}

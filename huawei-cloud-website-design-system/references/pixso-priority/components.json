@@ -1,0 +1,129 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "scope": "Published component-set axes plus actual direct variant nodes verified online. Includes source dark/international branches retained as evidence but excluded from current implementation scope. No Cartesian expansion inferred.",
+  "componentSetCount": 131,
+  "variantNodeCount": 950,
+  "bundles": [
+    "references/pixso-priority/component-sets-000.json",
+    "references/pixso-priority/component-sets-010.json",
+    "references/pixso-priority/component-sets-020.json",
+    "references/pixso-priority/component-sets-030.json",
+    "references/pixso-priority/component-sets-040.json",
+    "references/pixso-priority/component-sets-050.json",
+    "references/pixso-priority/component-sets-060.json",
+    "references/pixso-priority/component-sets-070.json",
+    "references/pixso-priority/component-sets-080.json",
+    "references/pixso-priority/component-sets-090.json",
+    "references/pixso-priority/component-sets-100.json",
+    "references/pixso-priority/component-sets-110.json",
+    "references/pixso-priority/component-sets-120.json",
+    "references/pixso-priority/component-sets-130.json"
+  ],
+  "components": [
+    {
+      "id": "341:12524",
+      "name": "辅助文案"
+    },
+    {
+      "id": "753:13102",
+      "name": "楼层Tab"
+    },
+    {
+      "id": "798:15250",
+      "name": "楼层Tab-去掉tab"
+    },
+    {
+      "id": "844:17755",
+      "name": "组合样式"
+    },
+    {
+      "id": "442:15661",
+      "name": "左侧导航"
+    },
+    {
+      "id": "1224:18532",
+      "name": "带图标"
+    },
+    {
+      "id": "1705:31594",
+      "name": "1卡片"
+    },
+    {
+      "id": "1705:31349",
+      "name": "1内容"
+    },
+    {
+      "id": "1723:31261",
+      "name": "1组合"
+    },
+    {
+      "id": "1689:31311",
+      "name": "1头部"
+    },
+    {
+      "id": "1601:29370",
+      "name": "头部"
+    },
+    {
+      "id": "605:4328",
+      "name": "图标-圆点"
+    },
+    {
+      "id": "649:7089",
+      "name": "通用卡片/双卡售前组合样式"
+    },
+    {
+      "id": "646:5403",
+      "name": "logo/80"
+    },
+    {
+      "id": "674:6674",
+      "name": "客户案例/logo"
+    },
+    {
+      "id": "1233:20853",
+      "name": "1280，hover"
+    },
+    {
+      "id": "783:23195",
+      "name": "应用场景架构图/组合样式"
+    },
+    {
+      "id": "783:16156",
+      "name": "应用场景架构图/搭配使用"
+    },
+    {
+      "id": "783:21093",
+      "name": "应用场景架构图/案例视频"
+    },
+    {
+      "id": "783:21868",
+      "name": "应用场景架构图/推荐机型"
+    },
+    {
+      "id": "753:13077",
+      "name": "场景&案例展示/组合样式"
+    },
+    {
+      "id": "753:13018",
+      "name": "场景&案例展示/内容区"
+    }
+  ],
+  "bundleHashes": {
+    "references/pixso-priority/component-sets-000.json": "736846aec7034381179f987753e26ae73cb3626d5c5f970951f7919f4216fd18",
+    "references/pixso-priority/component-sets-010.json": "c89dad36f80ed307de68001185351df3fd3de50823454abd0565415568fdea7e",
+    "references/pixso-priority/component-sets-020.json": "a6868f178bb9d75a3586e4481f296cc912a75b1ea17dbac23454507d956c9c6a",
+    "references/pixso-priority/component-sets-030.json": "424d043e06cb085010c2ddc40ec3f64fd32a399786f969c8931d744b575dedc5",
+    "references/pixso-priority/component-sets-040.json": "a5f913f7f65d7df0c0447129c3ea88077e5c878559c549330e57a6bd737e0bcd",
+    "references/pixso-priority/component-sets-050.json": "6070753085a12084cd8e2762ab0aea82746b7c0dc2d46546154c089b356d45ca",
+    "references/pixso-priority/component-sets-060.json": "42cdeaa6b43eaa0a624daaf2781e820dd4f70dcc1765a043d8b3db1ea9122a5a",
+    "references/pixso-priority/component-sets-070.json": "a4240ab63f3f92a0b7db3cb3f51217ebff3385d9261070601459b0966a984823",
+    "references/pixso-priority/component-sets-080.json": "b3c25ec23ae4fc33fa199741833b7262d44cb98da2820ff9e3fd18625f1ff763",
+    "references/pixso-priority/component-sets-090.json": "e5973e38dec2aea9c11dedd4a9ac34e37b7053e4e92149190cbd5da0567bda01",
+    "references/pixso-priority/component-sets-100.json": "2f1618a0fb2c384f7f1d65011c29ee15186dd525be11a930949fe4b6eede4835",
+    "references/pixso-priority/component-sets-110.json": "4fc46525be47e961b46feee61be2c8f0ff4fa8639f0d6f9749710ee9064749d3",
+    "references/pixso-priority/component-sets-120.json": "6a77157491daf954792a5b312a66e50bd6287692c4d79c04cef15c0f68ab733c",
+    "references/pixso-priority/component-sets-130.json": "74795813b950b7cf359269e688818d524e8ad7ae5498db8fc3977112f6bea483"
+  }
+}

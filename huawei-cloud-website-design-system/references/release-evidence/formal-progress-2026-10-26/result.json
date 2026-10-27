@@ -1,0 +1,102 @@
+{
+  "kind": "formal-release-remediation-progress",
+  "date": "2026-10-26",
+  "candidate": "RC17 checkpoint draft",
+  "engineeringGroups": 31,
+  "engineeringPassed": true,
+  "browserSnapshot": "bfc3348c40fa9d8daf480596dfb6baf7f2c1d6bcb696ff70e08ff4787ebbd270",
+  "browserStories": 198,
+  "declaredPlay": 65,
+  "renderOnly": 133,
+  "browserFailures": 0,
+  "changes": [
+    "Models visible204:3 two-card390 ratio790/390; generated/source boundary and mobile control focus retained",
+    "White2026 nav main labels18px according to2:53324; V1, secondary menus, title, actions excluded",
+    "Nested modal autocomplete test waits for popup paint before unchanged accessible role assertions; no product implementation change",
+    "Scene carousel: focus before boundary disable and preserve focus across responsive track remount; styles and scroll algorithm unchanged"
+  ],
+  "newTargetedProofs": {
+    "modelsWidths": 16,
+    "modelsOverflowAfterSettling": 0,
+    "modelsDualEntryFocus": true,
+    "whiteNavHeight": 48,
+    "whiteNavMenuLine": 18,
+    "v1MenuLineUnchanged": 22,
+    "originalModalIsolatedFailures": 4,
+    "originalModalIsolatedRuns": 5,
+    "postSyncModalIsolatedPasses": 5,
+    "postSyncModalIsolatedRuns": 5,
+    "modalNativeSelectionEscapeAndEmptyState": true,
+    "sceneGeneratedAndSourceFocus": true,
+    "backgroundNormalMotionTiming": "Unverified; original V27 scroll assertion failure retained and final run uses a visible dedicated tab"
+  },
+  "evidenceFiles": [
+    {
+      "path": "engineering-final.json",
+      "sha256": "ee2175ced870b8c838465228781e8548f0226ca7b4c4e286629d90df135814ad"
+    },
+    {
+      "path": "modal-empty-native-v25.json",
+      "sha256": "7f44f70c7bf3957837a67427ae1545a283dbbbd1b23afd23bb0d5e0f1d2e685b"
+    },
+    {
+      "path": "modal-native-v25.json",
+      "sha256": "fb6c5d7f32c69bcc7c4540e3f86118b399da7a3aef91cf626610a867a6ed679a"
+    },
+    {
+      "path": "modal-reproduction-v25.json",
+      "sha256": "33600737575b03ca6ff8f203002bf7a6b40e695d52f46f4bb87759921cc95080"
+    },
+    {
+      "path": "modal-reproduction-v26.json",
+      "sha256": "717b90b100ba4a5f8d1a297a70f775e3bf39f902f87b0b61c70ed5c72bda810e"
+    },
+    {
+      "path": "models-focus-after.json",
+      "sha256": "e2b1d10222985c6da66b83a17195777989ac68e23032dd342c9f54af7ef25c39"
+    },
+    {
+      "path": "models-two-responsive-stable.json",
+      "sha256": "f54c3cfa643720c971a8c6cff644f24856d435834df763f277a087e41423a449"
+    },
+    {
+      "path": "navigation-source-browser-v27.json",
+      "sha256": "889535275065ef0b271c93f5b96d08355aaea723699bb3bf271e0c0162e8875a"
+    },
+    {
+      "path": "scene-focus-after.json",
+      "sha256": "c8abe2d116b42854372182867d8d0016a04253bcdc80cdbd843fb5ffacbeeeb6"
+    },
+    {
+      "path": "scene-focus-before.json",
+      "sha256": "8337a6ed9ca0ea17f83fa4ae43b836607634c9fdaa471874cd6e117961b75c0c"
+    },
+    {
+      "path": "source-models-focus-v25.json",
+      "sha256": "e1e8eb450d78124fa405454c33043853cd2463bb5a87fc41fc2780a19ebafcd7"
+    },
+    {
+      "path": "source-scene-focus-v28.json",
+      "sha256": "12bbf5b99b8da4a9fc6a861723ba80597b5acc832913de9cb45c16b8111ffb0f"
+    },
+    {
+      "path": "stories-browser-verified-v28.json",
+      "sha256": "29167e5443b128bfed4e333515a0cafdec617fa962d77a630293bccf779f452d"
+    }
+  ],
+  "scopeUnchanged": {
+    "adoptedSources": 66,
+    "floorFamilyBindings": 62,
+    "foundationFamilies": 17,
+    "ownerApprovedOriginalSamples": 19,
+    "deferredSources": 117
+  },
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "remaining": [
+    "Full source visual and adopted special-configuration coverage is not complete",
+    "All451 modeled states are not claimed as executed",
+    "Source next/live contrast remains at owner pending decision; original colors retained",
+    "Physical phone touch/soft keyboard, real screen reader and actual browser zoom remain unverified; no connected device or record supplied"
+  ]
+}

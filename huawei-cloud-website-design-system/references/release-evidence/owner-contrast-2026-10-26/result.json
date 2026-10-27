@@ -1,0 +1,47 @@
+{
+  "kind": "owner-contrast-disposition-closed",
+  "date": "2026-10-26",
+  "resolvedDesignDecisions": [
+    "next-contrast",
+    "live-contrast"
+  ],
+  "riskDisposition": "owner-accepted-known-limitation",
+  "contrastConformance": "not-met",
+  "newAccessibilityPasses": 0,
+  "newWholeComponentApprovals": 0,
+  "otherAcceptanceWaived": false,
+  "targetedChecks": 9,
+  "allTargetedChecksPassed": true,
+  "unchangedUiSourceFiles": 773,
+  "generationCases": 3,
+  "generatedHtmlByteIdentical": true,
+  "currentSourceInputFiles": 757,
+  "evidenceFiles": [
+    {
+      "path": "change-proof.json",
+      "sha256": "0270a1e1a83a088e7d356918a53af0c71128833521b8ec7bd9560102f8ea0538"
+    },
+    {
+      "path": "decision-lineage.json",
+      "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+    },
+    {
+      "path": "generation-verification.json",
+      "sha256": "73fa44b83e4e0cc047df469fc2d0c7bfb6f8d4e39f6aa7aeee10c6344bf2a44a"
+    },
+    {
+      "path": "rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    {
+      "path": "source-inputs.json",
+      "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+    },
+    {
+      "path": "targeted-checks.json",
+      "sha256": "e68a5f8c144af2392a7c3762c60f422970c743a726463841c2fcd0354c6ecf2a"
+    }
+  ],
+  "formalRelease": false,
+  "remaining": "Full source/selected-configuration acceptance and physical-device/reader/actual-zoom verification remain; neither accepted contrast failure is labelled compliant."
+}

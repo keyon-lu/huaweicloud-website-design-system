@@ -1,0 +1,248 @@
+{
+  "command-cards-2026": {
+    "kind": "command-cards-2026",
+    "id": "commands",
+    "title": "让Agent用好华为云",
+    "mobileTitle": "让Agent用好华为云",
+    "columns": 3,
+    "syntaxProfile": "accessible",
+    "copyLabels": {
+      "copy": "复制命令",
+      "copied": "复制成功",
+      "failed": "复制失败，重试",
+      "busy": "正在复制",
+      "commandNavigation": "命令工具",
+      "actions": "卡片入口"
+    },
+    "items": [
+      {
+        "id": "skills",
+        "title": "官方Skills库",
+        "description": "Skills库，让Agent更智能、更高效，轻松解锁华为云的无限可能！",
+        "asset": "product-2026-command-background",
+        "commands": [
+          {
+            "id": "npm",
+            "label": "npm",
+            "caption": "通过与Agent对话安装华为云Skills",
+            "segments": [
+              {
+                "text": "npx skills add ",
+                "role": "program"
+              },
+              {
+                "text": "https://gitcode.com/",
+                "role": "plain"
+              },
+              {
+                "text": "developer-skill/developer-skill.git",
+                "role": "path"
+              },
+              {
+                "text": " --skill ",
+                "role": "plain"
+              },
+              {
+                "text": "huawei-cloud-cli-guidance",
+                "role": "argument"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "label": "探索更多Skills",
+            "href": "#commands",
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "id": "cases",
+        "title": "Hands-on案例中心",
+        "description": "化繁为简，企业级高价值实践案例，一键部署！",
+        "asset": "product-2026-command-background",
+        "commands": [
+          {
+            "id": "npm",
+            "label": "npm",
+            "caption": "通过与Agent对话安装华为云Skills",
+            "segments": [
+              {
+                "text": "npx skills add ",
+                "role": "program"
+              },
+              {
+                "text": "https://gitcode.com/",
+                "role": "plain"
+              },
+              {
+                "text": "developer-skill/developer-skill.git",
+                "role": "path"
+              },
+              {
+                "text": " --skill ",
+                "role": "plain"
+              },
+              {
+                "text": "huawei-cloud-cli-guidance",
+                "role": "argument"
+              }
+            ]
+          },
+          {
+            "id": "bun",
+            "label": "bun",
+            "caption": "通过与Agent对话安装华为云Skills",
+            "segments": [
+              {
+                "text": "bunx skills add ",
+                "role": "program"
+              },
+              {
+                "text": "https://gitcode.com/",
+                "role": "plain"
+              },
+              {
+                "text": "developer-skill/developer-skill.git",
+                "role": "path"
+              },
+              {
+                "text": " --skill ",
+                "role": "plain"
+              },
+              {
+                "text": "huawei-cloud-cli-guidance",
+                "role": "argument"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "label": "探索更多Skills",
+            "href": "#commands",
+            "variant": "primary"
+          }
+        ],
+        "links": [
+          {
+            "label": "查看实践案例资料",
+            "href": "#commands"
+          }
+        ]
+      },
+      {
+        "id": "coming",
+        "title": "Hands-on案例中心",
+        "description": "化繁为简，企业级高价值实践案例，一键部署！",
+        "asset": "product-2026-command-background",
+        "actions": [
+          {
+            "label": "敬请期待",
+            "variant": "secondary",
+            "disabled": true
+          }
+        ]
+      }
+    ],
+    "mobileItems": [
+      {
+        "id": "skills",
+        "title": "官方Skills库",
+        "description": "Skills库，让Agent更智能、更高效，轻松解锁华为云的无限可能！",
+        "commands": [
+          {
+            "id": "npm",
+            "label": "npm",
+            "caption": "通过与Agent对话安装华为云Skills",
+            "segments": [
+              {
+                "text": "npx skills add ",
+                "role": "program"
+              },
+              {
+                "text": "https://gitcode.com/",
+                "role": "plain"
+              },
+              {
+                "text": "developer-skill/developer-skill.git",
+                "role": "path"
+              },
+              {
+                "text": " --skill ",
+                "role": "plain"
+              },
+              {
+                "text": "huawei-cloud-cli-guidance",
+                "role": "argument"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cases",
+        "title": "Hands-on案例中心",
+        "description": "化繁为简，企业级高价值实践案例，一键部署！",
+        "commands": [
+          {
+            "id": "npm",
+            "label": "npm",
+            "caption": "通过与Agent对话安装华为云Skills",
+            "segments": [
+              {
+                "text": "npx skills add ",
+                "role": "program"
+              },
+              {
+                "text": "https://gitcode.com/",
+                "role": "plain"
+              },
+              {
+                "text": "developer-skill/developer-skill.git",
+                "role": "path"
+              },
+              {
+                "text": " --skill ",
+                "role": "plain"
+              },
+              {
+                "text": "huawei-cloud-cli-guidance",
+                "role": "argument"
+              }
+            ]
+          },
+          {
+            "id": "bun",
+            "label": "bun",
+            "caption": "通过与Agent对话安装华为云Skills",
+            "segments": [
+              {
+                "text": "bunx skills add ",
+                "role": "program"
+              },
+              {
+                "text": "https://gitcode.com/",
+                "role": "plain"
+              },
+              {
+                "text": "developer-skill/developer-skill.git",
+                "role": "path"
+              },
+              {
+                "text": " --skill ",
+                "role": "plain"
+              },
+              {
+                "text": "huawei-cloud-cli-guidance",
+                "role": "argument"
+              }
+            ]
+          }
+        ],
+        "links": []
+      }
+    ]
+  }
+}

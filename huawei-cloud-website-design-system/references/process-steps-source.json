@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-16",
+  "page": "https://www.huaweicloud.com/partners/",
+  "componentVersion": "cnpm-pep-product-process-v2/2.4.31",
+  "files": [
+    {
+      "name": "process-v2.css",
+      "url": "https://res.hc-cdn.com/cnpm-pep-components/2.4.31/cnpm-pep-product-process-v2/pc/index.css",
+      "sha256": "0e40cfcfde933c00439431a04693b5e68649385bd49683ffa491101dd452b878",
+      "bytes": 21269
+    },
+    {
+      "name": "01_1.svg",
+      "url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/01_1.svg",
+      "sha256": "8546ccc4183e12c72e08339960ce74734c2f2732dd798821480097298d024057",
+      "bytes": 2260
+    },
+    {
+      "name": "02_1.svg",
+      "url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/02_1.svg",
+      "sha256": "f6e49c96b3c5d1769827249249716bdac7a850c9e2e7c1c51c0d7b31c1242c37",
+      "bytes": 3202
+    },
+    {
+      "name": "03_1.svg",
+      "url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/03_1.svg",
+      "sha256": "8bb738e8ecbde71c584445de6caab685ef180d57fc22cbdeb5480d5185adc8df",
+      "bytes": 4128
+    },
+    {
+      "name": "04_2.svg",
+      "url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/04_2.svg",
+      "sha256": "dfc0a8197933a7c2764353aecd9c379a12c0af7ceb2b651601b168f0d06ecdc4",
+      "bytes": 2418
+    },
+    {
+      "name": "1691741143788661482.svg",
+      "url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/1691741143788661482.svg",
+      "sha256": "dbab965b4e04246c223c5bdd3b3c61e4abbc4af4a3a9cf97b153fa3a62ddeac3",
+      "bytes": 1179
+    }
+  ]
+}

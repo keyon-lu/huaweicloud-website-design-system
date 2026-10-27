@@ -1,0 +1,29 @@
+{
+  "kind": "real-native-keyboard-faq",
+  "snapshot": "storybook-v11",
+  "date": "2026-10-23T15:00:09.506Z",
+  "desktop": {
+    "spaceCollapsed": true,
+    "EndSelectedApplication": true,
+    "HomePreservedCollapsed": true
+  },
+  "mobileBefore": {
+    "expanded": [
+      "false",
+      "false"
+    ],
+    "orientation": "horizontal",
+    "width": 375
+  },
+  "mobileAfter": "true",
+  "mobileFocus": {
+    "focusVisible": true,
+    "insideViewport": true,
+    "outlineOffset": "2px",
+    "outlineStyle": "solid",
+    "outlineWidth": "2px",
+    "text": "什么是云服务？"
+  },
+  "desktopAfterMobile": "false",
+  "mobileRetained": "true"
+}

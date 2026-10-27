@@ -1,0 +1,29 @@
+/* PIX-015 1272:23644 / 1272:22091. Unified table; no red active column. */
+.source-fixed-table{max-width:var(--hc-t-review-b9fb00837fad);min-width:0}.source-fixed-table-scroll{overflow:auto;overscroll-behavior:contain;border-radius:var(--hc-t-review-d3c89801597f)}
+.source-fixed-table table.por-fixed-table{border-collapse:separate;border-spacing:0;table-layout:fixed;width:var(--hc-t-review-47430c4c6d61);min-width:var(--hc-t-review-f0cb93e9b203);color:var(--hc-t-review-6e703946ebe6);background:var(--hc-t-review-d98e3d1c0dda);font:var(--hc-t-review-40979e5cad62);border:0}
+.source-fixed-table caption{text-align:left;font-size:var(--hc-t-review-4ad112024d3d);line-height:var(--hc-t-review-9887a9724086);margin-bottom:var(--hc-t-review-334c5ea39542);color:var(--hc-t-review-6e703946ebe6)}
+.source-fixed-table .por-fixed-table thead th{position:sticky;top:0;z-index:1;background:var(--hc-t-review-be94921f87fe);text-align:left;font-size:var(--hc-t-review-ad2c6797f5f4);line-height:var(--hc-t-review-f1169994ca70);font-weight:var(--hc-t-review-0b846960a52b);height:var(--hc-t-review-5cf2da0e2b20);padding:var(--hc-t-review-f99f2a477773);border:0;color:var(--hc-t-review-6e703946ebe6);vertical-align:top}
+.source-fixed-table .por-fixed-table thead th:first-child{border-radius:var(--hc-t-review-34fa82d5ad34)}.source-fixed-table .por-fixed-table thead th:last-child{border-radius:var(--hc-t-review-8a4612ceeab5)}
+.source-fixed-table .por-fixed-table tbody th[scope=row],.source-fixed-table .por-fixed-table td{background:var(--hc-t-review-d98e3d1c0dda);text-align:left;vertical-align:top;padding:var(--hc-t-review-f99f2a477773);border:0;border-bottom:var(--hc-t-review-354eda0c25f4);color:var(--hc-t-review-6e703946ebe6);font-size:var(--hc-t-review-9c5753a68be2);line-height:var(--hc-t-review-36f11e5984fc);font-weight:var(--hc-t-review-bced77c6c0b4);overflow-wrap:anywhere}
+.source-fixed-table .por-fixed-table tbody th[scope=row]{font-size:var(--hc-t-review-4ad112024d3d);line-height:var(--hc-t-review-9887a9724086);background:var(--hc-t-review-be94921f87fe)}
+.source-fixed-table .por-fixed-table tbody tr:last-child>*{border-bottom:0}.source-fixed-table .por-fixed-table tbody tr:last-child>th{border-radius:var(--hc-t-review-d9c22047bdd4)}.source-fixed-table .por-fixed-table tbody tr:last-child>td:last-child{border-radius:var(--hc-t-review-309da6911d43)}
+.source-fixed-table .por-fixed-table th .th-inner{padding:0;font:inherit}.source-fixed-table tr.por-compute-tr th{padding:var(--hc-t-review-f99f2a477773);background:var(--hc-t-review-be94921f87fe);color:var(--hc-t-review-6e703946ebe6);text-align:left;border-bottom:var(--hc-t-review-354eda0c25f4)}
+.source-fixed-table-scroll:focus-visible{outline:var(--hc-t-review-bc170b05f4dd);outline-offset:var(--hc-t-review-3c2b7fd5ea0f)}
+
+/* The source has no separate visible caption inside the table node. Retain an accessible name. */
+.source-fixed-table .por-fixed-table caption{position:absolute;width:var(--hc-t-review-cac161195f50);height:var(--hc-t-review-7982f9a03ff0);overflow:hidden;clip-path:var(--hc-t-review-caacc6082159);white-space:nowrap;padding:0;margin:0}
+
+/* Exact no-icon six-column source specimen1272:22091. Width/row dimensions are source data, not guessed breakpoints. */
+.source-fixed-table.por-fixed-table-container,.source-fixed-table-scroll.por-fixed-table-body{border:0}
+.source-design-table-6 .por-fixed-table{width:var(--hc-t-review-050ee18c474d);min-width:var(--hc-t-review-5f554441aa97)}
+.source-design-table-6 .por-fixed-table thead th{vertical-align:bottom;padding:var(--hc-t-review-19af4e678e74)}
+.source-design-table-6 .por-fixed-table thead th:first-child,.source-design-table-6 .por-fixed-table tbody th[scope=row]{padding-left:var(--hc-t-review-f11849d2189f)}
+.source-design-table-6 .por-fixed-table tbody th[scope=row],.source-design-table-6 .por-fixed-table td{border-bottom:0;box-shadow:var(--hc-t-review-e00e66088ccc)}
+.source-design-table-6 .source-design-cell-copy p{margin:0;padding:0;font:var(--hc-t-review-40979e5cad62);color:var(--hc-t-review-6e703946ebe6)}
+.source-design-table-6 .source-design-cell-copy p+p{margin-top:var(--hc-t-review-f1e26957571b)}
+.source-design-table-price{font:var(--hc-t-review-48f3206c800c);color:var(--hc-t-review-6e703946ebe6);white-space:nowrap}
+.source-design-table-price .currency{margin-right:var(--hc-t-review-8e92c19abf9b)}.source-design-table-price .unit{font:var(--hc-t-review-40979e5cad62);margin-left:var(--hc-t-review-055a517d11c4)}
+.source-design-table-buy{margin-top:var(--hc-t-review-7d24ac620f97)}.source-design-table-buy .source-button{margin:0}
+.source-design-table-6 .por-fixed-table tr:last-child>*{box-shadow:none}
+
+.source-design-table-6 .source-design-cell-copy p.source-design-cell-link{color:var(--hc-t-review-a98d7347ca92)}.source-design-table-price .unit{color:var(--hc-t-review-316026a38e29)}

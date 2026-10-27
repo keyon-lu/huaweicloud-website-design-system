@@ -1,0 +1,11 @@
+{
+  "baseline": "PortalUI3.0.17",
+  "source": "src/styles/portalui-source-3.0.17.css",
+  "sourceSha256": "aa3d79f24e30903fb2e96446ca44bd7f775f8f7499878ac51ef6536515ee481b",
+  "families": [
+    "u-icon",
+    "por-icon"
+  ],
+  "method": "exact @font-face blocks copied byte-for-byte from supplied local source; no network fetch",
+  "outputSha256": "75493d8c00b1ff306da55f3985f490a4fe6b4ac46d3f24eb21d06cd39b369c7f"
+}

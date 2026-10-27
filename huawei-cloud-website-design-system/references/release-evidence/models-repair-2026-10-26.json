@@ -1,0 +1,61 @@
+{
+  "kind": "models-matched-source-and-focus-correction",
+  "date": "2026-10-26",
+  "baselineCandidate": "RC16",
+  "sourceFrame": "204:3",
+  "sourceImageMasks": [
+    "2:202217",
+    "2:202194"
+  ],
+  "sourceDimensions": {
+    "width": 790,
+    "height": 390
+  },
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "e264eeb874c44be3e9999629ec09506e7740257f377204c949c4bfe3764615ba",
+      "afterSha256": "d9ec1cf511cad79e957da40bcc66c0de701a68cae7e0cd7a7facb66bb35a14e5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.tsx",
+      "beforeSha256": "1c32be97d4533a712d38a1d5c510e694bda4f05f9a48a93a3f975b7153cc541c",
+      "afterSha256": "e971678fa247019b95cd867022827fc634ad4cdb249f51d1faff8e253454a54e"
+    },
+    {
+      "path": "src/styles/product-2026-models.css",
+      "beforeSha256": "420f59bd98d652b264c71ce0b4b1c3e48217875eb7a0cdd078b7988eb09597cd",
+      "afterSha256": "3147a2313f156aa1a2b08bfb28bad078b6f9289a434dc82c8c13a81597b8370a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.css",
+      "beforeSha256": "420f59bd98d652b264c71ce0b4b1c3e48217875eb7a0cdd078b7988eb09597cd",
+      "afterSha256": "3147a2313f156aa1a2b08bfb28bad078b6f9289a434dc82c8c13a81597b8370a"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7",
+      "afterSha256": "0dc663120854cf312453f4144d9e6dc216813cdad43726dded261a0a648d962c"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7",
+      "afterSha256": "0dc663120854cf312453f4144d9e6dc216813cdad43726dded261a0a648d962c"
+    },
+    {
+      "path": "references/product-2026-models.md",
+      "beforeSha256": "b5957d981472f4c4f92ab35167b111a707b068ccd60a3122c42b7715506aa9fc",
+      "afterSha256": "bea4b0bc5afe3257c6d59a3f50e65c10a6fccf798485f45c23e06efbf9f19462"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "96c0843262dac9e875e1248e7764617d042544a3aa24d712c6303b85e7d7a50e",
+      "afterSha256": "2c1f7eb056a7b7fe0f2a3f33700e745c36258db3903fa318d062df4502897c97"
+    }
+  ],
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "returnJsxStructurallyEquivalent": true,
+  "unrelatedExportsByteIdentical": 145,
+  "presentationDelta": "Only the exact two-card390 image aspect ratio; no other style declarations or rendered control structure changed"
+}

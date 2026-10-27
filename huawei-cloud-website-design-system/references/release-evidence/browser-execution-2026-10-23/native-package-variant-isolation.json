@@ -1,0 +1,35 @@
+{
+  "kind": "native-package-variant-isolation",
+  "date": "2026-10-23T15:40:30.246Z",
+  "snapshot": "storybook-v12",
+  "sourceId": "pix-001-2-206776",
+  "afterSelect": {
+    "disabled": [
+      true,
+      true,
+      true
+    ],
+    "prices": [
+      "¥129.00/测试周期",
+      "¥99.00/测试周期",
+      "¥99.00/测试周期"
+    ],
+    "selected": [
+      "extended",
+      "standard",
+      "standard"
+    ]
+  },
+  "afterHome": {
+    "prices": [
+      "¥99.00/测试周期",
+      "¥99.00/测试周期",
+      "¥99.00/测试周期"
+    ],
+    "selected": [
+      "standard",
+      "standard",
+      "standard"
+    ]
+  }
+}

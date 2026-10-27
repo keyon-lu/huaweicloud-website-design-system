@@ -1,0 +1,61 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "pattern/pix-001-2-157839/specification",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "reviewType": "adopted-public-branch-contract-review",
+    "subject": "pix-001-2-157839",
+    "contract": "references/product-2026-pricing.md",
+    "contractSha256": "964819fdaeb8d7cbbb850f0f98ce65e185466469882ac4c32af92a3d2843e98a",
+    "model": "references/first-release-floor-state-contracts.json",
+    "modelSha256": "9c0e6949c72971c091708e311ed4745f28fe043368e0f2bc894f0916a9e37152",
+    "namedStates": [
+      "desktop-table",
+      "mobile-first-open",
+      "mobile-group-open",
+      "mobile-group-closed"
+    ],
+    "transitionRules": "Phone rows/columns are explicitly configured; first group initially open and other groups independently toggle.",
+    "unsupportedOrHostOwned": "No pricing computation, checkout, remote loading or mobile source group-header certification.",
+    "scope": "Source contract/specification and finite supported-state definition reviewed against the current public entry and source contract. This is not runtime execution of every state, new source visual approval, responsive-long-content acceptance or manual accessibility certification.",
+    "newOwnerApprovals": 0,
+    "newRuntimePasses": 0
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/pattern--pix-001-2-157839--specification.json",
+    "recordSha256": "e7841ef8d4c9be3ea09d06005a5971be6d003d9359358c70147d09be6530794f",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/pattern--pix-001-2-157839--specification.json",
+    "sha256": "f7899b2f3975e6088c33e8542f5b4d4c6dce410da60d43e928c344a338a54353"
+  }
+}

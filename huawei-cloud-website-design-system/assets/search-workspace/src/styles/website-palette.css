@@ -1,0 +1,13 @@
+/* Owner clarification 2026-10-16: avoid #1476FF in buttons; allow it in checkboxes.
+   Existing neutral mappings remain for compatibility, not a global ban on blue.
+   Other component colors follow their own source specifications. */
+:root{
+ --por-color-text-button:var(--por-color-text-primary);
+ --por-color-background-aux:var(--por-color-background-gray-5);
+ --por-color-function-info:var(--por-color-text-primary);
+ --por-color-function-info-background:var(--por-color-background-gray-5);
+ --por-color-datepicker-input-border-active:var(--por-color-border-input-active);
+ --por-color-datepicker-roller-selected-text:var(--por-color-text-primary);
+ --por-color-datepicker-button-text:var(--por-color-text-primary);
+ --hc-focus-ring:var(--por-color-border-input-active);
+}

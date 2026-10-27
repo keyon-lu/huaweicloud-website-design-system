@@ -1,0 +1,5557 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "authority": "Latest owner explicitly fixes previously validated product/developer component presentation",
+  "historicalDeveloperArtifact": {
+    "sha256": "f801acda361125b17048e1331809c96a62e06234220846928ae89c985436d2d6",
+    "acceptance": "Original2.0.24 artifact remains byte-identical; this does not assert current runtime byte identity or new source-prototype acceptance"
+  },
+  "files": [
+    {
+      "path": "src/styles/portal-adapter.css",
+      "sha256": "8aaaf4585db5264331cd04665d1df1852ae6656a175000e8c42537aaee3609cd"
+    },
+    {
+      "path": "src/styles/portal-grid-decision.css",
+      "sha256": "7a5cdabd144ba31aaafd996bcb3a16e15e0d5fbb34d7256f3a24eab128fb167c"
+    },
+    {
+      "path": "src/styles/website-grid.css",
+      "sha256": "6c196e0b606db2f55a288fcc16272279220710a6206c2006f3b92650aac0bbae"
+    },
+    {
+      "path": "src/styles/website-palette.css",
+      "sha256": "113d3232b281ec1fa3795e484fcd3e18c0a998294c66d0adb87c2b4052490934"
+    }
+  ],
+  "functions": [
+    {
+      "name": "PortalButton",
+      "sha256": "1d85d5a621da575bbcfd0dad1e3f5c2f1a27b478d4a34b4a48df4869ab531e4f"
+    },
+    {
+      "name": "resolvePortalHeaderLayout",
+      "sha256": "dd3712c2b264c854733e9c43094bfa327f1365830c8284bf18ba6ca9ff49a5d7"
+    },
+    {
+      "name": "PortalHeader",
+      "sha256": "4ef34fce57922ad70d5f608eb47ea6d3e78469f7fe35f2ea8f18435df3cd449e"
+    },
+    {
+      "name": "PortalMobileMenu",
+      "sha256": "ea3228c86806adde0a46d3677751f5ceb15695ba30ba26d9e89d0d671a83aee3"
+    },
+    {
+      "name": "PortalMobileMenuBranch",
+      "sha256": "979ce7283cde82a7d76d833488ec21a19b438159007e0ed8bab46ed87cd1d67b"
+    },
+    {
+      "name": "PortalNavigationGlyph",
+      "sha256": "db0f66c85f6ea945e337ddb30590f0df435de908d929f8b275cd1bfe36e99334"
+    },
+    {
+      "name": "PortalFooter",
+      "sha256": "1d21104e9c20cf58493955a6bf0b918d18f4dd2c42ac8fe525b3cf7f6fdc9d75"
+    },
+    {
+      "name": "PortalHero",
+      "sha256": "0055e5a8bb0b9d5abb6952189a55412e3aa4d9d42d3108621250c04058f86e82"
+    },
+    {
+      "name": "PortalSection",
+      "sha256": "d1089d783a7af408cadbe34945b2ae33aca249e022c5a361478f1ff7c60fa7c0"
+    },
+    {
+      "name": "PortalCards",
+      "sha256": "2a161e84bae4bfdcf32aafb87a4cc9f9fb140f9190049821d5e15290c4c1f9ca"
+    },
+    {
+      "name": "PortalAnchor",
+      "sha256": "0cadda5e256f891869dee697fe9b2fd1c70e0ff014f0b5a3696c5e34c42180cc"
+    },
+    {
+      "name": "PortalFAQ",
+      "sha256": "878fd6ead04697b7382bfd7b372e909e0354e07862ed783dd1120cf3e2962866"
+    },
+    {
+      "name": "PortalCopyCommand",
+      "sha256": "932e4a697625cc1e67c9df2c6e08ed9fd3c5ebc83ba278259d1f72b495ecb5f9"
+    },
+    {
+      "name": "PortalAbility",
+      "sha256": "1f4e78020a252fd592bcf2e44710a01fde35991e2bc6fd11862279b7bb3d6ec6"
+    },
+    {
+      "name": "PortalProductNavigation",
+      "sha256": "39944b4790aaf37e9e6c1db18284f595d7801a2b11ef79375ca5de208af4c345"
+    },
+    {
+      "name": "PortalGaussHero",
+      "sha256": "fb409719f59e1dd89948bace3543d01a22bd59a276537cc69a7baa427ec46785"
+    },
+    {
+      "name": "PortalGaussNews",
+      "sha256": "8d511e9d9dd8feec70f03f0564456c12e21ad9848f0b340f11f34dac143450c9"
+    },
+    {
+      "name": "PortalGaussPricing",
+      "sha256": "5921a2a0c6ca45247888b729ef06bff68e32e5a6f21bb793e5ef80faf9aa4567"
+    },
+    {
+      "name": "PortalGaussBenefits",
+      "sha256": "a386b890bebf90b20f804c9aa9ede6d693680c3b027e8083ff10ce5365e7759a"
+    },
+    {
+      "name": "PortalGaussCases",
+      "sha256": "877ac990defedc3c5fa068594c45ab5d3307898d626b86c63990437a919a14b3"
+    },
+    {
+      "name": "PortalGaussRecognition",
+      "sha256": "efcccddc52274cbb735ff9841fd2e73bddf53ae09f220306e37d2f6dbefe2306"
+    },
+    {
+      "name": "PortalGaussPartners",
+      "sha256": "d521cb43874d52fc21bbffd407e565aeccbf446543aaf07804873600c8c80cf6"
+    },
+    {
+      "name": "PortalGaussVideos",
+      "sha256": "10d2e50bf48b401d83633ef7b1eaf8b4d5f3a1cd68f555b139366da96294b3b2"
+    },
+    {
+      "name": "PortalGaussResources",
+      "sha256": "c15dcc1147906131efa37b70ddea0822dce1b7291512d36d3177f399477c8e35"
+    },
+    {
+      "name": "PortalGaussQuestions",
+      "sha256": "cfe691f29e084c7f87b654ec81a01bc616d33f2a5a5122e01835e6ff50c9176d"
+    },
+    {
+      "name": "PortalGaussFinalAction",
+      "sha256": "1287ae7ce68f1f28aed3898e5cb08419d3064cd8da827c22793d1841c4b4b931"
+    },
+    {
+      "name": "PortalWebsiteFooter",
+      "sha256": "3a5da95857ace337879198caa725bc8555f79bd9f185261242ad49ddaa6a685b"
+    },
+    {
+      "name": "PortalProductHero",
+      "sha256": "4f546a770a457ada6b6e99dd0c3a45ea21f43be6b6cf9d9d2e6392c61a5b6e5f"
+    },
+    {
+      "name": "PortalCustomerCases",
+      "sha256": "b63422b9fd4150e3accb4e29f0c1578070d148df96acb6765363db39b0e3725d"
+    },
+    {
+      "name": "PortalProductResources",
+      "sha256": "29c0185e605bc8b1171f7bef162dbe311af40f41ba7a20f034d1f51724a9f676"
+    },
+    {
+      "name": "PortalProductFinalAction",
+      "sha256": "49f360479391da7daf4ecf6949247d3249a01a6ce7a226120c2d7ae1f0836d01"
+    },
+    {
+      "name": "PortalProductQuestions",
+      "sha256": "03041df9503143b9510712ed781f7ade86454abe03c42a148e950bf513867d3c"
+    },
+    {
+      "name": "PortalFoldedMedia",
+      "sha256": "69b35d70eb09fd9b570614c1c5812a75c3389058f3af1c756b0b42f78a62f1b6"
+    },
+    {
+      "name": "PortalSolutionCards",
+      "sha256": "4fbe47f4e2ebf0b2ac25149dc3e7ded4670487c8cfdf8081bf80766f71d69503"
+    },
+    {
+      "name": "PortalDeveloperBanner",
+      "sha256": "7b4606c0a97f5dfeb7a85983511513f931f85acc84af5c144739fb87e6b0a484"
+    },
+    {
+      "name": "PortalDeveloperAnnouncement",
+      "sha256": "14528dd57a938ff7eeca2a3e0044aeacdec1007ddedf859c6a15a7df53b93c2a"
+    },
+    {
+      "name": "PortalPracticeCarousel",
+      "sha256": "68a99cb8c65bf33ec2921611640c21bd81a211c0f018bdb91264563b9d87b691"
+    },
+    {
+      "name": "PortalDeveloperSkills",
+      "sha256": "b020af7d39891161b8e41345ce30aba3774f982c012b1f298b64f85bf88787f1"
+    },
+    {
+      "name": "PortalDeveloperSpace",
+      "sha256": "293a5646d76e8a0bee34dfa87e8eeb2009bf88546bb0ce54a054fcffda3620b6"
+    },
+    {
+      "name": "PortalDeveloperOpenAbility",
+      "sha256": "e31bb3fbeaac74fce51f4c0ab622ac3def9e08b82441dec2c219dd42e00e6dff"
+    },
+    {
+      "name": "PortalHeaderActions",
+      "sha256": "136923f89c60fdced6254114f6876ec161595cee05d14b7aec48d170e4997077"
+    },
+    {
+      "name": "PortalCopyGlyph",
+      "sha256": "964fbf97104550bbe9d57ac0df0bd4f2393e2c424208ebd90a63fd6dd9f69d52"
+    },
+    {
+      "name": "resolveWebsiteGrid",
+      "sha256": "44711ddf5747f731df89e818046dc0a107f4f411b455b4ac25d7f46f3a30850f"
+    }
+  ],
+  "tokenSources": [
+    "src/styles/component-tokens.css",
+    "src/styles/website-palette.css",
+    "src/styles/portalui-offline.css"
+  ],
+  "tokens": {
+    "--por-color-text-primary": [
+      "var(--por-base-color-gray-90)"
+    ],
+    "--por-color-border-input-active": [
+      "var(--por-base-color-gray-90)"
+    ],
+    "--hc-t-html-scroll-padding-top-3dfd5a16": [
+      "140px"
+    ],
+    "--por-color-background-white": [
+      "var(--por-base-color-gray-0)"
+    ],
+    "--por-base-font-family": [
+      "-apple-system,HuaweiSans,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,STHeiti,Microsoft YaHei,Microsoft JhengHei,SimSun,sans-serif"
+    ],
+    "--hc-t-body-font-size-ba0a1ed4": [
+      "16px"
+    ],
+    "--hc-t-body-line-height-59f47f25": [
+      "24px"
+    ],
+    "--hc-t-a-focus-visible-outline-b7e128c0": [
+      "2px"
+    ],
+    "--hc-focus-ring": [
+      "var(--por-color-border-input-active)"
+    ],
+    "--hc-t-a-focus-visible-outline-offset-25df3c84": [
+      "4px"
+    ],
+    "--hc-t-hc-skip-left-2eb87e1b": [
+      "16px"
+    ],
+    "--hc-t-hc-skip-top-395b79ee": [
+      "-80px"
+    ],
+    "--hc-t-hc-skip-z-index-df25a37d": [
+      "1100"
+    ],
+    "--hc-t-hc-skip-background-3363173e": [
+      "white"
+    ],
+    "--hc-t-hc-skip-padding-8a59de04": [
+      "12px"
+    ],
+    "--hc-t-hc-skip-focus-top-8c55f1fd": [
+      "8px"
+    ],
+    "--hc-t-hc-header-z-index-f85f4b17": [
+      "1030"
+    ],
+    "--hc-t-hc-header-border-bottom-fa8b61e4": [
+      "1px"
+    ],
+    "--por-base-color-gray-20": [
+      "#ebebeb"
+    ],
+    "--hc-t-hc-header-inner-padding-d68372a4": [
+      "3%"
+    ],
+    "--hc-t-hc-header-inner-gap-575da433": [
+      "32px"
+    ],
+    "--hc-t-hc-wordmark-font-size-9f873983": [
+      "24px"
+    ],
+    "--hc-t-hc-wordmark-line-height-99517e78": [
+      "32px"
+    ],
+    "--hc-t-hc-wordmark-font-weight-50bcb44e": [
+      "700"
+    ],
+    "--hc-t-hc-wordmark-span-font-size-00e3ce5a": [
+      "16px"
+    ],
+    "--hc-t-hc-wordmark-span-font-weight-1d8848b9": [
+      "400"
+    ],
+    "--hc-t-hc-wordmark-span-margin-left-b8e2ee05": [
+      "16px"
+    ],
+    "--hc-t-hc-navigation-gap-7dfdb879": [
+      "24px"
+    ],
+    "--por-color-text-button": [
+      "var(--por-color-text-primary)",
+      "var(--por-base-color-blue-50)"
+    ],
+    "--hc-t-hc-menu-button-background-618f1023": [
+      "transparent"
+    ],
+    "--hc-t-hc-menu-button-border-522c6536": [
+      "1px"
+    ],
+    "--por-base-color-gray-40": [
+      "#c2c2c2"
+    ],
+    "--por-radius-m": [
+      "var(--por-base-size-4)"
+    ],
+    "--hc-t-hc-menu-button-padding-e96f207e": [
+      "8px"
+    ],
+    "--hc-t-hc-menu-button-padding-2b223aaa": [
+      "12px"
+    ],
+    "--hc-t-hc-hero-padding-ac53d8b6": [
+      "76px"
+    ],
+    "--por-base-color-gray-10": [
+      "#f5f5f5"
+    ],
+    "--hc-t-hc-hero-h1-font-size-2fc2fc53": [
+      "44px"
+    ],
+    "--hc-t-hc-hero-h1-line-height-e3f3c748": [
+      "66px"
+    ],
+    "--hc-t-hc-hero-h1-margin-0362f1ae": [
+      "16px"
+    ],
+    "--hc-t-hc-hero-h1-font-weight-a0bd15a9": [
+      "700"
+    ],
+    "--hc-t-hc-hero-h1-max-width-71c9e6c8": [
+      "960px"
+    ],
+    "--por-color-text-secondary": [
+      "var(--por-base-color-gray-60)"
+    ],
+    "--hc-t-hc-eyebrow-margin-9deeebd9": [
+      "16px"
+    ],
+    "--hc-t-hc-hero-description-font-size-eba2747e": [
+      "18px"
+    ],
+    "--hc-t-hc-hero-description-line-height-9b99ac72": [
+      "28px"
+    ],
+    "--hc-t-hc-hero-description-max-width-bb9ead4d": [
+      "760px"
+    ],
+    "--hc-t-hc-hero-description-margin-e9a9755c": [
+      "32px"
+    ],
+    "--hc-t-hc-actions-gap-e537251e": [
+      "12px"
+    ],
+    "--hc-t-hc-actions-por-btn-min-width-5595cef0": [
+      "128px"
+    ],
+    "--hc-t-hc-anchor-z-index-73ff64fc": [
+      "1020"
+    ],
+    "--hc-t-hc-anchor-border-bottom-7f1f03c4": [
+      "1px"
+    ],
+    "--hc-t-hc-anchor-por-container-gap-8a120ead": [
+      "64px"
+    ],
+    "--hc-t-hc-anchor-por-container-padding-top-78ecb7f7": [
+      "16px"
+    ],
+    "--hc-t-hc-anchor-por-container-padding-bottom-9f5fa5b8": [
+      "16px"
+    ],
+    "--hc-t-hc-cards-gap-8a9606bb": [
+      "24px"
+    ],
+    "--hc-t-hc-card-border-3aa106e3": [
+      "1px"
+    ],
+    "--por-radius-xl": [
+      "var(--por-base-size-16)"
+    ],
+    "--hc-t-hc-card-h3-font-size-8eedd2df": [
+      "22px"
+    ],
+    "--hc-t-hc-card-h3-line-height-617b9392": [
+      "32px"
+    ],
+    "--hc-t-hc-card-h3-margin-3218bfaa": [
+      "12px"
+    ],
+    "--hc-t-hc-card-p-margin-439e3bee": [
+      "24px"
+    ],
+    "--hc-t-hc-card-hc-card-tag-font-size-622f4ee8": [
+      "14px"
+    ],
+    "--hc-t-hc-card-hc-card-tag-line-height-33c78ad3": [
+      "22px"
+    ],
+    "--hc-t-hc-card-hc-card-tag-margin-bottom-af3c4a90": [
+      "16px"
+    ],
+    "--hc-t-hc-faq-details-border-bottom-c7e47917": [
+      "1px"
+    ],
+    "--hc-t-hc-faq-details-padding-97c309d4": [
+      "20px"
+    ],
+    "--hc-t-hc-faq-summary-font-size-4863a9b3": [
+      "18px"
+    ],
+    "--hc-t-hc-faq-summary-line-height-5f38cfb1": [
+      "28px"
+    ],
+    "--hc-t-hc-faq-p-margin-967196ce": [
+      "16px"
+    ],
+    "--hc-t-hc-footer-padding-6a53b975": [
+      "52px"
+    ],
+    "--hc-t-hc-footer-padding-df12a220": [
+      "32px"
+    ],
+    "--hc-t-hc-footer-groups-gap-56fb4cdc": [
+      "32px"
+    ],
+    "--hc-t-hc-footer-h2-font-size-e2c8337f": [
+      "18px"
+    ],
+    "--hc-t-hc-footer-h2-line-height-65d66a28": [
+      "28px"
+    ],
+    "--hc-t-hc-footer-h2-margin-349174ce": [
+      "16px"
+    ],
+    "--hc-t-hc-footer-groups-a-margin-a7621e9d": [
+      "8px"
+    ],
+    "--hc-t-hc-footer-legal-gap-3ded8e04": [
+      "24px"
+    ],
+    "--hc-t-hc-footer-legal-margin-top-631a34c1": [
+      "32px"
+    ],
+    "--hc-t-hc-command-gap-a0db5791": [
+      "16px"
+    ],
+    "--hc-t-hc-command-padding-ad8ce00e": [
+      "24px"
+    ],
+    "--hc-t-hc-command-margin-bottom-02ac8d27": [
+      "24px"
+    ],
+    "--hc-t-hc-command-label-width-5af5786a": [
+      "100%"
+    ],
+    "--hc-t-hc-command-textarea-min-width-906c801c": [
+      "200px"
+    ],
+    "--hc-t-hc-command-textarea-padding-05633a7e": [
+      "12px"
+    ],
+    "--hc-t-hc-command-textarea-border-8cb1ca41": [
+      "1px"
+    ],
+    "--hc-t-hc-command-textarea-background-4287c30a": [
+      "white"
+    ],
+    "--hc-t-hc-command-textarea-font-family-c74e884a": [
+      "monospace"
+    ],
+    "--hc-t-hc-ability-padding-b546dc2b": [
+      "64px"
+    ],
+    "--hc-t-hc-ability-padding-991fb689": [
+      "80px"
+    ],
+    "--hc-t-hc-ability-gap-f350eef3": [
+      "64px"
+    ],
+    "--hc-t-hc-ability-h3-font-size-d818f8c7": [
+      "28px"
+    ],
+    "--hc-t-hc-ability-h3-line-height-be5d569a": [
+      "42px"
+    ],
+    "--hc-t-hc-ability-h3-margin-483172f7": [
+      "16px"
+    ],
+    "--hc-t-hc-ability-p-margin-7bfa9ef7": [
+      "24px"
+    ],
+    "--hc-t-hc-ability-ul-gap-3b605aab": [
+      "12px"
+    ],
+    "--hc-t-hc-ability-li-border-c0468c3c": [
+      "1px"
+    ],
+    "--hc-t-hc-ability-li-padding-52b8c525": [
+      "12px"
+    ],
+    "--hc-t-hc-ability-li-padding-1cb82559": [
+      "16px"
+    ],
+    "--hc-t-hc-ability-li-background-45015ff0": [
+      "white"
+    ],
+    "--hc-t-hc-page-por-section-subtitle-max-width-9ed7a9f0": [
+      "880px"
+    ],
+    "--hc-t-hc-page-section-id--scroll-margin-top-43375832": [
+      "140px"
+    ],
+    "--hc-t-hc-page-developer-hc-hero-h1-font-size-9fa95da4": [
+      "50px"
+    ],
+    "--hc-t-hc-page-developer-hc-hero-h1-line-height-98ff39f8": [
+      "75px"
+    ],
+    "--hc-t-hc-page-developer-hc-cards-skills-gap-bda950ba": [
+      "16px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-font-size-3a7af92b": [
+      "36px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-line-height-3744004d": [
+      "54px"
+    ],
+    "--hc-t-hc-hero-h1-font-size-9a7ae429": [
+      "36px"
+    ],
+    "--hc-t-hc-hero-h1-line-height-54033cbc": [
+      "54px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-font-size-595e6f1a": [
+      "32px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-line-height-e9845d26": [
+      "48px"
+    ],
+    "--hc-t-hc-header-inner-gap-b00bdafa": [
+      "20px"
+    ],
+    "--hc-t-hc-navigation-gap-7bfe85cf": [
+      "16px"
+    ],
+    "--hc-t-hc-hero-h1-font-size-a3cdcb59": [
+      "30px"
+    ],
+    "--hc-t-hc-hero-h1-line-height-7bfd24d0": [
+      "45px"
+    ],
+    "--hc-t-hc-cards-gap-64f61f17": [
+      "16px"
+    ],
+    "--hc-t-hc-hero-padding-7c33f4be": [
+      "52px"
+    ],
+    "--hc-t-hc-page-developer-hc-hero-h1-font-size-a51cc454": [
+      "32px"
+    ],
+    "--hc-t-hc-page-developer-hc-hero-h1-line-height-81460bf4": [
+      "48px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-font-size-ee953eeb": [
+      "28px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-line-height-5293f841": [
+      "42px"
+    ],
+    "--hc-t-hc-ability-padding-7bd8bf62": [
+      "40px"
+    ],
+    "--hc-t-hc-ability-padding-492d98ce": [
+      "48px"
+    ],
+    "--hc-t-hc-ability-gap-e48d9a96": [
+      "32px"
+    ],
+    "--hc-t-hc-header-product-hc-navigation-top-1e666602": [
+      "100%"
+    ],
+    "--hc-t-hc-header-product-hc-navigation-background-c41b4c78": [
+      "white"
+    ],
+    "--hc-t-hc-header-product-hc-navigation-padding-c8042e2d": [
+      "24px"
+    ],
+    "--hc-t-hc-header-product-hc-navigation-box-shadow-68b6c3a7": [
+      "8px"
+    ],
+    "--hc-t-hc-header-product-hc-navigation-box-shadow-043fdd79": [
+      "16px"
+    ],
+    "--hc-t-hc-header-product-hc-navigation-box-shadow-df9666cc": [
+      "rgba(0,0,0,.08)"
+    ],
+    "--hc-t-hc-header-inner-min-height-467b4953": [
+      "64px"
+    ],
+    "--hc-t-hc-header-inner-gap-05d63e7c": [
+      "16px"
+    ],
+    "--hc-t-hc-header-inner-padding-da015d53": [
+      "24px"
+    ],
+    "--hc-t-hc-navigation-top-77979d44": [
+      "100%"
+    ],
+    "--hc-t-hc-navigation-background-b1166919": [
+      "white"
+    ],
+    "--hc-t-hc-navigation-padding-5b1aa2f2": [
+      "24px"
+    ],
+    "--hc-t-hc-navigation-box-shadow-f232e2a7": [
+      "8px"
+    ],
+    "--hc-t-hc-navigation-box-shadow-5318a907": [
+      "16px"
+    ],
+    "--hc-t-hc-navigation-box-shadow-fcf99cb5": [
+      "rgba(0,0,0,.08)"
+    ],
+    "--hc-t-hc-wordmark-font-size-a210f9ec": [
+      "20px"
+    ],
+    "--hc-t-hc-wordmark-span-font-size-a31d6efc": [
+      "14px"
+    ],
+    "--hc-t-hc-wordmark-span-margin-left-ac0d3bda": [
+      "10px"
+    ],
+    "--hc-t-hc-hero-padding-a929ad1b": [
+      "44px"
+    ],
+    "--hc-t-hc-hero-description-font-size-bc4645ed": [
+      "16px"
+    ],
+    "--hc-t-hc-hero-description-line-height-89d4d765": [
+      "24px"
+    ],
+    "--hc-t-hc-anchor-por-container-gap-6b9d5d38": [
+      "32px"
+    ],
+    "--hc-t-hc-card-h3-font-size-fc5e525b": [
+      "20px"
+    ],
+    "--hc-t-hc-card-h3-line-height-5be13eab": [
+      "30px"
+    ],
+    "--hc-t-hc-page-developer-hc-hero-h1-font-size-76490ff4": [
+      "20px"
+    ],
+    "--hc-t-hc-page-developer-hc-hero-h1-line-height-f64cdc15": [
+      "30px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-font-size-d2c5807e": [
+      "18px"
+    ],
+    "--hc-t-hc-page-developer-por-section-title-line-height-f731ba60": [
+      "27px"
+    ],
+    "--hc-t-hc-page-developer-hc-cards-skills-gap-4cfab914": [
+      "8px"
+    ],
+    "--hc-t-hc-footer-groups-gap-7b46051b": [
+      "24px"
+    ],
+    "--hc-t-hc-hero-product-h1-font-size-d133e542": [
+      "28px"
+    ],
+    "--hc-t-hc-hero-product-h1-line-height-02a15df1": [
+      "40px"
+    ],
+    "--hc-t-hc-card-padding-7504c9e9": [
+      "24px"
+    ],
+    "--hc-t-hc-ability-padding-c43d11e9": [
+      "24px"
+    ],
+    "--hc-t-hc-ability-padding-2024abb0": [
+      "24px"
+    ],
+    "--hc-t-hc-ability-gap-e2bb77dc": [
+      "24px"
+    ],
+    "--hc-t-hc-ability-ul-padding-bottom-29b6d3e4": [
+      "24px"
+    ],
+    "--hc-t-hc-ability-h3-font-size-907e1fc6": [
+      "22px"
+    ],
+    "--hc-t-hc-ability-h3-line-height-45eaf9f4": [
+      "32px"
+    ],
+    "--hc-t-hc-command-padding-d92223dc": [
+      "16px"
+    ],
+    "--hc-t-hc-command-textarea-flex-basis-d596dea2": [
+      "100%"
+    ],
+    "--hc-t-hc-page-developer-por-container-padding-left-c88960ac": [
+      "16px"
+    ],
+    "--hc-t-hc-page-developer-por-container-padding-right-f0b4d4de": [
+      "16px"
+    ],
+    "--hc-t-hc-wordmark-gap-f7457a23": [
+      "16px"
+    ],
+    "--hc-t-hc-brand-logo-width-1164e59a": [
+      "111px"
+    ],
+    "--hc-t-hc-brand-logo-height-e42d0ac3": [
+      "39px"
+    ],
+    "--hc-t-hc-wordmark-span-line-height-4cec8c46": [
+      "24px"
+    ],
+    "--hc-t-hc-header-actions-gap-fec437e7": [
+      "12px"
+    ],
+    "--hc-t-hc-header-actions-font-size-d4097869": [
+      "14px"
+    ],
+    "--hc-t-hc-header-actions-a-color-0f0a608f": [
+      "#191919"
+    ],
+    "--hc-t-hc-brand-logo-width-dcf58e3b": [
+      "108px"
+    ],
+    "--hc-t-hc-brand-logo-height-078897af": [
+      "32px"
+    ],
+    "--hc-t-hc-header-inner-padding-left-43496ea8": [
+      "24px"
+    ],
+    "--hc-t-hc-header-inner-padding-right-99e2f7ee": [
+      "24px"
+    ],
+    "--hc-t-is-hc-page-gauss-min-height-855760a3": [
+      "76px"
+    ],
+    "--hc-t-is-hc-page-gauss-gap-d6d00aea": [
+      "32px"
+    ],
+    "--hc-t-hc-site-strip-height-0ea7116f": [
+      "24px"
+    ],
+    "--hc-t-hc-site-strip-background-e1c9c252": [
+      "#111"
+    ],
+    "--hc-t-hc-site-strip-color-bad93ec4": [
+      "#b3b3b3"
+    ],
+    "--hc-t-hc-site-strip-font-size-08c5e277": [
+      "12px"
+    ],
+    "--hc-t-hc-site-strip-line-height-227463e3": [
+      "24px"
+    ],
+    "--hc-t-hc-site-strip-por-container-gap-bb9fa0da": [
+      "20px"
+    ],
+    "--hc-t-hc-header-site-hc-navigation-font-size-9967953a": [
+      "14px"
+    ],
+    "--hc-t-hc-header-site-hc-navigation-gap-62427586": [
+      "24px"
+    ],
+    "--hc-t-hc-product-navigation-top-0b7aee14": [
+      "100px"
+    ],
+    "--hc-t-hc-product-navigation-z-index-88c8f92d": [
+      "1020"
+    ],
+    "--hc-t-hc-product-navigation-background-6b6871eb": [
+      "white"
+    ],
+    "--hc-t-hc-product-navigation-border-bottom-f077d597": [
+      "1px"
+    ],
+    "--hc-t-hc-product-navigation-border-bottom-9b3d8adf": [
+      "#eee"
+    ],
+    "--hc-t-hc-product-navigation-por-container-height-5d556c21": [
+      "50px"
+    ],
+    "--hc-t-hc-product-navigation-por-container-gap-d6a1cd1d": [
+      "40px"
+    ],
+    "--hc-t-hc-product-name-font-size-e880db17": [
+      "18px"
+    ],
+    "--hc-t-hc-product-name-line-height-e4e11489": [
+      "27px"
+    ],
+    "--hc-t-hc-product-links-gap-90a3e998": [
+      "32px"
+    ],
+    "--hc-t-hc-product-links-font-size-0e16818c": [
+      "14px"
+    ],
+    "--hc-t-hc-product-links-line-height-201e80b0": [
+      "22px"
+    ],
+    "--hc-t-hc-product-links-height-ad79ed7c": [
+      "100%"
+    ],
+    "--hc-t-hc-product-links-a-height-655f5294": [
+      "100%"
+    ],
+    "--hc-t-hc-product-links-a-color-78c30f96": [
+      "#595959"
+    ],
+    "--hc-t-hc-product-links-a-is-current-color-eb040794": [
+      "#191919"
+    ],
+    "--hc-t-hc-product-links-a-is-current-font-weight-facbbc60": [
+      "700"
+    ],
+    "--hc-t-hc-product-links-a-is-current-after-height-61037616": [
+      "2px"
+    ],
+    "--hc-t-hc-product-links-a-is-current-after-background-0cf1405b": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-hero-height-73ab8cf2": [
+      "440px"
+    ],
+    "--hc-t-hc-gauss-hero-background-7068ed05": [
+      "white"
+    ],
+    "--hc-t-hc-gauss-breadcrumb-top-cc953bc2": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-breadcrumb-gap-58f15d01": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-breadcrumb-font-size-62332f00": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-breadcrumb-line-height-447a11bf": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-breadcrumb-color-8813fac6": [
+      "#595959"
+    ],
+    "--hc-t-hc-gauss-hero-body-padding-top-7086dc35": [
+      "78px"
+    ],
+    "--hc-t-hc-gauss-icon-width-80c48ad5": [
+      "70px"
+    ],
+    "--hc-t-hc-gauss-icon-height-d17ce1da": [
+      "70px"
+    ],
+    "--hc-t-hc-gauss-icon-margin-bottom-a54936ce": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-icon-border-radius-09c8c3c3": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-title-font-size-097f582f": [
+      "44px"
+    ],
+    "--hc-t-hc-gauss-title-line-height-39af74ea": [
+      "66px"
+    ],
+    "--hc-t-hc-gauss-title-font-weight-7a0ba11d": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-title-color-a854e98b": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-title-span-font-size-d36c8ac6": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-title-span-font-weight-6a6c6696": [
+      "400"
+    ],
+    "--hc-t-hc-gauss-actions-margin-top-4fe5032c": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-actions-gap-68d69f1e": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-actions-por-btn-font-size-065652a6": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-actions-por-btn-line-height-8be244d3": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-actions-por-btn-height-4575ead3": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-actions-por-btn-padding-7cff8ad6": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-actions-por-btn-padding-7e89ae90": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-actions-por-btn-border-radius-358530ad": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-news-padding-bf122e23": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-news-background-85c80ec1": [
+      "white"
+    ],
+    "--hc-t-hc-gauss-news-head-padding-bottom-47d480b5": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-news-h2-font-size-dcd7de74": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-news-h2-line-height-6bed5106": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-news-h2-font-weight-a3a2151e": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-news-spacer-margin-top-d49391ee": [
+      "10px"
+    ],
+    "--hc-t-hc-gauss-news-grid-gap-afa009cc": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-news-card-background-299965db": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-news-card-border-e02684f1": [
+      "1px"
+    ],
+    "--hc-t-hc-gauss-news-card-border-8e2b1b66": [
+      "#f2f2f2"
+    ],
+    "--hc-t-hc-gauss-news-card-border-radius-d2a164e1": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-news-card-padding-3fbaa778": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-news-card-min-height-8ffa9079": [
+      "109px"
+    ],
+    "--hc-t-hc-gauss-news-card-color-43cb84a0": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-news-card-hover-border-color-e302a06c": [
+      "#b3b3b3"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-font-size-b4d9b224": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-line-height-8dfba727": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-font-weight-41f5b22a": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-gap-fb0713d5": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-news-card-p-font-size-afb59102": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-news-card-p-line-height-c05a5f80": [
+      "21px"
+    ],
+    "--hc-t-hc-gauss-news-card-p-color-03e73a49": [
+      "#595959"
+    ],
+    "--hc-t-hc-gauss-news-card-p-margin-e409739d": [
+      "6px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-font-size-d9bd1d79": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-line-height-c430567c": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-padding-84f3ceb2": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-background-f864880e": [
+      "rgba(199,0,11,.1)"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-color-07d75916": [
+      "#c7000b"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-border-radius-764c3a2d": [
+      "2px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-hc-gauss-news-tag-font-weight-e7d9a70f": [
+      "400"
+    ],
+    "--hc-t-hc-gauss-title-font-size-37e1afeb": [
+      "36px"
+    ],
+    "--hc-t-hc-gauss-title-line-height-da27ce8e": [
+      "54px"
+    ],
+    "--hc-t-hc-gauss-title-font-size-edd11404": [
+      "30px"
+    ],
+    "--hc-t-hc-gauss-title-line-height-43fa1329": [
+      "45px"
+    ],
+    "--hc-t-hc-header-site-hc-navigation-gap-47f0cab4": [
+      "16px"
+    ],
+    "--hc-t-hc-product-links-gap-bd550021": [
+      "20px"
+    ],
+    "--hc-t-hc-product-navigation-por-container-gap-edbd3743": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-news-h2-font-size-1db08236": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-news-h2-line-height-0a07885c": [
+      "42px"
+    ],
+    "--hc-t-hc-header-site-hc-navigation-background-ba1246f5": [
+      "transparent"
+    ],
+    "--hc-t-is-hc-page-gauss-min-height-12ee5e70": [
+      "48px"
+    ],
+    "--hc-t-is-hc-page-gauss-height-db525742": [
+      "48px"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-left-5dea2063": [
+      "16px"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-right-ec6d4568": [
+      "16px"
+    ],
+    "--hc-t-hc-product-navigation-top-2b53a44e": [
+      "48px"
+    ],
+    "--hc-t-hc-product-navigation-por-container-height-a045d354": [
+      "42px"
+    ],
+    "--hc-t-hc-product-navigation-por-container-padding-left-a3032947": [
+      "16px"
+    ],
+    "--hc-t-hc-product-navigation-por-container-padding-right-cb72b290": [
+      "16px"
+    ],
+    "--hc-t-hc-product-toggle-gap-cfce3378": [
+      "12px"
+    ],
+    "--hc-t-hc-product-toggle-background-077fcbf9": [
+      "transparent"
+    ],
+    "--hc-t-hc-product-toggle-font-size-c174a9ff": [
+      "14px"
+    ],
+    "--hc-t-hc-product-toggle-line-height-3a28f802": [
+      "22px"
+    ],
+    "--hc-t-hc-product-toggle-color-8ae308de": [
+      "#191919"
+    ],
+    "--hc-t-hc-expert-contact-border-90d516a6": [
+      "1px"
+    ],
+    "--hc-t-hc-expert-contact-border-61925e8b": [
+      "#b3b3b3"
+    ],
+    "--hc-t-hc-expert-contact-border-radius-7988a46d": [
+      "20px"
+    ],
+    "--hc-t-hc-expert-contact-font-size-d920c49d": [
+      "12px"
+    ],
+    "--hc-t-hc-expert-contact-line-height-3a3b1579": [
+      "20px"
+    ],
+    "--hc-t-hc-expert-contact-color-2a1c0b2f": [
+      "#191919"
+    ],
+    "--hc-t-hc-expert-contact-padding-2ae3d219": [
+      "2px"
+    ],
+    "--hc-t-hc-expert-contact-padding-19d7df2f": [
+      "12px"
+    ],
+    "--hc-t-hc-product-links-is-open-top-774a3681": [
+      "100%"
+    ],
+    "--hc-t-hc-product-links-is-open-padding-d442bf02": [
+      "20px"
+    ],
+    "--hc-t-hc-product-links-is-open-background-0784e91d": [
+      "white"
+    ],
+    "--hc-t-hc-product-links-is-open-gap-3e76ee87": [
+      "20px"
+    ],
+    "--hc-t-hc-product-links-is-open-box-shadow-a110914b": [
+      "8px"
+    ],
+    "--hc-t-hc-product-links-is-open-box-shadow-c879b2cf": [
+      "16px"
+    ],
+    "--hc-t-hc-product-links-is-open-box-shadow-77f743be": [
+      "#0001"
+    ],
+    "--hc-t-hc-product-links-a-padding-eadc0c99": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-news-head-padding-bottom-3f53b791": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-news-spacer-margin-top-c5bde8d6": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-news-h2-font-size-bb1fb95e": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-news-h2-line-height-0a605d9c": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-news-grid-gap-9445dac6": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-news-card-padding-21746046": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-news-card-min-height-574de4f2": [
+      "85px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-font-size-743e8f63": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-news-card-h3-line-height-c64303de": [
+      "21px"
+    ],
+    "--hc-t-hc-gauss-news-card-p-font-size-7bd5c649": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-news-card-p-line-height-b79709ba": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-news-card-p-margin-top-d198c2b4": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-hero-height-20c94688": [
+      "350px"
+    ],
+    "--hc-t-hc-gauss-hero-body-padding-top-4255b485": [
+      "89px"
+    ],
+    "--hc-t-hc-gauss-icon-width-89810f29": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-icon-height-61c76adb": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-icon-margin-bottom-dabd7149": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-title-font-size-3e74064a": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-title-line-height-219f7b70": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-actions-margin-top-81dfebea": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-actions-gap-8e248372": [
+      "8px"
+    ],
+    "--hc-t-hc-header-inner-por-container-padding-left-acf613eb": [
+      "5%"
+    ],
+    "--hc-t-hc-header-inner-por-container-padding-right-97720c48": [
+      "5%"
+    ],
+    "--hc-t-hc-header-inner-por-container-padding-left-6ae395ea": [
+      "3%"
+    ],
+    "--hc-t-hc-header-inner-por-container-padding-right-92928c27": [
+      "3%"
+    ],
+    "--hc-t-hc-header-inner-por-container-padding-left-4ad33ff2": [
+      "24px"
+    ],
+    "--hc-t-hc-header-inner-por-container-padding-right-b76f5945": [
+      "24px"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-left-8e5b560a": [
+      "16px"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-right-4436aa2e": [
+      "16px"
+    ],
+    "--hc-t-hc-header-site-hc-menu-button-width-4478dbbf": [
+      "32px"
+    ],
+    "--hc-t-hc-header-site-hc-menu-button-height-615b5dca": [
+      "32px"
+    ],
+    "--hc-t-hc-header-site-hc-menu-button-font-size-3cfe3476": [
+      "20px"
+    ],
+    "--hc-t-hc-header-site-hc-menu-button-line-height-9da3bb64": [
+      "32px"
+    ],
+    "--hc-t-hc-header-site-box-shadow-e1ccb72e": [
+      "-1px"
+    ],
+    "--hc-t-hc-header-site-box-shadow-56221770": [
+      "#eee"
+    ],
+    "--hc-t-hc-header-actions-hc-header-register-background-b9e71960": [
+      "#c7000b"
+    ],
+    "--hc-t-hc-header-actions-hc-header-register-color-a78ef114": [
+      "white"
+    ],
+    "--hc-t-hc-header-actions-hc-header-register-padding-303e170b": [
+      "4px"
+    ],
+    "--hc-t-hc-header-actions-hc-header-register-padding-ca7e1c7d": [
+      "16px"
+    ],
+    "--hc-t-hc-header-actions-hc-header-register-border-radius-b44848a1": [
+      "20px"
+    ],
+    "--hc-t-hc-header-actions-hc-header-register-line-height-74ec52c8": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-padding-4757b3c0": [
+      "60px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-background-e8de1a68": [
+      "#fff"
+    ],
+    "--hc-t-hc-gauss-floor-grey-por-section-background-2d699ec3": [
+      "#f5f5f5"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-head-padding-bottom-cefaaa5a": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-font-size-ed4d68de": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-line-height-f94ad423": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-font-weight-f45b5ee4": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-floor-h3-color-d4b4bb77": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-floor-h3-font-size-e5a2122f": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-floor-h3-line-height-d7621bd3": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-floor-p-color-3d2a535c": [
+      "#595959"
+    ],
+    "--hc-t-hc-gauss-floor-p-margin-63a12f26": [
+      "6px"
+    ],
+    "--hc-t-hc-gauss-floor-p-font-size-7a7f0f84": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-floor-p-line-height-2e9830fd": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-pricing-gap-0968785f": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-border-radius-7c9cde09": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-border-15a9060b": [
+      "1px"
+    ],
+    "--hc-t-hc-gauss-price-card-border-e14f610a": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-price-card-background-3791e045": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-888c500b": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-d2f8b59b": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-48d927f7": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-price-card-min-height-e30b9f65": [
+      "440px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-border-color-d44fa51a": [
+      "#6d8dff"
+    ],
+    "--hc-t-hc-gauss-price-card-h3-font-size-d45285f2": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-price-card-h3-line-height-b437d105": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-price-card-p-min-height-2e1529ae": [
+      "44px"
+    ],
+    "--hc-t-hc-gauss-price-tag-right-0054e31f": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-tag-border-radius-a65b7018": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-price-tag-border-radius-66f6ac87": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-price-tag-padding-6974d0ee": [
+      "2px"
+    ],
+    "--hc-t-hc-gauss-price-tag-padding-5ded253d": [
+      "10px"
+    ],
+    "--hc-t-hc-gauss-price-tag-font-size-59bf5ad1": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-tag-line-height-c784708d": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-price-tag-background-460f9eed": [
+      "#fff3e8"
+    ],
+    "--hc-t-hc-gauss-price-tag-color-ad2c6e30": [
+      "#84512b"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-background-b40c6d15": [
+      "#80abff"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-color-ef09fbd5": [
+      "white"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-border-radius-50c1948a": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-border-radius-dd1273f5": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-top-6e0a3f33": [
+      "-24px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-height-518df245": [
+      "26px"
+    ],
+    "--hc-t-hc-gauss-price-value-font-size-1f877c4d": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-price-value-line-height-9a309bd8": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-price-value-font-weight-d19c7407": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-price-value-margin-top-3631b5bb": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-price-value-span-font-size-3ac84d00": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-value-small-font-size-052bd50e": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-value-small-font-weight-b0cba3bd": [
+      "400"
+    ],
+    "--hc-t-hc-gauss-price-value-small-margin-left-908075c8": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-price-value-strong-font-size-ca3b8268": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-price-card-hc-gauss-price-note-font-size-2fc1c9fd": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-card-hc-gauss-price-note-line-height-5f4156d6": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-price-card-hc-gauss-price-note-margin-bottom-43951a05": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-price-card-por-btn-margin-top-b75fabf6": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-price-card-dl-margin-5514b4b2": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-price-card-dt-color-04494db2": [
+      "#595959"
+    ],
+    "--hc-t-hc-gauss-price-card-dt-font-size-bb637591": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-card-dt-line-height-c7fb665d": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-price-card-dd-margin-8d47d150": [
+      "2px"
+    ],
+    "--hc-t-hc-gauss-price-card-dd-margin-33c0a4f6": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-card-dd-font-size-378908fa": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-price-card-dd-line-height-441d9d77": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-price-card-dd-color-a82eae83": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-benefits-gap-12397026": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-benefit-background-a3274a8d": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-benefit-border-radius-468c969d": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-benefit-min-height-1055b7f1": [
+      "260px"
+    ],
+    "--hc-t-hc-gauss-benefit-padding-70e00ac2": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-width-ff7bfcf1": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-height-a0f7de11": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-margin-bo-c8b6f8de": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-min-height-b1f8c8f9": [
+      "352px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-padding-cbc5f147": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-hc-gauss-benefit-media-width-c07b015e": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-hc-gauss-benefit-media-height-942beb65": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-font-size-0e2f7bb4": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-line-height-f0bf6299": [
+      "30px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-font-weight-e97a5acb": [
+      "600"
+    ],
+    "--hc-t-hc-gauss-case-grid-template-columns-80fbf0f8": [
+      "60%"
+    ],
+    "--hc-t-hc-gauss-case-grid-template-columns-2fca20e3": [
+      "40%"
+    ],
+    "--hc-t-hc-gauss-case-min-height-0e3c71d0": [
+      "480px"
+    ],
+    "--hc-t-hc-gauss-case-border-radius-f49b9434": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-case-border-71f20c15": [
+      "1px"
+    ],
+    "--hc-t-hc-gauss-case-border-e653cf09": [
+      "#eee"
+    ],
+    "--hc-t-hc-gauss-case-image-width-1f461cdd": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-case-image-height-aff8a662": [
+      "480px"
+    ],
+    "--hc-t-hc-gauss-case-copy-padding-fd52e169": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-font-size-d17f07b4": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-line-height-53568fa7": [
+      "36px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-font-weight-3b56d9e3": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-case-copy-p-margin-top-835ec7ae": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-case-controls-gap-60442010": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-case-controls-margin-top-fbb8c2f7": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-border-bottom-69f741b5": [
+      "2px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-border-bottom-52de68c5": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-background-be1eb79c": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-padding-dec792b8": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-min-height-e173b9aa": [
+      "70px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-aria-pressed-true--border-bottom-co-354e73cc": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-case-controls-img-width-5ed118f9": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-case-controls-img-max-width-05c9a6f1": [
+      "180px"
+    ],
+    "--hc-t-hc-gauss-case-controls-img-height-537e3fad": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-recognition-gap-8e0898ab": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-recognition-article-background-a18730c6": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-recognition-article-padding-cf05c01a": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-recognition-article-border-radius-f7bd411b": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-recognition-article-min-height-f598f1cf": [
+      "150px"
+    ],
+    "--hc-t-hc-gauss-recognition-article-nth-child--n-2--min-height-a9a0ce4d": [
+      "280px"
+    ],
+    "--hc-t-hc-gauss-recognition-img-width-33cfebdc": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-recognition-img-max-height-691e8cdd": [
+      "150px"
+    ],
+    "--hc-t-hc-gauss-recognition-img-margin-top-2a2fbc95": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-tabs-gap-a2a7751a": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-tabs-margin-b3f966f4": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-tabs-button-background-edf9f831": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-tabs-button-border-bottom-82e6b22e": [
+      "2px"
+    ],
+    "--hc-t-hc-gauss-tabs-button-border-bottom-cc3ca4ab": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-tabs-button-padding-4d8b4ebf": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-tabs-button-font-size-3fcb0b2a": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-tabs-button-color-4bcba258": [
+      "#595959"
+    ],
+    "--hc-t-hc-gauss-tabs-button-aria-selected-true--border-color-f70c9a2b": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-tabs-button-aria-selected-true--color-5d7f7ff9": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-tabs-button-aria-selected-true--font-weight-0da1de45": [
+      "700"
+    ],
+    "--hc-t-hc-gauss-partner-panel-img-width-94616ab5": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-partner-panel-img-max-width-7b37a375": [
+      "920px"
+    ],
+    "--hc-t-hc-gauss-videos-gap-064e5507": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-videos-a-border-radius-42120d7e": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-6ac188a2": [
+      "232px"
+    ],
+    "--hc-t-hc-gauss-videos-a-background-8287529a": [
+      "#fff"
+    ],
+    "--hc-t-hc-gauss-videos-img-width-1ed7466f": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-videos-img-height-d8b66b7d": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-8f1a2aa5": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-height-71b8f988": [
+      "232px"
+    ],
+    "--hc-t-hc-gauss-videos-span-font-size-b91a16a1": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-videos-span-line-height-2500c421": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-resources-gap-ab29fae6": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-resources-a-border-radius-2e0795fc": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-resources-a-background-6b88985d": [
+      "white"
+    ],
+    "--hc-t-hc-gauss-resources-a-padding-43a9eace": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-resources-a-min-height-d67373b3": [
+      "120px"
+    ],
+    "--hc-t-hc-gauss-resources-a-border-e3869b28": [
+      "1px"
+    ],
+    "--hc-t-hc-gauss-resources-a-border-75ab817d": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-resources-a-hover-border-color-740f8afc": [
+      "#b3b3b3"
+    ],
+    "--hc-t-hc-gauss-floor-hc-faq-summary-font-size-424e5243": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-floor-hc-faq-summary-line-height-7e296b75": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-floor-hc-faq-summary-font-weight-583dbfcd": [
+      "600"
+    ],
+    "--hc-t-hc-gauss-floor-hc-faq-summary-gap-b61f926c": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-floor-hc-faq-summary-after-font-size-76432b9a": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-consult-gap-6873659d": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-consult-margin-top-35251d71": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-consult-a-padding-a25e32bf": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-consult-a-border-radius-c4011e8e": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-consult-a-background-9af5b59c": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-consult-p-font-size-f7483dc0": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-consult-p-line-height-f10c14eb": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-final-padding-bottom-325887e7": [
+      "60px"
+    ],
+    "--hc-t-hc-gauss-final-div-border-radius-da6ee34b": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-final-div-min-height-17addf11": [
+      "224px"
+    ],
+    "--hc-t-hc-gauss-final-div-padding-aff44476": [
+      "56px"
+    ],
+    "--hc-t-hc-gauss-final-div-padding-e7c860e1": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-final-img-width-0559ccf9": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-final-img-height-08f179bd": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-final-img-z-index-c01b1138": [
+      "-1"
+    ],
+    "--hc-t-hc-gauss-final-h2-font-size-20d25a94": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-final-h2-line-height-b8c7edd3": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-final-h2-color-9e35b2bc": [
+      "#fff"
+    ],
+    "--hc-t-hc-gauss-final-h2-margin-9f9d4e02": [
+      "40px"
+    ],
+    "--hc-t-hc-website-footer-background-71803429": [
+      "#f5f5f5"
+    ],
+    "--hc-t-hc-website-footer-color-cd0ecde4": [
+      "#595959"
+    ],
+    "--hc-t-hc-website-footer-font-size-131952a4": [
+      "12px"
+    ],
+    "--hc-t-hc-website-footer-line-height-ab516ac4": [
+      "20px"
+    ],
+    "--hc-t-hc-website-service-gap-0d97c1e2": [
+      "24px"
+    ],
+    "--hc-t-hc-website-service-padding-top-abe1de62": [
+      "32px"
+    ],
+    "--hc-t-hc-website-service-padding-bottom-c75b24e6": [
+      "32px"
+    ],
+    "--hc-t-hc-website-service-border-bottom-18e3b86f": [
+      "1px"
+    ],
+    "--hc-t-hc-website-service-border-bottom-15c2838f": [
+      "#ddd"
+    ],
+    "--hc-t-hc-website-service-strong-font-size-598a5d87": [
+      "14px"
+    ],
+    "--hc-t-hc-website-service-strong-line-height-4a85961a": [
+      "22px"
+    ],
+    "--hc-t-hc-website-service-strong-color-0533c720": [
+      "#191919"
+    ],
+    "--hc-t-hc-website-footer-main-grid-template-columns-364f5568": [
+      "180px"
+    ],
+    "--hc-t-hc-website-footer-main-gap-2b8ee7d6": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-padding-top-fcc955fb": [
+      "36px"
+    ],
+    "--hc-t-hc-website-footer-main-padding-bottom-2e1a6393": [
+      "36px"
+    ],
+    "--hc-t-hc-website-contact-img-width-0f9f9ce6": [
+      "111px"
+    ],
+    "--hc-t-hc-website-contact-img-height-c4ba35e5": [
+      "39px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-font-size-962ab504": [
+      "20px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-line-height-6c14ce38": [
+      "32px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-color-50e13a1f": [
+      "#191919"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-font-weight-94a47a5a": [
+      "700"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-font-weight-6d4d1923": [
+      "700"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-color-0357294b": [
+      "#191919"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-margin-bottom-d1a2a035": [
+      "12px"
+    ],
+    "--hc-t-hc-website-footer-main-details-a-margin-bottom-5697c7a1": [
+      "8px"
+    ],
+    "--hc-t-hc-website-footer-legal-padding-top-6f0d23a4": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-legal-padding-bottom-a0cfc58a": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-legal-border-top-ab656b0e": [
+      "1px"
+    ],
+    "--hc-t-hc-website-footer-legal-border-top-75bb88f3": [
+      "#ddd"
+    ],
+    "--hc-t-hc-website-footer-legal-gap-e48db9d0": [
+      "16px"
+    ],
+    "--hc-t-hc-website-footer-legal-font-size-76d670dd": [
+      "10px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-font-size-f6eed5c3": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-line-height-fe0a4185": [
+      "42px"
+    ],
+    "--hc-t-hc-gauss-case-copy-padding-2d7b9da6": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-left-68736cdd": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-right-c522ff69": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-value-font-size-fe9e4c81": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-grid-template-columns-5c341ebe": [
+      "140px"
+    ],
+    "--hc-t-hc-website-footer-main-gap-5b6b4e59": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-pricing-gap-f0a8071e": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-pricing-gap-68e71eb9": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-font-size-a6268790": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-line-height-6daa8448": [
+      "30px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-padding-622bf4a4": [
+      "32px"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-left-88b5730f": [
+      "16px"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-right-75430a51": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-font-size-1d6f9d0c": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-title-line-height-21ceef57": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-floor-por-section-head-padding-bottom-86c7fe1d": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-floor-h3-font-size-9e407a5a": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-floor-h3-line-height-98e93249": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-floor-p-font-size-8365c53d": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-floor-p-line-height-a4863639": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-benefits-gap-422e7d8a": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-min-height-7f354412": [
+      "300px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-padding-c13cd9a8": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-font-size-3896ecee": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-line-height-9cfa173f": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured--padding-814544ad": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-margin-bo-51b96f65": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-case-image-height-53fce358": [
+      "210px"
+    ],
+    "--hc-t-hc-gauss-case-copy-padding-68795803": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-font-size-90ccfb79": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-case-copy-h3-line-height-6afdbb7a": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-case-controls-gap-3e2674fb": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-case-controls-margin-top-c0b76f03": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-padding-afb49090": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-min-height-77e90ca5": [
+      "50px"
+    ],
+    "--hc-t-hc-gauss-case-controls-img-height-37579f10": [
+      "30px"
+    ],
+    "--hc-t-hc-gauss-recognition-article-padding-e920d315": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-tabs-gap-f5a15f63": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-tabs-margin-bottom-f54ec31e": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-tabs-button-font-size-f222b4f5": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-bf40dcc8": [
+      "190px"
+    ],
+    "--hc-t-hc-gauss-videos-a-height-fe17bea9": [
+      "190px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-eaaee380": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-resources-a-padding-60d70879": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-resources-a-min-height-4f2ab974": [
+      "90px"
+    ],
+    "--hc-t-hc-gauss-consult-a-padding-39ba9e32": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-final-padding-bottom-2be759eb": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-final-div-padding-bbb488a8": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-final-div-padding-b4363691": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-final-div-min-height-cb3dd537": [
+      "190px"
+    ],
+    "--hc-t-hc-gauss-final-h2-font-size-b1c7f428": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-final-h2-line-height-bf85d553": [
+      "30px"
+    ],
+    "--hc-t-hc-gauss-final-h2-margin-bottom-94419822": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-padding-top-2b472ffd": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-padding-bottom-2b1411c7": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-margin-bottom-b5f1156a": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-details-border-bottom-690b92e2": [
+      "1px"
+    ],
+    "--hc-t-hc-website-footer-main-details-border-bottom-0b8fc8b2": [
+      "#ddd"
+    ],
+    "--hc-t-hc-website-footer-main-details-padding-1c6e33f5": [
+      "14px"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-font-size-2237bc0c": [
+      "14px"
+    ],
+    "--hc-t-hc-website-footer-main-details-a-margin-top-fb098919": [
+      "12px"
+    ],
+    "--hc-t-hc-website-footer-legal-gap-b5926c60": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-pricing-gap-385817fa": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-d7edc633": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-price-value-margin-top-102a61e6": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-card-dl-gap-16255de5": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-price-card-dd-font-size-3d3c2e61": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-featured-back-left-e82a8562": [
+      "-2px"
+    ],
+    "--hc-t-hc-gauss-featured-back-right-f26759f3": [
+      "-2px"
+    ],
+    "--hc-t-hc-gauss-featured-back-bottom-dc086309": [
+      "-2px"
+    ],
+    "--hc-t-hc-gauss-featured-back-z-index-759970ac": [
+      "-1"
+    ],
+    "--hc-t-hc-gauss-featured-back-background-c1323d8e": [
+      "#758cff"
+    ],
+    "--hc-t-hc-gauss-featured-back-background-ecb85260": [
+      "#80d0ed"
+    ],
+    "--hc-t-hc-gauss-featured-back-img-left-f5ca41b2": [
+      "-8%"
+    ],
+    "--hc-t-hc-gauss-featured-back-img-top-58ca570f": [
+      "-8%"
+    ],
+    "--hc-t-hc-gauss-featured-back-img-width-e47df700": [
+      "116%"
+    ],
+    "--hc-t-hc-gauss-featured-back-img-height-c5504a4c": [
+      "116%"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-after-background-e728bd78": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-after-z-index-0978f79d": [
+      "-1"
+    ],
+    "--hc-t-hc-gauss-price-tag-padding-6e390de4": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-left-1fb9ec4d": [
+      "-2px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-right-aca47119": [
+      "-2px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-padding-8cc1dad2": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-background-bf82f9b4": [
+      "transparent"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-font-size-ffa56bfd": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-line-height-6ba1321d": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-width-f37a9637": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-height-da90d661": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-margin-bo-77773f0b": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-height-7a7156d1": [
+      "110px"
+    ],
+    "--hc-t-hc-gauss-case-controls-img-height-131df91d": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-case-controls-img-transition-4d9e58c1": [
+      ".3s"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-ec8d8cb4": [
+      "100px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-294561fe": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-3254aada": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-left-71d14241": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-bottom-70a4e64e": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-gap-d6fd2d62": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-font-size-80700f7e": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-line-height-4cc52cb5": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-width-28a6f7fd": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-height-9ee60a17": [
+      "16px"
+    ],
+    "--hc-t-hc-faq-chevron-width-dbcb51d0": [
+      "24px"
+    ],
+    "--hc-t-hc-faq-chevron-height-795bfdcb": [
+      "24px"
+    ],
+    "--hc-t-hc-faq-chevron-transition-89ca9f47": [
+      ".3s"
+    ],
+    "--hc-t-hc-faq-chevron-transition-96698ee8": [
+      ".2s"
+    ],
+    "--hc-t-hc-faq-chevron-before-width-bf342b71": [
+      "8px"
+    ],
+    "--hc-t-hc-faq-chevron-before-height-9b34f266": [
+      "8px"
+    ],
+    "--hc-t-hc-faq-chevron-before-border-right-b5f4400f": [
+      "1.5px"
+    ],
+    "--hc-t-hc-faq-chevron-before-border-bottom-17fbad9b": [
+      "1.5px"
+    ],
+    "--hc-t-hc-faq-chevron-before-transform-83029ec1": [
+      "-2px"
+    ],
+    "--por-color-text-weak": [
+      "var(--por-base-color-gray-50)"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-width-0c0916cd": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-height-275ed9ff": [
+      "40px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-margin-bo-acb19e51": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-height-3addd485": [
+      "88px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-5e22cf62": [
+      "80px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-3e23a2d4": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-5d585ef8": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-left-51c85548": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-bottom-78df7955": [
+      "28px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-font-size-cdd84f5a": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-line-height-2bbeb6a2": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-width-c0fbb2a7": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-height-c99359f2": [
+      "12px"
+    ],
+    "--hc-t-hc-faq-chevron-width-0446c2ce": [
+      "20px"
+    ],
+    "--hc-t-hc-faq-chevron-height-c31ceb9c": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-font-size-5144e255": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-card-is-featured-hc-gauss-price-tag-line-height-32d85e80": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-width-e8758cbc": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-height-d530402a": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-margin-bo-e1d2631c": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-height-48f8d0aa": [
+      "72px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-3d9a5b41": [
+      "68px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-61f5ffb1": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-d9681de9": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-left-51d7ee9b": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-bottom-285467a7": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-font-size-a38ed69c": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-line-height-bf18cfb5": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-width-925134dc": [
+      "10px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-height-ceed513b": [
+      "10px"
+    ],
+    "--hc-t-hc-faq-chevron-width-5911366a": [
+      "16px"
+    ],
+    "--hc-t-hc-faq-chevron-height-f08e7bda": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-case-controls-button-height-a7efcc1b": [
+      "60px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-da9dd1ad": [
+      "52px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-24f94edf": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-b70150b2": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-left-93482c6c": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-bottom-563ac0a0": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-font-size-04720f1f": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-video-meta-line-height-c4d8abbd": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-width-265e377c": [
+      "9px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-height-60017354": [
+      "9px"
+    ],
+    "--hc-t-hc-gauss-benefit-not-is-featured-hc-gauss-benefit-media-margin-bo-4eb4f6af": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-pricing-row-gap-c6191708": [
+      "48px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-width-0b9d0299": [
+      "10.67px"
+    ],
+    "--hc-t-hc-gauss-videos-hc-gauss-play-icon-height-c1250102": [
+      "10.67px"
+    ],
+    "--hc-t-hc-gauss-videos-a-height-5eda5bd3": [
+      "289px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-4f5e8522": [
+      "289px"
+    ],
+    "--hc-t-hc-gauss-videos-a-height-04a982b8": [
+      "232px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-5a75e70a": [
+      "232px"
+    ],
+    "--hc-t-hc-gauss-videos-a-height-1aa37d1d": [
+      "192px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-af8194ce": [
+      "192px"
+    ],
+    "--hc-t-hc-gauss-videos-a-height-e372b8ff": [
+      "154px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-1a3ec6ef": [
+      "154px"
+    ],
+    "--hc-t-hc-gauss-videos-a-height-983cfa18": [
+      "130px"
+    ],
+    "--hc-t-hc-gauss-videos-a-min-height-94623b68": [
+      "130px"
+    ],
+    "--hc-t-hc-gauss-recognition-slide-min-height-30f1a5ef": [
+      "280px"
+    ],
+    "--hc-t-hc-gauss-recognition-slide-gap-33306852": [
+      "16px"
+    ],
+    "--hc-t-hc-product-chevron-width-a15e9849": [
+      "14px"
+    ],
+    "--hc-t-hc-product-chevron-height-d83cf0fa": [
+      "14px"
+    ],
+    "--hc-t-hc-product-chevron-transition-bdf48797": [
+      ".2s"
+    ],
+    "--hc-t-hc-product-chevron-before-width-2a665bbd": [
+      "6px"
+    ],
+    "--hc-t-hc-product-chevron-before-height-853250d7": [
+      "6px"
+    ],
+    "--hc-t-hc-product-chevron-before-border-right-afb397ba": [
+      "1.5px"
+    ],
+    "--hc-t-hc-product-chevron-before-border-bottom-472be04c": [
+      "1.5px"
+    ],
+    "--hc-t-hc-product-chevron-before-transform-735c698a": [
+      "-1px"
+    ],
+    "--hc-t-is-hc-page-gauss-min-height-bc78e205": [
+      "100px"
+    ],
+    "--hc-t-is-hc-page-gauss-gap-5188313b": [
+      "24px"
+    ],
+    "--hc-t-is-hc-page-gauss-height-affd5384": [
+      "60px"
+    ],
+    "--hc-t-is-hc-page-gauss-height-67633df3": [
+      "60px"
+    ],
+    "--hc-t-is-hc-page-gauss-gap-d8b6111b": [
+      "12px"
+    ],
+    "--hc-t-is-hc-page-gauss-flex-9907fa4a": [
+      "100%"
+    ],
+    "--hc-t-is-hc-page-gauss-gap-1c4cd9b2": [
+      "20px"
+    ],
+    "--hc-t-is-hc-page-gauss-min-height-535a3855": [
+      "40px"
+    ],
+    "--hc-t-is-hc-page-gauss-background-2c5ae716": [
+      "transparent"
+    ],
+    "--hc-t-is-hc-page-gauss-padding-93e1ed94": [
+      "9px"
+    ],
+    "--hc-t-is-hc-page-gauss-font-size-4cf8fb9d": [
+      "14px"
+    ],
+    "--hc-t-is-hc-page-gauss-line-height-d5698306": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-benefits-gap-b84bbbcb": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-benefit-padding-eba4350d": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-font-size-9e778bdc": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-benefit-is-featured-h3-line-height-831f5fdb": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-case-scroll-gap-88cf2bb6": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-case-scroll-padding-d08dda87": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-case-scroll-max-width-2d32f133": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-mobile-case-flex-9ec197bf": [
+      "342px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-border-radius-8e997d8b": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-background-025b8bf2": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-gauss-mobile-case-image-width-08e89afb": [
+      "342px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-image-height-49bb8b41": [
+      "200px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-div-padding-52c56fcb": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-div-padding-8aff722e": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-div-padding-7781573a": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-logo-max-width-9e91ab6e": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-mobile-case-logo-height-64565e20": [
+      "32px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-logo-margin-bottom-e55d0a99": [
+      "10px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-h3-font-size-e9f05030": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-h3-line-height-d88e5421": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-h3-margin-d8aa1627": [
+      "4px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-p-font-size-b7d7bc16": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-p-line-height-e52c54c0": [
+      "18px"
+    ],
+    "--hc-t-hc-gauss-recognition-gap-df3f1c0c": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-recognition-max-width-a0618a61": [
+      "100%"
+    ],
+    "--hc-t-hc-gauss-recognition-padding-bottom-ee0a8270": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-recognition-slide-flex-3a925c33": [
+      "342px"
+    ],
+    "--hc-t-hc-gauss-recognition-slide-gap-b6465237": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-recognition-slide-article-padding-df6bc63e": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-videos-gap-9158fadb": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-top-f8667ce1": [
+      "44px"
+    ],
+    "--hc-t-hc-gauss-final-div-padding-7e46b7d2": [
+      "24px"
+    ],
+    "--hc-t-hc-gauss-final-h2-font-size-23c4b660": [
+      "14px"
+    ],
+    "--hc-t-hc-gauss-final-h2-line-height-ed3c011a": [
+      "22px"
+    ],
+    "--hc-t-hc-gauss-final-h2-margin-88112082": [
+      "8px"
+    ],
+    "--hc-t-hc-gauss-final-por-btn-margin-top-fa2154f5": [
+      "24px"
+    ],
+    "--hc-t-hc-product-toggle-gap-24177ce9": [
+      "8px"
+    ],
+    "--hc-t-hc-product-links-is-open-top-6b9f55bd": [
+      "42px"
+    ],
+    "--hc-t-hc-product-links-is-open-width-7a4edbd4": [
+      "100%"
+    ],
+    "--hc-t-hc-product-links-is-open-max-height-a19547e2": [
+      "42px"
+    ],
+    "--hc-t-hc-product-links-is-open-background-3f820792": [
+      "#fff"
+    ],
+    "--hc-t-hc-product-links-is-open-padding-118fe524": [
+      "24px"
+    ],
+    "--hc-t-hc-product-links-is-open-padding-e61ca42e": [
+      "24px"
+    ],
+    "--hc-t-hc-product-links-is-open-border-top-1742ed67": [
+      "1px"
+    ],
+    "--hc-t-hc-product-links-is-open-border-top-dca2b589": [
+      "#eee"
+    ],
+    "--hc-t-hc-product-links-is-open-a-font-size-50bda62a": [
+      "12px"
+    ],
+    "--hc-t-hc-product-links-is-open-a-line-height-9852869c": [
+      "18px"
+    ],
+    "--hc-t-hc-product-links-is-open-a-margin-top-1bdb087c": [
+      "16px"
+    ],
+    "--hc-t-hc-product-links-is-open-a-color-f76e741f": [
+      "#595959"
+    ],
+    "--hc-t-hc-product-links-is-open-a-is-current-font-weight-6520bbb1": [
+      "700"
+    ],
+    "--hc-t-hc-product-links-is-open-a-is-current-color-a9c82c8d": [
+      "#191919"
+    ],
+    "--hc-t-hc-gauss-mobile-case-flex-basis-5263c440": [
+      "260px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-image-width-32e68ef5": [
+      "260px"
+    ],
+    "--hc-t-hc-gauss-mobile-case-image-height-bc66d79b": [
+      "182px"
+    ],
+    "--hc-t-hc-gauss-recognition-slide-flex-basis-52276110": [
+      "260px"
+    ],
+    "--hc-t-hc-gauss-videos-a-div-padding-top-3e6ba2ac": [
+      "52px"
+    ],
+    "--hc-t-hc-gauss-pricing-row-gap-54683ca5": [
+      "12px"
+    ],
+    "--hc-t-hc-gauss-price-card-padding-e1c2175f": [
+      "20px"
+    ],
+    "--hc-t-hc-gauss-price-card-hc-gauss-price-value-margin-top-2ee7ba38": [
+      "16px"
+    ],
+    "--hc-t-hc-gauss-partner-panel-hc-gauss-partner-desktop-max-width-bc6c21b5": [
+      "100%"
+    ],
+    "--hc-t-is-hc-page-gauss-font-weight-086af1e2": [
+      "400"
+    ],
+    "--hc-t-is-hc-page-gauss-max-width-9bd60925": [
+      "80%"
+    ],
+    "--hc-t-hc-folded-background-width-f6e70e64": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-background-height-914f799f": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-background-z-index-dc1f6ed0": [
+      "-1"
+    ],
+    "--hc-t-hc-folded-floor-por-section-background-84ce6827": [
+      "transparent"
+    ],
+    "--hc-t-hc-folded-media-gap-861435b3": [
+      "48px"
+    ],
+    "--hc-t-hc-folded-media-min-height-2cb23de3": [
+      "400px"
+    ],
+    "--hc-t-hc-folded-list-width-a373cb35": [
+      "36%"
+    ],
+    "--hc-t-hc-folded-item-border-top-23236671": [
+      "1px"
+    ],
+    "--por-color-background-gray-5": [
+      "var(--por-base-color-gray-30)"
+    ],
+    "--hc-t-fallback-border": [
+      "#dbdbdb"
+    ],
+    "--hc-t-hc-folded-item-padding-51ce28e4": [
+      "20px"
+    ],
+    "--hc-t-hc-folded-item-is-expanded-border-top-color-de7a32b9": [
+      "var(--por-color-text-primary)"
+    ],
+    "--hc-t-hc-folded-item-h3-button-width-8c2ea528": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-item-h3-button-padding-a08e1067": [
+      "32px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-color-d236fa22": [
+      "#191919"
+    ],
+    "--hc-t-hc-folded-item-h3-button-font-size-a2187058": [
+      "24px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-line-height-5da5a36d": [
+      "36px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-font-weight-93fe2450": [
+      "600"
+    ],
+    "--hc-t-hc-folded-item-hc-faq-chevron-top-2b1a7d4b": [
+      "8px"
+    ],
+    "--hc-t-hc-folded-item-hc-faq-chevron-width-f0271626": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-item-hc-faq-chevron-height-88a47009": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-panel-padding-right-609ada1f": [
+      "32px"
+    ],
+    "--hc-t-hc-folded-panel-padding-bottom-e4e2dc52": [
+      "40px"
+    ],
+    "--hc-t-hc-folded-panel-p-font-size-0377917d": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-panel-p-line-height-72202a2b": [
+      "24px"
+    ],
+    "--hc-t-hc-folded-panel-p-color-2130afdf": [
+      "#595959"
+    ],
+    "--hc-t-hc-folded-panel-p-margin-c946e991": [
+      "12px"
+    ],
+    "--hc-t-hc-folded-tag-margin-left-2e6edf60": [
+      "4px"
+    ],
+    "--hc-t-hc-folded-tag-padding-bc976083": [
+      "6px"
+    ],
+    "--hc-t-hc-folded-tag-border-radius-16e35b9e": [
+      "4px"
+    ],
+    "--hc-t-hc-folded-tag-background-22c4fea2": [
+      "#c7000b15"
+    ],
+    "--hc-t-hc-folded-tag-color-a52b9037": [
+      "#c7000b"
+    ],
+    "--hc-t-hc-folded-tag-font-size-3ca913f8": [
+      "12px"
+    ],
+    "--hc-t-hc-folded-tag-line-height-23642704": [
+      "20px"
+    ],
+    "--hc-t-hc-folded-tag-font-weight-20714f70": [
+      "400"
+    ],
+    "--hc-t-hc-folded-tag-vertical-align-ad1ba36e": [
+      "3px"
+    ],
+    "--hc-t-hc-folded-art-panel-width-54012f4a": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-art-img-width-862e9ae4": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-art-img-border-radius-1ef8c4fc": [
+      "24px"
+    ],
+    "--hc-t-hc-solutions-track-gap-924e4f37": [
+      "20px"
+    ],
+    "--hc-t-hc-solution-card-flex-55564e26": [
+      "385px"
+    ],
+    "--hc-t-hc-solution-card-height-74bd5ffb": [
+      "580px"
+    ],
+    "--hc-t-hc-solution-card-border-radius-dbe51879": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-card-padding-38f89886": [
+      "40px"
+    ],
+    "--hc-t-hc-solution-card-background-4251ae0f": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-solution-card-is-dark-background-108b995c": [
+      "#000"
+    ],
+    "--hc-t-hc-solution-background-width-96b12aba": [
+      "100%"
+    ],
+    "--hc-t-hc-solution-background-height-6fda8b92": [
+      "100%"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-font-size-847f0e34": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-line-height-013eab2b": [
+      "36px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-margin-b063241d": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-font-weight-b974f315": [
+      "600"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-font-size-879c71b3": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-line-height-d75b0c5b": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-font-weight-7c7ec990": [
+      "400"
+    ],
+    "--hc-t-hc-solution-card-is-dark-hc-solution-copy-h3-color-7c7c2c30": [
+      "white"
+    ],
+    "--hc-t-hc-solution-action-right-b5e0632e": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-action-bottom-4213e25b": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-action-width-c8de58b0": [
+      "40px"
+    ],
+    "--hc-t-hc-solution-action-height-b651425e": [
+      "40px"
+    ],
+    "--hc-t-hc-solution-action-border-radius-afb1ab34": [
+      "50%"
+    ],
+    "--hc-t-hc-solution-action-border-4db65dd4": [
+      "1px"
+    ],
+    "--hc-t-hc-solution-action-color-ac2d1db1": [
+      "#191919"
+    ],
+    "--hc-t-hc-solution-action-background-13196497": [
+      "#0003"
+    ],
+    "--hc-t-hc-solution-card-is-dark-hc-solution-action-color-ec072d03": [
+      "#fff"
+    ],
+    "--hc-t-hc-solution-card-is-dark-hc-solution-action-background-f9c2f817": [
+      "#fff3"
+    ],
+    "--hc-t-hc-solution-action-span-width-4045329e": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-action-span-height-2d314881": [
+      "1px"
+    ],
+    "--hc-t-hc-solution-action-span-after-top-53a399bb": [
+      "-4px"
+    ],
+    "--hc-t-hc-solution-action-span-after-width-ccf526d5": [
+      "8px"
+    ],
+    "--hc-t-hc-solution-action-span-after-height-f167a3f1": [
+      "8px"
+    ],
+    "--hc-t-hc-solution-action-span-after-border-top-69407695": [
+      "1px"
+    ],
+    "--hc-t-hc-solution-action-span-after-border-right-0fd509fc": [
+      "1px"
+    ],
+    "--hc-t-hc-solutions-prev-top-dd60ed16": [
+      "50%"
+    ],
+    "--hc-t-hc-solutions-prev-top-811df06c": [
+      "32px"
+    ],
+    "--hc-t-hc-solutions-prev-width-77b4fe4b": [
+      "64px"
+    ],
+    "--hc-t-hc-solutions-prev-height-58237ab7": [
+      "64px"
+    ],
+    "--hc-t-hc-solutions-prev-border-radius-f73c4901": [
+      "50%"
+    ],
+    "--hc-t-hc-solutions-prev-background-a9db6ba2": [
+      "#f5f5f5cc"
+    ],
+    "--hc-t-hc-solutions-prev-color-a7dbc7fd": [
+      "#595959"
+    ],
+    "--hc-t-hc-solutions-prev-left-7fb2afb6": [
+      "-20px"
+    ],
+    "--hc-t-hc-solutions-next-right-e8f25bdd": [
+      "-20px"
+    ],
+    "--hc-t-hc-solutions-prev-span-width-f4baf9dc": [
+      "14px"
+    ],
+    "--hc-t-hc-solutions-prev-span-height-0d0b1fdf": [
+      "14px"
+    ],
+    "--hc-t-hc-solutions-prev-span-border-right-3c6a9112": [
+      "3px"
+    ],
+    "--hc-t-hc-solutions-prev-span-border-top-b757ea30": [
+      "3px"
+    ],
+    "--hc-t-hc-folded-media-gap-c15c14a2": [
+      "40px"
+    ],
+    "--hc-t-hc-folded-media-min-height-d03ce58c": [
+      "320px"
+    ],
+    "--hc-t-hc-folded-art-img-border-radius-5065bdcc": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-font-size-4cdfff35": [
+      "20px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-line-height-641e9ecd": [
+      "30px"
+    ],
+    "--hc-t-hc-folded-panel-padding-bottom-cb37effe": [
+      "20px"
+    ],
+    "--hc-t-hc-folded-panel-p-font-size-00d169c7": [
+      "14px"
+    ],
+    "--hc-t-hc-folded-panel-p-line-height-5293bd40": [
+      "22px"
+    ],
+    "--hc-t-hc-folded-panel-p-margin-top-01edec20": [
+      "8px"
+    ],
+    "--hc-t-hc-solutions-track-gap-8a32a1e6": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-card-flex-basis-e48c9b2d": [
+      "334px"
+    ],
+    "--hc-t-hc-solution-card-height-0d6b0baa": [
+      "503px"
+    ],
+    "--hc-t-hc-solution-card-border-radius-b4af9047": [
+      "20px"
+    ],
+    "--hc-t-hc-solution-card-padding-db0b2bf9": [
+      "32px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-font-size-91f9ba2f": [
+      "20px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-line-height-0865cba3": [
+      "30px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-margin-bottom-f418c3b3": [
+      "12px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-font-size-513b2ead": [
+      "14px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-line-height-38034e80": [
+      "22px"
+    ],
+    "--hc-t-hc-solution-action-width-4584ca80": [
+      "32px"
+    ],
+    "--hc-t-hc-solution-action-height-302badee": [
+      "32px"
+    ],
+    "--hc-t-hc-solutions-prev-width-b2b64cb7": [
+      "56px"
+    ],
+    "--hc-t-hc-solutions-prev-height-c719bbf0": [
+      "56px"
+    ],
+    "--hc-t-hc-solutions-prev-top-07ba997d": [
+      "28px"
+    ],
+    "--hc-t-hc-folded-media-gap-5e13fb0c": [
+      "32px"
+    ],
+    "--hc-t-hc-folded-item-padding-4dd202a2": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-font-size-37367503": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-line-height-57aaee82": [
+      "24px"
+    ],
+    "--hc-t-hc-folded-item-hc-faq-chevron-top-a7d2bb57": [
+      "4px"
+    ],
+    "--hc-t-hc-folded-panel-padding-bottom-e42b4d8a": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-panel-p-font-size-e6315ff2": [
+      "12px"
+    ],
+    "--hc-t-hc-folded-panel-p-line-height-bce6a3f8": [
+      "18px"
+    ],
+    "--hc-t-hc-folded-panel-p-margin-top-2b5e45b2": [
+      "6px"
+    ],
+    "--hc-t-hc-solution-card-flex-basis-7c7a0d36": [
+      "273px"
+    ],
+    "--hc-t-hc-solution-card-height-3f0d8efc": [
+      "411px"
+    ],
+    "--hc-t-hc-solution-card-border-radius-9c51b073": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-card-padding-a61a0030": [
+      "28px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-font-size-5b2e2b7c": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-line-height-2abd41e6": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-font-size-73eb9c8d": [
+      "12px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-p-line-height-57abc0b0": [
+      "18px"
+    ],
+    "--hc-t-hc-solution-action-width-0c39c7bd": [
+      "28px"
+    ],
+    "--hc-t-hc-solution-action-height-0929d2bf": [
+      "28px"
+    ],
+    "--hc-t-hc-solutions-prev-width-e21a6f13": [
+      "42px"
+    ],
+    "--hc-t-hc-solutions-prev-height-76a026fc": [
+      "42px"
+    ],
+    "--hc-t-hc-solutions-prev-top-0b643ef3": [
+      "21px"
+    ],
+    "--hc-t-hc-solutions-track-gap-1a9c3732": [
+      "12px"
+    ],
+    "--hc-t-hc-solution-card-flex-basis-dff9d1df": [
+      "234px"
+    ],
+    "--hc-t-hc-solution-card-height-a1039f35": [
+      "352px"
+    ],
+    "--hc-t-hc-solution-card-border-radius-1396c17b": [
+      "14px"
+    ],
+    "--hc-t-hc-solution-card-padding-b57b9b93": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-font-size-017b5d83": [
+      "14px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-line-height-5b355b53": [
+      "22px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-margin-bottom-e7a11106": [
+      "8px"
+    ],
+    "--hc-t-hc-solution-action-width-8cf13a31": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-action-height-d611b6d5": [
+      "24px"
+    ],
+    "--hc-t-hc-solutions-prev-width-608a355a": [
+      "36px"
+    ],
+    "--hc-t-hc-solutions-prev-height-a16c0ba6": [
+      "36px"
+    ],
+    "--hc-t-hc-solutions-prev-top-ac029dfb": [
+      "18px"
+    ],
+    "--hc-t-hc-folded-list-width-50a82036": [
+      "45%"
+    ],
+    "--hc-t-hc-folded-item-h3-button-font-size-f635510f": [
+      "14px"
+    ],
+    "--hc-t-hc-folded-item-h3-button-line-height-79ed0451": [
+      "22px"
+    ],
+    "--hc-t-hc-solution-card-flex-basis-6741da2d": [
+      "320px"
+    ],
+    "--hc-t-hc-solution-card-height-b47dd0fa": [
+      "420px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-font-size-e18e8e52": [
+      "18px"
+    ],
+    "--hc-t-hc-solution-card-hc-solution-copy-h3-line-height-2cb22a10": [
+      "28px"
+    ],
+    "--hc-t-hc-solution-action-bottom-77f7b79b": [
+      "24px"
+    ],
+    "--hc-t-hc-solution-action-right-0625b8c0": [
+      "24px"
+    ],
+    "--hc-t-hc-folded-media-background-a19bace3": [
+      "#fafafa"
+    ],
+    "--hc-t-hc-folded-media-border-ac16fe06": [
+      "1px"
+    ],
+    "--hc-t-hc-folded-media-border-3ca1b077": [
+      "#f0f0f0"
+    ],
+    "--hc-t-hc-folded-media-border-radius-b5268989": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-media-padding-7f68b812": [
+      "6px"
+    ],
+    "--hc-t-hc-folded-media-padding-0d47eec1": [
+      "20px"
+    ],
+    "--hc-t-hc-folded-list-width-6d0b52b4": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-item-padding-b6888e64": [
+      "14px"
+    ],
+    "--hc-t-hc-folded-inline-media-width-178b14e8": [
+      "100%"
+    ],
+    "--hc-t-hc-folded-inline-media-border-radius-fc1d9380": [
+      "16px"
+    ],
+    "--hc-t-hc-folded-inline-media-margin-f3b66a13": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-action-border-width-86d306c8": [
+      ".63px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-width-ee1e9b8a": [
+      "16px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-height-cf85c2dc": [
+      "16px"
+    ],
+    "--hc-t-hc-solutions-prev-z-index-046c77e3": [
+      "5"
+    ],
+    "--hc-t-hc-solutions-prev-background-cd08bafb": [
+      "transparent"
+    ],
+    "--hc-t-hc-solutions-carousel-icon-width-56f407fe": [
+      "100%"
+    ],
+    "--hc-t-hc-solutions-carousel-icon-height-6110c52a": [
+      "100%"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-width-d9b6c2b4": [
+      "13px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-height-db45031e": [
+      "13px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-width-e5e3dfe6": [
+      "11px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-height-5236d55d": [
+      "11px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-width-04eb0230": [
+      "10px"
+    ],
+    "--hc-t-hc-solution-action-hc-solution-arrow-height-0a9e6935": [
+      "10px"
+    ],
+    "--hc-t-hc-dev-container-max-width-75f4a671": [
+      "1920px"
+    ],
+    "--hc-t-hc-dev-announcement-background-d99b617e": [
+      "#f3f7ff"
+    ],
+    "--hc-t-hc-dev-announcement-color-90b1fe36": [
+      "#595959"
+    ],
+    "--hc-t-hc-dev-announcement-font-size-6d3df4d4": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-announcement-line-height-af64abcd": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-announcement-div-gap-f3bfc032": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-announcement-div-min-height-a4abf77c": [
+      "44px"
+    ],
+    "--hc-t-hc-dev-announcement-p-margin-81e1c52e": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-announcement-button-font-size-eb00bed3": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-banner-height-32c6574d": [
+      "700px"
+    ],
+    "--hc-t-hc-dev-banner-background-c4728d96": [
+      "#f5f7fa"
+    ],
+    "--hc-t-hc-dev-banner-background-width-24722a44": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-banner-background-height-e7663d07": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-banner-copy-top-eabdb736": [
+      "132px"
+    ],
+    "--hc-t-hc-dev-banner-copy-gap-4bbbd9a9": [
+      "6px"
+    ],
+    "--hc-t-hc-dev-banner-copy-color-799aeda1": [
+      "white"
+    ],
+    "--hc-t-hc-dev-banner-copy-padding-12f672de": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-hero-tag-padding-f7eefd88": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-hero-tag-padding-e11a94be": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-hero-tag-font-size-5de40402": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-hero-tag-line-height-068000f2": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-hero-tag-border-0c15c526": [
+      "1.5px"
+    ],
+    "--hc-t-hc-dev-hero-tag-border-5e42684d": [
+      "#fff"
+    ],
+    "--hc-t-hc-dev-hero-tag-border-radius-71b5d5f5": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-hero-tag-background-a5e6acd1": [
+      "#f4f5f603"
+    ],
+    "--hc-t-hc-dev-hero-tag-background-931e5558": [
+      "#f4f5f633"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-font-size-60a510b0": [
+      "50px"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-line-height-45771326": [
+      "75px"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-font-weight-57616b9d": [
+      "700"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-font-size-1efcd8a7": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-line-height-50c7c8a7": [
+      "30px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-color-3d76d048": [
+      "#ffffffbf"
+    ],
+    "--hc-t-hc-dev-banner-copy-is-dark-color-e30c74fd": [
+      "#191919"
+    ],
+    "--hc-t-hc-dev-banner-copy-is-dark-p-color-5c02d7de": [
+      "#595959"
+    ],
+    "--hc-t-hc-dev-banner-dots-bottom-6a3c8301": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-banner-dots-left-eb3e74df": [
+      "50%"
+    ],
+    "--hc-t-hc-dev-banner-dots-transform-62ae6de0": [
+      "-50%"
+    ],
+    "--hc-t-hc-dev-banner-dots-gap-003c93e6": [
+      "10px"
+    ],
+    "--hc-t-hc-dev-banner-dots-button-width-2b3e5a84": [
+      "10px"
+    ],
+    "--hc-t-hc-dev-banner-dots-button-height-4f7bcf47": [
+      "10px"
+    ],
+    "--hc-t-hc-dev-banner-dots-button-border-radius-3dd0fcfe": [
+      "50%"
+    ],
+    "--hc-t-hc-dev-banner-dots-button-background-c2557b73": [
+      "#0002"
+    ],
+    "--hc-t-hc-dev-banner-dots-button-aria-pressed-true--background-ecd86ce1": [
+      "#000c"
+    ],
+    "--hc-t-hc-dev-floor-h2-font-weight-fa4bdbe5": [
+      "600"
+    ],
+    "--hc-t-hc-dev-floor-h2-margin-ff827a36": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-floor-h3-margin-520e5fb3": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-floor-h3-font-size-be632d81": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-floor-h3-line-height-b308eeba": [
+      "36px"
+    ],
+    "--hc-t-hc-dev-floor-p-font-size-394b9e1c": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-floor-p-line-height-56d011c2": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-floor-p-color-102f7e81": [
+      "#595959"
+    ],
+    "--hc-t-hc-dev-reference-practices-background-73049852": [
+      "#f6f6fa"
+    ],
+    "--hc-t-hc-dev-reference-practices-background-fb66ff03": [
+      "#f8f8f8"
+    ],
+    "--hc-t-hc-dev-reference-practices-background-0a8b71bc": [
+      "30%"
+    ],
+    "--hc-t-hc-dev-practice-track-gap-401e5f0e": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-practice-card-flex-f780ccf5": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-practice-card-flex-b10be783": [
+      "60px"
+    ],
+    "--hc-t-hc-dev-practice-card-height-8960b882": [
+      "600px"
+    ],
+    "--hc-t-hc-dev-practice-card-border-radius-9d99546b": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-practice-card-color-39508be8": [
+      "#191919"
+    ],
+    "--hc-t-hc-dev-practice-card-img-width-b8b21a96": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-practice-card-img-height-a4bde548": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-practice-card-div-padding-a2f11feb": [
+      "40px"
+    ],
+    "--hc-t-hc-dev-practice-card-div-padding-26fd2343": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-practice-card-p-max-width-5081c308": [
+      "310px"
+    ],
+    "--hc-t-hc-dev-space-actions-gap-5945aeec": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-space-actions-margin-3c71823f": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-space-actions-margin-8ae455d8": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-grid-gap-4c8f8769": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-grid-max-width-e9aab985": [
+      "1600px"
+    ],
+    "--hc-t-hc-dev-space-main-border-fc027973": [
+      "1px"
+    ],
+    "--hc-t-hc-dev-space-main-border-d5b24467": [
+      "#f0f0f0"
+    ],
+    "--hc-t-hc-dev-space-main-border-radius-633ebefd": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-main-color-8ae3d08b": [
+      "#191919"
+    ],
+    "--hc-t-hc-dev-space-main-padding-1fb6d21b": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-main-padding-d64a8218": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-main-background-45419bba": [
+      "#f9faff"
+    ],
+    "--hc-t-hc-dev-space-main-img-width-5bc2d988": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-main-img-padding-top-42adde18": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-main-img-margin-bottom-53737ae1": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-side-gap-608207ca": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-side-article-padding-842d5e67": [
+      "40px"
+    ],
+    "--hc-t-hc-dev-space-side-article-border-radius-72b35075": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-side-article-background-7a628533": [
+      "#f2f6ff"
+    ],
+    "--hc-t-hc-dev-space-side-article-background-909d43c4": [
+      "#f9fafc"
+    ],
+    "--hc-t-hc-dev-reference-skill-background-c8184e19": [
+      "#f5f5f5"
+    ],
+    "--hc-t-hc-dev-skills-grid-gap-2a94c735": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-skills-grid-margin-top-705dc0b4": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-skill-card-height-bc0b7dd2": [
+      "276px"
+    ],
+    "--hc-t-hc-dev-skill-card-padding-720f6795": [
+      "36px"
+    ],
+    "--hc-t-hc-dev-skill-card-background-6714d2e8": [
+      "#fff"
+    ],
+    "--hc-t-hc-dev-skill-card-border-radius-5912226d": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-card-color-43f637cf": [
+      "#191919"
+    ],
+    "--hc-t-hc-dev-skill-card-h3-font-size-e1cbe6b5": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-skill-card-h3-line-height-5f206446": [
+      "28px"
+    ],
+    "--hc-t-hc-dev-skill-card-p-margin-8dc680ce": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-skill-card-p-margin-e15ecb00": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-skill-tag-padding-14d58a2a": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-skill-tag-font-size-1302fb31": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-skill-tag-line-height-169a6cb2": [
+      "30px"
+    ],
+    "--hc-t-hc-dev-skill-tag-background-a9d963c6": [
+      "var(--por-color-background-gray-5)"
+    ],
+    "--hc-t-hc-dev-skill-tag-color-43542eab": [
+      "var(--por-color-text-primary)"
+    ],
+    "--hc-t-hc-dev-skill-tag-border-radius-bcd83ee1": [
+      "4px"
+    ],
+    "--hc-t-hc-dev-skill-divider-border-top-0a67189c": [
+      "1px"
+    ],
+    "--hc-t-hc-dev-skill-divider-border-top-c2a0c920": [
+      "#0002"
+    ],
+    "--hc-t-hc-dev-skill-divider-margin-top-108328f2": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skills-actions-gap-654038c3": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skills-actions-margin-top-e0d78513": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-copy-width-7fa83313": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-copy-label-margin-bottom-577aef2a": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-div-max-width-d02843b2": [
+      "850px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-a3b1fb9e": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-310962cd": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-copy-div-border-radius-f8db17ca": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-div-background-77ec0951": [
+      "white"
+    ],
+    "--hc-t-hc-dev-copy-div-gap-a9346037": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-input-font-family-f2fd6192": [
+      "monospace"
+    ],
+    "--hc-t-hc-dev-copy-input-color-cbd1883a": [
+      "#595959"
+    ],
+    "--hc-t-hc-dev-copy-button-color-7cad6b98": [
+      "#191919"
+    ],
+    "--hc-t-hc-dev-copy-status-font-size-02c45f4d": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-ability-padding-9ded3e03": [
+      "64px"
+    ],
+    "--hc-t-hc-dev-ability-padding-d54e3f00": [
+      "80px"
+    ],
+    "--hc-t-hc-dev-ability-height-34ef02d7": [
+      "512px"
+    ],
+    "--hc-t-hc-dev-ability-border-radius-98ff807d": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-ability-background-6d937195": [
+      "#f5f5f5"
+    ],
+    "--hc-t-hc-dev-ability-gap-cedf3f31": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-ability-img-width-9f11a586": [
+      "50%"
+    ],
+    "--hc-t-hc-dev-ability-img-height-dea1fe0a": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-ability-p-margin-171ae809": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-ability-p-margin-9aaf8d19": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-container-max-width-660c45da": [
+      "1600px"
+    ],
+    "--hc-t-hc-dev-practice-card-height-7c3845bb": [
+      "546px"
+    ],
+    "--hc-t-hc-dev-practice-card-border-radius-b831acd8": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-floor-h3-font-size-3d35c5f2": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-floor-h3-line-height-e4b91f58": [
+      "28px"
+    ],
+    "--hc-t-hc-dev-floor-p-font-size-dbd6e36f": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-floor-p-line-height-df36f042": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-skill-card-border-radius-f68dcac3": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-practice-card-height-5c50013e": [
+      "425px"
+    ],
+    "--hc-t-hc-dev-practice-card-div-padding-80d585a9": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-side-article-padding-9a92ec09": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-card-padding-69df98f2": [
+      "28px"
+    ],
+    "--hc-t-hc-dev-banner-height-9d8830ec": [
+      "500px"
+    ],
+    "--hc-t-hc-dev-banner-copy-top-770859d2": [
+      "90px"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-font-size-73b809dc": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-line-height-32017737": [
+      "48px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-font-size-85b69da3": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-line-height-c4d9a8cc": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-practice-card-height-b80581ed": [
+      "354px"
+    ],
+    "--hc-t-hc-dev-practice-card-div-padding-671cef88": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-ability-height-da146e28": [
+      "400px"
+    ],
+    "--hc-t-hc-dev-ability-padding-89b840fe": [
+      "40px"
+    ],
+    "--hc-t-hc-dev-ability-padding-e2c49753": [
+      "48px"
+    ],
+    "--hc-t-hc-dev-space-grid-gap-33d0223a": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-space-side-article-padding-96122bb9": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-floor-h2-margin-bottom-b5187571": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-floor-h3-font-size-6d771126": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-floor-h3-line-height-3840316f": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-floor-p-font-size-e0a8bb5d": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-floor-p-line-height-61675395": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-practice-card-flex-basis-d80f510a": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-practice-card-flex-basis-efa8911a": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-practice-track-gap-6bf4e565": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-practice-card-div-padding-bef90be8": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-space-main-padding-a8229711": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-main-padding-34b5db64": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-banner-height-6b604ed9": [
+      "390px"
+    ],
+    "--hc-t-hc-dev-banner-copy-top-3b4d2194": [
+      "80px"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-font-size-741cc00f": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-banner-copy-h1-line-height-bfc43dc4": [
+      "30px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-font-size-1dd731eb": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-line-height-3417b2d4": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-hero-tag-font-size-8c32b9e2": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-hero-tag-line-height-4569facd": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-hero-tag-padding-2cdd8b84": [
+      "6px"
+    ],
+    "--hc-t-hc-dev-hero-tag-padding-029b0ccb": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-skills-grid-gap-89af0756": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-skill-card-height-951b73e0": [
+      "240px"
+    ],
+    "--hc-t-hc-dev-skill-card-padding-90f79412": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-practice-card-flex-basis-d2493fa3": [
+      "228px"
+    ],
+    "--hc-t-hc-dev-practice-card-height-d2962006": [
+      "352px"
+    ],
+    "--hc-t-hc-dev-ability-min-height-4c64f9c7": [
+      "450px"
+    ],
+    "--hc-t-hc-dev-ability-padding-65aad020": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-ability-padding-52852838": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-ability-img-width-792ae148": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-ability-img-height-bcf5350d": [
+      "240px"
+    ],
+    "--hc-t-hc-dev-banner-copy-p-max-width-bb50db12": [
+      "350px"
+    ],
+    "--hc-t-hc-dev-banner-height-c293f723": [
+      "330px"
+    ],
+    "--hc-t-hc-dev-announcement-font-size-1e3a1129": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-announcement-line-height-61feb563": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-announcement-copy-gap-bbf71d1a": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-announcement-icon-width-fcf4a60e": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-announcement-icon-height-4a2d03e4": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-announcement-button-width-bdb69b61": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-announcement-button-height-1f7f48cd": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-announcement-button-padding-88052740": [
+      "2px"
+    ],
+    "--hc-t-hc-dev-announcement-button-svg-width-be7e15ce": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-announcement-button-svg-height-3914b3ef": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-announcement-button-hover-color-231a920a": [
+      "var(--por-color-text-primary)"
+    ],
+    "--hc-t-hc-dev-space-main-background-0088a30b": [
+      "white"
+    ],
+    "--hc-t-hc-dev-space-media-padding-2de24045": [
+      "7.2%"
+    ],
+    "--hc-t-hc-dev-space-media-padding-8cf4924b": [
+      "5.2%"
+    ],
+    "--hc-t-hc-dev-space-media-background-width-e4741aee": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-media-background-height-f3ecfcb6": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-main-hc-dev-space-screenshot-width-5f5e9b46": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-main-hc-dev-space-screenshot-border-radius-96ad919d": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-main-hc-dev-space-screenshot-border-radius-c85f06cf": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-copy-background-25689659": [
+      "#fff"
+    ],
+    "--hc-t-hc-dev-space-copy-padding-b0a69243": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-copy-width-d911b5e5": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-copy-h3-font-size-ddd86b27": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-space-copy-h3-line-height-70eeeeab": [
+      "30px"
+    ],
+    "--hc-t-hc-dev-space-copy-p-font-size-a5ecd6e1": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-space-copy-p-line-height-ec7aa6db": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-side-gap-4ec36a27": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-space-side-article-background-ed4d6511": [
+      "white"
+    ],
+    "--hc-t-hc-dev-space-side-article-border-c71098ad": [
+      "1px"
+    ],
+    "--hc-t-hc-dev-space-side-article-border-77e15c14": [
+      "#f0f0f0"
+    ],
+    "--hc-t-hc-dev-space-side-media-img-width-6c66b43f": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-side-media-img-height-fd3e9b51": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-space-side-hc-dev-space-copy-padding-07a5716f": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-space-side-hc-dev-space-copy-padding-f5d74136": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skills-more-margin-ba38b9f6": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-skills-more-margin-7808080a": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-copy-gap-4153a027": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-copy-label-font-size-eb06712e": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-copy-label-line-height-126a5362": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-8b309e21": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-0dd6f763": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-copy-div-background-984c4287": [
+      "#fff"
+    ],
+    "--hc-t-hc-dev-copy-div-border-radius-8436624f": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-copy-div-width-ee30b52e": [
+      "760px"
+    ],
+    "--hc-t-hc-dev-copy-div-width-1f228da7": [
+      "65%"
+    ],
+    "--hc-t-hc-dev-copy-input-font-size-7f9b3de1": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-copy-input-line-height-54a16de5": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-copy-button-width-68dc86a3": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-copy-button-height-e2680fc0": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-copy-button-svg-width-6e3ac5cc": [
+      "16.25px"
+    ],
+    "--hc-t-hc-dev-copy-button-svg-height-7b9337d7": [
+      "16.25px"
+    ],
+    "--hc-t-hc-dev-skill-card-gap-3e47d10d": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-main-height-62365e43": [
+      "132px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-gap-2205aee4": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-font-size-2e8ddfcd": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-line-height-8992b4ba": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-color-70020795": [
+      "#595959"
+    ],
+    "--hc-t-hc-dev-skill-metadata-min-height-6cc14b05": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-span-gap-4023e080": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-svg-width-9b4cbfa4": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-svg-height-33dc7eef": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-background-width-1a56c540": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-background-height-610981d9": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-background-z-index-ff82010b": [
+      "-1"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-copy-width-aca3e56a": [
+      "50%"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-copy-padding-right-d4b380ce": [
+      "20%"
+    ],
+    "--hc-t-hc-dev-skill-card-height-4368283c": [
+      "250px"
+    ],
+    "--hc-t-hc-dev-skill-card-padding-3c3bb4c4": [
+      "32px"
+    ],
+    "--hc-t-hc-dev-skill-main-height-4ea560ad": [
+      "116px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-font-size-0969e951": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-line-height-344621ce": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-gap-be2d4389": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-min-height-7331a27c": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-space-copy-h3-font-size-ab1e5952": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-space-copy-h3-line-height-4f006016": [
+      "28px"
+    ],
+    "--hc-t-hc-dev-space-copy-p-font-size-96eb3350": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-space-copy-p-line-height-8858f5b9": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-skill-card-height-a48b1b30": [
+      "236px"
+    ],
+    "--hc-t-hc-dev-skill-main-height-27d18456": [
+      "106px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-font-size-a4147327": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-line-height-a046b525": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-min-height-6b850e4b": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-gap-902a876a": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-label-font-size-431d6ed4": [
+      "14px"
+    ],
+    "--hc-t-hc-dev-copy-label-line-height-1f53adb2": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-space-side-gap-6fa7776d": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-skill-card-height-74ec9aa7": [
+      "224px"
+    ],
+    "--hc-t-hc-dev-skill-card-gap-2517cfb3": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-space-copy-h3-font-size-0163f5fe": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-space-copy-h3-line-height-b9c2c428": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-space-copy-p-font-size-07934a21": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-space-copy-p-line-height-72af644a": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-space-side-media-height-11e35dfc": [
+      "160px"
+    ],
+    "--hc-t-hc-dev-skill-card-height-4843794e": [
+      "206px"
+    ],
+    "--hc-t-hc-dev-skill-card-padding-7ec1d7a9": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-skill-main-height-a737c3d7": [
+      "108px"
+    ],
+    "--hc-t-hc-dev-copy-gap-d3e32d89": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-copy-div-width-45e9c4c5": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-copy-input-font-size-aac60b1d": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-input-line-height-3d84e31d": [
+      "18px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-gap-77d6ac9a": [
+      "8px"
+    ],
+    "--hc-t-hc-dev-skill-metadata-span-gap-931ca454": [
+      "4px"
+    ],
+    "--hc-t-hc-dev-space-copy-padding-e44d40be": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-space-side-hc-dev-space-copy-padding-766c9b5f": [
+      "20px"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-copy-width-68482399": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-skill-card-height-9eba76c6": [
+      "188px"
+    ],
+    "--hc-t-hc-dev-skill-card-padding-982f5bfe": [
+      "16px"
+    ],
+    "--hc-t-hc-dev-skill-main-height-111f69a1": [
+      "94px"
+    ],
+    "--hc-t-hc-header-developer-hc-wordmark-span-font-size-8fb6e8a1": [
+      "20px"
+    ],
+    "--hc-t-hc-header-developer-hc-wordmark-span-line-height-a65cc2fc": [
+      "30px"
+    ],
+    "--hc-t-hc-header-developer-hc-wordmark-span-font-weight-ff6bfed2": [
+      "700"
+    ],
+    "--hc-t-hc-header-actions-a-hc-header-register-background-71b47749": [
+      "#c7000b"
+    ],
+    "--hc-t-hc-header-actions-a-hc-header-register-color-af93259b": [
+      "white"
+    ],
+    "--hc-t-hc-header-actions-a-hc-header-register-border-radius-3d028d3b": [
+      "20px"
+    ],
+    "--hc-t-hc-header-actions-a-hc-header-register-padding-258ef31a": [
+      "4px"
+    ],
+    "--hc-t-hc-header-actions-a-hc-header-register-padding-803d57c9": [
+      "16px"
+    ],
+    "--hc-t-hc-page-por-section-subtitle-margin-top-9d6d86e0": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-floor-hc-dev-container-h2-has-p--margin-bottom-7449e146": [
+      "12px"
+    ],
+    "--hc-t-hc-dev-copy-div-height-28782a48": [
+      "43px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-14b96771": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-copy-div-border-radius-fc6be404": [
+      "999px"
+    ],
+    "--hc-t-hc-dev-copy-div-gap-de1fd345": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-copy-button-svg-width-f1e1580c": [
+      "16.25px"
+    ],
+    "--hc-t-hc-dev-copy-button-svg-height-a4eb76d2": [
+      "16.25px"
+    ],
+    "--hc-t-hc-dev-skill-tag-height-19acae74": [
+      "30px"
+    ],
+    "--hc-t-hc-dev-skill-tag-min-height-2d8bfbbb": [
+      "30px"
+    ],
+    "--hc-t-hc-dev-skill-main-min-height-91a73b77": [
+      "132px"
+    ],
+    "--hc-t-hc-dev-skill-card-min-height-48e7c139": [
+      "276px"
+    ],
+    "--hc-t-hc-website-footer-main-grid-template-columns-64fe9fe9": [
+      "242px"
+    ],
+    "--hc-t-hc-website-footer-main-gap-6b7f7d4a": [
+      "30px"
+    ],
+    "--hc-t-hc-website-footer-main-padding-top-1d1d5126": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-main-padding-bottom-6ac9fd0b": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-main-background-a01a64e7": [
+      "#f0f0f0"
+    ],
+    "--hc-t-hc-website-contact-h2-font-size-8824c48a": [
+      "16px"
+    ],
+    "--hc-t-hc-website-contact-h2-line-height-51d2413e": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-h2-color-5261c54c": [
+      "#191919"
+    ],
+    "--hc-t-hc-website-contact-h2-font-weight-9dff5441": [
+      "400"
+    ],
+    "--hc-t-hc-website-contact-h2-margin-85d40a73": [
+      "16px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-font-size-fbf157ac": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-line-height-3686e9a7": [
+      "36px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-font-weight-98ae3afb": [
+      "600"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-margin-bottom-7bae8aaf": [
+      "8px"
+    ],
+    "--hc-t-hc-website-contact-services-margin-bottom-4dbeb7d8": [
+      "20px"
+    ],
+    "--hc-t-hc-website-contact-services-a-font-size-a7fd13ca": [
+      "14px"
+    ],
+    "--hc-t-hc-website-contact-services-a-line-height-96934f7e": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-services-a-color-6c500000": [
+      "#595959"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-font-size-0e4ff100": [
+      "16px"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-line-height-be7e9d71": [
+      "18px"
+    ],
+    "--hc-t-hc-website-footer-main-details-a-font-size-8a02bc1c": [
+      "14px"
+    ],
+    "--hc-t-hc-website-footer-main-details-a-line-height-1170c5e1": [
+      "24px"
+    ],
+    "--hc-t-hc-website-social-gap-a6313d8e": [
+      "12px"
+    ],
+    "--hc-t-hc-website-social-margin-top-aad03bf5": [
+      "16px"
+    ],
+    "--hc-t-hc-website-contact-hc-website-social-icon-width-f68e5a9f": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-hc-website-social-icon-height-9bfb2e38": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-skill-main-min-height-8575c423": [
+      "126px"
+    ],
+    "--hc-t-hc-dev-skill-card-min-height-dd2b0597": [
+      "260px"
+    ],
+    "--hc-t-hc-website-footer-main-grid-template-columns-6456cf12": [
+      "210px"
+    ],
+    "--hc-t-hc-website-footer-main-grid-template-columns-de7cea18": [
+      "190px"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-line-height-e3a4de6b": [
+      "22px"
+    ],
+    "--hc-t-hc-website-footer-main-details-a-font-size-e5e7d21d": [
+      "12px"
+    ],
+    "--hc-t-hc-website-footer-main-details-a-line-height-1152417c": [
+      "22px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-left-f947e6bc": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-copy-div-padding-right-b4ff7068": [
+      "24px"
+    ],
+    "--hc-t-hc-header-hc-header-actions-gap-617a8283": [
+      "24px"
+    ],
+    "--hc-t-hc-header-entry-links-gap-f2ac978a": [
+      "24px"
+    ],
+    "--hc-t-hc-header-search-width-976178ef": [
+      "160px"
+    ],
+    "--hc-t-hc-header-search-height-94a3bab8": [
+      "32px"
+    ],
+    "--hc-t-hc-header-search-border-0ded8aa9": [
+      "1px"
+    ],
+    "--hc-t-hc-header-search-border-b5253a83": [
+      "#dbdbdb"
+    ],
+    "--hc-t-hc-header-search-border-radius-e8d29393": [
+      "20px"
+    ],
+    "--hc-t-hc-header-search-padding-da366025": [
+      "12px"
+    ],
+    "--hc-t-hc-header-search-gap-e55c9848": [
+      "8px"
+    ],
+    "--hc-t-hc-header-search-input-width-56676ee7": [
+      "100%"
+    ],
+    "--hc-t-hc-header-search-input-background-fcec9060": [
+      "transparent"
+    ],
+    "--hc-t-hc-header-search-input-font-size-74724bf8": [
+      "14px"
+    ],
+    "--hc-t-hc-header-search-button-width-e013512e": [
+      "20px"
+    ],
+    "--hc-t-hc-header-search-button-height-c4564900": [
+      "20px"
+    ],
+    "--hc-t-hc-header-search-button-svg-width-676d5066": [
+      "18px"
+    ],
+    "--hc-t-hc-header-search-button-svg-height-9f22255f": [
+      "18px"
+    ],
+    "--hc-t-hc-header-search-status-top-6bb54970": [
+      "100%"
+    ],
+    "--hc-t-hc-header-search-status-font-size-ec9aedc0": [
+      "12px"
+    ],
+    "--hc-t-hc-header-search-status-background-d09d170c": [
+      "white"
+    ],
+    "--hc-t-hc-header-search-status-min-width-f09f4344": [
+      "160px"
+    ],
+    "--hc-t-hc-website-footer-background-8dd53186": [
+      "#f0f0f0"
+    ],
+    "--hc-t-hc-website-footer-main-background-e3c73bbb": [
+      "transparent"
+    ],
+    "--hc-t-hc-website-contact-hc-website-app-brand-gap-87b53917": [
+      "8px"
+    ],
+    "--hc-t-hc-website-contact-hc-website-app-brand-font-size-4714a268": [
+      "16px"
+    ],
+    "--hc-t-hc-website-contact-hc-website-app-brand-line-height-15235adb": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-hc-website-app-brand-font-weight-19b8b039": [
+      "600"
+    ],
+    "--hc-t-hc-website-contact-hc-website-app-brand-color-7ff1fe1c": [
+      "#191919"
+    ],
+    "--hc-t-hc-website-contact-hc-website-app-brand-margin-bottom-823f2cdc": [
+      "20px"
+    ],
+    "--hc-t-hc-website-app-brand-img-width-f3630389": [
+      "40px"
+    ],
+    "--hc-t-hc-website-app-brand-img-height-049cb0b2": [
+      "40px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-font-size-863dec47": [
+      "16px"
+    ],
+    "--hc-t-hc-website-contact-a-first-of-type-line-height-adf610c1": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-h2-a-font-size-81adeb4c": [
+      "24px"
+    ],
+    "--hc-t-hc-website-contact-h2-a-line-height-7ba7e911": [
+      "36px"
+    ],
+    "--hc-t-hc-website-contact-h2-a-font-weight-d1249f0b": [
+      "600"
+    ],
+    "--hc-t-hc-website-contact-h2-a-margin-bottom-6b8758e4": [
+      "8px"
+    ],
+    "--hc-t-hc-website-footer-legal-padding-bottom-8c1909dc": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-legal-font-size-f9f30383": [
+      "14px"
+    ],
+    "--hc-t-hc-website-footer-legal-line-height-ae7519d4": [
+      "18px"
+    ],
+    "--hc-t-hc-website-legal-top-gap-e130ed6b": [
+      "24px"
+    ],
+    "--hc-t-hc-website-copyright-gap-894bf653": [
+      "10px"
+    ],
+    "--hc-t-hc-website-laws-gap-10fb29c0": [
+      "10px"
+    ],
+    "--hc-t-hc-website-laws-a-a-before-margin-right-83acf6d8": [
+      "10px"
+    ],
+    "--hc-t-hc-website-record-gap-553d9282": [
+      "10px"
+    ],
+    "--hc-t-hc-website-record-margin-top-357ec48c": [
+      "10px"
+    ],
+    "--hc-t-hc-website-record-font-size-f62529ea": [
+      "14px"
+    ],
+    "--hc-t-hc-website-record-line-height-f5091258": [
+      "22px"
+    ],
+    "--hc-t-hc-header-search-width-4aa95d0d": [
+      "120px"
+    ],
+    "--hc-t-hc-header-hc-header-inner-gap-19693b92": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-legal-font-size-950ad402": [
+      "12px"
+    ],
+    "--hc-t-hc-website-record-font-size-e0a0aa05": [
+      "12px"
+    ],
+    "--hc-t-hc-website-record-line-height-091f8ec2": [
+      "18px"
+    ],
+    "--hc-t-hc-header-hc-navigation-flex-basis-54b723be": [
+      "100%"
+    ],
+    "--hc-t-hc-header-hc-navigation-padding-bottom-2825587c": [
+      "12px"
+    ],
+    "--hc-t-hc-header-developer-hc-navigation-background-fa8c8da7": [
+      "transparent"
+    ],
+    "--hc-t-hc-header-developer-hc-navigation-padding-17944dc5": [
+      "12px"
+    ],
+    "--hc-t-hc-website-legal-top-gap-72658a85": [
+      "10px"
+    ],
+    "--hc-t-hc-website-copyright-font-size-a2bf71fa": [
+      "10px"
+    ],
+    "--hc-t-hc-website-copyright-line-height-7fd32a06": [
+      "15px"
+    ],
+    "--hc-t-hc-website-laws-font-size-a53eefec": [
+      "14px"
+    ],
+    "--hc-t-hc-website-laws-line-height-d99442b5": [
+      "22px"
+    ],
+    "--hc-t-hc-header-search-height-02a2fcf7": [
+      "40px"
+    ],
+    "--hc-t-hc-header-search-gap-46c93660": [
+      "4px"
+    ],
+    "--hc-t-hc-header-search-button-flex-49756b0e": [
+      "20px"
+    ],
+    "--hc-t-hc-website-contact-border-right-57971966": [
+      "1px"
+    ],
+    "--hc-t-hc-website-contact-border-right-bf432acd": [
+      "#e2e2e2"
+    ],
+    "--hc-t-hc-website-contact-padding-right-ff903c8a": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-details-summary-line-height-e7749890": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-details-padding-top-0b0a9476": [
+      "14px"
+    ],
+    "--hc-t-hc-website-contact-after-width-2fcb0826": [
+      "1px"
+    ],
+    "--hc-t-hc-website-contact-after-background-acf95f4b": [
+      "#e2e2e2"
+    ],
+    "--hc-t-hc-website-footer-main-column-gap-1c6d07a8": [
+      "84px"
+    ],
+    "--hc-t-hc-website-footer-columns-gap-0ced9237": [
+      "30px"
+    ],
+    "--hc-t-hc-website-footer-columns-details-summary-line-height-1a26e7bc": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-copy-div-max-width-c63628c6": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-copy-input-max-width-124b920b": [
+      "100%"
+    ],
+    "--hc-t-hc-website-footer-main-column-gap-046251b1": [
+      "54px"
+    ],
+    "--hc-t-hc-website-footer-columns-gap-ce30259d": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-main-column-gap-28a0f5c6": [
+      "32px"
+    ],
+    "--hc-t-hc-website-footer-columns-gap-60006aef": [
+      "16px"
+    ],
+    "--hc-t-hc-website-footer-columns-details-padding-top-513277e2": [
+      "14px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-min-height-e4e79901": [
+      "76px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-gap-b497a799": [
+      "24px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-gap-14235eac": [
+      "24px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-background-b5e179a2": [
+      "transparent"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-column-title-font-size-c69c23f8": [
+      "20px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-column-title-line-height-90a1d4d8": [
+      "30px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-column-title-font-weight-c5cd42d4": [
+      "700"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-actions-gap-a55d5e58": [
+      "24px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-width-95c3cf81": [
+      "32px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-height-c51b96eb": [
+      "32px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-backgr-2a290105": [
+      "transparent"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-bf053479": [
+      "100%"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-c1c2cd32": [
+      "320px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-49044bce": [
+      "80vw"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-5ad9984a": [
+      "40px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-12840b55": [
+      "12px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-4e7c248f": [
+      "white"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-4aa98fd4": [
+      "1px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-ae17579e": [
+      "#dbdbdb"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-search-is-compact-is-exp-e182472d": [
+      "2"
+    ],
+    "--hc-t-hc-header-is-wrapped-hc-header-responsive-hc-navigation-flex-6477af09": [
+      "100%"
+    ],
+    "--hc-t-hc-header-is-wrapped-hc-header-responsive-hc-navigation-padding-b-368f7c28": [
+      "12px"
+    ],
+    "--hc-t-hc-header-is-wrapped-hc-header-responsive-hc-navigation-min-heigh-3cb76d10": [
+      "40px"
+    ],
+    "--hc-t-header-offset-fallback": [
+      "100px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-height-359e0074": [
+      "48px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-min-height-454a65e6": [
+      "48px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-padding-left-20e9c3c5": [
+      "16px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-padding-right-24539ade": [
+      "16px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-inner-gap-5f2154ff": [
+      "16px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-brand-logo-width-2758e572": [
+      "108px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-brand-logo-height-519b77bc": [
+      "32px"
+    ],
+    "--hc-t-hc-header-mobile-controls-gap-797f65cd": [
+      "24px"
+    ],
+    "--hc-t-hc-header-mobile-controls-button-background-2dbbebd5": [
+      "transparent"
+    ],
+    "--hc-t-hc-header-mobile-controls-button-width-96529b76": [
+      "24px"
+    ],
+    "--hc-t-hc-header-mobile-controls-button-height-9288f250": [
+      "24px"
+    ],
+    "--hc-t-hc-header-mobile-controls-button-color-7fccd4c3": [
+      "#191919"
+    ],
+    "--hc-t-hc-header-mobile-controls-svg-width-4f932c1d": [
+      "24px"
+    ],
+    "--hc-t-hc-header-mobile-controls-svg-height-b2a73f1d": [
+      "24px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-top-77116c03": [
+      "100%"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-width-60ed5484": [
+      "100%"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-padding-ceffbe4d": [
+      "16px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-padding-81230251": [
+      "24px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-gap-656598f9": [
+      "16px"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-background-a2779c07": [
+      "white"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-navigation-is-open-max-height-d6bf87f1": [
+      "48px"
+    ],
+    "--hc-t-hc-header-mobile-search-background-abec11dd": [
+      "white"
+    ],
+    "--hc-t-hc-header-mobile-search-padding-65eafb6b": [
+      "12px"
+    ],
+    "--hc-t-hc-header-mobile-search-padding-df3d72a5": [
+      "16px"
+    ],
+    "--hc-t-hc-header-mobile-search-border-top-f1300780": [
+      "1px"
+    ],
+    "--hc-t-hc-header-mobile-search-border-top-da73ebb5": [
+      "#eee"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-mobile-search-hc-header--bd61e515": [
+      "100%"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-mobile-search-hc-header--54966ceb": [
+      "100%"
+    ],
+    "--hc-t-hc-header-hc-header-responsive-hc-header-mobile-search-hc-header--4fcea94f": [
+      "40px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-contact-padding-top-78f374ea": [
+      "16px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-app-brand-margin-bottom-cec04c68": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-contact-a-not-hc-website-a-5d4a3b95": [
+      "14px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-contact-a-not-hc-website-a-7bb91ee6": [
+      "22px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-contact-a-not-hc-website-a-2f36d727": [
+      "16px"
+    ],
+    "--hc-t-hc-website-social-heading-font-size-c85766cd": [
+      "14px"
+    ],
+    "--hc-t-hc-website-social-heading-line-height-b80b89bd": [
+      "22px"
+    ],
+    "--hc-t-hc-website-social-heading-color-2d4d1814": [
+      "#595959"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-social-margin-f38f8233": [
+      "8px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-social-margin-182fc12b": [
+      "16px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-width-a740aab4": [
+      "100%"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-height-86afd2cc": [
+      "48px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-border-46bb5cbd": [
+      "1px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-border-5b8170c5": [
+      "#999"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-border-radi-16179984": [
+      "24px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-color-3e37559b": [
+      "#252b3ab3"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-gap-34bb0805": [
+      "8px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-font-size-add31a5f": [
+      "14px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-line-height-fd44d784": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-mobile-consult-font-weight-92a6367d": [
+      "400"
+    ],
+    "--hc-t-hc-website-mobile-consult-svg-width-bf6a23fd": [
+      "20px"
+    ],
+    "--hc-t-hc-website-mobile-consult-svg-height-9b07f85a": [
+      "20px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-laws-margin-bottom-861bab74": [
+      "5px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-copyright-font-size-65952553": [
+      "10px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-copyright-line-height-0f9c6f8b": [
+      "15px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-record-font-size-ed5b173e": [
+      "10px"
+    ],
+    "--hc-t-hc-website-footer-developer-hc-website-record-line-height-1b6ca1b3": [
+      "15px"
+    ],
+    "--hc-t-hc-dev-ability-gap-bc8e0449": [
+      "24px"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-mobile-image-width-035ae864": [
+      "100%"
+    ],
+    "--hc-t-hc-dev-ability-hc-dev-ability-mobile-image-width-2471ad30": [
+      "48px"
+    ],
+    "--hc-t-hc-header-mobile-controls-svg-data-navigation-glyph-user--width-9566628d": [
+      "22px"
+    ],
+    "--hc-t-hc-header-mobile-controls-svg-data-navigation-glyph-user--height-813767ef": [
+      "22px"
+    ],
+    "--hc-t-hc-website-mobile-consult-svg-flex-89cd5736": [
+      "20px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-width-1c45c0f9": [
+      "18px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-height-5a446c7d": [
+      "12px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-width-f85964d8": [
+      "18px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-height-608a40b0": [
+      "2px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-border-radius-41337bd7": [
+      "3px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-background-44e7042a": [
+      "#252b3a"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-transition-b54ec03c": [
+      ".3s"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-transition-4b4a43b9": [
+      ".3s"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-nth-child-2--top-f735ecc3": [
+      "5px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-span-nth-child-3--top-36aa6a45": [
+      "10px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-is-open-span-nth-child-1--transform-c726e984": [
+      "5px"
+    ],
+    "--hc-t-hc-mobile-menu-glyph-is-open-span-nth-child-3--transform-13010063": [
+      "-5px"
+    ],
+    "--hc-t-hc-header-hc-mobile-menu-inset-3656a930": [
+      "48px"
+    ],
+    "--hc-t-hc-header-hc-mobile-menu-z-index-9d05c555": [
+      "1001"
+    ],
+    "--hc-t-hc-header-hc-mobile-menu-background-8a446edb": [
+      "#fff"
+    ],
+    "--hc-t-hc-mobile-menu-categories-flex-bc6baf88": [
+      "120px"
+    ],
+    "--hc-t-hc-mobile-menu-categories-width-fefbe330": [
+      "120px"
+    ],
+    "--hc-t-hc-mobile-menu-categories-background-ef122add": [
+      "#f5f5f5"
+    ],
+    "--hc-t-hc-mobile-menu-categories-padding-4dd4bde7": [
+      "11px"
+    ],
+    "--hc-t-hc-mobile-menu-categories-padding-9b8ae804": [
+      "80px"
+    ],
+    "--hc-t-hc-mobile-menu-category-width-56da1251": [
+      "100%"
+    ],
+    "--hc-t-hc-mobile-menu-category-padding-4e6bd61d": [
+      "12px"
+    ],
+    "--hc-t-hc-mobile-menu-category-padding-29d12014": [
+      "15px"
+    ],
+    "--hc-t-hc-mobile-menu-category-background-af6d9dd3": [
+      "transparent"
+    ],
+    "--hc-t-hc-mobile-menu-category-font-size-0477ea43": [
+      "14px"
+    ],
+    "--hc-t-hc-mobile-menu-category-line-height-2f9ab55b": [
+      "22px"
+    ],
+    "--hc-t-hc-mobile-menu-category-color-3dd72750": [
+      "#252b3a"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-background-6fe470ed": [
+      "#fff"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-font-weight-9140a671": [
+      "600"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-before-top-a19c8d66": [
+      "50%"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-before-top-425608d1": [
+      "8px"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-before-width-8486c0e7": [
+      "2px"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-before-height-80cfeab8": [
+      "16px"
+    ],
+    "--hc-t-hc-mobile-menu-category-is-active-before-background-9ed7b30f": [
+      "#191919"
+    ],
+    "--hc-t-hc-mobile-menu-content-padding-e0940d6c": [
+      "20px"
+    ],
+    "--hc-t-hc-mobile-menu-content-padding-a5da9434": [
+      "15px"
+    ],
+    "--hc-t-hc-mobile-menu-content-padding-011d0f27": [
+      "80px"
+    ],
+    "--hc-t-hc-mobile-menu-content-padding-89d946fe": [
+      "20px"
+    ],
+    "--hc-t-hc-mobile-menu-content-a-font-size-b65864bd": [
+      "14px"
+    ],
+    "--hc-t-hc-mobile-menu-content-a-line-height-61625213": [
+      "22px"
+    ],
+    "--hc-t-hc-mobile-menu-content-a-color-abacee1c": [
+      "#252b3a"
+    ],
+    "--hc-t-hc-mobile-menu-link-padding-9cb9e775": [
+      "12px"
+    ],
+    "--hc-t-hc-mobile-menu-branch-summary-gap-ca780643": [
+      "8px"
+    ],
+    "--hc-t-hc-mobile-menu-branch-summary-padding-20fb0eb4": [
+      "12px"
+    ],
+    "--hc-t-hc-mobile-menu-branch-summary-svg-transition-b3d2ea61": [
+      ".24s"
+    ],
+    "--hc-t-hc-mobile-menu-branch-div-padding-left-001b166a": [
+      "12px"
+    ],
+    "--hc-t-hc-mobile-menu-branch-div-a-padding-ed269a47": [
+      "12px"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-bottom-2d19828a": [
+      "24px"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-left-8c3dab27": [
+      "50%"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-left-6b6e8c90": [
+      "15px"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-width-e9fd6d44": [
+      "30px"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-height-108dc0eb": [
+      "30px"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-border-radius-8cbe0efc": [
+      "50%"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-background-db08457a": [
+      "#eee"
+    ],
+    "--hc-t-hc-mobile-menu-collapse-color-936dc35a": [
+      "#595959"
+    ],
+    "--hc-t-control-focus-width": [
+      "2px"
+    ],
+    "--hc-t-control-focus-offset": [
+      "4px"
+    ],
+    "--hc-t-por-col-sm-max-width-bbd7f5b7": [
+      "100%"
+    ],
+    "--hc-t-por-col-sm-1--ms-flex-7004e7a2": [
+      "4.16666667%"
+    ],
+    "--hc-t-por-col-sm-1-flex-e744b665": [
+      "4.16666667%"
+    ],
+    "--hc-t-por-col-sm-1-max-width-2aa47880": [
+      "4.16666667%"
+    ],
+    "--hc-t-por-col-sm-2--ms-flex-8d432f16": [
+      "8.33333333%"
+    ],
+    "--hc-t-por-col-sm-2-flex-555a08f7": [
+      "8.33333333%"
+    ],
+    "--hc-t-por-col-sm-2-max-width-816678ea": [
+      "8.33333333%"
+    ],
+    "--hc-t-por-col-sm-3--ms-flex-73fecfdb": [
+      "12.5%"
+    ],
+    "--hc-t-por-col-sm-3-flex-ac643e11": [
+      "12.5%"
+    ],
+    "--hc-t-por-col-sm-3-max-width-09d2321e": [
+      "12.5%"
+    ],
+    "--hc-t-por-col-sm-4--ms-flex-5b614d26": [
+      "16.66666667%"
+    ],
+    "--hc-t-por-col-sm-4-flex-cd01c40a": [
+      "16.66666667%"
+    ],
+    "--hc-t-por-col-sm-4-max-width-d22aa365": [
+      "16.66666667%"
+    ],
+    "--hc-t-por-col-sm-5--ms-flex-62bad3e0": [
+      "20.83333333%"
+    ],
+    "--hc-t-por-col-sm-5-flex-055f07a4": [
+      "20.83333333%"
+    ],
+    "--hc-t-por-col-sm-5-max-width-44d07ae8": [
+      "20.83333333%"
+    ],
+    "--hc-t-por-col-sm-6--ms-flex-7d15d187": [
+      "25%"
+    ],
+    "--hc-t-por-col-sm-6-flex-1fcf6369": [
+      "25%"
+    ],
+    "--hc-t-por-col-sm-6-max-width-cb8e8124": [
+      "25%"
+    ],
+    "--hc-t-por-col-sm-7--ms-flex-4f5af007": [
+      "29.16666667%"
+    ],
+    "--hc-t-por-col-sm-7-flex-23acd679": [
+      "29.16666667%"
+    ],
+    "--hc-t-por-col-sm-7-max-width-2b7ba4cb": [
+      "29.16666667%"
+    ],
+    "--hc-t-por-col-sm-8--ms-flex-973e2455": [
+      "33.33333333%"
+    ],
+    "--hc-t-por-col-sm-8-flex-ae941326": [
+      "33.33333333%"
+    ],
+    "--hc-t-por-col-sm-8-max-width-c56c2eb4": [
+      "33.33333333%"
+    ],
+    "--hc-t-por-col-sm-9--ms-flex-2961ccca": [
+      "37.5%"
+    ],
+    "--hc-t-por-col-sm-9-flex-fbe0a997": [
+      "37.5%"
+    ],
+    "--hc-t-por-col-sm-9-max-width-4758b0e9": [
+      "37.5%"
+    ],
+    "--hc-t-por-col-sm-10--ms-flex-aac462e6": [
+      "41.66666667%"
+    ],
+    "--hc-t-por-col-sm-10-flex-d324816b": [
+      "41.66666667%"
+    ],
+    "--hc-t-por-col-sm-10-max-width-a6973b8c": [
+      "41.66666667%"
+    ],
+    "--hc-t-por-col-sm-11--ms-flex-3461621c": [
+      "45.83333333%"
+    ],
+    "--hc-t-por-col-sm-11-flex-459dd13f": [
+      "45.83333333%"
+    ],
+    "--hc-t-por-col-sm-11-max-width-1292117b": [
+      "45.83333333%"
+    ],
+    "--hc-t-por-col-sm-12--ms-flex-1f2ce1fa": [
+      "50%"
+    ],
+    "--hc-t-por-col-sm-12-flex-e2a4ee03": [
+      "50%"
+    ],
+    "--hc-t-por-col-sm-12-max-width-a310a9e5": [
+      "50%"
+    ],
+    "--hc-t-por-col-sm-13--ms-flex-ccc53e67": [
+      "54.16666667%"
+    ],
+    "--hc-t-por-col-sm-13-flex-6852ed07": [
+      "54.16666667%"
+    ],
+    "--hc-t-por-col-sm-13-max-width-10e5f301": [
+      "54.16666667%"
+    ],
+    "--hc-t-por-col-sm-14--ms-flex-45b46e24": [
+      "58.33333333%"
+    ],
+    "--hc-t-por-col-sm-14-flex-408f31d8": [
+      "58.33333333%"
+    ],
+    "--hc-t-por-col-sm-14-max-width-ddd6dde8": [
+      "58.33333333%"
+    ],
+    "--hc-t-por-col-sm-15--ms-flex-a838c08d": [
+      "62.5%"
+    ],
+    "--hc-t-por-col-sm-15-flex-a11bfe1d": [
+      "62.5%"
+    ],
+    "--hc-t-por-col-sm-15-max-width-058d3b5e": [
+      "62.5%"
+    ],
+    "--hc-t-por-col-sm-16--ms-flex-cf1fec75": [
+      "66.66666667%"
+    ],
+    "--hc-t-por-col-sm-16-flex-34ca5a25": [
+      "66.66666667%"
+    ],
+    "--hc-t-por-col-sm-16-max-width-21570f3d": [
+      "66.66666667%"
+    ],
+    "--hc-t-por-col-sm-17--ms-flex-880cf295": [
+      "70.83333333%"
+    ],
+    "--hc-t-por-col-sm-17-flex-a5f698b1": [
+      "70.83333333%"
+    ],
+    "--hc-t-por-col-sm-17-max-width-ccd6e547": [
+      "70.83333333%"
+    ],
+    "--hc-t-por-col-sm-18--ms-flex-6e00657c": [
+      "75%"
+    ],
+    "--hc-t-por-col-sm-18-flex-d040b6ca": [
+      "75%"
+    ],
+    "--hc-t-por-col-sm-18-max-width-d4003977": [
+      "75%"
+    ],
+    "--hc-t-por-col-sm-19--ms-flex-1cd94857": [
+      "79.16666667%"
+    ],
+    "--hc-t-por-col-sm-19-flex-1c857f4e": [
+      "79.16666667%"
+    ],
+    "--hc-t-por-col-sm-19-max-width-f2d05bce": [
+      "79.16666667%"
+    ],
+    "--hc-t-por-col-sm-20--ms-flex-06102e7e": [
+      "83.33333333%"
+    ],
+    "--hc-t-por-col-sm-20-flex-4b1847fa": [
+      "83.33333333%"
+    ],
+    "--hc-t-por-col-sm-20-max-width-23096c79": [
+      "83.33333333%"
+    ],
+    "--hc-t-por-col-sm-21--ms-flex-f46d9cf8": [
+      "87.5%"
+    ],
+    "--hc-t-por-col-sm-21-flex-c809206a": [
+      "87.5%"
+    ],
+    "--hc-t-por-col-sm-21-max-width-2e56dc03": [
+      "87.5%"
+    ],
+    "--hc-t-por-col-sm-22--ms-flex-df1aafa6": [
+      "91.66666667%"
+    ],
+    "--hc-t-por-col-sm-22-flex-5ccf6a64": [
+      "91.66666667%"
+    ],
+    "--hc-t-por-col-sm-22-max-width-9137eac1": [
+      "91.66666667%"
+    ],
+    "--hc-t-por-col-sm-23--ms-flex-0435446e": [
+      "95.83333333%"
+    ],
+    "--hc-t-por-col-sm-23-flex-3ec02635": [
+      "95.83333333%"
+    ],
+    "--hc-t-por-col-sm-23-max-width-842140da": [
+      "95.83333333%"
+    ],
+    "--hc-t-por-col-sm-24--ms-flex-b1818566": [
+      "100%"
+    ],
+    "--hc-t-por-col-sm-24-flex-5a315680": [
+      "100%"
+    ],
+    "--hc-t-por-col-sm-24-max-width-a0724295": [
+      "100%"
+    ],
+    "--hc-t-por-col-xs-max-width-07d5fdfe": [
+      "100%"
+    ],
+    "--hc-t-por-col-xs-1--ms-flex-d828a987": [
+      "4.16666667%"
+    ],
+    "--hc-t-por-col-xs-1-flex-b6c6aa13": [
+      "4.16666667%"
+    ],
+    "--hc-t-por-col-xs-1-max-width-eab7f48c": [
+      "4.16666667%"
+    ],
+    "--hc-t-por-col-xs-2--ms-flex-334af50c": [
+      "8.33333333%"
+    ],
+    "--hc-t-por-col-xs-2-flex-21c5ba79": [
+      "8.33333333%"
+    ],
+    "--hc-t-por-col-xs-2-max-width-72a12004": [
+      "8.33333333%"
+    ],
+    "--hc-t-por-col-xs-3--ms-flex-3dd4a2da": [
+      "12.5%"
+    ],
+    "--hc-t-por-col-xs-3-flex-e6dd7fff": [
+      "12.5%"
+    ],
+    "--hc-t-por-col-xs-3-max-width-3acdad82": [
+      "12.5%"
+    ],
+    "--hc-t-por-col-xs-4--ms-flex-ee04b7dc": [
+      "16.66666667%"
+    ],
+    "--hc-t-por-col-xs-4-flex-7c18b9f2": [
+      "16.66666667%"
+    ],
+    "--hc-t-por-col-xs-4-max-width-a751b9e9": [
+      "16.66666667%"
+    ],
+    "--hc-t-por-col-xs-5--ms-flex-30ff9d02": [
+      "20.83333333%"
+    ],
+    "--hc-t-por-col-xs-5-flex-e0bd3ba2": [
+      "20.83333333%"
+    ],
+    "--hc-t-por-col-xs-5-max-width-6543573c": [
+      "20.83333333%"
+    ],
+    "--hc-t-por-col-xs-6--ms-flex-97c58b86": [
+      "25%"
+    ],
+    "--hc-t-por-col-xs-6-flex-c6dd5769": [
+      "25%"
+    ],
+    "--hc-t-por-col-xs-6-max-width-b2775114": [
+      "25%"
+    ],
+    "--hc-t-por-col-xs-7--ms-flex-e962a828": [
+      "29.16666667%"
+    ],
+    "--hc-t-por-col-xs-7-flex-f9b6d7f4": [
+      "29.16666667%"
+    ],
+    "--hc-t-por-col-xs-7-max-width-0c2acb14": [
+      "29.16666667%"
+    ],
+    "--hc-t-por-col-xs-8--ms-flex-9eb84346": [
+      "33.33333333%"
+    ],
+    "--hc-t-por-col-xs-8-flex-1d53a7e6": [
+      "33.33333333%"
+    ],
+    "--hc-t-por-col-xs-8-max-width-61a3ee4e": [
+      "33.33333333%"
+    ],
+    "--hc-t-por-col-xs-9--ms-flex-9c8c79b2": [
+      "37.5%"
+    ],
+    "--hc-t-por-col-xs-9-flex-72d11b93": [
+      "37.5%"
+    ],
+    "--hc-t-por-col-xs-9-max-width-1a760576": [
+      "37.5%"
+    ],
+    "--hc-t-por-col-xs-10--ms-flex-2b8741c5": [
+      "41.66666667%"
+    ],
+    "--hc-t-por-col-xs-10-flex-ae19bc62": [
+      "41.66666667%"
+    ],
+    "--hc-t-por-col-xs-10-max-width-99afa0b5": [
+      "41.66666667%"
+    ],
+    "--hc-t-por-col-xs-11--ms-flex-66710d9a": [
+      "45.83333333%"
+    ],
+    "--hc-t-por-col-xs-11-flex-020b4995": [
+      "45.83333333%"
+    ],
+    "--hc-t-por-col-xs-11-max-width-b6eaf51b": [
+      "45.83333333%"
+    ],
+    "--hc-t-por-col-xs-12--ms-flex-7e741e9e": [
+      "50%"
+    ],
+    "--hc-t-por-col-xs-12-flex-aaace7dd": [
+      "50%"
+    ],
+    "--hc-t-por-col-xs-12-max-width-281accbc": [
+      "50%"
+    ],
+    "--hc-t-por-col-xs-13--ms-flex-bac6ba5b": [
+      "54.16666667%"
+    ],
+    "--hc-t-por-col-xs-13-flex-13084903": [
+      "54.16666667%"
+    ],
+    "--hc-t-por-col-xs-13-max-width-ea3f88f7": [
+      "54.16666667%"
+    ],
+    "--hc-t-por-col-xs-14--ms-flex-4375d923": [
+      "58.33333333%"
+    ],
+    "--hc-t-por-col-xs-14-flex-6b439ea5": [
+      "58.33333333%"
+    ],
+    "--hc-t-por-col-xs-14-max-width-633b3306": [
+      "58.33333333%"
+    ],
+    "--hc-t-por-col-xs-15--ms-flex-0fdb794b": [
+      "62.5%"
+    ],
+    "--hc-t-por-col-xs-15-flex-d0070e03": [
+      "62.5%"
+    ],
+    "--hc-t-por-col-xs-15-max-width-bdd43fae": [
+      "62.5%"
+    ],
+    "--hc-t-por-col-xs-16--ms-flex-6b1b1307": [
+      "66.66666667%"
+    ],
+    "--hc-t-por-col-xs-16-flex-b4c91351": [
+      "66.66666667%"
+    ],
+    "--hc-t-por-col-xs-16-max-width-c39a2d6a": [
+      "66.66666667%"
+    ],
+    "--hc-t-por-col-xs-17--ms-flex-614502f1": [
+      "70.83333333%"
+    ],
+    "--hc-t-por-col-xs-17-flex-51be0999": [
+      "70.83333333%"
+    ],
+    "--hc-t-por-col-xs-17-max-width-e4e26427": [
+      "70.83333333%"
+    ],
+    "--hc-t-por-col-xs-18--ms-flex-d28305f3": [
+      "75%"
+    ],
+    "--hc-t-por-col-xs-18-flex-666e944a": [
+      "75%"
+    ],
+    "--hc-t-por-col-xs-18-max-width-bc6a0417": [
+      "75%"
+    ],
+    "--hc-t-por-col-xs-19--ms-flex-ff319003": [
+      "79.16666667%"
+    ],
+    "--hc-t-por-col-xs-19-flex-0ad47bbe": [
+      "79.16666667%"
+    ],
+    "--hc-t-por-col-xs-19-max-width-5ea71596": [
+      "79.16666667%"
+    ],
+    "--hc-t-por-col-xs-20--ms-flex-fa938afb": [
+      "83.33333333%"
+    ],
+    "--hc-t-por-col-xs-20-flex-69164290": [
+      "83.33333333%"
+    ],
+    "--hc-t-por-col-xs-20-max-width-f8d9809a": [
+      "83.33333333%"
+    ],
+    "--hc-t-por-col-xs-21--ms-flex-a0e60dc0": [
+      "87.5%"
+    ],
+    "--hc-t-por-col-xs-21-flex-52dd2b5d": [
+      "87.5%"
+    ],
+    "--hc-t-por-col-xs-21-max-width-169cdcbd": [
+      "87.5%"
+    ],
+    "--hc-t-por-col-xs-22--ms-flex-ce67db76": [
+      "91.66666667%"
+    ],
+    "--hc-t-por-col-xs-22-flex-745baeab": [
+      "91.66666667%"
+    ],
+    "--hc-t-por-col-xs-22-max-width-a19b5c66": [
+      "91.66666667%"
+    ],
+    "--hc-t-por-col-xs-23--ms-flex-b0ab18c5": [
+      "95.83333333%"
+    ],
+    "--hc-t-por-col-xs-23-flex-1bfcf8ee": [
+      "95.83333333%"
+    ],
+    "--hc-t-por-col-xs-23-max-width-47cf7920": [
+      "95.83333333%"
+    ],
+    "--hc-t-por-col-xs-24--ms-flex-5483f74d": [
+      "100%"
+    ],
+    "--hc-t-por-col-xs-24-flex-1abfa96d": [
+      "100%"
+    ],
+    "--hc-t-por-col-xs-24-max-width-0c7f1d63": [
+      "100%"
+    ],
+    "--hc-t-hc-page-hc-page-product-por-container-max-width-69aaa600": [
+      "1600px"
+    ],
+    "--hc-t-hc-page-por-container-por-container-width-38c7dee9": [
+      "100%"
+    ],
+    "--hc-t-hc-page-hc-page-developer-hc-dev-banner-copy-max-width-bdb93f5f": [
+      "1600px"
+    ],
+    "--hc-t-hc-page-hc-page-developer-hc-dev-banner-copy-left-c74843d6": [
+      "50%"
+    ],
+    "--hc-t-hc-page-hc-page-developer-hc-dev-banner-copy-transform-329a9cec": [
+      "-50%"
+    ],
+    "--hc-t-hc-page-por-row-margin-left-a0231e09": [
+      "-8px"
+    ],
+    "--hc-t-hc-page-por-row-margin-right-f6010e60": [
+      "-8px"
+    ],
+    "--hc-t-hc-page-por-row-class-por-col---padding-left-752bdc40": [
+      "8px"
+    ],
+    "--hc-t-hc-page-por-row-class-por-col---padding-right-1132a62b": [
+      "8px"
+    ],
+    "--hc-t-hc-page-hc-page-developer-hc-dev-practice-card-flex-basis-fa2c4a01": [
+      "100%"
+    ],
+    "--hc-t-hc-page-hc-page-developer-hc-dev-practice-card-flex-basis-4c6f7c4b": [
+      "228px"
+    ],
+    "--hc-t-hc-sr-only-width-6bf50bc4": [
+      "1px"
+    ],
+    "--hc-t-hc-sr-only-height-11e1e805": [
+      "1px"
+    ],
+    "--hc-t-hc-sr-only-margin-85ce20be": [
+      "-1px"
+    ],
+    "--hc-t-hc-page-por-col-xs-1-flex-4c42c611": [
+      "12.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-1-max-width-6953b74e": [
+      "12.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-2-flex-ba74455f": [
+      "25.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-2-max-width-4696ada2": [
+      "25.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-3-flex-b219ef8e": [
+      "37.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-3-max-width-8db34cbd": [
+      "37.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-4-flex-5c78d177": [
+      "50.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-4-max-width-40cb434c": [
+      "50.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-5-flex-209f2835": [
+      "62.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-5-max-width-9ee63aa9": [
+      "62.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-6-flex-900b32b0": [
+      "75.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-6-max-width-beee7132": [
+      "75.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-7-flex-549decb2": [
+      "87.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-7-max-width-96f8fd2c": [
+      "87.50000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-8-flex-e46149fe": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-8-max-width-e1a2b362": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-9-flex-d1538f55": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-9-max-width-52a83a51": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-10-flex-309f6cfa": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-10-max-width-e0f63cf5": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-11-flex-1669743c": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-11-max-width-ff62018a": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-12-flex-07e78182": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-12-max-width-a8a6a982": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-13-flex-55bcccd5": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-13-max-width-2f29e4d9": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-14-flex-3d892759": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-14-max-width-5ca93fc1": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-15-flex-9ded639a": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-15-max-width-b09751c8": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-16-flex-dd8c9e58": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-16-max-width-9829b1f3": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-17-flex-b28de2cd": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-17-max-width-53f4f93a": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-18-flex-2f143b92": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-18-max-width-d1bf0003": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-19-flex-45a44417": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-19-max-width-82d75368": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-20-flex-c350d84c": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-20-max-width-9e5e14ab": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-21-flex-3be5bda2": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-21-max-width-8db12ff7": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-22-flex-2ed247fa": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-22-max-width-01ae4fd3": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-23-flex-6b380043": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-23-max-width-db187dac": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-24-flex-e42c17a7": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-24-max-width-c972d86b": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-1-flex-260c4990": [
+      "25.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-1-max-width-72665462": [
+      "25.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-2-flex-6a3376ef": [
+      "50.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-2-max-width-293abd5c": [
+      "50.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-3-flex-e93f9536": [
+      "75.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-3-max-width-dfbbebc7": [
+      "75.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-4-flex-3b13daeb": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-4-max-width-9d48fa47": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-5-flex-51918cff": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-5-max-width-ff34b49d": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-6-flex-7c5c5fcf": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-6-max-width-5c91cddf": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-7-flex-ef840094": [
+      "100.00000000%"
+    ],
+    "--hc-t-hc-page-por-col-xs-7-max-width-b3401226": [
+      "100.00000000%"
+    ],
+    "--por-base-color-gray-90": [
+      "#191919"
+    ],
+    "--por-base-color-gray-0": [
+      "#fff"
+    ],
+    "--por-base-color-blue-50": [
+      "#1476ff"
+    ],
+    "--por-base-size-4": [
+      "calc(var(--por-base-size-2)*2)"
+    ],
+    "--por-base-color-gray-60": [
+      "#595959"
+    ],
+    "--por-base-size-16": [
+      "calc(var(--por-base-size-2)*8)"
+    ],
+    "--por-base-color-gray-50": [
+      "grey"
+    ],
+    "--por-base-color-gray-30": [
+      "#dbdbdb"
+    ],
+    "--por-base-size-2": [
+      "2px"
+    ]
+  },
+  "excluded": [
+    "New Pixso prototype functions",
+    "Page composition dispatchers that must continue adding source kinds",
+    "Asset registration; existing approved media must not be semantically replaced"
+  ]
+}

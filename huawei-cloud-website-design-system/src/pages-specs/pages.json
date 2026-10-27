@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "profile": "source-prototype composition index, not official converted registry",
+  "pages": [
+    {
+      "id": "website-product-floor",
+      "template": "src/pages/portal-product/index.tsx",
+      "components": [
+        "PortalProductPage"
+      ],
+      "spec": "references/product-pages.md",
+      "source_status": "compile/generation verified",
+      "reference_status": "scoped historical sample or composition prototype; manual current visual review separate"
+    },
+    {
+      "id": "developer-portal",
+      "template": "src/pages/portal-developer/index.tsx",
+      "components": [
+        "PortalHeader",
+        "PortalDeveloperBanner",
+        "PortalPracticeCarousel",
+        "PortalDeveloperSkills",
+        "PortalWebsiteFooter"
+      ],
+      "spec": "references/developer-pages.md",
+      "source_status": "compile/generation verified",
+      "reference_status": "developer original2.0.24 artifact accepted; current generation not automatically accepted"
+    },
+    {
+      "id": "website-composed",
+      "template": "src/pages/portal-composed/index.tsx",
+      "components": [
+        "PortalComposedPage"
+      ],
+      "spec": "references/composed-pages.md",
+      "source_status": "compile/generation verified",
+      "reference_status": "scoped historical sample or composition prototype; manual current visual review separate"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "end": {
+    "focus": "region",
+    "left": 40,
+    "max": 40,
+    "nextDisabled": true
+  },
+  "start": {
+    "focus": "region",
+    "left": 0,
+    "previousDisabled": true
+  },
+  "tab": {
+    "name": "智能体构建",
+    "tag": "BUTTON"
+  },
+  "phone": {
+    "buttons": 0,
+    "controls": 0,
+    "focus": "region",
+    "rootOverflow": false,
+    "width": 599
+  },
+  "passed": true,
+  "previousUnsettledStart": {
+    "focus": null,
+    "left": 0,
+    "previousDisabled": false
+  }
+}

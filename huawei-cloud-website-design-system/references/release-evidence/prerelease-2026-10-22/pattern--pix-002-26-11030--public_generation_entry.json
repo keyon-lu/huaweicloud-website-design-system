@@ -1,0 +1,25 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-26-11030/public_generation_entry",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-002-26-11030",
+    "targets": [
+      {
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalLearningLinks",
+        "generationKind": "learning-links",
+        "validationScripts": [
+          "scripts/learning-content.mjs",
+          "scripts/composed-content.mjs",
+          "scripts/learning-content.mjs"
+        ]
+      }
+    ],
+    "scope": "Existing JSON kind or explicitly callable component/page/variant target. Does not claim every source variant is supported."
+  }
+}

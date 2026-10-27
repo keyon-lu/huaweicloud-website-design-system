@@ -1,0 +1,79 @@
+{
+  "kind": "source-release-check",
+  "check": "tips/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "family": "tips",
+    "execution": "references/release-evidence/acceptance-2026-10-24/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-tips--tones",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--close-keyboard",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--auto-hide",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--controlled-state",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--long-text",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/tips--runtime_interaction.json",
+    "recordSha256": "8ab9a736d66630781437ec7d22245ad49bc39b07f3b4477020fc371956f2ab4b",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/tips--runtime_interaction.json",
+    "sha256": "93d41f869afc9fec9e79c9070b007b319360d2438f572605fb8b444de8106362"
+  }
+}

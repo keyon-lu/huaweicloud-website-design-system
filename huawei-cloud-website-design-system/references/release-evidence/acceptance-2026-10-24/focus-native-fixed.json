@@ -1,0 +1,59 @@
+{
+  "kind": "native-focus-continuity-regression",
+  "date": "2026-10-25T09:45:01.313Z",
+  "checks": [
+    {
+      "width": 1280,
+      "end": {
+        "focus": "region",
+        "left": 573,
+        "max": 573,
+        "nextDisabled": true,
+        "width": 1280
+      },
+      "start": {
+        "focus": "region",
+        "left": 0,
+        "previousDisabled": true
+      },
+      "passed": true
+    },
+    {
+      "width": 954,
+      "end": {
+        "focus": "region",
+        "left": 575,
+        "max": 575,
+        "nextDisabled": true,
+        "width": 954
+      },
+      "start": {
+        "focus": "region",
+        "left": 0,
+        "previousDisabled": true
+      },
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "end": {
+        "focus": "region",
+        "left": 810,
+        "max": 810,
+        "nextDisabled": true,
+        "width": 1920
+      },
+      "start": {
+        "focus": "region",
+        "left": 0,
+        "previousDisabled": true
+      },
+      "passed": true
+    }
+  ],
+  "tabContinuation": {
+    "label": "方案测试1",
+    "tag": "A"
+  },
+  "wholeAccessibilityApproval": false
+}

@@ -1,0 +1,67 @@
+{
+  "scene": "campaign",
+  "hero": {
+    "title": "活动介绍示例",
+    "description": "内容示例",
+    "eyebrow": "内容示例"
+  },
+  "header": {
+    "links": [
+      {
+        "label": "概览",
+        "href": "#overview"
+      },
+      {
+        "label": "内容",
+        "href": "#details"
+      }
+    ],
+    "actionEntries": [
+      {
+        "label": "文档",
+        "href": "https://support.huaweicloud.com/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "kind": "text",
+      "id": "overview",
+      "title": "概览",
+      "paragraphs": [
+        "此页为布局示例，展示公共组件的组合能力。",
+        "实际业务内容、入口和素材由使用者提供，不代表华为云已发布的活动或服务。"
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "details",
+      "title": "了解更多",
+      "items": [
+        {
+          "title": "内容入口一",
+          "description": "示例说明，可替换为真实业务资料。",
+          "href": "#overview",
+          "action": "查看说明"
+        },
+        {
+          "title": "内容入口二",
+          "description": "通过相同公共组件组织不同主题内容。",
+          "href": "#overview",
+          "action": "查看说明"
+        }
+      ]
+    },
+    {
+      "kind": "faq",
+      "id": "faq",
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "如何替换示例内容？",
+          "answer": "提供经过确认的业务说明和真实入口后，使用相同结构生成页面。"
+        }
+      ]
+    }
+  ]
+}

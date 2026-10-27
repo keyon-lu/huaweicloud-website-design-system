@@ -1,0 +1,28 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-16-23970/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-002-16-23970",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProductV1Information",
+        "contract": "references/product-v1-information.md",
+        "generationKind": "information-cards-v1",
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ],
+        "scope": "source-scoped wide2-5 information/media cards, marketing-only timed state, disclosure and phone carousel/grid; source compact/ratios/full visual pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "b4cb072bb2fb86ca525757ecdf2b5c90f8443880f390d67c724df21c5787b1c5"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

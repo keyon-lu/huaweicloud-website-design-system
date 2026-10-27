@@ -1,0 +1,54 @@
+{
+  "sourceId": "PIX-001",
+  "frameId": "204:3",
+  "originalRows": [
+    {
+      "id": "2:202217",
+      "parentId": "204:3",
+      "name": "蒙版",
+      "type": "GROUP",
+      "size": {
+        "x": 790,
+        "y": 390
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 970,
+        "m10": 0,
+        "m11": 1,
+        "m12": 240
+      },
+      "text": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "visible": null,
+      "rawNodeSha256": "7632b692b66ed5465c7207e1cd1705b67bab7a1637e3d6f594cf1f1885a76cc6"
+    },
+    {
+      "id": "2:202194",
+      "parentId": "204:3",
+      "name": "蒙版",
+      "type": "GROUP",
+      "size": {
+        "x": 790,
+        "y": 390
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 160,
+        "m10": 0,
+        "m11": 1,
+        "m12": 240
+      },
+      "text": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "visible": null,
+      "rawNodeSha256": "8468075a1a3e94138c59ff719e58f05d86c0a51c5972831cac73be6028732112"
+    }
+  ],
+  "onlineExportSha256": "1d5b5cf3c56fec72a243f18c00810da4467974d59136ace0e8c27dc23d3e8354",
+  "noWholeVisualAcceptance": true
+}

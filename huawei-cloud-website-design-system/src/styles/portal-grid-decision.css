@@ -1,0 +1,55 @@
+/* DEC-002 / SRC-039: only sm grid, then original xs priority. */
+@media(max-width:1024px){
+.por-col-sm{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:var(--hc-t-por-col-sm-max-width-bbd7f5b7)}
+.por-col-sm-1{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-1--ms-flex-7004e7a2);flex:0 0 var(--hc-t-por-col-sm-1-flex-e744b665);max-width:var(--hc-t-por-col-sm-1-max-width-2aa47880)}
+.por-col-sm-2{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-2--ms-flex-8d432f16);flex:0 0 var(--hc-t-por-col-sm-2-flex-555a08f7);max-width:var(--hc-t-por-col-sm-2-max-width-816678ea)}
+.por-col-sm-3{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-3--ms-flex-73fecfdb);flex:0 0 var(--hc-t-por-col-sm-3-flex-ac643e11);max-width:var(--hc-t-por-col-sm-3-max-width-09d2321e)}
+.por-col-sm-4{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-4--ms-flex-5b614d26);flex:0 0 var(--hc-t-por-col-sm-4-flex-cd01c40a);max-width:var(--hc-t-por-col-sm-4-max-width-d22aa365)}
+.por-col-sm-5{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-5--ms-flex-62bad3e0);flex:0 0 var(--hc-t-por-col-sm-5-flex-055f07a4);max-width:var(--hc-t-por-col-sm-5-max-width-44d07ae8)}
+.por-col-sm-6{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-6--ms-flex-7d15d187);flex:0 0 var(--hc-t-por-col-sm-6-flex-1fcf6369);max-width:var(--hc-t-por-col-sm-6-max-width-cb8e8124)}
+.por-col-sm-7{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-7--ms-flex-4f5af007);flex:0 0 var(--hc-t-por-col-sm-7-flex-23acd679);max-width:var(--hc-t-por-col-sm-7-max-width-2b7ba4cb)}
+.por-col-sm-8{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-8--ms-flex-973e2455);flex:0 0 var(--hc-t-por-col-sm-8-flex-ae941326);max-width:var(--hc-t-por-col-sm-8-max-width-c56c2eb4)}
+.por-col-sm-9{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-9--ms-flex-2961ccca);flex:0 0 var(--hc-t-por-col-sm-9-flex-fbe0a997);max-width:var(--hc-t-por-col-sm-9-max-width-4758b0e9)}
+.por-col-sm-10{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-10--ms-flex-aac462e6);flex:0 0 var(--hc-t-por-col-sm-10-flex-d324816b);max-width:var(--hc-t-por-col-sm-10-max-width-a6973b8c)}
+.por-col-sm-11{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-11--ms-flex-3461621c);flex:0 0 var(--hc-t-por-col-sm-11-flex-459dd13f);max-width:var(--hc-t-por-col-sm-11-max-width-1292117b)}
+.por-col-sm-12{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-12--ms-flex-1f2ce1fa);flex:0 0 var(--hc-t-por-col-sm-12-flex-e2a4ee03);max-width:var(--hc-t-por-col-sm-12-max-width-a310a9e5)}
+.por-col-sm-13{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-13--ms-flex-ccc53e67);flex:0 0 var(--hc-t-por-col-sm-13-flex-6852ed07);max-width:var(--hc-t-por-col-sm-13-max-width-10e5f301)}
+.por-col-sm-14{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-14--ms-flex-45b46e24);flex:0 0 var(--hc-t-por-col-sm-14-flex-408f31d8);max-width:var(--hc-t-por-col-sm-14-max-width-ddd6dde8)}
+.por-col-sm-15{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-15--ms-flex-a838c08d);flex:0 0 var(--hc-t-por-col-sm-15-flex-a11bfe1d);max-width:var(--hc-t-por-col-sm-15-max-width-058d3b5e)}
+.por-col-sm-16{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-16--ms-flex-cf1fec75);flex:0 0 var(--hc-t-por-col-sm-16-flex-34ca5a25);max-width:var(--hc-t-por-col-sm-16-max-width-21570f3d)}
+.por-col-sm-17{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-17--ms-flex-880cf295);flex:0 0 var(--hc-t-por-col-sm-17-flex-a5f698b1);max-width:var(--hc-t-por-col-sm-17-max-width-ccd6e547)}
+.por-col-sm-18{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-18--ms-flex-6e00657c);flex:0 0 var(--hc-t-por-col-sm-18-flex-d040b6ca);max-width:var(--hc-t-por-col-sm-18-max-width-d4003977)}
+.por-col-sm-19{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-19--ms-flex-1cd94857);flex:0 0 var(--hc-t-por-col-sm-19-flex-1c857f4e);max-width:var(--hc-t-por-col-sm-19-max-width-f2d05bce)}
+.por-col-sm-20{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-20--ms-flex-06102e7e);flex:0 0 var(--hc-t-por-col-sm-20-flex-4b1847fa);max-width:var(--hc-t-por-col-sm-20-max-width-23096c79)}
+.por-col-sm-21{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-21--ms-flex-f46d9cf8);flex:0 0 var(--hc-t-por-col-sm-21-flex-c809206a);max-width:var(--hc-t-por-col-sm-21-max-width-2e56dc03)}
+.por-col-sm-22{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-22--ms-flex-df1aafa6);flex:0 0 var(--hc-t-por-col-sm-22-flex-5ccf6a64);max-width:var(--hc-t-por-col-sm-22-max-width-9137eac1)}
+.por-col-sm-23{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-23--ms-flex-0435446e);flex:0 0 var(--hc-t-por-col-sm-23-flex-3ec02635);max-width:var(--hc-t-por-col-sm-23-max-width-842140da)}
+.por-col-sm-24{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-sm-24--ms-flex-b1818566);flex:0 0 var(--hc-t-por-col-sm-24-flex-5a315680);max-width:var(--hc-t-por-col-sm-24-max-width-a0724295)}
+}
+@media(max-width:768px){
+.por-col-xs{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:var(--hc-t-por-col-xs-max-width-07d5fdfe)}
+.por-col-xs-1{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-1--ms-flex-d828a987);flex:0 0 var(--hc-t-por-col-xs-1-flex-b6c6aa13);max-width:var(--hc-t-por-col-xs-1-max-width-eab7f48c)}
+.por-col-xs-2{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-2--ms-flex-334af50c);flex:0 0 var(--hc-t-por-col-xs-2-flex-21c5ba79);max-width:var(--hc-t-por-col-xs-2-max-width-72a12004)}
+.por-col-xs-3{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-3--ms-flex-3dd4a2da);flex:0 0 var(--hc-t-por-col-xs-3-flex-e6dd7fff);max-width:var(--hc-t-por-col-xs-3-max-width-3acdad82)}
+.por-col-xs-4{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-4--ms-flex-ee04b7dc);flex:0 0 var(--hc-t-por-col-xs-4-flex-7c18b9f2);max-width:var(--hc-t-por-col-xs-4-max-width-a751b9e9)}
+.por-col-xs-5{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-5--ms-flex-30ff9d02);flex:0 0 var(--hc-t-por-col-xs-5-flex-e0bd3ba2);max-width:var(--hc-t-por-col-xs-5-max-width-6543573c)}
+.por-col-xs-6{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-6--ms-flex-97c58b86);flex:0 0 var(--hc-t-por-col-xs-6-flex-c6dd5769);max-width:var(--hc-t-por-col-xs-6-max-width-b2775114)}
+.por-col-xs-7{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-7--ms-flex-e962a828);flex:0 0 var(--hc-t-por-col-xs-7-flex-f9b6d7f4);max-width:var(--hc-t-por-col-xs-7-max-width-0c2acb14)}
+.por-col-xs-8{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-8--ms-flex-9eb84346);flex:0 0 var(--hc-t-por-col-xs-8-flex-1d53a7e6);max-width:var(--hc-t-por-col-xs-8-max-width-61a3ee4e)}
+.por-col-xs-9{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-9--ms-flex-9c8c79b2);flex:0 0 var(--hc-t-por-col-xs-9-flex-72d11b93);max-width:var(--hc-t-por-col-xs-9-max-width-1a760576)}
+.por-col-xs-10{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-10--ms-flex-2b8741c5);flex:0 0 var(--hc-t-por-col-xs-10-flex-ae19bc62);max-width:var(--hc-t-por-col-xs-10-max-width-99afa0b5)}
+.por-col-xs-11{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-11--ms-flex-66710d9a);flex:0 0 var(--hc-t-por-col-xs-11-flex-020b4995);max-width:var(--hc-t-por-col-xs-11-max-width-b6eaf51b)}
+.por-col-xs-12{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-12--ms-flex-7e741e9e);flex:0 0 var(--hc-t-por-col-xs-12-flex-aaace7dd);max-width:var(--hc-t-por-col-xs-12-max-width-281accbc)}
+.por-col-xs-13{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-13--ms-flex-bac6ba5b);flex:0 0 var(--hc-t-por-col-xs-13-flex-13084903);max-width:var(--hc-t-por-col-xs-13-max-width-ea3f88f7)}
+.por-col-xs-14{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-14--ms-flex-4375d923);flex:0 0 var(--hc-t-por-col-xs-14-flex-6b439ea5);max-width:var(--hc-t-por-col-xs-14-max-width-633b3306)}
+.por-col-xs-15{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-15--ms-flex-0fdb794b);flex:0 0 var(--hc-t-por-col-xs-15-flex-d0070e03);max-width:var(--hc-t-por-col-xs-15-max-width-bdd43fae)}
+.por-col-xs-16{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-16--ms-flex-6b1b1307);flex:0 0 var(--hc-t-por-col-xs-16-flex-b4c91351);max-width:var(--hc-t-por-col-xs-16-max-width-c39a2d6a)}
+.por-col-xs-17{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-17--ms-flex-614502f1);flex:0 0 var(--hc-t-por-col-xs-17-flex-51be0999);max-width:var(--hc-t-por-col-xs-17-max-width-e4e26427)}
+.por-col-xs-18{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-18--ms-flex-d28305f3);flex:0 0 var(--hc-t-por-col-xs-18-flex-666e944a);max-width:var(--hc-t-por-col-xs-18-max-width-bc6a0417)}
+.por-col-xs-19{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-19--ms-flex-ff319003);flex:0 0 var(--hc-t-por-col-xs-19-flex-0ad47bbe);max-width:var(--hc-t-por-col-xs-19-max-width-5ea71596)}
+.por-col-xs-20{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-20--ms-flex-fa938afb);flex:0 0 var(--hc-t-por-col-xs-20-flex-69164290);max-width:var(--hc-t-por-col-xs-20-max-width-f8d9809a)}
+.por-col-xs-21{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-21--ms-flex-a0e60dc0);flex:0 0 var(--hc-t-por-col-xs-21-flex-52dd2b5d);max-width:var(--hc-t-por-col-xs-21-max-width-169cdcbd)}
+.por-col-xs-22{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-22--ms-flex-ce67db76);flex:0 0 var(--hc-t-por-col-xs-22-flex-745baeab);max-width:var(--hc-t-por-col-xs-22-max-width-a19b5c66)}
+.por-col-xs-23{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-23--ms-flex-b0ab18c5);flex:0 0 var(--hc-t-por-col-xs-23-flex-1bfcf8ee);max-width:var(--hc-t-por-col-xs-23-max-width-47cf7920)}
+.por-col-xs-24{-webkit-box-flex:0;-ms-flex:0 0 var(--hc-t-por-col-xs-24--ms-flex-5483f74d);flex:0 0 var(--hc-t-por-col-xs-24-flex-1abfa96d);max-width:var(--hc-t-por-col-xs-24-max-width-0c7f1d63)}
+}

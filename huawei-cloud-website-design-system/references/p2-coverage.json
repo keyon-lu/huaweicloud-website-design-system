@@ -1,0 +1,1329 @@
+{
+  "schema_version": "1.0",
+  "standard_version": "1.3.3",
+  "updated_at": "2026-10-14 Asia/Shanghai",
+  "items": [
+    {
+      "id": "基础-01",
+      "dimension": "基础定义",
+      "level": "必须",
+      "phase": "P0",
+      "required_evidence": "English, recognizable outer directory name",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "User-selected working path is Chinese; candidate distributable directory is English. No forced relocation of user workspace.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-02",
+      "dimension": "基础定义",
+      "level": "必须",
+      "phase": "P0/P7",
+      "required_evidence": "discoverable root or `skills/SKILL.md` entry",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-03",
+      "dimension": "基础定义",
+      "level": "优先",
+      "phase": "P7",
+      "required_evidence": "navigation README for repository packages only",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-04",
+      "dimension": "基础定义",
+      "level": "推荐",
+      "phase": "P7",
+      "required_evidence": "traceable root, dispatcher, registry, and sub-Skills",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-05",
+      "dimension": "基础定义",
+      "level": "优先",
+      "phase": "P0",
+      "required_evidence": "semantic `[domain]-[target/capability]-skill` naming decision",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Owner-selected canonical skill name is retained; do not rename just to add a suffix for scoring.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-06",
+      "dimension": "基础定义",
+      "level": "优先",
+      "phase": "P0",
+      "required_evidence": "package type in manifest and consistent capabilities",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-07",
+      "dimension": "基础定义",
+      "level": "推荐",
+      "phase": "P0",
+      "required_evidence": "accountable owner in manifest",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-08",
+      "dimension": "基础定义",
+      "level": "推荐",
+      "phase": "P0/P8",
+      "required_evidence": "package version and version policy",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-09",
+      "dimension": "基础定义",
+      "level": "推荐",
+      "phase": "P8",
+      "required_evidence": "timezone-qualified update timestamp",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-10",
+      "dimension": "基础定义",
+      "level": "优先",
+      "phase": "P0/P7",
+      "required_evidence": "permission level and override boundary",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-11",
+      "dimension": "基础定义",
+      "level": "必须",
+      "phase": "P0",
+      "required_evidence": "at least two scenes with user, task, and output",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "基础-12",
+      "dimension": "基础定义",
+      "level": "必须",
+      "phase": "P0/P7",
+      "required_evidence": "prohibited/unsupported scenes plus alternatives",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "SKILL.md",
+      "evidence": [
+        "SKILL.md"
+      ],
+      "gap": "Root naming/owner/scope exist; formal repository discovery and compatibility proof are not a full certified release.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "视觉-01",
+      "dimension": "视觉规范",
+      "level": "必须",
+      "phase": "P2/P5",
+      "required_evidence": "approved semantic color tokens, consumer rule, scan",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/portal-foundations.md",
+      "evidence": [
+        "references/portal-foundations.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Semantic source tokens and scoped rules exist; raw adapter constants/full role mapping and device font parity remain.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "视觉-02",
+      "dimension": "视觉规范",
+      "level": "必须",
+      "phase": "P2/P5",
+      "required_evidence": "spacing tokens and consumer rule",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/portal-foundations.md",
+      "evidence": [
+        "references/portal-foundations.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Semantic source tokens and scoped rules exist; raw adapter constants/full role mapping and device font parity remain.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "视觉-03",
+      "dimension": "视觉规范",
+      "level": "必须",
+      "phase": "P2/P5",
+      "required_evidence": "typography roles covering size, line-height, weight, tracking",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/portal-foundations.md",
+      "evidence": [
+        "references/portal-foundations.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Source font not bundled; tracking/size/weight roles follow source CSS but no complete device typography role certification.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "视觉-04",
+      "dimension": "视觉规范",
+      "level": "必须",
+      "phase": "P2/P5",
+      "required_evidence": "radius tokens and component/container mapping",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/portal-foundations.md",
+      "evidence": [
+        "references/portal-foundations.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Semantic source tokens and scoped rules exist; raw adapter constants/full role mapping and device font parity remain.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "视觉-05",
+      "dimension": "视觉规范",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "shadow/elevation/z-index and occlusion priority, or justified N/A",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/portal-foundations.md",
+      "evidence": [
+        "references/portal-foundations.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Existing z-index/shadows scoped; exhaustive occlusion ordering and token migration unresolved.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "视觉-06",
+      "dimension": "视觉规范",
+      "level": "暂停考核",
+      "phase": "P2",
+      "required_evidence": "icon source and prohibition rules; paused, not scored",
+      "applicability": "暂停考核",
+      "status": "暂停考核",
+      "target_file": "references/portal-foundations.md",
+      "evidence": [
+        "references/portal-foundations.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "v1.3.3 paused item retained, not scored.",
+      "p2_classification": "paused"
+    },
+    {
+      "id": "状态-01",
+      "dimension": "状态覆盖",
+      "level": "必须",
+      "phase": "P2/P5",
+      "required_evidence": "default structure, appearance, and base behavior",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Implemented states are scoped; not every component has loading/error/empty/hover/focus state coverage or live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-02",
+      "dimension": "状态覆盖",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "desktop hover contract or justified non-applicability",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Implemented states are scoped; not every component has loading/error/empty/hover/focus state coverage or live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-03",
+      "dimension": "状态覆盖",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "pressed/active behavior for applicable controls",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Implemented states are scoped; not every component has loading/error/empty/hover/focus state coverage or live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-04",
+      "dimension": "状态覆盖",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "disabled visual, semantic, and interaction behavior",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Implemented states are scoped; not every component has loading/error/empty/hover/focus state coverage or live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-05",
+      "dimension": "状态覆盖",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "loading transitions, repeat prevention, timeout when supported",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Clipboard promise has no loading/repeat-prevention/timeout UX; static floors have no remote loading state.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-06",
+      "dimension": "状态覆盖",
+      "level": "优先",
+      "phase": "P2/P6",
+      "required_evidence": "error copy, recovery, and retry path",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Clipboard manual fallback and generator errors exist; no shared backend retry/error component.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-07",
+      "dimension": "状态覆盖",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "no-data/no-result/no-permission distinctions",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Empty optional floors are omitted; page no-result search message exists; no generic no-permission/data component.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "状态-08",
+      "dimension": "状态覆盖",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "focus ring and overlap with active/error states",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/component-contract.md",
+      "evidence": [
+        "references/component-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Implemented states are scoped; not every component has loading/error/empty/hover/focus state coverage or live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "适配-01",
+      "dimension": "响应式与适配",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "mobile layout/visibility/interaction rules if supported",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Source/formula boundary checks and accepted developer sample exist; orientation,150% zoom and all product configurations lack live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "适配-02",
+      "dimension": "响应式与适配",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "tablet layout/component rules if supported",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Source/formula boundary checks and accepted developer sample exist; orientation,150% zoom and all product configurations lack live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "适配-03",
+      "dimension": "响应式与适配",
+      "level": "优先",
+      "phase": "P2/P6",
+      "required_evidence": "desktop canvas, width, grid, column, and density rules",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Source/formula boundary checks and accepted developer sample exist; orientation,150% zoom and all product configurations lack live traces.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "适配-04",
+      "dimension": "响应式与适配",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "dark token mapping, component rules, validation, or explicit unsupported declaration",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Dark mode is explicitly unsupported; no dark token map or dark visual acceptance.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "适配-05",
+      "dimension": "响应式与适配",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "orientation behavior when mobile/tablet is supported",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Width-based landscape is an implementation candidate; actual orientation gesture and short-height menu traces missing.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "适配-06",
+      "dimension": "响应式与适配",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "150% zoom wrapping, overflow, and control strategy",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Content-fit/scroll/truncation strategies apply at reduced CSS width; actual150% browser zoom remains unverified.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "无障碍-01",
+      "dimension": "无障碍",
+      "level": "暂停考核",
+      "phase": "P2",
+      "required_evidence": "contrast targets and later test method; paused, not scored",
+      "applicability": "暂停考核",
+      "status": "暂停考核",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "v1.3.3 paused item retained, not scored.",
+      "p2_classification": "paused"
+    },
+    {
+      "id": "无障碍-02",
+      "dimension": "无障碍",
+      "level": "可选",
+      "phase": "P2/P5",
+      "required_evidence": "Tab/Enter/Space/arrows/Esc for applicable interactions",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Native semantics and focus lifecycle implemented; formal contrast/focus/keyboard audit absent, search input outline needs targeted review.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "无障碍-03",
+      "dimension": "无障碍",
+      "level": "可选",
+      "phase": "P2/P5",
+      "required_evidence": "native semantics and role/ARIA mapping",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Native semantics and focus lifecycle implemented; formal contrast/focus/keyboard audit absent, search input outline needs targeted review.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "无障碍-04",
+      "dimension": "无障碍",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "visible focus and no unmitigated `outline:none`",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Native semantics and focus lifecycle implemented; formal contrast/focus/keyboard audit absent, search input outline needs targeted review.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "无障碍-05",
+      "dimension": "无障碍",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "`prefers-reduced-motion` behavior",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/responsive-accessibility.md",
+      "evidence": [
+        "references/responsive-accessibility.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Native semantics and focus lifecycle implemented; formal contrast/focus/keyboard audit absent, search input outline needs targeted review.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "AI-01",
+      "dimension": "AI 特殊规范",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "AI content disclosure style/copy/timing if AI output exists",
+      "applicability": "不适用",
+      "status": "不适用",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "Static AI-product marketing and source images only; no runtime inference, streaming or AI trust/recovery UI in any supported route. Downstream all supported public prototype components show fixed source material; authenticated/AI-runtime/RTL branches are excluded.",
+      "p2_classification": "justified_NA"
+    },
+    {
+      "id": "AI-02",
+      "dimension": "AI 特殊规范",
+      "level": "可选",
+      "phase": "P2/P5",
+      "required_evidence": "AI identity tokens, scope, and component mapping if applicable",
+      "applicability": "不适用",
+      "status": "不适用",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "Static AI-product marketing and source images only; no runtime inference, streaming or AI trust/recovery UI in any supported route. Downstream all supported public prototype components show fixed source material; authenticated/AI-runtime/RTL branches are excluded.",
+      "p2_classification": "justified_NA"
+    },
+    {
+      "id": "AI-03",
+      "dimension": "AI 特殊规范",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "streaming/thinking/done transitions if applicable",
+      "applicability": "不适用",
+      "status": "不适用",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "Static AI-product marketing and source images only; no runtime inference, streaming or AI trust/recovery UI in any supported route. Downstream all supported public prototype components show fixed source material; authenticated/AI-runtime/RTL branches are excluded.",
+      "p2_classification": "justified_NA"
+    },
+    {
+      "id": "AI-04",
+      "dimension": "AI 特殊规范",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "uncertainty triggers, copy, and next action if applicable",
+      "applicability": "不适用",
+      "status": "不适用",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "Static AI-product marketing and source images only; no runtime inference, streaming or AI trust/recovery UI in any supported route. Downstream all supported public prototype components show fixed source material; authenticated/AI-runtime/RTL branches are excluded.",
+      "p2_classification": "justified_NA"
+    },
+    {
+      "id": "AI-05",
+      "dimension": "AI 特殊规范",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "timeout/unavailable/filter/permission recovery if applicable",
+      "applicability": "不适用",
+      "status": "不适用",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "Static AI-product marketing and source images only; no runtime inference, streaming or AI trust/recovery UI in any supported route. Downstream all supported public prototype components show fixed source material; authenticated/AI-runtime/RTL branches are excluded.",
+      "p2_classification": "justified_NA"
+    },
+    {
+      "id": "文案-01",
+      "dimension": "国际化与文案",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "production I18n key/resource rule; Chinese docs do not prove it",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/content-interaction-contract.md",
+      "evidence": [
+        "references/content-interaction-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Fixed Chinese source copy is a prototype boundary, not production I18n resources.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "文案-02",
+      "dimension": "国际化与文案",
+      "level": "可选",
+      "phase": "P2/P6",
+      "required_evidence": "direction/alignment/icon/spacing rules if RTL supported",
+      "applicability": "不适用",
+      "status": "不适用",
+      "target_file": "references/content-interaction-contract.md",
+      "evidence": [
+        "references/content-interaction-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "",
+      "next_action": "",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "RTL excluded for all present routes, source wrappers and examples; mirrored layout/icons would need a new scoped contract. Downstream all supported public prototype components show fixed source material; authenticated/AI-runtime/RTL branches are excluded.",
+      "p2_classification": "justified_NA"
+    },
+    {
+      "id": "文案-03",
+      "dimension": "国际化与文案",
+      "level": "优先",
+      "phase": "P2/P5",
+      "required_evidence": "approximately 40% expansion, wrapping, truncation, tooltip, container policy",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/content-interaction-contract.md",
+      "evidence": [
+        "references/content-interaction-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Long-title/input source stress cases planned; actual40% expansion visual wrapping/tooltip behavior not certified.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "文案-04",
+      "dimension": "国际化与文案",
+      "level": "推荐",
+      "phase": "P2/P6",
+      "required_evidence": "Intl/platform formatting for number/date/currency/timezone",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/content-interaction-contract.md",
+      "evidence": [
+        "references/content-interaction-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Historical date labels passed as strings; pricing wrapper uses en-US number format, not a full locale/timezone layer.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "技术-01",
+      "dimension": "性能与技术边界",
+      "level": "推荐",
+      "phase": "P2/P7",
+      "required_evidence": "P95/timeout/retry/monitoring for runtime invocation, or justified N/A",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "No backend runtime calls by supported components; generation budgets can be measured but not marketed as a backend P95 SLA.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "技术-02",
+      "dimension": "性能与技术边界",
+      "level": "优先",
+      "phase": "P2/P7",
+      "required_evidence": "empty, long, special-character, and invalid input handling",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Offline prototype generator has no backend SLA; invalid inputs/shared state and compatibility are partially checked, not production isolation.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "技术-03",
+      "dimension": "性能与技术边界",
+      "level": "推荐",
+      "phase": "P2/P7",
+      "required_evidence": "isolation/idempotency/conflict behavior for shared runtime state",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md",
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Single Skills input id and some state defaults constrain repeated mounts; no promise of multi-instance/global state isolation.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "技术-04",
+      "dimension": "性能与技术边界",
+      "level": "推荐",
+      "phase": "P3/P7",
+      "required_evidence": "remote dependency fallback, retry, and evidence retention",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Offline generated HTML does not load remote libraries; source fetch failures are retained; Pixso recovery depends on missing material.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "技术-05",
+      "dimension": "性能与技术边界",
+      "level": "推荐",
+      "phase": "P7/P8",
+      "required_evidence": "version compatibility, deprecation, migration, transition period",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/p2-model-contract.md",
+      "evidence": [
+        "references/p2-model-contract.md"
+      ],
+      "gap": "Legacy exports documented; no removal schedule, exhaustive old-data migration or arbitrary major-version compatibility promise.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "仓库-01",
+      "dimension": "代码仓库型 Skill 包",
+      "level": "必须",
+      "phase": "P7",
+      "required_evidence": "root/skills discovery and explicit redirect",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/capability-map.json",
+      "evidence": [
+        "references/capability-map.json"
+      ],
+      "gap": "Two real routes and standalone package exist; full component conversion/Storybook/Pixso/static-score release chain is incomplete.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "仓库-02",
+      "dimension": "代码仓库型 Skill 包",
+      "level": "必须",
+      "phase": "P7",
+      "required_evidence": "root → dispatcher → sub-Skill → truth/spec → validation/evidence chain",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/capability-map.json",
+      "evidence": [
+        "references/capability-map.json"
+      ],
+      "gap": "Two real routes and standalone package exist; full component conversion/Storybook/Pixso/static-score release chain is incomplete.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "仓库-03",
+      "dimension": "代码仓库型 Skill 包",
+      "level": "必须",
+      "phase": "P7",
+      "required_evidence": "intent/description agreement and overlap resolution",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/capability-map.json",
+      "evidence": [
+        "references/capability-map.json"
+      ],
+      "gap": "Two real routes and standalone package exist; full component conversion/Storybook/Pixso/static-score release chain is incomplete.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "仓库-04",
+      "dimension": "代码仓库型 Skill 包",
+      "level": "必须",
+      "phase": "P7/P8",
+      "required_evidence": "required/optional path table with existence, branches, severity",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/capability-map.json",
+      "evidence": [
+        "references/capability-map.json"
+      ],
+      "gap": "Two real routes and standalone package exist; full component conversion/Storybook/Pixso/static-score release chain is incomplete.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    },
+    {
+      "id": "仓库-05",
+      "dimension": "代码仓库型 Skill 包",
+      "level": "必须",
+      "phase": "P7/P8",
+      "required_evidence": "disabled branch, available branch, trigger handling, recovery, review evidence",
+      "applicability": "直接适用",
+      "status": "部分符合",
+      "target_file": "references/capability-map.json",
+      "evidence": [
+        "references/capability-map.json"
+      ],
+      "gap": "Two real routes and standalone package exist; full component conversion/Storybook/Pixso/static-score release chain is incomplete.",
+      "next_action": "Verify the described role/state in its affected component; keep scoped evidence and address the stated gap before full certification.",
+      "affected_branches": [
+        "public-product",
+        "developer-home"
+      ],
+      "is_core_branch": true,
+      "risk_issue_id": null,
+      "reason": "",
+      "p2_classification": "gap"
+    }
+  ],
+  "risks": [],
+  "boundary": "P2 modeling inventory, not official scored release ledger. Partial statuses deliberately retain gaps."
+}

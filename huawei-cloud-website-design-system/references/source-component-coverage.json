@@ -1,0 +1,1419 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "scope": "complete local PortalUI document catalogue, not full live website/Pixso library",
+  "sourceFiles": 33,
+  "componentFamilies": 24,
+  "foundationsAndGuides": 9,
+  "existingExports": 146,
+  "formallyCompleteFamilies": 0,
+  "localNewPilots": [
+    "source-button",
+    "search-input",
+    "source-modal",
+    "source-link",
+    "source-breadcrumb",
+    "portal-asset",
+    "process-steps",
+    "source-label",
+    "source-choice",
+    "source-collapse",
+    "learning-links",
+    "source-select",
+    "source-scrollbar",
+    "source-tabs",
+    "source-price",
+    "source-pagination",
+    "source-countdown",
+    "source-rate",
+    "source-card",
+    "source-tips",
+    "process-flow",
+    "source-anchor",
+    "source-fixed-table",
+    "source-service-table",
+    "source-img-viewer",
+    "document-pager",
+    "scene-media",
+    "recommended-docs",
+    "latest-updates",
+    "general-banner",
+    "icon-text-cards",
+    "faq-list",
+    "product-2026-commands",
+    "product-2026-tabs",
+    "product-2026-next",
+    "product-2026-faq",
+    "product-2026-scenarios",
+    "product-2026-navigation",
+    "product-2026-video",
+    "product-2026-agents",
+    "product-2026-split",
+    "product-2026-folded",
+    "product-2026-news",
+    "product-2026-pricing",
+    "product-2026-assistant",
+    "product-2026-hover",
+    "product-2026-demo",
+    "product-2026-cases",
+    "product-2026-advantages",
+    "product-2026-wide",
+    "product-2026-floor-frame",
+    "product-2026-scene-carousel",
+    "product-2026-models",
+    "product-2026-packages",
+    "product-2026-banner",
+    "product-v1-navigation",
+    "product-v1-anchor",
+    "product-v1-catalog",
+    "product-v1-tabs",
+    "product-v1-elevator",
+    "product-v1-contact",
+    "product-v1-cards",
+    "product-v1-speakers",
+    "product-v1-logos",
+    "product-v1-photo-wall",
+    "product-v1-editorial",
+    "product-v1-news-list",
+    "product-v1-quote",
+    "product-v1-publications",
+    "product-v1-architecture",
+    "product-v1-folded",
+    "product-v1-live",
+    "product-v1-advantages",
+    "product-v1-cases",
+    "product-v1-activities",
+    "product-v1-solutions",
+    "product-v1-sessions",
+    "product-v1-live-preview",
+    "product-v1-mosaic",
+    "product-v1-benefits",
+    "product-v1-ai-architecture",
+    "product-v1-information",
+    "product-v1-filters",
+    "foundation-graphic"
+  ],
+  "rows": [
+    {
+      "id": "anchor",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/anchor.md",
+      "sourceSha256": "6100a6c0f60fc635ebba9d0960a4eba9591bd71f5bc76937fb66eb8e1ac3774a",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "方法",
+        "静态属性"
+      ],
+      "documentedClasses": [
+        "por-anchor",
+        "por-anchor-disabled",
+        "por-anchor-list",
+        "por-anchor-nav",
+        "por-anchor-next",
+        "por-anchor-pre",
+        "por-anchor-slide",
+        "por-container",
+        "por-section",
+        "por-section-body"
+      ],
+      "candidateExportMappings": [
+        "PortalAnchor",
+        "PortalProductNavigation"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-anchor"
+      ]
+    },
+    {
+      "id": "breadcrumb",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/breadcrumb.md",
+      "sourceSha256": "3006af47984be33e59c4d0dd6772476985c554ca3bf0bb1c97867b48c1134a7a",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-breadcrumb",
+        "por-breadcrumb-item",
+        "por-breadcrumb-light",
+        "por-link",
+        "por-link-light"
+      ],
+      "candidateExportMappings": [
+        "PortalBreadcrumb"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-breadcrumb"
+      ]
+    },
+    {
+      "id": "button",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/button.md",
+      "sourceSha256": "a97671111350ad1c7939ba73ac361fc47878d871d2b2c0fa9c44e62a3797bdb9",
+      "headings": [
+        "示例",
+        "实例",
+        "尺寸",
+        "响应式尺寸",
+        "禁用按钮",
+        "图标按钮",
+        "块级按钮",
+        "API 指导",
+        "class/属性"
+      ],
+      "documentedClasses": [
+        "por-btn",
+        "por-btn-",
+        "por-btn-block",
+        "por-btn-danger",
+        "por-btn-dark",
+        "por-btn-icon",
+        "por-btn-large",
+        "por-btn-light",
+        "por-btn-md-middle",
+        "por-btn-middle",
+        "por-btn-primary",
+        "por-btn-primary-light",
+        "por-btn-secondary",
+        "por-btn-small",
+        "por-btn-xs-small",
+        "por-icon-btn-light",
+        "por-icon-btn-primary"
+      ],
+      "candidateExportMappings": [
+        "PortalButton"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "localPilotProgress": "partial source-based React pilot; variant/state/visual/a11y closure pending",
+      "dedicatedSourceComponents": [
+        "source-button"
+      ]
+    },
+    {
+      "id": "card",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/card.md",
+      "sourceSha256": "de0ffee4d75c601818397ec1bb48f384069642b4c50c4c5f2982b7ea9f7b9f89",
+      "headings": [
+        "示例",
+        "实例",
+        "卡片指针规则",
+        "其他类型卡片",
+        "不同皮肤",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-card",
+        "por-card-align-left",
+        "por-card-content",
+        "por-card-icon",
+        "por-card-icon-left",
+        "por-card-l",
+        "por-card-light-dark",
+        "por-card-light-transparent",
+        "por-card-m",
+        "por-card-panel",
+        "por-card-xl",
+        "por-col-6",
+        "por-row",
+        "por-text-body-t1",
+        "por-text-body-t1-text",
+        "por-text-title-t3"
+      ],
+      "candidateExportMappings": [
+        "PortalCards",
+        "PortalSolutionCards"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-card"
+      ]
+    },
+    {
+      "id": "carousel",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/carousel.md",
+      "sourceSha256": "25393da0ebad5fe26ed7b7859c82bfd08b2f9fe48287b7b7772f9c19dea4f144",
+      "headings": [
+        "示例",
+        "基础实例",
+        "自动播放",
+        "渐变效果",
+        "API 指导",
+        "初始化配置 (Options)",
+        "autoplay options",
+        "navigation options",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-carousel",
+        "por-carousel-slide",
+        "por-carousel-wrapper"
+      ],
+      "candidateExportMappings": [
+        "PortalPracticeCarousel",
+        "PortalDeveloperBanner"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "related-source-wrapper",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": []
+    },
+    {
+      "id": "checkbox",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/checkbox.md",
+      "sourceSha256": "f632b5dddc8e72ec9a02445f31e4aaa21f93213706e808682e87a50738bd015c",
+      "headings": [
+        "示例",
+        "基础选择组",
+        "卡片选择组",
+        "API 指导",
+        "class",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-checkbox",
+        "por-checkbox-card",
+        "por-checkbox-card-group",
+        "por-checkbox-card-group-content",
+        "por-checkbox-card-group-inner",
+        "por-checkbox-card-pane",
+        "por-checkbox-card-pane-title",
+        "por-checkbox-group",
+        "por-checkbox-inline",
+        "por-native",
+        "por-radio",
+        "por-radio-card"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-choice"
+      ]
+    },
+    {
+      "id": "collapse",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/collapse.md",
+      "sourceSha256": "afedcc82f243fcc0835495b922f9858a5cc4056b665c7b1fe47c097770005094",
+      "headings": [
+        "示例",
+        "实例：基础用法",
+        "链接按钮的折叠",
+        "高级用法：外部控制",
+        "API 指导",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-border-0",
+        "por-btn",
+        "por-collapse",
+        "por-collapse-container",
+        "por-collapse-dark-transparent",
+        "por-collapse-foot",
+        "por-collapse-head-text",
+        "por-collapse-trigger",
+        "por-icon",
+        "por-icon-down",
+        "por-link-expend",
+        "por-link-expend-text",
+        "por-link-icon-right",
+        "por-link-nounderline"
+      ],
+      "candidateExportMappings": [
+        "PortalFAQ",
+        "PortalFoldedMedia"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-collapse"
+      ]
+    },
+    {
+      "id": "color",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/color.md",
+      "sourceSha256": "e9bc9f63ac9495f54d342d10375bd2a35a967cb60bb81409997039d5944b10e7",
+      "headings": [
+        "背景色",
+        "文本色",
+        "状态色"
+      ],
+      "documentedClasses": [
+        "por-color-background-disabled",
+        "por-color-background-gray-1",
+        "por-color-background-primary",
+        "por-color-background-white",
+        "por-color-text-button",
+        "por-color-text-disabled",
+        "por-color-text-primary",
+        "por-color-text-secondary",
+        "por-color-text-weak"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "countdown",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/countdown.md",
+      "sourceSha256": "abecd0154e31c23c9f2a11049b35abce66eaedc8358c482bb07bcd95de488998",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "css属性",
+        "初始化options属性"
+      ],
+      "documentedClasses": [
+        "por-countdown-container"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-countdown"
+      ]
+    },
+    {
+      "id": "datepicker",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/datepicker.md",
+      "sourceSha256": "6b503b40dd46752219d4e0a43ba2bee44b4bbc39f05d3acd64099d9a4dfd0b64",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "初始化配置 (datePickerConfigItems)",
+        "方法",
+        "init options 属性",
+        "事件"
+      ],
+      "documentedClasses": [],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "no-explicit-family-wrapper-mapped",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": []
+    },
+    {
+      "id": "design-tokens",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/design-tokens.md",
+      "sourceSha256": "c8e30fe023c4ea806bd0d9666ccc4a5a738933498556dc2b53c38b89d7cf8e62",
+      "headings": [
+        "核心规范",
+        "1. 颜色系统 (Colors)",
+        "基础调色板 (Base Palette)",
+        "文字颜色 (Text Colors)",
+        "背景颜色 (Background Colors)",
+        "边框颜色 (Border Colors)",
+        "功能色 (Functional Colors)",
+        "2. 字体与文本 (Typography)",
+        "3. 圆角与尺寸 (Radius & Sizes)",
+        "尺寸百分比 (Sizes)",
+        "4. 阴影 (Shadows)",
+        "5. 层级 (Z-Index)"
+      ],
+      "documentedClasses": [
+        "por-base-",
+        "por-base-box-shadow-dark",
+        "por-base-box-shadow-normal",
+        "por-base-color-blue-50",
+        "por-base-color-disabled",
+        "por-base-color-divider-dark",
+        "por-base-color-divider-light",
+        "por-base-color-divider-normal",
+        "por-base-color-gray-0",
+        "por-base-color-gray-10",
+        "por-base-color-gray-100",
+        "por-base-color-gray-20",
+        "por-base-color-gray-30",
+        "por-base-color-gray-40",
+        "por-base-color-gray-5",
+        "por-base-color-gray-50",
+        "por-base-color-gray-60",
+        "por-base-color-gray-70",
+        "por-base-color-gray-80",
+        "por-base-color-gray-90",
+        "por-base-color-kelly-50",
+        "por-base-color-lemon-50",
+        "por-base-color-orange-50",
+        "por-base-color-red-20",
+        "por-base-color-red-40",
+        "por-base-color-red-50",
+        "por-base-color-red-huawei",
+        "por-base-color-rgb-black",
+        "por-base-color-rgb-white",
+        "por-base-color-transparent",
+        "por-base-font-family",
+        "por-base-font-family-ar-mena",
+        "por-base-font-family-ja-jp",
+        "por-base-font-weight-bold",
+        "por-base-font-weight-bolder",
+        "por-base-font-weight-lighter",
+        "por-base-font-weight-normal",
+        "por-base-size-percent-extra-large",
+        "por-base-size-percent-large",
+        "por-base-size-percent-middle",
+        "por-base-size-percent-small",
+        "por-base-zindex-content",
+        "por-base-zindex-dropdown",
+        "por-base-zindex-mask",
+        "por-base-zindex-modal",
+        "por-base-zindex-tooltip",
+        "por-color-background-black",
+        "por-color-background-disabled",
+        "por-color-background-gray-1",
+        "por-color-background-gray-2",
+        "por-color-background-primary",
+        "por-color-background-transparent",
+        "por-color-background-white",
+        "por-color-border-disabled",
+        "por-color-border-input",
+        "por-color-border-input-active",
+        "por-color-border-primary",
+        "por-color-border-secondary",
+        "por-color-border-white",
+        "por-color-function-error",
+        "por-color-function-info",
+        "por-color-function-success",
+        "por-color-function-warning",
+        "por-color-text-black",
+        "por-color-text-button",
+        "por-color-text-disabled",
+        "por-color-text-huawei",
+        "por-color-text-link-active",
+        "por-color-text-link-default",
+        "por-color-text-primary",
+        "por-color-text-secondary",
+        "por-color-text-weak",
+        "por-color-text-white",
+        "por-radius-circle",
+        "por-radius-l",
+        "por-radius-l-1",
+        "por-radius-l-2",
+        "por-radius-m",
+        "por-radius-s",
+        "por-radius-xl",
+        "por-radius-xl-1",
+        "por-radius-xs",
+        "por-radius-xxl",
+        "por-radius-xxxl",
+        "por-radius-xxxxl",
+        "por-shadow-card-active",
+        "por-shadow-card-normal",
+        "por-shadow-modal",
+        "por-shadow-tips"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "fixed-table",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/fixed-table.md",
+      "sourceSha256": "c290b7c3cbc8d45c273762756a7ab393649d49aa0441c3cd2ca1199a624090c8",
+      "headings": [
+        "示例",
+        "楼层表格样式2",
+        "深色表格",
+        "API 指导",
+        "属性 (Attributes)",
+        "方法"
+      ],
+      "documentedClasses": [
+        "por-compute-tr",
+        "por-fixed-table",
+        "por-fixed-table-body",
+        "por-fixed-table-container",
+        "por-fixed-table-stripes"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-fixed-table"
+      ]
+    },
+    {
+      "id": "floor",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/floor.md",
+      "sourceSha256": "c756b6eb4ffcb7d1c6f183c0900242c7142b9fd5b3dc67e08885f24b277181f2",
+      "headings": [
+        "示例",
+        "居中容器",
+        "不同背景颜色",
+        "标题居左",
+        "API 指导",
+        "class/属性"
+      ],
+      "documentedClasses": [
+        "por-container",
+        "por-section",
+        "por-section-body",
+        "por-section-head",
+        "por-section-merge-spacing-top",
+        "por-section-subtitle",
+        "por-section-title",
+        "por-section-title-left"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "getting-started",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/getting-started.md",
+      "sourceSha256": "bce8b60c56f4caa03ae713f11a75ea89fe087264e31fd52684a82b9530ba9c1a",
+      "headings": [
+        "关键特性",
+        "使用方法",
+        "基于 cui 套件开发",
+        "手动引入"
+      ],
+      "documentedClasses": [],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "grid",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/grid.md",
+      "sourceSha256": "3a87031dc399fc7ac5ba57ad2df47f24bc349bf2fbbcdfd07a8b709f92b6a2b2",
+      "headings": [
+        "简介",
+        "栅格参数",
+        "示例",
+        "基础布局",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-col",
+        "por-col-",
+        "por-col-6",
+        "por-col-lg",
+        "por-col-md",
+        "por-col-sm",
+        "por-col-sm-12",
+        "por-col-xs",
+        "por-row"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "icon",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/icon.md",
+      "sourceSha256": "293e9a1f734154eebc02b1d1d312e3a040178402f6f9f8d222ff931bc9ba358c",
+      "headings": [
+        "通用图标",
+        "产品图标"
+      ],
+      "documentedClasses": [
+        "por-icon",
+        "por-icon-",
+        "por-icon-about",
+        "por-icon-add",
+        "por-icon-caret-down",
+        "por-icon-change",
+        "por-icon-close",
+        "por-icon-delete",
+        "por-icon-doc",
+        "por-icon-down",
+        "por-icon-error",
+        "por-icon-filter",
+        "por-icon-first",
+        "por-icon-full-screen",
+        "por-icon-last",
+        "por-icon-left",
+        "por-icon-like",
+        "por-icon-list",
+        "por-icon-list-card",
+        "por-icon-menu",
+        "por-icon-minus",
+        "por-icon-more",
+        "por-icon-msg",
+        "por-icon-plus",
+        "por-icon-prompt",
+        "por-icon-review",
+        "por-icon-right",
+        "por-icon-search",
+        "por-icon-select",
+        "por-icon-set",
+        "por-icon-share",
+        "por-icon-star",
+        "por-icon-success",
+        "por-icon-up",
+        "por-icon-warn",
+        "por-icon-watch"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "img-viewer",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/img-viewer.md",
+      "sourceSha256": "c113a7cd7b5a91569e3f7fd83d25b7b17773df3c57c5a5461f394f5a2dad446e",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "属性 (Attributes)"
+      ],
+      "documentedClasses": [
+        "por-img-viewer"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-img-viewer"
+      ]
+    },
+    {
+      "id": "input",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/input.md",
+      "sourceSha256": "a6f6fc9f686d62511617590dae893b99d42244298446e4b64b5fc0b7e1313efc",
+      "headings": [
+        "示例",
+        "单行输入框",
+        "多行输入框",
+        "关联输入框",
+        "API 指导",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-help-block",
+        "por-icon",
+        "por-icon-prompt",
+        "por-input-dropdown",
+        "por-scrollbar-s",
+        "por-text-input",
+        "por-text-input-l",
+        "por-text-wrap",
+        "por-textarea",
+        "por-textarea-word",
+        "por-textarea-wordwrap",
+        "por-textarea-wrap"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "localPilotProgress": "partial source-based React pilot; variant/state/visual/a11y closure pending",
+      "dedicatedSourceComponents": [
+        "search-input"
+      ]
+    },
+    {
+      "id": "label",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/label.md",
+      "sourceSha256": "a70d103791683e23de7cb5e919d266182b376896fc9414789bc2b93c64928a61",
+      "headings": [
+        "示例",
+        "实例",
+        "可删除标签",
+        "带小图标标签",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-icon",
+        "por-icon-close",
+        "por-icon-set",
+        "por-label",
+        "por-label-",
+        "por-label-blue",
+        "por-label-disabled",
+        "por-label-gold",
+        "por-label-l",
+        "por-label-red",
+        "por-label-s"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-label"
+      ]
+    },
+    {
+      "id": "level",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/level.md",
+      "sourceSha256": "3b6059de8f4abb71b8c9c076f996b0db2a92551c18f59ab79ef49156e2e1e056",
+      "headings": [
+        "层级数值定义"
+      ],
+      "documentedClasses": [
+        "por-base-zindex-content",
+        "por-base-zindex-dropdown",
+        "por-base-zindex-mask",
+        "por-base-zindex-modal",
+        "por-base-zindex-sticky",
+        "por-base-zindex-tooltip"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "link",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/link.md",
+      "sourceSha256": "b330b944e1b19fcf6f255c44d629f28685c634ce60e2f18e8cc0ed82c3aa5b17",
+      "headings": [
+        "示例",
+        "实例",
+        "带箭头的链接",
+        "“换一换”链接",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-icon",
+        "por-icon-change",
+        "por-icon-right",
+        "por-link",
+        "por-link-blue",
+        "por-link-change",
+        "por-link-disabled",
+        "por-link-icon-right",
+        "por-link-light",
+        "por-link-more",
+        "por-link-secondary"
+      ],
+      "candidateExportMappings": [
+        "PortalLink"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-link"
+      ]
+    },
+    {
+      "id": "modal",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/modal.md",
+      "sourceSha256": "03c2892f97303d6f4e182c3efdf06e5a2cb81f985e5313ee39921d7b3a803a79",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "class/属性",
+        "方法",
+        "静态方法",
+        "resetOptions",
+        "icon 可选内置值",
+        "buttonOptions",
+        "style 可选内置值",
+        "事件",
+        "静态属性"
+      ],
+      "documentedClasses": [
+        "por-btn",
+        "por-btn-dark",
+        "por-btn-primary",
+        "por-icon",
+        "por-icon-success",
+        "por-modal",
+        "por-modal-body",
+        "por-modal-close",
+        "por-modal-dialog",
+        "por-modal-dialog-large",
+        "por-modal-dialog-middle",
+        "por-modal-dialog-small",
+        "por-modal-dialog-xlarge",
+        "por-modal-footer",
+        "por-modal-head",
+        "por-modal-icon",
+        "por-modal-inner",
+        "por-modal-text",
+        "por-modal-title"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "localPilotProgress": "partial source-based React pilot; variant/state/visual/a11y closure pending",
+      "dedicatedSourceComponents": [
+        "source-modal"
+      ]
+    },
+    {
+      "id": "pagination",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/pagination.md",
+      "sourceSha256": "e2b90bd70d68cb670f7e78ed54c8ec4b46a6ea09cad37a2fab0961739f495a43",
+      "headings": [
+        "示例",
+        "动态分页",
+        "静态分页",
+        "API 指导",
+        "初始化配置 (Options)",
+        "lang 可选内置值",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-pagination"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-pagination"
+      ]
+    },
+    {
+      "id": "player",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/player.md",
+      "sourceSha256": "d32b6be05a463674996fdf82dca44b91e7ccd8ae79984b57e9224aa397d8592b",
+      "headings": [
+        "示例",
+        "实例",
+        "配合弹窗播放",
+        "自动生成弹窗播放",
+        "API 指导",
+        "方法"
+      ],
+      "documentedClasses": [
+        "por-modal",
+        "por-modal-player",
+        "por-native",
+        "por-player",
+        "por-player-block",
+        "por-player-btn",
+        "por-player-close"
+      ],
+      "candidateExportMappings": [
+        "PortalGaussVideos"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "related-source-wrapper",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": []
+    },
+    {
+      "id": "price",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/price.md",
+      "sourceSha256": "022e9f3d2b63946d4c9d02f753f7ad7543a20aa8b64275cec9a1234c74bcedcd",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-current-price",
+        "por-price",
+        "por-price-l",
+        "por-price-s",
+        "por-price-symbol",
+        "por-price-unit"
+      ],
+      "candidateExportMappings": [
+        "PortalGaussPricing"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-price"
+      ]
+    },
+    {
+      "id": "rate",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/rate.md",
+      "sourceSha256": "53353ef618cbdde2dbfc7fa892dfeb8542726f78539f5dedbfbbf108a91fb006",
+      "headings": [
+        "示例",
+        "基础展示",
+        "可选配置 (文字展示与禁用)",
+        "API 指导",
+        "初始化配置 (Options)",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-rate",
+        "por-rate-container",
+        "por-star-icon"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-rate"
+      ]
+    },
+    {
+      "id": "scrollbar",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/scrollbar.md",
+      "sourceSha256": "409a52430229c5834afea21196171d9fe3c2c5a87af3c6efa88a280a725011db",
+      "headings": [
+        "示例",
+        "实例",
+        "API 指导",
+        "class"
+      ],
+      "documentedClasses": [
+        "por-scrollbar-dark",
+        "por-scrollbar-m",
+        "por-scrollbar-s"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-scrollbar"
+      ]
+    },
+    {
+      "id": "select",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/select.md",
+      "sourceSha256": "9ef07533430c7276fb99a768a85215dd8ff1ed78e0b9a8b3f4d05bb219b65a43",
+      "headings": [
+        "示例",
+        "实例",
+        "特殊样式下拉菜单组",
+        "API 指导",
+        "class",
+        "方法"
+      ],
+      "documentedClasses": [
+        "por-col-12",
+        "por-mb-select-group",
+        "por-native",
+        "por-row",
+        "por-select",
+        "por-select-inline",
+        "por-select-text"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-select"
+      ]
+    },
+    {
+      "id": "service-table",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/service-table.md",
+      "sourceSha256": "42cb52518432841a49bb91d5daf4fc32cb0452fc9ecf1192084924fc1de24bb8",
+      "headings": [
+        "示例",
+        "楼层表格样式",
+        "深色表格",
+        "API 指导",
+        "class/属性"
+      ],
+      "documentedClasses": [
+        "por-scrollbar-m",
+        "por-service-table",
+        "por-service-table-body",
+        "por-service-table-cell",
+        "por-service-table-coltitle",
+        "por-service-table-head",
+        "por-service-table-row"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-service-table"
+      ]
+    },
+    {
+      "id": "tab",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/tab.md",
+      "sourceSha256": "ad528d4a55f734edc6486c73eb24ee74234da88e7e2d694d00058b1ea2aa451f",
+      "headings": [
+        "示例",
+        "基础实例",
+        "皮肤与布局",
+        "脚本初始化",
+        "页签横向滚动",
+        "API 指导",
+        "class/属性",
+        "方法",
+        "事件"
+      ],
+      "documentedClasses": [
+        "por-tab",
+        "por-tab-container",
+        "por-tab-content",
+        "por-tab-left",
+        "por-tab-light",
+        "por-tab-scroll",
+        "por-tab-text",
+        "por-tab-wrapper"
+      ],
+      "candidateExportMappings": [
+        "PortalFoldedMedia"
+      ],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-tabs"
+      ]
+    },
+    {
+      "id": "text",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/text.md",
+      "sourceSha256": "e4856c09fb2afe17750e9ab42d7768529b8222dfcc9d5e3b25d72d09e88bfcf3",
+      "headings": [
+        "使用规范",
+        "字号",
+        "字重"
+      ],
+      "documentedClasses": [
+        "por-base-font-weight-bold",
+        "por-base-font-weight-lighter",
+        "por-base-font-weight-normal",
+        "por-text-body-t1",
+        "por-text-body-t2",
+        "por-text-body-t3",
+        "por-text-title-t1",
+        "por-text-title-t2",
+        "por-text-title-t3"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    },
+    {
+      "id": "tips",
+      "kind": "component-family",
+      "source": "references/portalui-docs/baseui/tips.md",
+      "sourceSha256": "c851575a0ce6df2c91dffc31747cb8159a2c468acf57160aa2302e41d3dba579",
+      "headings": [
+        "示例",
+        "告警样式提示",
+        "矩形 tips",
+        "带箭头 tips",
+        "动画 tips",
+        "API 指导",
+        "方法 (API)"
+      ],
+      "documentedClasses": [
+        "por-btn",
+        "por-btn-primary",
+        "por-tips"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "dedicated-source-react-partial",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "explicit variant/state specification",
+        "public import",
+        "runtime hover/focus/disabled where applicable",
+        "keyboard and screen reader review",
+        "same-node design structure and screenshot",
+        "reference visual comparison"
+      ],
+      "dedicatedSourceComponents": [
+        "source-tips"
+      ]
+    },
+    {
+      "id": "variable",
+      "kind": "foundation-or-guide",
+      "source": "references/portalui-docs/baseui/variable.md",
+      "sourceSha256": "37c1550e44ca7cf865204f7f1e19d863195b9d72ac3891af9163994a2da55c50",
+      "headings": [
+        "倒角 (Border Radius)",
+        "基础投影 (Box Shadow)",
+        "蒙层"
+      ],
+      "documentedClasses": [
+        "por-modal"
+      ],
+      "candidateExportMappings": [],
+      "mappingMeaning": "candidate association to related behavior only; custom page wrappers do not implement complete base component API",
+      "implementation": "source-available",
+      "formalDesignConversion": "not_verified",
+      "requiredChecks": [
+        "scope and token-consumption review"
+      ]
+    }
+  ],
+  "formalCompletionMeaning": "No fully accepted family; individual engineering/runtime pilot checks do not complete all variants/states.",
+  "floorRegistry": "references/floor-component-registry.json"
+}

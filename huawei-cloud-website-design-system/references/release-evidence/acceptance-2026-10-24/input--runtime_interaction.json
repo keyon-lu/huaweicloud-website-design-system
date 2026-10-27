@@ -1,0 +1,97 @@
+{
+  "kind": "source-release-check",
+  "check": "input/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "family": "input",
+    "execution": "references/release-evidence/acceptance-2026-10-24/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-input--error-field",
+        "hasPlay": true,
+        "sourceFile": "./src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcefamilies-input--textarea",
+        "hasPlay": true,
+        "sourceFile": "./src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcefamilies-input--autocomplete",
+        "hasPlay": true,
+        "sourceFile": "./src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcefamilies-input--matrix",
+        "hasPlay": false,
+        "sourceFile": "./src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcepilots-searchinput--playground",
+        "hasPlay": true,
+        "sourceFile": "./src/components/search-input/search-input.stories.tsx",
+        "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+      },
+      {
+        "id": "sourcepilots-searchinput--disabled",
+        "hasPlay": true,
+        "sourceFile": "./src/components/search-input/search-input.stories.tsx",
+        "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+      },
+      {
+        "id": "sourcepilots-searchinput--matrix",
+        "hasPlay": false,
+        "sourceFile": "./src/components/search-input/search-input.stories.tsx",
+        "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+      },
+      {
+        "id": "sourcereference-input--matrix",
+        "hasPlay": true,
+        "sourceFile": "./src/components/search-input/source-reference.stories.tsx",
+        "sourceSha256": "fa2372fecb9e41686db914c4de5b6a4034ec1479d1d01bafad7d49a378f82371"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/input--runtime_interaction.json",
+    "recordSha256": "e0fbc9bb5e46e56d194c70cbb33e8c7ab91b4f2f48c9ec94706991d49d2c897e",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/input--runtime_interaction.json",
+    "sha256": "e334b43910191af6cf7a0684e0918edb325a38d30708efb263462cc6dd974ebb"
+  }
+}

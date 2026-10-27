@@ -1,0 +1,91 @@
+{
+  "scene": "campaign",
+  "hero": {
+    "title": "嘉宾楼层来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "speaker-cards-v1",
+      "id": "v1-speakers",
+      "title": "嘉宾介绍",
+      "subtitle": "来源肖像与可编辑人物信息验证",
+      "background": "grey",
+      "columns": 5,
+      "layout": "grid",
+      "initialRows": 1,
+      "labels": {
+        "previous": "上一组嘉宾",
+        "next": "下一组嘉宾",
+        "expand": "展开全部嘉宾",
+        "collapse": "收起嘉宾",
+        "navigation": "嘉宾切换"
+      },
+      "items": [
+        {
+          "id": "guest-0",
+          "name": "嘉宾示例 1",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        },
+        {
+          "id": "guest-1",
+          "name": "嘉宾示例 2",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        },
+        {
+          "id": "guest-2",
+          "name": "嘉宾示例 3",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        },
+        {
+          "id": "guest-3",
+          "name": "嘉宾示例 4",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        },
+        {
+          "id": "guest-4",
+          "name": "嘉宾示例 5",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        },
+        {
+          "id": "guest-5",
+          "name": "嘉宾示例 6",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        },
+        {
+          "id": "guest-6",
+          "name": "嘉宾示例 7",
+          "description": "职位介绍可一行或两行",
+          "details": "人物履历示例：这里由调用方提供人物信息。",
+          "asset": "product-v1-speaker-photo",
+          "mobileAsset": "product-v1-speaker-mobile-photo",
+          "alt": "设计规范中的人物示例照片"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "protected-component-behavior-only-correction",
+  "date": "2026-10-25",
+  "baseline": "2.6.0-rc13",
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "3b15f16431bbf567226ce48c91066623e552b852078213d1358064d4c0fec70b",
+      "afterSha256": "4e21f818904aa6b1d1cffb5609f72b517dc5ed1c43769f7b69f3915cdbfb1f12"
+    }
+  ],
+  "changedSharedFunctions": [
+    "PortalSolutionCards"
+  ],
+  "allowedChangedHelper": "update",
+  "returnJsxUnchanged": true,
+  "baselineSnapshotUnmodified": true,
+  "newOwnerApprovals": 0,
+  "formalRelease": false
+}

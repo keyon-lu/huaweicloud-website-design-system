@@ -1,0 +1,65 @@
+{
+  "kind": "source-release-check",
+  "check": "input/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "input",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-input--error-field",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcefamilies-input--textarea",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcefamilies-input--autocomplete",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcefamilies-input--matrix",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+        "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+      },
+      {
+        "id": "sourcepilots-searchinput--playground",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+        "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+      },
+      {
+        "id": "sourcepilots-searchinput--disabled",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+        "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+      },
+      {
+        "id": "sourcepilots-searchinput--matrix",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+        "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+      },
+      {
+        "id": "sourcereference-input--matrix",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/search-input/source-reference.stories.tsx",
+        "sourceSha256": "fa2372fecb9e41686db914c4de5b6a4034ec1479d1d01bafad7d49a378f82371"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

@@ -1,0 +1,16 @@
+{
+ "schemaVersion":1,
+ "requiredPolicy":"Every runtime-manifest entry is required for distribution integrity. Every local Markdown reference in any packaged document must exist inside the package and be in that manifest. All four workflow roots are required; imported runtime dependencies are additionally checked by source compilation, template integrity and builds. An explicit source-document reference is conditional reading for the relevant component, never permission to silently ignore a missing local file.",
+ "failurePolicy":"Stop affected workflow, keep existing outputs, report missing path and branch. Shared root/registry/script failure blocks all dependent core workflows; do not downgrade it to optional. Other verified independent branches may continue.",
+ "branches":{
+  "website-product-floor":{"core":true,"roots":["SKILL.md","skills/product/SKILL.md","references/product-pages.md","references/default-product-generation.md","references/page-resource-manifest.json","scripts/generate-page.mjs","src/components/portal-components.tsx"]},
+  "developer-portal":{"core":true,"roots":["SKILL.md","skills/developer/SKILL.md","references/developer-pages.md","references/component-contract.md","scripts/generate-page.mjs","src/components/portal-components.tsx"]},
+  "website-composed":{"core":true,"roots":["SKILL.md","skills/composed/SKILL.md","references/composed-pages.md","scripts/generate-page.mjs","scripts/composed-content.mjs","src/components/portal-components.tsx"]},
+  "local-search-validation":{"core":true,"roots":["SKILL.md","skills/search/SKILL.md","references/local-search.md","scripts/generate-search-project.mjs","assets/search-workspace/template-manifest.json","assets/search-workspace/package.json"]}
+ },
+ "optionalResources":[
+  {"resource":"HuaweiSans font binary","localPath":null,"branches":["website-product-floor","developer-portal","website-composed","local-search-validation"],"reason":"Not bundled or needed for operation; use documented system font fallback and disclose reference-quality difference."},
+  {"resource":"External website URLs and original documentation links","localPath":null,"branches":["website-product-floor","developer-portal","website-composed","local-search-validation"],"reason":"Reference/navigation destinations, not runtime library dependencies; no online availability claim or automatic fetching."},
+  {"resource":"Pixso connector and exact-node design assets","localPath":null,"branches":[],"reason":"Future separate Pixso certification only; user confirmed current PortalUI source baseline. Never claim Pixso conversion from source checks."}
+ ]
+}

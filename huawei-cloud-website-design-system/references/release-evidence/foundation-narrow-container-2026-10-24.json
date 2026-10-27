@@ -1,0 +1,30 @@
+{
+  "kind": "foundation-narrow-container-fix",
+  "date": "2026-10-24",
+  "scope": "Input width containment under font enlargement; badge and tab story layout only. No source button/card/type/color/spacing changes; no new owner approval.",
+  "changes": [
+    {
+      "path": "assets/search-workspace/src/components/search-input/input-family.css",
+      "beforeSha256": "e29fd0ad53fa6f13cbb108467f389f04233001c7d5ac43206cd6b56e90c5886d",
+      "afterSha256": "0f3ad6a456f9f083d81c48ca56dee346a298d69a6b322bb3876968d1ecd249c0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/source-label.stories.tsx",
+      "beforeSha256": "fc837f5c1043bf604598e61682b162b716b355e175b132b65fb7c9193588f536",
+      "afterSha256": "39e44afc5561c86b7d5bb60ee8ad7aa8da484dc8cc7c3038d258161b8071f944"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tabs/source-tabs.stories.tsx",
+      "beforeSha256": "9d3f83a16f0a65fc8dfdb6000dabdd7449a2189eb1e0d0338ee739815aad64b6",
+      "afterSha256": "4b249d7586cbfd2c2fb6fb0f47102fa4465dd75bc8dbf16d0d9e29280957789b"
+    },
+    {
+      "path": "assets/search-workspace/src/components-specs/search-input.md",
+      "beforeSha256": "c098f5164ef09520f0e206afc5cf2d32b89a6de00425232ac92405273a9af4e7",
+      "afterSha256": "b43ebed0c08ba7371641b372b07354655a694695bb9f2fb1c101282ed87fe18f"
+    }
+  ],
+  "componentTsxUnchanged": true,
+  "newOwnerApprovals": 0,
+  "initialBrowserEvidence": "foundation-responsive-initial.json"
+}

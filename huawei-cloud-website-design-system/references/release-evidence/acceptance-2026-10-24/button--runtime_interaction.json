@@ -1,0 +1,97 @@
+{
+  "kind": "source-release-check",
+  "check": "button/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "family": "button",
+    "execution": "references/release-evidence/acceptance-2026-10-24/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-button--disabled-activation",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-button/button-family.stories.tsx",
+        "sourceSha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d"
+      },
+      {
+        "id": "sourcefamilies-button--icon-and-block",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-button/button-family.stories.tsx",
+        "sourceSha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d"
+      },
+      {
+        "id": "designcorrections-actions--text-and-image",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-button/design-actions.stories.tsx",
+        "sourceSha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8"
+      },
+      {
+        "id": "designcorrections-actions--dropdown",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-button/design-actions.stories.tsx",
+        "sourceSha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8"
+      },
+      {
+        "id": "sourcepilots-sourcebutton--playground",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-button/source-button.stories.tsx",
+        "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+      },
+      {
+        "id": "sourcepilots-sourcebutton--disabled",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-button/source-button.stories.tsx",
+        "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+      },
+      {
+        "id": "sourcepilots-sourcebutton--matrix",
+        "hasPlay": false,
+        "sourceFile": "./src/components/source-button/source-button.stories.tsx",
+        "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+      },
+      {
+        "id": "sourcereference-button--matrix",
+        "hasPlay": true,
+        "sourceFile": "./src/components/source-button/source-reference.stories.tsx",
+        "sourceSha256": "d1a585ffd8bd7a872bad007700c0b23eac277d27bf1ac3f69c1f3dc6ed920764"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/button--runtime_interaction.json",
+    "recordSha256": "ec495223e853d0c623efa5680a2d30dd6d1ab205ac8e61b82839adc35c671ed7",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/button--runtime_interaction.json",
+    "sha256": "71f407c691360280e584d1eea981634b63a4f8f3a7658ba62dd4c5ccd7c1e120"
+  }
+}

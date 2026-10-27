@@ -1,0 +1,174 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "v1产品分类验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "anchored-product-catalog",
+      "id": "catalog-v1",
+      "title": "产品分类",
+      "showTitle": false,
+      "groups": [
+        {
+          "id": "category-0",
+          "title": "计算",
+          "sections": [
+            {
+              "id": "basic",
+              "title": "基础服务",
+              "products": [
+                {
+                  "id": "product-0",
+                  "title": "服务能力一",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-0"
+                },
+                {
+                  "id": "product-1",
+                  "title": "服务能力二",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-0"
+                },
+                {
+                  "id": "product-2",
+                  "title": "服务能力三",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "category-1",
+          "title": "容器",
+          "sections": [
+            {
+              "id": "basic",
+              "title": "基础服务",
+              "products": [
+                {
+                  "id": "product-0",
+                  "title": "服务能力一",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-1"
+                },
+                {
+                  "id": "product-1",
+                  "title": "服务能力二",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-1"
+                },
+                {
+                  "id": "product-2",
+                  "title": "服务能力三",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "category-2",
+          "title": "存储",
+          "sections": [
+            {
+              "id": "basic",
+              "title": "基础服务",
+              "products": [
+                {
+                  "id": "product-0",
+                  "title": "服务能力一",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-2"
+                },
+                {
+                  "id": "product-1",
+                  "title": "服务能力二",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-2"
+                },
+                {
+                  "id": "product-2",
+                  "title": "服务能力三",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "category-3",
+          "title": "网络",
+          "sections": [
+            {
+              "id": "basic",
+              "title": "基础服务",
+              "products": [
+                {
+                  "id": "product-0",
+                  "title": "服务能力一",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-3"
+                },
+                {
+                  "id": "product-1",
+                  "title": "服务能力二",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-3"
+                },
+                {
+                  "id": "product-2",
+                  "title": "服务能力三",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "category-4",
+          "title": "开发工具",
+          "sections": [
+            {
+              "id": "basic",
+              "title": "基础服务",
+              "products": [
+                {
+                  "id": "product-0",
+                  "title": "服务能力一",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-4"
+                },
+                {
+                  "id": "product-1",
+                  "title": "服务能力二",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-4"
+                },
+                {
+                  "id": "product-2",
+                  "title": "服务能力三",
+                  "description": "产品分类组件验证说明",
+                  "href": "#catalog-v1-category-4"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "background": "grey",
+      "stickyOffset": 0,
+      "labels": {
+        "navigation": "产品分类导航",
+        "expand": "展开全部产品分类",
+        "collapse": "收起产品分类"
+      }
+    }
+  ]
+}

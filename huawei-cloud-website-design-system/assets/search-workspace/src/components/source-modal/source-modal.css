@@ -1,0 +1,11 @@
+/* Layout adaptation only: source skin, dependency-owned buttons/inputs remain unchanged. */
+:root{--hc-modal-available-width:calc(100vw - 48px)}
+.source-modal-shell .por-modal-dialog{max-width:var(--hc-modal-available-width)}
+@media(max-width:375px){:root{--hc-modal-available-width:calc(100vw - 28px)}}
+
+.source-modal-shell .por-modal-title{margin:0}
+.source-modal-shell .por-modal{overflow-y:auto;overscroll-behavior:contain;align-items:safe center}
+.source-modal-shell .por-modal-title,.source-modal-shell .por-modal-body{overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){.source-modal-shell .por-modal{transition:none}}
+.source-modal-shell button.por-modal-close{background:var(--por-color-background-transparent);border:0;font:inherit}
+.source-modal-shell button.por-modal-close:focus-visible{outline:var(--hc-t-control-focus-width) solid var(--por-color-border-input-active);outline-offset:var(--hc-t-control-focus-offset)}

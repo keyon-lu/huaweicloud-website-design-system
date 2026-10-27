@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "profile": "source-prototype composition index, not official converted registry",
+  "blocks": [
+    {
+      "id": "text",
+      "components": [
+        "PortalSection",
+        "PortalTextContent"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    },
+    {
+      "id": "cards",
+      "components": [
+        "PortalSection",
+        "PortalCards"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    },
+    {
+      "id": "folded-media",
+      "components": [
+        "PortalFoldedMedia"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    },
+    {
+      "id": "solution-cards",
+      "components": [
+        "PortalSolutionCards"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    },
+    {
+      "id": "customer-cases",
+      "components": [
+        "PortalCustomerCases"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    },
+    {
+      "id": "resources",
+      "components": [
+        "PortalProductResources"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    },
+    {
+      "id": "faq",
+      "components": [
+        "PortalProductQuestions"
+      ],
+      "spec": "references/component-contract.md",
+      "status": "shared source pattern, not formal Pixso block conversion"
+    }
+  ]
+}

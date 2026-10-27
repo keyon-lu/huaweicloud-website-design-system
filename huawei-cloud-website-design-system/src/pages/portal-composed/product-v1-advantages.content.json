@@ -1,0 +1,114 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "优势特性卡片来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "advantage-illustrations-v1",
+      "id": "v1-advantages",
+      "title": "基础服务",
+      "background": "grey",
+      "cardBackground": "white",
+      "columns": 4,
+      "labels": {
+        "actions": "卡片操作"
+      },
+      "items": [
+        {
+          "id": "service-0",
+          "title": "自助服务",
+          "description": "为您提供可查询的服务说明与使用指南。",
+          "asset": "product-v1-advantage-image",
+          "mobileAsset": "product-v1-advantage-mobile",
+          "mobileTagAsset": "product-v1-advantage-mobile-tags",
+          "alt": "来源规范中的服务插画",
+          "tags": [
+            {
+              "text": "个人认证",
+              "color": "default"
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看更多",
+              "href": "#v1-advantages",
+              "variant": "secondary"
+            }
+          ],
+          "mobileHref": "#v1-advantages"
+        },
+        {
+          "id": "service-1",
+          "title": "热线电话",
+          "description": "为您提供可查询的服务说明与使用指南。",
+          "asset": "product-v1-advantage-image",
+          "mobileAsset": "product-v1-advantage-mobile",
+          "mobileTagAsset": "product-v1-advantage-mobile-tags",
+          "alt": "来源规范中的服务插画",
+          "tags": [
+            {
+              "text": "个人认证",
+              "color": "default"
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看更多",
+              "href": "#v1-advantages",
+              "variant": "secondary"
+            }
+          ],
+          "mobileHref": "#v1-advantages"
+        },
+        {
+          "id": "service-2",
+          "title": "工单服务",
+          "description": "为您提供可查询的服务说明与使用指南。",
+          "asset": "product-v1-advantage-image",
+          "mobileAsset": "product-v1-advantage-mobile",
+          "mobileTagAsset": "product-v1-advantage-mobile-tags",
+          "alt": "来源规范中的服务插画",
+          "tags": [
+            {
+              "text": "个人认证",
+              "color": "default"
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看更多",
+              "href": "#v1-advantages",
+              "variant": "secondary"
+            }
+          ],
+          "mobileHref": "#v1-advantages"
+        },
+        {
+          "id": "service-3",
+          "title": "建议反馈",
+          "description": "为您提供可查询的服务说明与使用指南。",
+          "asset": "product-v1-advantage-image",
+          "mobileAsset": "product-v1-advantage-mobile",
+          "mobileTagAsset": "product-v1-advantage-mobile-tags",
+          "alt": "来源规范中的服务插画",
+          "tags": [
+            {
+              "text": "个人认证",
+              "color": "default"
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看更多",
+              "href": "#v1-advantages",
+              "variant": "secondary"
+            }
+          ],
+          "mobileHref": "#v1-advantages"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1317 @@
+{
+  "onlineId": "ONLINE-04",
+  "fileKey": "J_f7HMBXcQYmbTo6Cjgz6Q",
+  "url": "https://pixso.cn/app/design/J_f7HMBXcQYmbTo6Cjgz6Q?item-id=57:380",
+  "sourceId": "PIX-014",
+  "fileName": "Cloud UI_v1.0.0_PC样式库（官网）",
+  "localSource": "设计源文件/Cloud UI_v1.0.0_PC样式库（官网）.pix",
+  "archiveSha256": "e10278bec237f6b4cab408c12fbce5147e6ac51f3035921164d9d1bfcb5cf921",
+  "onlineRead": "verified-directory-and-normative-rule-text",
+  "correspondence": "Public page rule text checked online, with inherited instance text included; no claim of whole-file byte/style/image identity",
+  "ownerIssuePolicy": "collect questions and continue independent construction; conflicting branches remain scoped pending; no silent approvals",
+  "pages": [
+    {
+      "pageId": "0:1",
+      "name": "页面 1",
+      "path": "页面 1",
+      "url": "https://pixso.cn/app/design/J_f7HMBXcQYmbTo6Cjgz6Q?item-id=0:1",
+      "frames": [
+        "57:267",
+        "2179:1",
+        "11:660",
+        "57:380"
+      ],
+      "designNotes": [
+        {
+          "text": "文本链接色_默认/悬浮",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:137"
+          ]
+        },
+        {
+          "text": "--por-color-icon-border-control-video-hover",
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "350:35",
+            "350:37"
+          ]
+        },
+        {
+          "text": "输入框里默认文字",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "11:708"
+          ]
+        },
+        {
+          "text": "0 0px 0px 0 rgba(0,0,0,0.00)",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "57:208"
+          ]
+        },
+        {
+          "text": "默认/输入框边框色",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "48:463"
+          ]
+        },
+        {
+          "text": "--por-color-border-hover",
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "49:472"
+          ]
+        },
+        {
+          "text": "Tab文本色_默认",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:153"
+          ]
+        },
+        {
+          "text": "--por-color-border-hover",
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "sourceNodeIds": [
+            "49:474"
+          ]
+        },
+        {
+          "text": "--por-color-icon-control-video-hover",
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "350:7",
+            "350:5"
+          ]
+        },
+        {
+          "text": "图片底按钮背景色-默认/禁用",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:186",
+            "572:1"
+          ]
+        },
+        {
+          "text": "输入框边框色_禁用/边框色_禁用",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "49:486"
+          ]
+        },
+        {
+          "text": "--por-color-bg-carousel-hover",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "45:300",
+            "572:14",
+            "45:298",
+            "572:16"
+          ]
+        },
+        {
+          "text": "文本链接色_禁用",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:129"
+          ]
+        },
+        {
+          "text": "文本链接色_默认",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:106"
+          ]
+        },
+        {
+          "text": "--por-color-bg-control-video-hover",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:203"
+          ]
+        },
+        {
+          "text": "文本禁用色",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "26:25"
+          ]
+        },
+        {
+          "text": "--por-color-bg-control-video-hover",
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "33:201"
+          ]
+        },
+        {
+          "text": "0px 4px 22px 0 rgba(0,0,0,0.08)",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "57:213"
+          ]
+        },
+        {
+          "text": " 0 2px 12px 0 rgba(0,0,0,0.08)",
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "57:203"
+          ]
+        },
+        {
+          "text": "--por-color-bg-primary-hover",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "45:263",
+            "45:265"
+          ]
+        },
+        {
+          "text": "按钮重要边框色_默认",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "45:403"
+          ]
+        },
+        {
+          "text": "视频播放按钮图标描边色_禁用",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "350:25"
+          ]
+        },
+        {
+          "text": "Font 字号",
+          "fontSize": 48,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "57:282"
+          ]
+        },
+        {
+          "text": "用于按钮禁用色",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "11:771"
+          ]
+        },
+        {
+          "text": "0 1px 4px 0 rgba(0,0,0,0.08)",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "57:198"
+          ]
+        },
+        {
+          "text": "播放按钮背景-默认/禁用",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "11:7"
+          ]
+        },
+        {
+          "text": "禁用色",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "45:290"
+          ]
+        },
+        {
+          "text": "视频播放按钮背景色-默认/禁用",
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "sourceNodeIds": [
+            "492:22"
+          ]
+        }
+      ],
+      "sourceTextNodeCount": 985,
+      "typographySamples": [
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "113:267",
+            "113:86",
+            "113:167",
+            "113:351",
+            "113:438",
+            "113:268",
+            "113:225",
+            "113:256"
+          ],
+          "occurrences": 367
+        },
+        {
+          "fontName": {
+            "family": "Microsoft YaHei",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "11:789",
+            "11:800",
+            "328:3",
+            "11:847",
+            "49:529",
+            "52:136",
+            "48:464",
+            "33:44"
+          ],
+          "occurrences": 271
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "value": 40,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 473
+          },
+          "sampleNodeIds": [
+            "57:469"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "Microsoft YaHei",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "11:896",
+            "33:37",
+            "52:176",
+            "11:888",
+            "11:880",
+            "11:824",
+            "350:28",
+            "52:70"
+          ],
+          "occurrences": 170
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 58,
+            "localID": 98
+          },
+          "sampleNodeIds": [
+            "57:526",
+            "403:5",
+            "57:426",
+            "683:4",
+            "114:14",
+            "57:482",
+            "114:12",
+            "114:26"
+          ],
+          "occurrences": 66
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 404
+          },
+          "sampleNodeIds": [
+            "49:531",
+            "48:467",
+            "49:490",
+            "48:459",
+            "49:475",
+            "48:436",
+            "350:29",
+            "49:474"
+          ],
+          "occurrences": 24
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "113:639",
+            "113:641",
+            "113:640",
+            "113:637",
+            "113:615",
+            "113:627",
+            "113:628",
+            "113:635"
+          ],
+          "occurrences": 24
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "value": 60,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 515
+          },
+          "sampleNodeIds": [
+            "57:511"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 16,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "113:71",
+            "113:153",
+            "113:112",
+            "113:317",
+            "113:522",
+            "113:358",
+            "113:235",
+            "113:563"
+          ],
+          "occurrences": 14
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 114,
+            "localID": 17
+          },
+          "sampleNodeIds": [
+            "114:13"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 48,
+          "lineHeight": {
+            "value": 72,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 543
+          },
+          "sampleNodeIds": [
+            "57:539"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 56,
+          "lineHeight": {
+            "value": 80,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "683:3"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 114,
+            "localID": 10
+          },
+          "sampleNodeIds": [
+            "114:6"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 114,
+            "localID": 29
+          },
+          "sampleNodeIds": [
+            "114:25"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 48,
+          "lineHeight": {
+            "value": 72,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 550
+          },
+          "sampleNodeIds": [
+            "57:546"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "Microsoft YaHei",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "57:410",
+            "57:215",
+            "11:13",
+            "11:943",
+            "45:415",
+            "33:161",
+            "11:951",
+            "52:8"
+          ],
+          "occurrences": 10
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 60,
+          "lineHeight": {
+            "value": 84,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 571
+          },
+          "sampleNodeIds": [
+            "57:567"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "Huawei Sans",
+            "style": "Bold",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": {
+            "value": 14,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 350,
+            "localID": 66
+          },
+          "sampleNodeIds": [
+            "350:46"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "Microsoft YaHei",
+            "style": "Bold",
+            "postscript": ""
+          },
+          "fontSize": 48,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "57:265",
+            "11:658",
+            "57:282"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 36,
+          "lineHeight": {
+            "value": 54,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 508
+          },
+          "sampleNodeIds": [
+            "57:504"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "value": 60,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 522
+          },
+          "sampleNodeIds": [
+            "57:518"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 44,
+          "lineHeight": {
+            "value": 66,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 529
+          },
+          "sampleNodeIds": [
+            "57:525"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 404,
+            "localID": 9
+          },
+          "sampleNodeIds": [
+            "403:4"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 52,
+          "lineHeight": {
+            "value": 78,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 564
+          },
+          "sampleNodeIds": [
+            "57:560"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 52,
+          "lineHeight": {
+            "value": 78,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 557
+          },
+          "sampleNodeIds": [
+            "57:553"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 18,
+          "lineHeight": {
+            "value": 28,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 438
+          },
+          "sampleNodeIds": [
+            "57:434"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "Noto Sans SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "57:203"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "value": 36,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 459
+          },
+          "sampleNodeIds": [
+            "57:455"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 18,
+          "lineHeight": {
+            "value": 28,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 431
+          },
+          "sampleNodeIds": [
+            "57:427"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 60,
+          "lineHeight": {
+            "value": 84,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 578
+          },
+          "sampleNodeIds": [
+            "57:574"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "113:24",
+            "113:22"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 391
+          },
+          "sampleNodeIds": [
+            "57:385"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 417
+          },
+          "sampleNodeIds": [
+            "57:413"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 20,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "113:23"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 32,
+          "lineHeight": {
+            "value": 48,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 487
+          },
+          "sampleNodeIds": [
+            "57:483"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 36,
+          "lineHeight": {
+            "value": 54,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 501
+          },
+          "sampleNodeIds": [
+            "57:497"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "value": 36,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 466
+          },
+          "sampleNodeIds": [
+            "57:462"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 424
+          },
+          "sampleNodeIds": [
+            "57:420"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "value": 30,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 445
+          },
+          "sampleNodeIds": [
+            "57:441"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Light",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 18,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 389
+          },
+          "sampleNodeIds": [
+            "57:286"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 44,
+          "lineHeight": {
+            "value": 66,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 536
+          },
+          "sampleNodeIds": [
+            "57:532"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "value": 30,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 452
+          },
+          "sampleNodeIds": [
+            "57:448"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 32,
+          "lineHeight": {
+            "value": 48,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 494
+          },
+          "sampleNodeIds": [
+            "57:490"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "value": 40,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 57,
+            "localID": 480
+          },
+          "sampleNodeIds": [
+            "57:476"
+          ],
+          "occurrences": 1
+        }
+      ],
+      "stateGroups": [],
+      "viewportEvidence": [
+        {
+          "id": "57:266",
+          "name": "top",
+          "size": {
+            "x": 1920,
+            "y": 144
+          },
+          "path": "页面 1 / 阴影/Shadow / top"
+        },
+        {
+          "id": "57:267",
+          "name": "阴影/Shadow",
+          "size": {
+            "x": 1920,
+            "y": 2000
+          },
+          "path": "页面 1 / 阴影/Shadow"
+        },
+        {
+          "id": "11:659",
+          "name": "top",
+          "size": {
+            "x": 1920,
+            "y": 144
+          },
+          "path": "页面 1 / 颜色/Color / top"
+        },
+        {
+          "id": "57:283",
+          "name": "top",
+          "size": {
+            "x": 1920,
+            "y": 144
+          },
+          "path": "页面 1 / 字体/Font / top"
+        },
+        {
+          "id": "11:660",
+          "name": "颜色/Color",
+          "size": {
+            "x": 1920,
+            "y": 4410
+          },
+          "path": "页面 1 / 颜色/Color"
+        },
+        {
+          "id": "57:380",
+          "name": "字体/Font",
+          "size": {
+            "x": 1920,
+            "y": 2596
+          },
+          "path": "页面 1 / 字体/Font"
+        }
+      ],
+      "adoption": "source-specific rules; current owner decisions override stated conflicts; no newest-file priority",
+      "onlineRuleVerification": {
+        "method": "sorted id/text FNV1a32 comparison to current online traversal",
+        "nodeCount": 35,
+        "fingerprint": "64d3cef4",
+        "scope": "Change detection only; not cryptographic file identity or style/asset acceptance"
+      }
+    }
+  ],
+  "onlineRulesVerifiedPages": 1
+}

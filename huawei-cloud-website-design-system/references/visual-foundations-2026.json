@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "authority": "Owner-approved product/developer presentation first; foundations apply to missing/new components, not retrospective restyling",
+  "rules": [
+    {
+      "id": "product-service-size",
+      "sourceId": "PIX-007",
+      "nodeId": "4:1436",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-11 / Text/Note备份 10",
+      "sourceText": "默认图标大小为72px，倒角为16px，倒角随尺寸压缩变化而缩放",
+      "values": {
+        "size": 72,
+        "radius": 16
+      },
+      "scope": "New product-service icon assets; scale radius proportionally; approved component dimensions remain fixed",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "product-service-safe-area",
+      "sourceId": "PIX-007",
+      "nodeId": "4:1451",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-11 / Text/Note备份 12",
+      "sourceText": "主体图形区域默认大小为48x48px，但可根据图标形状的特殊性适当增加视觉重量，确保图标视觉整体感受的一致性，但主图形到外轮廓的距离不得小于2px；主体图形颜色根据服务的类别选取色板中的颜色（线性渐变），投影值采用对应颜色的20%-25%（纯色）",
+      "values": {
+        "subjectDefault": 48,
+        "minInset": 2,
+        "shadowAlpha": [
+          0.2,
+          0.25
+        ]
+      },
+      "scope": "Product service main glyph and source semantic gradient; do not replace the glyph with arbitrary geometric symbols",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "product-service-white-surface",
+      "sourceId": "PIX-007",
+      "nodeId": "4:1612",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-14 / 容器 91334307 / 组合 91335370",
+      "sourceText": "图标放在白色背景上\n背景色：线性渐变（位置0% #FCFCFC ——位置40% #F2F2F2——位置77% #F1F1F1——位置100% #FAFAFA）\n描边：线性渐变（位置0% #FFFFFF Alpha 44%——位置39% #FFFFFF Alpha 100%——位置76% #F0F0F0 Alpha 100%——位置100% #E8E8E8 Alpha 100%）\n图形颜色：线性渐变（根据图标色板及语义）\n图形投影：纯色（X:15 | Y:15 | Blur:40 | Alpha 20%-25%）",
+      "values": {
+        "surfaceStops": [
+          "#FCFCFC",
+          "#F2F2F2",
+          "#F1F1F1",
+          "#FAFAFA"
+        ],
+        "surfacePositions": [
+          0,
+          40,
+          77,
+          100
+        ],
+        "glyphShadow": {
+          "x": 15,
+          "y": 15,
+          "blur": 40,
+          "alpha": [
+            0.2,
+            0.25
+          ]
+        }
+      },
+      "scope": "Source service icon on white only; scale image artwork, do not add an extra CSS shadow to an already baked export",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "product-service-other-surface",
+      "sourceId": "PIX-007",
+      "nodeId": "4:1704",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-14 / 容器 91334307 / 组合 91335369",
+      "sourceText": "图标放在非白色背景上\n背景色：纯色（#FFFFFF）\n描边：无\n背景投影：纯色（X:0 | Y:8 | Blur:6 | #999999 Alpha 25%），PEP配置时有多个投影色值，建议选择灰色投影，切图时不需要\n图形颜色：线性渐变（根据图标色板及语义）\n图形投影：无",
+      "values": {
+        "surface": "#FFFFFF",
+        "shadow": {
+          "x": 0,
+          "y": 8,
+          "blur": 6,
+          "color": "#999999",
+          "alpha": 0.25
+        }
+      },
+      "scope": "Nonwhite surface product service icon only; export omits configuration-applied shadow",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "product-service-usage",
+      "sourceId": "PIX-007",
+      "nodeId": "4:1459",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 组合 25",
+      "sourceText": "采用APP化的形态设计，图标结合业务属性表达含义，质感趋于统一，配色上可进行差异化表达。\n使用场景：产品页banner、精选推荐、建议搭配使用等需要用到产品服务图标的场景。\n备注：多个服务以分类列表形式展示在同一个页面时，不显示图标（如顶部产品下拉导航）。",
+      "values": {
+        "allowed": [
+          "product-banner",
+          "recommendation",
+          "related-products"
+        ],
+        "hideInProductCategoryNavigation": true
+      },
+      "scope": "Product service icon; category-list navigation remains text as source states",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "architecture-service",
+      "sourceId": "PIX-007",
+      "nodeId": "4:2144",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 组合 91335358 / 组合 91335428 / 组合 91335426 / Text/Note备份 10",
+      "sourceText": "架构图里产品服务图标等比缩放到28*28px,使用服务图标中的图形",
+      "values": {
+        "size": 28
+      },
+      "scope": "Architecture diagram: main service glyph only, not the full72px app-style tile",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "architecture-service-color",
+      "sourceId": "PIX-007",
+      "nodeId": "4:2153",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 组合 91335358 / 组合 91335428 / 组合 91335426 / Text/Note备份 12",
+      "sourceText": "云服务图标使用蓝色#1476FF，去掉投影",
+      "values": {
+        "color": "#1476FF",
+        "shadow": "none"
+      },
+      "scope": "Architecture service glyph only; this blue is allowed and never applied to buttons",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "architecture-public",
+      "sourceId": "PIX-007",
+      "nodeId": "4:2057",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 组合 91335358 / 组合 91335428 / 组合 91335425 / Text/Note备份 14",
+      "sourceText": "架构图里公共性图标尺寸28*28px,根据具体图形语意来确定图标形态，推荐面性，\n可根据图标形状的特殊性适当增加视觉重量，确保图标视觉整体感受的一致性",
+      "values": {
+        "size": 28,
+        "prefer": "filled"
+      },
+      "scope": "Public architecture symbols; maintain consistent optical weight",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "architecture-public-color",
+      "sourceId": "PIX-007",
+      "nodeId": "4:2063",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 组合 91335358 / 组合 91335428 / 组合 91335425 / Text/Note备份 16",
+      "sourceText": "公共性图标使用绿色#5CB300或紫色#832FD6",
+      "values": {
+        "colors": [
+          "#5CB300",
+          "#832FD6"
+        ]
+      },
+      "scope": "Public architecture symbols only; semantic choice follows diagram meaning",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-export",
+      "sourceId": "PIX-009",
+      "nodeId": "2:7451",
+      "path": "页面 1 / 插画规范 / content / 切图规范 / title / Text/04正文文本备份 13",
+      "sourceText": "切图尺寸：900*高度不限@2x\n               高度建议在440px-680px之间\n               图形主体部分控制在蓝色区域内，四周适当留白，最小边距32px，主体图形视觉需局中\n               切图不需要带圆角\n",
+      "values": {
+        "exportWidth": 900,
+        "scale": 2,
+        "recommendedHeight": [
+          440,
+          680
+        ],
+        "minInset": 32,
+        "subjectAlign": "center",
+        "bakedRadius": false
+      },
+      "scope": "Illustration export canvas; source @2x basis preserved, not assumed to be CSS900px width",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-mobile",
+      "sourceId": "PIX-009",
+      "nodeId": "2:8411",
+      "path": "页面 1 / 插画规范 / content / 切图规范 / content / 容器 91334866",
+      "sourceText": "移动端规则：原则上使用pc端切图等比例缩放，建议配置图片后预览移动端效果，保障图片完整显示 \n                  安全边距为12px \n",
+      "values": {
+        "fit": "contain",
+        "preserveAspect": true,
+        "safeInset": 12
+      },
+      "scope": "Illustration media internal safety area on mobile; does not replace global24/14px page margins",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-palette",
+      "sourceId": "PIX-009",
+      "nodeId": "2:1841",
+      "path": "页面 1 / 插画规范 / content / colour / title / 编组 50 / 编组 49",
+      "sourceText": "采用三种主要颜色：蓝、绿、紫，以带给观众安全可靠和愉悦的感受。\n使用中性灰座位背景色，并增加小面积渐变和AIGC图形。渐变色为蓝色、紫色和灰色。",
+      "values": {
+        "primaryFamilies": [
+          "blue",
+          "green",
+          "purple"
+        ],
+        "surface": "neutral-grey",
+        "gradientFamilies": [
+          "blue",
+          "purple",
+          "grey"
+        ]
+      },
+      "scope": "New illustrations only; broad color families are not invented exact token values",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-main",
+      "sourceId": "PIX-009",
+      "nodeId": "2:2377",
+      "path": "页面 1 / 插画规范 / content / 构图 / 1 / 主题最大尺寸",
+      "sourceText": "主体图形的最大尺寸：当画布尺寸较大时，不要过度放大主体图形。\n6.主体图形的最大尺寸：436*436px",
+      "values": {
+        "maxWidth": 436,
+        "maxHeight": 436
+      },
+      "scope": "Main pictorial illustration; not chart-card maximum",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-chart",
+      "sourceId": "PIX-009",
+      "nodeId": "2:3745",
+      "path": "页面 1 / 插画规范 / content / 构图 / 2 / 容器 91334872 / 主题最大尺寸",
+      "sourceText": "图表卡片的最大尺寸：当画布尺寸较大时，不要过度放大图表卡片。\n4.图表卡片的最大尺寸：740*550px",
+      "values": {
+        "maxWidth": 740,
+        "maxHeight": 550
+      },
+      "scope": "Chart-card composition only, separate from main pictorial illustration",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-rounding",
+      "sourceId": "PIX-009",
+      "nodeId": "2:2089",
+      "path": "页面 1 / 插画规范 / content / 圆角 / Text/04正文文本备份 14",
+      "sourceText": "线条的折角，与卡片都采用圆角设计，1920分辨率下，圆角为4的倍数。",
+      "values": {
+        "step": 4,
+        "referenceViewport": 1920
+      },
+      "scope": "New illustration line turns and cards only; do not globally snap approved UI radii",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-background",
+      "sourceId": "PIX-009",
+      "nodeId": "2:5195",
+      "path": "页面 1 / 插画规范 / content / 背景 / 2",
+      "sourceText": "背景层由线条构成，可以是虚线，也可以是实线，用于辅助主体图形的表达。\n不使用过多颜色，或面形图形，避免干扰视觉中心。",
+      "values": {
+        "elements": [
+          "solid-lines",
+          "dashed-lines"
+        ],
+        "avoid": "many colors or filled background shapes competing with subject"
+      },
+      "scope": "Illustration supporting background",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-auxiliary-limits",
+      "sourceId": "PIX-009",
+      "nodeId": "2:3051",
+      "path": "页面 1 / 插画规范 / content / 构图 / 1 / 主题最大尺寸",
+      "sourceText": "辅助图形的最大尺寸：当画布尺寸较大时，不要过度放大辅助图形。尽量限制辅助图形中的文字字数，如字数过多，可考虑缩小图标或不配图标，让整体尺寸更合理。\n7.辅助图形的最大宽度（图标+文字）：280px，建议使用4：3或者16:9的卡片比例。\n8.纯图标辅助图形的最大尺寸：150*150px",
+      "values": {
+        "textCardMaxWidth": 280,
+        "ratios": [
+          "4:3",
+          "16:9"
+        ],
+        "iconMaxWidth": 150,
+        "iconMaxHeight": 150
+      },
+      "scope": "Hard maximum note; scenario-specific220/240px recommendations remain separate",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-auxiliary-scenario-2-2209",
+      "sourceId": "PIX-009",
+      "nodeId": "2:2209",
+      "path": "页面 1 / 插画规范 / content / 构图 / 1",
+      "sourceText": "辅助元素的构图原则：尺寸占比不超过主体图形的80%\n图文组合：1920分辨率下，宽度与高度不超过220px，通常宽度大于高度。\n图标：1920分辨率下，宽度与高度不超过110px，宽度等于高度。",
+      "values": {
+        "status": "keep-per-source-scenario"
+      },
+      "scope": "Two scenario-specific220/240px recommendations; do not silently merge into one global size",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "illustration-auxiliary-scenario-2-4082",
+      "sourceId": "PIX-009",
+      "nodeId": "2:4082",
+      "path": "页面 1 / 插画规范 / content / 构图 / 2",
+      "sourceText": "辅助元素的构图原则：尺寸占比不超过主体图形的80%\n图文组合：1920分辨率下，宽度与高度不超过240px，通常宽度大于高度。\n图标：1920分辨率下，宽度与高度不超过110px，宽度等于高度。",
+      "values": {
+        "status": "keep-per-source-scenario"
+      },
+      "scope": "Two scenario-specific220/240px recommendations; do not silently merge into one global size",
+      "verification": "original local node text inspected; image/renderer certification separate"
+    },
+    {
+      "id": "advantage-icon",
+      "sourceId": "PIX-007",
+      "nodeId": "4:3077",
+      "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 优势图标",
+      "sourceText": "使用线性图标，要求32*32px的安全尺寸，图标粗细1px，颜色#191919（绘制规格与系统图标一致，圆角等比例放大）。\n使用场景（控制台/官网均可用）：适用于首页及子站页面内表达服务能力的图标入口。",
+      "values": {
+        "size": 32,
+        "strokeWidth": 1,
+        "color": "#191919",
+        "rounding": 4
+      },
+      "scope": "Advantage entry line icons; source explicitly excludes these from generic system-icon proportional stroke rule",
+      "verification": "local node text and online screenshot of source icon sections inspected"
+    },
+    {
+      "id": "system-grid",
+      "sourceId": "PIX-007",
+      "nodeId": "4:3851",
+      "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 12 / 组合 9",
+      "sourceText": "方形网格是设计图标的基础结构，用作确定整个图标集的线条粗细、比例、形状和位置的基础。网格有助于指导设计决策，有助于确保统一。\n系统图标设计以24px举例，中央20px为绘制活动区域，上下左右各留2px的空隙。图标在20px的活动区域内进行绘制。",
+      "values": {
+        "referenceSize": 24,
+        "activeArea": 20,
+        "inset": 2
+      },
+      "scope": "System-icon design grid; not a default CSS size for every component",
+      "verification": "local node text and online screenshot of source icon sections inspected"
+    },
+    {
+      "id": "system-line-weight",
+      "sourceId": "PIX-007",
+      "nodeId": "4:4167",
+      "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 11",
+      "sourceText": "图标元素的固定标准尺寸如下，不得超出限定范围，在不同区块和场景酌情使用。线型图标：16px描边为1px，其他尺寸则等比例放大（优势图标除外）。",
+      "values": {
+        "referenceSize": 16,
+        "referenceStroke": 1,
+        "exceptions": [
+          "advantage-icon"
+        ]
+      },
+      "scope": "System-line icons scale strokes proportionally except source-specific advantage icons",
+      "verification": "local node text and online screenshot of source icon sections inspected"
+    }
+  ],
+  "limits": [
+    "This package does not claim all2026 image assets were exported",
+    "Read all source node evidence before drawing new visuals",
+    "Local illustration source has no owner-provided online file key; retain local trace, no fabricated MCP verification"
+  ],
+  "coverage": {
+    "grid": "owner-confirmed five bands; existing executable verifier",
+    "buttons": "owner-confirmed styling fixed; #1476FF avoided only in button scene",
+    "typography": "existing accepted typography fixed;18px24/28 line heights retain source component context",
+    "icons": "22 scoped rules total across foundation subjects; three original icon assets visually checked/exported and reusable; full library asset verification pending",
+    "illustrations": "local source composition/export rules extracted; visual source comparison pending"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "nested-autocomplete-test-paint-synchronization",
+  "date": "2026-10-26",
+  "file": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+  "beforeSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+  "afterSha256": "a714c210f1731d91f28c36363e72ddf67b9e509b2ff43600c423c58bb2c26ce2",
+  "unmodifiedProductFiles": [
+    "assets/search-workspace/src/components/source-modal/source-modal.tsx",
+    "assets/search-workspace/src/components/search-input/input-family.tsx"
+  ],
+  "change": "Await two animation frames after both popup openings before accessible-name queries. Existing visibility, pointer hit, selection, Escape, axe and focus restoration assertions retained; no timeout increase or hidden-option query. Native pointer/keyboard flow passed independently. Five isolated original-story attempts recorded4 failures; post-fix repeat verification follows.",
+  "newOwnerApprovals": 0,
+  "formalRelease": false
+}

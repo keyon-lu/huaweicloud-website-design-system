@@ -1,0 +1,21 @@
+{
+  "kind": "source-release-check",
+  "check": "price/public_imports",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "price",
+    "entries": [
+      {
+        "entry": "assets/search-workspace/src/components/source-price/index.ts",
+        "exports": [
+          "SourcePrice"
+        ]
+      }
+    ],
+    "scope": "Public entry and declared-owned exports checked by actual family public-entry and compilation checks."
+  }
+}

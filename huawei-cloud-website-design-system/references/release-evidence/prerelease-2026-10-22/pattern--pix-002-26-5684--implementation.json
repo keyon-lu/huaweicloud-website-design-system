@@ -1,0 +1,28 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-26-5684/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-002-26-5684",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProductV1Publications",
+        "contract": "references/product-v1-publications.md",
+        "generationKind": "publication-cards-v1",
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ],
+        "scope": "source-scoped horizontal publication/award/news image-rich cards and H5 centered-image carousel; intermediate breakpoint/full visual acceptance pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "b8adddd8517600f75ea0b47f0d6bf641b2ecc787dcee4b06e5e08ece2934b3f1"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

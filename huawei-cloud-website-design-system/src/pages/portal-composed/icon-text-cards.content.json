@@ -1,0 +1,55 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "图标文本规范验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "icon-text-cards",
+      "id": "capabilities",
+      "title": "能力与支持",
+      "description": "图标文本卡片规范验证内容",
+      "columns": 4,
+      "iconProfile": "example-56",
+      "items": [
+        {
+          "id": "capability-0",
+          "title": "安全能力",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        },
+        {
+          "id": "capability-1",
+          "title": "开发工具",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        },
+        {
+          "id": "capability-2",
+          "title": "服务支持",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        },
+        {
+          "id": "capability-3",
+          "title": "学习资源",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        }
+      ]
+    }
+  ]
+}

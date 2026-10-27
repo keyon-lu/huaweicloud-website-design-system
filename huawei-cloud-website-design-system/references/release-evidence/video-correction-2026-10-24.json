@@ -1,0 +1,41 @@
+{
+  "kind": "scoped-video-correction-continuity",
+  "date": "2026-10-24",
+  "baseline": "2.6.0-rc8",
+  "changedSharedFunctions": [
+    "PortalProduct2026VideoDialog"
+  ],
+  "unchangedExportedDeclarations": 362,
+  "normalDialogReturnJsxEquivalent": true,
+  "unchangedFoundationFamilies": 17,
+  "css": "Original CSS preserved as prefix; scoped grid uses original ratio as minimum and allows unrestricted source text to grow naturally. No new visual token.",
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "f47e24039a4ca8813b96c5cfccd61ea0d6a3d00dfff482c3d3e20c0485c1dba2",
+      "afterSha256": "3486a77334869fee48dd1ecbfa0e549849119c62b73274b49ed22649b9936c66"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.tsx",
+      "beforeSha256": "cf81de7578cef252e4732c8eb0e958c37ffa8df4ae59641b04f6916886e51ea0",
+      "afterSha256": "2029e201aac8373324f58590b63bca849ee99fb1e186b74a428d4b6e5596132a"
+    },
+    {
+      "path": "src/styles/product-2026-video.css",
+      "beforeSha256": "84b68f8b7231b535d389ffc799f9fff64c1099da687e349d032bbcc360b3b427",
+      "afterSha256": "1abd0c79ff1fee954a3713cd8109b95ba2818baaeb7a43695c68ffb5d8f9790b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.css",
+      "beforeSha256": "84b68f8b7231b535d389ffc799f9fff64c1099da687e349d032bbcc360b3b427",
+      "afterSha256": "1abd0c79ff1fee954a3713cd8109b95ba2818baaeb7a43695c68ffb5d8f9790b"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "0144b12da32ee234c376634490fdf194ee57299f402d025b940b09c2a261c994",
+      "afterSha256": "8518f3dcf6d6e5dff2073f07ce8186fe704620f4780aaa5adfbcf59735065daa"
+    }
+  ],
+  "newOwnerApprovals": 0,
+  "formalRelease": false
+}

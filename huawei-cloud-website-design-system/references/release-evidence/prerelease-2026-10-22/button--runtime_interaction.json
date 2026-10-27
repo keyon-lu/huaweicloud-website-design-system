@@ -1,0 +1,65 @@
+{
+  "kind": "source-release-check",
+  "check": "button/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "button",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-button--disabled-activation",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-button/button-family.stories.tsx",
+        "sourceSha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d"
+      },
+      {
+        "id": "sourcefamilies-button--icon-and-block",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-button/button-family.stories.tsx",
+        "sourceSha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d"
+      },
+      {
+        "id": "designcorrections-actions--text-and-image",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-button/design-actions.stories.tsx",
+        "sourceSha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8"
+      },
+      {
+        "id": "designcorrections-actions--dropdown",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-button/design-actions.stories.tsx",
+        "sourceSha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8"
+      },
+      {
+        "id": "sourcepilots-sourcebutton--playground",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+        "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+      },
+      {
+        "id": "sourcepilots-sourcebutton--disabled",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+        "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+      },
+      {
+        "id": "sourcepilots-sourcebutton--matrix",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+        "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+      },
+      {
+        "id": "sourcereference-button--matrix",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-button/source-reference.stories.tsx",
+        "sourceSha256": "d1a585ffd8bd7a872bad007700c0b23eac277d27bf1ac3f69c1f3dc6ed920764"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

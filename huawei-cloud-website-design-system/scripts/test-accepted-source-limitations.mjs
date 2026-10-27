@@ -1,0 +1,12 @@
+import assert from'node:assert/strict';
+import {readAcceptedSourceLimitations,selectedSourceLimitations}from'./accepted-source-limitations.mjs';
+assert.deepEqual(readAcceptedSourceLimitations().map(x=>x.id),['next-contrast','live-contrast']);
+assert.equal(selectedSourceLimitations('const x={sections:[{kind:"next-step-2026"}]}').length,1);
+assert.equal(selectedSourceLimitations('const x={floors:[{kind:"live-preview-v1"},{kind:"next-step-2026"}]}').length,2);
+assert.equal(selectedSourceLimitations('import {PortalProduct2026Next as Next} from "portal-components";export default()=> <Next/>')[0].id,'next-contrast');
+assert.equal(selectedSourceLimitations('import {PortalProduct2026Next} from "portal-components";export default()=> <div/>').length,0);
+assert.equal(selectedSourceLimitations('const prose="next-step-2026"; // <PortalProduct2026Next/>\nexport default()=> <div/>').length,0);
+assert.equal(selectedSourceLimitations('type Data={kind:"next-step-2026"};export default()=> <div/>').length,0);
+assert.equal(selectedSourceLimitations('import * as UI from "portal-components";export default()=> <UI.PortalProductV1LivePreview/>')[0].wcagAaPass,false);
+assert.equal(selectedSourceLimitations('const x={kind:"faq-2026"};export default()=> <div/>').length,0);
+console.log(JSON.stringify({ok:true,acceptedLimitations:2,selectionCases:8,scope:'Owner-approved retention with explicit contrast nonconformance; no accessibility or formal release pass inferred'}));

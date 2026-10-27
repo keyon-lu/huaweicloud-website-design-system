@@ -1,0 +1,711 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "1665:29506",
+      "name": "规格原子组件",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1665:29505",
+          "name": "字数=字少",
+          "type": "COMPONENT",
+          "width": 324,
+          "height": 26,
+          "properties": {
+            "字数": "字少"
+          }
+        },
+        {
+          "id": "1665:29567",
+          "name": "字数=字多",
+          "type": "COMPONENT",
+          "width": 324,
+          "height": 60,
+          "properties": {
+            "字数": "字多"
+          }
+        }
+      ],
+      "axes": {
+        "字数": [
+          "字少",
+          "字多"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1665:29506",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "615:7396",
+      "name": "应用场景/单卡",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "605:4425",
+          "name": "卡片=1/3",
+          "type": "COMPONENT",
+          "width": 494,
+          "height": 534,
+          "properties": {
+            "卡片": "1/3"
+          }
+        },
+        {
+          "id": "614:4494",
+          "name": "卡片=1/4",
+          "type": "COMPONENT",
+          "width": 356,
+          "height": 450,
+          "properties": {
+            "卡片": "1/4"
+          }
+        },
+        {
+          "id": "614:4956",
+          "name": "卡片=1/5",
+          "type": "COMPONENT",
+          "width": 288,
+          "height": 432,
+          "properties": {
+            "卡片": "1/5"
+          }
+        }
+      ],
+      "axes": {
+        "卡片": [
+          "1/3",
+          "1/4",
+          "1/5"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=615:7396",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "615:7395",
+      "name": "应用场景/图片",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "605:4333",
+          "name": "大小=494*300",
+          "type": "COMPONENT",
+          "width": 494,
+          "height": 300,
+          "properties": {
+            "大小": "494*300"
+          }
+        },
+        {
+          "id": "614:4413",
+          "name": "大小=356*216",
+          "type": "COMPONENT",
+          "width": 356,
+          "height": 216,
+          "properties": {
+            "大小": "356*216"
+          }
+        },
+        {
+          "id": "614:4891",
+          "name": "大小=288*174",
+          "type": "COMPONENT",
+          "width": 288,
+          "height": 174,
+          "properties": {
+            "大小": "288*174"
+          }
+        }
+      ],
+      "axes": {
+        "大小": [
+          "494*300",
+          "356*216",
+          "288*174"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=615:7395",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "615:7394",
+      "name": "应用场景/多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "615:6087",
+          "name": "分辨率=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 642,
+          "properties": {
+            "分辨率": "1536"
+          }
+        },
+        {
+          "id": "615:6753",
+          "name": "分辨率=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 542,
+          "properties": {
+            "分辨率": "1280"
+          }
+        },
+        {
+          "id": "615:7042",
+          "name": "分辨率=1024-3个1排",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 450,
+          "properties": {
+            "分辨率": "1024-3个1排"
+          }
+        },
+        {
+          "id": "615:7393",
+          "name": "分辨率=1024-2个1排",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 902,
+          "properties": {
+            "分辨率": "1024-2个1排"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1536",
+          "1280",
+          "1024-3个1排",
+          "1024-2个1排"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=615:7394",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "615:7397",
+      "name": "应用场景/组合样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "611:4338",
+          "name": "卡片数=3个1排",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 840,
+          "properties": {
+            "卡片数": "3个1排"
+          }
+        },
+        {
+          "id": "614:4884",
+          "name": "卡片数=4个1排",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 780,
+          "properties": {
+            "卡片数": "4个1排"
+          }
+        },
+        {
+          "id": "614:5374",
+          "name": "卡片数=5个1排",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 738,
+          "properties": {
+            "卡片数": "5个1排"
+          }
+        }
+      ],
+      "axes": {
+        "卡片数": [
+          "3个1排",
+          "4个1排",
+          "5个1排"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=615:7397",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "651:6596",
+      "name": "通用卡片/双卡售前联系方式-重点文案",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "649:6690",
+          "name": "类别=2组不换行",
+          "type": "COMPONENT",
+          "width": 401,
+          "height": 36,
+          "properties": {
+            "类别": "2组不换行"
+          }
+        },
+        {
+          "id": "649:7108",
+          "name": "类别=1组换行",
+          "type": "COMPONENT",
+          "width": 724,
+          "height": 36,
+          "properties": {
+            "类别": "1组换行"
+          }
+        },
+        {
+          "id": "649:7099",
+          "name": "类别=2组换行",
+          "type": "COMPONENT",
+          "width": 724,
+          "height": 72,
+          "properties": {
+            "类别": "2组换行"
+          }
+        }
+      ],
+      "axes": {
+        "类别": [
+          "2组不换行",
+          "1组换行",
+          "2组换行"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=651:6596",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "651:6453",
+      "name": "通用卡片/常规单卡样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "629:5011",
+          "name": "对齐方式=左对齐,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13294",
+          "name": "对齐方式=左对齐,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13304",
+          "name": "对齐方式=左对齐,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 320,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13314",
+          "name": "对齐方式=左对齐,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 344,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13357",
+          "name": "对齐方式=居中对齐,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "725:13374",
+          "name": "对齐方式=居中对齐,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "725:13381",
+          "name": "对齐方式=居中对齐,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 320,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "725:13388",
+          "name": "对齐方式=居中对齐,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 344,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "居中对齐"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/5",
+          "1/2",
+          "1/3",
+          "1/4"
+        ],
+        "对齐方式": [
+          "左对齐",
+          "居中对齐"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=651:6453",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "651:6597",
+      "name": "通用卡片/常规组合样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "629:5292",
+          "name": "对齐方式=左对齐,一排个数=3,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 890,
+          "properties": {
+            "一排个数": "3",
+            "副标题和页签": "开",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13284",
+          "name": "对齐方式=左对齐,一排个数=2,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 600,
+          "properties": {
+            "一排个数": "2",
+            "副标题和页签": "开",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13447",
+          "name": "对齐方式=左对齐,一排个数=4,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 654,
+          "properties": {
+            "一排个数": "4",
+            "副标题和页签": "开",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13567",
+          "name": "对齐方式=左对齐,一排个数=5,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 678,
+          "properties": {
+            "一排个数": "5",
+            "副标题和页签": "开",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "725:13608",
+          "name": "对齐方式=居中对齐,一排个数=2,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 600,
+          "properties": {
+            "一排个数": "2",
+            "副标题和页签": "开",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "725:13730",
+          "name": "对齐方式=居中对齐,一排个数=4,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 654,
+          "properties": {
+            "一排个数": "4",
+            "副标题和页签": "开",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "725:13825",
+          "name": "对齐方式=居中对齐,一排个数=5,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 678,
+          "properties": {
+            "一排个数": "5",
+            "副标题和页签": "开",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "740:13244",
+          "name": "对齐方式=居中对齐,一排个数=3,副标题和页签=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 890,
+          "properties": {
+            "一排个数": "3",
+            "副标题和页签": "开",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "740:13321",
+          "name": "对齐方式=左对齐,一排个数=2,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 512,
+          "properties": {
+            "一排个数": "2",
+            "副标题和页签": "关",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "740:13402",
+          "name": "对齐方式=左对齐,一排个数=3,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 802,
+          "properties": {
+            "一排个数": "3",
+            "副标题和页签": "关",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "740:13463",
+          "name": "对齐方式=左对齐,一排个数=4,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 566,
+          "properties": {
+            "一排个数": "4",
+            "副标题和页签": "关",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "740:13534",
+          "name": "对齐方式=左对齐,一排个数=5,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 590,
+          "properties": {
+            "一排个数": "5",
+            "副标题和页签": "关",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "740:13560",
+          "name": "对齐方式=左对齐,一排个数=2,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 512,
+          "properties": {
+            "一排个数": "2",
+            "副标题和页签": "关",
+            "对齐方式": "左对齐"
+          }
+        },
+        {
+          "id": "740:13635",
+          "name": "对齐方式=居中对齐,一排个数=3,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 802,
+          "properties": {
+            "一排个数": "3",
+            "副标题和页签": "关",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "740:13684",
+          "name": "对齐方式=居中对齐,一排个数=4,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 566,
+          "properties": {
+            "一排个数": "4",
+            "副标题和页签": "关",
+            "对齐方式": "居中对齐"
+          }
+        },
+        {
+          "id": "740:13740",
+          "name": "对齐方式=居中对齐,一排个数=5,副标题和页签=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 590,
+          "properties": {
+            "一排个数": "5",
+            "副标题和页签": "关",
+            "对齐方式": "居中对齐"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "副标题和页签": [
+          "关",
+          "开"
+        ],
+        "对齐方式": [
+          "居中对齐",
+          "左对齐"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=651:6597",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "651:6598",
+      "name": "通用卡片/常规多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "643:8858",
+          "name": "分辨率=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 688,
+          "properties": {
+            "分辨率": "1536"
+          }
+        },
+        {
+          "id": "648:6516",
+          "name": "分辨率=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 568,
+          "properties": {
+            "分辨率": "1280"
+          }
+        },
+        {
+          "id": "649:8721",
+          "name": "分辨率=1024-3卡片",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 600,
+          "properties": {
+            "分辨率": "1024-3卡片"
+          }
+        },
+        {
+          "id": "650:6151",
+          "name": "分辨率=1024-4卡片",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 556,
+          "properties": {
+            "分辨率": "1024-4卡片"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1536",
+          "1280",
+          "1024-3卡片",
+          "1024-4卡片"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=651:6598",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "653:12635",
+      "name": "通用卡片/双卡售前多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "649:8176",
+          "name": "分辨率=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 460,
+          "properties": {
+            "分辨率": "1536"
+          }
+        },
+        {
+          "id": "649:8557",
+          "name": "分辨率=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 396,
+          "properties": {
+            "分辨率": "1280"
+          }
+        },
+        {
+          "id": "650:6436",
+          "name": "分辨率=1024",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 392,
+          "properties": {
+            "分辨率": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=653:12635",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

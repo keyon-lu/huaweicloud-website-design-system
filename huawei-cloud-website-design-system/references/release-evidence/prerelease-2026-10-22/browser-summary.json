@@ -1,0 +1,39 @@
+{
+  "kind": "browser-audit-summary",
+  "date": "2026-10-22",
+  "snapshotId": "3913d1dd91dcf02572b55e5b3db60fbe4bfe51a7231020d95c70c628ffc83477",
+  "rendered": 66,
+  "widthsPerSource": 16,
+  "renderFailures": [],
+  "rootOverflowCases": [],
+  "axeViolationCases": [
+    "pix-001-2-65031",
+    "pix-002-26-7351"
+  ],
+  "axeIncompleteCases": [
+    "pix-001-2-200413",
+    "pix-001-2-197076",
+    "pix-001-2-160593",
+    "pix-001-2-156437",
+    "pix-001-2-59964",
+    "pix-001-2-73017",
+    "pix-001-2-70228",
+    "pix-001-2-68093",
+    "pix-002-30-33254",
+    "pix-002-16-33610",
+    "pix-002-30-25360",
+    "pix-002-16-20251",
+    "pix-002-16-20250",
+    "pix-002-16-30923",
+    "pix-002-16-30114",
+    "pix-002-30-28565",
+    "pix-002-26-5013",
+    "pix-002-26-3807",
+    "pix-002-12-2245",
+    "pix-004-7-45657",
+    "pix-004-7-41717"
+  ],
+  "manualScreenreader": "pending",
+  "sourceVisualApprovalAdded": 0,
+  "scope": "Default source examples only; not complete states, long content, source-pixel comparison or human acceptance"
+}

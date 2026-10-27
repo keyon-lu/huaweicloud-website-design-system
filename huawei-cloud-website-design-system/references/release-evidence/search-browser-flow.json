@@ -1,0 +1,45 @@
+{
+  "query": {
+    "query": "栅格",
+    "status": "找到 5 条内容",
+    "url": "http://127.0.0.1:4320/?q=%E6%A0%85%E6%A0%BC&category=all&page=1&pageSize=6&sort=relevance"
+  },
+  "detail": {
+    "returnHref": "/?q=%E6%A0%85%E6%A0%BC&category=all&page=1&pageSize=6&sort=relevance",
+    "title": "响应式栅格规范",
+    "url": "http://127.0.0.1:4320/content/grid?return=q%3D%25E6%25A0%2585%25E6%25A0%25BC%26category%3Dall%26page%3D1%26pageSize%3D6%26sort%3Drelevance"
+  },
+  "returned": {
+    "query": "栅格",
+    "status": "找到 5 条内容",
+    "url": "http://127.0.0.1:4320/?q=%E6%A0%85%E6%A0%BC&category=all&page=1&pageSize=6&sort=relevance"
+  },
+  "empty": {
+    "status": "找到 0 条内容",
+    "url": "http://127.0.0.1:4320/?q=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E6%9C%AC%E5%9C%B0%E9%AA%8C%E8%AF%81%E5%86%85%E5%AE%B9XYZ&category=all&page=1&pageSize=6&sort=relevance"
+  },
+  "failure": {
+    "alert": "检索服务暂时不可用，请确认本地服务已启动后重试。重试",
+    "query": "栅格",
+    "url": "http://127.0.0.1:4320/?q=%E6%A0%85%E6%A0%BC&category=all&page=1&pageSize=6&sort=relevance"
+  },
+  "recovery": {
+    "alert": null,
+    "query": "栅格",
+    "status": "找到 5 条内容",
+    "url": "http://127.0.0.1:4320/?q=%E6%A0%85%E6%A0%BC&category=all&page=1&pageSize=6&sort=relevance"
+  },
+  "pagination": {
+    "articles": 2,
+    "pagination": "上一页第 2 / 4 页下一页",
+    "url": "http://127.0.0.1:4320/?q=&category=all&page=2&pageSize=2&sort=relevance"
+  },
+  "filter": {
+    "articles": [
+      "开发者 · 2026-10-16 资料快照开发者首页组件开发者官网首页 页面类型developer-portal；默认src/pages/portal-developer/index.tsx。当前2.0.24-draft页面已于2026-10-14由用户确认“可以了，这个页面我验证通过了”。本次2.0.25整理文档，没有改变该运行实现或已验收HTML。证据、产物校验值与范围见验收台账。 组合包含公告/首屏、实践中…开发者SkillsAI"
+    ],
+    "category": "developer",
+    "status": "找到 1 条内容",
+    "url": "http://127.0.0.1:4320/?q=&category=developer&page=1&pageSize=2&sort=updated"
+  }
+}

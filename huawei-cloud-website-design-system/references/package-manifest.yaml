@@ -1,0 +1,31 @@
+name: huawei-cloud-website-design-system
+version: "2.6.0"
+owner: "陆正阳"
+updated_at: "2026-10-26 Asia/Shanghai"
+package_type: "source-backed-portalui-prototype-skill"
+baseline: "Tiny PortalUI 3.0.17; user-approved reference baseline, not certified current release"
+scenes: [public-product-page, public-developer-website, solution-prototype, campaign-prototype, resource-prototype, article-prototype]
+supported_targets: [desktop, tablet, mobile]
+unsupported: [authenticated-console, pixso-to-code-conversion, official-visual-certification]
+output: "self-contained editable React TSX HTML"
+reference_quality: "incomplete"
+
+previous_documentation_revision: "Historical source import and checkbox allowance superseded by2026-10-21 scoped black/gray checkbox review; retain original sources"
+accepted_developer_sample: "2.0.24-draft, manual user acceptance"
+
+release_status: "released with known limitations by owner instruction; full acceptance gate not passed"
+p2_status: "modeling gate passed with scoped gaps retained"
+
+route_count: 3
+new_scene_status: "configurable prototype examples; manual visual acceptance pending"
+
+business_workflows: [local-search-validation]
+acceptance_baseline: "USER_CONFIRMED PortalUI 3.0.17 source; scoped engineering verification, not Pixso or official certification"
+skill_type: "子规范扩展"
+permission_level: "L2"
+permission_scope: "design-standard override hierarchy only; no operating-system or external action authorization"
+core_workflows: [website-product-floor, developer-portal, website-composed, local-search-validation]
+
+documentation_revision: "2026-10-22 owner-scoped first release:66 adopted records,117 deferred,17 scoped foundation families,19 sample approvals; release evidence remains pending"
+
+current_release_scope: "references/first-release-scope.json"

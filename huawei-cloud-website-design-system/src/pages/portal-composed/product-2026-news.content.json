@@ -1,0 +1,68 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "2026资讯验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "news-2026",
+      "id": "news-2026",
+      "title": "最新资讯",
+      "background": "grey",
+      "lead": {
+        "id": "lead",
+        "title": "探索云与AI的最新进展",
+        "description": "了解技术与业务实践",
+        "href": "#news-2026",
+        "asset": "product-2026-news-feature",
+        "mobileAsset": "product-2026-news-feature",
+        "tone": "ink",
+        "date": {
+          "iso": "2026-10-18",
+          "label": "2026/10/18"
+        }
+      },
+      "items": [
+        {
+          "id": "news-0",
+          "title": "开发者实践更新",
+          "description": "查看技术动态与实践经验",
+          "href": "#news-2026",
+          "image": "product-2026-news-thumb",
+          "date": {
+            "iso": "2026-10-18",
+            "label": "2026/10/18"
+          }
+        },
+        {
+          "id": "news-1",
+          "title": "云原生技术进展",
+          "description": "查看技术动态与实践经验",
+          "href": "#news-2026",
+          "image": "product-2026-news-thumb",
+          "date": {
+            "iso": "2026-10-18",
+            "label": "2026/10/18"
+          }
+        },
+        {
+          "id": "news-2",
+          "title": "智能体应用案例",
+          "description": "查看技术动态与实践经验",
+          "href": "#news-2026",
+          "image": "product-2026-news-thumb",
+          "date": {
+            "iso": "2026-10-18",
+            "label": "2026/10/18"
+          }
+        }
+      ],
+      "labels": {
+        "actions": "资讯入口",
+        "pauseBackground": "暂停背景视频",
+        "resumeBackground": "继续背景视频"
+      }
+    }
+  ]
+}

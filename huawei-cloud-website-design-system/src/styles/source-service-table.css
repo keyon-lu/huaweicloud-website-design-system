@@ -1,0 +1,9 @@
+/* Source PC row layout and H5 collapse structure; no invented column widths. */
+.source-service-table{max-width:var(--hc-t-input-available-width);min-width:0;overflow-wrap:anywhere}
+.source-service-table-title{font-size:var(--por-font-size-18);line-height:var(--por-font-line-height-28);color:var(--por-color-text-primary)}
+.source-service-table .source-service-table-desktop{display:flex}
+.source-service-table .por-service-table-cell{box-sizing:border-box;min-width:0}
+.source-service-table .por-service-table-cell p{margin:0;overflow-wrap:anywhere}
+.source-service-table .source-service-table-mobile{display:none}
+@media(max-width:768px){.source-service-table .source-service-table-desktop{display:none}.source-service-table .source-service-table-mobile{display:block}}
+@media(prefers-reduced-motion:reduce){.source-service-table .por-service-table-cell,.source-service-table .por-service-table-cell:before,.source-service-table .por-service-table-cell>p,.source-service-table .h,.source-service-table .p-box{transition:none}}

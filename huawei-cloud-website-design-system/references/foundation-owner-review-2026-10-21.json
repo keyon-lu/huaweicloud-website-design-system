@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-21",
+  "source": "Owner-entered visible review UI; read without modifying decisions",
+  "packId": "foundation-local-review-2026-10-20-r2",
+  "snapshotId": "324424e3f688febd1eb02f38a4e917e84a6d7fa6ea4a31ef58a7e0af73749ab3",
+  "issues": [
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 主要按钮 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=70:620"
+        },
+        {
+          "label": "PC组件库 · 次要按钮 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=110:551"
+        },
+        {
+          "label": "按钮规范 · 按钮规范 ↗",
+          "url": "https://pixso.cn/app/design/vp1L5h_3ra0WNdgcUle6vQ?item-id=0:1"
+        }
+      ],
+      "name": "按钮",
+      "note": "当前展示的按钮通过验收，但是https://pixso.cn/app/design/vp1L5h_3ra0WNdgcUle6vQ?item-id=0:1链接中还有更多的按钮样式没有做在这个里面，例如图文按钮、纯文本按钮、链接按钮、下拉按钮等，这一块都需要补充",
+      "scope": "所列样本的外观与操作；不代表所有按钮组合、反白和所有尺寸轴验收。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 复选框 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1056:13993"
+        },
+        {
+          "label": "PC组件库 · 单选框 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1055:13860"
+        }
+      ],
+      "name": "复选与单选",
+      "note": "复选框的选中效果颜色不对，现在是蓝色，应该是黑色",
+      "scope": "已列Choice样本；radio属于此实现的选项，不另算完成家族。"
+    },
+    {
+      "links": [
+        {
+          "label": "基础组件规范 v1.0 · 导航 / 下拉菜单 ↗",
+          "url": "https://pixso.cn/app/design/naY9HOtQYzDhQMVsQKYKTQ?item-id=47:210"
+        }
+      ],
+      "name": "下拉选择",
+      "note": "这个和你附在这里的设计稿链接完全不同，那边展示的是导航下拉的面板，你这个是下拉选择，你需要确认下",
+      "scope": "已列原生select分支；不包含尚未实现的自定义下拉。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 基础标签 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=156:464"
+        },
+        {
+          "label": "PC组件库 · 角标 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=156:567"
+        }
+      ],
+      "name": "标签",
+      "note": "没有做角标的样式",
+      "scope": "已列基础标签；不包含所有角标和标签组。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 通用卡片/常规单卡样式 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=651:6453"
+        }
+      ],
+      "name": "基础卡片",
+      "note": "这个和设计稿里的样式完全不同",
+      "scope": "纯文字基础卡片；不代表所有楼层业务卡片。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 锚点导航 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=118:1706"
+        },
+        {
+          "label": "PC组件库 · 楼层锚点 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=433:12436"
+        }
+      ],
+      "name": "页内锚点",
+      "note": "锚点的颜色不对，不会出现红色",
+      "scope": "56/64px两间距保留为不同来源候选；不请用户默认批准二者为同一全局值。"
+    },
+    {
+      "links": [
+        {
+          "label": "Cloud UI_v1.0.0_PC组件库（官网） · 3. 数据展示 ☑️ ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=29:1551"
+        }
+      ],
+      "name": "评分",
+      "note": "不要用红色",
+      "scope": "已列评分样本；不包含保存评分业务。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 全局提示/灰底 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=268:10358"
+        },
+        {
+          "label": "PC组件库 · 全局提示/蓝底 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=268:10359"
+        }
+      ],
+      "name": "消息提示",
+      "note": "和设计稿不同，应该是分为灰色和蓝色两种样式，严格按照设计稿来做，不要自己创造",
+      "scope": "当前Notice提示条；tooltip与动画等尚未完成，不纳入本次通过。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 表格 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1272:23644"
+        }
+      ],
+      "name": "参数表格",
+      "note": "严格参考对应的设计稿来还原",
+      "scope": "已列参数表格分支；所有复杂合并、固定列组合待补。"
+    },
+    {
+      "links": [
+        {
+          "label": "PC组件库 · 表格 ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1272:23644"
+        }
+      ],
+      "name": "服务表格",
+      "note": "把这个服务表格和上一个参数表格合并成一个表格的组件就行",
+      "scope": "已列服务表样本；不包含全部扩展结构。"
+    },
+    {
+      "links": [
+        {
+          "label": "Cloud UI_v1.0.0_PC组件库（官网） · 3. 数据展示 ☑️ ↗",
+          "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=29:1551"
+        }
+      ],
+      "name": "图片查看器",
+      "note": "去掉这个基础组件吧，你现在展示的只是导航里左上角华为云的图标",
+      "scope": "当前单图查看；不包含画廊、标注等未实现能力。"
+    },
+    {
+      "links": [
+        {
+          "label": "Cloud UI_v1.0.0_PC样式库（官网） · 页面 1 ↗",
+          "url": "https://pixso.cn/app/design/J_f7HMBXcQYmbTo6Cjgz6Q?item-id=0:1"
+        }
+      ],
+      "name": "基础颜色与按钮配色",
+      "note": "设计稿的链接对应的应该是基础样式的design token，包含字体、阴影、颜色，和你这个组件展示的内容无关，我需要你补充和验证这块的design token",
+      "scope": "仅确认当前色板及示例；既有已验收组件不因本页确认而重做。"
+    },
+    {
+      "links": [
+        {
+          "label": "2026图标 · ELB ↗",
+          "url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:2338"
+        },
+        {
+          "label": "2026图标 · 用户 ↗",
+          "url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:2321"
+        },
+        {
+          "label": "2026图标 · 查询 ↗",
+          "url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:3212"
+        }
+      ],
+      "name": "首批原始图标",
+      "note": "你这个和设计稿里的内容对比差很多，完全按照设计稿来修复，具体的图标类别，每个类别的规范",
+      "scope": "仅这3项，分别28/28/32px；其余图标与完整插画库待补。"
+    }
+  ],
+  "passed": [
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "输入框",
+      "note": "",
+      "scope": "已列输入样本；尚未覆盖所有输入控件、组合表单和错误组合。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "文字链接",
+      "note": "",
+      "scope": "已列链接样本；不扩展为所有业务链接行为。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "面包屑",
+      "note": "",
+      "scope": "已列样本；不声称所有长路径和反白场景完成。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "折叠面板",
+      "note": "",
+      "scope": "已列折叠样本；不代表所有皮肤、嵌套和状态组合完成。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "页签",
+      "note": "",
+      "scope": "已列页签样本；其他风格和完整来源变体待补。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "弹窗",
+      "note": "",
+      "scope": "当前对话框分支；不包含所有业务弹窗和动画。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "分页",
+      "note": "",
+      "scope": "已列分页模式；业务API不在本次范围。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "滚动区域",
+      "note": "",
+      "scope": "已列滚动样本；依赖系统滚动条的外观可能随平台变化。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "价格展示",
+      "note": "",
+      "scope": "已列静态价格展示；不含计费、报价或业务套餐。"
+    },
+    {
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "name": "倒计时",
+      "note": "",
+      "scope": "固定时钟/短倒计时用例；无活动后端和线上时钟保证。"
+    }
+  ]
+}

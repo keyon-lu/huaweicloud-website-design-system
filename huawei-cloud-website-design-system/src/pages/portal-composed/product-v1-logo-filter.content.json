@@ -1,0 +1,307 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "来源筛选楼层验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "logo-filter-v1",
+      "id": "v1-logo-filter",
+      "title": "查看所有客户案例",
+      "background": "grey",
+      "cardBackground": "white",
+      "filterBackground": "white",
+      "facetDisplay": "flat",
+      "facets": [
+        {
+          "id": "industry",
+          "label": "所属行业",
+          "options": [
+            {
+              "id": "finance",
+              "label": "金融"
+            },
+            {
+              "id": "manufacturing",
+              "label": "制造"
+            },
+            {
+              "id": "education",
+              "label": "教育"
+            }
+          ]
+        },
+        {
+          "id": "topic",
+          "label": "主题",
+          "options": [
+            {
+              "id": "cloud",
+              "label": "云基础设施"
+            },
+            {
+              "id": "ai",
+              "label": "人工智能"
+            }
+          ]
+        }
+      ],
+      "pcRows": 2,
+      "showSearch": true,
+      "labels": {
+        "all": "全部",
+        "search": "搜索",
+        "empty": "没有匹配的内容",
+        "results": "找到 {count} 条内容",
+        "clear": "清空条件",
+        "pagination": {
+          "navigation": "内容分页",
+          "previous": "上一页",
+          "next": "下一页",
+          "first": "第一页",
+          "last": "最后一页",
+          "go": "跳转",
+          "pageInput": "输入页码",
+          "pageSelect": "选择页码",
+          "invalidPage": "请输入1到{max}的页码",
+          "total": "共 {count} 条",
+          "page": "第 {page} 页"
+        },
+        "filters": "筛选条件",
+        "open": "筛选",
+        "close": "关闭筛选",
+        "apply": "确定",
+        "placeholder": "请输入内容名称",
+        "showMore": "展开更多",
+        "actions": "卡片操作"
+      },
+      "items": [
+        {
+          "id": "result-1",
+          "title": "人工智能实践 1",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "finance"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-2",
+          "title": "云计算实践 2",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "manufacturing"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-3",
+          "title": "人工智能实践 3",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "education"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-4",
+          "title": "云计算实践 4",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "finance"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-5",
+          "title": "人工智能实践 5",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "manufacturing"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-6",
+          "title": "云计算实践 6",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "education"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-7",
+          "title": "人工智能实践 7",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "finance"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-8",
+          "title": "云计算实践 8",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "manufacturing"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-9",
+          "title": "人工智能实践 9",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "education"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-10",
+          "title": "云计算实践 10",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "finance"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-11",
+          "title": "人工智能实践 11",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "manufacturing"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-12",
+          "title": "云计算实践 12",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "education"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-13",
+          "title": "人工智能实践 13",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "finance"
+            ],
+            "topic": [
+              "ai"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        },
+        {
+          "id": "result-14",
+          "title": "云计算实践 14",
+          "description": "可编辑的内容摘要，用于验证多维筛选、搜索与分页。",
+          "href": "#v1-logo-filter",
+          "alt": "来源客户Logo示例",
+          "facetValues": {
+            "industry": [
+              "manufacturing"
+            ],
+            "topic": [
+              "cloud"
+            ]
+          },
+          "logo": "product-v1-logo-demo"
+        }
+      ]
+    }
+  ]
+}

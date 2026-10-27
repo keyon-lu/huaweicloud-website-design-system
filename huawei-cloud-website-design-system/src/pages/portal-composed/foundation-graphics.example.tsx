@@ -1,0 +1,2 @@
+import {React,PortalSection,PortalFoundationGraphic} from "portal-components";
+export default function FoundationValidation(){return <div className="hc-page hc-page-product"><PortalSection id="foundation-graphics" title="2026基础图标验证"><p><PortalFoundationGraphic asset="foundation-2026-elb" alt="弹性负载均衡服务"/> 架构服务图形：28px</p><p><PortalFoundationGraphic asset="foundation-2026-user" alt="架构中的用户"/> 架构公共图形：28px</p><p><PortalFoundationGraphic asset="foundation-2026-query" alt="命令查询"/> 优势入口图形：32px</p></PortalSection></div>}

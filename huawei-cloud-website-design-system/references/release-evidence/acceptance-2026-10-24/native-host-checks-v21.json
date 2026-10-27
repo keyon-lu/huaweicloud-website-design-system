@@ -1,0 +1,3046 @@
+{
+  "kind": "bounded-browser-runtime-and-structure-observations",
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "name": "image-filter/native-Space-finance",
+      "actual": {
+        "checked": [
+          {
+            "checked": false,
+            "label": "全部"
+          },
+          {
+            "checked": true,
+            "label": "金融"
+          },
+          {
+            "checked": false,
+            "label": "制造"
+          },
+          {
+            "checked": false,
+            "label": "教育"
+          },
+          {
+            "checked": true,
+            "label": "全部"
+          },
+          {
+            "checked": false,
+            "label": "云基础设施"
+          },
+          {
+            "checked": false,
+            "label": "人工智能"
+          },
+          {
+            "checked": true,
+            "label": "全部"
+          },
+          {
+            "checked": false,
+            "label": "金融"
+          },
+          {
+            "checked": false,
+            "label": "制造"
+          },
+          {
+            "checked": false,
+            "label": "教育"
+          },
+          {
+            "checked": true,
+            "label": "全部"
+          },
+          {
+            "checked": false,
+            "label": "云基础设施"
+          },
+          {
+            "checked": false,
+            "label": "人工智能"
+          }
+        ],
+        "status": "找到 5 条内容",
+        "titles": [
+          "人工智能实践 1",
+          "云计算实践 4",
+          "人工智能实践 7",
+          "云计算实践 10",
+          "人工智能实践 13"
+        ]
+      },
+      "passed": true,
+      "scope": "Real browser Space toggles checkbox and local result set; desktop fixture only",
+      "date": "2026-10-24T13:44:03.143Z"
+    },
+    {
+      "name": "image-filter/dimension-OR",
+      "actual": "找到 10 条内容",
+      "passed": true,
+      "scope": "Two industries combine with OR",
+      "date": "2026-10-24T13:44:50.108Z"
+    },
+    {
+      "name": "image-filter/native-summary-Enter",
+      "actual": {
+        "focused": "主题",
+        "open": true
+      },
+      "passed": true,
+      "scope": "Native details disclosure; selector fallback because the automation role snapshot reported summary as generic after rerender",
+      "date": "2026-10-24T13:47:54.929Z"
+    },
+    {
+      "name": "image-filter/between-dimension-AND",
+      "actual": {
+        "status": "找到 5 条内容",
+        "titles": [
+          "云计算实践 2",
+          "云计算实践 4",
+          "云计算实践 8",
+          "云计算实践 10",
+          "云计算实践 14"
+        ]
+      },
+      "passed": true,
+      "scope": "Industry OR plus cloud topic AND; real checkbox Space",
+      "date": "2026-10-24T13:47:54.956Z"
+    },
+    {
+      "name": "image-filter/native-submit-empty",
+      "actual": "找到 0 条内容",
+      "passed": true,
+      "scope": "Real Enter submits search and shows actual empty result",
+      "date": "2026-10-24T13:49:09.989Z"
+    },
+    {
+      "name": "image-filter/native-paging",
+      "actual": {
+        "status": "找到 14 条内容",
+        "titles": [
+          "人工智能实践 7",
+          "云计算实践 8",
+          "人工智能实践 9",
+          "云计算实践 10",
+          "人工智能实践 11",
+          "云计算实践 12"
+        ]
+      },
+      "passed": true,
+      "scope": "Keyboard activates page2; actual data slice changes",
+      "date": "2026-10-24T13:49:10.370Z"
+    },
+    {
+      "name": "image-filter/filter-resets-page",
+      "actual": {
+        "status": "找到 4 条内容",
+        "titles": [
+          "人工智能实践 3",
+          "云计算实践 6",
+          "人工智能实践 9",
+          "云计算实践 12"
+        ]
+      },
+      "passed": true,
+      "scope": "Changing criteria resets actual page to first",
+      "date": "2026-10-24T13:49:10.393Z"
+    },
+    {
+      "name": "image-filter/phone-native-focus-trap-last",
+      "actual": {
+        "activeTag": "BODY",
+        "modal": true,
+        "expectedLastButton": "确定"
+      },
+      "passed": false,
+      "scope": "Native dialog Shift+Tab wraps from close to last action",
+      "date": "2026-10-24T13:51:08.797Z",
+      "disposition": "Original expectation rejected by bare-native-dialog control: reverse Tab reaches browser/document boundary in this runtime. Not a component-specific defect; no invented focus interceptor. Manual AT remains separate.",
+      "classification": "platform-reference-observation"
+    },
+    {
+      "name": "image-filter/phone-native-forward-Tab",
+      "actual": {
+        "activeTag": "INPUT",
+        "insideDialog": true
+      },
+      "passed": true,
+      "scope": "Native Tab from close enters first modal checkbox",
+      "date": "2026-10-24T13:52:51.681Z"
+    },
+    {
+      "name": "image-filter/phone-draft-not-committed",
+      "actual": {
+        "open": true,
+        "status": "找到 4 条内容"
+      },
+      "passed": true,
+      "scope": "Draft changes do not alter background results",
+      "date": "2026-10-24T13:52:51.734Z"
+    },
+    {
+      "name": "image-filter/phone-native-Escape-cancels",
+      "actual": {
+        "focus": "筛选",
+        "open": false,
+        "status": "找到 4 条内容"
+      },
+      "passed": true,
+      "scope": "Native Escape cancels draft and returns opener focus",
+      "date": "2026-10-24T13:52:51.775Z"
+    },
+    {
+      "name": "image-filter/phone-reopen-discards-old-draft",
+      "actual": [
+        {
+          "checked": false,
+          "label": "全部"
+        },
+        {
+          "checked": false,
+          "label": "金融"
+        },
+        {
+          "checked": false,
+          "label": "制造"
+        },
+        {
+          "checked": true,
+          "label": "教育"
+        },
+        {
+          "checked": true,
+          "label": "全部"
+        },
+        {
+          "checked": false,
+          "label": "云基础设施"
+        },
+        {
+          "checked": false,
+          "label": "人工智能"
+        }
+      ],
+      "passed": true,
+      "scope": "Reopening copies committed criteria, not cancelled draft",
+      "date": "2026-10-24T13:52:51.815Z"
+    },
+    {
+      "name": "image-filter/phone-apply-cleared-draft",
+      "actual": {
+        "focus": "筛选",
+        "open": false,
+        "shown": 2,
+        "status": "找到 14 条内容"
+      },
+      "passed": true,
+      "scope": "Confirm commits draft and restores opener; phone initial count2",
+      "date": "2026-10-24T13:52:51.860Z"
+    },
+    {
+      "name": "image-filter/phone-append-four",
+      "actual": 6,
+      "passed": true,
+      "scope": "Native Enter reveals exactly4 more actual items",
+      "date": "2026-10-24T13:52:51.886Z"
+    },
+    {
+      "name": "image-filter/phone-native-backdrop-cancels",
+      "actual": {
+        "focus": "筛选",
+        "open": false
+      },
+      "passed": true,
+      "scope": "Real pointer click on observed backdrop closes and restores opener",
+      "date": "2026-10-24T13:55:00.959Z"
+    },
+    {
+      "name": "report-filter/native-AND",
+      "actual": "找到 2 条内容",
+      "passed": true,
+      "scope": "Independent report layout uses actual shared filter engine",
+      "date": "2026-10-24T13:55:52.847Z"
+    },
+    {
+      "name": "report-filter/native-Enter-empty",
+      "actual": "找到 0 条内容",
+      "passed": true,
+      "scope": "Hidden visual submit still supports native Enter in actual form",
+      "date": "2026-10-24T13:55:52.936Z"
+    },
+    {
+      "name": "report-filter/phone-append-initial-batch",
+      "actual": {
+        "initial": 4,
+        "after": 8
+      },
+      "passed": true,
+      "scope": "Report phone uses configured initial4 and equal batch4",
+      "date": "2026-10-24T13:56:24.949Z"
+    },
+    {
+      "name": "report-filter/phone-collapse-restores-initial",
+      "actual": 4,
+      "passed": true,
+      "scope": "Native Enter collapses back to configured initial4",
+      "date": "2026-10-24T13:56:24.975Z"
+    },
+    {
+      "name": "report-filter/phone-apply-criteria",
+      "actual": "找到 4 条内容",
+      "passed": true,
+      "scope": "Report phone commits actual conditions",
+      "date": "2026-10-24T13:56:25.041Z"
+    },
+    {
+      "name": "logo-filter/phone-initial-five-append-six",
+      "actual": {
+        "initial": 5,
+        "after": 11
+      },
+      "passed": true,
+      "scope": "Logo phone branch is5+6, not image2+4 or report4+4",
+      "date": "2026-10-24T13:57:00.929Z"
+    },
+    {
+      "name": "logo-filter/phone-apply",
+      "actual": "找到 5 条内容",
+      "passed": true,
+      "scope": "Logo phone apply commits actual criteria",
+      "date": "2026-10-24T13:57:01.003Z"
+    },
+    {
+      "name": "logo-filter/native-NFKC-search",
+      "actual": {
+        "links": [
+          "云计算实践 12"
+        ],
+        "status": "找到 1 条内容"
+      },
+      "passed": true,
+      "scope": "Fullwidth12 query matches existing normalized record12",
+      "date": "2026-10-24T13:57:01.111Z"
+    },
+    {
+      "name": "native-dialog/reverse-Tab-reference-comparison",
+      "actual": {
+        "filter": {
+          "activeTag": "BODY",
+          "modal": true
+        },
+        "native": {
+          "activeId": "",
+          "activeTag": "BODY",
+          "modal": true
+        }
+      },
+      "passed": true,
+      "scope": "Both native dialogs show same platform boundary; does not certify AT or keyboard across browsers",
+      "date": "2026-10-24T13:58:58.340Z"
+    },
+    {
+      "name": "2026-navigation/native-Enter-opens-child",
+      "actual": "true",
+      "passed": true,
+      "scope": "Native Enter opens real child menu",
+      "date": "2026-10-24T13:59:49.462Z"
+    },
+    {
+      "name": "2026-navigation/native-Escape-restores-trigger",
+      "actual": {
+        "expanded": "false",
+        "focus": "入口2"
+      },
+      "passed": true,
+      "scope": "Native Escape closes child menu and restores exact trigger",
+      "date": "2026-10-24T13:59:49.484Z"
+    },
+    {
+      "name": "2026-navigation/nested-Escape-one-level",
+      "actual": {
+        "child": "false",
+        "focus": "入口9",
+        "more": "true"
+      },
+      "passed": true,
+      "scope": "First Escape returns to inner trigger and retains More panel",
+      "date": "2026-10-24T14:00:43.877Z"
+    },
+    {
+      "name": "2026-navigation/second-Escape-closes-more",
+      "actual": "false",
+      "passed": true,
+      "scope": "Second native Escape closes outer More",
+      "date": "2026-10-24T14:00:43.902Z"
+    },
+    {
+      "name": "2026-navigation/native-pointer-hover",
+      "actual": "true",
+      "passed": true,
+      "scope": "Real CDP pointer move because locator API has no hover method",
+      "date": "2026-10-24T14:00:43.936Z"
+    },
+    {
+      "name": "2026-navigation/native-pointer-leave",
+      "actual": "false",
+      "passed": true,
+      "scope": "Unfocused pointer leave closes source menu",
+      "date": "2026-10-24T14:00:43.969Z"
+    },
+    {
+      "name": "2026-navigation/outside-pointer-close",
+      "actual": "false",
+      "passed": true,
+      "scope": "Real pointer outside observed nav closes menu",
+      "date": "2026-10-24T14:01:04.361Z"
+    },
+    {
+      "name": "2026-navigation/phone-first-click-opens",
+      "actual": "true",
+      "passed": true,
+      "scope": "375px click does not get preopened/closed by mouseenter",
+      "date": "2026-10-24T14:01:04.694Z"
+    },
+    {
+      "name": "2026-navigation/phone-CTA-explicit-hide",
+      "actual": false,
+      "passed": true,
+      "scope": "Configured2026 mobileActions=hide honored",
+      "date": "2026-10-24T14:01:04.707Z"
+    },
+    {
+      "name": "v1-navigation/visible-limit-1920",
+      "actual": 8,
+      "passed": true,
+      "scope": "Actual v1 source adaptive8/7/6 limit; excludes More",
+      "date": "2026-10-24T14:02:43.868Z"
+    },
+    {
+      "name": "v1-navigation/visible-limit-1536",
+      "actual": 7,
+      "passed": true,
+      "scope": "Actual v1 source adaptive8/7/6 limit; excludes More",
+      "date": "2026-10-24T14:02:43.880Z"
+    },
+    {
+      "name": "v1-navigation/visible-limit-1280",
+      "actual": 6,
+      "passed": true,
+      "scope": "Actual v1 source adaptive8/7/6 limit; excludes More",
+      "date": "2026-10-24T14:02:43.892Z"
+    },
+    {
+      "name": "v1-navigation/visible-limit-1024",
+      "actual": 6,
+      "passed": true,
+      "scope": "Actual v1 source adaptive8/7/6 limit; excludes More",
+      "date": "2026-10-24T14:02:43.906Z"
+    },
+    {
+      "name": "v1-navigation/native-open",
+      "actual": "true",
+      "passed": true,
+      "scope": "V1 adapter retains native submenu interaction",
+      "date": "2026-10-24T14:02:43.939Z"
+    },
+    {
+      "name": "v1-navigation/768-first-click-opens",
+      "actual": "true",
+      "passed": true,
+      "scope": "V1 phone breakpoint768 independent of2026 default599",
+      "date": "2026-10-24T14:02:44.265Z"
+    },
+    {
+      "name": "2026-folded/arrows-focus-without-select",
+      "actual": {
+        "expanded": [
+          "folded-2026-feature-1-trigger"
+        ],
+        "focus": "folded-2026-feature-2-trigger"
+      },
+      "passed": true,
+      "scope": "Native ArrowDown after Tab focus; locator press refused aria-disabled first trigger",
+      "date": "2026-10-24T14:05:14.149Z"
+    },
+    {
+      "name": "2026-folded/native-Space-selects",
+      "actual": "true",
+      "passed": true,
+      "scope": "Native Space activates focused item",
+      "date": "2026-10-24T14:05:14.180Z"
+    },
+    {
+      "name": "2026-folded/active-cannot-close",
+      "actual": 1,
+      "passed": true,
+      "scope": "Native Enter on active aria-disabled title does not close it",
+      "date": "2026-10-24T14:05:14.194Z"
+    },
+    {
+      "name": "2026-folded/End-focus-last",
+      "actual": "folded-2026-feature-4-trigger",
+      "passed": true,
+      "scope": "Native End focuses last heading",
+      "date": "2026-10-24T14:05:14.218Z"
+    },
+    {
+      "name": "2026-folded/phone-selected-image-branch",
+      "actual": {
+        "expanded": [
+          "folded-2026-feature-4-trigger"
+        ],
+        "videos": 0,
+        "visibleImages": [
+          {
+            "alt": "",
+            "sourceType": "embedded-source-image"
+          },
+          {
+            "alt": "产品能力示意图",
+            "sourceType": "embedded-source-image"
+          }
+        ]
+      },
+      "passed": false,
+      "scope": "Phone displays selected inline mobile image; current fixture has no video",
+      "date": "2026-10-24T14:05:14.252Z",
+      "classification": "test-inventory-overcount",
+      "disposition": "Original assertion counted decorative arrow asset as a content image. AX exposes one meaningful image; no source changes."
+    },
+    {
+      "name": "2026-folded/phone-meaningful-mobile-image",
+      "actual": {
+        "expanded": [
+          "folded-2026-feature-4-trigger"
+        ],
+        "images": [
+          {
+            "alt": "产品能力示意图",
+            "rect": {
+              "bottom": 635.453125,
+              "height": 213.453125,
+              "left": 34,
+              "right": 341,
+              "top": 422,
+              "width": 307,
+              "x": 34,
+              "y": 422
+            }
+          }
+        ],
+        "videos": 0
+      },
+      "passed": true,
+      "scope": "Decorative assets separately inventoried; one meaningful selected mobile image exposed",
+      "date": "2026-10-24T14:06:58.349Z"
+    },
+    {
+      "name": "2026-folded/actual-timed-advance",
+      "actual": {
+        "before": "folded-2026-feature-1-trigger",
+        "after": "folded-2026-feature-4-trigger"
+      },
+      "passed": true,
+      "scope": "Real source timer changed while no input was focused; bounded locator wait was limited by tool to3s so state was observed on next step",
+      "date": "2026-10-24T14:10:56.251Z"
+    },
+    {
+      "name": "2026-folded/native-explicit-pause",
+      "actual": {
+        "active": "folded-2026-feature-4-trigger",
+        "pressed": "true",
+        "text": "继续自动切换"
+      },
+      "passed": true,
+      "scope": "Native Enter toggles explicit pause",
+      "date": "2026-10-24T14:10:56.278Z"
+    },
+    {
+      "name": "2026-folded/explicit-pause-holds-beyond-interval",
+      "actual": {
+        "before": {
+          "active": "folded-2026-feature-4-trigger",
+          "focusInside": false,
+          "pressed": "true",
+          "progress": "width: 50.075%;"
+        },
+        "after": {
+          "active": "folded-2026-feature-4-trigger",
+          "focusInside": false,
+          "progress": "width: 50.075%;"
+        }
+      },
+      "passed": true,
+      "scope": "Actual6.6s elapsed with pointer and focus outside; explicit pause independently holds",
+      "date": "2026-10-24T14:15:53.379Z"
+    },
+    {
+      "name": "2026-folded/reduced-motion-holds",
+      "actual": {
+        "before": {
+          "active": "folded-2026-feature-4-trigger",
+          "progress": "width: 50.075%;"
+        },
+        "after": {
+          "active": "folded-2026-feature-4-trigger",
+          "progress": "width: 50.075%;"
+        }
+      },
+      "passed": true,
+      "scope": "Reduced motion remains stable beyond configured interval, no explicit pause and no focused controls",
+      "date": "2026-10-24T14:17:09.113Z"
+    },
+    {
+      "name": "video/long-title-complete-after-fix",
+      "actual": {
+        "button": {
+          "bottom": 372.6875,
+          "height": 208.6875,
+          "left": 64,
+          "right": 437.328125,
+          "top": 164,
+          "width": 373.328125,
+          "x": 64,
+          "y": 164
+        },
+        "duration": {
+          "bottom": 785.7578125,
+          "height": 34,
+          "left": 84,
+          "right": 135.0390625,
+          "top": 751.7578125,
+          "width": 51.0390625,
+          "x": 84,
+          "y": 751.7578125
+        },
+        "rootWidth": 1280,
+        "title": {
+          "bottom": 751.7578125,
+          "height": 504,
+          "left": 84,
+          "right": 324,
+          "top": 247.7578125,
+          "width": 240,
+          "x": 84,
+          "y": 247.7578125
+        },
+        "viewport": 1280
+      },
+      "passed": false,
+      "scope": "Original no-hard-limit rule; no new font, gap, radius or clipping rule",
+      "date": "2026-10-24T14:39:49.364Z",
+      "classification": "rejected-fix-candidate",
+      "disposition": "V16 min-content candidate failed; superseded by V17 original-ratio grid fix verified at1280 and375. Retained as historical observation, not a current pass."
+    },
+    {
+      "name": "video/final-long-title-complete",
+      "actual": {
+        "button": {
+          "bottom": 825.7578125,
+          "height": 661.7578125,
+          "left": 64,
+          "right": 437.328125,
+          "top": 164,
+          "width": 373.328125,
+          "x": 64,
+          "y": 164
+        },
+        "duration": {
+          "bottom": 785.7578125,
+          "height": 34,
+          "left": 84,
+          "right": 135.0390625,
+          "top": 751.7578125,
+          "width": 51.0390625,
+          "x": 84,
+          "y": 751.7578125
+        },
+        "rootWidth": 1280,
+        "title": {
+          "bottom": 751.7578125,
+          "height": 504,
+          "left": 84,
+          "right": 324,
+          "top": 247.7578125,
+          "width": 240,
+          "x": 84,
+          "y": 247.7578125
+        },
+        "viewport": 1280
+      },
+      "passed": true,
+      "scope": "Final scoped grid uses original ratio minimum and natural content; no extra source dimensions",
+      "date": "2026-10-24T14:55:44.618Z"
+    },
+    {
+      "name": "video/final-phone-long-title-complete",
+      "actual": {
+        "button": {
+          "bottom": 825.7578125,
+          "height": 661.7578125,
+          "left": 64,
+          "right": 437.328125,
+          "top": 164,
+          "width": 373.328125,
+          "x": 64,
+          "y": 164
+        },
+        "duration": {
+          "bottom": 785.7578125,
+          "height": 34,
+          "left": 84,
+          "right": 135.0390625,
+          "top": 751.7578125,
+          "width": 51.0390625,
+          "x": 84,
+          "y": 751.7578125
+        },
+        "rootWidth": 1280,
+        "title": {
+          "bottom": 751.7578125,
+          "height": 504,
+          "left": 84,
+          "right": 324,
+          "top": 247.7578125,
+          "width": 240,
+          "x": 84,
+          "y": 247.7578125
+        },
+        "viewport": 1280
+      },
+      "passed": false,
+      "scope": "375px complete title and visible duration, no root overflow",
+      "date": "2026-10-24T14:55:44.763Z",
+      "classification": "invalid-viewport-test",
+      "disposition": "Browser-scoped viewport applied to another selected test tab; actual recorded viewport1280, so this is not a375px pass."
+    },
+    {
+      "name": "video/final-phone-long-title-complete",
+      "actual": {
+        "cards": [
+          {
+            "bottom": 782.0546875,
+            "children": [
+              {
+                "bottom": 782.0546875,
+                "text": ""
+              },
+              {
+                "bottom": 708.0546875,
+                "text": "验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。验证长标题完整换行并自然增高，不裁掉文字与播放时长。"
+              },
+              {
+                "bottom": 742.0546875,
+                "text": "00:01"
+              }
+            ]
+          }
+        ],
+        "root": 367,
+        "width": 375
+      },
+      "passed": true,
+      "scope": "Actual375px viewport, long title and duration contained; no manual AT claim",
+      "date": "2026-10-24T15:03:50.370Z"
+    },
+    {
+      "name": "video/decode-error-is-failed",
+      "actual": "视频加载失败\n\n重新播放",
+      "passed": true,
+      "scope": "Corrupt local WebM actual browser decode; not autoplay permission",
+      "date": "2026-10-24T15:06:01.929Z"
+    },
+    {
+      "name": "video/decode-retry-remains-failed",
+      "actual": "视频加载失败\n\n重新播放",
+      "passed": true,
+      "scope": "Retry same corrupt local fixture, actual browser event",
+      "date": "2026-10-24T15:06:48.846Z"
+    },
+    {
+      "name": "video/Escape-unmount-and-focus-return",
+      "actual": {
+        "dialogs": 0,
+        "focus": "播放视频 解码失败验证",
+        "video": 0
+      },
+      "passed": true,
+      "scope": "Native Escape after retry; browser video unmounted and exact opener focused",
+      "date": "2026-10-24T15:10:00.880Z"
+    },
+    {
+      "name": "assistant/local-existing-record",
+      "actual": 1,
+      "passed": true,
+      "scope": "Recommended keyword populates input; native Enter searches existing local records only",
+      "date": "2026-10-24T15:12:31.149Z"
+    },
+    {
+      "name": "assistant/empty-results",
+      "actual": "没有找到相关内容",
+      "passed": true,
+      "scope": "Native Enter unmatched query; truthful local empty state",
+      "date": "2026-10-24T15:12:57.779Z"
+    },
+    {
+      "name": "assistant/provider-error",
+      "actual": "检索失败，请重试",
+      "passed": true,
+      "scope": "Configured local rejecting provider; status visible after native Enter",
+      "date": "2026-10-24T15:15:47.679Z"
+    },
+    {
+      "name": "v1-folded/native-select-second",
+      "actual": "true",
+      "passed": true,
+      "scope": "V1 source branch, no auto-advance inference",
+      "date": "2026-10-24T15:25:25.152Z"
+    },
+    {
+      "name": "v1-folded/Home-activate-retains-one",
+      "actual": {
+        "expanded": [
+          "算力规格随心配"
+        ],
+        "focus": "算力规格随心配"
+      },
+      "passed": true,
+      "scope": "Native Home moves focus without selection, Return selects; repeated active activation never collapses all",
+      "date": "2026-10-24T15:27:02.726Z"
+    },
+    {
+      "name": "recommended-docs/phone-native-exclusive",
+      "actual": {
+        "expanded": [
+          "最佳实践"
+        ],
+        "width": 375
+      },
+      "passed": true,
+      "scope": "Native Enter at375: second document group expands, first collapses",
+      "date": "2026-10-25T03:10:34.025Z"
+    },
+    {
+      "name": "scene-media/phone-native-first",
+      "actual": "true",
+      "passed": true,
+      "scope": "Native Enter selects first phone accordion after default play finished",
+      "date": "2026-10-25T03:11:11.161Z"
+    },
+    {
+      "name": "scene-media/phone-independent-content",
+      "actual": {
+        "expanded": [
+          "服务"
+        ],
+        "headings": [
+          "场景与案例图文验证",
+          "左图右文与独立手机文案",
+          "场景与案例图文验证",
+          "手机端独立标题"
+        ],
+        "tabs": 2,
+        "width": 375
+      },
+      "passed": false,
+      "scope": "Native Space, phone-specific title and accordion, desktop tabs absent",
+      "date": "2026-10-25T03:11:11.187Z",
+      "classification": "hidden-dom-inventory",
+      "disposition": "Desktop tabs remain hidden in DOM for responsive layout; incorrect assertion counted hidden nodes. AX exposes phone accordion only. Check actual visibility instead."
+    },
+    {
+      "name": "scene-media/phone-visible-content",
+      "actual": {
+        "expanded": [
+          "服务"
+        ],
+        "visibleHeadings": [
+          "手机端独立标题"
+        ],
+        "visibleTabs": 0,
+        "width": 375
+      },
+      "passed": true,
+      "scope": "Native Space; actual visible phone branch, hidden desktop nodes excluded explicitly",
+      "date": "2026-10-25T03:11:34.867Z"
+    },
+    {
+      "name": "scene-media/desktop-native-arrow",
+      "actual": "true",
+      "passed": true,
+      "scope": "1280 native ArrowLeft selects desktop tab; independent mobile accordion tested separately",
+      "date": "2026-10-25T03:12:04.937Z"
+    },
+    {
+      "name": "faq-list/native-independent-expand",
+      "actual": {
+        "expanded": [
+          "如何开始使用相关能力？",
+          "如何选择适合场景的开发资源？"
+        ]
+      },
+      "passed": true,
+      "scope": "Native Enter/Space: source allows multiple answers open independently",
+      "date": "2026-10-25T03:12:34.697Z"
+    },
+    {
+      "name": "faq-list/native-collapse-one",
+      "actual": "true",
+      "passed": true,
+      "scope": "Collapsing first answer preserves independently open second answer",
+      "date": "2026-10-25T03:12:34.732Z"
+    },
+    {
+      "name": "tab-container/native-End",
+      "actual": {
+        "focus": "选项8",
+        "panel": "内容面板1",
+        "selected": [
+          "选项8"
+        ]
+      },
+      "passed": false,
+      "scope": "Native End synchronizes last selection, focus and panel",
+      "date": "2026-10-25T03:13:11.908Z",
+      "classification": "hidden-dom-inventory",
+      "disposition": "Assertion read first retained hidden tabpanel; AX and selected tab show final panel correctly. Recheck visible panel instead."
+    },
+    {
+      "name": "tab-container/native-End-visible-panel",
+      "actual": {
+        "focus": "选项8",
+        "panels": [
+          "内容面板8"
+        ],
+        "selected": [
+          "选项8"
+        ]
+      },
+      "passed": true,
+      "scope": "Native End; only visible selected panel counted, hidden retained panels not mistaken for active content",
+      "date": "2026-10-25T03:13:57.984Z"
+    },
+    {
+      "name": "tab-container/native-arrow-wrap",
+      "actual": "true",
+      "passed": true,
+      "scope": "Native Right wraps from final tab to first",
+      "date": "2026-10-25T03:14:18.204Z"
+    },
+    {
+      "name": "assistant/count-semantic-group",
+      "actual": "4/500",
+      "passed": true,
+      "scope": "V18: valid named group exposes current visible count; real screen-reader output remains separate",
+      "date": "2026-10-25T03:36:01.631Z"
+    },
+    {
+      "name": "packages/native-plan-isolated-price",
+      "actual": {
+        "disabled": [
+          true,
+          true,
+          true
+        ],
+        "plans": [
+          "extended",
+          "standard",
+          "standard"
+        ],
+        "prices": [
+          "129.00",
+          "99.00",
+          "99.00"
+        ]
+      },
+      "passed": true,
+      "scope": "V19 native select keyboard changes only configured first-card price; no checkout/business claim",
+      "date": "2026-10-25T03:51:04.203Z"
+    },
+    {
+      "name": "packages/native-Home-restores-default",
+      "actual": {
+        "plans": [
+          "standard",
+          "standard",
+          "standard"
+        ],
+        "prices": [
+          "99.00",
+          "99.00",
+          "99.00"
+        ]
+      },
+      "passed": true,
+      "scope": "Native Home/Return restores configured plan and price; sibling cards unchanged",
+      "date": "2026-10-25T03:51:13.228Z"
+    },
+    {
+      "name": "models/native-Tab-reveals-action",
+      "actual": {
+        "focus": "了解模型",
+        "focusTag": "A",
+        "wrappers": [
+          {
+            "opacity": "1",
+            "pointer": "auto"
+          },
+          {
+            "opacity": "0",
+            "pointer": "none"
+          },
+          {
+            "opacity": "0",
+            "pointer": "none"
+          }
+        ]
+      },
+      "passed": true,
+      "scope": "V19 native Tab reaches visually hidden action and reveals focused card only; focus never requires mouse hover",
+      "date": "2026-10-25T03:52:57.501Z"
+    },
+    {
+      "name": "models/native-pointer-reveals-second-only",
+      "actual": [
+        {
+          "opacity": "0",
+          "pointer": "none"
+        },
+        {
+          "opacity": "1",
+          "pointer": "auto"
+        },
+        {
+          "opacity": "0",
+          "pointer": "none"
+        }
+      ],
+      "passed": true,
+      "scope": "Real pointer event centered in observed second article after focus moved outside",
+      "date": "2026-10-25T03:53:33.919Z"
+    },
+    {
+      "name": "models/phone-actions-always-visible",
+      "actual": {
+        "width": 375,
+        "wrappers": [
+          {
+            "opacity": "1",
+            "pointer": "auto"
+          },
+          {
+            "opacity": "1",
+            "pointer": "auto"
+          },
+          {
+            "opacity": "1",
+            "pointer": "auto"
+          }
+        ]
+      },
+      "passed": true,
+      "scope": "Actual375 viewport: configured hover actions remain available without hover",
+      "date": "2026-10-25T03:53:46.902Z"
+    },
+    {
+      "name": "2026-faq/phone-default-collapsed",
+      "actual": {
+        "questions": [
+          {
+            "expanded": "false",
+            "name": "什么是云服务？"
+          },
+          {
+            "expanded": "false",
+            "name": "如何快速上手服务？"
+          }
+        ],
+        "width": 375
+      },
+      "passed": true,
+      "scope": "Configured desktopExpanded=true does not force phone answers open",
+      "date": "2026-10-25T03:54:17.497Z"
+    },
+    {
+      "name": "2026-faq/phone-independent-answers",
+      "actual": [
+        "什么是云服务？",
+        "如何快速上手服务？"
+      ],
+      "passed": true,
+      "scope": "Phone native Enter and Space independently open both answers",
+      "date": "2026-10-25T03:54:41.687Z"
+    },
+    {
+      "name": "2026-faq/native-category-End",
+      "actual": {
+        "focus": "应用场景",
+        "selected": [
+          "应用场景"
+        ],
+        "visibleQuestions": [
+          "有哪些应用场景？"
+        ]
+      },
+      "passed": true,
+      "scope": "Native End selects category and exposes its question, excludes retained hidden panels",
+      "date": "2026-10-25T03:54:56.917Z"
+    },
+    {
+      "name": "2026-faq/desktop-configured-expanded",
+      "actual": {
+        "questions": [
+          {
+            "expanded": "true",
+            "name": "什么是云服务？"
+          },
+          {
+            "expanded": "true",
+            "name": "如何快速上手服务？"
+          }
+        ],
+        "width": 1280
+      },
+      "passed": true,
+      "scope": "Fresh desktop render honors desktopExpanded true, separately from phone default",
+      "date": "2026-10-25T03:55:11.994Z"
+    },
+    {
+      "name": "commands/native-browser-copy-tick-only",
+      "actual": {
+        "buttons": [
+          {
+            "label": "复制成功",
+            "text": "✓"
+          },
+          {
+            "label": "复制命令",
+            "text": ""
+          },
+          {
+            "label": "复制命令",
+            "text": ""
+          },
+          {
+            "label": "复制命令",
+            "text": ""
+          },
+          {
+            "label": "复制命令",
+            "text": ""
+          },
+          {
+            "label": "复制命令",
+            "text": ""
+          }
+        ],
+        "extraMessage": false
+      },
+      "passed": true,
+      "scope": "Native Enter in Storybook invokes the configured clipboard write interface and displays tick-only success. Exact OS clipboard contents not independently proven.",
+      "date": "2026-10-25T03:57:31.168Z"
+    },
+    {
+      "name": "commands/native-End-switches-tool",
+      "actual": {
+        "focus": "bun",
+        "panels": [
+          {
+            "button": "复制命令",
+            "text": "bunx skills add https://gitcode.com/developer-skill/developer-skill.git --skill huawei-cloud-cli-guidance"
+          }
+        ],
+        "selected": [
+          "bun"
+        ]
+      },
+      "passed": true,
+      "scope": "Native End activates configured bun command, exposes matching text and reset copy state; hidden mobile templates excluded",
+      "date": "2026-10-25T03:57:44.197Z"
+    },
+    {
+      "name": "demo/native-next-reaches-end",
+      "actual": {
+        "buttons": [
+          {
+            "disabled": false,
+            "name": "Set string"
+          },
+          {
+            "disabled": false,
+            "name": "Set string"
+          },
+          {
+            "disabled": false,
+            "name": "Set string"
+          },
+          {
+            "disabled": false,
+            "name": "下一展示 产品演示界面"
+          },
+          {
+            "disabled": false,
+            "name": "上一展示"
+          },
+          {
+            "disabled": true,
+            "name": "下一展示"
+          },
+          {
+            "disabled": false,
+            "name": "重置展示"
+          }
+        ],
+        "counter": "2 / 2"
+      },
+      "passed": true,
+      "scope": "Configured two-image demo: native Enter advances and enforces last-item boundary",
+      "date": "2026-10-25T03:59:35.100Z"
+    },
+    {
+      "name": "demo/native-reset-restores-start",
+      "actual": {
+        "counter": "1 / 2",
+        "previous": true,
+        "resetButtons": 0
+      },
+      "passed": true,
+      "scope": "Native Space resets first media item, disables previous and removes unnecessary reset control",
+      "date": "2026-10-25T03:59:56.496Z"
+    },
+    {
+      "name": "wide/native-next-scrolls-track",
+      "actual": {
+        "next": false,
+        "previous": false,
+        "track": {
+          "left": 880,
+          "scroll": 2624,
+          "width": 1152
+        }
+      },
+      "passed": true,
+      "scope": "V19 native Enter moves actual scroll track and enables previous at intermediate position",
+      "date": "2026-10-25T04:02:45.665Z"
+    },
+    {
+      "name": "wide/native-end-disables-next",
+      "actual": {
+        "left": 1472,
+        "max": 1472,
+        "next": true
+      },
+      "passed": true,
+      "scope": "Actual last scroll boundary disables next; no forced loop",
+      "date": "2026-10-25T04:02:56.091Z"
+    },
+    {
+      "name": "wide/native-Space-scrolls-back",
+      "actual": {
+        "left": 880,
+        "next": false
+      },
+      "passed": true,
+      "scope": "Native Space reverses actual track and re-enables forward navigation",
+      "date": "2026-10-25T04:03:46.650Z"
+    },
+    {
+      "name": "scene-carousel/native-Enter-expands",
+      "actual": "true",
+      "passed": true,
+      "scope": "Native Enter opens configured scene overlay and exposes action without mouse",
+      "date": "2026-10-25T04:05:53.840Z"
+    },
+    {
+      "name": "scene-carousel/native-Escape-collapses",
+      "actual": {
+        "expanded": "false",
+        "focus": "协同开发"
+      },
+      "passed": true,
+      "scope": "Native Escape restores card while retaining trigger focus",
+      "date": "2026-10-25T04:06:03.083Z"
+    },
+    {
+      "name": "scene-carousel/native-track-last-boundary",
+      "actual": {
+        "left": 389.5,
+        "max": 389,
+        "next": false,
+        "previous": false
+      },
+      "passed": false,
+      "scope": "Configured three-column/four-card scene track advances one card to actual end boundary",
+      "date": "2026-10-25T04:06:21.535Z",
+      "classification": "confirmed-defect-fixed",
+      "disposition": "V19 actual end389.5/max389 left next enabled. V20 uses actual scroll bounds and ResizeObserver; fixed-native-last-boundary verifies disabled next. Original failure retained."
+    },
+    {
+      "name": "live/native-theatre-hides-sidebar",
+      "actual": {
+        "button": [
+          {
+            "controls": "v1-live-panel",
+            "expanded": "false",
+            "name": "退出剧场模式"
+          }
+        ],
+        "videoCount": 1,
+        "visibleAside": 0
+      },
+      "passed": true,
+      "scope": "V19 local video native Enter hides description sidebar; same player retained, no streaming-service claim",
+      "date": "2026-10-25T04:13:42.987Z"
+    },
+    {
+      "name": "live/native-Space-restores-sidebar",
+      "actual": {
+        "expanded": "true",
+        "focus": "展开剧场模式",
+        "visibleAside": 1
+      },
+      "passed": true,
+      "scope": "Native Space restores description sidebar while retaining theatre trigger focus",
+      "date": "2026-10-25T04:13:51.509Z"
+    },
+    {
+      "name": "live-preview/native-select-upcoming",
+      "actual": "true",
+      "passed": true,
+      "scope": "Configured upcoming session selection updates hero; statuses are fixture data, not current real schedule",
+      "date": "2026-10-25T04:18:30.465Z"
+    },
+    {
+      "name": "live-preview/native-local-reservation",
+      "actual": {
+        "pressed": [
+          "true",
+          "true"
+        ],
+        "remaining": 1,
+        "status": "已在当前页面标记预约"
+      },
+      "passed": true,
+      "scope": "Native Space marks selected session consistently in hero/card only; explicit local-only notice remains",
+      "date": "2026-10-25T04:18:57.841Z"
+    },
+    {
+      "name": "live-preview/native-local-cancel",
+      "actual": {
+        "cancel": 0,
+        "reserve": 3,
+        "status": "已取消本页预约标记"
+      },
+      "passed": true,
+      "scope": "Native Enter on card cancels same local session in hero and card; does not call a production reservation service",
+      "date": "2026-10-25T04:19:10.081Z"
+    },
+    {
+      "name": "scene-carousel/fixed-native-last-boundary",
+      "actual": {
+        "left": 389.5,
+        "max": 389,
+        "next": true,
+        "previous": false
+      },
+      "passed": true,
+      "scope": "V20 actual scroll edge disables next, including fractional scrollLeft; V19 confirmed defect retained",
+      "date": "2026-10-25T04:22:03.228Z"
+    },
+    {
+      "name": "scene-carousel/resize954-keeps-real-edge",
+      "actual": {
+        "left": 304,
+        "max": 304,
+        "next": true,
+        "previous": false,
+        "width": 954
+      },
+      "passed": true,
+      "scope": "V20 viewport resize clamps track and recomputes real end boundary",
+      "date": "2026-10-25T04:22:38.085Z"
+    },
+    {
+      "name": "scene-carousel/resize1920-keeps-real-edge",
+      "actual": {
+        "left": 540,
+        "max": 540,
+        "next": true,
+        "previous": false,
+        "width": 1920
+      },
+      "passed": true,
+      "scope": "Browser scroll-snap retains last visible position on expansion; observer correctly retains end disabled state",
+      "date": "2026-10-25T04:23:05.645Z"
+    },
+    {
+      "name": "scene-carousel/fixed-native-start-boundary",
+      "actual": {
+        "left": 0,
+        "next": false,
+        "previous": true
+      },
+      "passed": true,
+      "scope": "V20 native Space reverses to true start, disables previous and re-enables next",
+      "date": "2026-10-25T04:23:58.721Z"
+    },
+    {
+      "name": "commands/native-clipboard-roundtrip",
+      "actual": {
+        "matches": false,
+        "expectedLength": 104,
+        "actualLength": 0
+      },
+      "passed": false,
+      "scope": "Foreground native Enter plus browser clipboard readback equals the exact currently displayed local fixture command; no command execution or external navigation",
+      "date": "2026-10-25T04:30:43.284Z",
+      "classification": "platform-reference-observation",
+      "disposition": "Independent clipboard readback is unavailable in this test surface: bare native reference also completes write feedback but bridge returns empty and page read remains pending. Retain unverified roundtrip; do not infer a component bug or claim exact OS clipboard delivery."
+    },
+    {
+      "name": "pricing/mobile-independent-native-summary",
+      "actual": {
+        "groups": [
+          {
+            "open": false,
+            "title": "测试模型 1"
+          },
+          {
+            "open": true,
+            "title": "测试模型 2"
+          },
+          {
+            "open": false,
+            "title": "测试模型 3"
+          },
+          {
+            "open": false,
+            "title": "测试模型 4"
+          }
+        ],
+        "width": 375
+      },
+      "passed": true,
+      "scope": "375 CSS pixels; first group initially open; Enter opens second independently; Space closes first without closing second. Desktop table observed at 1280.",
+      "date": "2026-10-25T06:24:09.970Z"
+    },
+    {
+      "name": "advantages/native-show-more-less",
+      "actual": {
+        "before": {
+          "cards": 5
+        },
+        "open": {
+          "cards": 9,
+          "expanded": [
+            {
+              "expanded": "true",
+              "text": "收起内容"
+            }
+          ]
+        },
+        "closed": {
+          "cards": 5,
+          "expanded": "false"
+        }
+      },
+      "passed": true,
+      "scope": "1280 default fixture: Enter reveals additional configured row, Space restores initial two rows, retained button focus.",
+      "date": "2026-10-25T06:25:35.420Z"
+    },
+    {
+      "name": "v1-benefits/native-independent-and-all-closed",
+      "actual": {
+        "before": {
+          "open": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "width": 375
+        },
+        "both": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "closed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "passed": true,
+      "scope": "375 native details first item open; Enter independent second; Space permits all closed.",
+      "date": "2026-10-25T06:26:25.660Z"
+    },
+    {
+      "name": "contact/native-open-escape-outside",
+      "actual": {
+        "open": {
+          "expanded": "true",
+          "links": [
+            {
+              "href": "https://storybook.js.org/docs/writing-stories/decorators",
+              "text": "Decorators documentation"
+            },
+            {
+              "href": "https://storybook.js.org/docs/builders/webpack",
+              "text": "Webpack"
+            },
+            {
+              "href": "https://storybook.js.org/docs/builders/vite",
+              "text": "Vite"
+            },
+            {
+              "href": "https://storybook.js.org/docs/configure/environment-variables",
+              "text": "Environment Variables documentation"
+            },
+            {
+              "href": "https://www.huaweicloud.com/service/contact.html",
+              "text": "售前咨询"
+            },
+            {
+              "href": "https://console.huaweicloud.com/ticket/",
+              "text": "工单"
+            }
+          ]
+        },
+        "close": {
+          "expanded": "false",
+          "focus": "联系我们"
+        },
+        "outside": "false"
+      },
+      "passed": false,
+      "scope": "Native Enter opens sales links; Escape closes and focus stays trigger; Space reopens; outside heading click closes. No external link submitted.",
+      "date": "2026-10-25T06:27:26.018Z",
+      "classification": "test-scope-error",
+      "disposition": "Global anchor inventory included four hidden Storybook error-documentation links. Contact panel native open/Escape/outside behavior passed; corrected assertion scopes two observed business links."
+    },
+    {
+      "name": "contact/native-open-escape-outside-scoped",
+      "actual": {
+        "open": {
+          "expanded": "true",
+          "links": [
+            {
+              "href": "https://storybook.js.org/docs/writing-stories/decorators",
+              "text": "Decorators documentation"
+            },
+            {
+              "href": "https://storybook.js.org/docs/builders/webpack",
+              "text": "Webpack"
+            },
+            {
+              "href": "https://storybook.js.org/docs/builders/vite",
+              "text": "Vite"
+            },
+            {
+              "href": "https://storybook.js.org/docs/configure/environment-variables",
+              "text": "Environment Variables documentation"
+            },
+            {
+              "href": "https://www.huaweicloud.com/service/contact.html",
+              "text": "售前咨询"
+            },
+            {
+              "href": "https://console.huaweicloud.com/ticket/",
+              "text": "工单"
+            }
+          ]
+        },
+        "close": {
+          "expanded": "false",
+          "focus": "联系我们"
+        },
+        "outside": "false"
+      },
+      "passed": true,
+      "scope": "Native Enter opens two contact links; Escape closes with trigger focus; Space reopens; outside heading click closes. No external business link opened.",
+      "date": "2026-10-25T06:27:59.468Z"
+    },
+    {
+      "name": "split/native-tabs-zoom-escape",
+      "actual": {
+        "open": {
+          "dialog": true,
+          "focus": "关闭图片"
+        },
+        "closed": {
+          "dialog": false,
+          "focus": "放大图片 原缓存官网防护关系示意图，仅用于完整显示与放大验证",
+          "selected": "架构示意"
+        }
+      },
+      "passed": true,
+      "scope": "Default desktop local fixture: End changes visible panel; Enter opens native image dialog; Escape closes and restores image trigger focus. Source business architecture not claimed.",
+      "date": "2026-10-25T06:28:59.561Z"
+    },
+    {
+      "name": "browser-zoom/native-shortcut-unavailable",
+      "date": "2026-10-25T06:29:47.608Z",
+      "passed": false,
+      "actual": {
+        "before": {
+          "dpr": 2,
+          "width": 1280
+        },
+        "after": {
+          "dpr": 2,
+          "width": 1280
+        }
+      },
+      "classification": "environment-capability",
+      "disposition": "IAB Ctrl+Plus did not change CSS viewport or devicePixelRatio; Ctrl+0 sent to restore. Not counted as browser zoom acceptance.",
+      "scope": "Real browser zoom remains unverified; no substitution with CDP page scale or CSS font scaling."
+    },
+    {
+      "name": "v1-cases/native-end-and-wrap",
+      "actual": {
+        "end": {
+          "focus": "客户案例三",
+          "headings": [
+            "可编辑的客户案例标题 1",
+            "可编辑的客户案例标题 2",
+            "可编辑的客户案例标题 3"
+          ],
+          "selected": "客户案例三"
+        },
+        "wrap": {
+          "focus": "客户案例一",
+          "selected": "客户案例一"
+        }
+      },
+      "passed": false,
+      "scope": "Default fixture has three customer tabs; End activates last panel and ArrowRight wraps to first with focus. Optional video and ten-tab overflow not claimed.",
+      "date": "2026-10-25T06:29:47.674Z",
+      "classification": "test-scope-error",
+      "disposition": "All retained panel headings have layout boxes; AX correctly exposes only active panel. Corrected assertion uses active tab aria-controls rather than unscoped heading dimensions."
+    },
+    {
+      "name": "v1-cases/native-panel-and-wrap-scoped",
+      "actual": {
+        "end": {
+          "focus": "客户案例三",
+          "panel": "可编辑的客户案例标题 3案例说明独立于背景图片，可以完整编辑和换行。了解详情",
+          "selected": "客户案例三"
+        },
+        "wrap": {
+          "focus": "客户案例一",
+          "selected": "客户案例一"
+        }
+      },
+      "passed": true,
+      "scope": "End activates last tab/panel, ArrowRight wraps to first with focus. Retained inactive DOM panels excluded through aria-controls.",
+      "date": "2026-10-25T06:30:26.591Z"
+    },
+    {
+      "name": "cases2026/native-end-phone-home",
+      "actual": {
+        "end": {
+          "focus": "",
+          "panel": "客户案例布局验证 3此页面仅验证案例组件，不代表客户的实际业务成果。业务数据由实际项目提供测试指标了解案例",
+          "selected": ""
+        },
+        "phone": {
+          "images": [
+            {
+              "alt": "原设计案例场景摄影",
+              "complete": true,
+              "width": 960
+            },
+            {
+              "alt": "",
+              "complete": true,
+              "width": 16
+            },
+            {
+              "alt": "慧科",
+              "complete": true,
+              "width": 251
+            },
+            {
+              "alt": "数云",
+              "complete": true,
+              "width": 80
+            },
+            {
+              "alt": "方寸智能",
+              "complete": true,
+              "width": 175
+            }
+          ],
+          "selected": "",
+          "width": 375
+        }
+      },
+      "passed": false,
+      "scope": "Default fixture customer tab End at desktop, Home at 375; current visible source images loaded. Optional video not claimed.",
+      "date": "2026-10-25T06:31:02.445Z",
+      "classification": "test-name-error",
+      "disposition": "Image-only logo tabs expose accessible names from aria-label/image alt, not textContent. Native selected panel and Home operation succeeded; corrected to selected tab IDs."
+    },
+    {
+      "name": "cases2026/native-end-phone-home-by-id",
+      "actual": {
+        "desktopPanel": "客户案例布局验证 3此页面仅验证案例组件，不代表客户的实际业务成果。业务数据由实际项目提供测试指标了解案例",
+        "phoneHome": {
+          "focus": "cases-2026-tab-customer-1",
+          "id": "cases-2026-tab-customer-1"
+        },
+        "phoneEnd": {
+          "focus": "cases-2026-tab-customer-3",
+          "id": "cases-2026-tab-customer-3"
+        },
+        "images": [
+          {
+            "alt": "原设计案例场景摄影",
+            "complete": true,
+            "width": 960
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "width": 16
+          },
+          {
+            "alt": "慧科",
+            "complete": true,
+            "width": 251
+          },
+          {
+            "alt": "数云",
+            "complete": true,
+            "width": 80
+          },
+          {
+            "alt": "方寸智能",
+            "complete": true,
+            "width": 175
+          }
+        ]
+      },
+      "passed": true,
+      "scope": "Desktop End activated third panel; 375 Home and End select matching customer logo tabs and restore focus; visible source images loaded.",
+      "date": "2026-10-25T06:31:42.609Z"
+    },
+    {
+      "name": "v1-tabs/native-right-home",
+      "actual": {
+        "right": {
+          "focus": "服务支持",
+          "panel": "服务支持",
+          "selected": "服务支持"
+        },
+        "home": {
+          "focus": "基础能力",
+          "selected": "基础能力"
+        }
+      },
+      "passed": true,
+      "scope": "Default two-tab fixture ArrowRight selects matching panel and Home returns focus/selection to first; disabled-tab variants not claimed.",
+      "date": "2026-10-25T06:32:44.046Z"
+    },
+    {
+      "name": "solutions/native-group-switch",
+      "actual": {
+        "end": {
+          "focus": "方案分类 2",
+          "headings": [
+            "解决方案示例 0",
+            "解决方案示例 1",
+            "解决方案示例 2",
+            "解决方案示例 3",
+            "解决方案示例 4"
+          ],
+          "links": [
+            "#v1-solutions",
+            "#v1-solutions",
+            "#v1-solutions",
+            "#v1-solutions",
+            "#v1-solutions"
+          ],
+          "nestedLinks": 0,
+          "selected": "方案分类 2"
+        }
+      },
+      "passed": true,
+      "scope": "Default two-group solution recommendation End selects second panel; independently linked content exists without nested anchor. Source visual/full link destination business not claimed.",
+      "date": "2026-10-25T06:33:55.751Z"
+    },
+    {
+      "name": "hover/native-enter-escape-phone",
+      "actual": {
+        "open": [
+          {
+            "expanded": "true",
+            "name": "智能体构建"
+          },
+          {
+            "expanded": "false",
+            "name": "业务运行"
+          },
+          {
+            "expanded": "false",
+            "name": "开发工具"
+          },
+          {
+            "expanded": "false",
+            "name": "数据应用"
+          }
+        ],
+        "closed": [
+          {
+            "expanded": "false",
+            "name": "智能体构建"
+          },
+          {
+            "expanded": "false",
+            "name": "业务运行"
+          },
+          {
+            "expanded": "false",
+            "name": "开发工具"
+          },
+          {
+            "expanded": "false",
+            "name": "数据应用"
+          }
+        ],
+        "phone": {
+          "expanders": 0,
+          "links": [
+            "了解方案",
+            "了解方案",
+            "了解方案",
+            "了解方案"
+          ],
+          "width": 375
+        }
+      },
+      "passed": true,
+      "scope": "Desktop Enter expands first card and Escape closes; 375 directly exposes all four configured descriptions/action links without hidden expanders. Overflow >4 and optional video not claimed.",
+      "date": "2026-10-25T06:34:59.012Z"
+    },
+    {
+      "name": "elevator/native-target-and-current",
+      "actual": {
+        "actual": {
+          "active": [
+            {
+              "current": null,
+              "name": "新老同享"
+            },
+            {
+              "current": null,
+              "name": "解决方案"
+            },
+            {
+              "current": "location",
+              "name": "企业应用"
+            }
+          ],
+          "targetTop": 105,
+          "width": 1920,
+          "y": 0
+        }
+      },
+      "passed": true,
+      "scope": "1920 Enter on third link targets existing elevator-three and updates aria-current. Fixture fits viewport, so this does not prove long-page scrolling or sticky-offset distance. At 1280 navigation hidden by configured fit guard.",
+      "date": "2026-10-25T06:37:41.490Z"
+    },
+    {
+      "name": "process/native-end-home-without-controls",
+      "actual": {
+        "end": {
+          "bar": "none",
+          "buttons": [],
+          "left": 229.5,
+          "max": 229,
+          "width": 954
+        },
+        "home": 4
+      },
+      "passed": false,
+      "scope": "954 CSS px five configured steps: focusable region End reaches fifth step and Home returns to start. No bottom next/previous buttons or scrollbar per owner override. Physical touch unverified.",
+      "date": "2026-10-25T06:39:36.633Z",
+      "classification": "test-boundary-assumption",
+      "disposition": "Home settles at scrollLeft 4 due to source track 4px focus padding/scroll snap; first heading aligns with visible track edge. Corrected to verify visible first-step alignment, not absolute zero."
+    },
+    {
+      "name": "process/native-end-home-visible-boundary",
+      "actual": {
+        "end": {
+          "bar": "none",
+          "buttons": [],
+          "left": 229.5,
+          "max": 229,
+          "width": 954
+        },
+        "home": 4
+      },
+      "passed": true,
+      "scope": "954 five configured steps: End reaches fifth; Home returns first heading to track edge with 4px focus padding. No bottom buttons/scrollbar per owner override. Physical touch unverified.",
+      "date": "2026-10-25T06:40:34.251Z"
+    },
+    {
+      "name": "process/phone-all-five-vertical",
+      "actual": {
+        "headingCount": 5,
+        "overflow": 0,
+        "width": 375
+      },
+      "passed": true,
+      "scope": "375 five steps rendered vertically with no horizontal overflow; physical touch not claimed.",
+      "date": "2026-10-25T06:40:34.291Z"
+    },
+    {
+      "name": "learning/mobile-native-tab-order",
+      "actual": {
+        "phone": {
+          "links": [
+            "在线课程",
+            "沙箱实验",
+            "开发者认证",
+            "开发工具"
+          ],
+          "width": 375
+        },
+        "tabSequence": [
+          "沙箱实验",
+          "开发者认证",
+          "开发工具"
+        ],
+        "desktop": {
+          "links": [
+            "华为云入门与实践资料0",
+            "最佳实践",
+            "长文案用于检查自然换行，禁止截断重要的课程标题",
+            "华为云入门与实践资料1",
+            "最佳实践",
+            "长文案用于检查自然换行，禁止截断重要的课程标题",
+            "华为云入门与实践资料2",
+            "最佳实践",
+            "长文案用于检查自然换行，禁止截断重要的课程标题",
+            "华为云入门与实践资料3",
+            "最佳实践",
+            "长文案用于检查自然换行，禁止截断重要的课程标题"
+          ],
+          "width": 1280
+        }
+      },
+      "passed": true,
+      "scope": "375 configured independent phone links receive Tab in visible order without hidden PC duplicates. Desktop configured grouped links visible after responsive change. No invented five-group variant.",
+      "date": "2026-10-25T06:41:29.232Z"
+    },
+    {
+      "name": "catalog/mobile-native-open-escape",
+      "actual": {
+        "open": {
+          "expanded": "true",
+          "width": 375
+        },
+        "closed": {
+          "expanded": "false",
+          "focus": "展开全部产品分类"
+        }
+      },
+      "passed": true,
+      "scope": "375 native Enter opens configured product directory; Escape closes with trigger focus. Long-page observer offsets not claimed.",
+      "date": "2026-10-25T06:42:45.168Z"
+    },
+    {
+      "name": "generic/native-overlay-action-order",
+      "actual": {
+        "action": {
+          "href": "#v1-generic",
+          "name": "了解详情",
+          "nested": 0
+        },
+        "next": {
+          "name": "产品能力二"
+        }
+      },
+      "passed": true,
+      "scope": "Default generic card native Tab traverses first card overlay, distinct action, then second overlay without nested anchors. Tabbed optional variation not claimed.",
+      "date": "2026-10-25T06:44:29.335Z"
+    },
+    {
+      "name": "recommendations/native-link-order-phone",
+      "actual": {
+        "next": {
+          "focus": "产品能力二",
+          "links": 3,
+          "nested": 0
+        },
+        "phone": {
+          "links": 3,
+          "overflow": 0,
+          "width": 375
+        }
+      },
+      "passed": true,
+      "scope": "Default product recommendation links keyboard focus follows card order; 375 compact layout retains all three configured links without root overflow. Optional tabs/hidden configuration not claimed.",
+      "date": "2026-10-25T06:45:27.939Z"
+    },
+    {
+      "name": "speakers/native-show-all-collapse",
+      "actual": {
+        "open": {
+          "cards": 7,
+          "expanded": "true"
+        },
+        "closed": {
+          "cards": 5,
+          "expanded": "false"
+        }
+      },
+      "passed": true,
+      "scope": "1280 source sample Enter expands configured seven guests from initial five; Space restores five. Optional biography overlay/manual carousel not claimed.",
+      "date": "2026-10-25T06:47:35.971Z"
+    },
+    {
+      "name": "news-list/native-page-query-category-reset",
+      "actual": {
+        "page": {
+          "current": "2",
+          "heads": [
+            "鸿蒙开发工具",
+            "云数据库检索"
+          ]
+        },
+        "search": {
+          "current": "1",
+          "heads": [
+            "鸿蒙实践指南",
+            "鸿蒙开发工具"
+          ]
+        },
+        "empty": true,
+        "reset": {
+          "all": [
+            {
+              "checked": true
+            },
+            {
+              "checked": false
+            },
+            {
+              "checked": false
+            },
+            {
+              "checked": false
+            }
+          ],
+          "current": "1",
+          "heads": [
+            "鸿蒙实践指南",
+            "云原生容器实践"
+          ],
+          "value": ""
+        }
+      },
+      "passed": true,
+      "scope": "Native Enter next page then keyword search returns first page; Space selects other category creating empty intersection; Enter clear resets search/all category/page. Local fixture only, no production backend.",
+      "date": "2026-10-25T06:50:07.276Z"
+    },
+    {
+      "name": "banner/native-end-wrap",
+      "actual": {
+        "end": {
+          "focus": "banner-2026-tab-banner-1",
+          "panel": "  开发与实践资源构建适合业务的云上能力组件验证样本，页面内容可按业务配置。了解更多",
+          "selected": "开发与实践资源"
+        },
+        "wrap": {
+          "focus": "banner-2026-tab-banner-0",
+          "selected": "banner-2026-tab-banner-0"
+        }
+      },
+      "passed": true,
+      "scope": "Default manually controlled Banner End activates second source slide and ArrowRight wraps to first with focus. Optional auto-rotation not configured in this fixture and not claimed.",
+      "date": "2026-10-25T06:54:46.590Z"
+    },
+    {
+      "name": "news2026/native-content-link-order",
+      "actual": {
+        "next": "开发者实践更新查看技术动态与实践经验2026/10/18",
+        "activated": {
+          "focus": "BODY after same-document anchor activation; no focus-return claim",
+          "hash": "#news-2026",
+          "nested": 0
+        }
+      },
+      "passed": true,
+      "scope": "Default text/news fixture first overlay Tab reaches next article; native Enter activates configured local content link. Optional background video not in this sample, lifecycle unverified.",
+      "date": "2026-10-25T06:55:35.590Z"
+    },
+    {
+      "name": "agents/native-pointer-lifecycle-pause",
+      "actual": {
+        "hover": {
+          "current": 0.004815,
+          "muted": true,
+          "paused": false,
+          "ready": 4
+        },
+        "leave": {
+          "current": 0.416977,
+          "paused": true
+        },
+        "userPaused": {
+          "label": "恢复背景视频",
+          "paused": true,
+          "pressed": "true"
+        }
+      },
+      "passed": true,
+      "scope": "Actual pointer enters loaded local silent WebM card: muted play; leaving pauses. Native Space toggles explicit user pause. No production media or hidden/offscreen lifecycle inference.",
+      "date": "2026-10-25T06:58:56.375Z"
+    },
+    {
+      "name": "v1-architecture/native-image-escape",
+      "actual": {
+        "open": true,
+        "closed": {
+          "focus": "放大图片 复用已注册技术架构示意图用于交互验证",
+          "open": false
+        }
+      },
+      "passed": true,
+      "scope": "Native Enter opens registered technical image preview; Escape closes/restores trigger focus. Actual architecture semantics/optional video not claimed.",
+      "date": "2026-10-25T07:01:12.349Z"
+    },
+    {
+      "name": "editorial/mobile-native-dots",
+      "actual": {
+        "third": {
+          "buttons": [
+            {
+              "label": "资讯 1",
+              "pressed": "true"
+            },
+            {
+              "label": "资讯 2",
+              "pressed": "false"
+            },
+            {
+              "label": "资讯 3",
+              "pressed": "false"
+            }
+          ],
+          "tracks": [
+            {
+              "cls": "hc-pv1-editorial-mobile",
+              "left": 0,
+              "max": 726
+            }
+          ],
+          "width": 375
+        },
+        "first": [
+          "true",
+          "false",
+          "false"
+        ]
+      },
+      "passed": false,
+      "scope": "375 native Enter selects third manual mobile editorial group; Space returns first. Dot state verified; physical swipe not claimed.",
+      "date": "2026-10-25T07:01:57.865Z",
+      "classification": "test-observed-before-scroll-settled",
+      "disposition": "Native dot action scrolls smoothly and aria-pressed follows scroll position; immediate read saw initial state. After scroll completion third dot true and scrollLeft=max726. Corrected test waits for selected dot."
+    },
+    {
+      "name": "editorial/mobile-dots-settled",
+      "actual": {
+        "third": {
+          "left": 726,
+          "max": 726,
+          "selected": "资讯 3"
+        },
+        "first": {
+          "left": 117,
+          "selected": "资讯 1"
+        }
+      },
+      "passed": false,
+      "scope": "375 native Enter third and Space first, wait for source scroll-following selected dot; actual track reaches end726 and start. Physical touch unverified.",
+      "date": "2026-10-25T07:04:37.110Z",
+      "classification": "test-observed-before-scroll-settled",
+      "disposition": "Selected dot changes around nearest card before smooth track reaches exact start; later independent DOM observation confirms scrollLeft0. Kept as timing assumption, not implementation failure."
+    },
+    {
+      "name": "editorial/mobile-dots-final-boundaries",
+      "actual": {
+        "third": {
+          "left": 726,
+          "max": 726,
+          "selected": "资讯 3"
+        },
+        "first": {
+          "left": 0,
+          "selected": "资讯 1"
+        }
+      },
+      "passed": true,
+      "scope": "375 Enter reaches third group/max726; Space returns first/start0 after source smooth scrolling. State follows nearest card before animation finishes; not counted as synchronous navigation.",
+      "date": "2026-10-25T07:06:18.602Z"
+    },
+    {
+      "name": "publications/mobile-native-dots-reduced-motion",
+      "actual": {
+        "end": {
+          "selected": "展示卡片 3",
+          "tracks": [
+            {
+              "class": "hc-pv1-pub-grid",
+              "left": 742,
+              "max": 742
+            }
+          ]
+        },
+        "start": {
+          "selected": "展示卡片 1"
+        }
+      },
+      "passed": true,
+      "scope": "375 prefers-reduced-motion native Enter selects third publication at actual end; Space returns first. Registered source images and rich text remain DOM content; physical swipe not claimed.",
+      "date": "2026-10-25T07:07:39.912Z"
+    },
+    {
+      "name": "actions/native-link-disabled",
+      "actual": {
+        "disabledEnabled": false,
+        "activated": {
+          "disabled": [
+            "敬请期待"
+          ],
+          "hash": "#commands"
+        }
+      },
+      "passed": true,
+      "scope": "Actions branch separately tested from command copying: configured native link activates local href; source disabled action uses real disabled button. OS clipboard not involved.",
+      "date": "2026-10-25T07:28:55.774Z"
+    },
+    {
+      "name": "next/native-configured-action-order",
+      "actual": {
+        "focus": {
+          "focus": "查看实践›",
+          "href": "#next-step"
+        },
+        "hash": "#next-step"
+      },
+      "passed": false,
+      "scope": "Two configured source action links: Tab traverses first to second; Enter follows local target. Known source contrast violation remains and is not waived by runtime pass.",
+      "date": "2026-10-25T07:30:00.989Z",
+      "classification": "test-name-decoration",
+      "disposition": "Link DOM text includes decorative › while accessible name is 查看实践. Corrected assertion retains source decoration and verifies native href."
+    },
+    {
+      "name": "next/native-action-order-accessible-name",
+      "actual": {
+        "focus": {
+          "focus": "查看实践›",
+          "href": "#next-step"
+        },
+        "hash": "#next-step"
+      },
+      "passed": true,
+      "scope": "Two configured source action links: Tab traverses first to second; Enter follows local target. Source decorative arrow remains. Known contrast violation is not waived.",
+      "date": "2026-10-25T07:31:17.383Z"
+    },
+    {
+      "name": "scenarios/native-two-card-links",
+      "actual": {
+        "focus": {
+          "focus": "了解AIGC场景推理",
+          "href": "#scenarios-2026",
+          "nested": 0
+        },
+        "hash": "#scenarios-2026"
+      },
+      "passed": true,
+      "scope": "Two-column source fixture native Tab/Enter traverse independent links. No configured architecture zoom or overflow track in this fixture; those branches remain outside this named observation.",
+      "date": "2026-10-25T07:32:36.878Z"
+    },
+    {
+      "name": "banner-upper/native-content-action",
+      "actual": {
+        "hash": "#banner-2026",
+        "heading": "产品能力介绍构建适合业务的云上能力",
+        "visiblePanel": "banner-2026-panel-banner-0"
+      },
+      "passed": true,
+      "scope": "Upper-banner content action tested inside its registered composed source Story; native Enter follows configured href. Rotation belongs to parent, not upper content structure.",
+      "date": "2026-10-25T07:33:56.555Z"
+    },
+    {
+      "name": "floorframe/structural-ready-no-internal-state",
+      "actual": {
+        "controls": 0,
+        "sections": 1,
+        "text": "产品能力根据场景选择合适的能力组合内容位置",
+        "title": "H2"
+      },
+      "passed": true,
+      "scope": "Contract defines structural ready wrapper only, descendants own behavior; observed title/description/children, zero fabricated loading/selected/interactive state. This is explicit structural acceptance, not native key coverage or source visual approval.",
+      "date": "2026-10-25T07:34:47.995Z",
+      "observationType": "structural"
+    },
+    {
+      "name": "ai-columns/native-configured-static-link",
+      "actual": {
+        "observed": {
+          "buttons": 0,
+          "headings": [
+            "AI能力服务专区"
+          ],
+          "links": [
+            {
+              "href": "#v1-ai-architecture",
+              "label": "能力专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "应用专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "能力专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "应用专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "能力专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "应用专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "能力专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "应用专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "能力专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "应用专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "能力专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "应用专区"
+            },
+            {
+              "href": "#v1-ai-architecture",
+              "label": "查看更多"
+            }
+          ]
+        },
+        "after": {
+          "hash": "#v1-ai-architecture",
+          "nested": 0
+        }
+      },
+      "passed": true,
+      "scope": "Registered V20 releasescope-pix-002-1279-40555--default fixture: native Enter activates observed configured same-document href; no nested anchor. Only this static configuration, no whole-source visual, optional carousel/media or state coverage inferred.",
+      "date": "2026-10-25T07:37:07.032Z"
+    },
+    {
+      "name": "general-banner/native-configured-static-link",
+      "actual": {
+        "observed": {
+          "buttons": 0,
+          "headings": [
+            "面向业务场景构建页面业务场景与实践"
+          ],
+          "links": [
+            {
+              "href": "#documents",
+              "label": "查看资料"
+            },
+            {
+              "href": "#updates",
+              "label": "了解动态"
+            }
+          ]
+        },
+        "after": {
+          "hash": "#documents",
+          "nested": 0
+        }
+      },
+      "passed": true,
+      "scope": "Registered V20 sourcefloors-generalbanner--default fixture: native Enter activates observed same-document href, no nested anchor. Only configured static branch; source visual or optional states not inferred.",
+      "date": "2026-10-25T07:37:58.910Z"
+    },
+    {
+      "name": "icon-text/native-configured-static-link",
+      "actual": {
+        "observed": {
+          "buttons": 0,
+          "headings": [
+            "能力与支持"
+          ],
+          "links": [
+            {
+              "href": "#capabilities",
+              "label": "安全能力HOT此处为规范验证说明"
+            },
+            {
+              "href": "#capabilities",
+              "label": "开发工具HOT此处为规范验证说明"
+            },
+            {
+              "href": "#capabilities",
+              "label": "服务支持HOT此处为规范验证说明"
+            },
+            {
+              "href": "#capabilities",
+              "label": "学习资源HOT此处为规范验证说明"
+            }
+          ]
+        },
+        "after": {
+          "hash": "#capabilities",
+          "nested": 0
+        }
+      },
+      "passed": true,
+      "scope": "Registered V20 sourcefloors-icontextcards--default fixture: native Enter activates observed same-document href, no nested anchor. Only configured static branch; source visual or optional states not inferred.",
+      "date": "2026-10-25T07:37:59.375Z"
+    },
+    {
+      "name": "sessions/native-configured-static-link",
+      "actual": {
+        "observed": {
+          "buttons": 0,
+          "headings": [
+            "更多分会场更多分会场"
+          ],
+          "links": [
+            {
+              "href": "#v1-sessions",
+              "label": "场景组合购折上折更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "奖励推广计划更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "数字化办公更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "安全与合规更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "云存储更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "云数据库更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "行业场景更多活动内容，重点优惠"
+            },
+            {
+              "href": "#v1-sessions",
+              "label": "开发者专场更多活动内容，重点优惠"
+            }
+          ]
+        },
+        "after": {
+          "hash": "#v1-sessions",
+          "nested": 0
+        }
+      },
+      "passed": true,
+      "scope": "Registered V20 releasescope-pix-002-16-37699--default fixture: native Enter activates observed same-document href, no nested anchor. Only configured static branch; source visual or optional states not inferred.",
+      "date": "2026-10-25T07:37:59.849Z"
+    },
+    {
+      "name": "latest/native-configured-static-link",
+      "actual": {
+        "observed": {
+          "buttons": 0,
+          "headings": [
+            "最新动态"
+          ],
+          "links": [
+            {
+              "href": "#updates",
+              "label": "查看动态›"
+            }
+          ]
+        },
+        "after": {
+          "hash": "#updates",
+          "nested": 0
+        }
+      },
+      "passed": true,
+      "scope": "Registered V20 sourcefloors-latestupdates--default fixture: native Enter activates observed same-document href, no nested anchor. Only configured static branch; source visual or optional states not inferred.",
+      "date": "2026-10-25T07:38:00.315Z"
+    },
+    {
+      "name": "quote/native-configured-static-link",
+      "actual": {
+        "observed": {
+          "buttons": 0,
+          "headings": [
+            "最新动态"
+          ],
+          "links": [
+            {
+              "href": "#updates",
+              "label": "查看动态›"
+            }
+          ]
+        },
+        "after": {
+          "hash": "#updates",
+          "nested": 0
+        }
+      },
+      "passed": false,
+      "scope": "Registered V20 releasescope-pix-002-26-6499--default fixture: native Enter activates observed same-document href, no nested anchor. Only configured static branch; source visual or optional states not inferred.",
+      "date": "2026-10-25T07:38:00.354Z",
+      "classification": "test-navigation-scope",
+      "disposition": "Batch skipped quote navigation after latest source; observation belongs to latest-updates, rejected for quote. Correct target re-opened below."
+    },
+    {
+      "name": "quote/structural-portrait-ready",
+      "actual": {
+        "controls": 0,
+        "heading": "人物观点",
+        "media": [
+          {
+            "alt": "来源设计规范中的人物照片",
+            "loaded": true
+          }
+        ],
+        "paragraphs": 4
+      },
+      "passed": true,
+      "scope": "Configured portrait quote source has no native action or carousel; ready structure uses editable text separate from loaded image. Structural observation only, no key/interaction pass inferred.",
+      "date": "2026-10-25T07:39:16.255Z",
+      "observationType": "structural"
+    },
+    {
+      "name": "logos/structural-wall-phone",
+      "actual": {
+        "desktop": {
+          "controls": 0,
+          "images": 8
+        },
+        "phone": {
+          "images": [
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            },
+            {
+              "alt": "设计规范中的网易游戏Logo示例",
+              "loaded": true
+            }
+          ],
+          "overflow": 0,
+          "width": 375
+        }
+      },
+      "passed": true,
+      "scope": "Configured pure Logo wall has no href/selection state. Source image readiness and independent phone wall visibility checked; no invented clicks or whole visual pass.",
+      "date": "2026-10-25T07:39:40.111Z",
+      "observationType": "structural"
+    },
+    {
+      "name": "illustrated-advantages/native-desktop-phone-content",
+      "actual": {
+        "desktopHash": "#v1-advantages",
+        "phone": {
+          "headings": [
+            "自助服务",
+            "热线电话",
+            "工单服务",
+            "建议反馈"
+          ],
+          "images": 4,
+          "links": 4,
+          "width": 375
+        }
+      },
+      "passed": false,
+      "scope": "Desktop native link activates source target; phone shows four configured horizontal illustration/text rows and no desktop operation buttons per source contract. Not 3/5-column media or full visual approval.",
+      "date": "2026-10-25T07:39:59.239Z",
+      "classification": "test-ignored-supported-mobile-title-link",
+      "disposition": "Source supports mobileHref on titles. Four visible links are configured title links, not desktop action buttons; corrected assertion distinguishes h3 links from action containers."
+    },
+    {
+      "name": "illustrated-advantages/native-phone-title-links",
+      "actual": {
+        "desktopHash": "#v1-advantages",
+        "phone": {
+          "headings": [
+            "自助服务",
+            "热线电话",
+            "工单服务",
+            "建议反馈"
+          ],
+          "images": 4,
+          "links": 4,
+          "width": 375
+        },
+        "scoped": {
+          "actionLinks": 0,
+          "titleLinks": 4
+        }
+      },
+      "passed": true,
+      "scope": "Desktop CTA follows target; phone four configured title links remain keyboard accessible while desktop action row is hidden, per explicit mobileHref contract. No unsupported 3/5-column source-image pass.",
+      "date": "2026-10-25T07:40:56.754Z"
+    },
+    {
+      "name": "mosaic/mobile-native-four-card-track",
+      "actual": {
+        "selected": "方案卡片 4",
+        "tracks": [
+          {
+            "class": "hc-pv1-mosaic-grid hc-pv1-mosaic-four",
+            "left": 1089,
+            "max": 1089
+          }
+        ],
+        "width": 375
+      },
+      "passed": true,
+      "scope": "375 reduced motion: Enter fourth manual source card reaches actual end; Space returns first selected dot. Four-card configuration only; five/six layouts and physical swipe not claimed.",
+      "date": "2026-10-25T07:41:14.309Z"
+    },
+    {
+      "name": "information/native-show-more-status-samples",
+      "actual": {
+        "before": {
+          "cards": 3,
+          "statuses": [
+            "已结束综合信息卡片 1可编辑的活动、场景或内容说明。内容标签完整保留的信息说明按业务配置入口了解详情",
+            "进行中综合信息卡片 2可编辑的活动、场景或内容说明。内容标签完整保留的信息说明按业务配置入口了解详情",
+            "未开始综合信息卡片 3可编辑的活动、场景或内容说明。内容标签完整保留的信息说明按业务配置入口了解详情"
+          ]
+        },
+        "open": {
+          "cards": 7,
+          "expanded": "true"
+        },
+        "closed": {
+          "cards": 3,
+          "expanded": "false"
+        }
+      },
+      "passed": true,
+      "scope": "Default information fixture Enter reveals seven from three, Space restores three; AX displays ended/ongoing/not-started source labels. Only current clock samples, not timed transition or optional video-dialog coverage.",
+      "date": "2026-10-25T07:42:46.929Z"
+    },
+    {
+      "name": "floor-anchor/default-fixture-missing-host-targets",
+      "date": "2026-10-25T07:47:03.276Z",
+      "passed": false,
+      "actual": {
+        "targets": [
+          {
+            "href": "#anchor-target-0",
+            "label": "优势特性",
+            "targetExists": false
+          },
+          {
+            "href": "#anchor-target-1",
+            "label": "非常长的锚点文案用于验证缩小并在两行之后省略且保留完整可访问名称",
+            "targetExists": false
+          },
+          {
+            "href": "#anchor-target-2",
+            "label": "实践资源",
+            "targetExists": false
+          },
+          {
+            "href": "#anchor-target-3",
+            "label": "客户案例",
+            "targetExists": false
+          }
+        ],
+        "after": {
+          "current": [
+            {
+              "current": "location",
+              "label": "优势特性"
+            },
+            {
+              "current": null,
+              "label": "非常长的锚点文案用于验证缩小并在两行之后省略且保留完整可访问名称"
+            },
+            {
+              "current": null,
+              "label": "实践资源"
+            },
+            {
+              "current": null,
+              "label": "客户案例"
+            }
+          ],
+          "hash": "#anchor-target-3"
+        }
+      },
+      "classification": "acceptance-fixture-gap",
+      "disposition": "Existing V20 default has no host targets and was not accepted for scrolling. New V21 separate real-target host fixture passed native target offset, return-to-first and scroll-observer update; source component and CSS unchanged.",
+      "scope": "V20 default fixture cannot prove host scrolling."
+    },
+    {
+      "name": "photo-wall/native-auto-user-pause",
+      "actual": {
+        "initial": {
+          "button": "暂停照片滚动",
+          "track": [
+            {
+              "label": "照片组切换",
+              "left": 380.5,
+              "max": 1587
+            }
+          ]
+        },
+        "later": {
+          "left": 62.5
+        },
+        "paused": {
+          "button": "继续照片滚动",
+          "left": 63
+        },
+        "stable": {
+          "button": "继续照片滚动",
+          "left": 63
+        }
+      },
+      "passed": true,
+      "scope": "Desktop source photo track visibly advances between observations; native Enter sets explicit user pause, later position remains unchanged. Frame-level seamless wrapping, hidden/offscreen lifecycle and physical swipe not inferred.",
+      "date": "2026-10-25T07:50:11.915Z"
+    },
+    {
+      "name": "photo-wall/phone-native-manual-group",
+      "actual": {
+        "images": 6,
+        "pauseButtons": 0,
+        "selected": "照片组 2",
+        "track": [
+          {
+            "left": 363,
+            "max": 363
+          }
+        ],
+        "width": 375
+      },
+      "passed": true,
+      "scope": "375 reduced motion manual second photo group reaches end; source phone uses two independent three-photo groups and no PC autoplay pause control. Physical swipe not claimed.",
+      "date": "2026-10-25T07:50:31.329Z"
+    },
+    {
+      "name": "floor-anchor/native-real-host-targets",
+      "actual": {
+        "third": {
+          "current": "测试目标三",
+          "hash": "#scroll-fixture-three",
+          "navHeight": 60,
+          "navTop": 64,
+          "targetTop": 124,
+          "width": 1280,
+          "y": 1584
+        },
+        "first": {
+          "current": "测试目标一",
+          "hash": "#scroll-fixture-one",
+          "targetTop": 124,
+          "y": 0
+        },
+        "scrolled": {
+          "current": "测试目标三",
+          "hash": "#scroll-fixture-one",
+          "y": 1780
+        }
+      },
+      "passed": true,
+      "scope": "V21 separate host fixture, actual component/CSS unchanged: Enter target3 scrolls1584 and aligns target top124=64offset+60nav; Enter target1 returns0. Native Ctrl+End independently updates observer current to third without changing hash.",
+      "date": "2026-10-25T07:55:40.559Z"
+    },
+    {
+      "name": "doc-pager/native-next-first-document",
+      "actual": {
+        "tab": {
+          "focus": "下一篇：配置与管理",
+          "rel": "next"
+        },
+        "hash": "#next",
+        "first": {
+          "buttons": 0,
+          "links": [
+            {
+              "label": "下一篇：配置与管理",
+              "rel": "next"
+            }
+          ]
+        }
+      },
+      "passed": true,
+      "scope": "Independent source pager: native Tab moves previous to next and Enter follows configured href; first-document branch renders only next, no fake disabled previous button. External document navigation/business content not claimed.",
+      "date": "2026-10-25T07:56:02.147Z"
+    },
+    {
+      "name": "doc-image/compatibility-native-open-close",
+      "actual": {
+        "open": {
+          "focus": "关闭图片",
+          "open": true
+        },
+        "escape": {
+          "focus": "放大图片",
+          "open": false
+        },
+        "close": {
+          "focus": "放大图片",
+          "open": false
+        }
+      },
+      "passed": true,
+      "scope": "Archived compatibility image component only: native Enter/Space opens, Escape and close-button Enter close and restore trigger focus. Logo is merely existing test fixture; not a Pixso design match or permission to recommend withdrawn image viewer on new pages.",
+      "date": "2026-10-25T07:56:32.621Z"
+    },
+    {
+      "name": "activities/native-card-link-current-clock",
+      "actual": {
+        "tab": {
+          "focus": "活动说明 2",
+          "href": "#v1-activities",
+          "text": "产品活动 1天后结束活动说明 1完整可编辑的活动介绍。个人认证 2天后结束活动说明 2完整可编辑的活动介绍。个人认证 3天后结束活动说明 3完整可编辑的活动介绍。个人认证"
+        },
+        "hash": "#v1-activities"
+      },
+      "passed": true,
+      "scope": "Default activity fixture native Tab reaches second card overlay and Enter follows configured href; current clock renders1/2/3 days remaining. No day-long expiry or before/ended transition claim.",
+      "date": "2026-10-25T07:57:01.270Z"
+    },
+    {
+      "name": "legacy-text/generated-host-native-link",
+      "actual": {
+        "hash": "#legacy-text",
+        "heading": "结构文字测试",
+        "images": [],
+        "links": 1
+      },
+      "passed": true,
+      "scope": "Current generated composed host using unchanged protected legacy-text component: native Enter follows configured local href. Fixture labels are tests, not new business content or design approval.",
+      "date": "2026-10-25T08:08:01.717Z"
+    },
+    {
+      "name": "legacy-cards/generated-host-native-link",
+      "actual": {
+        "hash": "#legacy-cards",
+        "heading": "卡片测试",
+        "images": [],
+        "links": 3
+      },
+      "passed": true,
+      "scope": "Current generated composed host using unchanged protected legacy-cards component: native Enter follows configured local href. Fixture labels are tests, not new business content or design approval.",
+      "date": "2026-10-25T08:08:01.745Z"
+    },
+    {
+      "name": "process-steps/generated-host-native-link",
+      "actual": {
+        "hash": "#legacy-process",
+        "heading": "既有三步流程测试",
+        "images": [
+          {
+            "complete": true,
+            "naturalWidth": 37
+          },
+          {
+            "complete": true,
+            "naturalWidth": 37
+          },
+          {
+            "complete": true,
+            "naturalWidth": 37
+          },
+          {
+            "complete": true,
+            "naturalWidth": 37
+          },
+          {
+            "complete": true,
+            "naturalWidth": 36
+          }
+        ],
+        "links": 3
+      },
+      "passed": true,
+      "scope": "Current generated composed host using unchanged protected process-steps component: native Enter follows configured local href. Fixture labels are tests, not new business content or design approval.",
+      "date": "2026-10-25T08:08:01.773Z"
+    },
+    {
+      "name": "resources/generated-host-native-link",
+      "actual": {
+        "hash": "#legacy-resources",
+        "heading": "相关资源",
+        "images": [],
+        "links": 3
+      },
+      "passed": true,
+      "scope": "Current generated composed host using unchanged protected resources component: native Enter follows configured local href. Fixture labels are tests, not new business content or design approval.",
+      "date": "2026-10-25T08:08:01.800Z"
+    },
+    {
+      "name": "legacy-folded/native-focus-activation-all-closed",
+      "actual": {
+        "focus": {
+          "expanded": [
+            "true",
+            "false",
+            "false"
+          ],
+          "focus": "折叠项目3"
+        },
+        "open": [
+          "false",
+          "false",
+          "true"
+        ],
+        "closed": [
+          "false",
+          "false",
+          "false"
+        ]
+      },
+      "passed": true,
+      "scope": "Generated protected old folded-media: End moves focus without activation; Enter selects third; Space permits all closed. Preserves old contract, does not impose new 2026 one-always-open behavior.",
+      "date": "2026-10-25T08:08:41.034Z"
+    },
+    {
+      "name": "legacy-faq/native-independent-details",
+      "actual": {
+        "both": [
+          true,
+          true,
+          false
+        ],
+        "closedFirst": [
+          false,
+          true,
+          false
+        ]
+      },
+      "passed": true,
+      "scope": "Generated protected FAQ native details: Enter/Space open first two independently; Space closes first without closing second.",
+      "date": "2026-10-25T08:08:41.100Z"
+    },
+    {
+      "name": "legacy-cases/native-button-selection",
+      "actual": {
+        "third": {
+          "heading": "案例内容3",
+          "selected": "案例选项三",
+          "tabs": 0
+        },
+        "first": "案例内容1"
+      },
+      "passed": true,
+      "scope": "Generated protected old customer-cases retains aria-pressed native button group; Enter third and Space first select matching content. Not reskinned or reclassified as new2026 tabs.",
+      "date": "2026-10-25T08:09:33.234Z"
+    },
+    {
+      "name": "legacy-solutions/native-track-bounds",
+      "actual": {
+        "end": {
+          "activeTag": "BODY",
+          "buttons": [
+            {
+              "disabled": false,
+              "display": "flex",
+              "label": "上一组解决方案"
+            },
+            {
+              "disabled": true,
+              "display": "flex",
+              "label": "下一组解决方案"
+            }
+          ],
+          "left": 573,
+          "max": 573
+        },
+        "start": {
+          "activeTag": "BUTTON",
+          "buttons": [
+            {
+              "disabled": true,
+              "label": "上一组解决方案"
+            },
+            {
+              "disabled": false,
+              "label": "下一组解决方案"
+            }
+          ],
+          "left": 0
+        }
+      },
+      "passed": true,
+      "scope": "Generated protected old solution track: two native Enter actions reach end573 and disable next; two Space actions return0 and disable previous. At end focus was BODY after focused button became disabled; focus continuity is not passed and remains an accessibility follow-up. No source/CSS change.",
+      "date": "2026-10-25T08:12:26.117Z"
+    }
+  ],
+  "snapshotBoundary": "Most named cases use unchanged-source V20 fixtures; floor-anchor real-targets and independent document examples use V21. Generated protected host is separately hashed. Three pure-display observations are structural, not native actions.",
+  "wholeSourceApproval": false,
+  "formalRelease": false
+}

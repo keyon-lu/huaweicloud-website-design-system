@@ -1,0 +1,124 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "2026图文楼层验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "split-media-2026",
+      "id": "split-2026",
+      "title": "丰富的应用场景，快速实现业务部署",
+      "background": "grey",
+      "items": [
+        {
+          "id": "commerce",
+          "label": "应用场景",
+          "title": "快速实现业务部署",
+          "mediaWidth": 50,
+          "mediaPosition": "right",
+          "media": {
+            "kind": "image",
+            "mode": "photo",
+            "asset": "product-2026-split-photo",
+            "alt": "使用手机浏览商品的应用场景"
+          },
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "segments": [
+                {
+                  "text": "提供常用场景镜像，帮助快速搭建网站与店铺管理环境。"
+                }
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 1,
+              "segments": [
+                {
+                  "text": "配置与部署"
+                }
+              ]
+            },
+            {
+              "kind": "list",
+              "style": "bullets",
+              "items": [
+                {
+                  "segments": [
+                    {
+                      "text": "选择适合的业务方案",
+                      "strong": true
+                    }
+                  ]
+                },
+                {
+                  "segments": [
+                    {
+                      "text": "按照指南完成配置"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看详情",
+              "href": "#split-2026",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "architecture",
+          "label": "架构示意",
+          "title": "防护关系示意图（交互验证）",
+          "mediaWidth": 50,
+          "mediaPosition": "right",
+          "media": {
+            "kind": "image",
+            "mode": "architecture",
+            "asset": "waf-advantage-0",
+            "alt": "原缓存官网防护关系示意图，仅用于完整显示与放大验证"
+          },
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "segments": [
+                {
+                  "text": "技术图验证完整显示，不作为本Pixso业务架构内容验收。"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看详情",
+              "href": "#split-2026",
+              "variant": "secondary"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "tabs": "场景分类",
+        "previousTab": "前一组场景",
+        "nextTab": "后一组场景",
+        "copyScroll": "图文说明",
+        "openImage": "放大图片",
+        "closeImage": "关闭图片",
+        "actions": "场景入口",
+        "video": {
+          "play": "播放视频",
+          "close": "关闭视频",
+          "failed": "视频加载失败",
+          "retry": "重新加载",
+          "blocked": "请手动播放",
+          "actions": "视频入口"
+        }
+      }
+    }
+  ]
+}

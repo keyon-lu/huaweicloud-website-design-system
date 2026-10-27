@@ -1,0 +1,324 @@
+{
+  "scene": "campaign",
+  "hero": {
+    "title": "拼图卡片来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "campaign-mosaic-v1",
+      "id": "v1-mosaic-four",
+      "title": "活动解决方案 4卡布局",
+      "background": "grey",
+      "layout": "four",
+      "items": [
+        {
+          "id": "card-0",
+          "title": "解决方案 1",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        },
+        {
+          "id": "card-1",
+          "title": "解决方案 2",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        },
+        {
+          "id": "card-2",
+          "title": "解决方案 3",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        },
+        {
+          "id": "card-3",
+          "title": "解决方案 4",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        }
+      ],
+      "mobileItems": [
+        {
+          "id": "card-0",
+          "title": "解决方案 1",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        },
+        {
+          "id": "card-1",
+          "title": "解决方案 2",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        },
+        {
+          "id": "card-2",
+          "title": "解决方案 3",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        },
+        {
+          "id": "card-3",
+          "title": "解决方案 4",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-four"
+        }
+      ],
+      "labels": {
+        "slides": "方案切换",
+        "slide": "方案卡片"
+      }
+    },
+    {
+      "kind": "campaign-mosaic-v1",
+      "id": "v1-mosaic-five",
+      "title": "活动解决方案 5卡布局",
+      "background": "grey",
+      "layout": "five",
+      "items": [
+        {
+          "id": "card-0",
+          "title": "解决方案 1",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-1",
+          "title": "解决方案 2",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-2",
+          "title": "解决方案 3",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-3",
+          "title": "解决方案 4",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-4",
+          "title": "解决方案 5",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        }
+      ],
+      "mobileItems": [
+        {
+          "id": "card-0",
+          "title": "解决方案 1",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-1",
+          "title": "解决方案 2",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-2",
+          "title": "解决方案 3",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-3",
+          "title": "解决方案 4",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        },
+        {
+          "id": "card-4",
+          "title": "解决方案 5",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-five"
+        }
+      ],
+      "labels": {
+        "slides": "方案切换",
+        "slide": "方案卡片"
+      }
+    },
+    {
+      "kind": "campaign-mosaic-v1",
+      "id": "v1-mosaic-six",
+      "title": "活动解决方案 6卡布局",
+      "background": "grey",
+      "layout": "six",
+      "items": [
+        {
+          "id": "card-0",
+          "title": "解决方案 1",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-1",
+          "title": "解决方案 2",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-2",
+          "title": "解决方案 3",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-3",
+          "title": "解决方案 4",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-4",
+          "title": "解决方案 5",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-5",
+          "title": "解决方案 6",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-square",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        }
+      ],
+      "mobileItems": [
+        {
+          "id": "card-0",
+          "title": "解决方案 1",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-1",
+          "title": "解决方案 2",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-2",
+          "title": "解决方案 3",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-3",
+          "title": "解决方案 4",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-4",
+          "title": "解决方案 5",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        },
+        {
+          "id": "card-5",
+          "title": "解决方案 6",
+          "description": "可编辑的业务场景说明，查看对应资料。",
+          "asset": "product-v1-mosaic-mobile",
+          "alt": "原稿解决方案插画",
+          "tone": "ink",
+          "href": "#v1-mosaic-six"
+        }
+      ],
+      "labels": {
+        "slides": "方案切换",
+        "slide": "方案卡片"
+      }
+    }
+  ]
+}

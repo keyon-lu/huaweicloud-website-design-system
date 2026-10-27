@@ -1,0 +1,12 @@
+import fs from 'node:fs';import {join} from 'node:path';import {root} from './portal-source.mjs';
+import {verifyButtonCSS} from './button-color-policy.mjs';
+const read=rel=>fs.readFileSync(join(root,rel),'utf8');
+const palette=read('src/styles/website-palette.css');
+const mappings={'--por-color-text-button':'--por-color-text-primary','--por-color-background-aux':'--por-color-background-gray-5','--por-color-function-info':'--por-color-text-primary','--por-color-function-info-background':'--por-color-background-gray-5','--por-color-datepicker-input-border-active':'--por-color-border-input-active','--por-color-datepicker-roller-selected-text':'--por-color-text-primary','--por-color-datepicker-button-text':'--por-color-text-primary','--hc-focus-ring':'--por-color-border-input-active'};
+for(const [key,value] of Object.entries(mappings))if(!palette.includes(`${key}:var(${value});`))throw Error('Missing current palette mapping: '+key);
+const map=JSON.parse(read('references/consumer-token-map.json'));
+const buttonChecks=verifyButtonCSS([read('src/styles/component-tokens.css'),palette,...map.consumers.map(row=>read(row.file))],{tokenSources:[read('src/styles/portalui-source-3.0.17.css')]});
+if(read('assets/search-workspace/src/styles/website-palette.css')!==palette)throw Error('Search palette diverged');
+if(!read('assets/search-workspace/src/styles/tokens.css').trim().endsWith("@import './website-palette.css';"))throw Error('Search must load current palette last');
+const generator=read('scripts/portal-generate-page.mjs');if(generator.indexOf("['website-palette'")<generator.indexOf("['portal-adapter'"))throw Error('Page palette must follow the source adapter');
+console.log(JSON.stringify({ok:true,semanticMappings:Object.keys(mappings).length,ownerDecision:'2026-10-16 button avoidance; checkbox allowed; other components follow source',...buttonChecks,scope:'owned button consumers and compatibility overrides; browser computed palette checked separately'}));

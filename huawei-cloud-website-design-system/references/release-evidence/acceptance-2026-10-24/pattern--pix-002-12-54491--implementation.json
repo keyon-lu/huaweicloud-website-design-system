@@ -1,0 +1,61 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-12-54491/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "patternId": "pix-002-12-54491",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProductV1ContactDropdown",
+        "contract": "references/product-v1-contact.md",
+        "generationKind": null,
+        "validationScripts": [
+          "scripts/verify-family-public-entries.mjs",
+          "scripts/verify-script-syntax.mjs"
+        ],
+        "scope": "source-scoped contact disclosure with configurable icon/copy/link/divider and keyboard dismissal; full source header integration pending",
+        "entrySha256": "3b15f16431bbf567226ce48c91066623e552b852078213d1358064d4c0fec70b",
+        "contractSha256": "d6de61987113a8baef925b5f094cff615bfc560e660de63d4b121dd2c7e8f48b"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/pattern--pix-002-12-54491--implementation.json",
+    "recordSha256": "c7f6072c7299b67bc3a191c2b195a2b996c1c9a3e97b85da67234ef0669fe78b",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/pattern--pix-002-12-54491--implementation.json",
+    "sha256": "6b9036413a47e7f5d9c09163649afd3eebeed48bfe85a6537a7a4eabb71c1e7a"
+  }
+}

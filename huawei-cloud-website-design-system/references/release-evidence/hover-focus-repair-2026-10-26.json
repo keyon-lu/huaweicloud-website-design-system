@@ -1,0 +1,23 @@
+{
+  "kind": "source-hover-boundary-focus-repair",
+  "date": "2026-10-26",
+  "changedSharedFunctions": [
+    "PortalProduct2026Hover"
+  ],
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "4e21f818904aa6b1d1cffb5609f72b517dc5ed1c43769f7b69f3915cdbfb1f12",
+      "afterSha256": "e264eeb874c44be3e9999629ec09506e7740257f377204c949c4bfe3764615ba"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.tsx",
+      "beforeSha256": "f3305004f4801b0889475469170dd67b7690c6cb3e44e400cfb479b4a564d5b9",
+      "afterSha256": "424937862c95e59b514efcfba8f20c468a4af6cca7b22451103d3ceda247e397"
+    }
+  ],
+  "scope": "Only focus continuity in scroll-boundary state update and before mobile controls unmount; return JSX retained; no new design state, color or layout",
+  "formalRelease": false,
+  "normalReturnJsxByteStructureEquivalent": true,
+  "unrelatedExportedFunctionsByteIdentical": 145
+}

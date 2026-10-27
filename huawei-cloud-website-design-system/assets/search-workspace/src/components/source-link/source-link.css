@@ -1,0 +1,5 @@
+.source-link:focus-visible{outline:var(--hc-t-control-focus-width) solid var(--por-color-border-input-active);outline-offset:var(--hc-t-control-focus-offset)}
+.source-link[aria-disabled=true]{cursor:default}
+
+.source-link.por-link-light:focus-visible{outline-color:var(--por-color-text-white)}
+.source-link{overflow-wrap:anywhere}

@@ -1,0 +1,79 @@
+{
+  "kind": "real-browser-reduced-motion-execution",
+  "date": "2026-10-23",
+  "snapshot": "storybook-v11",
+  "storyId": "engineering-motionfallback--default",
+  "normal": [
+    {
+      "alt": "developer-space",
+      "className": "",
+      "naturalHeight": 1375,
+      "naturalWidth": 2740,
+      "type": "data:image/gif"
+    },
+    {
+      "alt": "developer-ability",
+      "className": "",
+      "naturalHeight": 516,
+      "naturalWidth": 1600,
+      "type": "data:image/gif"
+    },
+    {
+      "alt": "developer-ability-mobile",
+      "className": "",
+      "naturalHeight": 516,
+      "naturalWidth": 960,
+      "type": "data:image/gif"
+    }
+  ],
+  "reduced": [
+    {
+      "alt": "developer-space",
+      "className": "",
+      "naturalHeight": 1375,
+      "naturalWidth": 2740,
+      "type": "data:image/png"
+    },
+    {
+      "alt": "developer-ability",
+      "className": "",
+      "naturalHeight": 516,
+      "naturalWidth": 1600,
+      "type": "data:image/png"
+    },
+    {
+      "alt": "developer-ability-mobile",
+      "className": "",
+      "naturalHeight": 516,
+      "naturalWidth": 960,
+      "type": "data:image/png"
+    }
+  ],
+  "reducedAfterLivePreferenceChange": [
+    {
+      "alt": "developer-space",
+      "className": "",
+      "naturalHeight": 1375,
+      "naturalWidth": 2740,
+      "type": "data:image/png"
+    },
+    {
+      "alt": "developer-ability",
+      "className": "",
+      "naturalHeight": 516,
+      "naturalWidth": 1600,
+      "type": "data:image/png"
+    },
+    {
+      "alt": "developer-ability-mobile",
+      "className": "",
+      "naturalHeight": 516,
+      "naturalWidth": 960,
+      "type": "data:image/png"
+    }
+  ],
+  "noReloadBetweenPreferenceChanges": true,
+  "allThreeNormalGif": true,
+  "allThreeReducedPng": true,
+  "newVisualApprovals": 0
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "acceptance-environment-limitations",
+  "date": "2026-10-25",
+  "ownerResponse": "没有",
+  "questionScope": "Existing real screen-reader, physical phone touch and soft-keyboard records or connected devices",
+  "unverified": [
+    "real screen-reader",
+    "physical phone touch",
+    "soft keyboard",
+    "real browser zoom",
+    "exact OS clipboard roundtrip"
+  ],
+  "browserZoomAttempt": {
+    "surface": "IAB",
+    "action": "Ctrl+Plus; restore Ctrl+0",
+    "before": {
+      "innerWidth": 1280,
+      "devicePixelRatio": 2
+    },
+    "after": {
+      "innerWidth": 1280,
+      "devicePixelRatio": 2
+    },
+    "result": "No actual zoom; not substituted with CDP scale or CSS font scaling"
+  },
+  "pixsoAttempts": [
+    {
+      "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+      "nodeId": "2:193873",
+      "result": "Small text-node PNG recovered; visible original says 文本不做限制，建议最多两行"
+    },
+    {
+      "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+      "nodeId": "2:193656",
+      "result": "Actual top-level video frame export returned HTTP504; no full-frame visual approval"
+    },
+    {
+      "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+      "requestedNode": "2:193656",
+      "result": "query_nodes returned unrelated 0:1 floor-spacing frame; rejected as evidence for requested video frame"
+    }
+  ],
+  "releaseGateWaived": false,
+  "formalRelease": false
+}

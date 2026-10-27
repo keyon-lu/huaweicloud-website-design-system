@@ -1,0 +1,55 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "2026演示架构验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "demo-architecture-2026",
+      "id": "demo-2026",
+      "title": "产品演示",
+      "background": "white",
+      "panels": [
+        {
+          "id": "demo",
+          "label": "能力演示",
+          "title": "快速了解产品功能",
+          "description": "原设计中的演示界面，仅用于图像展示与切换验证",
+          "copyWidth": 80,
+          "layout": "center",
+          "media": [
+            {
+              "id": "overview",
+              "kind": "image",
+              "asset": "product-2026-demo-main",
+              "alt": "产品演示界面"
+            }
+          ],
+          "mobileMedia": [
+            {
+              "id": "mobile-overview",
+              "kind": "image",
+              "asset": "product-2026-demo-main",
+              "alt": "产品演示界面测试图"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "tabs": "演示分类",
+        "previousTab": "前一演示分类",
+        "nextTab": "后一演示分类",
+        "previous": "上一展示",
+        "next": "下一展示",
+        "reset": "重置展示",
+        "pause": "暂停演示",
+        "resume": "继续演示",
+        "media": "当前展示",
+        "failed": "媒体加载失败",
+        "retry": "重新加载",
+        "actions": "功能入口"
+      }
+    }
+  ]
+}

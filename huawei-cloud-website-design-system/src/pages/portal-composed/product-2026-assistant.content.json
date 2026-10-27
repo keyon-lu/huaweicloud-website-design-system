@@ -1,0 +1,56 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "2026助手检索验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "assistant-search-2026",
+      "id": "assistant-2026",
+      "title": "本地内容检索",
+      "description": "按关键词查找已收录的文档，不生成AI回答",
+      "background": "white",
+      "questions": [
+        "云容器 CCE",
+        "计费方式",
+        "部署步骤"
+      ],
+      "placeholder": "请输入检索关键词",
+      "notice": "本地验证环境，仅检索已有内容",
+      "agreements": [
+        {
+          "label": "使用说明",
+          "href": "#assistant-2026"
+        }
+      ],
+      "records": [
+        {
+          "id": "cce",
+          "title": "云容器 CCE 部署步骤",
+          "description": "包含集群与应用的部署流程",
+          "href": "#assistant-2026",
+          "keywords": [
+            "容器",
+            "部署"
+          ]
+        },
+        {
+          "id": "pricing",
+          "title": "计费方式说明",
+          "description": "按量与套餐计费的使用说明",
+          "href": "#assistant-2026"
+        }
+      ],
+      "labels": {
+        "input": "检索内容",
+        "submit": "提交检索",
+        "results": "检索结果",
+        "empty": "没有找到相关内容",
+        "error": "检索失败，请重试",
+        "busy": "正在检索",
+        "count": "输入长度"
+      }
+    }
+  ]
+}

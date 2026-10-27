@@ -1,0 +1,38 @@
+{
+  "kind": "source-release-check",
+  "check": "price/source_visual_comparison",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "price",
+    "approval": {
+      "path": "references/foundation-owner-re-review-approved-2026-10-21.json",
+      "packId": "foundation-owner-remediation-2026-10-21-final",
+      "snapshotId": "e65bc6e191d04097ce91b52e021525596a4b7296b86d40a12fc912fe2b552ad1",
+      "item": {
+        "id": "price",
+        "name": "价格展示",
+        "scope": "已列静态价格展示；不含计费、报价或业务套餐。",
+        "storyIds": [
+          "sourcefamilies-price--sizes",
+          "sourcefamilies-price--long-unit"
+        ],
+        "status": "passed",
+        "checks": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "note": ""
+      }
+    },
+    "correspondence": "references/release-evidence/owner-sample-build-correspondence-2026-10-22.json",
+    "additiveAssetProof": "references/release-evidence/additive-assets-2026-10-22.json",
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the exact19-owner-review sample scope item above; original209 bundle correspondence is preserved, the17 reviewed foundation implementations remain unchanged; original assets and three explicitly authorized first frames are additive with all91 existing URLs preserved, while scoped unreviewed floors, additive tokens, test assertions, the separately proved reduced-motion renderer branch and source-cell-backed next-step subtitle font changed under the scoped-owner-delta proof. No newly asserted human decision."
+  }
+}

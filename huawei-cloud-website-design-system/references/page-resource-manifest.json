@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.0",
+  "pageTypes": {
+    "website-product-floor": {
+      "templatePath": "src/pages/portal-product/index.tsx",
+      "topComponent": "ProductPage",
+      "layout": "references/product-pages.md",
+      "references": [
+        "references/portal-foundations.md",
+        "references/component-contract.md",
+        "references/responsive-accessibility.md",
+        "references/content-interaction-contract.md",
+        "references/scene-differences.md",
+        "references/default-product-generation.md",
+        "references/shared-product-floors.md",
+        "references/waf-special-floors.md",
+        "references/website-grid.md",
+        "references/current-standards.md",
+        "references/first-level-navigation.md",
+        "references/website-footer.md",
+        "references/acceptance-ledger.md",
+        "references/p2-model-contract.md",
+        "references/distribution-guide.md",
+        "references/website-palette.md",
+        "references/floor-component-registry.json",
+        "references/process-steps.md",
+        "references/pixso-generation.md",
+        "references/pixso-pattern-catalog.json",
+        "references/pixso-design-adoption.md",
+        "references/learning-links.md",
+        "references/approved-presentation-policy.md",
+        "references/visual-foundations-2026.md"
+      ],
+      "componentsPath": "src/components/portal-components.tsx",
+      "status": "shared-product-renderer; historical-scoped-sample-acceptance; current-shared-framework-review-pending",
+      "variants": {
+        "gaussdb": {
+          "templatePath": "src/pages/gaussdb-reference/index.tsx",
+          "status": "navigation-hero-news-reference-pilot; not full page"
+        },
+        "gaussdb-full": {
+          "templatePath": "src/pages/gaussdb-full-reference/index.tsx",
+          "status": "full-composition-candidate; runtime-and-mobile-reference-validation-pending",
+          "requiredReference": "references/gaussdb-fullpage-contract.md"
+        },
+        "waf-reference": {
+          "templatePath": "src/pages/waf-reference/index.tsx",
+          "requiredReference": "references/shared-product-floors.md"
+        }
+      }
+    },
+    "developer-portal": {
+      "templatePath": "src/pages/portal-developer/index.tsx",
+      "topComponent": "DeveloperPage",
+      "layout": "references/developer-pages.md",
+      "references": [
+        "references/portal-foundations.md",
+        "references/component-contract.md",
+        "references/responsive-accessibility.md",
+        "references/content-interaction-contract.md",
+        "references/scene-differences.md",
+        "references/developer-reference-calibration.md",
+        "references/website-grid.md",
+        "references/current-standards.md",
+        "references/first-level-navigation.md",
+        "references/website-footer.md",
+        "references/acceptance-ledger.md",
+        "references/p2-model-contract.md",
+        "references/distribution-guide.md",
+        "references/website-palette.md",
+        "references/floor-component-registry.json",
+        "references/pixso-generation.md",
+        "references/pixso-pattern-catalog.json",
+        "references/pixso-design-adoption.md",
+        "references/learning-links.md",
+        "references/approved-presentation-policy.md",
+        "references/visual-foundations-2026.md"
+      ],
+      "componentsPath": "src/components/portal-components.tsx",
+      "status": "developer-sample2.0.24-manually-accepted; documentation2.0.25; other-compositions-not-certified"
+    },
+    "website-composed": {
+      "templatePath": "src/pages/portal-composed/index.tsx",
+      "topComponent": "ComposedPage",
+      "layout": "references/composed-pages.md",
+      "references": [
+        "references/portal-foundations.md",
+        "references/component-contract.md",
+        "references/responsive-accessibility.md",
+        "references/content-interaction-contract.md",
+        "references/scene-differences.md",
+        "references/default-product-generation.md",
+        "references/shared-product-floors.md",
+        "references/waf-special-floors.md",
+        "references/website-grid.md",
+        "references/current-standards.md",
+        "references/first-level-navigation.md",
+        "references/website-footer.md",
+        "references/acceptance-ledger.md",
+        "references/p2-model-contract.md",
+        "references/distribution-guide.md",
+        "references/composed-pages.md",
+        "references/scenario-expansion.md",
+        "references/website-palette.md",
+        "references/floor-component-registry.json",
+        "references/process-steps.md",
+        "references/pixso-generation.md",
+        "references/pixso-pattern-catalog.json",
+        "references/pixso-design-adoption.md",
+        "references/learning-links.md",
+        "references/approved-presentation-policy.md",
+        "references/visual-foundations-2026.md"
+      ],
+      "componentsPath": "src/components/portal-components.tsx",
+      "status": "configurable prototype; four intent examples; not official reference or user accepted"
+    }
+  }
+}

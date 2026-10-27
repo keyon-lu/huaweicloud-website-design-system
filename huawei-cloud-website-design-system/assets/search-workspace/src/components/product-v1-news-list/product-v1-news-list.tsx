@@ -1,0 +1,25 @@
+import React from 'react';
+import {PortalAsset} from '@/components/portal-asset';
+import {SourceChoice} from '@/components/source-choice';
+import {SourcePagination} from '@/components/source-pagination';
+import './product-v1-news-list.css';
+export type ProductV1NewsFacet={id:string;label:string;options:readonly {id:string;label:string}[]};
+export type ProductV1NewsItem={id:string;title:string;description:string;href:string;date:string;day:string;period:string;asset?:string;alt?:string;facetValues:Readonly<Record<string,readonly string[]>>};
+export type ProductV1NewsListFloor={kind:'news-list-v1';id:string;title:string;subtitle?:string;background:'white'|'grey';items:readonly ProductV1NewsItem[];facets:readonly ProductV1NewsFacet[];showSearch:boolean;showImages:boolean;stickyFilters:boolean;stickyOffset:number;pageSize:number;mobilePageSize:number;labels:{all:string;search:string;searchPlaceholder:string;empty:string;results:string;clear:string;pagination:{navigation:string;previous:string;next:string;first:string;last:string;go:string;pageInput:string;pageSelect:string;invalidPage:string;total:string;page:string}}};
+export function SourceProductV1NewsList({data}:{data:ProductV1NewsListFloor}){
+ const [selected,setSelected]=React.useState<Record<string,string[]>>({}),[draft,setDraft]=React.useState(''),[query,setQuery]=React.useState(''),[page,setPage]=React.useState(1),[phone,setPhone]=React.useState(()=>typeof matchMedia!=='undefined'&&matchMedia('(max-width:768px)').matches);
+ React.useEffect(()=>{const q=matchMedia('(max-width:768px)'),update=()=>{setPhone(q.matches);setPage(1)};q.addEventListener('change',update);return()=>q.removeEventListener('change',update)},[]);
+ const normalize=(s:string)=>s.normalize('NFKC').toLocaleLowerCase('zh-CN'),words=normalize(query).trim().split(/\s+/).filter(Boolean),filtered=data.items.filter(i=>{const hay=normalize(i.title+' '+i.description);return words.every(w=>hay.includes(w))&&data.facets.every(f=>!selected[f.id]?.length||selected[f.id].some(v=>i.facetValues[f.id]?.includes(v)))}),size=phone?data.mobilePageSize:data.pageSize,pages=Math.ceil(filtered.length/size),current=Math.min(page,Math.max(1,pages)),rows=filtered.slice((current-1)*size,current*size),p=data.labels.pagination;
+ const setFacet=(facet:string,value:string,checked:boolean)=>{setSelected(old=>({...old,[facet]:checked?[...(old[facet]??[]),value]:(old[facet]??[]).filter(v=>v!==value)}));setPage(1)};
+ const paginationLabels={...p,invalidPage:(max:number)=>p.invalidPage.replace('{max}',String(max)),total:(count:number)=>p.total.replace('{count}',String(count)),page:(n:number)=>p.page.replace('{page}',String(n))};
+ return <section id={data.id} className={'hc-pv1-news hc-pv1-news-'+data.background} style={{'--pv1-news-offset':data.stickyOffset+'px'} as React.CSSProperties} data-source-pattern="pix-002-16-30923"><div className="por-container"><header><h2>{data.title}</h2>{data.subtitle&&<p>{data.subtitle}</p>}</header>
+ {(data.facets.length>0||data.showSearch)&&<div className={'hc-pv1-news-filters '+(data.stickyFilters?'is-sticky':'')}>
+  <div className="hc-pv1-news-facet-list">{data.facets.map(f=><fieldset key={f.id}><legend>{f.label}</legend><SourceChoice label={data.labels.all} checked={!selected[f.id]?.length} mixed={!!selected[f.id]?.length} onChange={()=>{setSelected(old=>({...old,[f.id]:[]}));setPage(1)}}/>{f.options.map(o=><SourceChoice key={o.id} className={'hc-pv1-news-choice '+(selected[f.id]?.includes(o.id)?'is-selected':'')} label={o.label} checked={!!selected[f.id]?.includes(o.id)} onChange={e=>setFacet(f.id,o.id,e.target.checked)}/>)}</fieldset>)}</div>
+  {data.showSearch&&<form role="search" className="hc-pv1-news-search" onSubmit={e=>{e.preventDefault();setQuery(draft);setPage(1)}}><button type="submit" aria-label={data.labels.search}><PortalAsset assetId="product-v1-search-icon" alt=""/></button><input type="search" value={draft} aria-label={data.labels.search} placeholder={data.labels.searchPlaceholder} onChange={e=>{setDraft(e.target.value);if(e.target.value===''){setQuery('');setPage(1)}}}/></form>}
+ </div>}
+ <p role="status" className="hc-pv1-news-count">{data.labels.results.replace('{count}',String(filtered.length))}</p>
+ <div className="hc-pv1-news-items">{rows.map(i=><article key={i.id} className={'hc-pv1-news-item '+(data.showImages?'has-image':'')}><time dateTime={i.date}><span>{i.day}</span><span>{i.period}</span></time>{data.showImages&&i.asset&&<PortalAsset className="hc-pv1-news-image" assetId={i.asset} alt={i.alt??''}/>}<div className="hc-pv1-news-copy"><h3><a href={i.href}>{i.title}</a></h3><p>{i.description}</p></div></article>)}</div>
+ {!filtered.length&&<div className="hc-pv1-news-empty"><p>{data.labels.empty}</p><button type="button" onClick={()=>{setSelected({});setDraft('');setQuery('');setPage(1)}}>{data.labels.clear}</button></div>}
+ <SourcePagination dynamic current={current} pagesNumber={pages} total={filtered.length} labels={paginationLabels} onPageChange={setPage}/>
+ </div></section>
+}

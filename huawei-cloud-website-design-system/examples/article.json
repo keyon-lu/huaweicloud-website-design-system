@@ -1,0 +1,46 @@
+{
+  "scene": "article",
+  "hero": {
+    "title": "内容详情示例",
+    "description": "内容示例",
+    "eyebrow": "内容示例"
+  },
+  "header": {
+    "links": [
+      {
+        "label": "概览",
+        "href": "#overview"
+      },
+      {
+        "label": "内容",
+        "href": "#details"
+      }
+    ],
+    "actionEntries": [
+      {
+        "label": "文档",
+        "href": "https://support.huaweicloud.com/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "kind": "text",
+      "id": "overview",
+      "title": "概览",
+      "paragraphs": [
+        "此页为布局示例，展示公共组件的组合能力。",
+        "实际业务内容、入口和素材由使用者提供，不代表华为云已发布的活动或服务。"
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "details",
+      "title": "内容说明",
+      "paragraphs": [
+        "正文按段落组织，保留长文本换行与可选配图。",
+        "当前不包含文章搜索、评论、用户发布或富文本HTML执行。"
+      ]
+    }
+  ]
+}

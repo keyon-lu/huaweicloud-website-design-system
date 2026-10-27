@@ -1,0 +1,70 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-25",
+  "check": "floor/process-flow/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "sourceId": "pix-002-26-11370",
+    "floorIds": [
+      "process-flow"
+    ],
+    "actualPassedCases": [
+      {
+        "name": "process/native-end-home-visible-boundary",
+        "date": "2026-10-25T06:40:34.251Z",
+        "scope": "954 five configured steps: End reaches fifth; Home returns first heading to track edge with 4px focus padding. No bottom buttons/scrollbar per owner override. Physical touch unverified."
+      },
+      {
+        "name": "process/phone-all-five-vertical",
+        "date": "2026-10-25T06:40:34.291Z",
+        "scope": "375 five steps rendered vertically with no horizontal overflow; physical touch not claimed."
+      }
+    ],
+    "historicalObservations": [
+      {
+        "name": "process/native-end-home-without-controls",
+        "classification": "test-boundary-assumption",
+        "disposition": "Home settles at scrollLeft 4 due to source track 4px focus padding/scroll snap; first heading aligns with visible track edge. Corrected to verify visible first-step alignment, not absolute zero."
+      }
+    ],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-interactions-supplement-2026-10-25.json",
+    "wholeSourceApproval": false,
+    "scope": "Only the named native interactions in configured V20 fixtures. Not blanket all-state approval; visual, real AT/touch/keyboard, browser zoom, clipboard roundtrip, and production integrations remain separate."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/floor--process-flow--runtime_interaction.json",
+    "recordSha256": "f9ba1482d0e8298b4dc5fc4be7e7f1b9326c38c2468db180cdea4e6cf4ee81dd",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/floor--process-flow--runtime_interaction.json",
+    "sha256": "d7c28003c2c74acbba5ca559b12f659fa86002b46378f56a952bd6b8fe41837c"
+  }
+}

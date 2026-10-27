@@ -1,0 +1,93 @@
+{
+  "kind": "source-table-style-comparison",
+  "sourceFile": "PIX-001",
+  "sourceNode": "2:65947",
+  "sourceArchiveSha256": "62a9b75cd86fd395290f1b9e46bd9203b614ff7d91b12918bf8840e8a7e41088",
+  "nodesFileSha256": "1c67f372dd752dd20999faebfec9da27f95227eacc744cba5fbb307d31535ff4",
+  "sourceUrl": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:65947",
+  "scope": "Card subtitle font-size row only, including explicit1280px special column. No complete visual/contrast approval inferred.",
+  "snapshotFolder": "storybook-v11",
+  "readySelector": ".hc-p26-next",
+  "storyId": "product2026-nextstep--default",
+  "checks": [
+    {
+      "width": 1920,
+      "selector": ".hc-p26-next-card p",
+      "property": "fontSize",
+      "expected": "16px",
+      "sourceCell": "2:65960",
+      "sourceRow": "2:65947",
+      "rawNodeSha256": "ff1215fdb3942895477b57ddc1d2c5818bbdb9cf3461f2cf0879010f1388e9e2",
+      "actual": "16px",
+      "passed": true,
+      "visible": true,
+      "transition": "all"
+    },
+    {
+      "width": 1536,
+      "selector": ".hc-p26-next-card p",
+      "property": "fontSize",
+      "expected": "14px",
+      "sourceCell": "2:65956",
+      "sourceRow": "2:65947",
+      "rawNodeSha256": "332ff07a515ced1282b8a8079b2539f1d30816f7002b4a010f42f679a89ec68e",
+      "actual": "16px",
+      "passed": false,
+      "visible": true,
+      "transition": "all"
+    },
+    {
+      "width": 1280,
+      "selector": ".hc-p26-next-card p",
+      "property": "fontSize",
+      "expected": "14px",
+      "sourceCell": "2:65957",
+      "sourceRow": "2:65947",
+      "rawNodeSha256": "8193f217dd4b7d1ce9595b89e2609e919a6c9822fc8af0d2ffd62916babd9d98",
+      "actual": "12px",
+      "passed": false,
+      "visible": true,
+      "transition": "all"
+    },
+    {
+      "width": 1024,
+      "selector": ".hc-p26-next-card p",
+      "property": "fontSize",
+      "expected": "12px",
+      "sourceCell": "2:65958",
+      "sourceRow": "2:65947",
+      "rawNodeSha256": "5918f18bcaaf0b9c538703900529aa40b1d9d594ac62b7beaf2dd238e72d625f",
+      "actual": "12px",
+      "passed": true,
+      "visible": true,
+      "transition": "all"
+    },
+    {
+      "width": 768,
+      "selector": ".hc-p26-next-card p",
+      "property": "fontSize",
+      "expected": "12px",
+      "sourceCell": "2:65961",
+      "sourceRow": "2:65947",
+      "rawNodeSha256": "ac0b04b63fd12c972f0c16dba624a2fa94b24bb35a4ccab3fbf5954a95334121",
+      "actual": "12px",
+      "passed": true,
+      "visible": true,
+      "transition": "all"
+    },
+    {
+      "width": 375,
+      "selector": ".hc-p26-next-card p",
+      "property": "fontSize",
+      "expected": "12px",
+      "sourceCell": "2:65966",
+      "sourceRow": "2:65947",
+      "rawNodeSha256": "51290255d6c6157cdab97ada18ec94f068606d0a96ed94a8f3a6f5a40ceb3456",
+      "actual": "12px",
+      "passed": true,
+      "visible": false,
+      "transition": "all"
+    }
+  ],
+  "date": "2026-10-23T15:12:55.064Z"
+}

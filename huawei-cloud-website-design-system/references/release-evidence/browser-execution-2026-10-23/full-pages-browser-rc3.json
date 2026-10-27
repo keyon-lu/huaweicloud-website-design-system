@@ -1,0 +1,487 @@
+{
+  "kind": "generated-full-page-browser-audit",
+  "candidate": "RC3",
+  "date": "2026-10-23",
+  "rows": [
+    {
+      "id": "agentarts",
+      "widths": [
+        {
+          "width": 1920,
+          "viewport": 1912,
+          "rootWidth": 1912,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1905,
+          "viewport": 1897,
+          "rootWidth": 1897,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1776,
+          "viewport": 1768,
+          "rootWidth": 1768,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1775,
+          "viewport": 1767,
+          "rootWidth": 1767,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "viewport": 1432,
+          "rootWidth": 1432,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1026,
+          "viewport": 1018,
+          "rootWidth": 1018,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1025,
+          "viewport": 1017,
+          "rootWidth": 1017,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1024,
+          "viewport": 1016,
+          "rootWidth": 1016,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 954,
+          "viewport": 946,
+          "rootWidth": 946,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 769,
+          "viewport": 761,
+          "rootWidth": 761,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "viewport": 760,
+          "rootWidth": 760,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 565,
+          "viewport": 557,
+          "rootWidth": 557,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 382,
+          "rootWidth": 382,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 376,
+          "viewport": 368,
+          "rootWidth": 368,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "viewport": 367,
+          "rootWidth": 367,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "viewport": 312,
+          "rootWidth": 312,
+          "brokenImages": [],
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "width": 1920,
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "width": 375,
+          "violations": [],
+          "incomplete": []
+        }
+      ],
+      "ownerApproval": false
+    },
+    {
+      "id": "developer",
+      "widths": [
+        {
+          "width": 1920,
+          "viewport": 1912,
+          "rootWidth": 1912,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1905,
+          "viewport": 1897,
+          "rootWidth": 1897,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1776,
+          "viewport": 1768,
+          "rootWidth": 1768,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1775,
+          "viewport": 1767,
+          "rootWidth": 1767,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "viewport": 1432,
+          "rootWidth": 1432,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1026,
+          "viewport": 1018,
+          "rootWidth": 1018,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1025,
+          "viewport": 1017,
+          "rootWidth": 1017,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1024,
+          "viewport": 1016,
+          "rootWidth": 1016,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 954,
+          "viewport": 946,
+          "rootWidth": 946,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 769,
+          "viewport": 761,
+          "rootWidth": 761,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "viewport": 760,
+          "rootWidth": 760,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 565,
+          "viewport": 557,
+          "rootWidth": 557,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 382,
+          "rootWidth": 382,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 376,
+          "viewport": 368,
+          "rootWidth": 368,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "viewport": 367,
+          "rootWidth": 367,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "viewport": 312,
+          "rootWidth": 312,
+          "brokenImages": [],
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "width": 1920,
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": [
+                [
+                  ".hc-dev-hero-tag"
+                ],
+                [
+                  "h1"
+                ],
+                [
+                  "h1 > span"
+                ],
+                [
+                  ".hc-dev-banner-copy > p"
+                ],
+                [
+                  "#practices > .hc-dev-container > h2"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(1) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(1) > div > p"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(2) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(2) > div > p"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(3) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(3) > div > p"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(4) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(4) > div > p"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "width": 375,
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": [
+                [
+                  ".hc-dev-hero-tag"
+                ],
+                [
+                  "h1"
+                ],
+                [
+                  "h1 > span"
+                ],
+                [
+                  ".hc-dev-banner-copy > p"
+                ],
+                [
+                  "#practices > .hc-dev-container > h2"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(1) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(1) > div > p"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(2) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(2) > div > p"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(3) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(3) > div > p"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(4) > div > h3"
+                ],
+                [
+                  ".hc-dev-practice-card:nth-child(4) > div > p"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "ownerApproval": false
+    },
+    {
+      "id": "composition",
+      "widths": [
+        {
+          "width": 1920,
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1905,
+          "viewport": 1905,
+          "rootWidth": 1905,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1776,
+          "viewport": 1776,
+          "rootWidth": 1776,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1775,
+          "viewport": 1775,
+          "rootWidth": 1775,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "rootWidth": 1440,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1026,
+          "viewport": 1026,
+          "rootWidth": 1026,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1025,
+          "viewport": 1025,
+          "rootWidth": 1025,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 1024,
+          "viewport": 1024,
+          "rootWidth": 1024,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 954,
+          "viewport": 954,
+          "rootWidth": 954,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 769,
+          "viewport": 769,
+          "rootWidth": 769,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "viewport": 760,
+          "rootWidth": 760,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 565,
+          "viewport": 557,
+          "rootWidth": 557,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 382,
+          "rootWidth": 382,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 376,
+          "viewport": 368,
+          "rootWidth": 368,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "viewport": 367,
+          "rootWidth": 367,
+          "brokenImages": [],
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "viewport": 312,
+          "rootWidth": 312,
+          "brokenImages": [],
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "width": 1920,
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "width": 375,
+          "violations": [],
+          "incomplete": []
+        }
+      ],
+      "ownerApproval": false
+    }
+  ]
+}

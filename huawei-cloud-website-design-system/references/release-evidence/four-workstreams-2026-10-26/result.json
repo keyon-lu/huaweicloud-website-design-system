@@ -1,0 +1,324 @@
+{
+  "kind": "four-workstream-executed-findings",
+  "date": "2026-10-26",
+  "scope": {
+    "adoptedSources": 66,
+    "floorBindings": 62,
+    "foundationFamilies": 17,
+    "ownerApprovedOriginalSamples": 19,
+    "deferredSources": 117
+  },
+  "engineering": {
+    "groups": 31,
+    "passed": true,
+    "evidence": "engineering-result.json"
+  },
+  "states": {
+    "stories": 198,
+    "declaredPlay": 65,
+    "renderOnly": 133,
+    "failures": 0,
+    "nativeChecks": 5,
+    "hoverGeneratedFocusPassed": true,
+    "hoverSourceFocusPassed": true,
+    "all451ModeledStatesExecuted": false
+  },
+  "adaptation": {
+    "currentHoverProfiles": 5,
+    "allFiveProfilesPassed": true,
+    "viewports": [
+      1920,
+      1536,
+      1280,
+      1024,
+      768
+    ],
+    "previousLongContentObservations": 1984,
+    "previousLongContentRootOrSectionOverflow": 0,
+    "previousNormalComparisons": 992,
+    "allConfigurationRulesClosed": false
+  },
+  "visual": {
+    "originalExports": 16,
+    "wholeSourceRecordsAccepted": 0,
+    "findings": [
+      {
+        "pageId": "2:201532",
+        "name": "大模型聚合卡片",
+        "frameId": "204:2",
+        "width": 1920,
+        "height": 1086,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-models--default",
+        "patternId": "pix-001-2-201532",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-models--default&viewMode=story",
+        "finding": "当前对照为原稿堆叠分支与默认平铺分支；须匹配配置后继续，未批准全分支。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:200413",
+        "name": "横向卡片组轮播组件（第一批）",
+        "frameId": "2:200523",
+        "width": 1920,
+        "height": 964,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-wide--default",
+        "patternId": "pix-001-2-200413",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-wide--default&viewMode=story",
+        "finding": "原稿自动居中轮播与当前手动子集不是同一配置；未批准。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:193367",
+        "name": "视频卡片组件（第二批）",
+        "frameId": "2:193657",
+        "width": 1920,
+        "height": 944,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-videocards--default",
+        "patternId": "pix-001-2-193367",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-videocards--default&viewMode=story",
+        "finding": "三列卡片结构已查看；原稿6项与当前3项不同，未覆盖全量数量和状态。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:195803",
+        "name": "复制命令行组件",
+        "frameId": "2:195963",
+        "width": 1920,
+        "height": 768,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-commands--default",
+        "patternId": "pix-001-2-195803",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-commands--default&viewMode=story",
+        "finding": "原稿2列与当前3列不同；待匹配配置，不作为视觉通过证据。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:156437",
+        "name": "云宝助手组件（第一批）",
+        "frameId": "2:156608",
+        "width": 1920,
+        "height": 499,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-assistant--default",
+        "patternId": "pix-001-2-156437",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-assistant--default&viewMode=story",
+        "finding": "原稿背景/IP可选与本地检索内容不同；未批准全分支。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:75962",
+        "name": "demo架构组件",
+        "frameId": "2:79576",
+        "width": 1920,
+        "height": 1266,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-demo--default",
+        "patternId": "pix-001-2-75962",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-demo--default&viewMode=story",
+        "finding": "导出仅有背景，不能作为组件视觉参照；此参照拒绝用于通过。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:62685",
+        "name": "常见问题",
+        "frameId": "2:62981",
+        "width": 1920,
+        "height": 1016,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-faq--default",
+        "patternId": "pix-001-2-62685",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-faq--default&viewMode=story",
+        "finding": "分类、问答、联系区域已查看；数量不同。桌面/手机独立状态已执行，完整视觉未通过。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:73017",
+        "name": "hover展开卡片（第二批）",
+        "frameId": "2:73107",
+        "width": 1920,
+        "height": 794,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-hover--default",
+        "patternId": "pix-001-2-73017",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-hover--default&viewMode=story",
+        "finding": "发现误用隐藏旧稿尺寸，已改为可见原稿五档尺寸并复验；任意新媒体及所有分支未批准。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:70228",
+        "name": "新版产品页Banner-下",
+        "frameId": "2:71046",
+        "width": 1920,
+        "height": 850,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-banner--default",
+        "patternId": "pix-001-2-70228",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-banner--default&viewMode=story",
+        "finding": "当前取到产品居中分支，与默认背景分支不一致；待匹配。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:65031",
+        "name": "下一步",
+        "frameId": "2:65160",
+        "width": 1920,
+        "height": 796,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-nextstep--default",
+        "patternId": "pix-001-2-65031",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-nextstep--default&viewMode=story",
+        "finding": "堆叠与平铺配置不同；已知原稿对比度问题保留，未伪造修色通过。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:61303",
+        "name": "客户案例",
+        "frameId": "2:61405",
+        "width": 1920,
+        "height": 934,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-cases--default",
+        "patternId": "pix-001-2-61303",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-cases--default&viewMode=story",
+        "finding": "结构已查看；原稿6个标志与当前3个不同，未批准完整数量变体。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:59964",
+        "name": "场景与解决方案",
+        "frameId": "2:60122",
+        "width": 1920,
+        "height": 914,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-scenarios--default",
+        "patternId": "pix-001-2-59964",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-scenarios--default&viewMode=story",
+        "finding": "结构已查看；内容及登记图片不同，不能推断全媒体分支通过。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:54672",
+        "name": "左右图文-应用场景架构图",
+        "frameId": "2:56216",
+        "width": 1920,
+        "height": 748,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-splitmedia--default",
+        "patternId": "pix-001-2-54672",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-splitmedia--default&viewMode=story",
+        "finding": "左右图文结构已查看；不同文案/图片，未批准所有比例。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:52886",
+        "name": "页内导航",
+        "frameId": "2:53180",
+        "width": 1920,
+        "height": 88,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-inpagenavigation--default",
+        "patternId": "pix-001-2-52886",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-inpagenavigation--default&viewMode=story",
+        "finding": "导出为一级导航，与产品页内导航不是同一组件；此参照拒绝用于通过。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:68093",
+        "name": "新版产品页Banner-上",
+        "frameId": "2:68790",
+        "width": 1920,
+        "height": 803.0000610351562,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "releasescope-pix-001-2-68093--default",
+        "patternId": "pix-001-2-68093",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=releasescope-pix-001-2-68093--default&viewMode=story",
+        "finding": "原稿完整Hero与当前最小背景配置不同；待匹配。",
+        "wholeVisualPassed": false
+      },
+      {
+        "pageId": "2:199574",
+        "name": "Tab容器",
+        "frameId": "2:199711",
+        "width": 1920,
+        "height": 663,
+        "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+        "selection": "Topmost visible1920px source example within MCP-confirmed main specification frame; representative branch only",
+        "exported": true,
+        "storyId": "product2026-tabcontainer--default",
+        "patternId": "pix-001-2-199574",
+        "url": "http://127.0.0.1:6030/storybook-v22/iframe.html?id=product2026-tabcontainer--default&viewMode=story",
+        "finding": "原稿3标签与当前8个长标签压力配置不同；待匹配。",
+        "wholeVisualPassed": false
+      }
+    ]
+  },
+  "device": {
+    "status": "unverified-no-usable-connected-phone",
+    "discovery": "Read-only present-device PnP query for portable/Android/HUAWEI/iPhone/iPad/Harmony returned no matching devices; adb and idevice_id commands unavailable. This does not assert that every possible wireless test device was discovered.",
+    "touchPassed": false,
+    "softKeyboardPassed": false,
+    "screenReaderPassed": false,
+    "realBrowserZoomPassed": false,
+    "zoomBlocker": "Windows Computer Use stopped before input because it could not reliably determine the current Chrome URL. No browser/OS security bypass or additional Windows input followed."
+  },
+  "formalRelease": false,
+  "remaining": "原稿全分支匹配与对照、特殊配置/适配规则未全闭环；真实读屏、手机触屏/软键盘、真实浏览器缩放未验证。不得把本轮局部通过扩写成四项全部完成。",
+  "evidenceFiles": [
+    {
+      "path": "engineering-result.json",
+      "sha256": "4095382f76237c649b6b52e02b27b6d97982fe9d4b86ff16a426751feb6759b8"
+    },
+    {
+      "path": "hover-focus-after.json",
+      "sha256": "bc71620197b636afbafa72b4aac38fc98591d793cfbb92e4b4f89a90968baf25"
+    },
+    {
+      "path": "hover-source-profile-browser.json",
+      "sha256": "30a46a937a581a9d43f5158ebd01c3dc47cb1d826dbbd0d6729cf45b865aaead"
+    },
+    {
+      "path": "native-special-states.json",
+      "sha256": "3df5cca54ecbaf932944535d8a6feacab0d0c91973c4a4f3f6606c032d677519"
+    },
+    {
+      "path": "source-hover-focus-v24.json",
+      "sha256": "65620fbf8553cc4a4a04a7a36fd3f5062370ea42f4ef42dbd5a4996fd3bcfb51"
+    },
+    {
+      "path": "stories-browser-verified-v24.json",
+      "sha256": "14c4b157fabdd9c4209eb14490e9ca72e00ecefd642de23a58d7e936c4e19367"
+    }
+  ]
+}

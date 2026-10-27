@@ -1,0 +1,47 @@
+{
+  "kind": "source-release-check",
+  "check": "link/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "link",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcereference-navigation--matrix",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-link/navigation-reference.stories.tsx",
+        "sourceSha256": "81e0fc1ca90f52aec939ac2c51aed351f5b99d59c043dbf24d59fc3252dd978b"
+      },
+      {
+        "id": "sourcefamilies-link--playground",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      },
+      {
+        "id": "sourcefamilies-link--matrix",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      },
+      {
+        "id": "sourcefamilies-link--disabled-activation",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      },
+      {
+        "id": "sourcefamilies-link--long-content",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+        "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

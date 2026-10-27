@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "profile": "source-prototype composition index, not official converted registry",
+  "patterns": [
+    {
+      "id": "header-and-frame",
+      "components": [
+        "PortalHeader",
+        "PortalWebsiteFooter"
+      ],
+      "spec": "references/first-level-navigation.md"
+    },
+    {
+      "id": "section-content",
+      "components": [
+        "PortalSection",
+        "PortalTextContent",
+        "PortalCards"
+      ],
+      "spec": "references/composed-pages.md"
+    },
+    {
+      "id": "expand-select",
+      "components": [
+        "PortalFAQ",
+        "PortalFoldedMedia",
+        "PortalCustomerCases"
+      ],
+      "spec": "references/component-contract.md"
+    }
+  ]
+}

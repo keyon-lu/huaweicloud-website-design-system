@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-17",
+  "scope": "Nine prioritized source bundles;223 public pages verified against online normative text;3 pages retained from local fallback. Import is distinct from runtime implementation and acceptance.",
+  "sources": [
+    {
+      "onlineId": "ONLINE-01",
+      "sourceId": "PIX-002",
+      "fileName": "业务组件规范v1.0",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 80,
+      "designNotes": 2432,
+      "textNodes": 29504,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-01.json",
+      "sha256": "2e72b1b9406bcb32d052f4b3fc89d0a49dd17c2cf96e57b4d3c085d2d08b9972",
+      "onlineRulesVerifiedPages": 80
+    },
+    {
+      "onlineId": "ONLINE-02",
+      "sourceId": "PIX-003",
+      "fileName": "智果园2.0组件",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 18,
+      "designNotes": 778,
+      "textNodes": 17995,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-02.json",
+      "sha256": "f31ce0fb7bd4f622932008e1ec1e5e2a70371cdf81d7ef608f7063a1080d526b",
+      "onlineRulesVerifiedPages": 18
+    },
+    {
+      "onlineId": "ONLINE-03",
+      "sourceId": "PIX-004",
+      "fileName": "页面模式 v1.0",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 60,
+      "designNotes": 1970,
+      "textNodes": 21247,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-03.json",
+      "sha256": "96b9293459c52a5374d956072489ddd986a9f5d528fa0356c7150797180c732f",
+      "onlineRulesVerifiedPages": 60
+    },
+    {
+      "onlineId": "ONLINE-04",
+      "sourceId": "PIX-014",
+      "fileName": "Cloud UI_v1.0.0_PC样式库（官网）",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 1,
+      "designNotes": 28,
+      "textNodes": 985,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-04.json",
+      "sha256": "684f5cdd0a545315313b38865e6d370bb3fb83b44cc09b65941a8d7392826af0",
+      "onlineRulesVerifiedPages": 1
+    },
+    {
+      "onlineId": "ONLINE-05",
+      "sourceId": "PIX-015",
+      "fileName": "Cloud UI_v1.0.0_PC组件库（官网）",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 39,
+      "designNotes": 58,
+      "textNodes": 3576,
+      "stateGroups": 131,
+      "bundle": "references/pixso-priority/ONLINE-05.json",
+      "sha256": "bf35ff03ea3f3ef9718a4313568852a4333dee9aa9cac4ecda1a30ea3bf5becb",
+      "onlineRulesVerifiedPages": 39
+    },
+    {
+      "onlineId": "ONLINE-06",
+      "sourceId": "PIX-012",
+      "fileName": "官网基础样式规范v1.0",
+      "onlineRead": "server-error; local snapshot retained",
+      "pages": 3,
+      "designNotes": 376,
+      "textNodes": 4538,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-06.json",
+      "sha256": "bc8635e689c1f3249216da3cd66e944a5f8d4e155d6a86907590dff48495c394",
+      "onlineRulesVerifiedPages": 0
+    },
+    {
+      "onlineId": "ONLINE-07",
+      "sourceId": "PIX-011",
+      "fileName": "基础组件规范 v1.0",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 21,
+      "designNotes": 279,
+      "textNodes": 3748,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-07.json",
+      "sha256": "f8e4d00117d7c9f9e350abf4011f643f4566b7ca1d1dedd3ec87a497c861a10d",
+      "onlineRulesVerifiedPages": 21
+    },
+    {
+      "onlineId": "ONLINE-08",
+      "sourceId": "PIX-008",
+      "fileName": "按钮规范",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 3,
+      "designNotes": 318,
+      "textNodes": 950,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-08.json",
+      "sha256": "017a70bc8fc3d86e6a77cdd0e1f4441e943c9e92880ecff2874506aac457a4e1",
+      "onlineRulesVerifiedPages": 3
+    },
+    {
+      "onlineId": "ONLINE-09",
+      "sourceId": "PIX-007",
+      "fileName": "图标规范",
+      "onlineRead": "verified-directory-and-normative-rule-text",
+      "pages": 1,
+      "designNotes": 59,
+      "textNodes": 366,
+      "stateGroups": 0,
+      "bundle": "references/pixso-priority/ONLINE-09.json",
+      "sha256": "40ab124d829ee9cfe3cc037f27f301631a9e09fd90a5df802f859cfa1964b298",
+      "onlineRulesVerifiedPages": 1
+    }
+  ],
+  "ownerDecisions": [
+    "buttons avoid #1476FF; checkbox allowed",
+    "18/24 and18/28 retained per component",
+    "named green tag background opacity.1",
+    "learning/use 2–4 groups; ignore five"
+  ],
+  "issueWorkflow": "Consolidate questions after build and tests; keep conflict-dependent branches pending without blocking independent work",
+  "onlineRuleAudit": {
+    "onlineSources": 8,
+    "verifiedPages": 223,
+    "matchedSnapshotPages": 181,
+    "directlyReadPages": 42,
+    "additionalInheritedNoteNodes": 2093,
+    "changedExistingNoteText": 0,
+    "removedExistingNoteText": 0,
+    "scope": "Normative text verification, not all visual states/assets/interactions accepted"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-23",
+  "snapshot": "storybook-v9",
+  "tabs": {
+    "actions": [
+      "fill input",
+      "ArrowRight from first skips disabled second",
+      "Home returns first"
+    ],
+    "result": {
+      "focus": "课程一",
+      "input": "验收保留输入",
+      "selected": [
+        "课程一"
+      ]
+    }
+  },
+  "scrollbar": {
+    "actions": [
+      "ArrowDown on region",
+      "Tab leaves region"
+    ],
+    "result": {
+      "focusedRole": "region",
+      "scrollTop": 16
+    },
+    "afterTab": "离开滚动区域"
+  },
+  "collapse": {
+    "actions": [
+      "Space opens",
+      "edit input",
+      "Enter closes",
+      "Enter reopens"
+    ],
+    "result": {
+      "closedExpanded": "false",
+      "reopenedValue": "折叠保留验证"
+    }
+  },
+  "scope": "Three listed samples only; actual browser keyboard input, not screen-reader or touch acceptance"
+}

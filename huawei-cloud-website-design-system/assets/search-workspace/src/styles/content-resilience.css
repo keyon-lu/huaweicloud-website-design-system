@@ -1,0 +1,2 @@
+/* Long indivisible text may wrap instead of expanding the page. No dimensions, colors or spacing are changed. */
+.hc-page{overflow-wrap:anywhere}

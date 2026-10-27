@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-26",
+  "entry": "SourceModal/NestedAutocomplete",
+  "empty": {
+    "emptyMessage": "没有匹配内容",
+    "activeDescendant": null
+  },
+  "enterRetainsInput": true,
+  "firstEscapeKeepsDialog": true,
+  "secondEscapeClosesDialog": true,
+  "focusRestored": true,
+  "passed": true
+}

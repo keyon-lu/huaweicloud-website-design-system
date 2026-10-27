@@ -1,0 +1,87 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "楼层规范验证",
+    "description": "规范验证内容，不是正式业务宣传。"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "recommended-docs",
+      "id": "documents",
+      "title": "推荐文档",
+      "description": "按资料分类组织的规范验证内容",
+      "bg": "grey",
+      "columns": 3,
+      "mobileEnabled": true,
+      "items": [
+        {
+          "id": "docs-0",
+          "title": "快速入门",
+          "links": [
+            {
+              "label": "开始使用与准备工作",
+              "href": "#documents"
+            },
+            {
+              "label": "开发与部署指南",
+              "href": "#documents"
+            },
+            {
+              "label": "常见问题及排查",
+              "href": "#documents"
+            }
+          ],
+          "more": {
+            "label": "查看全部",
+            "href": "#documents"
+          }
+        },
+        {
+          "id": "docs-1",
+          "title": "最佳实践",
+          "links": [
+            {
+              "label": "开始使用与准备工作",
+              "href": "#documents"
+            },
+            {
+              "label": "开发与部署指南",
+              "href": "#documents"
+            },
+            {
+              "label": "常见问题及排查",
+              "href": "#documents"
+            }
+          ],
+          "more": {
+            "label": "查看全部",
+            "href": "#documents"
+          }
+        },
+        {
+          "id": "docs-2",
+          "title": "常见问题",
+          "links": [
+            {
+              "label": "开始使用与准备工作",
+              "href": "#documents"
+            },
+            {
+              "label": "开发与部署指南",
+              "href": "#documents"
+            },
+            {
+              "label": "常见问题及排查",
+              "href": "#documents"
+            }
+          ],
+          "more": {
+            "label": "查看全部",
+            "href": "#documents"
+          }
+        }
+      ]
+    }
+  ]
+}

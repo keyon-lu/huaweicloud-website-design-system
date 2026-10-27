@@ -1,0 +1,35 @@
+{
+  "kind": "owner-contrast-decision-generation-regression",
+  "date": "2026-10-26",
+  "rows": [
+    {
+      "case": "next",
+      "htmlByteIdentical": true,
+      "htmlSha256": "a15badf0ea9fd4920acdd5bec99275dedf42efc53263384bfa0740c130f85cde",
+      "knownLimitationIds": [
+        "next-contrast"
+      ],
+      "selectionScope": "Configured floor declarations; not a live DOM audit"
+    },
+    {
+      "case": "live",
+      "htmlByteIdentical": true,
+      "htmlSha256": "e4d5a361897ad06ee1954a6c36716935b5f4c0578c7f822fd0b287a4a72ed54c",
+      "knownLimitationIds": [
+        "live-contrast"
+      ],
+      "selectionScope": "Configured floor declarations; not a live DOM audit"
+    },
+    {
+      "case": "faq",
+      "htmlByteIdentical": true,
+      "htmlSha256": "03ff17f678db53a2bcf41dddd19fc90b95fee55e06b9dfac580d6a2c1763ae1f",
+      "knownLimitationIds": [],
+      "selectionScope": "Configured floor declarations; not a live DOM audit"
+    }
+  ],
+  "passed": true,
+  "productStylesOrComponentsChanged": false,
+  "newAccessibilityPasses": 0,
+  "formalRelease": false
+}

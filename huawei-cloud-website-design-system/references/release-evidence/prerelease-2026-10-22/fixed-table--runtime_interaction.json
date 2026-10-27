@@ -1,0 +1,41 @@
+{
+  "kind": "source-release-check",
+  "check": "fixed-table/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "fixed-table",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "designcorrections-unifiedtable--original-six-column",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-fixed-table/original-table.stories.tsx",
+        "sourceSha256": "ce4f6203f52d6aa746c4e5b638879539f7051ac73b53cf23aa1b04d22f2ace0e"
+      },
+      {
+        "id": "sourcefamilies-fixedtable--default",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+        "sourceSha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e"
+      },
+      {
+        "id": "sourcefamilies-fixedtable--groups",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+        "sourceSha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e"
+      },
+      {
+        "id": "sourcefamilies-fixedtable--long-content",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+        "sourceSha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

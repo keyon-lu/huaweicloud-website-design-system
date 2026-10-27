@@ -1,0 +1,87 @@
+{
+  "kind": "normal-configured-content-containment-continuity",
+  "date": "2026-10-25T11:57:07.597Z",
+  "scope": "Exact paired HTML except one inherited overflow-wrap declaration; geometry/font/color for normal fixture content, no new owner approval or source visual certification",
+  "rows": [
+    {
+      "requestedWidth": 1920,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1905,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1776,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1775,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1440,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1026,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1025,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 1024,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 954,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 769,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 768,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 565,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 390,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 376,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 375,
+      "sections": 62,
+      "differences": []
+    },
+    {
+      "requestedWidth": 320,
+      "sections": 62,
+      "differences": []
+    }
+  ]
+}

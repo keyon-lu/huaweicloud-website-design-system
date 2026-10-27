@@ -1,0 +1,2 @@
+import {React,PortalProductV1TabContainer} from 'portal-components';
+export default function V1TabsExample(){return <div className="hc-page hc-page-product"><PortalProductV1TabContainer id="v1-tabs" title="产品能力" subtitle="v1响应式Tab组合" align="center" background="grey" tone="ink" label="能力分类" previousLabel="上一组页签" nextLabel="下一组页签" items={[{id:'one',label:'基础能力',content:<p>基础能力内容</p>},{id:'two',label:'超长名称验证超长名称验证超长名称验证超长名称验证',content:<p>长名称对应内容</p>},{id:'three',label:'服务支持',content:<p>服务支持内容</p>}]}/></div>}

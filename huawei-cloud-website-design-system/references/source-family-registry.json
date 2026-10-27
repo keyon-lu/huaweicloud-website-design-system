@@ -1,0 +1,1849 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "scope": "Source-baseline family implementations and public dependencies; independent from Pixso conversion registry and from full-family acceptance",
+  "components": [
+    {
+      "id": "source-button",
+      "family": "button",
+      "entry": "assets/search-workspace/src/components/source-button/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-button/source-button.tsx",
+        "assets/search-workspace/src/components/source-button/design-actions.tsx"
+      ],
+      "publicExports": [
+        "SourceButton",
+        "SourceDesignAction"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-button.md"
+    },
+    {
+      "id": "search-input",
+      "family": "input",
+      "entry": "assets/search-workspace/src/components/search-input/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/search-input/search-input.tsx",
+        "assets/search-workspace/src/components/search-input/input-family.tsx"
+      ],
+      "publicExports": [
+        "SearchInput",
+        "SourceInputField",
+        "SourceTextarea",
+        "SourceAutocomplete"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/search-input.md"
+    },
+    {
+      "id": "source-modal",
+      "family": "modal",
+      "entry": "assets/search-workspace/src/components/source-modal/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-modal/source-modal.tsx"
+      ],
+      "publicExports": [
+        "SourceModal"
+      ],
+      "dependencies": [
+        "source-button"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-modal.md"
+    },
+    {
+      "id": "source-link",
+      "family": "link",
+      "entry": "assets/search-workspace/src/components/source-link/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-link/source-link.tsx"
+      ],
+      "publicExports": [
+        "SourceLink"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-link.md"
+    },
+    {
+      "id": "source-breadcrumb",
+      "family": "breadcrumb",
+      "entry": "assets/search-workspace/src/components/source-breadcrumb/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.tsx"
+      ],
+      "publicExports": [
+        "SourceBreadcrumb"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-breadcrumb.md"
+    },
+    {
+      "id": "portal-asset",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/portal-asset/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/portal-asset/portal-asset.tsx"
+      ],
+      "publicExports": [
+        "PortalAsset"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/portal-asset.md"
+    },
+    {
+      "id": "process-steps",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/process-steps/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/process-steps/process-steps.tsx"
+      ],
+      "publicExports": [
+        "PortalProcessSteps"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/process-steps.md"
+    },
+    {
+      "id": "source-label",
+      "family": "label",
+      "entry": "assets/search-workspace/src/components/source-label/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-label/source-label.tsx"
+      ],
+      "publicExports": [
+        "SourceLabel"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-label.md"
+    },
+    {
+      "id": "source-choice",
+      "family": "checkbox",
+      "entry": "assets/search-workspace/src/components/source-choice/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-choice/source-choice.tsx"
+      ],
+      "publicExports": [
+        "SourceChoice",
+        "SourceChoiceGroup"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-choice.md"
+    },
+    {
+      "id": "source-collapse",
+      "family": "collapse",
+      "entry": "assets/search-workspace/src/components/source-collapse/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-collapse/source-collapse.tsx"
+      ],
+      "publicExports": [
+        "SourceCollapse",
+        "SourceCollapseGroup"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-collapse.md"
+    },
+    {
+      "id": "learning-links",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/learning-links/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/learning-links/learning-links.tsx"
+      ],
+      "publicExports": [
+        "SourceLearningLinks"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/learning-links.md"
+    },
+    {
+      "id": "source-select",
+      "family": "select",
+      "entry": "assets/search-workspace/src/components/source-select/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-select/source-select.tsx"
+      ],
+      "publicExports": [
+        "SourceSelect"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-select.md"
+    },
+    {
+      "id": "source-scrollbar",
+      "family": "scrollbar",
+      "entry": "assets/search-workspace/src/components/source-scrollbar/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-scrollbar/source-scrollbar.tsx"
+      ],
+      "publicExports": [
+        "SourceScrollbar"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-scrollbar.md"
+    },
+    {
+      "id": "source-tabs",
+      "family": "tab",
+      "entry": "assets/search-workspace/src/components/source-tabs/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-tabs/source-tabs.tsx"
+      ],
+      "publicExports": [
+        "SourceTabs"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-tabs.md"
+    },
+    {
+      "id": "source-price",
+      "family": "price",
+      "entry": "assets/search-workspace/src/components/source-price/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-price/source-price.tsx"
+      ],
+      "publicExports": [
+        "SourcePrice"
+      ],
+      "offlinePublicExports": [
+        "PortalPrice"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-price.md"
+    },
+    {
+      "id": "source-pagination",
+      "family": "pagination",
+      "entry": "assets/search-workspace/src/components/source-pagination/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-pagination/source-pagination.tsx"
+      ],
+      "publicExports": [
+        "SourcePagination"
+      ],
+      "offlinePublicExports": [
+        "PortalPagination"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-pagination.md"
+    },
+    {
+      "id": "source-countdown",
+      "family": "countdown",
+      "entry": "assets/search-workspace/src/components/source-countdown/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-countdown/source-countdown.tsx"
+      ],
+      "publicExports": [
+        "SourceCountdown"
+      ],
+      "offlinePublicExports": [
+        "PortalCountdown"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-countdown.md"
+    },
+    {
+      "id": "source-rate",
+      "family": "rate",
+      "entry": "assets/search-workspace/src/components/source-rate/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-rate/source-rate.tsx"
+      ],
+      "publicExports": [
+        "SourceRate"
+      ],
+      "offlinePublicExports": [
+        "PortalRate"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-rate.md"
+    },
+    {
+      "id": "source-card",
+      "family": "card",
+      "entry": "assets/search-workspace/src/components/source-card/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-card/source-card.tsx"
+      ],
+      "publicExports": [
+        "SourceCard"
+      ],
+      "offlinePublicExports": [
+        "PortalCard"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-card.md"
+    },
+    {
+      "id": "source-tips",
+      "family": "tips",
+      "entry": "assets/search-workspace/src/components/source-tips/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-tips/source-tips.tsx"
+      ],
+      "publicExports": [
+        "SourceNotice"
+      ],
+      "offlinePublicExports": [
+        "PortalNotice"
+      ],
+      "dependencies": [
+        "source-choice"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-tips.md"
+    },
+    {
+      "id": "process-flow",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/process-flow/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/process-flow/process-flow.tsx"
+      ],
+      "publicExports": [
+        "SourceProcessFlow"
+      ],
+      "offlinePublicExports": [
+        "PortalProcessFlow"
+      ],
+      "dependencies": [
+        "source-link",
+        "portal-asset"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/process-flow.md"
+    },
+    {
+      "id": "source-anchor",
+      "family": "anchor",
+      "entry": "assets/search-workspace/src/components/source-anchor/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-anchor/source-anchor.tsx"
+      ],
+      "publicExports": [
+        "SourceAnchorNavigation"
+      ],
+      "offlinePublicExports": [
+        "PortalAnchorNavigation"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-anchor.md"
+    },
+    {
+      "id": "source-fixed-table",
+      "family": "fixed-table",
+      "entry": "assets/search-workspace/src/components/source-fixed-table/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.tsx"
+      ],
+      "publicExports": [
+        "SourceFixedTable"
+      ],
+      "offlinePublicExports": [
+        "PortalFixedTable"
+      ],
+      "dependencies": [],
+      "spec": "assets/search-workspace/src/components-specs/source-fixed-table.md"
+    },
+    {
+      "id": "source-service-table",
+      "family": "service-table",
+      "entry": "assets/search-workspace/src/components/source-service-table/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-service-table/source-service-table.tsx"
+      ],
+      "publicExports": [
+        "SourceServiceTable"
+      ],
+      "offlinePublicExports": [
+        "PortalServiceTable"
+      ],
+      "dependencies": [
+        "source-fixed-table"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-service-table.md",
+      "role": "compatibility alias of unified source-fixed-table; no independent design family"
+    },
+    {
+      "id": "source-img-viewer",
+      "family": "img-viewer",
+      "entry": "assets/search-workspace/src/components/source-img-viewer/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/source-img-viewer/source-img-viewer.tsx"
+      ],
+      "publicExports": [
+        "SourceImageViewer"
+      ],
+      "offlinePublicExports": [
+        "PortalImageViewer"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/source-img-viewer.md"
+    },
+    {
+      "id": "document-pager",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/document-pager/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/document-pager/document-pager.tsx"
+      ],
+      "publicExports": [
+        "SourceDocumentPager"
+      ],
+      "offlinePublicExports": [
+        "PortalDocumentPager"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "assets/search-workspace/src/components-specs/document-pager.md"
+    },
+    {
+      "id": "scene-media",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/scene-media/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/scene-media/scene-media.tsx"
+      ],
+      "publicExports": [
+        "SourceSceneMedia"
+      ],
+      "offlinePublicExports": [
+        "PortalSceneMedia"
+      ],
+      "dependencies": [
+        "source-link",
+        "source-tabs",
+        "source-collapse",
+        "portal-asset"
+      ],
+      "spec": "references/pixso-scene-media.md"
+    },
+    {
+      "id": "recommended-docs",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/recommended-docs/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/recommended-docs/recommended-docs.tsx"
+      ],
+      "publicExports": [
+        "SourceRecommendedDocs"
+      ],
+      "offlinePublicExports": [
+        "PortalRecommendedDocs"
+      ],
+      "dependencies": [
+        "source-link",
+        "source-collapse"
+      ],
+      "spec": "references/pixso-recommended-docs.md"
+    },
+    {
+      "id": "latest-updates",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/latest-updates/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/latest-updates/latest-updates.tsx"
+      ],
+      "publicExports": [
+        "SourceLatestUpdates"
+      ],
+      "offlinePublicExports": [
+        "PortalLatestUpdates"
+      ],
+      "dependencies": [
+        "source-link",
+        "portal-asset"
+      ],
+      "spec": "references/pixso-latest-updates.md"
+    },
+    {
+      "id": "general-banner",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/general-banner/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/general-banner/general-banner.tsx"
+      ],
+      "publicExports": [
+        "SourceGeneralBanner"
+      ],
+      "offlinePublicExports": [
+        "PortalGeneralBanner"
+      ],
+      "dependencies": [
+        "source-link"
+      ],
+      "spec": "references/pixso-general-banner.md"
+    },
+    {
+      "id": "icon-text-cards",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/icon-text-cards/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/icon-text-cards/icon-text-cards.tsx"
+      ],
+      "publicExports": [
+        "SourceIconTextCards"
+      ],
+      "offlinePublicExports": [
+        "PortalIconTextCards"
+      ],
+      "dependencies": [
+        "source-link",
+        "source-label",
+        "portal-asset"
+      ],
+      "spec": "references/pixso-icon-text-cards.md"
+    },
+    {
+      "id": "faq-list",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/faq-list/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/faq-list/faq-list.tsx"
+      ],
+      "publicExports": [
+        "SourceFaqList"
+      ],
+      "offlinePublicExports": [
+        "PortalFaqList"
+      ],
+      "dependencies": [
+        "source-link",
+        "source-collapse",
+        "portal-asset"
+      ],
+      "spec": "references/pixso-faq-list.md"
+    },
+    {
+      "id": "product-2026-commands",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-commands/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-commands/product-2026-commands.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Actions",
+        "SourceProduct2026CommandCard",
+        "SourceProduct2026Commands"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Actions",
+        "PortalProduct2026CommandCard",
+        "PortalProduct2026Commands"
+      ],
+      "dependencies": [
+        "source-link",
+        "source-tabs",
+        "portal-asset"
+      ],
+      "spec": "references/product-2026-commands.md"
+    },
+    {
+      "id": "product-2026-tabs",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-tabs/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-tabs/product-2026-tabs.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026TabContainer"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026TabContainer"
+      ],
+      "dependencies": [
+        "source-tabs"
+      ],
+      "spec": "references/product-2026-tabs.md"
+    },
+    {
+      "id": "product-2026-next",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-next/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-next/product-2026-next.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Next"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Next"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-2026-next.md"
+    },
+    {
+      "id": "product-2026-faq",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-faq/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-faq/product-2026-faq.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Faq"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Faq"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-collapse"
+      ],
+      "spec": "references/product-2026-faq.md"
+    },
+    {
+      "id": "product-2026-scenarios",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-scenarios/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-scenarios/product-2026-scenarios.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026ScenarioCard",
+        "SourceProduct2026Scenarios"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026ScenarioCard",
+        "PortalProduct2026Scenarios"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-2026-scenarios.md"
+    },
+    {
+      "id": "product-2026-navigation",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-navigation/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-navigation/product-2026-navigation.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026InPageNavigation"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026InPageNavigation"
+      ],
+      "dependencies": [],
+      "spec": "references/product-2026-navigation.md"
+    },
+    {
+      "id": "product-2026-video",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-video/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-video/product-2026-video.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026VideoDialog",
+        "SourceProduct2026Videos"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026VideoDialog",
+        "PortalProduct2026Videos"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-video.md"
+    },
+    {
+      "id": "product-2026-agents",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-agents/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-agents/product-2026-agents.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026AgentCard",
+        "SourceProduct2026Agents"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026AgentCard",
+        "PortalProduct2026Agents"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands",
+        "source-label",
+        "product-2026-video"
+      ],
+      "spec": "references/product-2026-agents.md"
+    },
+    {
+      "id": "product-2026-split",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-split/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-split/product-2026-split.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026SplitCard",
+        "SourceProduct2026Split"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026SplitCard",
+        "PortalProduct2026Split"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-img-viewer",
+        "product-2026-tabs",
+        "product-2026-video",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-split.md"
+    },
+    {
+      "id": "product-2026-folded",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-folded/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-folded/product-2026-folded.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Folded"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Folded"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands",
+        "product-2026-video"
+      ],
+      "spec": "references/product-2026-folded.md"
+    },
+    {
+      "id": "product-2026-news",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-news/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-news/product-2026-news.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026News"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026News"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-agents",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-news.md"
+    },
+    {
+      "id": "product-2026-pricing",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-pricing/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-pricing/product-2026-pricing.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026PricingTable",
+        "SourceProduct2026Pricing"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026PricingTable",
+        "PortalProduct2026Pricing"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-tabs",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-pricing.md"
+    },
+    {
+      "id": "product-2026-assistant",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-assistant/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Assistant"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Assistant"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-2026-assistant.md"
+    },
+    {
+      "id": "product-2026-hover",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-hover/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Hover"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Hover"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-agents",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-hover.md"
+    },
+    {
+      "id": "product-2026-demo",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-demo/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-demo/product-2026-demo.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026DemoMedia",
+        "SourceProduct2026Demo"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026DemoMedia",
+        "PortalProduct2026Demo"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-tabs",
+        "product-2026-commands",
+        "product-2026-video"
+      ],
+      "spec": "references/product-2026-demo.md"
+    },
+    {
+      "id": "product-2026-cases",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-cases/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-cases/product-2026-cases.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Cases"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Cases"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands",
+        "product-2026-video",
+        "product-2026-demo"
+      ],
+      "spec": "references/product-2026-cases.md"
+    },
+    {
+      "id": "product-2026-advantages",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-advantages/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-advantages/product-2026-advantages.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Advantages"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Advantages"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-advantages.md"
+    },
+    {
+      "id": "product-2026-wide",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-wide/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-wide/product-2026-wide.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Wide"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Wide"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-agents",
+        "product-2026-video",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-wide.md"
+    },
+    {
+      "id": "product-2026-floor-frame",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-floor-frame/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-floor-frame/product-2026-floor-frame.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026FloorFrame"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026FloorFrame"
+      ],
+      "dependencies": [],
+      "spec": "references/product-2026-floor-frame.md"
+    },
+    {
+      "id": "product-2026-scene-carousel",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-scene-carousel/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026SceneCarouselTrack",
+        "SourceProduct2026SceneCarousel"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026SceneCarouselTrack",
+        "PortalProduct2026SceneCarousel"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-agents",
+        "product-2026-video",
+        "product-2026-tabs",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-scene-carousel.md"
+    },
+    {
+      "id": "product-2026-models",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-models/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-models/product-2026-models.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026Models"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026Models"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-commands",
+        "product-2026-tabs"
+      ],
+      "spec": "references/product-2026-models.md"
+    },
+    {
+      "id": "product-2026-packages",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-packages/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-packages/product-2026-packages.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026PackageCard",
+        "SourceProduct2026Packages"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026PackageCard",
+        "PortalProduct2026Packages"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-packages.md"
+    },
+    {
+      "id": "product-2026-banner",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-2026-banner/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-2026-banner/product-2026-banner.tsx"
+      ],
+      "publicExports": [
+        "SourceProduct2026BannerSlide",
+        "SourceProduct2026Banner"
+      ],
+      "offlinePublicExports": [
+        "PortalProduct2026BannerSlide",
+        "PortalProduct2026Banner"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-agents",
+        "product-2026-video",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-2026-banner-responsive.md"
+    },
+    {
+      "id": "product-v1-navigation",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-navigation/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-navigation/product-v1-navigation.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1InPageNavigation"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1InPageNavigation"
+      ],
+      "dependencies": [
+        "product-2026-navigation"
+      ],
+      "spec": "references/product-v1-navigation.md"
+    },
+    {
+      "id": "product-v1-anchor",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-anchor/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-anchor/product-v1-anchor.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1AnchorNavigation"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1AnchorNavigation"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-anchor.md"
+    },
+    {
+      "id": "product-v1-catalog",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-catalog/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-catalog/product-v1-catalog.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1AnchoredCatalog"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1AnchoredCatalog"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label"
+      ],
+      "spec": "references/product-v1-catalog.md"
+    },
+    {
+      "id": "product-v1-tabs",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-tabs/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-tabs/product-v1-tabs.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1TabContainer",
+        "SourceProductV1TabStrip"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1TabContainer",
+        "PortalProductV1TabStrip"
+      ],
+      "dependencies": [
+        "source-tabs",
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-tabs.md"
+    },
+    {
+      "id": "product-v1-elevator",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-elevator/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-elevator/product-v1-elevator.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Elevator"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Elevator"
+      ],
+      "dependencies": [],
+      "spec": "references/product-v1-elevator.md"
+    },
+    {
+      "id": "product-v1-contact",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-contact/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-contact/product-v1-contact.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1ContactDropdown"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1ContactDropdown"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-contact.md"
+    },
+    {
+      "id": "product-v1-cards",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-cards/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-cards/product-v1-cards.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Recommendations",
+        "SourceProductV1GenericCards"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Recommendations",
+        "PortalProductV1GenericCards"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-v1-tabs"
+      ],
+      "spec": "references/product-v1-cards.md"
+    },
+    {
+      "id": "product-v1-speakers",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-speakers/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-speakers/product-v1-speakers.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Speakers"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Speakers"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-speakers.md"
+    },
+    {
+      "id": "product-v1-logos",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-logos/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-logos/product-v1-logos.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1LogoCards"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1LogoCards"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-logos.md"
+    },
+    {
+      "id": "product-v1-photo-wall",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-photo-wall/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-photo-wall/product-v1-photo-wall.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1PhotoWall"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1PhotoWall"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-photo-wall.md"
+    },
+    {
+      "id": "product-v1-editorial",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-editorial/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-editorial/product-v1-editorial.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Editorial"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Editorial"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-v1-editorial.md"
+    },
+    {
+      "id": "product-v1-news-list",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-news-list/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-news-list/product-v1-news-list.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1NewsList"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1NewsList"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-choice",
+        "source-pagination"
+      ],
+      "spec": "references/product-v1-news-list.md"
+    },
+    {
+      "id": "product-v1-quote",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-quote/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-quote/product-v1-quote.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Quote"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Quote"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-quote.md"
+    },
+    {
+      "id": "product-v1-publications",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-publications/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-publications/product-v1-publications.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Publications"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Publications"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands",
+        "product-v1-quote"
+      ],
+      "spec": "references/product-v1-publications.md"
+    },
+    {
+      "id": "product-v1-architecture",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-architecture/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-architecture/product-v1-architecture.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Architecture"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Architecture"
+      ],
+      "dependencies": [
+        "product-2026-split",
+        "product-v1-tabs"
+      ],
+      "spec": "references/product-v1-architecture.md"
+    },
+    {
+      "id": "product-v1-folded",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-folded/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-folded/product-v1-folded.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Folded"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Folded"
+      ],
+      "dependencies": [
+        "product-2026-commands",
+        "product-2026-video",
+        "product-2026-folded",
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-folded.md"
+    },
+    {
+      "id": "product-v1-live",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-live/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-live/product-v1-live.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Live"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Live"
+      ],
+      "dependencies": [
+        "product-2026-video",
+        "product-2026-commands",
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-live.md"
+    },
+    {
+      "id": "product-v1-advantages",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-advantages/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-advantages/product-v1-advantages.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Advantages"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Advantages"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-v1-advantages.md"
+    },
+    {
+      "id": "product-v1-cases",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-cases/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-cases/product-v1-cases.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Cases"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Cases"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-tabs",
+        "product-2026-commands",
+        "product-2026-video"
+      ],
+      "spec": "references/product-v1-cases.md"
+    },
+    {
+      "id": "product-v1-activities",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-activities/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-activities/product-v1-activities.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Activities"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Activities"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label"
+      ],
+      "spec": "references/product-v1-activities.md"
+    },
+    {
+      "id": "product-v1-solutions",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-solutions/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-solutions/product-v1-solutions.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Solutions"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Solutions"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-v1-tabs",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-v1-solutions.md"
+    },
+    {
+      "id": "product-v1-sessions",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-sessions/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-sessions/product-v1-sessions.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Sessions"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Sessions"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-sessions.md"
+    },
+    {
+      "id": "product-v1-live-preview",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-live-preview/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-live-preview/product-v1-live-preview.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1LivePreview"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1LivePreview"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-v1-tabs",
+        "source-countdown"
+      ],
+      "spec": "references/product-v1-live-preview.md"
+    },
+    {
+      "id": "product-v1-mosaic",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-mosaic/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-mosaic/product-v1-mosaic.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Mosaic"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Mosaic"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-mosaic.md"
+    },
+    {
+      "id": "product-v1-benefits",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-benefits/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-benefits/product-v1-benefits.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Benefits"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Benefits"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-v1-benefits.md"
+    },
+    {
+      "id": "product-v1-ai-architecture",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-ai-architecture/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-ai-architecture/product-v1-ai-architecture.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1AIArchitecture"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1AIArchitecture"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/product-v1-ai-architecture.md"
+    },
+    {
+      "id": "product-v1-information",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-information/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-information/product-v1-information.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1Information"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1Information"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-label",
+        "product-2026-commands",
+        "product-2026-video"
+      ],
+      "spec": "references/product-v1-information.md"
+    },
+    {
+      "id": "product-v1-filters",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/product-v1-filters/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/product-v1-filters/product-v1-filters.tsx"
+      ],
+      "publicExports": [
+        "SourceProductV1ImageFilter",
+        "SourceProductV1LogoFilter",
+        "SourceProductV1ReportFilter"
+      ],
+      "offlinePublicExports": [
+        "PortalProductV1ImageFilter",
+        "PortalProductV1LogoFilter",
+        "PortalProductV1ReportFilter"
+      ],
+      "dependencies": [
+        "portal-asset",
+        "source-choice",
+        "source-pagination",
+        "product-2026-commands"
+      ],
+      "spec": "references/product-v1-filters.md"
+    },
+    {
+      "id": "foundation-graphic",
+      "family": null,
+      "entry": "assets/search-workspace/src/components/foundation-graphic/index.ts",
+      "implementationFiles": [
+        "assets/search-workspace/src/components/foundation-graphic/foundation-graphic.tsx"
+      ],
+      "publicExports": [
+        "SourceFoundationGraphic"
+      ],
+      "offlinePublicExports": [
+        "PortalFoundationGraphic"
+      ],
+      "dependencies": [
+        "portal-asset"
+      ],
+      "spec": "references/visual-foundations-2026.md"
+    }
+  ],
+  "families": [
+    {
+      "id": "anchor",
+      "source": "references/portalui-docs/baseui/anchor.md",
+      "sourceSha256": "6100a6c0f60fc635ebba9d0960a4eba9591bd71f5bc76937fb66eb8e1ac3774a",
+      "publicComponentIds": [
+        "source-anchor"
+      ],
+      "offlineRelatedExports": [
+        "PortalAnchor",
+        "PortalProductNavigation",
+        "PortalAnchorNavigation"
+      ],
+      "scope": "dedicated source-baseline React partial; full variants/Pixso/manual acceptance pending"
+    },
+    {
+      "id": "breadcrumb",
+      "source": "references/portalui-docs/baseui/breadcrumb.md",
+      "sourceSha256": "3006af47984be33e59c4d0dd6772476985c554ca3bf0bb1c97867b48c1134a7a",
+      "publicComponentIds": [
+        "source-breadcrumb"
+      ],
+      "offlineRelatedExports": [
+        "PortalBreadcrumb"
+      ],
+      "scope": "dedicated source React; full-family evidence pending"
+    },
+    {
+      "id": "button",
+      "source": "references/portalui-docs/baseui/button.md",
+      "sourceSha256": "a97671111350ad1c7939ba73ac361fc47878d871d2b2c0fa9c44e62a3797bdb9",
+      "publicComponentIds": [
+        "source-button"
+      ],
+      "offlineRelatedExports": [
+        "PortalButton"
+      ],
+      "scope": "dedicated source React; full-family evidence pending"
+    },
+    {
+      "id": "card",
+      "source": "references/portalui-docs/baseui/card.md",
+      "sourceSha256": "de0ffee4d75c601818397ec1bb48f384069642b4c50c4c5f2982b7ea9f7b9f89",
+      "publicComponentIds": [
+        "source-card"
+      ],
+      "offlineRelatedExports": [
+        "PortalCards",
+        "PortalSolutionCards",
+        "PortalCard"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    },
+    {
+      "id": "carousel",
+      "source": "references/portalui-docs/baseui/carousel.md",
+      "sourceSha256": "25393da0ebad5fe26ed7b7859c82bfd08b2f9fe48287b7b7772f9c19dea4f144",
+      "publicComponentIds": [],
+      "offlineRelatedExports": [
+        "PortalPracticeCarousel",
+        "PortalDeveloperBanner"
+      ],
+      "scope": "related page implementation only"
+    },
+    {
+      "id": "checkbox",
+      "source": "references/portalui-docs/baseui/checkbox.md",
+      "sourceSha256": "f632b5dddc8e72ec9a02445f31e4aaa21f93213706e808682e87a50738bd015c",
+      "publicComponentIds": [
+        "source-choice"
+      ],
+      "offlineRelatedExports": [],
+      "scope": "dedicated source React; new scoped Pixso evidence; full-family acceptance pending"
+    },
+    {
+      "id": "collapse",
+      "source": "references/portalui-docs/baseui/collapse.md",
+      "sourceSha256": "afedcc82f243fcc0835495b922f9858a5cc4056b665c7b1fe47c097770005094",
+      "publicComponentIds": [
+        "source-collapse"
+      ],
+      "offlineRelatedExports": [
+        "PortalFAQ",
+        "PortalFoldedMedia"
+      ],
+      "scope": "dedicated source React; new scoped Pixso evidence; full-family acceptance pending"
+    },
+    {
+      "id": "countdown",
+      "source": "references/portalui-docs/baseui/countdown.md",
+      "sourceSha256": "abecd0154e31c23c9f2a11049b35abce66eaedc8358c482bb07bcd95de488998",
+      "publicComponentIds": [
+        "source-countdown"
+      ],
+      "offlineRelatedExports": [
+        "PortalCountdown"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    },
+    {
+      "id": "datepicker",
+      "source": "references/portalui-docs/baseui/datepicker.md",
+      "sourceSha256": "6b503b40dd46752219d4e0a43ba2bee44b4bbc39f05d3acd64099d9a4dfd0b64",
+      "publicComponentIds": [],
+      "offlineRelatedExports": [],
+      "scope": "no dedicated family implementation yet"
+    },
+    {
+      "id": "fixed-table",
+      "source": "references/portalui-docs/baseui/fixed-table.md",
+      "sourceSha256": "c290b7c3cbc8d45c273762756a7ab393649d49aa0441c3cd2ca1199a624090c8",
+      "publicComponentIds": [
+        "source-fixed-table"
+      ],
+      "offlineRelatedExports": [
+        "PortalFixedTable"
+      ],
+      "scope": "dedicated source-baseline React partial; full variants/Pixso/manual acceptance pending"
+    },
+    {
+      "id": "img-viewer",
+      "source": "references/portalui-docs/baseui/img-viewer.md",
+      "sourceSha256": "c113a7cd7b5a91569e3f7fd83d25b7b17773df3c57c5a5461f394f5a2dad446e",
+      "publicComponentIds": [
+        "source-img-viewer"
+      ],
+      "offlineRelatedExports": [
+        "PortalImageViewer"
+      ],
+      "scope": "dedicated image-element prototype; background-image API and full source acceptance pending"
+    },
+    {
+      "id": "input",
+      "source": "references/portalui-docs/baseui/input.md",
+      "sourceSha256": "a6f6fc9f686d62511617590dae893b99d42244298446e4b64b5fc0b7e1313efc",
+      "publicComponentIds": [
+        "search-input"
+      ],
+      "offlineRelatedExports": [],
+      "scope": "dedicated source React; full-family evidence pending"
+    },
+    {
+      "id": "label",
+      "source": "references/portalui-docs/baseui/label.md",
+      "sourceSha256": "a70d103791683e23de7cb5e919d266182b376896fc9414789bc2b93c64928a61",
+      "publicComponentIds": [
+        "source-label"
+      ],
+      "offlineRelatedExports": [],
+      "scope": "dedicated source React; new scoped Pixso evidence; full-family acceptance pending"
+    },
+    {
+      "id": "link",
+      "source": "references/portalui-docs/baseui/link.md",
+      "sourceSha256": "b330b944e1b19fcf6f255c44d629f28685c634ce60e2f18e8cc0ed82c3aa5b17",
+      "publicComponentIds": [
+        "source-link"
+      ],
+      "offlineRelatedExports": [
+        "PortalLink"
+      ],
+      "scope": "dedicated source React; full-family evidence pending"
+    },
+    {
+      "id": "modal",
+      "source": "references/portalui-docs/baseui/modal.md",
+      "sourceSha256": "03c2892f97303d6f4e182c3efdf06e5a2cb81f985e5313ee39921d7b3a803a79",
+      "publicComponentIds": [
+        "source-modal"
+      ],
+      "offlineRelatedExports": [],
+      "scope": "dedicated source React; full-family evidence pending"
+    },
+    {
+      "id": "pagination",
+      "source": "references/portalui-docs/baseui/pagination.md",
+      "sourceSha256": "e2b90bd70d68cb670f7e78ed54c8ec4b46a6ea09cad37a2fab0961739f495a43",
+      "publicComponentIds": [
+        "source-pagination"
+      ],
+      "offlineRelatedExports": [
+        "PortalPagination"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    },
+    {
+      "id": "player",
+      "source": "references/portalui-docs/baseui/player.md",
+      "sourceSha256": "d32b6be05a463674996fdf82dca44b91e7ccd8ae79984b57e9224aa397d8592b",
+      "publicComponentIds": [],
+      "offlineRelatedExports": [
+        "PortalGaussVideos"
+      ],
+      "scope": "related page implementation only"
+    },
+    {
+      "id": "price",
+      "source": "references/portalui-docs/baseui/price.md",
+      "sourceSha256": "022e9f3d2b63946d4c9d02f753f7ad7543a20aa8b64275cec9a1234c74bcedcd",
+      "publicComponentIds": [
+        "source-price"
+      ],
+      "offlineRelatedExports": [
+        "PortalGaussPricing",
+        "PortalPrice"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    },
+    {
+      "id": "rate",
+      "source": "references/portalui-docs/baseui/rate.md",
+      "sourceSha256": "53353ef618cbdde2dbfc7fa892dfeb8542726f78539f5dedbfbbf108a91fb006",
+      "publicComponentIds": [
+        "source-rate"
+      ],
+      "offlineRelatedExports": [
+        "PortalRate"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    },
+    {
+      "id": "scrollbar",
+      "source": "references/portalui-docs/baseui/scrollbar.md",
+      "sourceSha256": "409a52430229c5834afea21196171d9fe3c2c5a87af3c6efa88a280a725011db",
+      "publicComponentIds": [
+        "source-scrollbar"
+      ],
+      "offlineRelatedExports": [
+        "PortalScrollbar"
+      ],
+      "scope": "source baseline native implementation; complete Pixso and manual visual acceptance pending"
+    },
+    {
+      "id": "select",
+      "source": "references/portalui-docs/baseui/select.md",
+      "sourceSha256": "9ef07533430c7276fb99a768a85215dd8ff1ed78e0b9a8b3f4d05bb219b65a43",
+      "publicComponentIds": [
+        "source-select"
+      ],
+      "offlineRelatedExports": [
+        "PortalSelect"
+      ],
+      "scope": "source baseline native implementation; complete Pixso and manual visual acceptance pending"
+    },
+    {
+      "id": "service-table",
+      "source": "references/portalui-docs/baseui/service-table.md",
+      "sourceSha256": "42cb52518432841a49bb91d5daf4fc32cb0452fc9ecf1192084924fc1de24bb8",
+      "publicComponentIds": [
+        "source-service-table"
+      ],
+      "offlineRelatedExports": [
+        "PortalServiceTable"
+      ],
+      "scope": "dedicated source-baseline React partial; full variants/Pixso/manual acceptance pending"
+    },
+    {
+      "id": "tab",
+      "source": "references/portalui-docs/baseui/tab.md",
+      "sourceSha256": "ad528d4a55f734edc6486c73eb24ee74234da88e7e2d694d00058b1ea2aa451f",
+      "publicComponentIds": [
+        "source-tabs"
+      ],
+      "offlineRelatedExports": [
+        "PortalFoldedMedia",
+        "PortalTabs"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    },
+    {
+      "id": "tips",
+      "source": "references/portalui-docs/baseui/tips.md",
+      "sourceSha256": "c851575a0ce6df2c91dffc31747cb8159a2c468acf57160aa2302e41d3dba579",
+      "publicComponentIds": [
+        "source-tips"
+      ],
+      "offlineRelatedExports": [
+        "PortalNotice"
+      ],
+      "scope": "dedicated source-baseline React; full-family acceptance pending"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "华为云官网设计规范"
+  short_description: "基于 PortalUI 与官网场景资料生成华为云产品页和开发者页面原型"
+  default_prompt: "使用 $huawei-cloud-website-design-system 生成华为云云服务产品页或开发者官网页面，并报告来源和验证范围。"

@@ -1,0 +1,108 @@
+{
+  "kind": "source-backed-scoped-correction-continuity",
+  "date": "2026-10-26",
+  "previousCandidate": "2.6.0-rc15-draft",
+  "changes": [
+    {
+      "path": "assets/search-workspace/data/search-index.json",
+      "beforeSha256": "6e250ed76ed92854b6933d6533f385d7d43aca87bd8de8a50e1a708667c9a022",
+      "afterSha256": "232fd33397499f5230f2b9fc935d87888ae6273108e3b82a73dc660b5623a11e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.css",
+      "beforeSha256": "d74f30501bf736610458767160b665c38332753c081f8f11006ea65f2a914b83",
+      "afterSha256": "7c261d421b190d1a1cb88e1fb470a7d904eb24f22a60629e5d560752d7553704"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.tsx",
+      "beforeSha256": "f3305004f4801b0889475469170dd67b7690c6cb3e44e400cfb479b4a564d5b9",
+      "afterSha256": "424937862c95e59b514efcfba8f20c468a4af6cca7b22451103d3ceda247e397"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20",
+      "afterSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7"
+    },
+    {
+      "path": "assets/search-workspace/template-manifest.json",
+      "beforeSha256": "f50a7e261e6da66ea0b4cec37eef4e72906f79db2e5c881c2ea6a6890a22d90d",
+      "afterSha256": "8607aa0e63d3640510a653559d841b5587550529c6fc44ccdd724483bdb3f769"
+    },
+    {
+      "path": "references/component-registry.json",
+      "beforeSha256": "68c60a7314f115665988c1330dfc4b3c4c77bec98b17468a39d758643e0c34a1",
+      "afterSha256": "1fc4c2d4fac7a2bd02c388c054aad47e7f0fe1dddaa9f7943bfbf0310afbf81d"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "8518f3dcf6d6e5dff2073f07ce8186fe704620f4780aaa5adfbcf59735065daa",
+      "afterSha256": "96c0843262dac9e875e1248e7764617d042544a3aa24d712c6303b85e7d7a50e"
+    },
+    {
+      "path": "references/expanded-release-profile.json",
+      "beforeSha256": "6e1639af0cc045f5b1c520dda5c148c846fd83d81152196cd6284b969709da1a",
+      "afterSha256": "c83b5595a878dcf77cf49a9340159c0fed7a5166dc0e9837fd0c1502b2f03ae0"
+    },
+    {
+      "path": "references/first-release-contract-index.json",
+      "beforeSha256": "60318a0cf43e4f65f506ef83088883e03f764fa8633d29aeeaff65a3b5a584dc",
+      "afterSha256": "7bf7a325e2e7e04a20f151dfa458160a3cde0c068ec44b845aab823224abac62"
+    },
+    {
+      "path": "references/first-release-floor-family-contracts.json",
+      "beforeSha256": "172faf1e5b538b6ff5d947273703ad48a3727814b07e03da53cd230170f6b2a3",
+      "afterSha256": "789239cc492149b9bd74340429134a11a89832b31f4f164516108bfc6ab1f079"
+    },
+    {
+      "path": "references/first-release-floor-state-contracts.json",
+      "beforeSha256": "e42a0bed0b7f3205afa1f552cccd53f7e1b1d7af4df2688edc5319ea575f3437",
+      "afterSha256": "94349e0dea09068ecb05b96559140d3c8457bb3de2fb21f39a21c2576f594c14"
+    },
+    {
+      "path": "references/first-release-state-media-matrix.json",
+      "beforeSha256": "1e08c9057837332ee65be40cd514dca2988597d9a25ac8a3ddbcdad65b049832",
+      "afterSha256": "da5ff454130819971356455539a0bc45a467cd772bb964527cc07619cbec46fc"
+    },
+    {
+      "path": "references/floor-component-registry.json",
+      "beforeSha256": "7ca542bdb327cd00b94c6fc26a205f86a2fefe3767a7dc33e901d006a2d1f077",
+      "afterSha256": "784ec59c6dc12afdf8588a9bdc6b4be04ac530181d77763b44559fe7cf31fbd0"
+    },
+    {
+      "path": "references/product-2026-hover.md",
+      "beforeSha256": "178e39c1f858feb8bd31b44290ea6c7c6c56f25cf26d1407ceb7bb380ed9bb89",
+      "afterSha256": "4ed9ad5d4ff3752fd6aa1e1a55f500013370d878efd97f40cf833c78f65cad60"
+    },
+    {
+      "path": "references/source-component-plan.json",
+      "beforeSha256": "9820f04ddeb90b7f74b7589903ce0b61b2ad8e0fe8fe3f94cfc94784874f9fb3",
+      "afterSha256": "f10190cc64bcc4c218e5aead437e7ef61ded36a7dbebacf7d0f9030189f095df"
+    },
+    {
+      "path": "src/components-specs/components.json",
+      "beforeSha256": "7ae276b4eb3519bd8e75b09c5f87ec3e44e77573fa313da39bd0c32f912ee5a3",
+      "afterSha256": "cb69a541708b18606991bcb65204e70b9824701794ae1464e98c3af4b7905778"
+    },
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "4e21f818904aa6b1d1cffb5609f72b517dc5ed1c43769f7b69f3915cdbfb1f12",
+      "afterSha256": "e264eeb874c44be3e9999629ec09506e7740257f377204c949c4bfe3764615ba"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20",
+      "afterSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7"
+    },
+    {
+      "path": "src/styles/product-2026-hover.css",
+      "beforeSha256": "d74f30501bf736610458767160b665c38332753c081f8f11006ea65f2a914b83",
+      "afterSha256": "7c261d421b190d1a1cb88e1fb470a7d904eb24f22a60629e5d560752d7553704"
+    }
+  ],
+  "sourceProfiles": "references/release-evidence/hover-source-visible-nodes-2026-10-26.json",
+  "focusRepair": "references/release-evidence/hover-focus-repair-2026-10-26.json",
+  "boundary": "Only Hover source dimensions and focus behavior changed. Source return JSX, other145 exported functions and previous owner-fixed presentation remain. Rebind previous bounded checks only; full visual/device/zoom gates remain pending. New complete engineering build is executed after rebinding.",
+  "newOwnerApprovals": 0,
+  "newPassedGatePositions": 0,
+  "formalRelease": false
+}

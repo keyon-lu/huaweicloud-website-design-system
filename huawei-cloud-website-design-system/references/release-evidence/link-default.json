@@ -1,0 +1,7 @@
+{
+  "active": "资料入口",
+  "audit": [
+    "{\"label\":\"link-default\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-16T08:34:33.858Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"color-contrast\",\"link-name\"]}"
+  ],
+  "outline": "solid"
+}

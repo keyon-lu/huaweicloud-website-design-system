@@ -1,0 +1,49 @@
+{
+  "kind": "owner-entered-browser-decisions",
+  "source": "http://127.0.0.1:6030/owner-questions.html",
+  "items": [
+    {
+      "answer": "按文字原则等比缩放",
+      "id": "mosaic-ratios",
+      "note": "",
+      "title": "活动拼图中屏比例"
+    },
+    {
+      "answer": "统一40px",
+      "id": "benefit-padding",
+      "note": "",
+      "title": "优势图文中屏内距"
+    },
+    {
+      "answer": "按其它尺寸，备注指定",
+      "id": "information-layout",
+      "note": "现在的间距太宽了，另外标签的尺寸不对，复核一下",
+      "title": "直播卡片间距与手机图片"
+    },
+    {
+      "answer": "最多2行",
+      "id": "report-lines",
+      "note": "",
+      "title": "报告简介行数"
+    },
+    {
+      "answer": "保持待定",
+      "id": "next-contrast",
+      "note": "组件的四个圆角尺寸应该一致，按钮的尺寸要和设计稿一致",
+      "title": "下一步背景与白色文字的对比度"
+    },
+    {
+      "answer": "保持待定",
+      "id": "live-contrast",
+      "note": "标签的样式不对，左侧的按钮样式不对，右侧的最下方的的一个时间应该和组件的最底部留有padding",
+      "title": "直播预告灰色文字对比度"
+    }
+  ],
+  "implementationDate": "2026-10-22",
+  "newWholeComponentApprovals": 0,
+  "remaining": [
+    "information-layout: 手机图片比例没有裁定，保留候选",
+    "next-contrast: 保持待定",
+    "live-contrast: 保持待定"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "source-matched-white-navigation-main-line-height",
+  "date": "2026-10-26",
+  "sourceFrame": "2:53324",
+  "sourceExportSha256": "38579eeea2f5f1e8fc51d4904db72338ce6a761d1a905c4e54620fccdbb6feb2",
+  "sourceTextIds": [
+    "2:53327",
+    "2:53329",
+    "2:53330",
+    "2:53331",
+    "2:53332",
+    "2:53333",
+    "2:53334",
+    "2:53335"
+  ],
+  "sourceLineHeight": 18,
+  "scope": "Only2026 direct main labels and More trigger; explicitly excludes V1, secondary menus, title and action buttons. No TSX function or markup changes.",
+  "files": [
+    {
+      "path": "src/styles/product-2026-navigation.css",
+      "beforeSha256": "c35921e9254bccb4313a855c074b6de1beb53e5ff72426c300b0df783d0f5fb5",
+      "afterSha256": "a805a744203ffad88bb694f70beffab1db970f46bced96abe3627a40b2a85b54"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-navigation/product-2026-navigation.css",
+      "beforeSha256": "c35921e9254bccb4313a855c074b6de1beb53e5ff72426c300b0df783d0f5fb5",
+      "afterSha256": "a805a744203ffad88bb694f70beffab1db970f46bced96abe3627a40b2a85b54"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "0dc663120854cf312453f4144d9e6dc216813cdad43726dded261a0a648d962c",
+      "afterSha256": "bc0c16abd5c11880e6b49549934525b9d5f660cb8f7c493ccc25fa7fe4963569"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "0dc663120854cf312453f4144d9e6dc216813cdad43726dded261a0a648d962c",
+      "afterSha256": "bc0c16abd5c11880e6b49549934525b9d5f660cb8f7c493ccc25fa7fe4963569"
+    },
+    {
+      "path": "references/product-2026-navigation.md",
+      "beforeSha256": "a85a92523fc3422ae14ef189eed46f95811642109b4c5b012958ae6d70a20bc5",
+      "afterSha256": "77084703f4ef9e9465784d386a35a214648081939a8b61aa1994d582a8236c70"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "2c1f7eb056a7b7fe0f2a3f33700e745c36258db3903fa318d062df4502897c97",
+      "afterSha256": "f25985c861789297439a449831b380490a430bb92ebf141c2b53ee318008b9bb"
+    }
+  ],
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "flatTsxRemainsAtModelsRepairHash": true
+}

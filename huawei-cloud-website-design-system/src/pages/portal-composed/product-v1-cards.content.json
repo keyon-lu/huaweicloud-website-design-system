@@ -1,0 +1,130 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "v1卡片来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "title": "您可能感兴趣的产品",
+      "columns": 3,
+      "background": "grey",
+      "align": "center",
+      "labels": {
+        "tabs": "产品分类",
+        "previous": "上一组",
+        "next": "下一组",
+        "actions": "卡片操作"
+      },
+      "groups": [
+        {
+          "id": "all",
+          "label": "相关产品",
+          "items": [
+            {
+              "id": "service-0",
+              "title": "云速建站 CloudSite",
+              "description": "来源卡片结构验证说明，支持业务侧提供真实产品内容。",
+              "icon": "product-v1-cloudsite-icon",
+              "href": "#v1-recommend"
+            },
+            {
+              "id": "service-1",
+              "title": "产品能力二",
+              "description": "来源卡片结构验证说明，支持业务侧提供真实产品内容。",
+              "icon": "product-v1-cloudsite-icon",
+              "href": "#v1-recommend"
+            },
+            {
+              "id": "service-2",
+              "title": "产品能力三",
+              "description": "来源卡片结构验证说明，支持业务侧提供真实产品内容。",
+              "icon": "product-v1-cloudsite-icon",
+              "href": "#v1-recommend"
+            }
+          ]
+        }
+      ],
+      "kind": "product-recommendations-v1",
+      "id": "v1-recommend",
+      "mobileMode": "compact"
+    },
+    {
+      "title": "产品服务与认证",
+      "columns": 3,
+      "background": "grey",
+      "align": "left",
+      "labels": {
+        "tabs": "产品分类",
+        "previous": "上一组",
+        "next": "下一组",
+        "actions": "卡片操作"
+      },
+      "groups": [
+        {
+          "id": "all",
+          "label": "相关产品",
+          "items": [
+            {
+              "id": "service-0",
+              "title": "云速建站 CloudSite",
+              "description": "来源卡片结构验证说明，支持业务侧提供真实产品内容。",
+              "icon": "product-v1-cloudsite-icon",
+              "href": "#v1-generic",
+              "emphasis": [
+                "服务保障",
+                "快速接入"
+              ],
+              "actions": [
+                {
+                  "label": "了解详情",
+                  "href": "#v1-generic",
+                  "variant": "primary"
+                }
+              ]
+            },
+            {
+              "id": "service-1",
+              "title": "产品能力二",
+              "description": "来源卡片结构验证说明，支持业务侧提供真实产品内容。",
+              "icon": "product-v1-cloudsite-icon",
+              "href": "#v1-generic",
+              "emphasis": [
+                "服务保障",
+                "快速接入"
+              ],
+              "actions": [
+                {
+                  "label": "了解详情",
+                  "href": "#v1-generic",
+                  "variant": "primary"
+                }
+              ]
+            },
+            {
+              "id": "service-2",
+              "title": "产品能力三",
+              "description": "来源卡片结构验证说明，支持业务侧提供真实产品内容。",
+              "icon": "product-v1-cloudsite-icon",
+              "href": "#v1-generic",
+              "emphasis": [
+                "服务保障",
+                "快速接入"
+              ],
+              "actions": [
+                {
+                  "label": "了解详情",
+                  "href": "#v1-generic",
+                  "variant": "primary"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "kind": "generic-cards-v1",
+      "id": "v1-generic",
+      "mobileLayout": "horizontal"
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "442:15459",
+      "name": "tab",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "439:13043",
+          "name": "状态=未选中,分辨率=1920～1601",
+          "type": "COMPONENT",
+          "width": 56,
+          "height": 48,
+          "properties": {
+            "分辨率": "1920～1601",
+            "状态": "未选中"
+          }
+        },
+        {
+          "id": "442:15458",
+          "name": "状态=选中,分辨率=1920～1601",
+          "type": "COMPONENT",
+          "width": 56,
+          "height": 48,
+          "properties": {
+            "分辨率": "1920～1601",
+            "状态": "选中"
+          }
+        },
+        {
+          "id": "452:12534",
+          "name": "状态=未选中,分辨率=1600～1281",
+          "type": "COMPONENT",
+          "width": 47,
+          "height": 38,
+          "properties": {
+            "分辨率": "1600～1281",
+            "状态": "未选中"
+          }
+        },
+        {
+          "id": "452:12539",
+          "name": "状态=选中,分辨率=1600～1281",
+          "type": "COMPONENT",
+          "width": 47,
+          "height": 38,
+          "properties": {
+            "分辨率": "1600～1281",
+            "状态": "选中"
+          }
+        },
+        {
+          "id": "452:12549",
+          "name": "状态=未选中,分辨率=1280～1025",
+          "type": "COMPONENT",
+          "width": 39,
+          "height": 36,
+          "properties": {
+            "分辨率": "1280～1025",
+            "状态": "未选中"
+          }
+        },
+        {
+          "id": "452:12554",
+          "name": "状态=选中,分辨率=1280～1025",
+          "type": "COMPONENT",
+          "width": 39,
+          "height": 36,
+          "properties": {
+            "分辨率": "1280～1025",
+            "状态": "选中"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1600～1281",
+          "1920～1601",
+          "1280～1025"
+        ],
+        "状态": [
+          "未选中",
+          "选中"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=442:15459",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "442:16407",
+      "name": "卡片",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "442:16051",
+          "name": "状态=默认,分辨率=1920～1601",
+          "type": "COMPONENT",
+          "width": 418,
+          "height": 202,
+          "properties": {
+            "分辨率": "1920～1601",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "442:16406",
+          "name": "状态=悬停,分辨率=1920～1601",
+          "type": "COMPONENT",
+          "width": 418,
+          "height": 202,
+          "properties": {
+            "分辨率": "1920～1601",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "452:12645",
+          "name": "状态=默认,分辨率=1600～1281",
+          "type": "COMPONENT",
+          "width": 365,
+          "height": 172,
+          "properties": {
+            "分辨率": "1600～1281",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "452:12667",
+          "name": "状态=默认,分辨率=1280～1025",
+          "type": "COMPONENT",
+          "width": 304,
+          "height": 140,
+          "properties": {
+            "分辨率": "1280～1025",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "452:12678",
+          "name": "状态=默认,分辨率=1024～769",
+          "type": "COMPONENT",
+          "width": 240,
+          "height": 140,
+          "properties": {
+            "分辨率": "1024～769",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "484:5998",
+          "name": "状态=悬停,分辨率=1600～1281",
+          "type": "COMPONENT",
+          "width": 365,
+          "height": 172,
+          "properties": {
+            "分辨率": "1600～1281",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "484:6009",
+          "name": "状态=悬停,分辨率=1280～1025",
+          "type": "COMPONENT",
+          "width": 304,
+          "height": 140,
+          "properties": {
+            "分辨率": "1280～1025",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "484:6020",
+          "name": "状态=悬停,分辨率=1024～769",
+          "type": "COMPONENT",
+          "width": 240,
+          "height": 140,
+          "properties": {
+            "分辨率": "1024～769",
+            "状态": "悬停"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1600～1281",
+          "1920～1601",
+          "1280～1025",
+          "1024～769"
+        ],
+        "状态": [
+          "默认",
+          "悬停"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=442:16407",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "454:12456",
+      "name": "多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "452:12779",
+          "name": "分辨率=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 1098,
+          "properties": {
+            "分辨率": "1536"
+          }
+        },
+        {
+          "id": "452:13461",
+          "name": "分辨率=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 896,
+          "properties": {
+            "分辨率": "1280"
+          }
+        },
+        {
+          "id": "452:14052",
+          "name": "分辨率=1024",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 914,
+          "properties": {
+            "分辨率": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=454:12456",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "454:12455",
+      "name": "基础样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "442:16457",
+          "name": "基础样式=上下图标",
+          "type": "COMPONENT",
+          "width": 1919.999755859375,
+          "height": 1318,
+          "properties": {
+            "基础样式": "上下图标"
+          }
+        },
+        {
+          "id": "443:13752",
+          "name": "基础样式=左右图标",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1146,
+          "properties": {
+            "基础样式": "左右图标"
+          }
+        },
+        {
+          "id": "443:13136",
+          "name": "基础样式=无图标",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1138,
+          "properties": {
+            "基础样式": "无图标"
+          }
+        }
+      ],
+      "axes": {
+        "基础样式": [
+          "上下图标",
+          "左右图标",
+          "无图标"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=454:12455",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "518:3908",
+      "name": "卡片-左右",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "443:13139",
+          "name": "状态=默认",
+          "type": "COMPONENT",
+          "width": 418,
+          "height": 113.25,
+          "properties": {
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "518:3907",
+          "name": "状态=悬停",
+          "type": "COMPONENT",
+          "width": 418,
+          "height": 113.25,
+          "properties": {
+            "状态": "悬停"
+          }
+        }
+      ],
+      "axes": {
+        "状态": [
+          "默认",
+          "悬停"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=518:3908",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "420:11134",
+      "name": "电梯",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "420:11138",
+          "name": "状态=常规",
+          "type": "COMPONENT",
+          "width": 28,
+          "height": 22,
+          "properties": {
+            "状态": "常规"
+          }
+        },
+        {
+          "id": "420:11140",
+          "name": "状态=选中或hover",
+          "type": "COMPONENT",
+          "width": 96,
+          "height": 20,
+          "properties": {
+            "状态": "选中或hover"
+          }
+        }
+      ],
+      "axes": {
+        "状态": [
+          "常规",
+          "选中或hover"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=420:11134",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "420:11135",
+      "name": "电梯/ icon",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "420:11142",
+          "name": "选中=关",
+          "type": "COMPONENT",
+          "width": 10,
+          "height": 10,
+          "properties": {
+            "选中": "关"
+          }
+        },
+        {
+          "id": "420:11144",
+          "name": "选中=开",
+          "type": "COMPONENT",
+          "width": 10,
+          "height": 10,
+          "properties": {
+            "选中": "开"
+          }
+        }
+      ],
+      "axes": {
+        "选中": [
+          "关",
+          "开"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=420:11135",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "420:11136",
+      "name": "侧边电梯/hover",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "420:11146",
+          "name": "尺寸=1920",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 478,
+          "properties": {
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "420:11169",
+          "name": "尺寸=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 478,
+          "properties": {
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "420:11192",
+          "name": "尺寸=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 478,
+          "properties": {
+            "尺寸": "1280"
+          }
+        }
+      ],
+      "axes": {
+        "尺寸": [
+          "1920",
+          "1536",
+          "1280"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=420:11136",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "420:11137",
+      "name": "侧边电梯/常规",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "420:11215",
+          "name": "尺寸=1920",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 478,
+          "properties": {
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "420:11238",
+          "name": "尺寸=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 478,
+          "properties": {
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "420:11261",
+          "name": "尺寸=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 478,
+          "properties": {
+            "尺寸": "1280"
+          }
+        }
+      ],
+      "axes": {
+        "尺寸": [
+          "1920",
+          "1536",
+          "1280"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=420:11137",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "118:1706",
+      "name": "锚点导航",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "118:1707",
+          "name": "数量=2,样式=居左,背景色=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "2",
+            "样式": "居左",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1711",
+          "name": "数量=2,样式=居左,背景色=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "2",
+            "样式": "居左",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1715",
+          "name": "数量=3,样式=居左,背景色=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "3",
+            "样式": "居左",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1720",
+          "name": "数量=3,样式=居左,背景色=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "3",
+            "样式": "居左",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1725",
+          "name": "数量=4,样式=居左,背景色=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "4",
+            "样式": "居左",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1731",
+          "name": "数量=4,样式=居左,背景色=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "4",
+            "样式": "居左",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1737",
+          "name": "数量=5,样式=居左,背景色=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "5",
+            "样式": "居左",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1744",
+          "name": "数量=5,样式=居左,背景色=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "5",
+            "样式": "居左",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1751",
+          "name": "数量=6,样式=居左,背景色=开",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "6",
+            "样式": "居左",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1759",
+          "name": "数量=6,样式=居左,背景色=关",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 76,
+          "properties": {
+            "数量": "6",
+            "样式": "居左",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1767",
+          "name": "数量=2,样式=居中,背景色=开",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "2",
+            "样式": "居中",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1774",
+          "name": "数量=2,样式=居中,背景色=关",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "2",
+            "样式": "居中",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1781",
+          "name": "数量=3,样式=居中,背景色=开",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "3",
+            "样式": "居中",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1791",
+          "name": "数量=3,样式=居中,背景色=关",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "3",
+            "样式": "居中",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1801",
+          "name": "数量=4,样式=居中,背景色=开",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "4",
+            "样式": "居中",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1814",
+          "name": "数量=4,样式=居中,背景色=关",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "4",
+            "样式": "居中",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1827",
+          "name": "数量=5,样式=居中,背景色=开",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "5",
+            "样式": "居中",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1843",
+          "name": "数量=5,样式=居中,背景色=关",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "5",
+            "样式": "居中",
+            "背景色": "关"
+          }
+        },
+        {
+          "id": "118:1859",
+          "name": "数量=6,样式=居中,背景色=开",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "6",
+            "样式": "居中",
+            "背景色": "开"
+          }
+        },
+        {
+          "id": "118:1878",
+          "name": "数量=6,样式=居中,背景色=关",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 76,
+          "properties": {
+            "数量": "6",
+            "样式": "居中",
+            "背景色": "关"
+          }
+        }
+      ],
+      "axes": {
+        "数量": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "样式": [
+          "居左",
+          "居中"
+        ],
+        "背景色": [
+          "关",
+          "开"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=118:1706",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

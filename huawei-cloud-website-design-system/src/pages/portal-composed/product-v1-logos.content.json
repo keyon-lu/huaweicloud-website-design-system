@@ -1,0 +1,62 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "Logo楼层来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "logo-cards-v1",
+      "id": "v1-logos",
+      "title": "客户案例Logo墙验证",
+      "columns": 4,
+      "mode": "logos",
+      "align": "center",
+      "background": "grey",
+      "cardBackground": "white",
+      "mobileMode": "wall",
+      "items": [
+        {
+          "id": "logo-0",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-1",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-2",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-3",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-4",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-5",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-6",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        },
+        {
+          "id": "logo-7",
+          "logo": "product-v1-logo-demo",
+          "alt": "设计规范中的网易游戏Logo示例"
+        }
+      ]
+    }
+  ]
+}

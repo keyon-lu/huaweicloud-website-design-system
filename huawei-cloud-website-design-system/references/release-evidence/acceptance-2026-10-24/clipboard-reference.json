@@ -1,0 +1,7 @@
+{
+  "kind": "bare-native-clipboard-reference",
+  "writeFeedback": "参考写入已完成",
+  "bridgeReadLength": 0,
+  "readComparisonCompleted": false,
+  "scope": "Reference page uses native navigator.clipboard without Storybook. Independent readback did not complete on the page; browser-tool clipboard bridge also returned empty. No component-specific defect inferred, no clipboard contents asserted."
+}

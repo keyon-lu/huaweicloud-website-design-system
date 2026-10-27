@@ -1,0 +1,2571 @@
+{
+  "kind": "owner-sample-build-correspondence",
+  "observedDate": "2026-10-22",
+  "ownerApproval": "references/foundation-owner-re-review-approved-2026-10-21.json",
+  "approvedPack": "foundation-owner-remediation-2026-10-21-final",
+  "approvedSnapshot": "e65bc6e191d04097ce91b52e021525596a4b7296b86d40a12fc912fe2b552ad1",
+  "matchingRuntimeBuildFiles": [
+    {
+      "path": "favicon-wrapper.svg",
+      "sha256": "5311f921255509431fc978cd04fd497ae54c46cfd97b3578dc53d7f652667a71"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "3a13ac7344753df5a7cd5b41a67e33966c1ae723f1e5e5128a6ed1bca1adc85a"
+    },
+    {
+      "path": "iframe.html",
+      "sha256": "c5212e9c4d9b098abac2f3ed1bd7c8cba88492496d2e41cfcd5bc4f35a32d363"
+    },
+    {
+      "path": "index.html",
+      "sha256": "461786641fc1695758dc37148aba42a218b6c2bdb883af5b759d07296aa6eabf"
+    },
+    {
+      "path": "index.json",
+      "sha256": "f308edc0f47ce9e9180f3f4e148c98ebe9a9af215bc9006dac20ce61dee5adcd"
+    },
+    {
+      "path": "nunito-sans-bold-italic.woff2",
+      "sha256": "36aadf15d24dfa97c0446c9ca713b9d004f0f5674d1043b2b51c75105962cab9"
+    },
+    {
+      "path": "nunito-sans-bold.woff2",
+      "sha256": "6bccbfaa70688e0348109160e90c771587866c21717bfd3adec38ea606362cf8"
+    },
+    {
+      "path": "nunito-sans-italic.woff2",
+      "sha256": "992f331636deda09193ac0453c274ac3fb7e66f70af98e1cbff119a7384f09ae"
+    },
+    {
+      "path": "nunito-sans-regular.woff2",
+      "sha256": "49fe05ec477bb0f2f815a7494c933070606b5c68e84f96e11374e07c59a64d61"
+    },
+    {
+      "path": "vite-inject-mocker-entry.js",
+      "sha256": "18a919bdf53737f6c23e1674706c243294dcfc4388b92e01567da094a5043622"
+    },
+    {
+      "path": "assets/a11y-jT8WejjA.js",
+      "sha256": "bd65311ede880331c7cddce70a2fb80d1ad43903cb85100d73584d4b78ba1de6"
+    },
+    {
+      "path": "assets/axe-DD4Zf965.js",
+      "sha256": "836f7235a091d0902e8fc3ccd4c084706a9570810abfd8e583ec811fea6adfe6"
+    },
+    {
+      "path": "assets/button-book-BxSEdStM.svg",
+      "sha256": "dc0802036c2e32b4f42f7a723587729276c276fe62e44f131dcbf98de2a7f901"
+    },
+    {
+      "path": "assets/button-family.stories-MJZpqpyX.js",
+      "sha256": "6fcd33fc2f635f11a2ff44a2c9a80de4e3199654bab04e062eb4bae9c74881fe"
+    },
+    {
+      "path": "assets/card-gecco-Badd_dk5.svg",
+      "sha256": "ba6c98fa24a8ae533e788838fff60e40ab4d6c37f6cf86b8086f1474d2a3b4b7"
+    },
+    {
+      "path": "assets/chunk-242VQQM5-bHL6qIJq.js",
+      "sha256": "e01922a7116f4c1d202a02ac1a9917448890f7e71813c1dddb8688f6bb96fcd5"
+    },
+    {
+      "path": "assets/chunk-7PIQR4A3-BGgO7bU4.js",
+      "sha256": "1f85d0d7f20707896eb259543327446b3c989b5b23142547ca0b0c7fb835b170"
+    },
+    {
+      "path": "assets/chunk-DRQKCCAG-DK5bqSyv.js",
+      "sha256": "d103c7a250bd1c42c3a3f480f06cb1524f3631fc44146fd63b9c8dfb408685e3"
+    },
+    {
+      "path": "assets/chunk-IMSF75WX-CGYlPTyG.js",
+      "sha256": "125c04a28abc1947106740a7737f7ee06f4f930ec4036578348aa26b18f7363a"
+    },
+    {
+      "path": "assets/chunk-QQBDHPVZ-DC5n6Pix.js",
+      "sha256": "234df40d951571c6dccfad6b3700b9cc61d5414f9adb5ed411f8c64960406384"
+    },
+    {
+      "path": "assets/chunk-W22LQPXL-CI_wnYj3.js",
+      "sha256": "6b416903dc8e6d32d11341ac95c6a1112bc07c08dc57cfe7179f421f539baddb"
+    },
+    {
+      "path": "assets/Color-6AOWCN3U-cwGynZhn.js",
+      "sha256": "03ffa1e9fa18a724a51ee609940c7066278194b3b7ca2e1b04ba670de39c43c5"
+    },
+    {
+      "path": "assets/components-Dbq71Bsq.js",
+      "sha256": "c0a70a20b4db0d6861d04346af237a659f6e906ddb9b74c76980daad1beba747"
+    },
+    {
+      "path": "assets/content-search-DskvGGH5.js",
+      "sha256": "bc6bc2f415ee90864c509bb7fb9a6ca4c0b3671e44f97e99345f7164abbfc305"
+    },
+    {
+      "path": "assets/content-search.stories-ldoN_Vux.js",
+      "sha256": "9a70bd9c34720ba4924ad463f9f14c3554a2b349db75e00f7a105590c37efecf"
+    },
+    {
+      "path": "assets/design-actions-B9mf0fxL.css",
+      "sha256": "444e64ed8e4bd04001038f275eef0f9f00ca2beb48ff7e714cebaf9f7f1f1aa4"
+    },
+    {
+      "path": "assets/design-actions-DGvFSTsA.js",
+      "sha256": "300ce86b626c276ff6287041b4e0abd04ab6059aed799f2c368328e8df1b39b4"
+    },
+    {
+      "path": "assets/design-actions.stories-D7EqzAdL.js",
+      "sha256": "134971eb7e55212022543838da2107b4c6e3b54fcbc96d87f44d708ef9d5fc47"
+    },
+    {
+      "path": "assets/DocsRenderer-JROSPFPF-DfsfHION.js",
+      "sha256": "91a3eca7969abb995d6d31c7661001c3f721f3ad3f6fe3d7b49ca9e410a876f4"
+    },
+    {
+      "path": "assets/document-pager-DG2423eS.css",
+      "sha256": "2b1f429ab00d523441ba1926db1726e3b4c69677d05e7ff227324e20e74c8023"
+    },
+    {
+      "path": "assets/document-pager-DouESoyk.js",
+      "sha256": "296cbbd734b6828d5922bbfc1b82b88a685ecb741f1db5f43cf4f0f871934445"
+    },
+    {
+      "path": "assets/document-pager.stories-IDbCmoSJ.js",
+      "sha256": "103030a9197274bfc419be8de766fe97d4815c3acd96416541893a0a23d0c1ad"
+    },
+    {
+      "path": "assets/family-gallery-B3NN7fJo.css",
+      "sha256": "10a8c890c7f5eff72ca152929a3d0cbca85a4ef8a42e569000fe4a787193b791"
+    },
+    {
+      "path": "assets/family-gallery-CB8_ZxJO.js",
+      "sha256": "cc845c3e0d8f717cd5d34ca204c5214b6a9469140f9d2fd5e28cc5e2c128817f"
+    },
+    {
+      "path": "assets/faq-list-_iJFuStx.css",
+      "sha256": "9548cf3f405546e313a3975775a61069548fd46b7370d621fc252db565589b6d"
+    },
+    {
+      "path": "assets/faq-list.stories--cuKG5Yg.js",
+      "sha256": "17e0973683917e7cd2981d520d93846c784354c9e096fa9478835653d84262ea"
+    },
+    {
+      "path": "assets/formatter-L2YTDE3Q-DN1-qIqF.js",
+      "sha256": "eeb9a3530d2d204113cb3bc7b5ebff1017000e560f9bbd7f09b124e85d5231aa"
+    },
+    {
+      "path": "assets/foundation-batch-accessibility.stories-BNUSdlVK.js",
+      "sha256": "c9ff9aa431ad457433b5b16910d37382bff487b351bced4bac97bfefb8d87c27"
+    },
+    {
+      "path": "assets/general-banner-Bd1wFJza.css",
+      "sha256": "8b1218e63fb265051eb99abf103173465edaeeda865c0a3fd45d0d05dfa0c22f"
+    },
+    {
+      "path": "assets/general-banner.stories-cXcE6hdI.js",
+      "sha256": "fea2fcda3edf3b1b2f28e9c767f37d3078fe3a41512baaa3c4b86cea22a0f638"
+    },
+    {
+      "path": "assets/icon-text-cards-D2FpOv59.css",
+      "sha256": "8e3316652b24c401880057dc6f0fdaac3c7a05765291636209403073ccdd6039"
+    },
+    {
+      "path": "assets/icon-text-cards.stories-DSFIMKzx.js",
+      "sha256": "eb070ab96806c4d52d90f15dfb04d4d52c1178b956cb0f146a38e146e6044c3c"
+    },
+    {
+      "path": "assets/iframe-FCS9fkaM.css",
+      "sha256": "b9eeb6def6c81096ec07916893d44e10c1f94706f821c99aa3f55f12950e972a"
+    },
+    {
+      "path": "assets/iframe-j0JrT6Je.js",
+      "sha256": "ca39fc99b76e1d3f721692848178e4239ebeb9ca05f74e0150bcddbefc9513e1"
+    },
+    {
+      "path": "assets/iframe-T3CUGyN-.js",
+      "sha256": "88ce80452681cfb1a373689b493f05c1004dad3ea50e10eb4e38fa9a8871ffe4"
+    },
+    {
+      "path": "assets/input-family.stories-C2ldsWVT.js",
+      "sha256": "3a5225b77cf96db34d248875f6172b20e297ce357d7dd5541cd10014d4f313bd"
+    },
+    {
+      "path": "assets/jsx-runtime-DeHZSEgm.js",
+      "sha256": "060f692f6a2dc7e8574c63fa9297b89e505e453f427a07057760958f50ac458d"
+    },
+    {
+      "path": "assets/latest-updates-DL6jFFyR.css",
+      "sha256": "bcaf0939cec9ffe87a4df152b77db8a00c3ca792f3db0ea6de73db132074258c"
+    },
+    {
+      "path": "assets/latest-updates.stories-BaRi7ZNX.js",
+      "sha256": "fa770900a68012786e03ebaeafe13c3df429cad151baaaec18509922311a9893"
+    },
+    {
+      "path": "assets/learning-links-Dvloz9DV.css",
+      "sha256": "ea4ef9d432e0dc83b7aa9081430696f2839dc3a7fb173844cae900ab63aa9d4b"
+    },
+    {
+      "path": "assets/learning-links.stories-DscknxME.js",
+      "sha256": "e7073ad2c5e98da3c2721df28d7b624d35e3ae8d134b0232ea3e54bdac09cd1c"
+    },
+    {
+      "path": "assets/navigation-reference.stories-DwRYjuHW.js",
+      "sha256": "7b08488cf6a37653f896b5ed9d9eaf82f7a87ad0b5745f695fb39b5e5ff6f4c6"
+    },
+    {
+      "path": "assets/new-source-accessibility.stories-tWpR2-BS.js",
+      "sha256": "e7e14414fb9a73b41f8b53d2db92d890ddc7969a9fd33abc23611c3ca071fc02"
+    },
+    {
+      "path": "assets/original-table.stories-3raMNjro.js",
+      "sha256": "f3fa9b87273dbb9984b28aa6d8556f009324530d6619f0008428821249943b5d"
+    },
+    {
+      "path": "assets/palette.stories-Sv3a8PZL.js",
+      "sha256": "431521b1eb03c3b325b5f6e5b0c6e2982bedd70a05f2c7f29575c3e406bd9706"
+    },
+    {
+      "path": "assets/portal-asset-CmchV5wO.js",
+      "sha256": "131e9f60518d3c88c61258b6ae787de9b5971e205882a5f22379dfcd09929b0a"
+    },
+    {
+      "path": "assets/preload-helper-s6jzklqy.js",
+      "sha256": "3f27b1d4db93293d9b83932cade2f14882951bfffce47a4c1d48ff1214b3f82e"
+    },
+    {
+      "path": "assets/process-flow-DUP_2Buh.css",
+      "sha256": "f9ddff4cd5ce80e7e073ec268939f4777e302eb8e373786efe88f5525e678728"
+    },
+    {
+      "path": "assets/process-flow.stories-MhcygwIa.js",
+      "sha256": "292d9b023d48667a6cfa0f9fc7f3c3ce55d70666ce34b5be5d22a30467910322"
+    },
+    {
+      "path": "assets/process-steps-DyDJjKUc.css",
+      "sha256": "20da0f80d5b0df2f2655a4584c70baad6a3c727ff04f0f1517737202d084d256"
+    },
+    {
+      "path": "assets/process-steps.stories-CAiUp8-n.js",
+      "sha256": "df16124be07b1bdc1d80aaf719e6015f8b87bb7647f0a2f69a926c50fd6527a7"
+    },
+    {
+      "path": "assets/product-2026-advantages-ix7GL9ZF.css",
+      "sha256": "aee968cef5a9b5f28bb382744818d868fdd5d5106df87714daf58c6349be4b5c"
+    },
+    {
+      "path": "assets/product-2026-advantages.stories-BBvVDIXr.js",
+      "sha256": "d6fbc5d27e8e9406df364f6bc0d52eca10269b9718ddb6a1019c5bea4d511c8c"
+    },
+    {
+      "path": "assets/product-2026-agents-CvvexoF5.css",
+      "sha256": "9c4de2d0bcde6274ff990ae125eca0d16f78bae45aadfb74fcc312be1d1a1c7f"
+    },
+    {
+      "path": "assets/product-2026-agents-DGTUWLEQ.js",
+      "sha256": "f352a3228748a7143537be4232fa9efa71405f8a965b66a5ee3267ffe54d332c"
+    },
+    {
+      "path": "assets/product-2026-agents.stories-CgOuzL_s.js",
+      "sha256": "492f8f37fd831aa53d432f30ae49de89db02d31a69da77aa9f896db1b1c2005a"
+    },
+    {
+      "path": "assets/product-2026-assistant-WixgVoFH.css",
+      "sha256": "8e7c93b0a25f260c1cbf3e7d2982888e5bb9bfc6188ca8ac7661b427454de2c7"
+    },
+    {
+      "path": "assets/product-2026-assistant.stories-_xw5B046.js",
+      "sha256": "db563a64999bb63a6906adc74a4f20d477fcf69a01b7f5355015facea11c4188"
+    },
+    {
+      "path": "assets/product-2026-banner-DxyU6Mh7.css",
+      "sha256": "64d8a0e5900379f5044802d31d10d458af48aa046df55adabdb5cfbba403ec89"
+    },
+    {
+      "path": "assets/product-2026-banner.stories-B2aaU4xt.js",
+      "sha256": "8235ffa26645a56b61e3547c981323b3e008ac1479f18b7b321eb91a562ead52"
+    },
+    {
+      "path": "assets/product-2026-cases-DptlaP5Q.css",
+      "sha256": "6f1a2b5639be9ecdd69639e4fb999c58dac761d2ae9948a8f4d63bee98894f24"
+    },
+    {
+      "path": "assets/product-2026-cases.stories-CO-wiX7S.js",
+      "sha256": "64d14257ae151dbd7c574f9959c018280af4133f5e00e92393ebd8a02c58419d"
+    },
+    {
+      "path": "assets/product-2026-commands-DWTmMky2.js",
+      "sha256": "089e93a3b1dda233e92ec43f00f568a6a24783c8372da7c38f97ac5c25e3df0a"
+    },
+    {
+      "path": "assets/product-2026-commands-idpmdU9f.css",
+      "sha256": "81712e975bac54559c80be9c3c5f0ed5a908d4fc2b60f479bd6ecca3e057e7e3"
+    },
+    {
+      "path": "assets/product-2026-commands.stories-C1nSnaDF.js",
+      "sha256": "bd61ec929769adc85ee2bd5e6d123358b72aedf2af4c4631cc692a7e08eab4e6"
+    },
+    {
+      "path": "assets/product-2026-demo-C95-VD81.css",
+      "sha256": "2710bef49b9c0aa97c46cf8f3aa8db4a91a04249ac89ef81e6cc321b00f825e8"
+    },
+    {
+      "path": "assets/product-2026-demo-CmzqRzN-.js",
+      "sha256": "7a9b7eb14f1ff1e56beff02b7ed12c5c5ea45560eb5fb96c8dbd8fb304c1b61f"
+    },
+    {
+      "path": "assets/product-2026-demo.stories-j_Dq8gwd.js",
+      "sha256": "8a6172895a3ed74f7773d6fc4fd774b980e9e1babb8718b59e0411b4cb34bf6a"
+    },
+    {
+      "path": "assets/product-2026-faq-fy_D4WSy.css",
+      "sha256": "9d0a40a6c70622b0afdce62ee6dd9e2632178179c3f0380842fad8d41decb5ad"
+    },
+    {
+      "path": "assets/product-2026-faq.stories-CpQnbsrZ.js",
+      "sha256": "22c185387ca563adad1c7316468a700c982c7d8baa84315b45dcda57fa3a8497"
+    },
+    {
+      "path": "assets/product-2026-floor-frame-438Ke1H3.css",
+      "sha256": "81cecc3789dc8eef2c1f3b9fd3f588392f6d773ff0c56e773f084bb08263dea5"
+    },
+    {
+      "path": "assets/product-2026-floor-frame.stories-Dn_lTwVH.js",
+      "sha256": "55e86c3a6317a03c520066fa8701a4bd81cbbe92d675728ed3d731b01ce6610c"
+    },
+    {
+      "path": "assets/product-2026-folded-HaBJo42X.css",
+      "sha256": "8bd4cb78ce58c796159022e98e025154f7ae8fbfce3d2ca08341b95d1fe8c8e4"
+    },
+    {
+      "path": "assets/product-2026-folded.stories-COyRba_i.js",
+      "sha256": "d18b6ee1cbf55df117b835545d096baf34d928c4e286640ffa8acb6632d55e69"
+    },
+    {
+      "path": "assets/product-2026-hover-Cwx95jGr.css",
+      "sha256": "cc78fcc448c8962b608c878cc09e808a96fdff0384ef3746b47255382aa99940"
+    },
+    {
+      "path": "assets/product-2026-hover.stories-C7i9H7x3.js",
+      "sha256": "84a7da565312812092c8b1f22590b6476b079ba84013cbbf01fa214d5012728d"
+    },
+    {
+      "path": "assets/product-2026-models-DNdzCFP7.css",
+      "sha256": "95c08db684ac74be026e21dc04af40fbfc22e1de635daaabbad7ecf2bf71ce07"
+    },
+    {
+      "path": "assets/product-2026-models.stories-DA6_42v-.js",
+      "sha256": "73902621286a881ab7ebacb10b8e0cb7d33693466e1dcc5fc9623e1088fc799e"
+    },
+    {
+      "path": "assets/product-2026-navigation-CcJ0PV8H.css",
+      "sha256": "f33c13fbd03348fbf97531d43d22582302b3a3ac596bdcab28807c74df43313f"
+    },
+    {
+      "path": "assets/product-2026-navigation-CY55WnAm.js",
+      "sha256": "adc1aab191c58c0fd285f5059665f758bc3f8a4c8f180f64e3c9b1da4bccacea"
+    },
+    {
+      "path": "assets/product-2026-navigation.stories-D1dvKvzC.js",
+      "sha256": "d74056329f7ee2eddccf095ce5eaf4f22f8a88c2166ba4cdb5c3d5b3d6b0d804"
+    },
+    {
+      "path": "assets/product-2026-news-BHDhozbm.css",
+      "sha256": "62a7b680a47073ab18952059effd2741ad7ff9dd9945aae90971de0847719572"
+    },
+    {
+      "path": "assets/product-2026-news.stories-vF8qZIa_.js",
+      "sha256": "4e2876b9274804eb5f25e9330d8c63ef7a5733cf0457bb0137f13a1b5745bd36"
+    },
+    {
+      "path": "assets/product-2026-next-B26-IcYG.css",
+      "sha256": "28a85be33246856ab9f3aaa8dfed5a912981eb416e75c27a62b9484b136fb8c0"
+    },
+    {
+      "path": "assets/product-2026-next.stories-CdeNqiX1.js",
+      "sha256": "71323835e82941fda6065ab2c05db52c217031b5f63bd0232d6815619b302a82"
+    },
+    {
+      "path": "assets/product-2026-packages-d1JAaOJx.css",
+      "sha256": "3eb26ca3ea25d0469928a598c6f07e240e2a914868f7e2dc6deadc30dc000eab"
+    },
+    {
+      "path": "assets/product-2026-packages.stories-C84tBo9B.js",
+      "sha256": "e2a15be0acb95347d3f510aa808bfd68761d6ed530f52de0b52b815024dbbd6f"
+    },
+    {
+      "path": "assets/product-2026-pricing-D0Ct-Ymf.css",
+      "sha256": "4456d5bf4baabc926a68d04ca25246428180104826a947f876db79182097abba"
+    },
+    {
+      "path": "assets/product-2026-pricing.stories-leHl1tY5.js",
+      "sha256": "2551092383388f643b5601e7831e1837aed77eb83add27b562b42f8ddd198ce6"
+    },
+    {
+      "path": "assets/product-2026-scenarios-BgMMcyAb.css",
+      "sha256": "714080230020f4a1bc179ca4ba06a549211656f3fd66fe327dbd90dd2bb4c268"
+    },
+    {
+      "path": "assets/product-2026-scenarios.stories-BRbUw-JV.js",
+      "sha256": "bf8c47dff50f885933c29554e00ad7fd44548f2347853ef528ee0e9f58083a0a"
+    },
+    {
+      "path": "assets/product-2026-scene-carousel-C2_Ffjgn.css",
+      "sha256": "63a8a1f10772b8bc2ba72705f13b2b7593b4910fc51665f2efe51957af8c9f61"
+    },
+    {
+      "path": "assets/product-2026-scene-carousel.stories-DHUO5oz_.js",
+      "sha256": "2b8aeee353733f31c09088c6ac77a3503e7b48f616dfb19140d070cf56243dec"
+    },
+    {
+      "path": "assets/product-2026-split-DJ9X4Ejr.css",
+      "sha256": "d51f6fcbfae1225fff1d3d3b5f133fc3cc8545001f754d2ff3eb7b2629d32824"
+    },
+    {
+      "path": "assets/product-2026-split.stories-DtVNV5Rp.js",
+      "sha256": "f3f71287f3fc1705274aa6409a45e1f7ea7cda62e83499b6088fb5ff5c4aaa22"
+    },
+    {
+      "path": "assets/product-2026-tabs-Du1Xgol7.js",
+      "sha256": "77157a907e2e0280d9d8f669b2aa75e4d24fec3b888669b0f190e5e3bae4fbd7"
+    },
+    {
+      "path": "assets/product-2026-tabs-KFlX0CdY.css",
+      "sha256": "dae8f53090f38455f8c3839b3f1039b729ceea53c5305a09c4dd9cf3d80d917d"
+    },
+    {
+      "path": "assets/product-2026-tabs.stories-BbAFbml9.js",
+      "sha256": "818ddd2842c75d054af1ced2b1f22803edc47957e6b64015e8c3c56702e9d3d6"
+    },
+    {
+      "path": "assets/product-2026-video-gPNLZnaV.js",
+      "sha256": "2bd6b42664f34a16458d2abac544887f9ffb2f06159fa8fd649e2ee6cf9d94e5"
+    },
+    {
+      "path": "assets/product-2026-video-qPp24r9s.css",
+      "sha256": "21b0f51902f21702d927eea07c037e1fddfc022ffe1d0bf28401d62294cf7701"
+    },
+    {
+      "path": "assets/product-2026-video.stories-BmJG-Tuv.js",
+      "sha256": "a41ed9e778fb76b3fcb2f28a8bd00aef18706f3eb19b434895f78fd3c40947d6"
+    },
+    {
+      "path": "assets/product-2026-wide-BCvu1tWq.css",
+      "sha256": "001ceb9fe1725e90c9437476d62129f961c9cdd7519c4c5e102eead70e9a4abb"
+    },
+    {
+      "path": "assets/product-2026-wide.stories-jCcBjoVj.js",
+      "sha256": "b488d57e6b89d84d1cc65f2a880ca5255e4e8a0f926327183fb768ae4ffff16c"
+    },
+    {
+      "path": "assets/product-v1-anchor-DoCpfVL2.css",
+      "sha256": "1b68df2986b2fe2009fb670fa603d6b1d6911f8a61db11337d28499ba4fbb7bc"
+    },
+    {
+      "path": "assets/product-v1-anchor.stories-Co9QywkS.js",
+      "sha256": "b9310023fb3e8687d86142ee4340b7489c76bf84f30f0e33ccdd8e63ffc95b7d"
+    },
+    {
+      "path": "assets/product-v1-catalog-kOLeHuA9.css",
+      "sha256": "29724e8de19b0d9cb19635364050c26a0428154bd49a7693339cfc00ed60c617"
+    },
+    {
+      "path": "assets/product-v1-catalog.stories-Bpqw51n3.js",
+      "sha256": "a256d413efe4b27b9f4d89218926ee0a77a8743dbe57c212539f9500b13c4349"
+    },
+    {
+      "path": "assets/product-v1-navigation-CLyCXNF5.css",
+      "sha256": "23c886472e8d18cdd1348030b44be26c81a7bfcbec1c9e3bcc64ef13a29bcdc4"
+    },
+    {
+      "path": "assets/product-v1-navigation.stories-TQdwWMTy.js",
+      "sha256": "bda7b5c9e107f607c815911ca14dbbeeb8536254c433342f16cbf41f40c83c3e"
+    },
+    {
+      "path": "assets/product-v1-tabs-BhNd4hUN.css",
+      "sha256": "c81c3c580f7fb2a3498e533772fb77955c0152f6893a0bf41835042dba37b3db"
+    },
+    {
+      "path": "assets/product-v1-tabs.stories-DbgSurq2.js",
+      "sha256": "161c444e4297929d229e75725ca6f4533eee7fe83a638f4f507fd1fe281fd0f7"
+    },
+    {
+      "path": "assets/react-18-D71d8VhY.js",
+      "sha256": "dcc03d75f1efdcdae43eb99117bac09ce5c555458794b4fd4aecbb620e030bd8"
+    },
+    {
+      "path": "assets/react-BMDCz6zn.js",
+      "sha256": "787fffe6883d2b8e7c582a7fd6be390ad9c4e90c0a3e81cdc8a9efd25348fe87"
+    },
+    {
+      "path": "assets/react-dom-BG0qonvJ.js",
+      "sha256": "8303cc606c1355cc1196b43dc0abb832998b56b68f93b150da4fb3854e7fa070"
+    },
+    {
+      "path": "assets/recommended-docs-D88mDIO0.css",
+      "sha256": "152dbd29dfa16ffa1a235863494abc5755d7bb75fa932cc856b58212bec1e1ce"
+    },
+    {
+      "path": "assets/recommended-docs.stories-qipV0tAY.js",
+      "sha256": "313bed51f78a8a4ff929bd0af9fdae9873cc3b1718dc9f2ba25adf2fe1bc368d"
+    },
+    {
+      "path": "assets/rolldown-runtime-DkW27tQK.js",
+      "sha256": "4625e101449061a5fae04634001143ffaba4e22a6141f1f77ed6d342b4e9db4e"
+    },
+    {
+      "path": "assets/scene-media-DacBntaG.css",
+      "sha256": "9f1fd7691a02d74148d6059678109e56291c39bb42098010ea9ca17dc2f55d10"
+    },
+    {
+      "path": "assets/scene-media.stories-Bx8VNUhF.js",
+      "sha256": "493ed0a2b17d405daefe742f522771067dcb79eb74f65ee8af6a138215bf4037"
+    },
+    {
+      "path": "assets/search-input-CQ4oTNHI.js",
+      "sha256": "c500a5f397f974e2d18cf6df1aa3505f69d69acbb8a202290d1744e48796c70d"
+    },
+    {
+      "path": "assets/search-input-DSxaR66K.css",
+      "sha256": "7cfd76ec68acfa76833a3b2e60bc7cf9dc19c7e062f1fa29f8509ba44ec33a17"
+    },
+    {
+      "path": "assets/search-input.stories-kFyGa4FX.js",
+      "sha256": "4a87b687a5c1e48ba3d9ebfed163fd1cfec3f5e7bfa1d7316236674885cb23d0"
+    },
+    {
+      "path": "assets/source-anchor-CDqawfgN.js",
+      "sha256": "8c87627434de1cdee1e0d3a59bba3c6cb43295f30bad481de15d20bf8780da65"
+    },
+    {
+      "path": "assets/source-anchor-zZLlH0dD.css",
+      "sha256": "f92913a58c1adb30bd60149148a9845c6787d380d62d2bf255c8ba639c1eb166"
+    },
+    {
+      "path": "assets/source-anchor.stories-fRm8_3J1.js",
+      "sha256": "be1f6849b6410428394736f9d33904cdf5d52d7b46f70d9c446956ee922e359f"
+    },
+    {
+      "path": "assets/source-breadcrumb-DcANDitB.css",
+      "sha256": "a22f99dbff81f64897aea25dd413e43fc31c21741fc42e0a4d9055af28e1cf9e"
+    },
+    {
+      "path": "assets/source-breadcrumb-DWV-FjBF.js",
+      "sha256": "e4b7bacb9c834841400f5768ef51a46ee585cb00c35fdbe5e45eb43b869c1811"
+    },
+    {
+      "path": "assets/source-breadcrumb.stories-Ip7XL8ul.js",
+      "sha256": "7effd8fffe3bca928b4a8d6e14032aa8b8af0e8ce1537f7eb1f0548430243fc9"
+    },
+    {
+      "path": "assets/source-button-BgSSUrdx.js",
+      "sha256": "2adb6adbf4f96efae3bb9df2413a76adb515be5048193320f03082f29ea4001c"
+    },
+    {
+      "path": "assets/source-button-CyesFE6g.css",
+      "sha256": "c8886cefb852ce42ae46cf29cc7d4c5dc370251a4d409bbf8ccbdeca62523566"
+    },
+    {
+      "path": "assets/source-button.stories-CH0OBKg-.js",
+      "sha256": "eef55d8d5a5616f7c2f5c9596f983838d30ce86140c7481842cc0a9a49d86140"
+    },
+    {
+      "path": "assets/source-card-C2S1j9WA.css",
+      "sha256": "9d8a9235ec124fd3511fa70d6b8d8ca93ced367d839fcf08797b029ca3b0b85a"
+    },
+    {
+      "path": "assets/source-card-Cc5wwP4L.js",
+      "sha256": "858b46c30cfa1d76994c5387bc9b639ed04b61e6fdb98a0cde096a1fef80c1a5"
+    },
+    {
+      "path": "assets/source-card.stories-BmpqiCfv.js",
+      "sha256": "51ca723d2f8f47e8ff9e86beb0868f473afa3e36117ae192e1dc0b9234d1a797"
+    },
+    {
+      "path": "assets/source-choice-BN0oecWA.css",
+      "sha256": "7920334a3803ace41ed20527f4a2dd9d9eb2bc5939b45e4553338f9efd1a433f"
+    },
+    {
+      "path": "assets/source-choice-c7lsMWXz.js",
+      "sha256": "eb5c855a26e291a5478113ca0e7dd46ebef698c4489b214c92a32b299632ed53"
+    },
+    {
+      "path": "assets/source-choice.stories-DKeDGt4R.js",
+      "sha256": "3a7e7fe785db80e9d1a9d53327d209be5732e47c904730866a259b3730723d29"
+    },
+    {
+      "path": "assets/source-collapse-BWZev7eF.js",
+      "sha256": "795c390c26cae779f5c9c08e25193b8d50aff2d0186756017ef4846abf64806d"
+    },
+    {
+      "path": "assets/source-collapse-D0X6VqIP.css",
+      "sha256": "f8be9fe9ea2d6a82375dff57de0822ac4158a506d1aa2969d0c0ff3ca2e687e1"
+    },
+    {
+      "path": "assets/source-collapse.stories-BqqTWTgK.js",
+      "sha256": "872fd65e757e585e0daa344115a1263164d762f54cfa933f9fba3da8a2517296"
+    },
+    {
+      "path": "assets/source-countdown-BvvBkM1O.css",
+      "sha256": "30eec0c18e1942425b68d2646b51d7dfa476f0404c1fd0eadd2adaeb04810d3e"
+    },
+    {
+      "path": "assets/source-countdown-CFRGXDtT.js",
+      "sha256": "251f77af5588bafeaec788c3c774d79895abf42cf5c5e6932c983eccad83b653"
+    },
+    {
+      "path": "assets/source-countdown.stories-C-IUzX3_.js",
+      "sha256": "4e0c0592055b420b00fd25689f1ab01d0dbd3b3307f3b5175bcffa0a44a2ce92"
+    },
+    {
+      "path": "assets/source-fixed-table-BkuK8xrR.css",
+      "sha256": "bc3a279bfc56226973f1e33156f1d70bfb39a9a1b7d459765d323aa7401bfa91"
+    },
+    {
+      "path": "assets/source-fixed-table-DozLU7Yj.js",
+      "sha256": "62258c315c82bc8fa7fdabb8b786ddcba1dc75affcc28c33a02585ca7d6de714"
+    },
+    {
+      "path": "assets/source-fixed-table.stories-BTrn6cKb.js",
+      "sha256": "4cf879bda33ebfacfaa057e1d6f2b51cebd6997ebfa04a1e544b69b44f6d0262"
+    },
+    {
+      "path": "assets/source-img-viewer-Bx0nJEwH.css",
+      "sha256": "4d58b6dfacbba6eddb7294e1733b33efc051b7d281780b3457cabd1e75e0ad94"
+    },
+    {
+      "path": "assets/source-img-viewer-CQ5KCdPz.js",
+      "sha256": "25212acceedc0176b270fd3da958d6da08e356f334167b2f77effdf1e237e305"
+    },
+    {
+      "path": "assets/source-img-viewer.stories-Bw92Mzpf.js",
+      "sha256": "0c0e865711c9c2573ae4d4e524e39dd524fbf76b3255cf67014375a770723455"
+    },
+    {
+      "path": "assets/source-label-ChRjNpSD.css",
+      "sha256": "e54881a4b781155553b83bacc07f6b7f6c063772338e54bceee11c45508a94e2"
+    },
+    {
+      "path": "assets/source-label-eobiArwA.js",
+      "sha256": "cc02a33a7429e1aa08c46170681290cc7e54c651142bfb696c8e908b4463e966"
+    },
+    {
+      "path": "assets/source-label.stories-BC5DGKCe.js",
+      "sha256": "65d506b9ab1e82985ca33b6988f3f2aa86a339ddc014879d880c370f0dc28d8e"
+    },
+    {
+      "path": "assets/source-link-CnEVpkz9.css",
+      "sha256": "8b1eaa5f22ac0ad371d8bec8e1c4e279a18d4fbae80c0003fb8599c96d60ae01"
+    },
+    {
+      "path": "assets/source-link-Keh9vTo1.js",
+      "sha256": "1fb9ad299a297c308ba5f062696659314a885716d4d4704642ed52f37986e191"
+    },
+    {
+      "path": "assets/source-link.stories-D2-ak-2j.js",
+      "sha256": "e34d07fcc543ee93905da6c5ff094707fb8bb9fdade7b70e74ce502b3d2d3fdf"
+    },
+    {
+      "path": "assets/source-modal-lbD_019Z.css",
+      "sha256": "fd2d1bed0179511cb4eb9aa5819ae42e7afba454a08c71c207f74b0dd9fe6e11"
+    },
+    {
+      "path": "assets/source-modal.stories-DybnaRbX.js",
+      "sha256": "947b7d04d452272330d4b320a9b5abea96862a5a86a1027979925bfa216b4b29"
+    },
+    {
+      "path": "assets/source-pagination-BiInHQPU.css",
+      "sha256": "fbd924732f5d5ef7394f9d7d4117395ef9f1847c60c7de4901974add428239b4"
+    },
+    {
+      "path": "assets/source-pagination-MKkjV4Ov.js",
+      "sha256": "f66d5ed43e2080c3ec97d884c74afc97d613abecbae44692c94138e09f2ae450"
+    },
+    {
+      "path": "assets/source-pagination.stories-CNBKBPIy.js",
+      "sha256": "1adc28bb1a02d0df666c81103db077a0297941adb45a27df356cc1471e71b5c8"
+    },
+    {
+      "path": "assets/source-price-BAftKZmD.css",
+      "sha256": "42c29b2ad1d710982dc60935afaaa9da9c9c4a516bc78f56f95035d2b53dfee5"
+    },
+    {
+      "path": "assets/source-price-DLgS3eDd.js",
+      "sha256": "3dc137afd7299905b20b437bc72f496a3b53e1f4bf3b613c111c1be6619e5331"
+    },
+    {
+      "path": "assets/source-price.stories-BhNHsyS4.js",
+      "sha256": "ce98c35644b9b481c135581bce887387a3a35b2aad0cd802d9323541a8413709"
+    },
+    {
+      "path": "assets/source-rate-BMZqWeg4.css",
+      "sha256": "5be4f23e188294a7f08104a195389d82cd180a5dfc34865649674291f050c1b3"
+    },
+    {
+      "path": "assets/source-rate-B_zW5aa2.js",
+      "sha256": "e8c3f2ae5fdda104471defaea23db0584ed3f4b14f94c617a47a57fe6a3c3cf4"
+    },
+    {
+      "path": "assets/source-rate.stories-lUbuJvS9.js",
+      "sha256": "8099a47f3006ab012f13fec7259fb63a0eb1d45e608fe94371e9841f3f9e7879"
+    },
+    {
+      "path": "assets/source-reference.stories-BDJ4bMbc.js",
+      "sha256": "0ac5a6730577ea77532d9b53f1dfa3b11ae2847fea89aa9022874749825a4c85"
+    },
+    {
+      "path": "assets/source-reference.stories-Bxt6ZxWv.js",
+      "sha256": "1eea6405dd83b5b435e8b07e3650d75efcfacd7ae87628276757850103b93631"
+    },
+    {
+      "path": "assets/source-scrollbar-BG0S999Q.js",
+      "sha256": "1c5c4c91564fc745f4e8861497b53beda67bab4aa5adee2b03ab21bd5e8046c1"
+    },
+    {
+      "path": "assets/source-scrollbar.stories-CCCmrP_m.js",
+      "sha256": "7c918ac9b530b432fef2c344d966eef903964942b715290515316442b37fd661"
+    },
+    {
+      "path": "assets/source-select-BBL8JOJC.js",
+      "sha256": "14d6731924c4c654bf70d9444b6a564884191702c9c7eeeb35e8e66f40b3444a"
+    },
+    {
+      "path": "assets/source-select-DpMrN8hV.css",
+      "sha256": "b0f5267151d53815a6da038b658a5030767c6159606d9799d6932f7b9256c4c2"
+    },
+    {
+      "path": "assets/source-select.stories-DZoeszfD.js",
+      "sha256": "06c010226c9b6eb93316b42e8ce3de1a360a401523dedb2b878db578fc1cc64a"
+    },
+    {
+      "path": "assets/source-service-table-D5CMR8ZZ.js",
+      "sha256": "24fec58923315a770cf5c1387c0a9a7f2581b9f24410836e132f09642f45d1bc"
+    },
+    {
+      "path": "assets/source-service-table.stories-DzRFF1z3.js",
+      "sha256": "22e917fb5ebef2aae6969c5a5677426e6069191050b285eef4c35a6e300b8f99"
+    },
+    {
+      "path": "assets/source-tabs-CCS-JhDm.js",
+      "sha256": "dd446be08925c08aac84c73917b190001973c9da4198171531db4496a120f61e"
+    },
+    {
+      "path": "assets/source-tabs-DGURRfs5.css",
+      "sha256": "9e6c0817d7404f1c284ff56b998f35ad0e8ca5a54405439836940179133772fb"
+    },
+    {
+      "path": "assets/source-tabs.stories-BHwKX7-d.js",
+      "sha256": "a36121a69e87c3b7836ef539fbc5206f394a11dfb00ee1bfe0b75e0ae94f99e3"
+    },
+    {
+      "path": "assets/source-tips-BSTPes9s.js",
+      "sha256": "adfdc45eb403e090a5737109aa87bccaee5847c6f9b2bf99c9546fe9f181dc0d"
+    },
+    {
+      "path": "assets/source-tips-Cztem14u.css",
+      "sha256": "2e573a29793752e185f68db30293947b935ad7810b87e5b39816a3c53ed9ff98"
+    },
+    {
+      "path": "assets/source-tips.stories-Cdp9qw3H.js",
+      "sha256": "1724a6a4db9d757b2376d1988ba638c01045bb914ed914b9a24eea29718481ad"
+    },
+    {
+      "path": "assets/syntaxhighlighter-4REYKNEV-DthySK1H.js",
+      "sha256": "5e3d6f5c75f6613e86a6205a515115c156000ae765c7a93ba02771d87511b055"
+    },
+    {
+      "path": "assets/theming-SMkKmD-q.js",
+      "sha256": "9ec8a4bab88a8ab6fc1c0e6b8c6cc6f416fd5998a78ecc53f0b7c2d649ee3e41"
+    },
+    {
+      "path": "assets/website-grid-COJla7F2.js",
+      "sha256": "cc845c3e0d8f717cd5d34ca204c5214b6a9469140f9d2fd5e28cc5e2c128817f"
+    },
+    {
+      "path": "assets/website-grid-ihhVb29N.css",
+      "sha256": "b94d3391f3d89aa097c3043668814adabf8b048c4d893792002f4835a5076049"
+    },
+    {
+      "path": "assets/WithTooltip-CDUNV5IS-Ds0nKkaT.js",
+      "sha256": "b4a481e1739f57a6aa5b8384fd3bfe6684f78d5f9a93f019a43efa5bcb0cb7cf"
+    },
+    {
+      "path": "assets/Workspace.stories-JVKuM-sc.js",
+      "sha256": "18a0560a9a5e8f0832de2f39af9b2d9ffa5f6f64bffe1c7cd00abf6b0db751af"
+    },
+    {
+      "path": "sb-common-assets/favicon-wrapper.svg",
+      "sha256": "5311f921255509431fc978cd04fd497ae54c46cfd97b3578dc53d7f652667a71"
+    },
+    {
+      "path": "sb-common-assets/favicon.svg",
+      "sha256": "3a13ac7344753df5a7cd5b41a67e33966c1ae723f1e5e5128a6ed1bca1adc85a"
+    },
+    {
+      "path": "sb-common-assets/nunito-sans-bold-italic.woff2",
+      "sha256": "36aadf15d24dfa97c0446c9ca713b9d004f0f5674d1043b2b51c75105962cab9"
+    },
+    {
+      "path": "sb-common-assets/nunito-sans-bold.woff2",
+      "sha256": "6bccbfaa70688e0348109160e90c771587866c21717bfd3adec38ea606362cf8"
+    },
+    {
+      "path": "sb-common-assets/nunito-sans-italic.woff2",
+      "sha256": "992f331636deda09193ac0453c274ac3fb7e66f70af98e1cbff119a7384f09ae"
+    },
+    {
+      "path": "sb-common-assets/nunito-sans-regular.woff2",
+      "sha256": "49fe05ec477bb0f2f815a7494c933070606b5c68e84f96e11374e07c59a64d61"
+    },
+    {
+      "path": "sb-manager/globals-runtime.js",
+      "sha256": "c5763feededc9130466d5b2622877734021840c3ff4c6b2943575eb8f36fe999"
+    },
+    {
+      "path": "sb-manager/globals.js",
+      "sha256": "1db2f93c2487a0fe36b08c00b42fceb62378211016751d61eccbd19ead014d8c"
+    },
+    {
+      "path": "sb-manager/manager-stores.js",
+      "sha256": "7c1a133375036edc00df3e4e825659443a6de7af38ceebf5a38a5cc5ffdaa0f4"
+    },
+    {
+      "path": "sb-manager/runtime.js",
+      "sha256": "8d484f54377ba49292387546a32873ac524e2e2b1a7367e9933d7c4cf5a56748"
+    },
+    {
+      "path": "sb-addons/docs-1/manager-bundle.js",
+      "sha256": "db87c450fec8fb4281f29049f0440b209d5e6bea26d12bc5904a871115c30eeb"
+    },
+    {
+      "path": "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js",
+      "sha256": "9fedb4a07df3d4273cd34239ce55db7794fca6dff65d80d8bf7715782805b27a"
+    }
+  ],
+  "nonRuntimeDifference": [
+    "project.json"
+  ],
+  "inputs": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "sha256": "ef80265255d6f3f3c7d76b6a33dc2396ca605cb2676ccbb0ee249e8b77c19240"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "sha256": "3fa6a3889fa8cd5d55cddf382c6de578ef0a83a842972639cf6896bc8bb58e46"
+    },
+    {
+      "path": "src/styles/composed-page.css",
+      "sha256": "f9a8690ffc691cf0afdb090422469320017cb359b37c9cf8afb42d86dd60702c"
+    },
+    {
+      "path": "src/styles/document-pager.css",
+      "sha256": "cd9d0b407b6592a8e1c8554adfe8ae70801f50fca2814185c5ba785838259286"
+    },
+    {
+      "path": "src/styles/faq-list.css",
+      "sha256": "118fab4643061244ff0e990440c6d6ea1a88d17a27f3912fe56c6676560661af"
+    },
+    {
+      "path": "src/styles/foundation-graphic.css",
+      "sha256": "aedeef48519580e79876b2e0c0b2ccf3138373325f2c7f02e6f9908dd36dfec3"
+    },
+    {
+      "path": "src/styles/general-banner.css",
+      "sha256": "47a360f05f818d788a9ee203ebc9fb67aeed93fb77c26c73654c8749a43153df"
+    },
+    {
+      "path": "src/styles/icon-text-cards.css",
+      "sha256": "ab5e7160cf4701a5517c945e525ccf3491009f9145451f44838f2dd56bf2f73f"
+    },
+    {
+      "path": "src/styles/latest-updates.css",
+      "sha256": "6b3199d388e40384b2de29e1f422e80abb068c3156b2a4ca9b9c4f6ccb89aec5"
+    },
+    {
+      "path": "src/styles/learning-links.css",
+      "sha256": "21804f590beae3934a14382e556c987eb8c752a622c8a1408167089f7da7c20e"
+    },
+    {
+      "path": "src/styles/portal-adapter.css",
+      "sha256": "8aaaf4585db5264331cd04665d1df1852ae6656a175000e8c42537aaee3609cd"
+    },
+    {
+      "path": "src/styles/portal-grid-decision.css",
+      "sha256": "7a5cdabd144ba31aaafd996bcb3a16e15e0d5fbb34d7256f3a24eab128fb167c"
+    },
+    {
+      "path": "src/styles/portalui-offline.css",
+      "sha256": "af640b4d5683fcb25c4464bfa7735010502e56bf06750706538b85449b6700ce"
+    },
+    {
+      "path": "src/styles/portalui-source-3.0.17.css",
+      "sha256": "aa3d79f24e30903fb2e96446ca44bd7f775f8f7499878ac51ef6536515ee481b"
+    },
+    {
+      "path": "src/styles/process-flow.css",
+      "sha256": "7bc212486a231d608e85962b269c1e482e4a01c67a6a67a36a3fd131b65bf28f"
+    },
+    {
+      "path": "src/styles/process-steps.css",
+      "sha256": "57291e115e0657f7f78b0b2e59bba63287596a504a8ddd83c1bcec529a40ae9d"
+    },
+    {
+      "path": "src/styles/product-2026-advantages.css",
+      "sha256": "d6480c3b2fde6c573b94b4f77ef396f0b2d250799a919e587f3f064f871e9cd0"
+    },
+    {
+      "path": "src/styles/product-2026-agents.css",
+      "sha256": "fdca30c846243f3e855d98178a8afe72609a72987d955a045d6a6e6588914041"
+    },
+    {
+      "path": "src/styles/product-2026-assistant.css",
+      "sha256": "50f1af709f15b7661aa5e1ac3f4974b2c4eb215e82e4adff1e47802d1157acf5"
+    },
+    {
+      "path": "src/styles/product-2026-banner.css",
+      "sha256": "107544cd6993db0c430420c58567b362278ccbd11d1708610ab987c153c5a4d9"
+    },
+    {
+      "path": "src/styles/product-2026-cases.css",
+      "sha256": "9460b52c662b88d797bc1d9dcc1267748d1760dbef865f608ca9499ce4e0197b"
+    },
+    {
+      "path": "src/styles/product-2026-commands.css",
+      "sha256": "b1e01895079259bf9295662b7b5c99be87444c4ae49e241dbb5188b149838c04"
+    },
+    {
+      "path": "src/styles/product-2026-demo.css",
+      "sha256": "7881fecf69fff2d0a6e9fb67f8c5843c39ad0049adecd7d27a5b010ecbde3ec1"
+    },
+    {
+      "path": "src/styles/product-2026-faq.css",
+      "sha256": "97fa18f26d1b9079d6555ec851e6451f9e16f8839de490d6a30baca1a62f1f95"
+    },
+    {
+      "path": "src/styles/product-2026-floor-frame.css",
+      "sha256": "33c081e8aeb185ba5584499ec59b60fd8e58125a3e77b099dfd7f1d41a105a3d"
+    },
+    {
+      "path": "src/styles/product-2026-folded.css",
+      "sha256": "08e744fd2b01a23ec769aaf84cf103f853949031d3386c0f807b6a10611c37b9"
+    },
+    {
+      "path": "src/styles/product-2026-hover.css",
+      "sha256": "d74f30501bf736610458767160b665c38332753c081f8f11006ea65f2a914b83"
+    },
+    {
+      "path": "src/styles/product-2026-models.css",
+      "sha256": "420f59bd98d652b264c71ce0b4b1c3e48217875eb7a0cdd078b7988eb09597cd"
+    },
+    {
+      "path": "src/styles/product-2026-navigation.css",
+      "sha256": "c35921e9254bccb4313a855c074b6de1beb53e5ff72426c300b0df783d0f5fb5"
+    },
+    {
+      "path": "src/styles/product-2026-news.css",
+      "sha256": "120edf050bf346fa1083552456df697ff9c95494a3ab82c4801d9731c2827f10"
+    },
+    {
+      "path": "src/styles/product-2026-next.css",
+      "sha256": "5aca2cf02f3a7e4f7cf9d5bf62d581a6b79461e30c81084f23dda5c3b9a6f26f"
+    },
+    {
+      "path": "src/styles/product-2026-packages.css",
+      "sha256": "ac5ab4cb63bc330ce19fd7c167df528ba6c1c6247e98cd0a6356e5ebdf4ad145"
+    },
+    {
+      "path": "src/styles/product-2026-pricing.css",
+      "sha256": "aed66bfe1d7713bc719a37dc6ebe7075e2a5017465c9171248ea0dac8c6fe587"
+    },
+    {
+      "path": "src/styles/product-2026-scenarios.css",
+      "sha256": "75029a9e1f6370a05a7f36c0cc3078387d86298416ee6cb7d7fa975ecded31eb"
+    },
+    {
+      "path": "src/styles/product-2026-scene-carousel.css",
+      "sha256": "b13e6a5e18b8a20dd4f97378717506044bd5a777d74ca78658f2bb04875c1d8e"
+    },
+    {
+      "path": "src/styles/product-2026-split.css",
+      "sha256": "0f5ec1412d707f742922eb9be40a67f67d64908d3169698fcd9c16b1acbc8aa7"
+    },
+    {
+      "path": "src/styles/product-2026-tabs.css",
+      "sha256": "04419bfc43ea4357d7f78f0ab1acdcf0e86a58d05a5873bdbbbeb82604140d52"
+    },
+    {
+      "path": "src/styles/product-2026-video.css",
+      "sha256": "84b68f8b7231b535d389ffc799f9fff64c1099da687e349d032bbcc360b3b427"
+    },
+    {
+      "path": "src/styles/product-2026-wide.css",
+      "sha256": "3cf237d4e5416a8f657d9603474971719c889d735f051fb95b63e7f0ec39f532"
+    },
+    {
+      "path": "src/styles/product-v1-activities.css",
+      "sha256": "ecbd42ebbefee6d714050d9decb04df4818f1b672bbebff2c558add696e08ae1"
+    },
+    {
+      "path": "src/styles/product-v1-advantages.css",
+      "sha256": "a83fbeb626b304e6a636efd51987a2b1e51b3a8216b7cbffb933805b2eaeee7d"
+    },
+    {
+      "path": "src/styles/product-v1-ai-architecture.css",
+      "sha256": "b6c2237b8a4a38429439feb3794cf305e6033d26ce1f25f7ae4e74fac33abd80"
+    },
+    {
+      "path": "src/styles/product-v1-anchor.css",
+      "sha256": "8113901ff4fa16d3eef4076c9ccbe331df3521ef1e8bdf69d33e2a2c6585a29e"
+    },
+    {
+      "path": "src/styles/product-v1-architecture.css",
+      "sha256": "c21b620a2271e7ea3b1ab25c522318b542be9761adee74f9598f02be514b69a0"
+    },
+    {
+      "path": "src/styles/product-v1-benefits.css",
+      "sha256": "57d0e25ada656fac99d2bcb5a7af33da07975bd72a34145438b443e428f36251"
+    },
+    {
+      "path": "src/styles/product-v1-cards.css",
+      "sha256": "2328ade1d10ec3e95e98bba80e126b1c3b7ef30a433b68a6ca91772d211eeb0c"
+    },
+    {
+      "path": "src/styles/product-v1-cases.css",
+      "sha256": "fed920db96893a10e1e4dce845fc71704426dfa2f159ac52cb7cb73281b941c2"
+    },
+    {
+      "path": "src/styles/product-v1-catalog.css",
+      "sha256": "038edc36cb8e6272e36250665dba8b468eb94cac504a2b75361ec55f9a9b8c03"
+    },
+    {
+      "path": "src/styles/product-v1-contact.css",
+      "sha256": "161cfa32f4c097a2d87ac80bd036e672b8d566f835cad9ef9061244c21ce7a71"
+    },
+    {
+      "path": "src/styles/product-v1-editorial.css",
+      "sha256": "ec1a940533ff22b92bb82d38313d059e1a852db30b4d7a7cafb653a872a572a5"
+    },
+    {
+      "path": "src/styles/product-v1-elevator.css",
+      "sha256": "edd87dd8e419df2f0d536b2f8f44eae2c4bd711abb23e7d495bb7391c2ee8a1f"
+    },
+    {
+      "path": "src/styles/product-v1-filters.css",
+      "sha256": "5a6b670d4d7dc84e816a8d549d797d085bfd25602c484bebfd10bf963e1953aa"
+    },
+    {
+      "path": "src/styles/product-v1-folded.css",
+      "sha256": "d99529a48383cccbdfc3e4b126bf21868b62bb7378d57ae4edbe082b7ec2dcd5"
+    },
+    {
+      "path": "src/styles/product-v1-information.css",
+      "sha256": "54b99485eef38e3d2470983b5b1a59777dec1197c588930c5ea73fa1121c920d"
+    },
+    {
+      "path": "src/styles/product-v1-live-preview.css",
+      "sha256": "aa159fa0aff7316332efc2d9c8002309f1389bb0f81ca5551e69cfb103f496cb"
+    },
+    {
+      "path": "src/styles/product-v1-live.css",
+      "sha256": "9a3d8c0baa0224946a1189243da3d4f355d81b43e81814e4ccec49b8b1f6abd6"
+    },
+    {
+      "path": "src/styles/product-v1-logos.css",
+      "sha256": "cb9ddd5c85e74376684be37b5f610604164bf232afc4303c99cb4b335d9745ff"
+    },
+    {
+      "path": "src/styles/product-v1-mosaic.css",
+      "sha256": "932339d77e43fff8b70167e2df3a6017f889fb8a2a7edc5d86f779a47fc9f247"
+    },
+    {
+      "path": "src/styles/product-v1-navigation.css",
+      "sha256": "3a25beff0be85bfa4be23302a78ba7889db41efa8de9384d2927916bbc3b0d7b"
+    },
+    {
+      "path": "src/styles/product-v1-news-list.css",
+      "sha256": "e5dc465ee85c25965d2349c2e591937dea8d19614c97ac32f1d35ed97136bfcb"
+    },
+    {
+      "path": "src/styles/product-v1-photo-wall.css",
+      "sha256": "a5b18e02ee75737696fe1328cb0228c4ea24d7779e71ecbe06280a09c8cb0e67"
+    },
+    {
+      "path": "src/styles/product-v1-publications.css",
+      "sha256": "1ff7550977e2047498c7ec96b88ac286a864061c41abca0e344eab71e7991b54"
+    },
+    {
+      "path": "src/styles/product-v1-quote.css",
+      "sha256": "79b8d13640d7d177bf1f0f1c6911c03c7a4b99e7a22cd2434ddaa6818d3a31c8"
+    },
+    {
+      "path": "src/styles/product-v1-sessions.css",
+      "sha256": "7c888e693a5ec48072cc969725a37cc0b06264b334c1a44443b64314090d1444"
+    },
+    {
+      "path": "src/styles/product-v1-solutions.css",
+      "sha256": "11700081b397673ad5321b9e7b7113738833150bf64685393b3724c93d6e8e91"
+    },
+    {
+      "path": "src/styles/product-v1-speakers.css",
+      "sha256": "1c204bceed165dc66d77ac58e5a294c16453bd8894b032cc66cb3515d71b2aad"
+    },
+    {
+      "path": "src/styles/product-v1-tabs.css",
+      "sha256": "74ca707a32bd1615d4c51308e6022332c3cce4be9a8927a1b5aae18aa8ad9658"
+    },
+    {
+      "path": "src/styles/recommended-docs.css",
+      "sha256": "7e6ab16403e3bae136b5d21141281a96a0043427727bbadfb83dd158d08bd9ec"
+    },
+    {
+      "path": "src/styles/scene-media.css",
+      "sha256": "b6dbd0405ffd61d6cf5466649fde616a3b7c13bfc96358f65e32ed965aad4697"
+    },
+    {
+      "path": "src/styles/source-anchor.css",
+      "sha256": "c3ae58d21c0ee9ffe3f2048ff804101e1c36243157b3426d735587beb277a8e3"
+    },
+    {
+      "path": "src/styles/source-breadcrumb.css",
+      "sha256": "91d7aa45e87f47afb907d3f4bae52c616bc28cb675ce7a7a6d6fd3daaa10e99d"
+    },
+    {
+      "path": "src/styles/source-button.css",
+      "sha256": "9e10f752d9cb1f156ef5cab577966e305ffdee110c200390c7998cddc7be4db4"
+    },
+    {
+      "path": "src/styles/source-card.css",
+      "sha256": "24f8ccd9b7940dbd436a06b249246dc581c1944cc800b8e9b4e2c033ada26002"
+    },
+    {
+      "path": "src/styles/source-choice.css",
+      "sha256": "b6f7dfe6b41636a7748666e90b2ca8084d228679634688ba774374dac12f03ea"
+    },
+    {
+      "path": "src/styles/source-collapse.css",
+      "sha256": "13efc81db9a58cc36a2de7c0bea5c78f295b4f45b2d33fba84cc9cd714e98039"
+    },
+    {
+      "path": "src/styles/source-countdown.css",
+      "sha256": "cbceda4ab270e58776132d36ac1b211ef4ce07c23996c74b0a58d25a442aacb7"
+    },
+    {
+      "path": "src/styles/source-design-actions.css",
+      "sha256": "84c8450b8e45ed5ff115133b5c3a323e0371b38aadd61663c8540bc5165b0268"
+    },
+    {
+      "path": "src/styles/source-fixed-table.css",
+      "sha256": "1d823772897969ee82127a4d4640c5601bfb4dd1bc2e75bad4d7d732904d7e0c"
+    },
+    {
+      "path": "src/styles/source-icon-fonts.css",
+      "sha256": "f19e3d9bd6156f2f0ba5fb8ccb9a83d19c0cfbeb8f943fe5bfb0202b1f6fb9b7"
+    },
+    {
+      "path": "src/styles/source-img-viewer.css",
+      "sha256": "dea631c331999e865c2d69d99ad6072f9605a40f86aaf0375c233fbae3f294c2"
+    },
+    {
+      "path": "src/styles/source-label.css",
+      "sha256": "24b0ab1d9d056d8abf552f2865137a30d953906691f69d3c29c17abc9ce6164c"
+    },
+    {
+      "path": "src/styles/source-link.css",
+      "sha256": "983fb9a9fe44d3208305601c1caebf26c2e81f1042b685f3bb3069f22eaaca75"
+    },
+    {
+      "path": "src/styles/source-pagination.css",
+      "sha256": "27bf94e9bacc6d184b40686e5084a6c8c710bd2670706ab8106796bb133f841d"
+    },
+    {
+      "path": "src/styles/source-price.css",
+      "sha256": "7b74e61de96ca14d76c7a44c20577336ca0941a01feab106af45bde4f9f4f41d"
+    },
+    {
+      "path": "src/styles/source-rate.css",
+      "sha256": "241347019bb4297fd1eff22ca1d276fa29dae9d0e8c02d30388241c5974ada06"
+    },
+    {
+      "path": "src/styles/source-select.css",
+      "sha256": "c4df212fdef3d9091724931d00e5364d305081c2677ddc88edba549b31ec72e5"
+    },
+    {
+      "path": "src/styles/source-service-table.css",
+      "sha256": "f7534f9c7a43f8fcd1832c4d94d8aa8a666094f979ade278052fbccf7f3e6cf5"
+    },
+    {
+      "path": "src/styles/source-tabs.css",
+      "sha256": "c6b7aee5fb6593bfb14bac732d33f42a9604dc844e943b0e210668c2146b6299"
+    },
+    {
+      "path": "src/styles/source-tips.css",
+      "sha256": "cd18f35a37e9cc6f45cc2658c22ea69c3c9ec095da6513ec4d86615b305f2865"
+    },
+    {
+      "path": "src/styles/tokens.css",
+      "sha256": "226ff534979c63bc935221e5c80ccd6dd10ce30c35e939c9a1bfc2a666afd8ff"
+    },
+    {
+      "path": "src/styles/website-grid.css",
+      "sha256": "6c196e0b606db2f55a288fcc16272279220710a6206c2006f3b92650aac0bbae"
+    },
+    {
+      "path": "src/styles/website-palette.css",
+      "sha256": "113d3232b281ec1fa3795e484fcd3e18c0a998294c66d0adb87c2b4052490934"
+    },
+    {
+      "path": "assets/search-workspace/src/components/content-search/content-search.stories.tsx",
+      "sha256": "cfdf91b4d53c9f288c78033ba48dfb245122cd99a0592b1dc3cee3434d391da9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/content-search/content-search.tsx",
+      "sha256": "1fb19fe1d35af2bb481f118eb9f93752302444225ca261e1e217a53a42e50ec8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/content-search/index.ts",
+      "sha256": "6935c0ce1ec01c0531b87e7213cdb11da0bfeca0cbef2d8a5b3aff4c111f79e6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/document-pager/document-pager.css",
+      "sha256": "cd9d0b407b6592a8e1c8554adfe8ae70801f50fca2814185c5ba785838259286"
+    },
+    {
+      "path": "assets/search-workspace/src/components/document-pager/document-pager.stories.tsx",
+      "sha256": "5d1c5c35196a9591234dfe3f4d43ea9792b52059bca3da6a4c7daebd26168ade"
+    },
+    {
+      "path": "assets/search-workspace/src/components/document-pager/document-pager.tsx",
+      "sha256": "0c21dd84579a9b8978074f31fdaf0efd4a2de49c2138cd9ffd852f296c196988"
+    },
+    {
+      "path": "assets/search-workspace/src/components/document-pager/index.ts",
+      "sha256": "df4a2b5de164c2367c2fb2c63ea7329d4abb9c4a2a371c1d0513efe435c8cc44"
+    },
+    {
+      "path": "assets/search-workspace/src/components/faq-list/faq-list.css",
+      "sha256": "118fab4643061244ff0e990440c6d6ea1a88d17a27f3912fe56c6676560661af"
+    },
+    {
+      "path": "assets/search-workspace/src/components/faq-list/faq-list.stories.tsx",
+      "sha256": "6d42c1febdaa4bb307d5b5e4ac3c7eb06d953c0e37124d31d5b1db681eddabb8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/faq-list/faq-list.tsx",
+      "sha256": "8d714a29c6acd66b1091f02324c544d2aeb4edc4d4dc99b4964f7db5aa790309"
+    },
+    {
+      "path": "assets/search-workspace/src/components/faq-list/index.ts",
+      "sha256": "3d79c21db83c21f1b0da7e0e8a902f3be9f1dee6cda6d49468a47422175563bd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/foundation-graphic/foundation-graphic.css",
+      "sha256": "aedeef48519580e79876b2e0c0b2ccf3138373325f2c7f02e6f9908dd36dfec3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/foundation-graphic/foundation-graphic.tsx",
+      "sha256": "3977fa4361cf340321f64727785e8f8eddfed5229178bd518db42175efb088d4"
+    },
+    {
+      "path": "assets/search-workspace/src/components/foundation-graphic/index.ts",
+      "sha256": "d506cfde97927c81f66f7e214eb8df261d17b5ccbf54a074ded27e01b988b245"
+    },
+    {
+      "path": "assets/search-workspace/src/components/general-banner/general-banner.css",
+      "sha256": "47a360f05f818d788a9ee203ebc9fb67aeed93fb77c26c73654c8749a43153df"
+    },
+    {
+      "path": "assets/search-workspace/src/components/general-banner/general-banner.stories.tsx",
+      "sha256": "ab4c78d1d225141a8a50e15e12944d44f7e8e67beabe901769c40d97191a63e0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/general-banner/general-banner.tsx",
+      "sha256": "a7e55f3ac337db764b946b622501fafc6f39533cc796e6e1fbcaeac4a832a224"
+    },
+    {
+      "path": "assets/search-workspace/src/components/general-banner/index.ts",
+      "sha256": "e6a7c7af2fbd2cd83f5fc72bc0591604cde1ffec9dfa1930caf6fe923fcef072"
+    },
+    {
+      "path": "assets/search-workspace/src/components/icon-text-cards/icon-text-cards.css",
+      "sha256": "ab5e7160cf4701a5517c945e525ccf3491009f9145451f44838f2dd56bf2f73f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/icon-text-cards/icon-text-cards.stories.tsx",
+      "sha256": "c18f93c6de9b6ea93431af87c2aadb705cc4dab9f3c8f2040389f75414e7d063"
+    },
+    {
+      "path": "assets/search-workspace/src/components/icon-text-cards/icon-text-cards.tsx",
+      "sha256": "333753c059512d05cbc44ffec1d58203b26db2a27d2d71b91019f15f485a6959"
+    },
+    {
+      "path": "assets/search-workspace/src/components/icon-text-cards/index.ts",
+      "sha256": "b2e9627083b73124ddec3747c49a234fe945dc74a2b2dacc6073f98ff8060b2f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/latest-updates/index.ts",
+      "sha256": "adf6f96faab5888540444c66b3a73ebdf0310fe793dc9caac0fa37f925679ca2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/latest-updates/latest-updates.css",
+      "sha256": "6b3199d388e40384b2de29e1f422e80abb068c3156b2a4ca9b9c4f6ccb89aec5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/latest-updates/latest-updates.stories.tsx",
+      "sha256": "d22eda5f54a5405e02fa8055f742013588a20cb5ee605e0fd03de47a321a9734"
+    },
+    {
+      "path": "assets/search-workspace/src/components/latest-updates/latest-updates.tsx",
+      "sha256": "24c7cc4ce8a1457ab8a5b179dc92a13972b0e9ac267c557d3162a66da5def1fb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/learning-links/index.ts",
+      "sha256": "6679f64176829c0f2a0e0dc01d7690d9f45c3321ead1184baa3ae90cd9e1262a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/learning-links/learning-links.css",
+      "sha256": "21804f590beae3934a14382e556c987eb8c752a622c8a1408167089f7da7c20e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/learning-links/learning-links.stories.tsx",
+      "sha256": "28b5b6ec929d5bd157e5d6c36336de8376be308e888619ee83a7e8edf2079d72"
+    },
+    {
+      "path": "assets/search-workspace/src/components/learning-links/learning-links.tsx",
+      "sha256": "222f6b6129e9e769783b5ea1e2d1739265f76a812dd859bf0c02c172db726b2e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/portal-asset/index.ts",
+      "sha256": "0749a2efbfdabaad02e9a559442e12646986402fd526882f46d8ff2f4e67a0db"
+    },
+    {
+      "path": "assets/search-workspace/src/components/portal-asset/portal-asset.tsx",
+      "sha256": "dcd7e0f77bf01e7a3b98528f085641c615a01083ea147c59cd73370aca977621"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-flow/index.ts",
+      "sha256": "e24a3b4d5bc975efd98eec9be72fb9bd692f0a86d2c9af0c3d112ee1dc0f14c1"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-flow/process-flow.css",
+      "sha256": "7bc212486a231d608e85962b269c1e482e4a01c67a6a67a36a3fd131b65bf28f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-flow/process-flow.stories.tsx",
+      "sha256": "49684a69dade2493f5fe59d10fff2fe5a19b7eff79a8449e5781816118cb4e51"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-flow/process-flow.tsx",
+      "sha256": "47c0802711e02555fbb7eff1fc07223cdafe3688c36ded12898e6e2b3ab5d621"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-steps/index.ts",
+      "sha256": "30505f600d9a1d63a79402500992133c193995ba6d56b070b10df338cef4219f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-steps/process-steps.css",
+      "sha256": "57291e115e0657f7f78b0b2e59bba63287596a504a8ddd83c1bcec529a40ae9d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-steps/process-steps.stories.tsx",
+      "sha256": "22bad7a4a46a06b76232f4d571d3b4df69704d80eb790079a313f610e97b3b92"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-steps/process-steps.tsx",
+      "sha256": "dbaee6506c6a53f6cdcf0b05f88c440e7e7d309cf8bf40fdd636284f2954147a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/process-steps/step-assets.tsx",
+      "sha256": "21688397d4bceb38cc058b5f7f209503a1b5b37d80351a76856f82dc3bc7146c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-advantages/index.ts",
+      "sha256": "b2bd9783ec3175e64d6b7cbb25576b4c024cbb0fd3c4f7b679a3ef857d097e29"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-advantages/product-2026-advantages.css",
+      "sha256": "d6480c3b2fde6c573b94b4f77ef396f0b2d250799a919e587f3f064f871e9cd0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-advantages/product-2026-advantages.stories.tsx",
+      "sha256": "b2c1220f0d10fb900005b17b57530267af670aa9961fe77dcc34b506abeef702"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-advantages/product-2026-advantages.tsx",
+      "sha256": "8e765db6e5e1c62017bfdd2e5554c67a7cbbf90cba14a5c50891fb94f0e603c0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-agents/index.ts",
+      "sha256": "9bcf6255b4ddd46f2ac2f96654ce1beb3045be4b3c519c147325bff78b6c3ed4"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-agents/product-2026-agents.css",
+      "sha256": "fdca30c846243f3e855d98178a8afe72609a72987d955a045d6a6e6588914041"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-agents/product-2026-agents.stories.tsx",
+      "sha256": "c5c3cd9b1d8a8f4093ae73b97f02eb4fa0cf8fe00a5aa6fd6ad3e72290975e61"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-agents/product-2026-agents.tsx",
+      "sha256": "1b4049dbb6566ccdcb7de5d3c22bfb8521b30da90ce2fe59481184ac7aee7d26"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/index.ts",
+      "sha256": "6e661b2fff58f8712004c886026790e5fac0363af009be883ad2dd4f927adfd3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.css",
+      "sha256": "50f1af709f15b7661aa5e1ac3f4974b2c4eb215e82e4adff1e47802d1157acf5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.stories.tsx",
+      "sha256": "bfbda61739c8795f1e0e2d800e0707e168d8d6a7bf0e20fca1ef98baacffcd85"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.tsx",
+      "sha256": "0ee81ea3dc2145b6481599f48690c206ae24f3ab4ac07e2b4f8f2d42e489224b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-banner/index.ts",
+      "sha256": "07e75848f98f2b313fd9de551e27b9ee2f9695d618e080392566004d443d7d40"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-banner/product-2026-banner.css",
+      "sha256": "107544cd6993db0c430420c58567b362278ccbd11d1708610ab987c153c5a4d9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-banner/product-2026-banner.stories.tsx",
+      "sha256": "1c139a9b82ca9a34b1ec616a77226225aabbff4417d89787cee106cdd42f7221"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-banner/product-2026-banner.tsx",
+      "sha256": "9d61f693dfe81a8cfbc69002cf7ebcb136e2375afc6cc49e3fbbcad685e45c93"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-cases/index.ts",
+      "sha256": "5ac5086944b1f1da3c916752379c5038b8d55f2e08e928e2222db4d7b8286649"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-cases/product-2026-cases.css",
+      "sha256": "9460b52c662b88d797bc1d9dcc1267748d1760dbef865f608ca9499ce4e0197b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-cases/product-2026-cases.stories.tsx",
+      "sha256": "5730ac87e8eb0d138adfbf90803a244e11217e6c36d75d9f30e2036842d32df9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-cases/product-2026-cases.tsx",
+      "sha256": "b7515c602df98d9e664a649419e3d859a991915e5b40f57c7b579e0c6a258551"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-commands/index.ts",
+      "sha256": "b8ddc4e74c3c0f489dd498e08cad5c94979ae46588a903d9b8c8030f6a9d50f2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-commands/product-2026-commands.css",
+      "sha256": "b1e01895079259bf9295662b7b5c99be87444c4ae49e241dbb5188b149838c04"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-commands/product-2026-commands.stories.tsx",
+      "sha256": "040c83ea28f7d38d09f33eaca1b4928982d488b1d76941d5461a1b6e8c913573"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-commands/product-2026-commands.tsx",
+      "sha256": "61b25fd2181b11fdfcdc8d9bb143a9a419d8baf29512f15d7dc0627640bca004"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-demo/index.ts",
+      "sha256": "0fb741ecde4b48b5fc614ace30a8bb592e1ef47af74c1b276ce39391f77cd203"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-demo/product-2026-demo.css",
+      "sha256": "7881fecf69fff2d0a6e9fb67f8c5843c39ad0049adecd7d27a5b010ecbde3ec1"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-demo/product-2026-demo.stories.tsx",
+      "sha256": "7ae5df02dae82b11f603cc69da41de83d999b1caf0ca492c1aba81981a5e5d92"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-demo/product-2026-demo.tsx",
+      "sha256": "059de0d124d9c0b584fdec26e152d682717ff399e13f61e4444a5a5640d6f690"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-faq/index.ts",
+      "sha256": "eede5f866fbe8ba2684f6c00299a09586d3f9b49eda78165d8c802ec87f7b04d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-faq/product-2026-faq.css",
+      "sha256": "97fa18f26d1b9079d6555ec851e6451f9e16f8839de490d6a30baca1a62f1f95"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-faq/product-2026-faq.stories.tsx",
+      "sha256": "31b1b50cdbb58bc54c7f6c1ac1a42832ccfad6e88f7336ce56e6b2b4c4e99914"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-faq/product-2026-faq.tsx",
+      "sha256": "888b2c6351dfd60d6b65e2d893eb54006e805a7fa95063badea0fbbecb7e514b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-floor-frame/index.ts",
+      "sha256": "85fd7601f8275f1287532f761b6c202c3b666ba296ccc83e7004870e1193448e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-floor-frame/product-2026-floor-frame.css",
+      "sha256": "33c081e8aeb185ba5584499ec59b60fd8e58125a3e77b099dfd7f1d41a105a3d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-floor-frame/product-2026-floor-frame.stories.tsx",
+      "sha256": "34bdb30a2f2ad5b35f49658e70b7a3c4358d2fbf5da89c76c880b4eb73d7cc63"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-floor-frame/product-2026-floor-frame.tsx",
+      "sha256": "1f43b2dadab2040852f25a0184db65a5d4706fa2b8fe3d922e7a19da7965765b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-folded/index.ts",
+      "sha256": "d842e1335591b056cad0a711bce2bcf201f251df776d0d9defe4d46e4d042821"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-folded/product-2026-folded.css",
+      "sha256": "08e744fd2b01a23ec769aaf84cf103f853949031d3386c0f807b6a10611c37b9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-folded/product-2026-folded.stories.tsx",
+      "sha256": "bb56b9a28c1f605df42c6a5cc918ed4ed9bbd77f5e78a0c9ab21eedb84e31762"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-folded/product-2026-folded.tsx",
+      "sha256": "a7c86a75e79994cf47d4b5f50e85d80563ea5e62c563ec6a96f214f34a86a5a0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/index.ts",
+      "sha256": "ebc3dafa015e855f66e6108ff8b6a10d50a72ff082b5793e84f39b7b3d147fbd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.css",
+      "sha256": "d74f30501bf736610458767160b665c38332753c081f8f11006ea65f2a914b83"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.stories.tsx",
+      "sha256": "27cd05be5e42a49e23484213f974fdaded6a6cd1dbc4b93dca9ea1c6fc32e415"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.tsx",
+      "sha256": "f3305004f4801b0889475469170dd67b7690c6cb3e44e400cfb479b4a564d5b9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/index.ts",
+      "sha256": "9407a4f9508a11a66c3fe7f2decd5f7d938f1303bc74a6ba41125b26b36bd083"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.css",
+      "sha256": "420f59bd98d652b264c71ce0b4b1c3e48217875eb7a0cdd078b7988eb09597cd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.stories.tsx",
+      "sha256": "57c5c4b9004e9feeefc94487da136fe3151b4ccd4568a9bb06115a610f9fcdc4"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.tsx",
+      "sha256": "1c32be97d4533a712d38a1d5c510e694bda4f05f9a48a93a3f975b7153cc541c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-navigation/index.ts",
+      "sha256": "c5f3c3b6945fb69a7d52f3257e7edfaf388fc99b6a84e17c68bffdb960769fad"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-navigation/product-2026-navigation.css",
+      "sha256": "c35921e9254bccb4313a855c074b6de1beb53e5ff72426c300b0df783d0f5fb5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-navigation/product-2026-navigation.stories.tsx",
+      "sha256": "cb50669e0ac66f487feb55e988452b5ac50dee910739c031dfc0509ab573bb7d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-navigation/product-2026-navigation.tsx",
+      "sha256": "10960fd81e44972b8024d69efe12bd9ecc63fbdcadeea21d093f414dfec48258"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-news/index.ts",
+      "sha256": "cf1483f82ae4f8b8c9cbf31614327764475a5d1f32c97508d4a8bc7c56c81469"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-news/product-2026-news.css",
+      "sha256": "120edf050bf346fa1083552456df697ff9c95494a3ab82c4801d9731c2827f10"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-news/product-2026-news.stories.tsx",
+      "sha256": "01951115585904077d9d1d3a71ea991581ff77055d38e456c845344902a23148"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-news/product-2026-news.tsx",
+      "sha256": "07cf23a0af9902094f88eaaf52dd7090cb3c6bc4c3db81ec5f9fa364a27a7998"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/index.ts",
+      "sha256": "f454ea632d47d69a86077ad02a5716a52cf38c527ba3284c64adcf923e6ecb1e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.css",
+      "sha256": "5aca2cf02f3a7e4f7cf9d5bf62d581a6b79461e30c81084f23dda5c3b9a6f26f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.stories.tsx",
+      "sha256": "b198c2e14f2ec1de74e310cc7102fdf3029e14c11ccc2bf03caaf069fc34d8a0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.tsx",
+      "sha256": "7d423b04a156d7aeb39bc6cccad2219439e19c3a31cd35ef896e3323ed7c6533"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-packages/index.ts",
+      "sha256": "7603c7e96bf01a5315fe0de2b2d6b6570d5fbdd5b1d46554d67c1eca5f25a42e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-packages/product-2026-packages.css",
+      "sha256": "ac5ab4cb63bc330ce19fd7c167df528ba6c1c6247e98cd0a6356e5ebdf4ad145"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-packages/product-2026-packages.stories.tsx",
+      "sha256": "360970d63cdbd400148e60092fa83695740fe2d285bcec560f39ad2bca25cae2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-packages/product-2026-packages.tsx",
+      "sha256": "131d1afc8f116db59b7d7f00cccb3f837e0a6dc11df3325c95c4024dd167935f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-pricing/index.ts",
+      "sha256": "80a0c6d9a281cf1d19ede526c8850a5be4adcd1dd7be5a7ac1674aa0a2d0d4c3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-pricing/product-2026-pricing.css",
+      "sha256": "aed66bfe1d7713bc719a37dc6ebe7075e2a5017465c9171248ea0dac8c6fe587"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-pricing/product-2026-pricing.stories.tsx",
+      "sha256": "767656b999bb1a195f5981a799f0381c904035aaa0e7ca62943e800a6e786aee"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-pricing/product-2026-pricing.tsx",
+      "sha256": "17a63db0c062971c9cd209b353530786cb12c799e2f785fdf99e9b67eaa73bb0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scenarios/index.ts",
+      "sha256": "397af1eed266dce7a79733f87f6ab5ad5448f2ce22ec29f2c1220c1b0b0c9ac9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scenarios/product-2026-scenarios.css",
+      "sha256": "75029a9e1f6370a05a7f36c0cc3078387d86298416ee6cb7d7fa975ecded31eb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scenarios/product-2026-scenarios.stories.tsx",
+      "sha256": "11ada96c15f0a69402c6ebbdd24079acfa8d335719d83f2c217283fba9a9844f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scenarios/product-2026-scenarios.tsx",
+      "sha256": "d547614840c5406b8fbb7c0c1fbde86187107ede7a3bfea2184ab81e7bcd4c6c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/index.ts",
+      "sha256": "1aa2cf110b823218ac2d305f4583ee3ec59dda105e441e73b86bd12a5f62834b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.css",
+      "sha256": "b13e6a5e18b8a20dd4f97378717506044bd5a777d74ca78658f2bb04875c1d8e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.stories.tsx",
+      "sha256": "3a5a4ca771ea1aab7e7bd3be8f3bdba110583916dc3bc58fb92bfbc882d948c7"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.tsx",
+      "sha256": "1bc27f012493bc57e39b9fe332fcfb8f2cb1d0e5d1da6fe07bf7e64dd2b9e593"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-split/index.ts",
+      "sha256": "ff5fb0240b4f3d249650fb647977f4dbed4e39dcac8061ff0e041fee66335908"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-split/product-2026-split.css",
+      "sha256": "0f5ec1412d707f742922eb9be40a67f67d64908d3169698fcd9c16b1acbc8aa7"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-split/product-2026-split.stories.tsx",
+      "sha256": "f93a0fd9e4bb7f6d462cc86c7922df93c8cabb87f8538ae506e61674f450b546"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-split/product-2026-split.tsx",
+      "sha256": "4a2fde28d1d2e15846ac7706e9f56057d4f96de8e7d4581c285418434591a75f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-tabs/index.ts",
+      "sha256": "f9015585479df8ae5ce9d37686319f8eecde8fab35b03523442d59a20c822df3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-tabs/product-2026-tabs.css",
+      "sha256": "04419bfc43ea4357d7f78f0ab1acdcf0e86a58d05a5873bdbbbeb82604140d52"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-tabs/product-2026-tabs.stories.tsx",
+      "sha256": "ebb45cbc26eee8291cfcd43f2569e3813ec9754020ef20b06ae40e9737e30dd4"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-tabs/product-2026-tabs.tsx",
+      "sha256": "414449b1abd5d5e56caeef5eecd4667a9b4744b813a7e2031b4af7bb577080c3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/index.ts",
+      "sha256": "237967d332c11205a4a63c9407a42bb2809b9e00137cb09bb9039c89d3d6ea51"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.css",
+      "sha256": "84b68f8b7231b535d389ffc799f9fff64c1099da687e349d032bbcc360b3b427"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.stories.tsx",
+      "sha256": "378c519c39c7f6c60284b718de5465b7366514cc969f22662a5163d6952b950c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.tsx",
+      "sha256": "cf81de7578cef252e4732c8eb0e958c37ffa8df4ae59641b04f6916886e51ea0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-wide/index.ts",
+      "sha256": "8cf975d27dde0a5ad3b4e6f1c8b2c8eb7fdb9bb5cc6a523b622bd2110103e81e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-wide/product-2026-wide.css",
+      "sha256": "3cf237d4e5416a8f657d9603474971719c889d735f051fb95b63e7f0ec39f532"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-wide/product-2026-wide.stories.tsx",
+      "sha256": "2ca96f371789832c0c4d3733f66672e18b8b8f59ca58040e3c2de07add9da64c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-wide/product-2026-wide.tsx",
+      "sha256": "de630c29fcacc73b3442174a76e0ffd5af36c5698af42c04ae06a9caf25ec368"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-activities/index.ts",
+      "sha256": "712ca98f937c19ea2c1d0739c634113a5d01ece4e8ffcbb840f36b6193d78f02"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-activities/product-v1-activities.css",
+      "sha256": "ecbd42ebbefee6d714050d9decb04df4818f1b672bbebff2c558add696e08ae1"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-activities/product-v1-activities.tsx",
+      "sha256": "6054d4ce884101ac4a7539b7f9511f56c0fcb92e01f295191d29aeaf78006775"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-advantages/index.ts",
+      "sha256": "e018e8a80fa51b2472e8353f6c4ba05ccf1c81859a6f711ca0fcd3b61bd93890"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-advantages/product-v1-advantages.css",
+      "sha256": "a83fbeb626b304e6a636efd51987a2b1e51b3a8216b7cbffb933805b2eaeee7d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-advantages/product-v1-advantages.tsx",
+      "sha256": "048208a7cece18b95381cdb643ee3eee7a2ecafbf36405f7928ba1f675c48c03"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-ai-architecture/index.ts",
+      "sha256": "2a4d19e805a4ba0724968732211261482cd87879a3ce3381892c8e3ccbb58e08"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-ai-architecture/product-v1-ai-architecture.css",
+      "sha256": "b6c2237b8a4a38429439feb3794cf305e6033d26ce1f25f7ae4e74fac33abd80"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-ai-architecture/product-v1-ai-architecture.tsx",
+      "sha256": "03549e097471486ca2ec052c2718acf09706b9985940368cb5a02f977bc6c568"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-anchor/index.ts",
+      "sha256": "c5845682cb795ad1365e12539c7dafbe2c6a4adb49102bb679b5ddb124bed8f6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-anchor/product-v1-anchor.css",
+      "sha256": "8113901ff4fa16d3eef4076c9ccbe331df3521ef1e8bdf69d33e2a2c6585a29e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-anchor/product-v1-anchor.stories.tsx",
+      "sha256": "ad070188a37d3a127dfe5219e090c502b4d76de0ad3a75947a906753b2c00ee8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-anchor/product-v1-anchor.tsx",
+      "sha256": "4ff2c64b55e5aea381e12f765575404d7e77ff0ae2950e7f97d2b16375adbdbb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-architecture/index.ts",
+      "sha256": "4f73f06a1b98a19455ecf649ce6ff10b51a93316913358acf2d55bf04ae0a01e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-architecture/product-v1-architecture.css",
+      "sha256": "c21b620a2271e7ea3b1ab25c522318b542be9761adee74f9598f02be514b69a0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-architecture/product-v1-architecture.tsx",
+      "sha256": "158629b1e570a21f97469ccc8411d922b8e0c8123a09c759e3f020e7c08e2c26"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-benefits/index.ts",
+      "sha256": "362f6fd04483f301cf11f887c74e44c8c29f65e8d44a3d0f9ae18dd10e93710d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-benefits/product-v1-benefits.css",
+      "sha256": "57d0e25ada656fac99d2bcb5a7af33da07975bd72a34145438b443e428f36251"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-benefits/product-v1-benefits.tsx",
+      "sha256": "4da97dc008641d9978b9fced242836e379f5772f876875108385ab84d206bd7c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-cards/index.ts",
+      "sha256": "d0bd8f1c0938c66cf7776f857bcd184dfefa776bc17cb14105ca26c2dd8b1f4e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-cards/product-v1-cards.css",
+      "sha256": "2328ade1d10ec3e95e98bba80e126b1c3b7ef30a433b68a6ca91772d211eeb0c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-cards/product-v1-cards.tsx",
+      "sha256": "4b03187e0cec45296db987141f2c8530acc4c9471f95cb24f1eda0abcf0cca7b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-cases/index.ts",
+      "sha256": "36fff0c060a30ff085e1eb1c017fa8e1efcbf9789279bb323b61565447fe34f9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-cases/product-v1-cases.css",
+      "sha256": "fed920db96893a10e1e4dce845fc71704426dfa2f159ac52cb7cb73281b941c2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-cases/product-v1-cases.tsx",
+      "sha256": "7afddc7e13803bf990aa2c44d2ae6605d00e3206738447e47dcfcc3d2bac9e3a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-catalog/index.ts",
+      "sha256": "099ddd918a7cede5dc3eeb6cf66a103dc332bbaceaaa357b73003ee47c6253fa"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-catalog/product-v1-catalog.css",
+      "sha256": "038edc36cb8e6272e36250665dba8b468eb94cac504a2b75361ec55f9a9b8c03"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-catalog/product-v1-catalog.stories.tsx",
+      "sha256": "c255fa9810a082e0f35f12f5d5a9e0928b8bbe02f1ebb4aefea9941b7e7d68dc"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-catalog/product-v1-catalog.tsx",
+      "sha256": "ba12f0cc88da846237f69210baf7d6bfe050749980d3580cbbce1a34ad7a82dd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-contact/index.ts",
+      "sha256": "5d9c2c15bb17fe8a379d35a9bcdacb1ef83ec44985d72446d088e34047845243"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-contact/product-v1-contact.css",
+      "sha256": "161cfa32f4c097a2d87ac80bd036e672b8d566f835cad9ef9061244c21ce7a71"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-contact/product-v1-contact.tsx",
+      "sha256": "53ad1f3b8b3ef1b6e27adcb1c2bd688526234d1d5fb66769994325208aebbf46"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-editorial/index.ts",
+      "sha256": "981e766dd1eb26c8055401d99190a318b76beba71f880f52d203d6c3e0c17f93"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-editorial/product-v1-editorial.css",
+      "sha256": "ec1a940533ff22b92bb82d38313d059e1a852db30b4d7a7cafb653a872a572a5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-editorial/product-v1-editorial.tsx",
+      "sha256": "4de100ae467470c86be8e178606f4438a0cdbee5e81a21c00100bb4b26c3237e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-elevator/index.ts",
+      "sha256": "faea404635dcfbb40a06d4193d21c49a4392d232302f9c678baa4c1fe51f3858"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-elevator/product-v1-elevator.css",
+      "sha256": "edd87dd8e419df2f0d536b2f8f44eae2c4bd711abb23e7d495bb7391c2ee8a1f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-elevator/product-v1-elevator.tsx",
+      "sha256": "8bf0da579fc4358a55970d807ca3b5ee184255a2b381c68fe83a553f5c6d9695"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-filters/index.ts",
+      "sha256": "34d2e0dc8564e99c2f7097396c93ae27cfbead5396007de4da7e912888d156c8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-filters/product-v1-filters.css",
+      "sha256": "5a6b670d4d7dc84e816a8d549d797d085bfd25602c484bebfd10bf963e1953aa"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-filters/product-v1-filters.tsx",
+      "sha256": "e55761c901f79b784e5813ce797909ac80c3d6cdacdf54ab1b9ccd8c2059fe84"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-folded/index.ts",
+      "sha256": "91ecac1d5c75a6d5a2c101c985a8147a554fe6e8bf061d505f12c84beea734cb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-folded/product-v1-folded.css",
+      "sha256": "d99529a48383cccbdfc3e4b126bf21868b62bb7378d57ae4edbe082b7ec2dcd5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-folded/product-v1-folded.tsx",
+      "sha256": "ba2f0e84faa60869017e5e418d8d9b424c311d33af7d5770e45c4079c06613be"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-information/index.ts",
+      "sha256": "456463d74ddc102f40e6c6f774202a6bddddb9e85662b477bfefa16d0074e1d8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-information/product-v1-information.css",
+      "sha256": "54b99485eef38e3d2470983b5b1a59777dec1197c588930c5ea73fa1121c920d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-information/product-v1-information.tsx",
+      "sha256": "bf2b6c2c082b5c38dd8adb119b4b83ebdbe198aedcfc87a4527406a48c0f882a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live/index.ts",
+      "sha256": "f29f186f15ddf8e235f8f5d7301f18b0e4f0b27e59daa020290a41cd3975d483"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live/product-v1-live.css",
+      "sha256": "9a3d8c0baa0224946a1189243da3d4f355d81b43e81814e4ccec49b8b1f6abd6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live/product-v1-live.tsx",
+      "sha256": "20f253c247a92141fa73b4fe8c0a2382c318835f9e83b65ad974817ba425b18c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live-preview/index.ts",
+      "sha256": "8fa74e9ab8d666375bc16a01f9d077539f43e5f9441a9f93e1b69320908eeca6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live-preview/product-v1-live-preview.css",
+      "sha256": "aa159fa0aff7316332efc2d9c8002309f1389bb0f81ca5551e69cfb103f496cb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live-preview/product-v1-live-preview.tsx",
+      "sha256": "c1b5dd695c7d184211cdb1166a963aba6def963db57a9bd14bbed4b7d5c1f862"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-logos/index.ts",
+      "sha256": "74270b819506a7cc24408f3f1c1a5531cd48680ef04f332689baa403b1e1725c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-logos/product-v1-logos.css",
+      "sha256": "cb9ddd5c85e74376684be37b5f610604164bf232afc4303c99cb4b335d9745ff"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-logos/product-v1-logos.tsx",
+      "sha256": "f775c375e3125820390c9237bcac417fa5b42a0a80a1cd27e07d3c355d08404a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-mosaic/index.ts",
+      "sha256": "f88e3f2b820bc05169f15cc433027ddb1e6edc0cdd9637c7654ecc7a38f32ad2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-mosaic/product-v1-mosaic.css",
+      "sha256": "932339d77e43fff8b70167e2df3a6017f889fb8a2a7edc5d86f779a47fc9f247"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-mosaic/product-v1-mosaic.tsx",
+      "sha256": "e4d5b0f79dbfedbf8984824aff6e2ab75334f63875a3d95e33e933213db55bfd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-navigation/index.ts",
+      "sha256": "399f36e1518e9edeeb42c1c82ae68ab159476eedcccdfb73101a40d5389d266b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-navigation/product-v1-navigation.css",
+      "sha256": "3a25beff0be85bfa4be23302a78ba7889db41efa8de9384d2927916bbc3b0d7b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-navigation/product-v1-navigation.stories.tsx",
+      "sha256": "7d198e425871ce525ba8df0ca389463774fd3696c2410070427f56f9f912d17e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-navigation/product-v1-navigation.tsx",
+      "sha256": "69713988bdc3c832ac69fc5583d18abc9b0a784182aee6931ecd79e86110b17a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-news-list/index.ts",
+      "sha256": "a5dbca30748203cd4a60f05a99cdc22cc078dc6f194291cb6f35b66068149da1"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-news-list/product-v1-news-list.css",
+      "sha256": "e5dc465ee85c25965d2349c2e591937dea8d19614c97ac32f1d35ed97136bfcb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-news-list/product-v1-news-list.tsx",
+      "sha256": "77ab7bcf4b7078a98d25dedfb4850c7b86d6a843ede92484836c6c0b29bbd48f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-photo-wall/index.ts",
+      "sha256": "9cd94e50d510f639653b01b11440596b4bb6369df5812243c815499c4accc336"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-photo-wall/product-v1-photo-wall.css",
+      "sha256": "a5b18e02ee75737696fe1328cb0228c4ea24d7779e71ecbe06280a09c8cb0e67"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-photo-wall/product-v1-photo-wall.tsx",
+      "sha256": "bcbb20e4d0fd000424a0092459f28f85d033c089bda70385516c25bdd942206b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-publications/index.ts",
+      "sha256": "6c0707ffbd81d86dc059d7f2ce3bcab2640092fd01b6b25f6a7d38a4ea2b11fd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-publications/product-v1-publications.css",
+      "sha256": "1ff7550977e2047498c7ec96b88ac286a864061c41abca0e344eab71e7991b54"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-publications/product-v1-publications.tsx",
+      "sha256": "92071141ba3827415bee72f55fac8aa1f5fdfb818522403e190be9fdc31e658e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-quote/index.ts",
+      "sha256": "78fa9b306b80e59a8d15d5b65dbdacc04389742a4473d6d60517ae7d3ea75587"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-quote/product-v1-quote.css",
+      "sha256": "79b8d13640d7d177bf1f0f1c6911c03c7a4b99e7a22cd2434ddaa6818d3a31c8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-quote/product-v1-quote.tsx",
+      "sha256": "3852c2e4721f2f4a9d8e6b8337f98dfe95fe8e41c6a14a04d8bcf1df00fed8ee"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-sessions/index.ts",
+      "sha256": "1a5b7ea1cb87de6204b275fe7ec0bc0235fd1b0da8d27d55e7a0b1793b9b4ae8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-sessions/product-v1-sessions.css",
+      "sha256": "7c888e693a5ec48072cc969725a37cc0b06264b334c1a44443b64314090d1444"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-sessions/product-v1-sessions.tsx",
+      "sha256": "5b838327467bbe19375a5eac4a2fb79c4ab6e4ab3f88669f6847d8d0d0890ff6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-solutions/index.ts",
+      "sha256": "8354fa155a84add8c3b0143e41122a812de96de1e269d04a84493f5095093bdd"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-solutions/product-v1-solutions.css",
+      "sha256": "11700081b397673ad5321b9e7b7113738833150bf64685393b3724c93d6e8e91"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-solutions/product-v1-solutions.tsx",
+      "sha256": "9d5100d35dfe12e48bbf5ac95e42ac935ce21c3c6da951ac5eb2575fc4d77340"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-speakers/index.ts",
+      "sha256": "6df896400665ad10bc32397b014d9d953b134c7adbe35d5e3123d9a9e2c94293"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-speakers/product-v1-speakers.css",
+      "sha256": "1c204bceed165dc66d77ac58e5a294c16453bd8894b032cc66cb3515d71b2aad"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-speakers/product-v1-speakers.tsx",
+      "sha256": "8ae0284fc165dcfa29230830f62ddd70fe926a9ee94732e29bc41eba7fe52cba"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-tabs/index.ts",
+      "sha256": "a0cb59488d5db0f6b9192948c5d54a1b757bba98eeb4640d0cebc8a78f865e4e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-tabs/product-v1-tabs.css",
+      "sha256": "74ca707a32bd1615d4c51308e6022332c3cce4be9a8927a1b5aae18aa8ad9658"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-tabs/product-v1-tabs.stories.tsx",
+      "sha256": "e6084add2e8ebed0cbb225f1c9f8c1d50c84b5f2c0826400ad34e3f9be87642d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-tabs/product-v1-tabs.tsx",
+      "sha256": "61c04a378945200ac7c55c967399f0fcc75e16216d641de5ecd754ed8f7a9c8d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/recommended-docs/index.ts",
+      "sha256": "df7342c76c31beeab888755e153024de8893c285182bf41623d5be111be61bbb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/recommended-docs/recommended-docs.css",
+      "sha256": "7e6ab16403e3bae136b5d21141281a96a0043427727bbadfb83dd158d08bd9ec"
+    },
+    {
+      "path": "assets/search-workspace/src/components/recommended-docs/recommended-docs.stories.tsx",
+      "sha256": "16753a2c0c5694eca85b131556a813d43f076b661b7d4abd8977dd928eeeaeb3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/recommended-docs/recommended-docs.tsx",
+      "sha256": "3e8268fbee9376e80aecc27b75efd0079d3fe1e743dd089202799a661d8f9e9c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/scene-media/index.ts",
+      "sha256": "214c55c61e48c35dbcf3d72eae73a1e7f907e6e788d688c4872fc75b2e72a4c8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/scene-media/scene-media.css",
+      "sha256": "b6dbd0405ffd61d6cf5466649fde616a3b7c13bfc96358f65e32ed965aad4697"
+    },
+    {
+      "path": "assets/search-workspace/src/components/scene-media/scene-media.stories.tsx",
+      "sha256": "a48e6d2660dad854bc2316c1256256ff801c1e85721b3b55d175673ecd366a9e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/scene-media/scene-media.tsx",
+      "sha256": "7914e110f7cf072e671ebde520b4653e9df2a60ff686745024c9298ec07e3253"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/index.ts",
+      "sha256": "cc5c2ca662a12eb0b4945c27e167d827f34b3fe78bff40fa358164123f25cccb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/input-family.css",
+      "sha256": "e29fd0ad53fa6f13cbb108467f389f04233001c7d5ac43206cd6b56e90c5886d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+      "sha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/input-family.tsx",
+      "sha256": "0938732ea11c1beca3b56e30a21ec8292a9fb913f361eadb6c5839fde8d105e3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+      "sha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/search-input.tsx",
+      "sha256": "0136f5ff2bbcc957c28622d1ff67d23268a43bfe3ed791b81f02444cec1b58a0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/source-reference.stories.tsx",
+      "sha256": "fa2372fecb9e41686db914c4de5b6a4034ec1479d1d01bafad7d49a378f82371"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-anchor/index.ts",
+      "sha256": "d5bf17148e143391fcf0f73a11707704f62ce35c2096d131c455301f9605421a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-anchor/source-anchor.css",
+      "sha256": "c3ae58d21c0ee9ffe3f2048ff804101e1c36243157b3426d735587beb277a8e3"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-anchor/source-anchor.stories.tsx",
+      "sha256": "03db4b41a288eaa77c99b3f28c130ece63dccac73a8f87634d188c74b32ddaba"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-anchor/source-anchor.tsx",
+      "sha256": "09596fd9614d774408a03ce00ba502d2f8cdd8bb76b84a72f4276b5272db9e6c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-breadcrumb/index.ts",
+      "sha256": "a00b1b14a7a51ca25ea4d91bf031877e8b4dea4281a0f34fe3bc22f2052732eb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.css",
+      "sha256": "91d7aa45e87f47afb907d3f4bae52c616bc28cb675ce7a7a6d6fd3daaa10e99d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.stories.tsx",
+      "sha256": "6a79e402993abe94ba49b07187974cb672dad73adc441952fd5d0df4d1b8078b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.tsx",
+      "sha256": "dc658ac3c07d8a9b5656542fe932ee594ac86c141d4ce1723042562af94c959f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/button-family.stories.tsx",
+      "sha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/design-actions.stories.tsx",
+      "sha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/design-actions.tsx",
+      "sha256": "3142b9a118bddf0c21cca4814b20ae6991c3dd6596aa4851bc465a0e32fddc7c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/index.ts",
+      "sha256": "5883eb538cf07512c1c4fd5958c5ee9223ef2887d2ffa089db0fad09999f660a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/source-button.css",
+      "sha256": "9e10f752d9cb1f156ef5cab577966e305ffdee110c200390c7998cddc7be4db4"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+      "sha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/source-button.tsx",
+      "sha256": "cdcc4648f7a5f75a19aa744fb7a95bee52bdcc7dd78b76f8b9075031ae40b965"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/source-design-actions.css",
+      "sha256": "84c8450b8e45ed5ff115133b5c3a323e0371b38aadd61663c8540bc5165b0268"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/source-reference.stories.tsx",
+      "sha256": "d1a585ffd8bd7a872bad007700c0b23eac277d27bf1ac3f69c1f3dc6ed920764"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-card/index.ts",
+      "sha256": "7276eddcc35e780f125b5d034c324b3027db63e8eabd4e2441cd2113aea186f8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-card/source-card.css",
+      "sha256": "24f8ccd9b7940dbd436a06b249246dc581c1944cc800b8e9b4e2c033ada26002"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+      "sha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-card/source-card.tsx",
+      "sha256": "c41b8abd63e416bb6d3a60b16f0daa4d3e5b2c1f0e8e199ca65d9d5d9997927b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-choice/index.ts",
+      "sha256": "6ed61158656aae651712f132faf4d1f4f6df7ebe935fd7844446a8081b41fedf"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-choice/source-choice.css",
+      "sha256": "b6f7dfe6b41636a7748666e90b2ca8084d228679634688ba774374dac12f03ea"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-choice/source-choice.stories.tsx",
+      "sha256": "158c50e35f2d2170e9ee87756a9efd3fd690b75513aeb0089a8dee3ea3122103"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-choice/source-choice.tsx",
+      "sha256": "67160376ad35ecf661a0b95fa24e62537909b9d99e9c2b8ed773ab2f40e94ed4"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-collapse/index.ts",
+      "sha256": "95013c79390be4c66c025d1b48468938795c5c3dbfe283903af595bbb2306a71"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-collapse/source-collapse.css",
+      "sha256": "13efc81db9a58cc36a2de7c0bea5c78f295b4f45b2d33fba84cc9cd714e98039"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-collapse/source-collapse.stories.tsx",
+      "sha256": "f7b40490860977dc09a26d40a1cfc72f7c789b7e9170dc4062ee713daed84212"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-collapse/source-collapse.tsx",
+      "sha256": "5d1e8e2c2adb510b3ef4fa8539f05c7d4af59a90dca935200cf1f01308278ee9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-countdown/index.ts",
+      "sha256": "1a249ec9d1ea2e010f8759af6031512c2eef7d822c3cf1337b35108538078ffe"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-countdown/source-countdown.css",
+      "sha256": "cbceda4ab270e58776132d36ac1b211ef4ce07c23996c74b0a58d25a442aacb7"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+      "sha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-countdown/source-countdown.tsx",
+      "sha256": "4c1c28c6ac864b5515347a34cdc88985678bd22a80480194dd2568fc61ced137"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-fixed-table/index.ts",
+      "sha256": "8d56046aedd38e9bf5366aa0cf62dbe05a7906bbf104b6c91cbea2db1f9d0a60"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-fixed-table/original-table.stories.tsx",
+      "sha256": "ce4f6203f52d6aa746c4e5b638879539f7051ac73b53cf23aa1b04d22f2ace0e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.css",
+      "sha256": "1d823772897969ee82127a4d4640c5601bfb4dd1bc2e75bad4d7d732904d7e0c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+      "sha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.tsx",
+      "sha256": "379e849fcf67e36f76843d7a347109190c8863a84ba144d71811f1ca3c32c566"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-img-viewer/index.ts",
+      "sha256": "3aef1fd5b187e5f64d0a9ac99511f90cbd342a4904516a5314f5c5e49579ba31"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-img-viewer/source-img-viewer.css",
+      "sha256": "dea631c331999e865c2d69d99ad6072f9605a40f86aaf0375c233fbae3f294c2"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-img-viewer/source-img-viewer.stories.tsx",
+      "sha256": "7d23e80f44813089bc7ea073116ae5133ce235d3c5cd2f4d01ecdb3d7740945d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-img-viewer/source-img-viewer.tsx",
+      "sha256": "09ba6ea8e8fa992510991f28ae0fe79df722a0a6a0a27e84f7542b807d94407c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/index.ts",
+      "sha256": "a68f1982667df2a1272ecce615b765539eb4f0da18be4682f2cab45a5c85e7cb"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/source-label.css",
+      "sha256": "24b0ab1d9d056d8abf552f2865137a30d953906691f69d3c29c17abc9ce6164c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/source-label.stories.tsx",
+      "sha256": "fc837f5c1043bf604598e61682b162b716b355e175b132b65fb7c9193588f536"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/source-label.tsx",
+      "sha256": "22fbe30d144d26445739b0a5ca91d29437043b79ea7ddb870b0ef97fa2017b3d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-link/index.ts",
+      "sha256": "e66a10dd5c12cc4bce0905e939eb92b9608d5c80771bef4dbb885db955bc8223"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-link/navigation-reference.stories.tsx",
+      "sha256": "81e0fc1ca90f52aec939ac2c51aed351f5b99d59c043dbf24d59fc3252dd978b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-link/source-link.css",
+      "sha256": "983fb9a9fe44d3208305601c1caebf26c2e81f1042b685f3bb3069f22eaaca75"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+      "sha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-link/source-link.tsx",
+      "sha256": "7fdd7d54688366a35f13e14d944602c6e632175fbdf7af20c46af9b8b3af1c94"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-modal/index.ts",
+      "sha256": "3c1aaea84873fc3077ab0296584f7a2ca79d55e52ad944ef9b22b8746999eff1"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-modal/source-modal.css",
+      "sha256": "ea5b72087ed9479cb199b364da3ec0990b6a30c9e226dbedf4f804921c8fb220"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-modal/source-modal.tsx",
+      "sha256": "079c2e8e3199e3e4a3eb75dc1aac2f82093665fcc304fd0cf9aff84b49813883"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-pagination/index.ts",
+      "sha256": "485549148ce3ffe283f937eae1aee6d018848e74aa2ae95dea2210cf99ca6d3b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-pagination/source-pagination.css",
+      "sha256": "27bf94e9bacc6d184b40686e5084a6c8c710bd2670706ab8106796bb133f841d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+      "sha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-pagination/source-pagination.tsx",
+      "sha256": "ad0e88f7e74c50668369d1b0175de398db57f056490b51792177fb448dc3521f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-price/index.ts",
+      "sha256": "839cec52d99486ce5c6f8c5819782ab336d1560b86fb70b03b96a28d7e41843d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-price/source-price.css",
+      "sha256": "7b74e61de96ca14d76c7a44c20577336ca0941a01feab106af45bde4f9f4f41d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-price/source-price.stories.tsx",
+      "sha256": "514f2633c4bf0560f2d6d1ec4cb4f776241f5de859da68921fe9fa05cc3dede0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-price/source-price.tsx",
+      "sha256": "a7217d00d7bf3d34b21e1a97b439fbf6e2037bae1b8d085a774a1b4455e1c8e7"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-rate/index.ts",
+      "sha256": "70634df1081340de3274a8c67d96a8f9dd1bbd1f0b1999b1c868c94d768bed7f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-rate/source-rate.css",
+      "sha256": "241347019bb4297fd1eff22ca1d276fa29dae9d0e8c02d30388241c5974ada06"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-rate/source-rate.stories.tsx",
+      "sha256": "5665ac6813909c9ec617e03a7958285196ecc073a2505b6f052af73e688539b5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-rate/source-rate.tsx",
+      "sha256": "b2d973094ae8bf3d11364c4f05d91d729b3ad92e73366a650aa7769cf495ff7a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-scrollbar/index.ts",
+      "sha256": "569cd8ce5771ed254cfb255417534ade594da86563abde382c19135183552041"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-scrollbar/source-scrollbar.stories.tsx",
+      "sha256": "a49f92c4d52efcbcc45ea2c06547e604e237fb537578009c5abe9ff5eaf59af5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-scrollbar/source-scrollbar.tsx",
+      "sha256": "ef3391ad9deaddf7bf901a7fc456358b7842d671ba14416c85fd65c194d5e963"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-select/index.ts",
+      "sha256": "883e441469e9c5d6ad00cd78fa91deaa2e58a1f9a7bbbbeed3c644e6b2c3bd73"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-select/source-select.css",
+      "sha256": "c4df212fdef3d9091724931d00e5364d305081c2677ddc88edba549b31ec72e5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-select/source-select.stories.tsx",
+      "sha256": "14071b2ff7eab4f2b771445ce2b8a5baa2038a270e90afd6f4a16a518100e179"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-select/source-select.tsx",
+      "sha256": "6948195cc38ef6cc4fa68af38fec69a7064ba269767869e81e4c8571d3eaf930"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-service-table/index.ts",
+      "sha256": "5c82140c4d80868e4793a7aa8030dc2b30ca94069ce555377c89318b0c946fb6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-service-table/source-service-table.css",
+      "sha256": "f7534f9c7a43f8fcd1832c4d94d8aa8a666094f979ade278052fbccf7f3e6cf5"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-service-table/source-service-table.stories.tsx",
+      "sha256": "a430ac2a4eaa3ce1bfa99f0a59a445920a084919bed5b54b637913268ba0e742"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-service-table/source-service-table.tsx",
+      "sha256": "93c5b07d5d3d0ec36643ad26e74e07ac1775d892654839c2596cf27bdf30341d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tabs/index.ts",
+      "sha256": "53e6005029246b2709b5738d22de19563fdecd9908e518c2ca0e066b9ec567b0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tabs/source-tabs.css",
+      "sha256": "c6b7aee5fb6593bfb14bac732d33f42a9604dc844e943b0e210668c2146b6299"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tabs/source-tabs.stories.tsx",
+      "sha256": "9d3f83a16f0a65fc8dfdb6000dabdd7449a2189eb1e0d0338ee739815aad64b6"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tabs/source-tabs.tsx",
+      "sha256": "b0739acbc7abb17ba6dad10fd773eefd664d162059ed2f6fee815c80487d3855"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tips/index.ts",
+      "sha256": "b2a42e72b07418ba728bbab697f8dedc84f121f4efd85a8e1b9a3e5bf7e5e46a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tips/source-tips.css",
+      "sha256": "cd18f35a37e9cc6f45cc2658c22ea69c3c9ec095da6513ec4d86615b305f2865"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+      "sha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tips/source-tips.tsx",
+      "sha256": "330028d9ae0f3eaf32c3817cc9f35a540fadd0f6802e76398acf1db4f0ad1b04"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/assets/button-arrow.svg",
+      "sha256": "decca59e32cfcf518c4b5b58a224be840631d226804393210d86c75de530e6fc"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/assets/button-book.svg",
+      "sha256": "dc0802036c2e32b4f42f7a723587729276c276fe62e44f131dcbf98de2a7f901"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/assets/button-down-white.svg",
+      "sha256": "226720433d9439261daff57ec9ab842dd80b595f5020a8217a83e854f31fbb88"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/assets/button-down.svg",
+      "sha256": "132e8bbe32d26976bbca084dde863999a25c876fe0514496c28a0166d5791df0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-button/assets/card-gecco.svg",
+      "sha256": "ba6c98fa24a8ae533e788838fff60e40ab4d6c37f6cf86b8086f1474d2a3b4b7"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "sha256": "3fa6a3889fa8cd5d55cddf382c6de578ef0a83a842972639cf6896bc8bb58e46"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/portalui-offline.css",
+      "sha256": "af640b4d5683fcb25c4464bfa7735010502e56bf06750706538b85449b6700ce"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/search.css",
+      "sha256": "b6c4851df12e6ab210be51c6de0ae82236dccc0202f2288c4b0d9641d82d75ac"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/source-icon-fonts.css",
+      "sha256": "f19e3d9bd6156f2f0ba5fb8ccb9a83d19c0cfbeb8f943fe5bfb0202b1f6fb9b7"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/tokens.css",
+      "sha256": "7a99fced17ac6aefafec833fc201f0809dc923e7190421fca6358200010006b7"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/website-grid.css",
+      "sha256": "6c196e0b606db2f55a288fcc16272279220710a6206c2006f3b92650aac0bbae"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/website-palette.css",
+      "sha256": "113d3232b281ec1fa3795e484fcd3e18c0a998294c66d0adb87c2b4052490934"
+    },
+    {
+      "path": "assets/search-workspace/src/lib/format.ts",
+      "sha256": "75c0863570d58cfc99ff93bc41a7c14f2d46d5e02d726636bf02923926bda348"
+    },
+    {
+      "path": "assets/search-workspace/src/lib/messages.ts",
+      "sha256": "33660c497852a383bcd27d95fb3bcfa75ed7cffbb9a504a46082c98b25135ca3"
+    },
+    {
+      "path": "assets/search-workspace/src/lib/request.ts",
+      "sha256": "2637aa74f311174b1773cfe810371911752529e77c02e331817502ce2e289b27"
+    },
+    {
+      "path": "assets/search-workspace/src/lib/search-api.ts",
+      "sha256": "e4cb7a822b0d5b826d2db95eaf369bbb52a990b98d5689dfe17bb4db8e2f538f"
+    }
+  ],
+  "scope": "Only the19 previously approved sample scopes; new stories and unseen variants are not approved."
+}

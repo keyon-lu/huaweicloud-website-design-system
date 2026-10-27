@@ -1,0 +1,3 @@
+.source-breadcrumb .por-breadcrumb{display:flex;flex-wrap:wrap;overflow:visible;margin:0;list-style:none}
+.source-breadcrumb .por-breadcrumb-item{float:none;max-width:var(--hc-t-input-available-width);min-width:0;overflow-wrap:anywhere}
+.source-breadcrumb .por-breadcrumb-item::before{flex-shrink:0}

@@ -1,0 +1,15 @@
+{
+  "scope":"Content-purpose retrieval hints maintained by the Skill; these are not design token rules or automatic generation approval. Multiple purposes deliberately return multiple candidates.",
+  "rules":[
+    {"terms":["步骤","操作阶段","申请流程","开通流程"],"names":["流程组件"],"reason":"有顺序的阶段说明；继续区分Pixso流程与已实现合作伙伴步骤样式"},
+    {"terms":["教程","课程入口","学习资源","认证入口"],"names":["学习与使用"],"reason":"按学习分类组织链接，手机入口可独立编排"},
+    {"terms":["客户logo","品牌墙","客户标志"],"names":["客户案例logo卡片"],"reason":"客户品牌背书，选择logo卡片规范而非左右图文"},
+    {"terms":["客户故事","成功案例"],"names":["客户案例","客户案例详情banner"],"reason":"案例叙述和案例详情首屏是不同结构，按具体内容继续选择"},
+    {"terms":["左右图文","场景介绍","方案说明"],"names":["场景&案例展示"],"reason":"场景叙述、配图、可选分类切换及行动入口"},
+    {"terms":["系统架构","场景拓扑","部署图"],"names":["应用场景架构图"],"reason":"完整架构图及放大查看，不按实景图裁切"},
+    {"terms":["报名","填写资料","申请资料","数据采集"],"names":["楼层表单","页面级表单"],"reason":"表单关系需要输入、校验及提交反馈，不能以普通卡片替代"},
+    {"terms":["日程","议程安排","沙龙安排"],"names":["线下沙龙-活动议程"],"reason":"按时间组织活动内容"},
+    {"terms":["版本对比","套餐比较","报价套餐"],"names":["版本套餐表格","套餐组件"],"reason":"比较版本或套餐的维度及行动入口；不能杜撰价格"},
+    {"terms":["切换分类","选项卡"],"names":["Tab容器组件 ☑️","Tab容器组件","场景&案例展示"],"reason":"按内容关系选择Tab容器或自带分类的楼层，不因带Tab就视为同一组件"}
+  ]
+}

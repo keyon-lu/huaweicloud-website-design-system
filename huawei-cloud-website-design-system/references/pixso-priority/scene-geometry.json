@@ -1,0 +1,568 @@
+{
+  "source": "PIX-00226:3228",
+  "method": "Local archive node geometry; key1920/1536/1280/1024 fonts cross-checked online2026-10-17",
+  "nodes": [
+    {
+      "id": "26:3408",
+      "parentId": "26:3401",
+      "type": "TEXT",
+      "size": {
+        "x": 510,
+        "y": 36
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 90
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "value": 18,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3380",
+      "parentId": "26:3352",
+      "type": "GROUP",
+      "size": {
+        "x": 691,
+        "y": 388
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 768,
+        "m10": 0,
+        "m11": 1,
+        "m12": 200
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3390",
+      "parentId": "26:3388",
+      "type": "TEXT",
+      "size": {
+        "x": 234,
+        "y": 42
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 524.5,
+        "m10": 0,
+        "m11": 1,
+        "m12": 52
+      },
+      "fontSize": 28,
+      "lineHeight": {
+        "value": 42,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3491",
+      "parentId": "26:3485",
+      "type": "TEXT",
+      "size": {
+        "x": 240,
+        "y": 24
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3486",
+      "parentId": "26:3485",
+      "type": "TEXT",
+      "size": {
+        "x": 303,
+        "y": 72
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 28
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "value": 18,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3475",
+      "parentId": "26:3473",
+      "type": "TEXT",
+      "size": {
+        "x": 149,
+        "y": 28
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 113,
+        "m10": 0,
+        "m11": 1,
+        "m12": 44
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "value": 28,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3476",
+      "parentId": "26:3473",
+      "type": "RECTANGLE",
+      "size": {
+        "x": 343,
+        "y": 482
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 16,
+        "m10": 0,
+        "m11": 1,
+        "m12": 92
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": 16
+    },
+    {
+      "id": "26:3480",
+      "parentId": "26:3473",
+      "type": "GROUP",
+      "size": {
+        "x": 303,
+        "y": 160
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 36,
+        "m10": 0,
+        "m11": 1,
+        "m12": 150
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3484",
+      "parentId": "26:3473",
+      "type": "GROUP",
+      "size": {
+        "x": 303,
+        "y": 228
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 36,
+        "m10": 0,
+        "m11": 1,
+        "m12": 326
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3364",
+      "parentId": "26:3352",
+      "type": "GROUP",
+      "size": {
+        "x": 611,
+        "y": 308
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 117,
+        "m10": 0,
+        "m11": 1,
+        "m12": 240
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3365",
+      "parentId": "26:3364",
+      "type": "TEXT",
+      "size": {
+        "x": 330,
+        "y": 34
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 70
+      },
+      "fontSize": 22,
+      "lineHeight": {
+        "value": 34,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3402",
+      "parentId": "26:3401",
+      "type": "TEXT",
+      "size": {
+        "x": 270,
+        "y": 28
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 58
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "value": 28,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3399",
+      "parentId": "26:3388",
+      "type": "GROUP",
+      "size": {
+        "x": 1152,
+        "y": 312
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 64,
+        "m10": 0,
+        "m11": 1,
+        "m12": 164
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3363",
+      "parentId": "26:3352",
+      "type": "RECTANGLE",
+      "size": {
+        "x": 1382,
+        "y": 388
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 77,
+        "m10": 0,
+        "m11": 1,
+        "m12": 200
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": 16
+    },
+    {
+      "id": "26:3401",
+      "parentId": "26:3399",
+      "type": "GROUP",
+      "size": {
+        "x": 510,
+        "y": 248
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 32,
+        "m10": 0,
+        "m11": 1,
+        "m12": 32
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3371",
+      "parentId": "26:3364",
+      "type": "TEXT",
+      "size": {
+        "x": 611,
+        "y": 44
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 112
+      },
+      "fontSize": null,
+      "lineHeight": {
+        "value": 22,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3354",
+      "parentId": "26:3352",
+      "type": "TEXT",
+      "size": {
+        "x": 298,
+        "y": 54
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 621,
+        "m10": 0,
+        "m11": 1,
+        "m12": 60
+      },
+      "fontSize": 36,
+      "lineHeight": {
+        "value": 54,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3310",
+      "parentId": "26:3308",
+      "type": "TEXT",
+      "size": {
+        "x": 298,
+        "y": 54
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 813,
+        "m10": 0,
+        "m11": 1,
+        "m12": 76
+      },
+      "fontSize": 36,
+      "lineHeight": {
+        "value": 54,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3331",
+      "parentId": "26:3308",
+      "type": "GROUP",
+      "size": {
+        "x": 120,
+        "y": 40
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 208,
+        "m10": 0,
+        "m11": 1,
+        "m12": 972
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3443",
+      "parentId": "26:3441",
+      "type": "GROUP",
+      "size": {
+        "x": 470,
+        "y": 248
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 32,
+        "m10": 0,
+        "m11": 1,
+        "m12": 32
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3444",
+      "parentId": "26:3443",
+      "type": "TEXT",
+      "size": {
+        "x": 270,
+        "y": 28
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 58
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "value": 28,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3311",
+      "parentId": "1396:1",
+      "type": "TEXT",
+      "size": {
+        "x": 36,
+        "y": 28
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "value": 28,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3337",
+      "parentId": "26:3308",
+      "type": "TEXT",
+      "size": {
+        "x": 420,
+        "y": 42
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 208,
+        "m10": 0,
+        "m11": 1,
+        "m12": 358
+      },
+      "fontSize": 28,
+      "lineHeight": {
+        "value": 42,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3338",
+      "parentId": "26:3308",
+      "type": "GROUP",
+      "size": {
+        "x": 178,
+        "y": 60
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 208,
+        "m10": 0,
+        "m11": 1,
+        "m12": 270
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": null
+    },
+    {
+      "id": "26:3318",
+      "parentId": "26:3308",
+      "type": "RECTANGLE",
+      "size": {
+        "x": 1600,
+        "y": 760
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 160,
+        "m10": 0,
+        "m11": 1,
+        "m12": 222
+      },
+      "fontSize": null,
+      "lineHeight": null,
+      "cornerRadius": 16
+    },
+    {
+      "id": "26:3329",
+      "parentId": "26:3308",
+      "type": "TEXT",
+      "size": {
+        "x": 703,
+        "y": 360
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 208,
+        "m10": 0,
+        "m11": 1,
+        "m12": 408
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "cornerRadius": null
+    }
+  ]
+}

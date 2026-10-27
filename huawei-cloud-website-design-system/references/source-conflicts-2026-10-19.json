@@ -1,0 +1,53 @@
+{
+  "status": "collect-for-consolidated-owner-review",
+  "issues": [
+    {
+      "id": "pix-002-16-35083-name-content-mismatch",
+      "source": "PIX-002 16:35083",
+      "catalogName": "上图下文",
+      "observedChild": "16:35106 文本卡片—学习与使用",
+      "evidence": [
+        "MCP design_to_code read on 2026-10-19",
+        "MCP eval_script root children and principles16:35143-47"
+      ],
+      "impact": "源容器索引名称与实际子规范不一致。实际内容是纯文本学习分类链接，不是上图下文。",
+      "handling": "保留待实现状态，不凭索引名称虚构图文卡片，也不为提升数量简单登记为已有学习楼层的别名。待统一核对正确目标节点。"
+    },
+    {
+      "id": "activity-countdown-window-units",
+      "source": "PIX-00216:33610/16:33984/16:34835",
+      "impact": "原则写活动结束7天之前出现，H5示例写1个月后结束；出现窗口及月份/天单位未一致。",
+      "handling": "采用调用方显式visibleFrom/endsAt/rounding配置，不推定默认7天窗口；月份分支保留待确认。"
+    },
+    {
+      "id": "live-preview-countdown-target",
+      "source": "PIX-00226:7536/26:7506",
+      "impact": "倒计时原则指活动开始，示例文字写距本次活动结束，目标时间与文案不一致。",
+      "handling": "由调用方显式配置countdown.endTime/label，本轮不裁定默认目标；继续其他明确分支。"
+    },
+    {
+      "id": "campaign-mosaic-scaled-ratios",
+      "source": "PIX-00216:38773 plus16:38710/13/34/37",
+      "impact": "原则说压缩时卡片比例不变，实际中屏画板固定16间距且多组宽高比例不严格相同。",
+      "handling": "原型保留基准1600/656拼图和固定16间距；不标记中屏单卡比例验收通过，待统一裁定。"
+    },
+    {
+      "id": "benefits-medium-padding-and-action-note",
+      "source": "PIX-00216:39371/16:41308-09",
+      "impact": "中屏说明同时给出卡内40和标题上左右48；按钮说明重复正文说明。",
+      "handling": "原型使用总体卡内40及单操作；保留未验收，待统一确认，不自动推广候选。"
+    },
+    {
+      "id": "information-card-gaps-and-h5-image-size",
+      "source": "PIX-00216:23970/134:91/134:211/134:1103/134:936",
+      "impact": "基础画板3列间距24，宽间距说明60；手机上传标注316×182及720×182，实际图片框343×182。",
+      "handling": "本轮只实现明确wide间距档位，手机采用实际343/182画板比例；compact与其他图片尺寸分支待统一确认。"
+    },
+    {
+      "id": "report-description-lines",
+      "source": "PIX-00230:33254/30:33898/30:34390",
+      "impact": "规范文字要求简介最多2行，但基础组件30:34390为3行。",
+      "handling": "暂按文字规则截2行；标题PC不限制、手机2行，待最后统一确认。"
+    }
+  ]
+}

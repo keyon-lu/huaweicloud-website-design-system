@@ -1,0 +1,1685 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "navigation-logo",
+      "path": "src/assets/navigation-logo.svg",
+      "mime": "image/svg+xml",
+      "source_id": "SRC-086",
+      "scope": "public website top-left brand logo"
+    },
+    {
+      "id": "gaussdb-logo",
+      "path": "src/assets/gaussdb-logo.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/new-product-icon/Databases/GaussDB.png",
+      "scope": "GaussDB product identity; official product directory mapping",
+      "source_id": "SRC-091"
+    },
+    {
+      "id": "gaussdb-hero-icon",
+      "path": "src/assets/gaussdb-hero-icon.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/GaussDBxiazai/GaussDB01.png",
+      "scope": "GaussDB live hero display icon; distinct from product directory Logo",
+      "source_id": "SRC-092"
+    },
+    {
+      "id": "gauss-5aca4a2b3344",
+      "path": "src/assets/gauss-5aca4a2b3344.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/优势/优势03.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-098"
+    },
+    {
+      "id": "gauss-11429a7cab59",
+      "path": "src/assets/gauss-11429a7cab59.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/优势/优势02.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-099"
+    },
+    {
+      "id": "gauss-cf2230190a50",
+      "path": "src/assets/gauss-cf2230190a50.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon01.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-100"
+    },
+    {
+      "id": "gauss-52a29ef6507f",
+      "path": "src/assets/gauss-52a29ef6507f.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon02.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-101"
+    },
+    {
+      "id": "gauss-11e46d00496b",
+      "path": "src/assets/gauss-11e46d00496b.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon03.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-102"
+    },
+    {
+      "id": "gauss-0f5a6c446509",
+      "path": "src/assets/gauss-0f5a6c446509.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/adv-icon04.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-103"
+    },
+    {
+      "id": "gauss-75028b47531f",
+      "path": "src/assets/gauss-75028b47531f.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/邮政银行.jpg",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-104"
+    },
+    {
+      "id": "gauss-4845da248352",
+      "path": "src/assets/gauss-4845da248352.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/农商银行.jpg",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-105"
+    },
+    {
+      "id": "gauss-16e79a4b1149",
+      "path": "src/assets/gauss-16e79a4b1149.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/国信证券.jpg",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-106"
+    },
+    {
+      "id": "gauss-3911776119de",
+      "path": "src/assets/gauss-3911776119de.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/客户案例/华为MetaERP.jpg",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-107"
+    },
+    {
+      "id": "gauss-308e892d1519",
+      "path": "src/assets/gauss-308e892d1519.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-youzheng.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-108"
+    },
+    {
+      "id": "gauss-974a9e8c8fd2",
+      "path": "src/assets/gauss-974a9e8c8fd2.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-suzhou.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-109"
+    },
+    {
+      "id": "gauss-d2f996ca5727",
+      "path": "src/assets/gauss-d2f996ca5727.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-guoxin.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-110"
+    },
+    {
+      "id": "gauss-5fecf4cfffe5",
+      "path": "src/assets/gauss-5fecf4cfffe5.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/案例logo02/client-metaerp.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-111"
+    },
+    {
+      "id": "gauss-13abf572fd50",
+      "path": "src/assets/gauss-13abf572fd50.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo920.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-112"
+    },
+    {
+      "id": "gauss-804869a93a33",
+      "path": "src/assets/gauss-804869a93a33.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video01.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-113"
+    },
+    {
+      "id": "gauss-e55e44230a92",
+      "path": "src/assets/gauss-e55e44230a92.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video02.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-114"
+    },
+    {
+      "id": "gauss-5034674b24f0",
+      "path": "src/assets/gauss-5034674b24f0.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/%E8%A7%86%E9%A2%91/video03.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-115"
+    },
+    {
+      "id": "gauss-7c0c9cefad64",
+      "path": "src/assets/gauss-7c0c9cefad64.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/底图.jpg",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-116"
+    },
+    {
+      "id": "gauss-41de24e6cff5",
+      "path": "src/assets/gauss-41de24e6cff5.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo-1280.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-117"
+    },
+    {
+      "id": "gauss-5b50c6a97dfe",
+      "path": "src/assets/gauss-5b50c6a97dfe.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/服务伙伴logo-375.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-118"
+    },
+    {
+      "id": "gauss-a680d30fc03e",
+      "path": "src/assets/gauss-a680d30fc03e.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo920.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-119"
+    },
+    {
+      "id": "gauss-0cd5877d1b35",
+      "path": "src/assets/gauss-0cd5877d1b35.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo-1280.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-120"
+    },
+    {
+      "id": "gauss-b33e7e5ccbed",
+      "path": "src/assets/gauss-b33e7e5ccbed.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/软件伙伴logo-375.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-121"
+    },
+    {
+      "id": "gauss-10aac9511593",
+      "path": "src/assets/gauss-10aac9511593.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo920.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-122"
+    },
+    {
+      "id": "gauss-0b1dfc797967",
+      "path": "src/assets/gauss-0b1dfc797967.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo-1280.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-123"
+    },
+    {
+      "id": "gauss-fccbe22c627f",
+      "path": "src/assets/gauss-fccbe22c627f.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/fuwuhuoban0331/工具伙伴logo-375.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference instance only",
+      "source_id": "SRC-124"
+    },
+    {
+      "id": "official-video-play",
+      "path": "src/assets/official-video-play.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/global/icon-video.svg",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference components",
+      "source_id": "SRC-127"
+    },
+    {
+      "id": "gauss-featured-gradient",
+      "path": "src/assets/gauss-featured-gradient.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/GaussDB26630/蓝色背景.png",
+      "evidence_label": "SOURCE_CONFIRMED",
+      "scope": "GaussDB reference components",
+      "source_id": "SRC-128"
+    },
+    {
+      "id": "waf-hero-icon",
+      "path": "src/assets/waf-hero-icon.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_banner_logo_pc.png",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-case-0",
+      "path": "src/assets/waf-case-0.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_case_pic1_1920px_cn.jpg",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-case-logo-0",
+      "path": "src/assets/waf-case-logo-0.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_case_logo1_web0710.png",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-case-1",
+      "path": "src/assets/waf-case-1.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_case_pic2_1920px_cn.jpg",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-case-logo-1",
+      "path": "src/assets/waf-case-logo-1.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_case_logo2_1920px_cn.png",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-case-2",
+      "path": "src/assets/waf-case-2.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_case_pic3_1920px_cn.jpg",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-case-logo-2",
+      "path": "src/assets/waf-case-logo-2.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_case_logo3_1920px_cn.png",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-final-background",
+      "path": "src/assets/waf-final-background.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_next_bg_1920px.jpg",
+      "source_id": "SRC-048",
+      "scope": "WAF product content asset from cached official page"
+    },
+    {
+      "id": "waf-advantage-0",
+      "path": "src/assets/waf-advantage-0.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration1_1192px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-mobile-0",
+      "path": "src/assets/waf-advantage-mobile-0.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration1_375px_cn_4x.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-1",
+      "path": "src/assets/waf-advantage-1.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration2_1848px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-mobile-1",
+      "path": "src/assets/waf-advantage-mobile-1.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration2_1340px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-2",
+      "path": "src/assets/waf-advantage-2.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration3_1192px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-mobile-2",
+      "path": "src/assets/waf-advantage-mobile-2.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration32_375px_cn_4x.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-3",
+      "path": "src/assets/waf-advantage-3.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration4_1192px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-mobile-3",
+      "path": "src/assets/waf-advantage-mobile-3.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration4_375px_cn_4x.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-4",
+      "path": "src/assets/waf-advantage-4.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration5_1192px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-mobile-4",
+      "path": "src/assets/waf-advantage-mobile-4.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_illustration5_375px_cn_4x.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-advantage-background",
+      "path": "src/assets/waf-advantage-background.png",
+      "mime": "image/png",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_advantage_bg.png",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-solution-0",
+      "path": "src/assets/waf-solution-0.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_solution_pic1_1920px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-solution-1",
+      "path": "src/assets/waf-solution-1.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_solution_pic2_1920px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-solution-2",
+      "path": "src/assets/waf-solution-2.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_solution_pic3_1920px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "waf-solution-3",
+      "path": "src/assets/waf-solution-3.jpg",
+      "mime": "image/jpeg",
+      "source_id": "SRC-048",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/WAF官网公共切图/waf_solution_pic4_1920px_cn.jpg",
+      "scope": "WAF folded advantages/industry solutions; cached official content"
+    },
+    {
+      "id": "solution-arrow-white",
+      "path": "src/assets/solution-arrow-white.svg",
+      "mime": "image/svg+xml",
+      "source_id": "SRC-048",
+      "scope": "WAF solution card/slider arrow from official cached HTML and versioned CSS; dark card arrow variant adapts fill for light cards"
+    },
+    {
+      "id": "solution-arrow-dark",
+      "path": "src/assets/solution-arrow-dark.svg",
+      "mime": "image/svg+xml",
+      "source_id": "SRC-048",
+      "scope": "WAF solution card/slider arrow from official cached HTML and versioned CSS; dark card arrow variant adapts fill for light cards"
+    },
+    {
+      "id": "solution-carousel-arrow",
+      "path": "src/assets/solution-carousel-arrow.svg",
+      "mime": "image/svg+xml",
+      "source_id": "SRC-048",
+      "scope": "WAF solution card/slider arrow from official cached HTML and versioned CSS; dark card arrow variant adapts fill for light cards"
+    },
+    {
+      "id": "cloudrobo-advantage-0",
+      "path": "src/assets/cloudrobo-advantage-0.webp",
+      "mime": "image/webp",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/数据.webp",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-advantage-1",
+      "path": "src/assets/cloudrobo-advantage-1.webp",
+      "mime": "image/webp",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/模型1.webp",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-advantage-2",
+      "path": "src/assets/cloudrobo-advantage-2.webp",
+      "mime": "image/webp",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/评测2.webp",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-advantage-3",
+      "path": "src/assets/cloudrobo-advantage-3.webp",
+      "mime": "image/webp",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/R2C1.webp",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-0",
+      "path": "src/assets/cloudrobo-case-0.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/2.jpg",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-logo-0",
+      "path": "src/assets/cloudrobo-case-logo-0.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/麟动科技.svg",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-1",
+      "path": "src/assets/cloudrobo-case-1.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/大模型/具身智能专区/1.jpg",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-logo-1",
+      "path": "src/assets/cloudrobo-case-logo-1.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/大模型/具身智能专区/案例_logo1_sel.png",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-2",
+      "path": "src/assets/cloudrobo-case-2.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/大模型/具身智能专区/4a.jpg",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-logo-2",
+      "path": "src/assets/cloudrobo-case-logo-2.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/大模型/具身智能专区/案例_logo4_sel.png",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-3",
+      "path": "src/assets/cloudrobo-case-3.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/大模型/具身智能专区/3.jpg",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-case-logo-3",
+      "path": "src/assets/cloudrobo-case-logo-3.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/大模型/具身智能专区/凌云光pc.png",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "cloudrobo-hero-icon",
+      "path": "src/assets/cloudrobo-hero-icon.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/public/具身智能/logo72px.svg",
+      "scope": "CloudRobo transfer test from official HTML cached 2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "developer-banner",
+      "path": "src/assets/developer-banner.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/banner.ee1cf735.jpg",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-banner-codearts",
+      "path": "src/assets/developer-banner-codearts.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/banner2.2f3cab33.jpg",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-practice-0",
+      "path": "src/assets/developer-practice-0.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/AI.54efe36e.png",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-practice-1",
+      "path": "src/assets/developer-practice-1.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/HarmonyOS.1cc4c4d0.png",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-practice-2",
+      "path": "src/assets/developer-practice-2.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agent.adebbc57.png",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-practice-3",
+      "path": "src/assets/developer-practice-3.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/IAC.e5d542b1.png",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-space",
+      "path": "src/assets/developer-space.gif",
+      "mime": "image/gif",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/devspace.b2b3ca14.gif",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-ability",
+      "path": "src/assets/developer-ability.gif",
+      "mime": "image/gif",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agent.845a6c50.gif",
+      "scope": "developer homepage 26.7.278 reference; source-derived media"
+    },
+    {
+      "id": "developer-agents-top",
+      "path": "src/assets/developer-agents-top.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agents-top.74b87a99.svg",
+      "scope": "Developer space source image region"
+    },
+    {
+      "id": "developer-agents-bottom",
+      "path": "src/assets/developer-agents-bottom.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agents-bottom.0e39e63c.svg",
+      "scope": "Developer space source image region"
+    },
+    {
+      "id": "developer-space-background",
+      "path": "src/assets/developer-space-background.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/bg-devspace.a4a753ff.png",
+      "scope": "Developer space source image region"
+    },
+    {
+      "id": "developer-announcement",
+      "path": "src/assets/developer-announcement.svg",
+      "mime": "image/svg+xml",
+      "scope": "Exact announcement icon embedded in developer homepage version26.7.278"
+    },
+    {
+      "id": "footer-social-0",
+      "path": "src/assets/footer-social-0.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wechat.svg",
+      "scope": "Developer shared footer social icon from actual navigation HTML"
+    },
+    {
+      "id": "footer-social-1",
+      "path": "src/assets/footer-social-1.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/csdn.svg",
+      "scope": "Developer shared footer social icon from actual navigation HTML"
+    },
+    {
+      "id": "footer-social-2",
+      "path": "src/assets/footer-social-2.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/bilibili.svg",
+      "scope": "Developer shared footer social icon from actual navigation HTML"
+    },
+    {
+      "id": "footer-social-3",
+      "path": "src/assets/footer-social-3.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wb.svg",
+      "scope": "Developer shared footer social icon from actual navigation HTML"
+    },
+    {
+      "id": "footer-app",
+      "path": "src/assets/footer-app.png",
+      "mime": "image/png",
+      "scope": "Official footer App icon from public developer header/footer CSS1.0.92"
+    },
+    {
+      "id": "developer-ability-mobile",
+      "path": "src/assets/developer-ability-mobile.gif",
+      "mime": "image/gif",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agent-small.152b1839.gif",
+      "scope": "Exact source mobile OpenAbility media; separate lower image region"
+    },
+    {
+      "id": "agentarts-advantage-0",
+      "path": "src/assets/agentarts-advantage-0.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/为什么选择智果动效/智能流畅首帧.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-advantage-mobile-0",
+      "path": "src/assets/agentarts-advantage-mobile-0.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/为什么选择智果动效/移动端-智能流畅.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-advantage-1",
+      "path": "src/assets/agentarts-advantage-1.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/为什么选择智果动效/高性能首帧.jpg",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-advantage-mobile-1",
+      "path": "src/assets/agentarts-advantage-mobile-1.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/为什么选择智果动效/移动端-高性能安全稳定运行时.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-advantage-2",
+      "path": "src/assets/agentarts-advantage-2.jpg",
+      "mime": "image/jpeg",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/为什么选择智果动效/端到端首帧.jpg",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-advantage-mobile-2",
+      "path": "src/assets/agentarts-advantage-mobile-2.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/为什么选择智果动效/移动端-端到端可观测可评估.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-case-0",
+      "path": "src/assets/agentarts-case-0.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/客户案例/温氏封面.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-case-logo-0",
+      "path": "src/assets/agentarts-case-logo-0.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/客户案例/温氏食品选中.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-case-1",
+      "path": "src/assets/agentarts-case-1.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/客户案例/慧通差旅蒙版.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-case-logo-1",
+      "path": "src/assets/agentarts-case-logo-1.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/客户案例/慧通差旅选中.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-case-2",
+      "path": "src/assets/agentarts-case-2.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/客户案例/太平洋保险蒙版.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-case-logo-2",
+      "path": "src/assets/agentarts-case-logo-2.png",
+      "mime": "image/png",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果AgentArts/AgentArts-官网产品页切图/客户案例/太平洋保险选中.png",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "agentarts-hero-icon",
+      "path": "src/assets/agentarts-hero-icon.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/智果.svg",
+      "scope": "AgentArts migration snapshot, cached official source2026-10-10",
+      "evidence_label": "SOURCE_CONFIRMED"
+    },
+    {
+      "id": "process-number-01",
+      "path": "src/assets/process-01_1.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/01_1.svg",
+      "source_id": "SRC-145",
+      "sha256": "8546ccc4183e12c72e08339960ce74734c2f2732dd798821480097298d024057",
+      "scope": "partners process-v2 observed32/24px numbering/arrow; not an arbitrary illustration"
+    },
+    {
+      "id": "process-number-02",
+      "path": "src/assets/process-02_1.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/02_1.svg",
+      "source_id": "SRC-145",
+      "sha256": "f6e49c96b3c5d1769827249249716bdac7a850c9e2e7c1c51c0d7b31c1242c37",
+      "scope": "partners process-v2 observed32/24px numbering/arrow; not an arbitrary illustration"
+    },
+    {
+      "id": "process-number-03",
+      "path": "src/assets/process-03_1.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/03_1.svg",
+      "source_id": "SRC-145",
+      "sha256": "8bb738e8ecbde71c584445de6caab685ef180d57fc22cbdeb5480d5185adc8df",
+      "scope": "partners process-v2 observed32/24px numbering/arrow; not an arbitrary illustration"
+    },
+    {
+      "id": "process-number-04",
+      "path": "src/assets/process-04_2.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/04_2.svg",
+      "source_id": "SRC-145",
+      "sha256": "dfc0a8197933a7c2764353aecd9c379a12c0af7ceb2b651601b168f0d06ecdc4",
+      "scope": "partners process-v2 observed32/24px numbering/arrow; not an arbitrary illustration"
+    },
+    {
+      "id": "process-arrow",
+      "path": "src/assets/process-1691741143788661482.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/1691741143788661482.svg",
+      "source_id": "SRC-145",
+      "sha256": "dbab965b4e04246c223c5bdd3b3c61e4abbc4af4a3a9cf97b153fa3a62ddeac3",
+      "scope": "partners process-v2 observed32/24px numbering/arrow; not an arbitrary illustration"
+    },
+    {
+      "id": "pixso-process-arrow",
+      "path": "src/assets/pixso-process-arrow.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12135",
+      "source_id": "PIX-002",
+      "source_node": "26:12135",
+      "sha256": "39077562ebf6572f0a44f1a3fd20fb39b7107b250ff416032232f6aa1e870ec6",
+      "scope": "Original Pixso process-component export; unchanged SVG, decorative numbering/arrow"
+    },
+    {
+      "id": "pixso-process-number-01",
+      "path": "src/assets/pixso-process-number-01.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12129",
+      "source_id": "PIX-002",
+      "source_node": "26:12129",
+      "sha256": "2e41f1827ca335ffdc1a2570d602a6a47ec2f2ce7135faed0ceb1c5d74fc1521",
+      "scope": "Original Pixso process-component export; unchanged SVG, decorative numbering/arrow"
+    },
+    {
+      "id": "pixso-process-number-02",
+      "path": "src/assets/pixso-process-number-02.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12120",
+      "source_id": "PIX-002",
+      "source_node": "26:12120",
+      "sha256": "59909db8e7f400e8b6980dfdf782086bbd642d8426b7b8920d7d5dafadb05306",
+      "scope": "Original Pixso process-component export; unchanged SVG, decorative numbering/arrow"
+    },
+    {
+      "id": "pixso-process-number-03",
+      "path": "src/assets/pixso-process-number-03.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12111",
+      "source_id": "PIX-002",
+      "source_node": "26:12111",
+      "sha256": "834a5f52323037e96b7a225eb4f0ad81364e0bfde12c161fcf09812287eade0f",
+      "scope": "Original Pixso process-component export; unchanged SVG, decorative numbering/arrow"
+    },
+    {
+      "id": "pixso-process-number-04",
+      "path": "src/assets/pixso-process-number-04.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12099",
+      "source_id": "PIX-002",
+      "source_node": "26:12099",
+      "sha256": "694dce1ee7e26425c8dfe5fbe3d5ceaee4388ef0b98f8cd292461a98b2e7cee6",
+      "scope": "Original Pixso process-component export; unchanged SVG, decorative numbering/arrow"
+    },
+    {
+      "id": "pixso-process-number-05",
+      "path": "src/assets/pixso-process-number-05.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12147",
+      "source_id": "PIX-002",
+      "source_node": "26:12147",
+      "sha256": "eaee2e051a15ed541380dda782e42324817261fc817f09fb0969d9afec925680",
+      "scope": "Original Pixso process-component export; unchanged SVG, decorative numbering/arrow"
+    },
+    {
+      "id": "pixso-process-control-light",
+      "path": "src/assets/pixso-process-control-light.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12153",
+      "source_id": "PIX-002",
+      "source_node": "26:12153",
+      "sha256": "c64eb82a5d39686ccf951ccaaf0dd40b659c95e728014d77ec897165fc384517",
+      "scope": "Original Pixso process SVG export, unchanged; separate light control is used by the light runtime"
+    },
+    {
+      "id": "pixso-process-next",
+      "path": "src/assets/pixso-process-next.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12027",
+      "source_id": "PIX-002",
+      "source_node": "26:12027",
+      "sha256": "e4fbaa3f266dcf9da87d4315c87d2254b09b26fb9e15e3de446feabd6d753eea",
+      "scope": "Original Pixso process SVG export, unchanged; separate light control is used by the light runtime"
+    },
+    {
+      "id": "pixso-process-previous",
+      "path": "src/assets/pixso-process-previous.svg",
+      "mime": "image/svg+xml",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:12032",
+      "source_id": "PIX-002",
+      "source_node": "26:12032",
+      "sha256": "247d054c10f48431a0fd2c5f86816c7808838ed452916a72820ad06af5c7d402",
+      "scope": "Original Pixso process SVG export, unchanged; separate light control is used by the light runtime"
+    },
+    {
+      "id": "pixso-scene-photo",
+      "path": "src/assets/pixso-scene-photo.png",
+      "mime": "image/png",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:3344",
+      "source_id": "PIX-002",
+      "source_node": "26:3344",
+      "sha256": "b4f7e049020440201c3a585ef1e754bf56469c642964557a11d8090f9a19ca3b",
+      "scope": "Unchanged original source image export; no invented business image"
+    },
+    {
+      "id": "pixso-icon-text-shield",
+      "path": "src/assets/pixso-icon-text-shield.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:37295",
+      "scope": "Unmodified original shield icon;56x56 source example; not an invented product identity",
+      "sha256": "2c667b36f9e38a4e0a587c64c1d3b90027ec06a45e84fb0503377caedc736bfc"
+    },
+    {
+      "id": "pixso-faq-question",
+      "path": "src/assets/pixso-faq-question.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:10372",
+      "scope": "Original question icon20x20,decorative before accessible question text",
+      "sha256": "69020819ddb9b8b444546ae11553f82dfabb15ca78d0aefb2cb3acdd54502b28"
+    },
+    {
+      "id": "product-2026-command-background",
+      "path": "src/assets/product-2026-command-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:196248",
+      "scope": "Original520x403 background, exported without content; no synthesized gradient",
+      "sha256": "b7bac69e71fbe7d49e1bb796a60810b31c6df222c01019c468fc3a251dac33ba"
+    },
+    {
+      "id": "product-2026-copy-icon",
+      "path": "src/assets/product-2026-copy-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:196665",
+      "scope": "Original copy icon16x16",
+      "sha256": "cee6d996be9b3307ebc36b07ce5b2a28ce1dbe61392fd8043491bec254b38b18"
+    },
+    {
+      "id": "product-2026-link-arrow",
+      "path": "src/assets/product-2026-link-arrow.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:200338",
+      "scope": "Original floor text link arrow16x16",
+      "sha256": "9859078c26e745c3e99d061ca54246639638af6ebb2e919a9bc3749a41e66b08"
+    },
+    {
+      "id": "product-2026-next-background",
+      "path": "src/assets/product-2026-next-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:65493",
+      "scope": "Historical flattened card reference containing baked text/actions; NOT a valid editable next-step background. Retained for traceability only.",
+      "sha256": "64e702b961845b16ca18840723fc46f119f2654281b5b230c2f98da85cc75125"
+    },
+    {
+      "id": "product-2026-faq-phone",
+      "path": "src/assets/product-2026-faq-phone.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:64585",
+      "scope": "FAQ consultation icon48px",
+      "sha256": "18c53744df806a996f8e28f89bf6c51c9bdc9fc0145bef5135ff01c3fc45100e"
+    },
+    {
+      "id": "product-2026-faq-mail",
+      "path": "src/assets/product-2026-faq-mail.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:64633",
+      "scope": "FAQ consultation icon48px",
+      "sha256": "bb4371cc516d6e16a744d0cc3fd098d8b6d4823d3b0919b10d4468f2a16d641c"
+    },
+    {
+      "id": "product-2026-scenario-training",
+      "path": "src/assets/product-2026-scenario-training.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:60029",
+      "scope": "Scenario background without editable title/action",
+      "sha256": "962c911c9145c4a7c23db2902952167714fbb2ed56e14af33dde0c1563c97802"
+    },
+    {
+      "id": "product-2026-scenario-inference",
+      "path": "src/assets/product-2026-scenario-inference.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:60049",
+      "scope": "Scenario background without editable title/action",
+      "sha256": "cfb97ae61c7b50f46ca447030c1bfc6e4244fa590d261db27123839af55151b3"
+    },
+    {
+      "id": "product-2026-scenario-driving",
+      "path": "src/assets/product-2026-scenario-driving.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:60073",
+      "scope": "Scenario background without editable title/action",
+      "sha256": "1f7bb2748e396baace10f677e9a09210c2fa124d8911fc31ddbea9856582d4b5"
+    },
+    {
+      "id": "product-2026-scenario-science",
+      "path": "src/assets/product-2026-scenario-science.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:60101",
+      "scope": "Scenario background without editable title/action",
+      "sha256": "3ae9d8705e06ca2e7be84ef1e77ffbc59090ce44ecd414b6f69e50f9a2c65560"
+    },
+    {
+      "id": "product-2026-scenario-plus",
+      "path": "src/assets/product-2026-scenario-plus.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:60042",
+      "scope": "Original plus glyph, exported20px per normative target (source example15px)",
+      "sha256": "540e63a42b5c9210d301af1bfb7403dfe791f6eea11bbfff99c13b58565bf73b"
+    },
+    {
+      "id": "product-2026-video-blue",
+      "path": "src/assets/product-2026-video-blue.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:193664",
+      "scope": "2026 video card text-free background",
+      "sha256": "92596640f1f2fdef369f4835b8d4f7282e1c668240952a11c76b60f48d8d388e"
+    },
+    {
+      "id": "product-2026-video-pink",
+      "path": "src/assets/product-2026-video-pink.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:193678",
+      "scope": "2026 video card text-free background",
+      "sha256": "803118f6ef7c6e9de44288de28674a2b676a77513ea7a8d025614a8b10c83a6e"
+    },
+    {
+      "id": "product-2026-video-green",
+      "path": "src/assets/product-2026-video-green.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:193692",
+      "scope": "2026 video card text-free background",
+      "sha256": "87e72b862c13858a04e657304db009c1e44f49f18f522e9f29deb25c622ea992"
+    },
+    {
+      "id": "product-2026-video-play",
+      "path": "src/assets/product-2026-video-play.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:193673",
+      "scope": "Original16px video play icon",
+      "sha256": "c9b48442e3c3b854cc19e89078fccbebd17dc87b3138268d5f56aadaff52159a"
+    },
+    {
+      "id": "product-2026-agent-background",
+      "path": "src/assets/product-2026-agent-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:173145",
+      "scope": "Source agent card illustrative UI/background or identity; main editorial content remains editable",
+      "sha256": "8bf4e69cf0a83dbdc72467fa526ad6d13ac699e8130a8ebfab413553f593dfb1"
+    },
+    {
+      "id": "product-2026-agent-mobile-background",
+      "path": "src/assets/product-2026-agent-mobile-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:178200",
+      "scope": "Source agent card illustrative UI/background or identity; main editorial content remains editable",
+      "sha256": "5dbfb23259df040a89e866d9487faa81b40ca4214682a9f551039701e7cca349"
+    },
+    {
+      "id": "product-2026-agent-icon",
+      "path": "src/assets/product-2026-agent-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:173808",
+      "scope": "Source agent card illustrative UI/background or identity; main editorial content remains editable",
+      "sha256": "9859859a9e8c72de3876b9539e95ff83cfd1c118191419d107edf082454527e6"
+    },
+    {
+      "id": "product-2026-split-photo",
+      "path": "src/assets/product-2026-split-photo.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:56775",
+      "scope": "Original application scenario photograph, not a synthesized architecture",
+      "sha256": "02655257598b2d7f5d127f0e444fa349047eaa1498686f21e57561debfc9e50f"
+    },
+    {
+      "id": "product-2026-folded-desktop",
+      "path": "src/assets/product-2026-folded-desktop.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:155603",
+      "scope": "Original desktop folding floor media rectangle; editable text remains DOM",
+      "sha256": "cb89c30d090a5158d54a1cf092e1790bda393626874738d58ee4502d87156c99"
+    },
+    {
+      "id": "product-2026-folded-mobile",
+      "path": "src/assets/product-2026-folded-mobile.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:156203",
+      "scope": "Original separately uploaded mobile image, image-only branch",
+      "sha256": "f9b26173ff44ca09c9b04db91fe2d4792e06ed0767f07f99553fc1b6313cc52a"
+    },
+    {
+      "id": "product-2026-news-feature",
+      "path": "src/assets/product-2026-news-feature.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:161114",
+      "scope": "Original source news lead background including source gradient, editable headline is not flattened",
+      "sha256": "6255c3f5a5e36384e13df304b978fe8b7ccdfe2e67ed623ebffb858a71a465cf"
+    },
+    {
+      "id": "product-2026-news-thumb",
+      "path": "src/assets/product-2026-news-thumb.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:160988",
+      "scope": "Original optional 190x110 news thumbnail",
+      "sha256": "8328c6b337166d24803c3b142160a8a3d75a837c58a2bce5b78d462596f31302"
+    },
+    {
+      "id": "product-2026-assistant-magic",
+      "path": "src/assets/product-2026-assistant-magic.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:156639",
+      "scope": "Source recommended-question icon",
+      "sha256": "0fb3defa8da3e4b73992b3c3712d29184c825b8e422765cf1edd60f8fa2458eb"
+    },
+    {
+      "id": "product-2026-hover-default",
+      "path": "src/assets/product-2026-hover-default.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:73318",
+      "scope": "Visible original text-free source image; prior hidden-ancestor export was all transparent",
+      "sha256": "0305351918e269205e4c2d2ebc47be5b4670b60b2f14de69c9959d8eccc255ff"
+    },
+    {
+      "id": "product-2026-hover-expanded",
+      "path": "src/assets/product-2026-hover-expanded.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:73291",
+      "scope": "Actual hover expanded background without editable text; cover crop follows card",
+      "sha256": "085208086edf8d96309a92adec34829e8e848671fd51997fb31134d8a6498b42"
+    },
+    {
+      "id": "product-2026-demo-main",
+      "path": "src/assets/product-2026-demo-main.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:79616",
+      "scope": "Source demo application screen; its UI is intentionally presented as media, not implemented as business UI",
+      "sha256": "fd459642f558046997bc79e0b6514a720302622086d70f8cc1990bbf7b139039"
+    },
+    {
+      "id": "product-2026-case-photo",
+      "path": "src/assets/product-2026-case-photo.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:61426",
+      "scope": "Original customer case photograph, not editable business text",
+      "sha256": "fd1b4a1243c784011fb2f2adf7a6942565b4489b5f5304e6c5586d66e4d97031"
+    },
+    {
+      "id": "product-2026-case-logo-1",
+      "path": "src/assets/product-2026-case-logo-1.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:61414",
+      "scope": "Original customer logo for source layout verification",
+      "sha256": "623460ba79358fb758af9c0c4fc56732e32a1518eb74514844723c4f648ede77"
+    },
+    {
+      "id": "product-2026-case-logo-2",
+      "path": "src/assets/product-2026-case-logo-2.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:61420",
+      "scope": "Original customer logo for source layout verification",
+      "sha256": "dc2b2ad117d20722d4e3aab2be40272e4fc573e93e0dc198a82458233158f024"
+    },
+    {
+      "id": "product-2026-case-logo-3",
+      "path": "src/assets/product-2026-case-logo-3.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:61421",
+      "scope": "Original customer logo for source layout verification",
+      "sha256": "ff5816ad6f503d41d8f8001b96ec9530a5c04b0e1f3aa5b427c676ac82e63a1f"
+    },
+    {
+      "id": "product-2026-wide-background",
+      "path": "src/assets/product-2026-wide-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:200528",
+      "scope": "Original1200x600 horizontal carousel background, no editable copy",
+      "sha256": "a94bd4e089dbf3c024f0d20e3d490a11907945c9b71837e5637d8810539c5e37"
+    },
+    {
+      "id": "product-2026-carousel-scene-0",
+      "path": "src/assets/product-2026-carousel-scene-0.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:197516",
+      "scope": "Original520x640 multi-scene background without editable content",
+      "sha256": "f56da28a36299bff877f871370b7d2ebaf1c593ac862629864d14b4f4269637d"
+    },
+    {
+      "id": "product-2026-carousel-scene-1",
+      "path": "src/assets/product-2026-carousel-scene-1.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:197526",
+      "scope": "Original520x640 multi-scene background without editable content",
+      "sha256": "b4983d98c20fcc0695054e2d10a0c6f0091464010ef0fd4772d545577c166b32"
+    },
+    {
+      "id": "product-2026-carousel-scene-2",
+      "path": "src/assets/product-2026-carousel-scene-2.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:197570",
+      "scope": "Original520x640 multi-scene background without editable content",
+      "sha256": "2368f0e9712a33395adb9005049b6533a666ba31f713a5aea8d53afffd934271"
+    },
+    {
+      "id": "product-2026-model-image-0",
+      "path": "src/assets/product-2026-model-image-0.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:202049",
+      "scope": "Original model catalog image without title and card body text",
+      "sha256": "85c06ef483b07725788fe9b9bdff58672433feac284f61685c4fbcb3ac53350e"
+    },
+    {
+      "id": "product-2026-model-image-1",
+      "path": "src/assets/product-2026-model-image-1.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:202052",
+      "scope": "Original model catalog image without title and card body text",
+      "sha256": "6fa24710b04a1aa59d128b5f6d0f8ffaa2b892d24c1e5c256101138fe9f240a2"
+    },
+    {
+      "id": "product-2026-banner-background",
+      "path": "src/assets/product-2026-banner-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:69333",
+      "scope": "Visible original text-free source image; prior hidden-ancestor export was all transparent",
+      "sha256": "709b0c0011e04c953b1a457f65e824500bb871ea9c017d8743daa1d08a4fdab4"
+    },
+    {
+      "id": "product-v1-cloudsite-icon",
+      "path": "src/assets/product-v1-cloudsite-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:22339",
+      "scope": "source-only64px CloudSite icon; editable copy excluded",
+      "sha256": "6b5cef02a963e6b4deeef46815155956bf6efa5f7c4b476a99d92ff66f468770"
+    },
+    {
+      "id": "product-v1-speaker-photo",
+      "path": "src/assets/product-v1-speaker-photo.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:35717",
+      "scope": "portrait only; editable guest name/introduction excluded",
+      "sha256": "9815473e589adc749727a86188f5511a01bb5f427882a645628cbd11bd6d6e66"
+    },
+    {
+      "id": "product-v1-speaker-mobile-photo",
+      "path": "src/assets/product-v1-speaker-mobile-photo.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:36683",
+      "scope": "independent H5 portrait crop and background; editable copy excluded",
+      "sha256": "09977acc920f42d3315c5c10874f73b65b0b6105534707eda2b5c1907458b017"
+    },
+    {
+      "id": "product-v1-logo-demo",
+      "path": "src/assets/product-v1-logo-demo.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:27830",
+      "scope": "source-only logo without editable floor text or pink annotation rectangle",
+      "sha256": "7f0269f2365f452e9768e36febd2cacaf806b059b1b0e130d06e37e103546ef9"
+    },
+    {
+      "id": "product-v1-photo-wall-large",
+      "path": "src/assets/product-v1-photo-wall-large.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:35525",
+      "scope": "source-only original900x506 large photo crop; editable text excluded",
+      "sha256": "086e583c5b410a72d8175744c9e824128beeaccf952c7a8e4115e1ebc750e357"
+    },
+    {
+      "id": "product-v1-photo-wall-small",
+      "path": "src/assets/product-v1-photo-wall-small.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:35487",
+      "scope": "source photo-only small crop",
+      "sha256": "47f8a400eb098d5a22ed5e9f3eedd7fcec0d442b09886074e7120445b2019f7a"
+    },
+    {
+      "id": "product-v1-search-icon",
+      "path": "src/assets/product-v1-search-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:31458",
+      "scope": "source magnifier only",
+      "sha256": "277ba3594d589b90a5e2941d2810b8456cad3afe4e60ee9b959f5c0cfd95adf2"
+    },
+    {
+      "id": "product-v1-quote-avatar",
+      "path": "src/assets/product-v1-quote-avatar.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:6627",
+      "scope": "source guest photo only; editable quote/name/role excluded",
+      "sha256": "ad8dc2629da4cc6bde2b08f3a567c4eb08a6da930ea763a216eaec2d643ea6d2"
+    },
+    {
+      "id": "product-v1-quote-portrait",
+      "path": "src/assets/product-v1-quote-portrait.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:6636",
+      "scope": "source guest photo only; editable quote/name/role excluded",
+      "sha256": "6bb43a1ec08118075c2e4b93e5a885b5c870e91bc5c27c5ca97df9f1c113a6d8"
+    },
+    {
+      "id": "product-v1-quote-mobile",
+      "path": "src/assets/product-v1-quote-mobile.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:6889",
+      "scope": "source guest photo only; editable quote/name/role excluded",
+      "sha256": "1691601a62cdc364030c56fb6cbbacfff9e85bda21ca9a8c896bd3a856528c90"
+    },
+    {
+      "id": "product-v1-publication-image",
+      "path": "src/assets/product-v1-publication-image.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:5880",
+      "scope": "source certificate/book-style image only, not editable floor copy",
+      "sha256": "73a951b34140bc6257fd003bc41afe0d5a09a9b2f12490fd86ce4068cf0ce6a3"
+    },
+    {
+      "id": "product-v1-folded-image",
+      "path": "src/assets/product-v1-folded-image.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=135:34349",
+      "scope": "Source Flexus media only; editable titles/body excluded",
+      "sha256": "32c36da562d7fec19baf37cac12580c9caf004f7a8fee8b49e3015aeb99f4aae"
+    },
+    {
+      "id": "product-v1-live-poster",
+      "path": "src/assets/product-v1-live-poster.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:4221",
+      "scope": "Original video poster photo only; native controls and copy excluded",
+      "sha256": "495fb3f6c5423577db56969b77590873b6e0e5243205e20586f795028bcd83d3"
+    },
+    {
+      "id": "product-v1-advantage-image",
+      "path": "src/assets/product-v1-advantage-image.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:22845",
+      "scope": "Original source illustration only; editable card copy and tags excluded",
+      "sha256": "8a7a146aad8bbc1aa997b937db79f6fb652fe44b7b11c7607a3ca346693f9123"
+    },
+    {
+      "id": "product-v1-advantage-mobile",
+      "path": "src/assets/product-v1-advantage-mobile.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:23143",
+      "scope": "Original source illustration only; editable card copy and tags excluded",
+      "sha256": "8bc6fc04bf20e0a5b28573cebecd6a97a8db4b74a3238dfbe7cfeaa8bda91be3"
+    },
+    {
+      "id": "product-v1-advantage-mobile-tags",
+      "path": "src/assets/product-v1-advantage-mobile-tags.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:23174",
+      "scope": "Original source illustration only; editable card copy and tags excluded",
+      "sha256": "1574990630a01a2b10234792e0303e696426fbdb8d8a5639e6a6049d6ef4c44d"
+    },
+    {
+      "id": "product-v1-case-background",
+      "path": "src/assets/product-v1-case-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:5065",
+      "scope": "Original source photo/logo only; editable case titles/copy excluded",
+      "sha256": "96f470f69d3287871554c78c0c31d414aa5e07144558dbbf3f75bca2c1b59cbe"
+    },
+    {
+      "id": "product-v1-case-logo",
+      "path": "src/assets/product-v1-case-logo.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:5232",
+      "scope": "Original source photo/logo only; editable case titles/copy excluded",
+      "sha256": "0cea1b7a996aefcaf66b3fdf00feb3bf04e7f6c47515e0833fe03f9ab2a65059"
+    },
+    {
+      "id": "product-v1-activity-icon",
+      "path": "src/assets/product-v1-activity-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:33749",
+      "scope": "Original48px activity icon only; text and card background excluded",
+      "sha256": "75ca3f66da5455dacce5b0945a29c10966b114821d90e0d3ce60088ff0dc00c5"
+    },
+    {
+      "id": "product-v1-solution-photo",
+      "path": "src/assets/product-v1-solution-photo.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:28247",
+      "scope": "Original recommendation photo/icon only; editable headings/copy excluded",
+      "sha256": "4f39dc22de6a25332f74d8108128c26727b4de981c74ab95fa35ccc301875467"
+    },
+    {
+      "id": "product-v1-solution-icon",
+      "path": "src/assets/product-v1-solution-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:28169",
+      "scope": "Original recommendation photo/icon only; editable headings/copy excluded",
+      "sha256": "b7272de85825d8049f0ea033027eab723a849f7fcad897fee94cc4bc4002d6e8"
+    },
+    {
+      "id": "product-v1-session-icon",
+      "path": "src/assets/product-v1-session-icon.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:37793",
+      "scope": "Original36px session icon only; card text excluded",
+      "sha256": "6d8c7d6f06d4ec12242f77916f23f00eb033126346b5ef1b511646cad707fdb9"
+    },
+    {
+      "id": "product-v1-live-preview-background",
+      "path": "src/assets/product-v1-live-preview-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:7414",
+      "scope": "Original banner wave artwork only; editable stream title/time/buttons excluded",
+      "sha256": "6a3f51604092adba358179c87f781699a407675384e48669cab6c9c4c257b84f"
+    },
+    {
+      "id": "product-v1-mosaic-square",
+      "path": "src/assets/product-v1-mosaic-square.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:38656",
+      "scope": "Original background illustration only; editable card heading/description excluded",
+      "sha256": "a592ae6471a7635c1abab1f7c4b9bc5ce176749ed24391967e24fbbce6da3508"
+    },
+    {
+      "id": "product-v1-mosaic-mobile",
+      "path": "src/assets/product-v1-mosaic-mobile.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:38825",
+      "scope": "Original background illustration only; editable card heading/description excluded",
+      "sha256": "662465a361030a20f900aee4360a34f5ca2a18ab0ded4d84f6d9fa348de771c6"
+    },
+    {
+      "id": "product-v1-benefits-chart",
+      "path": "src/assets/product-v1-benefits-chart.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=16:41179",
+      "scope": "Visible source bar chart only; red annotation canvas and hidden alternative graphics excluded; original surrounding whitespace not included",
+      "sha256": "f1b29be07ca2a106dc6bf79abae23819956ba39e590c2b5554faffb7d8d30825"
+    },
+    {
+      "id": "product-v1-ai-architecture-background",
+      "path": "src/assets/product-v1-ai-architecture-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=1279:40646",
+      "scope": "Source card background media only; card title/kicker/secondary entries excluded",
+      "sha256": "44002db5eb3d886ae451c898930099006680d07f13da2294946800b5bc997e02"
+    },
+    {
+      "id": "product-v1-ai-architecture-mobile",
+      "path": "src/assets/product-v1-ai-architecture-mobile.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=1279:41447",
+      "scope": "Source card background media only; card title/kicker/secondary entries excluded",
+      "sha256": "730f3f214f47deff17432ef11312a64a5b895d537d0e2b565c969ba9c51b7b3c"
+    },
+    {
+      "id": "product-v1-information-image",
+      "path": "src/assets/product-v1-information-image.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=134:98",
+      "scope": "Source event poster/media only; editable card headings/body/buttons/status excluded",
+      "sha256": "6d3890068a24dcf54566c9c318c9bbfbe98f0e53cdfba5d7b1bf1339f6ca6834"
+    },
+    {
+      "id": "product-v1-information-mobile",
+      "path": "src/assets/product-v1-information-mobile.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=134:936",
+      "scope": "Source event poster/media only; editable card headings/body/buttons/status excluded",
+      "sha256": "6a52f34d979b16137b900c422101b6ecbabc321b110da199ca32bb6e3b197ac2"
+    },
+    {
+      "id": "product-v1-report-cover",
+      "path": "src/assets/product-v1-report-cover.png",
+      "mime": "image/png",
+      "source_id": "PIX-002",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=30:34381",
+      "scope": "Source analyst report cover only; editable title/date/description/actions excluded",
+      "sha256": "ce0cb0bd1ae9907bd9f3b949f1fc3f51d37635f44ac508ca95f87fe6643238aa"
+    },
+    {
+      "id": "foundation-2026-elb",
+      "path": "src/assets/foundation-2026-elb.png",
+      "mime": "image/png",
+      "source_id": "PIX-007",
+      "source_url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:2338",
+      "scope": "Original icon only, no annotations or editor grid; Elastic Load Balance service symbol",
+      "sha256": "ffd418f67270343fa42a9b5df9a176eead7d0850ebb50184d36fef06b3fca15e"
+    },
+    {
+      "id": "foundation-2026-user",
+      "path": "src/assets/foundation-2026-user.png",
+      "mime": "image/png",
+      "source_id": "PIX-007",
+      "source_url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:2321",
+      "scope": "Original icon only, no annotations or editor grid; User actor in architecture diagrams",
+      "sha256": "bc988ff146a7c97675986b1c1ce76d05d661b8c25d95760919fb1253cd2b8640"
+    },
+    {
+      "id": "foundation-2026-query",
+      "path": "src/assets/foundation-2026-query.png",
+      "mime": "image/png",
+      "source_id": "PIX-007",
+      "source_url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:3212",
+      "scope": "Original icon only, no annotations or editor grid; Command/query entry line icon",
+      "sha256": "838e46ed9c9130dced38e42a732181cc3f636245de62288f2c4860e84526cc92"
+    },
+    {
+      "id": "product-2026-next-clean-background",
+      "path": "src/assets/product-2026-next-clean-background.png",
+      "mime": "image/png",
+      "source_id": "PIX-001",
+      "source_url": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:65495",
+      "scope": "Pure original background subgroup exported from Pixso; no text/button siblings. Not redrawn.",
+      "sha256": "4f14d3dc913f01131b34122612802db117d7fd93962470d0408293a626716533"
+    },
+    {
+      "id": "product-v1-live-status",
+      "path": "src/assets/product-v1-live-status.svg",
+      "mime": "image/svg+xml",
+      "source_id": "PIX-002",
+      "source_node": "26:7491",
+      "source_url": "https://pixso.cn/app/design/AnKaOlIL6H1GEhIQeH4mrQ?item-id=26:7491",
+      "scope": "Original9x10 live status icon, no reconstruction"
+    },
+    {
+      "id": "developer-space-static-first-frame",
+      "path": "src/assets/developer-space-static-first-frame.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/devspace.b2b3ca14.gif",
+      "scope": "Owner2026-10-23 explicitly permitted original GIF first-frame extraction; no redraw or pixel change; reduced motion only",
+      "originalAsset": "developer-space",
+      "frameIndex": 0,
+      "decodedPixelSha256": "701bce9f51b7eeaa521972f0657133b12a1886a055b86bf55922933a966cb417"
+    },
+    {
+      "id": "developer-ability-static-first-frame",
+      "path": "src/assets/developer-ability-static-first-frame.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agent.845a6c50.gif",
+      "scope": "Owner2026-10-23 explicitly permitted original GIF first-frame extraction; no redraw or pixel change; reduced motion only",
+      "originalAsset": "developer-ability",
+      "frameIndex": 0,
+      "decodedPixelSha256": "3b41817bf37495ab9eabff03db1bf64be31f9c479d976e900a95ce979f54f8e7"
+    },
+    {
+      "id": "developer-ability-mobile-static-first-frame",
+      "path": "src/assets/developer-ability-mobile-static-first-frame.png",
+      "mime": "image/png",
+      "source_url": "https://res-hd.hc-cdn.cn/HDCloudDesktopPortal-New/26.7.278/static/img/agent-small.152b1839.gif",
+      "scope": "Owner2026-10-23 explicitly permitted original GIF first-frame extraction; no redraw or pixel change; reduced motion only",
+      "originalAsset": "developer-ability-mobile",
+      "frameIndex": 0,
+      "decodedPixelSha256": "4ce3f3acd22e56a49388a08456032a27294aa6ee60df7251e29edec7d6eda47f"
+    }
+  ]
+}

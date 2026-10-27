@@ -1,0 +1,97 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "pattern/pix-001-2-52886/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "sourceId": "pix-001-2-52886",
+    "floorId": null,
+    "actualPassedCases": [
+      {
+        "name": "2026-navigation/native-Enter-opens-child",
+        "date": "2026-10-24T13:59:49.462Z",
+        "scope": "Native Enter opens real child menu"
+      },
+      {
+        "name": "2026-navigation/native-Escape-restores-trigger",
+        "date": "2026-10-24T13:59:49.484Z",
+        "scope": "Native Escape closes child menu and restores exact trigger"
+      },
+      {
+        "name": "2026-navigation/nested-Escape-one-level",
+        "date": "2026-10-24T14:00:43.877Z",
+        "scope": "First Escape returns to inner trigger and retains More panel"
+      },
+      {
+        "name": "2026-navigation/second-Escape-closes-more",
+        "date": "2026-10-24T14:00:43.902Z",
+        "scope": "Second native Escape closes outer More"
+      },
+      {
+        "name": "2026-navigation/native-pointer-hover",
+        "date": "2026-10-24T14:00:43.936Z",
+        "scope": "Real CDP pointer move because locator API has no hover method"
+      },
+      {
+        "name": "2026-navigation/native-pointer-leave",
+        "date": "2026-10-24T14:00:43.969Z",
+        "scope": "Unfocused pointer leave closes source menu"
+      },
+      {
+        "name": "2026-navigation/outside-pointer-close",
+        "date": "2026-10-24T14:01:04.361Z",
+        "scope": "Real pointer outside observed nav closes menu"
+      },
+      {
+        "name": "2026-navigation/phone-first-click-opens",
+        "date": "2026-10-24T14:01:04.694Z",
+        "scope": "375px click does not get preopened/closed by mouseenter"
+      },
+      {
+        "name": "2026-navigation/phone-CTA-explicit-hide",
+        "date": "2026-10-24T14:01:04.707Z",
+        "scope": "Configured2026 mobileActions=hide honored"
+      }
+    ],
+    "historicalObservations": [],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-interactions-v20.json",
+    "wholeSourceApproval": false,
+    "scope": "Only listed native keys, pointer actions, timer/media and configured local fixture branches. No blanket all-state, source-visual, screen-reader, physical-touch, real-browser-zoom, production service or owner approval."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/pattern--pix-001-2-52886--runtime_interaction.json",
+    "recordSha256": "f9bb6118a164ddfbcee2cfc50c5d8e65efc3482f19f23ce69c63d81ac4c44c9e",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/pattern--pix-001-2-52886--runtime_interaction.json",
+    "sha256": "63d85a717d21574ec9ce18d01f2c5bd8657f5e840e1b018a092b94459377c80a"
+  }
+}

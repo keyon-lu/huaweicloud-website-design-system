@@ -1,0 +1,1857 @@
+{
+  "onlineId": "ONLINE-09",
+  "fileKey": "ygNFBUEgOGMfkkBP6obOTg",
+  "url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=4:1323",
+  "sourceId": "PIX-007",
+  "fileName": "图标规范",
+  "localSource": "基础样式规范2026/图标规范.pix",
+  "archiveSha256": "2f89d99959cd3cb7f85dc641d904dcb62539a9fb551af1777fad1460ad9633ea",
+  "onlineRead": "verified-directory-and-normative-rule-text",
+  "correspondence": "Public page rule text checked online, with inherited instance text included; no claim of whole-file byte/style/image identity",
+  "ownerIssuePolicy": "collect questions and continue independent construction; conflicting branches remain scoped pending; no silent approvals",
+  "pages": [
+    {
+      "pageId": "0:1",
+      "name": "页面 1",
+      "path": "页面 1",
+      "url": "https://pixso.cn/app/design/ygNFBUEgOGMfkkBP6obOTg?item-id=0:1",
+      "frames": [
+        "4:1323"
+      ],
+      "designNotes": [
+        {
+          "text": "72px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:1414",
+            "I4:1514;2:3768",
+            "I4:2968;2:3762"
+          ]
+        },
+        {
+          "text": "圆角16px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:1416",
+            "4:2970"
+          ]
+        },
+        {
+          "text": "不得小于2px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:1430",
+            "4:2979"
+          ]
+        },
+        {
+          "text": "48x48px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:1431",
+            "4:2980"
+          ]
+        },
+        {
+          "text": "默认图标大小为72px，倒角为16px，倒角随尺寸压缩变化而缩放",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:1436",
+            "4:2951"
+          ]
+        },
+        {
+          "text": "主体图形到圆角矩形背景外边缘的距离不得小于2px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:1441"
+          ]
+        },
+        {
+          "text": "主体图形区域默认大小为48x48px，但可根据图标形状的特殊性适当增加视觉重量，确保图标视觉整体感受的一致性，但主图形到外轮廓的距离不得小于2px；主体图形颜色根据服务的类别选取色板中的颜色（线性渐变），投影值采用对应颜色的20%-25%（纯色）",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:1451"
+          ]
+        },
+        {
+          "text": "采用APP化的形态设计，图标结合业务属性表达含义，质感趋于统一，配色上可进行差异化表达。\n使用场景：产品页banner、精选推荐、建议搭配使用等需要用到产品服务图标的场景。\n备注：多个服务以分类列表形式展示在同一个页面时，不显示图标（如顶部产品下拉导航）。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:1459"
+          ]
+        },
+        {
+          "text": "88px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I4:1515;2:3768"
+          ]
+        },
+        {
+          "text": "40px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I4:1516;2:3768"
+          ]
+        },
+        {
+          "text": "32px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I4:1517;2:3768"
+          ]
+        },
+        {
+          "text": "24px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I4:1518;2:3768"
+          ]
+        },
+        {
+          "text": "图标放在非白色背景上\n背景色：纯色（#FFFFFF）\n描边：无\n背景投影：纯色（X:0 | Y:8 | Blur:6 | #999999 Alpha 25%），PEP配置时有多个投影色值，建议选择灰色投影，切图时不需要\n图形颜色：线性渐变（根据图标色板及语义）\n图形投影：无",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:1704"
+          ]
+        },
+        {
+          "text": "华为云知识湖存储LMS，用于存储、检索、分析多维向量数据。支持百亿向量、TOP 100毫秒级检索。LMS不仅能为大模型提供外部知识库，提高知识回答准确性，还可应用于推荐系统、自然语言处理等领域",
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "sourceNodeIds": [
+            "4:1981"
+          ]
+        },
+        {
+          "text": "架构图里公共性图标尺寸28*28px,根据具体图形语意来确定图标形态，推荐面性，\n可根据图标形状的特殊性适当增加视觉重量，确保图标视觉整体感受的一致性",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:2057"
+          ]
+        },
+        {
+          "text": "28px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:2124",
+            "4:2128",
+            "4:2217",
+            "4:2221"
+          ]
+        },
+        {
+          "text": "不得大于2px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:2136",
+            "4:2234"
+          ]
+        },
+        {
+          "text": "26x26px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:2137",
+            "4:2235"
+          ]
+        },
+        {
+          "text": "架构图里产品服务图标等比缩放到28*28px,使用服务图标中的图形",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:2144"
+          ]
+        },
+        {
+          "text": "容器服务：\n统一镜像管理\n统一容器集群管理\n自动弹性伸缩\n基于VPC混合云互联",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 18
+          },
+          "sourceNodeIds": [
+            "4:2494"
+          ]
+        },
+        {
+          "text": "颜色统一用蓝色（#1476FF）\n若服务图标的图形为线性，在架构图内使用时建议转为面性图标展示（如ELB）",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:2798"
+          ]
+        },
+        {
+          "text": "反白主体图形区域默认大小为48x48px，但可根据图标形状的特殊性适当增加视觉重量，确保图标视觉整体感受的一致性",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:2954"
+          ]
+        },
+        {
+          "text": "主体图形则采用反白和微色彩结合的设计，且外轮廓应使用圆角，圆角大小不做限制，根据具体图形语意来确定",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:2957"
+          ]
+        },
+        {
+          "text": "反白主体图形到圆角矩形背景外边缘的距离不得小于2px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:2960"
+          ]
+        },
+        {
+          "text": "默认为72px，采用APP化的形态设计，结合实际业务进行多色渐变手法和质感上的艺术化表达，主体图形则采用反白和微色彩结合的设计，根据视觉最佳效果处理即可。\n使用场景：首页导航、解决方案产品页、购买页、解决方案控制台的了解与购买",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:3074"
+          ]
+        },
+        {
+          "text": "使用线性图标，要求32*32px的安全尺寸，图标粗细1px，颜色#191919（绘制规格与系统图标一致，圆角等比例放大）。\n使用场景（控制台/官网均可用）：适用于首页及子站页面内表达服务能力的图标入口。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:3077"
+          ]
+        },
+        {
+          "text": "默认图标大小为32px，描边粗细 1px ",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3085"
+          ]
+        },
+        {
+          "text": "圆角4px内外圆角依据线条扩展",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3095"
+          ]
+        },
+        {
+          "text": "图标间隙 4px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3100"
+          ]
+        },
+        {
+          "text": "圆角4px\n内外圆角依据线条扩展",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3188"
+          ]
+        },
+        {
+          "text": "官网首页APP图标/H5图标",
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3258"
+          ]
+        },
+        {
+          "text": "按业务的场景切换，采用彩色面性图标，结合主要业务属性，主图形线性图标表达正确意思，质感趋于统一，配色上可进行差异化表达。\n使用场景：华为云官网首页APP及H5",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:3259"
+          ]
+        },
+        {
+          "text": "建议反馈",
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 21
+          },
+          "sourceNodeIds": [
+            "4:3311"
+          ]
+        },
+        {
+          "text": "安全区域为2px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3409"
+          ]
+        },
+        {
+          "text": "32x32px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3410"
+          ]
+        },
+        {
+          "text": "36px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3419"
+          ]
+        },
+        {
+          "text": "默认图标大小为36px\n",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3423"
+          ]
+        },
+        {
+          "text": "图标区域默认大小为36x36px，但可根据图标形状的特殊性适当增加视觉重量，确保图标视觉整体感受的一致性",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3426"
+          ]
+        },
+        {
+          "text": "图标图形则采用反白线性图标和色彩面性图形结合的设计，且外轮廓应使用圆角，圆角大小不做限制，根据具体图形语意来确定",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3429"
+          ]
+        },
+        {
+          "text": "主体图形到矩形透明背景外边缘的安全距离为2px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3432"
+          ]
+        },
+        {
+          "text": "APP其他页面及H5使用",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:3433"
+          ]
+        },
+        {
+          "text": "方形网格是设计图标的基础结构，用作确定整个图标集的线条粗细、比例、形状和位置的基础。网格有助于指导设计决策，有助于确保统一。\n系统图标设计以24px举例，中央20px为绘制活动区域，上下左右各留2px的空隙。图标在20px的活动区域内进行绘制。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:3851"
+          ]
+        },
+        {
+          "text": "2px",
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "I4:3884;2:3701"
+          ]
+        },
+        {
+          "text": "正方形：长宽18px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3889"
+          ]
+        },
+        {
+          "text": "圆形：长宽20px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3890"
+          ]
+        },
+        {
+          "text": "横长方形：长20px、宽16px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3891"
+          ]
+        },
+        {
+          "text": "竖长方形：长16px、宽20px",
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:3892"
+          ]
+        },
+        {
+          "text": "64px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4137"
+          ]
+        },
+        {
+          "text": "72px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4138"
+          ]
+        },
+        {
+          "text": "88px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4139"
+          ]
+        },
+        {
+          "text": "48px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4140"
+          ]
+        },
+        {
+          "text": "32px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4141"
+          ]
+        },
+        {
+          "text": "16px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4142"
+          ]
+        },
+        {
+          "text": "24px",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4159"
+          ]
+        },
+        {
+          "text": "图标元素的固定标准尺寸如下，不得超出限定范围，在不同区块和场景酌情使用。线型图标：16px描边为1px，其他尺寸则等比例放大（优势图标除外）。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4167"
+          ]
+        },
+        {
+          "text": "若图标形状特殊，需要添加额外的视觉重量实现图标的一致性，绘制区域可以延伸到空隙区域内，但图标的任何部分都应保持在16px大小的范围之内。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4207"
+          ]
+        },
+        {
+          "text": "主要分为官网产品服务图标、官网产品架构图图标、官网解决方案图标、线性图标、圆形彩色图标、官网首页H5/APP图标，在此基础上可以延展出其他应用于不同大小的场景的图标。但延展需保证相似含义的图标形状一致，对外传递统一的图标含义。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4267"
+          ]
+        },
+        {
+          "text": "华为云H5图标",
+          "fontSize": 18,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "sourceNodeIds": [
+            "4:4471"
+          ]
+        },
+        {
+          "text": "在界面布局时，基于空间、排版等因素，可通过图标来代替文本作为操作入口，图标作为增加排版美观的点缀等不同目的合理使用。",
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "sourceNodeIds": [
+            "4:4538"
+          ]
+        }
+      ],
+      "sourceTextNodeCount": 366,
+      "typographySamples": [
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4610
+          },
+          "sampleNodeIds": [
+            "4:1781",
+            "4:2255",
+            "4:2252",
+            "4:1465",
+            "4:1726",
+            "4:1463",
+            "4:1520",
+            "4:3051"
+          ],
+          "occurrences": 12
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4609
+          },
+          "sampleNodeIds": [
+            "4:1780",
+            "4:1777",
+            "4:1776",
+            "4:1775",
+            "4:1774",
+            "4:1773",
+            "4:1772",
+            "4:1771"
+          ],
+          "occurrences": 39
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4616
+          },
+          "sampleNodeIds": [
+            "4:1938"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2153",
+            "4:2150",
+            "4:2147",
+            "4:2144",
+            "4:2057",
+            "4:2063",
+            "4:2066",
+            "4:2060"
+          ],
+          "occurrences": 8
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2250",
+            "4:2247",
+            "4:2246",
+            "4:1769",
+            "4:1768",
+            "4:1767",
+            "4:2243",
+            "4:2242"
+          ],
+          "occurrences": 57
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4620
+          },
+          "sampleNodeIds": [
+            "4:1933",
+            "4:1849",
+            "4:1840",
+            "4:1843"
+          ],
+          "occurrences": 4
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4621
+          },
+          "sampleNodeIds": [
+            "4:1932"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1929",
+            "4:1874"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-R-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2027",
+            "4:2024",
+            "4:1991",
+            "4:1998",
+            "4:1981",
+            "4:1987",
+            "4:2048"
+          ],
+          "occurrences": 7
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": null,
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2137",
+            "4:2136",
+            "4:2234",
+            "4:2221",
+            "4:2217",
+            "4:2235",
+            "4:2128",
+            "4:2124"
+          ],
+          "occurrences": 8
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Medium",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 16,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2133",
+            "4:1427",
+            "4:1422",
+            "4:2226",
+            "4:2231",
+            "4:2976",
+            "4:3181",
+            "4:3415"
+          ],
+          "occurrences": 8
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1458",
+            "4:4518",
+            "4:2051",
+            "4:3075",
+            "4:3078",
+            "4:4566",
+            "4:4593",
+            "4:3258"
+          ],
+          "occurrences": 13
+        },
+        {
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 16,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1404",
+            "4:1455",
+            "4:1399",
+            "4:1450",
+            "4:1445",
+            "4:1440",
+            "4:1435",
+            "4:3094"
+          ],
+          "occurrences": 16
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1431",
+            "4:1430",
+            "4:1416",
+            "4:1414",
+            "4:2980",
+            "4:2970",
+            "4:2979",
+            "4:3188"
+          ],
+          "occurrences": 12
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4613
+          },
+          "sampleNodeIds": [
+            "4:1846",
+            "4:1836"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2468",
+            "4:2373",
+            "4:2382",
+            "4:2395",
+            "4:2404",
+            "4:2459"
+          ],
+          "occurrences": 6
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4655
+          },
+          "sampleNodeIds": [
+            "4:2601",
+            "4:2635",
+            "4:2615",
+            "4:2515",
+            "4:2622",
+            "4:2529",
+            "4:2655",
+            "4:2657"
+          ],
+          "occurrences": 14
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4633
+          },
+          "sampleNodeIds": [
+            "4:2393",
+            "4:2418",
+            "4:2380",
+            "4:2402",
+            "4:2371",
+            "4:2406",
+            "4:2466",
+            "4:2470"
+          ],
+          "occurrences": 17
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4624
+          },
+          "sampleNodeIds": [
+            "4:1883"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:2873",
+            "4:2869",
+            "4:2052",
+            "4:2798",
+            "4:3077",
+            "4:3433",
+            "4:4140",
+            "4:4138"
+          ],
+          "occurrences": 16
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4649
+          },
+          "sampleNodeIds": [
+            "4:2421",
+            "4:2333"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4614
+          },
+          "sampleNodeIds": [
+            "4:2497",
+            "4:2494",
+            "4:2493"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-DB-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "value": 30,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1994",
+            "4:1984"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "value": 21,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:3305",
+            "4:3312",
+            "4:3296",
+            "4:3297",
+            "4:3311",
+            "4:3307",
+            "4:3295",
+            "4:3303"
+          ],
+          "occurrences": 41
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 36,
+          "lineHeight": {
+            "value": 54,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1831"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 18,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4471",
+            "4:4516",
+            "4:4380",
+            "4:4461",
+            "4:4314",
+            "4:4353",
+            "4:4407"
+          ],
+          "occurrences": 7
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4598
+          },
+          "sampleNodeIds": [
+            "4:4534",
+            "4:4524",
+            "4:4529"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-DB-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 24,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1990",
+            "4:1986"
+          ],
+          "occurrences": 2
+        },
+        {
+          "fontName": {
+            "family": "HarmonyOS Sans SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "value": 20,
+            "units": "PIXELS"
+          },
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4663
+          },
+          "sampleNodeIds": [
+            "4:3570",
+            "4:3616",
+            "4:3641",
+            "4:3598",
+            "4:3633",
+            "4:3623",
+            "4:3670"
+          ],
+          "occurrences": 7
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "value": 22,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4528",
+            "4:4523",
+            "4:4533"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:3209",
+            "4:3095",
+            "4:3100",
+            "4:3085",
+            "4:3429",
+            "4:3090",
+            "4:3841",
+            "4:3426"
+          ],
+          "occurrences": 15
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4537"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4626
+          },
+          "sampleNodeIds": [
+            "4:1878"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4599
+          },
+          "sampleNodeIds": [
+            "4:4525",
+            "4:4530",
+            "4:4535"
+          ],
+          "occurrences": 3
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4627
+          },
+          "sampleNodeIds": [
+            "4:1877"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4595"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "FZLanTingHeiS-DB-GB",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "value": 42,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1982"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Semibold",
+            "postscript": ""
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4562"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": "HarmonyHeiTi",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": null,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4575",
+            "4:4584",
+            "4:4569",
+            "4:4581",
+            "4:4586",
+            "4:4587",
+            "4:4572",
+            "4:4578"
+          ],
+          "occurrences": 8
+        },
+        {
+          "fontName": {
+            "family": "PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4563"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": {
+            "family": ".PingFang SC",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 36,
+          "lineHeight": {
+            "value": 54,
+            "units": "PIXELS"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:1832"
+          ],
+          "occurrences": 1
+        },
+        {
+          "fontName": null,
+          "fontSize": null,
+          "lineHeight": null,
+          "styleRef": {
+            "sessionID": 4,
+            "localID": 4663
+          },
+          "sampleNodeIds": [
+            "4:3728",
+            "4:3775",
+            "4:3449",
+            "4:3700",
+            "4:3751",
+            "4:3784",
+            "4:3471",
+            "4:3479"
+          ],
+          "occurrences": 12
+        },
+        {
+          "fontName": {
+            "family": "HarmonyHeiTi",
+            "style": "Regular",
+            "postscript": ""
+          },
+          "fontSize": 10,
+          "lineHeight": {
+            "value": 1,
+            "units": "RAW"
+          },
+          "styleRef": null,
+          "sampleNodeIds": [
+            "4:4175",
+            "4:4176",
+            "4:4174",
+            "4:4178",
+            "4:4177"
+          ],
+          "occurrences": 5
+        }
+      ],
+      "stateGroups": [],
+      "viewportEvidence": [
+        {
+          "id": "4:1778",
+          "name": "容器 91334306",
+          "size": {
+            "x": 1440,
+            "y": 3213
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306"
+        },
+        {
+          "id": "4:1907",
+          "name": "19-colorful-fractal-backgrounds 2",
+          "size": {
+            "x": 1440,
+            "y": 770.6151123046875
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 3 / 19-colorful-fractal-backgrounds 2"
+        },
+        {
+          "id": "4:1904",
+          "name": "矩形 1",
+          "size": {
+            "x": 1920,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 3 / 矩形 1"
+        },
+        {
+          "id": "4:1903",
+          "name": "3",
+          "size": {
+            "x": 1440,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 3"
+        },
+        {
+          "id": "4:1800",
+          "name": "13385760-5AC0-40FD-F28C-F27AF0FF9468 1",
+          "size": {
+            "x": 1920,
+            "y": 899
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 1 / Banner / 13385760-5AC0-40FD-F28C-F27AF0FF9468 1"
+        },
+        {
+          "id": "4:1782",
+          "name": "容器 91334304",
+          "size": {
+            "x": 1440,
+            "y": 3130
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304"
+        },
+        {
+          "id": "4:1461",
+          "name": "Text/04正文文本备份 20",
+          "size": {
+            "x": 1440,
+            "y": 110
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 组合 24 / Text/04正文文本备份 20"
+        },
+        {
+          "id": "4:1460",
+          "name": "组合 24",
+          "size": {
+            "x": 1440,
+            "y": 151
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 组合 24"
+        },
+        {
+          "id": "4:1457",
+          "name": "组合 25",
+          "size": {
+            "x": 1440,
+            "y": 115
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 组合 25"
+        },
+        {
+          "id": "4:1521",
+          "name": "容器 91334307",
+          "size": {
+            "x": 1440,
+            "y": 866.76171875
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-14 / 容器 91334307"
+        },
+        {
+          "id": "4:1613",
+          "name": "组合 91335369",
+          "size": {
+            "x": 1440,
+            "y": 284
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-14 / 容器 91334307 / 组合 91335369"
+        },
+        {
+          "id": "4:1519",
+          "name": "image-14",
+          "size": {
+            "x": 1440,
+            "y": 918.830078125
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-14"
+        },
+        {
+          "id": "4:1705",
+          "name": "组合 91335371",
+          "size": {
+            "x": 1440,
+            "y": 240.76171875
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / image-14 / 容器 91334307 / 组合 91335371"
+        },
+        {
+          "id": "4:1325",
+          "name": "官网产品服务图标",
+          "size": {
+            "x": 1440,
+            "y": 5381.84375
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标"
+        },
+        {
+          "id": "4:2870",
+          "name": "组合 91335367",
+          "size": {
+            "x": 840,
+            "y": 110
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 容器 91334312 / 组合 91335367"
+        },
+        {
+          "id": "4:1784",
+          "name": "Banner",
+          "size": {
+            "x": 1920,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 1 / Banner"
+        },
+        {
+          "id": "4:1960",
+          "name": "image 537",
+          "size": {
+            "x": 1440,
+            "y": 599.9998779296875
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 组合 91335429 / image 537"
+        },
+        {
+          "id": "4:4536",
+          "name": "1.0图标",
+          "size": {
+            "x": 1440,
+            "y": 94.066162109375
+          },
+          "path": "页面 1 / 图标规范2.0 / 1.0图标"
+        },
+        {
+          "id": "4:2802",
+          "name": "组合 91335366",
+          "size": {
+            "x": 840,
+            "y": 203.97071838378906
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 容器 91334312 / 组合 91335366"
+        },
+        {
+          "id": "4:1857",
+          "name": "蒙版",
+          "size": {
+            "x": 1920,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 2 / 组合 91334159 / 蒙版"
+        },
+        {
+          "id": "4:1858",
+          "name": "矩形 1",
+          "size": {
+            "x": 1920,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 2 / 组合 91334159 / 蒙版 / 矩形 1"
+        },
+        {
+          "id": "4:1855",
+          "name": "2",
+          "size": {
+            "x": 1440,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 2"
+        },
+        {
+          "id": "4:1856",
+          "name": "组合 91334159",
+          "size": {
+            "x": 1920,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 2 / 组合 91334159"
+        },
+        {
+          "id": "4:2814",
+          "name": "容器 91334310",
+          "size": {
+            "x": 840,
+            "y": 48.00001525878906
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 容器 91334312 / 组合 91335366 / 容器 91334310"
+        },
+        {
+          "id": "4:2885",
+          "name": "官网解决方案图标",
+          "size": {
+            "x": 1440,
+            "y": 1585
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网解决方案图标"
+        },
+        {
+          "id": "4:2803",
+          "name": "容器 91334309",
+          "size": {
+            "x": 840,
+            "y": 48
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 容器 91334312 / 组合 91335366 / 容器 91334309"
+        },
+        {
+          "id": "4:3076",
+          "name": "优势图标",
+          "size": {
+            "x": 1440,
+            "y": 550
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 优势图标"
+        },
+        {
+          "id": "4:1860",
+          "name": "画板 24",
+          "size": {
+            "x": 1600,
+            "y": 18
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 2 / 组合 91334159 / 画板 24"
+        },
+        {
+          "id": "4:4591",
+          "name": "容器 91334782",
+          "size": {
+            "x": 1440,
+            "y": 591.49072265625
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334782"
+        },
+        {
+          "id": "4:3844",
+          "name": "image 538",
+          "size": {
+            "x": 375,
+            "y": 833.5673828125
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网首页H5图标/APP图标 / 容器 91334548 / image 538"
+        },
+        {
+          "id": "4:3843",
+          "name": "image 537",
+          "size": {
+            "x": 375,
+            "y": 833.0062866210938
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网首页H5图标/APP图标 / 容器 91334548 / image 537"
+        },
+        {
+          "id": "4:3849",
+          "name": "组合 9",
+          "size": {
+            "x": 1440,
+            "y": 88
+          },
+          "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 12 / 组合 9"
+        },
+        {
+          "id": "4:1787",
+          "name": "画板 24",
+          "size": {
+            "x": 1600,
+            "y": 18
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 1 / Banner / 画板 24"
+        },
+        {
+          "id": "4:3886",
+          "name": "Text/04正文文本备份 11",
+          "size": {
+            "x": 1440,
+            "y": 22
+          },
+          "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 12 / 组合 10 / Text/04正文文本备份 11"
+        },
+        {
+          "id": "4:1959",
+          "name": "组合 91335429",
+          "size": {
+            "x": 1440,
+            "y": 599.9998779296875
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 组合 91335429"
+        },
+        {
+          "id": "4:2667",
+          "name": "容器 91334312",
+          "size": {
+            "x": 840,
+            "y": 516.158203125
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网架构图图标 / 容器 91334312"
+        },
+        {
+          "id": "4:3885",
+          "name": "组合 10",
+          "size": {
+            "x": 1440,
+            "y": 273
+          },
+          "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 12 / 组合 10"
+        },
+        {
+          "id": "4:3848",
+          "name": "组合 12",
+          "size": {
+            "x": 1440,
+            "y": 647
+          },
+          "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 12"
+        },
+        {
+          "id": "4:4206",
+          "name": "Text/04正文文本备份 14",
+          "size": {
+            "x": 1440,
+            "y": 22
+          },
+          "path": "页面 1 / 图标规范2.0 / 1.3图标网格、尺寸、角度、权重 / 组合 18 / Text/04正文文本备份 14"
+        },
+        {
+          "id": "4:3845",
+          "name": "image 536",
+          "size": {
+            "x": 375,
+            "y": 833.3333740234375
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网首页H5图标/APP图标 / 容器 91334548 / image 536"
+        },
+        {
+          "id": "4:1783",
+          "name": "1",
+          "size": {
+            "x": 1440,
+            "y": 600
+          },
+          "path": "页面 1 / 图标规范2.0 / 容器 91334305 / 官网产品服务图标 / 容器 91334306 / 容器 91334304 / 1"
+        }
+      ],
+      "adoption": "source-specific rules; current owner decisions override stated conflicts; no newest-file priority",
+      "onlineRuleVerification": {
+        "method": "direct page traversal; complete matching normative text and instance text",
+        "nodeCount": 70,
+        "sourceTextNodeCount": 424,
+        "receiptJob": 15,
+        "scope": "Rule text and resolved note typography; not whole-file visual/style/asset acceptance"
+      }
+    }
+  ],
+  "onlineRulesVerifiedPages": 1
+}

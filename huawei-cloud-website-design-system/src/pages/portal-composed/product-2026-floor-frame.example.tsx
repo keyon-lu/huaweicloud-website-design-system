@@ -1,0 +1,1 @@
+import {React,PortalProduct2026FloorFrame} from 'portal-components';export default function FloorFrameExample(){return <PortalProduct2026FloorFrame id="source-floor-frame" title="产品能力" align="center" background="grey" spacing="normal"><p>将已选的规范内容组件放置在这里。</p></PortalProduct2026FloorFrame>}

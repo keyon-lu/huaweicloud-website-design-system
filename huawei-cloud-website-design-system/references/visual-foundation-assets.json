@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "assets": [
+    {
+      "id": "foundation-2026-elb",
+      "kind": "architecture-service",
+      "meaning": "Elastic Load Balance service symbol",
+      "node": "4:2338",
+      "source": "PIX-007",
+      "visualChecked": true,
+      "exportScale": 2
+    },
+    {
+      "id": "foundation-2026-user",
+      "kind": "architecture-public",
+      "meaning": "User actor in architecture diagrams",
+      "node": "4:2321",
+      "source": "PIX-007",
+      "visualChecked": true,
+      "exportScale": 2
+    },
+    {
+      "id": "foundation-2026-query",
+      "kind": "advantage-icon",
+      "meaning": "Command/query entry line icon",
+      "node": "4:3212",
+      "source": "PIX-007",
+      "visualChecked": true,
+      "exportScale": 2
+    }
+  ],
+  "scope": "Three inspected original icons only, not full2026 icon/illustration library coverage"
+}

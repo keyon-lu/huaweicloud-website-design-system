@@ -1,0 +1,106 @@
+{
+  "kind": "source-alignment-and-text-stress",
+  "date": "2026-10-23",
+  "currentSnapshot": "e510a7929bd90418230154b0858d7d1c5f3d108d6296235a1fa7241aaf2c3461",
+  "currentSnapshotFolder": "storybook-v12",
+  "sourceStyleComparison": {
+    "faq": {
+      "passed": 53,
+      "sourceNode": "PIX-0012:63339",
+      "scope": "Explicit font-size/width rows only; initial3 transient arrow sizes resolved after450ms settle, without component changes"
+    },
+    "nextStep": {
+      "passed": 6,
+      "sourceNode": "PIX-0012:65947",
+      "fixed": "Subtitle1536px16→14 and1280px12→14. Original line-heights preserved; one source role token added. Mobile visible branch explicitly measured."
+    }
+  },
+  "nativeFaq": {
+    "classificationKeyboard": true,
+    "independentDesktopMobileOpenState": true,
+    "phoneFocusVisible": true,
+    "scope": "375px emulated viewport and real keyboard only; no physical touch/soft keyboard/screenreader claim"
+  },
+  "textStress": {
+    "snapshot": "storybook-v11",
+    "sources": 66,
+    "checks": 594,
+    "rootOverflow": 0,
+    "scope": "Default stories at1920/768/320, normal/spacing/200-percent font; NOT browser zoom or complete long-content certification",
+    "controlOverflowCandidateSources": [
+      "pix-001-2-155205",
+      "pix-002-16-30923",
+      "pix-002-12-53827"
+    ],
+    "interpretation": "Decorative +/- span and pagination pseudo-glyphs are included in scaling; anchor preserves full title and source-defined clamping. Candidates retained; no unsupported redesign or global accessibility pass."
+  },
+  "targetedPostFixStress": {
+    "snapshot": "storybook-v12",
+    "sources": 4,
+    "checks": 36,
+    "rootOverflow": 0,
+    "nextStepControlOverflow": 0
+  },
+  "currentStories": {
+    "total": 189,
+    "declaredPlay": 59,
+    "renderOnly": 130,
+    "failures": 0
+  },
+  "protectedPresentation": "43 functions/4 CSS/1781 original tokens unchanged in actual verification",
+  "formalRelease": false,
+  "newOwnerApprovals": 0,
+  "limitations": [
+    "Complete66-source supported-branch visual comparison remains incomplete",
+    "Manual screenreader/physical touch/soft keyboard not executed",
+    "Two contrast combinations remain owner-deferred",
+    "Information mobile image ratio unresolved"
+  ],
+  "evidence": [
+    {
+      "path": "faq-source-comparison-initial.json",
+      "sha256": "1f113cede0f7961965f34993fc75445832dc8c6a58943acc946b24fa67d8dcc7"
+    },
+    {
+      "path": "faq-source-comparison-settled.json",
+      "sha256": "930cdf80bafeda5811214467df4a2215df36462c0ed2e7be20167cd7cbad1f16"
+    },
+    {
+      "path": "next-source-comparison-initial.json",
+      "sha256": "61bb276fab2578d2f9a5b7174dd93bfcfada7046dd05b1918c30d05f39ffdd30"
+    },
+    {
+      "path": "next-source-comparison-fixed-v12.json",
+      "sha256": "468f92031dc2032ca17729666a7f92e86173a9e2094efba5c8ab594872b8ba7a"
+    },
+    {
+      "path": "native-faq-state-isolation.json",
+      "sha256": "f5c80dfc6d141cd9056e9963f8b9dfeef852abe83b2e424cd69b8b9c224da8c4"
+    },
+    {
+      "path": "text-stress-browser-v11.json",
+      "sha256": "882180e02cf92b88233fffe7a975010abb578e1c0fa17891651edd45d9b56ecc"
+    },
+    {
+      "path": "text-stress-targeted-v12.json",
+      "sha256": "b0f692065af3a69559e18c75183b4cc7da6dd7f16b59913ff1372b2d50903614"
+    },
+    {
+      "path": "stories-browser-verified-v12.json",
+      "sha256": "acc9c689d707ed74e86a039b5f60eae4b13b48e5b3843f0c085d51ada8442a08"
+    },
+    {
+      "path": "native-package-variant-isolation.json",
+      "sha256": "37807c290133842762bb41de7f3e15d4bfa786b489dfa1495245dd2561dafcb6"
+    }
+  ],
+  "nativePackage": {
+    "sourceId": "pix-001-2-206776",
+    "snapshot": "storybook-v12",
+    "firstCardPriceUpdate": true,
+    "threeInstancesIsolated": true,
+    "keyboardHomeRestores": true,
+    "disabledActionsStayDisabled": true,
+    "scope": "Local native-select prototype only, not source-custom control or purchasing backend acceptance"
+  }
+}

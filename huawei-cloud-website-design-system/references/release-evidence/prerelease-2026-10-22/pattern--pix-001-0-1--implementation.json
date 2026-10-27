@@ -1,0 +1,29 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-001-0-1/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-001-0-1",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProduct2026FloorFrame",
+        "contract": "references/product-2026-floor-frame.md",
+        "generationKind": null,
+        "validationScripts": [
+          "scripts/verify-family-public-entries.mjs",
+          "scripts/test-pixso-generation.mjs"
+        ],
+        "scope": "source-scoped composable floor heading/spacing with isolated768 mobile typography; full source spacing combinations pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "b4064407ba5d446deabcc41312889bd36637755f394c062a0819854b2c380a43"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

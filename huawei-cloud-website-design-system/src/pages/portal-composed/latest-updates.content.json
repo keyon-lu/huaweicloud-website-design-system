@@ -1,0 +1,45 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "楼层规范验证",
+    "description": "规范验证内容，不是正式业务宣传。"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "latest-updates",
+      "id": "updates",
+      "title": "最新动态",
+      "notice": {
+        "title": "最新动态",
+        "description": "此处为公告验证内容，支持完整换行和独立链接。",
+        "link": {
+          "label": "查看动态",
+          "href": "#updates"
+        }
+      },
+      "items": [
+        {
+          "id": "update-0",
+          "title": "服务能力",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        },
+        {
+          "id": "update-1",
+          "title": "开发支持",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        },
+        {
+          "id": "update-2",
+          "title": "学习资源",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        },
+        {
+          "id": "update-3",
+          "title": "生态协作",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        }
+      ]
+    }
+  ]
+}

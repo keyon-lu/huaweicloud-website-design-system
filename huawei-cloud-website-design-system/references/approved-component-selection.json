@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "rows": [
+    {
+      "purpose": "product.hero",
+      "export": "PortalProductHero",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "product.folded-advantages",
+      "export": "PortalFoldedMedia",
+      "generationKind": "folded-media",
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "product.solutions",
+      "export": "PortalSolutionCards",
+      "generationKind": "solution-cards",
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "product.customer-cases",
+      "export": "PortalCustomerCases",
+      "generationKind": "customer-cases",
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "product.resources",
+      "export": "PortalProductResources",
+      "generationKind": "resources",
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "product.faq",
+      "export": "PortalProductQuestions",
+      "generationKind": "faq",
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "product.final-action",
+      "export": "PortalProductFinalAction",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "shared.header",
+      "export": "PortalHeader",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "shared.footer",
+      "export": "PortalWebsiteFooter",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "developer.banner",
+      "export": "PortalDeveloperBanner",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "developer.practices",
+      "export": "PortalPracticeCarousel",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "developer.skills",
+      "export": "PortalDeveloperSkills",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "developer.space",
+      "export": "PortalDeveloperSpace",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    },
+    {
+      "purpose": "developer.open-ability",
+      "export": "PortalDeveloperOpenAbility",
+      "generationKind": null,
+      "contract": "references/component-contract.md",
+      "selection": "Reuse approved presentation when content relationship matches; retain current schema and mobile behavior; use new sources only for missing structure/explicit new variants"
+    }
+  ],
+  "unknown": "Inspect missing structure; visual foundations then a separately scoped candidate, no automatic substitution"
+}

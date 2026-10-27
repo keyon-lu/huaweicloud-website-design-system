@@ -1,0 +1,305 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "楼层组件组合页面验证",
+    "description": "以下楼层来自各自规范，通过内容配置组合，不是正式业务内容。"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "scene-media",
+      "id": "scenes",
+      "title": "行业实践与业务创新",
+      "description": "按场景与案例图文规范组合的验证楼层。",
+      "navigationLabel": "场景分类",
+      "scrollLabel": "场景内容",
+      "mediumHeadingProfile": "example-36",
+      "mobileImageProfile": "example-160",
+      "items": [
+        {
+          "id": "commerce",
+          "tabLabel": "电商",
+          "title": "场景与案例图文验证",
+          "asset": "pixso-scene-photo",
+          "imageAlt": "原设计稿中的移动电商配图",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "此处为规范组件验证文案，用于检验图文布局、长文案及操作入口。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#scenes"
+                }
+              ]
+            }
+          ],
+          "bullets": [
+            {
+              "segments": [
+                {
+                  "text": "点化内容保持与正文同色，完整展示并支持换行。"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看详情",
+              "href": "#scenes",
+              "variant": "secondary"
+            },
+            {
+              "label": "相关资料",
+              "href": "#scenes",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "tabLabel": "服务",
+          "title": "左图右文与独立手机文案",
+          "asset": "pixso-scene-photo",
+          "imageAlt": "原设计稿中的移动电商配图",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "此处为规范组件验证文案，用于检验图文布局、长文案及操作入口。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#scenes"
+                }
+              ]
+            }
+          ],
+          "bullets": [
+            {
+              "segments": [
+                {
+                  "text": "点化内容保持与正文同色，完整展示并支持换行。"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看详情",
+              "href": "#scenes",
+              "variant": "secondary"
+            },
+            {
+              "label": "相关资料",
+              "href": "#scenes",
+              "variant": "text"
+            }
+          ],
+          "imageSide": "left",
+          "mobileTitle": "手机端独立标题",
+          "mobileParagraphs": [
+            {
+              "segments": [
+                {
+                  "text": "为手机单独配置的场景说明。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "process-flow",
+      "id": "flow",
+      "title": "流程楼层规范验证",
+      "description": "验证用内容，不代表正式业务流程。",
+      "ctaProfile": "example-40",
+      "cta": {
+        "label": "开始体验",
+        "href": "#flow",
+        "variant": "primary"
+      },
+      "flowLabels": {
+        "navigation": "步骤浏览",
+        "previous": "上一步",
+        "next": "下一步",
+        "rangeTemplate": "步骤{start}至{end}，共{total}步"
+      },
+      "items": [
+        {
+          "id": "step-0",
+          "title": "阶段1",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-1",
+          "title": "阶段2",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "阶段3",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "阶段4",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "阶段5",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "learning-links",
+      "id": "learning",
+      "title": "学习与使用",
+      "description": "按原规范组织分类资料。",
+      "items": [
+        {
+          "title": "产品文档",
+          "links": [
+            {
+              "label": "查看文档",
+              "href": "#learning"
+            }
+          ]
+        },
+        {
+          "title": "实践课程",
+          "links": [
+            {
+              "label": "查看课程",
+              "href": "#learning"
+            }
+          ]
+        }
+      ],
+      "mobileItems": [
+        {
+          "label": "产品文档入口",
+          "href": "#learning"
+        },
+        {
+          "label": "实践课程入口",
+          "href": "#learning"
+        }
+      ]
+    }
+  ],
+  "sectionNavigation": [
+    {
+      "label": "行业实践与业务创新",
+      "href": "#scenes"
+    },
+    {
+      "label": "流程楼层规范验证",
+      "href": "#flow"
+    },
+    {
+      "label": "学习与使用",
+      "href": "#learning"
+    }
+  ]
+}

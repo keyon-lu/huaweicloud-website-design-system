@@ -1,0 +1,96 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "2026模型目录验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "model-catalog-2026",
+      "id": "models-2026",
+      "title": "热门模型与调用入口",
+      "background": "grey",
+      "cardBackground": "white",
+      "groups": [
+        {
+          "id": "catalog",
+          "label": "模型目录",
+          "layout": "equal",
+          "imageHeight": 320,
+          "stackSize": 2,
+          "items": [
+            {
+              "id": "model-0",
+              "title": "模型能力示例 1",
+              "description": "验证模型目录与调用入口，不代表具体模型能力声明。",
+              "image": "product-2026-model-image-0",
+              "actionsVisibility": "hover",
+              "tags": [
+                {
+                  "text": "模型服务",
+                  "color": "default"
+                }
+              ],
+              "actions": [
+                {
+                  "label": "了解模型",
+                  "href": "#models-2026",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "model-1",
+              "title": "模型能力示例 2",
+              "description": "验证模型目录与调用入口，不代表具体模型能力声明。",
+              "image": "product-2026-model-image-1",
+              "actionsVisibility": "hover",
+              "tags": [
+                {
+                  "text": "模型服务",
+                  "color": "default"
+                }
+              ],
+              "actions": [
+                {
+                  "label": "了解模型",
+                  "href": "#models-2026",
+                  "variant": "secondary"
+                }
+              ]
+            },
+            {
+              "id": "model-2",
+              "title": "模型能力示例 3",
+              "description": "验证模型目录与调用入口，不代表具体模型能力声明。",
+              "image": "product-2026-model-image-0",
+              "actionsVisibility": "hover",
+              "tags": [
+                {
+                  "text": "模型服务",
+                  "color": "default"
+                }
+              ],
+              "actions": [
+                {
+                  "label": "了解模型",
+                  "href": "#models-2026",
+                  "variant": "secondary"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "actions": "模型入口",
+        "tabs": "模型分类",
+        "previousTab": "前一分类",
+        "nextTab": "后一分类",
+        "previous": "前一组模型",
+        "next": "后一组模型",
+        "track": "模型卡片"
+      }
+    }
+  ]
+}

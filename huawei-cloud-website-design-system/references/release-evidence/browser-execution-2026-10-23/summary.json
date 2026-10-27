@@ -1,0 +1,75 @@
+{
+  "kind": "browser-execution-summary",
+  "date": "2026-10-23",
+  "currentStorySnapshot": "49234f771eac50708acd82aac71e11842fc12c19f02d750837b34bf2a16f0be0",
+  "stories": 189,
+  "declaredPlayPassed": 59,
+  "renderOnly": 130,
+  "storyFailures": 0,
+  "sourceDefaultSnapshot": "0dcd5b6d5f3c953fabdff4873b6abddc1572e6559813638b264d353567f346e7",
+  "sources": 66,
+  "widthsPerSource": 16,
+  "sourceWidths": 1056,
+  "sourceErrors": 0,
+  "sourceOverflowCases": 0,
+  "sourceContrastViolationCases": [
+    "pix-001-2-65031",
+    "pix-002-26-7351"
+  ],
+  "sourceIncompleteCases": [
+    "pix-001-2-200413",
+    "pix-001-2-197076",
+    "pix-001-2-160593",
+    "pix-001-2-156437",
+    "pix-001-2-59964",
+    "pix-001-2-73017",
+    "pix-001-2-70228",
+    "pix-001-2-68093",
+    "pix-002-30-33254",
+    "pix-002-16-33610",
+    "pix-002-30-25360",
+    "pix-002-16-20251",
+    "pix-002-16-20250",
+    "pix-002-16-30923",
+    "pix-002-16-30114",
+    "pix-002-30-28565",
+    "pix-002-26-5013",
+    "pix-002-26-3807",
+    "pix-002-12-2245",
+    "pix-004-7-45657",
+    "pix-004-7-41717"
+  ],
+  "fullPages": 3,
+  "fullPageWidths": 48,
+  "fullPageErrors": 0,
+  "fullPageAxeViolations": 0,
+  "nativeEscape": "video default: passed with trigger focus restored",
+  "fixed": "Only video story harness: dispatch cancel event separately from native Escape, wait for render update. Component unchanged.",
+  "newOwnerApprovals": 0,
+  "manualScreenreader": "not executed",
+  "touchAndSoftKeyboard": "not executed",
+  "sourceVisualApproval": "not asserted",
+  "formalRelease": false,
+  "evidence": [
+    {
+      "path": "stories-browser-initial.json",
+      "sha256": "797f324d22263067a1fe7a98a78d9ae65624f389692f85b18da2bc4e69b8a387"
+    },
+    {
+      "path": "stories-browser-verified-v9.json",
+      "sha256": "2a03e23e9a16870432a5716ce632751294d9440fd677003768185349b08d39fc"
+    },
+    {
+      "path": "responsive-browser-v8.json",
+      "sha256": "a957cf60e08cf23c263870b1b200bcd8823e254fb9e787a761fd36cdbbf45688"
+    },
+    {
+      "path": "native-video-escape.json",
+      "sha256": "3e654d1bbcd19f06cf2ef52e3f27e55314f3a003a085138455bece280ce70971"
+    },
+    {
+      "path": "full-pages-browser-rc3.json",
+      "sha256": "f6c670bdab8ced96917dec6156c5b0bf1eb62ff80ffb0154b1abce6994620bdc"
+    }
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "kind": "owner-correction-browser-check",
+  "date": "2026-10-22",
+  "url": "http://127.0.0.1:6030/owner-corrections.html",
+  "snapshot": "storybook-v8",
+  "rows": [
+    {
+      "id": "pix-002-16-38437",
+      "width": 1920,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "同比缩放槽宽",
+          "ok": true,
+          "actual": {
+            "gap": "16px",
+            "width": 1600
+          }
+        },
+        {
+          "name": "基准方卡比例",
+          "ok": true,
+          "actual": {
+            "width": 656,
+            "height": 656
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-38437",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "同比缩放槽宽",
+          "ok": true,
+          "actual": {
+            "gap": "12.96px",
+            "width": 1296
+          }
+        },
+        {
+          "name": "基准方卡比例",
+          "ok": true,
+          "actual": {
+            "width": 531.359375,
+            "height": 531.359375
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-38437",
+      "width": 1024,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "同比缩放槽宽",
+          "ok": true,
+          "actual": {
+            "gap": "9.62547px",
+            "width": 962.5546875
+          }
+        },
+        {
+          "name": "基准方卡比例",
+          "ok": true,
+          "actual": {
+            "width": 394.640625,
+            "height": 394.640625
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-38437",
+      "width": 769,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "同比缩放槽宽",
+          "ok": true,
+          "actual": {
+            "gap": "7.22859px",
+            "width": 722.859375
+          }
+        },
+        {
+          "name": "基准方卡比例",
+          "ok": true,
+          "actual": {
+            "width": 296.3671875,
+            "height": 296.3671875
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-38437",
+      "width": 768,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-38437",
+      "width": 375,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-38905",
+      "width": 1920,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-38905",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "中屏内距统一40",
+          "ok": true,
+          "actual": "40px"
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-38905",
+      "width": 1024,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-38905",
+      "width": 769,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-38905",
+      "width": 768,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-38905",
+      "width": 375,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-23970",
+      "width": 1920,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "基础三列槽宽24",
+          "ok": true,
+          "actual": "24px"
+        },
+        {
+          "name": "标签22高",
+          "ok": true,
+          "actual": {
+            "width": 64,
+            "height": 22,
+            "font": "12px",
+            "line": "18px",
+            "pad": "2px 8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-23970",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "基础三列槽宽24",
+          "ok": true,
+          "actual": "24px"
+        },
+        {
+          "name": "标签22高",
+          "ok": true,
+          "actual": {
+            "width": 64,
+            "height": 22,
+            "font": "12px",
+            "line": "18px",
+            "pad": "2px 8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-23970",
+      "width": 1024,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "基础三列槽宽24",
+          "ok": true,
+          "actual": "24px"
+        },
+        {
+          "name": "标签22高",
+          "ok": true,
+          "actual": {
+            "width": 64,
+            "height": 22,
+            "font": "12px",
+            "line": "18px",
+            "pad": "2px 8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-23970",
+      "width": 769,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "基础三列槽宽24",
+          "ok": true,
+          "actual": "24px"
+        },
+        {
+          "name": "标签22高",
+          "ok": true,
+          "actual": {
+            "width": 64,
+            "height": 22,
+            "font": "12px",
+            "line": "18px",
+            "pad": "2px 8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-23970",
+      "width": 768,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-16-23970",
+      "width": 375,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-30-33254",
+      "width": 1920,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "报告简介最多2行",
+          "ok": true,
+          "actual": "2"
+        }
+      ]
+    },
+    {
+      "id": "pix-002-30-33254",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "报告简介最多2行",
+          "ok": true,
+          "actual": "2"
+        }
+      ]
+    },
+    {
+      "id": "pix-002-30-33254",
+      "width": 1024,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "报告简介最多2行",
+          "ok": true,
+          "actual": "2"
+        }
+      ]
+    },
+    {
+      "id": "pix-002-30-33254",
+      "width": 769,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "报告简介最多2行",
+          "ok": true,
+          "actual": "2"
+        }
+      ]
+    },
+    {
+      "id": "pix-002-30-33254",
+      "width": 768,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-002-30-33254",
+      "width": 375,
+      "overflow": false,
+      "broken": 0,
+      "checks": []
+    },
+    {
+      "id": "pix-001-2-65031",
+      "width": 1920,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        },
+        {
+          "name": "原稿按钮120×40",
+          "ok": true,
+          "actual": {
+            "width": 120,
+            "height": 40
+          }
+        },
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        }
+      ]
+    },
+    {
+      "id": "pix-001-2-65031",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        },
+        {
+          "name": "原稿按钮120×40",
+          "ok": true,
+          "actual": {
+            "width": 120,
+            "height": 40
+          }
+        },
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        }
+      ]
+    },
+    {
+      "id": "pix-001-2-65031",
+      "width": 1024,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        },
+        {
+          "name": "原稿按钮120×40",
+          "ok": true,
+          "actual": {
+            "width": 120,
+            "height": 40
+          }
+        },
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        }
+      ]
+    },
+    {
+      "id": "pix-001-2-65031",
+      "width": 769,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        },
+        {
+          "name": "原稿按钮120×40",
+          "ok": true,
+          "actual": {
+            "width": 120,
+            "height": 40
+          }
+        },
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        }
+      ]
+    },
+    {
+      "id": "pix-001-2-65031",
+      "width": 768,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        },
+        {
+          "name": "原稿按钮120×40",
+          "ok": true,
+          "actual": {
+            "width": 120,
+            "height": 40
+          }
+        },
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        }
+      ]
+    },
+    {
+      "id": "pix-001-2-65031",
+      "width": 375,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        },
+        {
+          "name": "原稿按钮120×40",
+          "ok": true,
+          "actual": {
+            "width": 120,
+            "height": 40
+          }
+        },
+        {
+          "name": "四角相同",
+          "ok": true,
+          "actual": "20px"
+        }
+      ]
+    },
+    {
+      "id": "pix-002-26-7351",
+      "width": 1920,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "固定底部留白",
+          "ok": true,
+          "actual": {
+            "padding": "60px 56px",
+            "outerOverflow": "hidden",
+            "innerOverflow": "auto"
+          }
+        },
+        {
+          "name": "滚动到底仍保留底部留白",
+          "ok": true,
+          "actual": {
+            "actualGap": 60
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 65,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-26-7351",
+      "width": 1440,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "固定底部留白",
+          "ok": true,
+          "actual": {
+            "padding": "32px 24px",
+            "outerOverflow": "hidden",
+            "innerOverflow": "auto"
+          }
+        },
+        {
+          "name": "滚动到底仍保留底部留白",
+          "ok": true,
+          "actual": {
+            "actualGap": 32
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 65,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-26-7351",
+      "width": 1024,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "固定底部留白",
+          "ok": true,
+          "actual": {
+            "padding": "32px 24px",
+            "outerOverflow": "hidden",
+            "innerOverflow": "auto"
+          }
+        },
+        {
+          "name": "滚动到底仍保留底部留白",
+          "ok": true,
+          "actual": {
+            "actualGap": 32
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 65,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-26-7351",
+      "width": 769,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "固定底部留白",
+          "ok": true,
+          "actual": {
+            "padding": "32px 24px",
+            "outerOverflow": "hidden",
+            "innerOverflow": "auto"
+          }
+        },
+        {
+          "name": "滚动到底仍保留底部留白",
+          "ok": true,
+          "actual": {
+            "actualGap": 32
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 65,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 52,
+            "height": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-26-7351",
+      "width": 768,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "固定底部留白",
+          "ok": true,
+          "actual": {
+            "padding": "24px",
+            "outerOverflow": "hidden",
+            "innerOverflow": "auto"
+          }
+        },
+        {
+          "name": "滚动到底仍保留底部留白",
+          "ok": true,
+          "actual": {
+            "actualGap": 24
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 46,
+            "height": 18
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 57,
+            "height": 18
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 46,
+            "height": 18
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 46,
+            "height": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "pix-002-26-7351",
+      "width": 375,
+      "overflow": false,
+      "broken": 0,
+      "checks": [
+        {
+          "name": "固定底部留白",
+          "ok": true,
+          "actual": {
+            "padding": "24px",
+            "outerOverflow": "hidden",
+            "innerOverflow": "auto"
+          }
+        },
+        {
+          "name": "滚动到底仍保留底部留白",
+          "ok": true,
+          "actual": {
+            "actualGap": 24
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 46,
+            "height": 18
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 57,
+            "height": 18
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 46,
+            "height": 18
+          }
+        },
+        {
+          "name": "直播状态标签高度",
+          "ok": true,
+          "actual": {
+            "width": 46,
+            "height": 18
+          }
+        }
+      ]
+    }
+  ],
+  "newOwnerApprovals": 0,
+  "contrast": "pending"
+}

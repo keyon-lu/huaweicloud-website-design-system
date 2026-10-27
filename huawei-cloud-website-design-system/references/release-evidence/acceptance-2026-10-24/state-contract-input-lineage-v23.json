@@ -1,0 +1,30 @@
+{
+  "kind": "derived-state-contract-digest-refresh",
+  "date": "2026-10-25",
+  "beforeBulkSha256": "3b15f16431bbf567226ce48c91066623e552b852078213d1358064d4c0fec70b",
+  "afterBulkSha256": "4e21f818904aa6b1d1cffb5609f72b517dc5ed1c43769f7b69f3915cdbfb1f12",
+  "proof": "references/release-evidence/protected-track-focus-2026-10-25.json",
+  "changes": [
+    {
+      "path": "references/first-release-floor-state-contracts.json",
+      "beforeSha256": "3dbd9f29b5159ebe61bf535209e1e7cb9f413e6c8d6864f7917fc5caab5e1552",
+      "afterSha256": "e42a0bed0b7f3205afa1f552cccd53f7e1b1d7af4df2688edc5319ea575f3437",
+      "onlyChange": "Bulk implementation digest; all named states, transition rules, exclusions and source inspection fields unchanged"
+    },
+    {
+      "path": "references/first-release-floor-family-contracts.json",
+      "beforeSha256": "950de00b632b38283838c1def461d96f946769dd2b69b3dbdac35625f3a81a1b",
+      "afterSha256": "172faf1e5b538b6ff5d947273703ad48a3727814b07e03da53cd230170f6b2a3",
+      "onlyChange": "Bulk implementation digest; all named states, transition rules, exclusions and source inspection fields unchanged"
+    },
+    {
+      "path": "references/first-release-state-media-matrix.json",
+      "beforeSha256": "247a8c1b8156cd2e268a7015141c694e58aee3a2d482708f51f78d069e21dd81",
+      "afterSha256": "1e08c9057837332ee65be40cd514dca2988597d9a25ac8a3ddbcdad65b049832",
+      "onlyChange": "Bulk implementation digest; all named states, transition rules, exclusions and source inspection fields unchanged"
+    }
+  ],
+  "sourceSemanticsChangedByThisRefresh": false,
+  "newApprovals": 0,
+  "formalRelease": false
+}

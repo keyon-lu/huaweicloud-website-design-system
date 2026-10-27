@@ -1,0 +1,105 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "人物引言来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "expert-quote-v1",
+      "title": "人物观点",
+      "background": "grey",
+      "cardBackground": "white",
+      "copyAlign": "left",
+      "paragraphs": [
+        [
+          {
+            "text": "可编辑引言示例："
+          },
+          {
+            "text": "重要文字可加粗。",
+            "strong": true
+          }
+        ],
+        [
+          {
+            "text": "内容与人物图片分别提供，长文保留完整段落。"
+          }
+        ]
+      ],
+      "guest": {
+        "name": "人物姓名示例",
+        "role": "职位介绍示例\n第二行职位",
+        "align": "left"
+      },
+      "id": "v1-quote-portrait",
+      "media": {
+        "kind": "portrait",
+        "asset": "product-v1-quote-portrait",
+        "mobileAsset": "product-v1-quote-mobile",
+        "alt": "来源设计规范中的人物照片"
+      }
+    },
+    {
+      "kind": "expert-quote-v1",
+      "title": "人物观点",
+      "background": "grey",
+      "cardBackground": "white",
+      "copyAlign": "left",
+      "paragraphs": [
+        [
+          {
+            "text": "可编辑引言示例："
+          },
+          {
+            "text": "重要文字可加粗。",
+            "strong": true
+          }
+        ],
+        [
+          {
+            "text": "内容与人物图片分别提供，长文保留完整段落。"
+          }
+        ]
+      ],
+      "guest": {
+        "name": "人物姓名示例",
+        "role": "职位介绍示例\n第二行职位",
+        "align": "left"
+      },
+      "id": "v1-quote-avatar",
+      "media": {
+        "kind": "avatar",
+        "asset": "product-v1-quote-avatar",
+        "alt": "来源头像示例"
+      }
+    },
+    {
+      "kind": "expert-quote-v1",
+      "title": "人物观点",
+      "background": "grey",
+      "cardBackground": "white",
+      "copyAlign": "left",
+      "paragraphs": [
+        [
+          {
+            "text": "可编辑引言示例："
+          },
+          {
+            "text": "重要文字可加粗。",
+            "strong": true
+          }
+        ],
+        [
+          {
+            "text": "内容与人物图片分别提供，长文保留完整段落。"
+          }
+        ]
+      ],
+      "id": "v1-quote-text",
+      "media": {
+        "kind": "none"
+      }
+    }
+  ]
+}

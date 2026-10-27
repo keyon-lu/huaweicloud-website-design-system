@@ -1,0 +1,595 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "楼层组件组合页面验证",
+    "description": "以下楼层来自各自规范，通过内容配置组合，不是正式业务内容。"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "general-banner",
+      "id": "overview",
+      "title": "面向业务场景构建页面",
+      "description": "由已有设计规范楼层组成页面，保留各组件的结构、尺寸和响应式规则。",
+      "mobileTitle": "业务场景与实践",
+      "height": 350,
+      "textWidth": 80,
+      "items": [
+        {
+          "label": "查看资料",
+          "href": "#documents",
+          "variant": "primary"
+        },
+        {
+          "label": "了解动态",
+          "href": "#updates",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "kind": "latest-updates",
+      "id": "updates",
+      "title": "最新动态",
+      "notice": {
+        "title": "最新动态",
+        "description": "此处为公告验证内容，支持完整换行和独立链接。",
+        "link": {
+          "label": "查看动态",
+          "href": "#updates"
+        }
+      },
+      "items": [
+        {
+          "id": "update-0",
+          "title": "服务能力",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        },
+        {
+          "id": "update-1",
+          "title": "开发支持",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        },
+        {
+          "id": "update-2",
+          "title": "学习资源",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        },
+        {
+          "id": "update-3",
+          "title": "生态协作",
+          "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"
+        }
+      ]
+    },
+    {
+      "kind": "icon-text-cards",
+      "id": "capabilities",
+      "title": "能力与支持",
+      "description": "图标文本卡片规范验证内容",
+      "columns": 4,
+      "iconProfile": "example-56",
+      "items": [
+        {
+          "id": "capability-0",
+          "title": "安全能力",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        },
+        {
+          "id": "capability-1",
+          "title": "开发工具",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        },
+        {
+          "id": "capability-2",
+          "title": "服务支持",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        },
+        {
+          "id": "capability-3",
+          "title": "学习资源",
+          "description": "此处为规范验证说明",
+          "asset": "pixso-icon-text-shield",
+          "imageAlt": "",
+          "tag": "HOT",
+          "href": "#capabilities"
+        }
+      ]
+    },
+    {
+      "kind": "scene-media",
+      "id": "scenes",
+      "title": "行业实践与业务创新",
+      "description": "按场景与案例图文规范组合的验证楼层。",
+      "navigationLabel": "场景分类",
+      "scrollLabel": "场景内容",
+      "mediumHeadingProfile": "example-36",
+      "mobileImageProfile": "example-160",
+      "items": [
+        {
+          "id": "commerce",
+          "tabLabel": "电商",
+          "title": "场景与案例图文验证",
+          "asset": "pixso-scene-photo",
+          "imageAlt": "原设计稿中的移动电商配图",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "此处为规范组件验证文案，用于检验图文布局、长文案及操作入口。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#scenes"
+                }
+              ]
+            }
+          ],
+          "bullets": [
+            {
+              "segments": [
+                {
+                  "text": "点化内容保持与正文同色，完整展示并支持换行。"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看详情",
+              "href": "#scenes",
+              "variant": "secondary"
+            },
+            {
+              "label": "相关资料",
+              "href": "#scenes",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "tabLabel": "服务",
+          "title": "左图右文与独立手机文案",
+          "asset": "pixso-scene-photo",
+          "imageAlt": "原设计稿中的移动电商配图",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "此处为规范组件验证文案，用于检验图文布局、长文案及操作入口。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#scenes"
+                }
+              ]
+            }
+          ],
+          "bullets": [
+            {
+              "segments": [
+                {
+                  "text": "点化内容保持与正文同色，完整展示并支持换行。"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看详情",
+              "href": "#scenes",
+              "variant": "secondary"
+            },
+            {
+              "label": "相关资料",
+              "href": "#scenes",
+              "variant": "text"
+            }
+          ],
+          "imageSide": "left",
+          "mobileTitle": "手机端独立标题",
+          "mobileParagraphs": [
+            {
+              "segments": [
+                {
+                  "text": "为手机单独配置的场景说明。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "process-flow",
+      "id": "flow",
+      "title": "流程楼层规范验证",
+      "description": "验证用内容，不代表正式业务流程。",
+      "ctaProfile": "example-40",
+      "cta": {
+        "label": "开始体验",
+        "href": "#flow",
+        "variant": "primary"
+      },
+      "flowLabels": {
+        "navigation": "步骤浏览",
+        "previous": "上一步",
+        "next": "下一步",
+        "rangeTemplate": "步骤{start}至{end}，共{total}步"
+      },
+      "items": [
+        {
+          "id": "step-0",
+          "title": "阶段1",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-1",
+          "title": "阶段2",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "阶段3",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "阶段4",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "阶段5",
+          "paragraphs": [
+            {
+              "segments": [
+                {
+                  "text": "按来源流程规范展示阶段说明。"
+                },
+                {
+                  "text": "查看资料",
+                  "href": "#flow"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "查看阶段",
+              "href": "#flow",
+              "variant": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "learning-links",
+      "id": "learning",
+      "title": "学习与使用",
+      "description": "按原规范组织分类资料。",
+      "items": [
+        {
+          "title": "产品文档",
+          "links": [
+            {
+              "label": "查看文档",
+              "href": "#learning"
+            }
+          ]
+        },
+        {
+          "title": "实践课程",
+          "links": [
+            {
+              "label": "查看课程",
+              "href": "#learning"
+            }
+          ]
+        }
+      ],
+      "mobileItems": [
+        {
+          "label": "产品文档入口",
+          "href": "#learning"
+        },
+        {
+          "label": "实践课程入口",
+          "href": "#learning"
+        }
+      ]
+    },
+    {
+      "kind": "recommended-docs",
+      "id": "documents",
+      "title": "推荐文档",
+      "description": "按资料分类组织的规范验证内容",
+      "bg": "grey",
+      "columns": 3,
+      "mobileEnabled": true,
+      "items": [
+        {
+          "id": "docs-0",
+          "title": "快速入门",
+          "links": [
+            {
+              "label": "开始使用与准备工作",
+              "href": "#documents"
+            },
+            {
+              "label": "开发与部署指南",
+              "href": "#documents"
+            },
+            {
+              "label": "常见问题及排查",
+              "href": "#documents"
+            }
+          ],
+          "more": {
+            "label": "查看全部",
+            "href": "#documents"
+          }
+        },
+        {
+          "id": "docs-1",
+          "title": "最佳实践",
+          "links": [
+            {
+              "label": "开始使用与准备工作",
+              "href": "#documents"
+            },
+            {
+              "label": "开发与部署指南",
+              "href": "#documents"
+            },
+            {
+              "label": "常见问题及排查",
+              "href": "#documents"
+            }
+          ],
+          "more": {
+            "label": "查看全部",
+            "href": "#documents"
+          }
+        },
+        {
+          "id": "docs-2",
+          "title": "常见问题",
+          "links": [
+            {
+              "label": "开始使用与准备工作",
+              "href": "#documents"
+            },
+            {
+              "label": "开发与部署指南",
+              "href": "#documents"
+            },
+            {
+              "label": "常见问题及排查",
+              "href": "#documents"
+            }
+          ],
+          "more": {
+            "label": "查看全部",
+            "href": "#documents"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "faq-list",
+      "id": "questions",
+      "title": "常见问题",
+      "mobileTitle": "常见问题",
+      "description": "规范验证内容，支持逐项展开与富文本链接",
+      "desktopExpanded": false,
+      "items": [
+        {
+          "id": "question-0",
+          "question": "如何开始使用相关能力？",
+          "blocks": [
+            {
+              "tone": "primary",
+              "segments": [
+                {
+                  "text": "此处为主要答案说明。",
+                  "strong": true
+                }
+              ]
+            },
+            {
+              "tone": "secondary",
+              "segments": [
+                {
+                  "text": "此处为补充说明，完整保留正文并支持资料链接。"
+                },
+                {
+                  "text": "查看相关资料",
+                  "href": "#questions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "question-1",
+          "question": "如何选择适合场景的开发资源？",
+          "blocks": [
+            {
+              "tone": "primary",
+              "segments": [
+                {
+                  "text": "此处为主要答案说明。",
+                  "strong": true
+                }
+              ]
+            },
+            {
+              "tone": "secondary",
+              "segments": [
+                {
+                  "text": "此处为补充说明，完整保留正文并支持资料链接。"
+                },
+                {
+                  "text": "查看相关资料",
+                  "href": "#questions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "question-2",
+          "question": "遇到问题时如何获得支持？",
+          "blocks": [
+            {
+              "tone": "primary",
+              "segments": [
+                {
+                  "text": "此处为主要答案说明。",
+                  "strong": true
+                }
+              ]
+            },
+            {
+              "tone": "secondary",
+              "segments": [
+                {
+                  "text": "此处为补充说明，完整保留正文并支持资料链接。"
+                },
+                {
+                  "text": "查看相关资料",
+                  "href": "#questions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sectionNavigation": [
+    {
+      "label": "面向业务场景构建页面",
+      "href": "#overview"
+    },
+    {
+      "label": "最新动态",
+      "href": "#updates"
+    },
+    {
+      "label": "能力与支持",
+      "href": "#capabilities"
+    },
+    {
+      "label": "行业实践与业务创新",
+      "href": "#scenes"
+    },
+    {
+      "label": "流程楼层规范验证",
+      "href": "#flow"
+    },
+    {
+      "label": "学习与使用",
+      "href": "#learning"
+    },
+    {
+      "label": "推荐文档",
+      "href": "#documents"
+    },
+    {
+      "label": "常见问题",
+      "href": "#questions"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "source-visible-hover-profile-correction",
+  "date": "2026-10-26",
+  "sourceArchive": "pixso-intake-2026-10-16/sources/PIX-001/nodes.json",
+  "sourceArchiveSha256": "1c67f372dd752dd20999faebfec9da27f95227eacc744cba5fbb307d31535ff4",
+  "visibleNodes": [
+    "2:73289",
+    "2:74020",
+    "2:74278",
+    "2:74536",
+    "2:74794"
+  ],
+  "hiddenDraftNodes": [
+    "2:73194",
+    "2:73112",
+    "2:73925",
+    "2:74101"
+  ],
+  "tokenValues": {
+    "--hc-t-p26-hover-height": "520px",
+    "--hc-t-p26-hover-height-medium": "450px",
+    "--hc-t-p26-hover-height-small": "375px",
+    "--hc-t-p26-hover-height-tablet": "312.5px",
+    "--hc-t-p26-hover-narrow-medium": "270px",
+    "--hc-t-p26-hover-wide-medium": "524px",
+    "--hc-t-p26-hover-grow-medium": "1.9407407407407407",
+    "--hc-t-p26-hover-narrow-small": "225px",
+    "--hc-t-p26-hover-wide-small": "441px",
+    "--hc-t-p26-hover-grow-small": "1.96",
+    "--hc-t-p26-hover-gap-narrow": "12px",
+    "--hc-t-p26-hover-narrow-tablet": "187.5px",
+    "--hc-t-p26-hover-wide-tablet": "367.5px",
+    "--hc-t-p26-hover-gap-tablet": "10px"
+  },
+  "changes": [
+    {
+      "path": "src/styles/product-2026-hover.css",
+      "beforeSha256": "d74f30501bf736610458767160b665c38332753c081f8f11006ea65f2a914b83",
+      "afterSha256": "7c261d421b190d1a1cb88e1fb470a7d904eb24f22a60629e5d560752d7553704"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-hover/product-2026-hover.css",
+      "beforeSha256": "d74f30501bf736610458767160b665c38332753c081f8f11006ea65f2a914b83",
+      "afterSha256": "7c261d421b190d1a1cb88e1fb470a7d904eb24f22a60629e5d560752d7553704"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20",
+      "afterSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20",
+      "afterSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "8518f3dcf6d6e5dff2073f07ce8186fe704620f4780aaa5adfbcf59735065daa",
+      "afterSha256": "8764725e00b1219ce76d609417c7364222c65fdf048e2e3172e5acc32b3d0416"
+    },
+    {
+      "path": "references/product-2026-hover.md",
+      "beforeSha256": "178e39c1f858feb8bd31b44290ea6c7c6c56f25cf26d1407ceb7bb380ed9bb89",
+      "afterSha256": "4ed9ad5d4ff3752fd6aa1e1a55f500013370d878efd97f40cf833c78f65cad60"
+    }
+  ],
+  "componentJsxChanged": false,
+  "legacyApprovedPresentationChanged": false,
+  "wholeSourceVisualApproval": false,
+  "formalRelease": false
+}

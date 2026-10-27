@@ -1,0 +1,233 @@
+{
+  "kind": "scoped-valid-label-render-continuity",
+  "date": "2026-10-24",
+  "scope": "Empty render content guard only; no valid label render AST, CSS, source dimensions or colors changed",
+  "unchangedFamilyImplementations": 16,
+  "guardOnlyFamily": "label",
+  "normalSourceLabelAstEquivalent": true,
+  "normalPortalLabelAstEquivalent": true,
+  "offlineWholeModuleAstEquivalentAfterGuardRemoval": true,
+  "rows": [
+    {
+      "family": "button",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-button/source-button.tsx",
+          "beforeSha256": "cdcc4648f7a5f75a19aa744fb7a95bee52bdcc7dd78b76f8b9075031ae40b965",
+          "afterSha256": "cdcc4648f7a5f75a19aa744fb7a95bee52bdcc7dd78b76f8b9075031ae40b965",
+          "unchanged": true
+        },
+        {
+          "path": "assets/search-workspace/src/components/source-button/design-actions.tsx",
+          "beforeSha256": "3142b9a118bddf0c21cca4814b20ae6991c3dd6596aa4851bc465a0e32fddc7c",
+          "afterSha256": "3142b9a118bddf0c21cca4814b20ae6991c3dd6596aa4851bc465a0e32fddc7c",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "input",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/search-input/search-input.tsx",
+          "beforeSha256": "0136f5ff2bbcc957c28622d1ff67d23268a43bfe3ed791b81f02444cec1b58a0",
+          "afterSha256": "0136f5ff2bbcc957c28622d1ff67d23268a43bfe3ed791b81f02444cec1b58a0",
+          "unchanged": true
+        },
+        {
+          "path": "assets/search-workspace/src/components/search-input/input-family.tsx",
+          "beforeSha256": "0938732ea11c1beca3b56e30a21ec8292a9fb913f361eadb6c5839fde8d105e3",
+          "afterSha256": "0938732ea11c1beca3b56e30a21ec8292a9fb913f361eadb6c5839fde8d105e3",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "modal",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-modal/source-modal.tsx",
+          "beforeSha256": "079c2e8e3199e3e4a3eb75dc1aac2f82093665fcc304fd0cf9aff84b49813883",
+          "afterSha256": "079c2e8e3199e3e4a3eb75dc1aac2f82093665fcc304fd0cf9aff84b49813883",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "link",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-link/source-link.tsx",
+          "beforeSha256": "7fdd7d54688366a35f13e14d944602c6e632175fbdf7af20c46af9b8b3af1c94",
+          "afterSha256": "7fdd7d54688366a35f13e14d944602c6e632175fbdf7af20c46af9b8b3af1c94",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "breadcrumb",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.tsx",
+          "beforeSha256": "dc658ac3c07d8a9b5656542fe932ee594ac86c141d4ce1723042562af94c959f",
+          "afterSha256": "dc658ac3c07d8a9b5656542fe932ee594ac86c141d4ce1723042562af94c959f",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "label",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-label/source-label.tsx",
+          "beforeSha256": "22fbe30d144d26445739b0a5ca91d29437043b79ea7ddb870b0ef97fa2017b3d",
+          "afterSha256": "5586833ecbf32bbd294a229f4533d4a67893f1f7f6cbc48248fbf0feff6eb43c",
+          "unchanged": false
+        }
+      ]
+    },
+    {
+      "family": "checkbox",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-choice/source-choice.tsx",
+          "beforeSha256": "67160376ad35ecf661a0b95fa24e62537909b9d99e9c2b8ed773ab2f40e94ed4",
+          "afterSha256": "67160376ad35ecf661a0b95fa24e62537909b9d99e9c2b8ed773ab2f40e94ed4",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "collapse",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-collapse/source-collapse.tsx",
+          "beforeSha256": "5d1e8e2c2adb510b3ef4fa8539f05c7d4af59a90dca935200cf1f01308278ee9",
+          "afterSha256": "5d1e8e2c2adb510b3ef4fa8539f05c7d4af59a90dca935200cf1f01308278ee9",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "scrollbar",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-scrollbar/source-scrollbar.tsx",
+          "beforeSha256": "ef3391ad9deaddf7bf901a7fc456358b7842d671ba14416c85fd65c194d5e963",
+          "afterSha256": "ef3391ad9deaddf7bf901a7fc456358b7842d671ba14416c85fd65c194d5e963",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "tab",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-tabs/source-tabs.tsx",
+          "beforeSha256": "b0739acbc7abb17ba6dad10fd773eefd664d162059ed2f6fee815c80487d3855",
+          "afterSha256": "b0739acbc7abb17ba6dad10fd773eefd664d162059ed2f6fee815c80487d3855",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "price",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-price/source-price.tsx",
+          "beforeSha256": "a7217d00d7bf3d34b21e1a97b439fbf6e2037bae1b8d085a774a1b4455e1c8e7",
+          "afterSha256": "a7217d00d7bf3d34b21e1a97b439fbf6e2037bae1b8d085a774a1b4455e1c8e7",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "pagination",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-pagination/source-pagination.tsx",
+          "beforeSha256": "ad0e88f7e74c50668369d1b0175de398db57f056490b51792177fb448dc3521f",
+          "afterSha256": "ad0e88f7e74c50668369d1b0175de398db57f056490b51792177fb448dc3521f",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "countdown",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-countdown/source-countdown.tsx",
+          "beforeSha256": "4c1c28c6ac864b5515347a34cdc88985678bd22a80480194dd2568fc61ced137",
+          "afterSha256": "4c1c28c6ac864b5515347a34cdc88985678bd22a80480194dd2568fc61ced137",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "card",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-card/source-card.tsx",
+          "beforeSha256": "c41b8abd63e416bb6d3a60b16f0daa4d3e5b2c1f0e8e199ca65d9d5d9997927b",
+          "afterSha256": "c41b8abd63e416bb6d3a60b16f0daa4d3e5b2c1f0e8e199ca65d9d5d9997927b",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "tips",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-tips/source-tips.tsx",
+          "beforeSha256": "330028d9ae0f3eaf32c3817cc9f35a540fadd0f6802e76398acf1db4f0ad1b04",
+          "afterSha256": "330028d9ae0f3eaf32c3817cc9f35a540fadd0f6802e76398acf1db4f0ad1b04",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "anchor",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-anchor/source-anchor.tsx",
+          "beforeSha256": "09596fd9614d774408a03ce00ba502d2f8cdd8bb76b84a72f4276b5272db9e6c",
+          "afterSha256": "09596fd9614d774408a03ce00ba502d2f8cdd8bb76b84a72f4276b5272db9e6c",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "family": "fixed-table",
+      "files": [
+        {
+          "path": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.tsx",
+          "beforeSha256": "379e849fcf67e36f76843d7a347109190c8863a84ba144d71811f1ca3c32c566",
+          "afterSha256": "379e849fcf67e36f76843d7a347109190c8863a84ba144d71811f1ca3c32c566",
+          "unchanged": true
+        }
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "family": "label",
+      "path": "assets/search-workspace/src/components/source-label/source-label.tsx",
+      "beforeSha256": "22fbe30d144d26445739b0a5ca91d29437043b79ea7ddb870b0ef97fa2017b3d",
+      "afterSha256": "5586833ecbf32bbd294a229f4533d4a67893f1f7f6cbc48248fbf0feff6eb43c",
+      "unchanged": false
+    }
+  ],
+  "offlineEntry": {
+    "path": "src/components/portal-components.tsx",
+    "beforeSha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+    "afterSha256": "f47e24039a4ca8813b96c5cfccd61ea0d6a3d00dfff482c3d3e20c0485c1dba2"
+  },
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "tokenConsumerMap": {
+    "path": "references/consumer-token-map.json",
+    "beforeSha256": "c5edcf5e5cc55a86e2058b31c6de74d23cfc1ba0371cfe9a183aecc516ec9d7f",
+    "afterSha256": "0144b12da32ee234c376634490fdf194ee57299f402d025b940b09c2a261c994",
+    "onlyDeclaredInputCssDigestChanged": true
+  }
+}

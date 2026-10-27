@@ -1,0 +1,7 @@
+import '@/styles/website-grid.css';
+import React from 'react';import type {Meta,StoryObj} from '@storybook/react-vite';import {expect,within,userEvent} from 'storybook/test';import {SourceLatestUpdates} from './index';
+const sample={"kind": "latest-updates", "id": "updates", "title": "最新动态", "notice": {"title": "最新动态", "description": "此处为公告验证内容，支持完整换行和独立链接。", "link": {"label": "查看动态", "href": "#updates"}}, "items": [{"id": "update-0", "title": "服务能力", "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"}, {"id": "update-1", "title": "开发支持", "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"}, {"id": "update-2", "title": "学习资源", "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"}, {"id": "update-3", "title": "生态协作", "description": "此处为规范验证文案，用于检查不同屏幕下的信息排列与文字换行。"}]} as const;
+const meta={title:'SourceFloors/LatestUpdates',component:SourceLatestUpdates,args:sample,tags:['autodocs'],parameters:{layout:'fullscreen'},decorators:[Story=><div className="hc-page hc-page-product"><Story/></div>]} satisfies Meta<typeof SourceLatestUpdates>;export default meta;
+export const Default:StoryObj<typeof meta>={};
+export const NoticeWithoutTitle:StoryObj<typeof meta>={args:{notice:{description:'不配置标题时文案直接靠左展示。'}}};
+export const LongContent:StoryObj<typeof meta>={args:{notice:{description:'完整保留公告的长文案。'.repeat(20)},items:sample.items.map(i=>({...i,title:i.title.repeat(10),description:i.description.repeat(10)}))}};

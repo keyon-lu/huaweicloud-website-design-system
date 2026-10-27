@@ -1,0 +1,28 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-001-2-199574/implementation",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-001-2-199574",
+    "targets": [
+      {
+        "kind": "component",
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProduct2026TabContainer",
+        "contract": "references/product-2026-tabs.md",
+        "generationKind": null,
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ],
+        "scope": "2026 tab composition container with actual wrap measurement and overflow controls; JSX generation entry; source visual/manual acceptance pending",
+        "entrySha256": "f5c7f5204cec4306530aea8623cdfb40262fcdfb8c19b30a03f7066ce9c234c2",
+        "contractSha256": "1ab55c605e7589befff564dc9c7cfee3857962c063d07de5431ec0f0cdc61ba9"
+      }
+    ],
+    "scope": "Actual implementation target exists and participates in current successful TSX/React compilation and facade equality checks. Source appearance/state acceptance remains separate."
+  }
+}

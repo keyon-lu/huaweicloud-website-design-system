@@ -1,0 +1,248 @@
+{
+  "kind": "current-scoped-acceptance-progress",
+  "date": "2026-10-25",
+  "snapshotId": "e2bf313a5d00a8debf113ba9cdbb4fe60c7961fefda72604c9d137d99735a5f4",
+  "snapshotFolder": "storybook-v22",
+  "engineering": {
+    "groups": 31,
+    "allPassed": true,
+    "observedAt": "2026-10-25T12:01:38.817Z"
+  },
+  "browser": {
+    "stories": 198,
+    "declaredPlay": 65,
+    "renderOnly": 133,
+    "failures": 0
+  },
+  "responsive": {
+    "foundationSamples": 68,
+    "foundationChecks": 1496,
+    "foundationErrors": 0,
+    "foundationRootOverflow": 1,
+    "foundationOverflowExplanation": "Only inert original source-reference inputs at320px/font200%; implementation stories do not overflow. Kept raw evidence; not filtered into a pass.",
+    "floorSources": 66,
+    "floorChecks": 1452,
+    "floorErrors": 0,
+    "floorRootOverflow": 0,
+    "widths": 16,
+    "stressWidths": 3,
+    "actualBrowserZoomTest": false,
+    "floorSnapshot": "storybook-v17",
+    "foundationSnapshot": "storybook-v14; foundation implementation byte continuity toV17 verified"
+  },
+  "contractReviews": {
+    "foundationFamilies": 17,
+    "sourceRecords": 66,
+    "sourceAndFoundationStateDefinitions": 451,
+    "requiredFloorFamilyBindings": 62,
+    "exactSourceBindings": 54,
+    "protectedExistingBindings": 8,
+    "additionalProtectedLegacyStateDefinitions": 22,
+    "completedCheckPositions": 290,
+    "newComponentCount": 0
+  },
+  "gate": {
+    "previousPendingCheckPositions": 550,
+    "currentPendingCheckPositions": 422,
+    "formalGatePassed": false,
+    "remainingByBucket": {
+      "responsive_long_text": 145,
+      "accessibility": 145,
+      "source_visual_comparison": 128,
+      "static-review-133": 1,
+      "creator-release-gates": 1,
+      "priority-design-adoption": 1,
+      "adopted-source-pattern-conversion": 1
+    }
+  },
+  "sourceDecisions": [
+    "Information mobile original groups134:936/975 use343/182; online exports match local evidence.",
+    "Next-step/live source colors preserved; both observed contrast failures remain.",
+    "Choice black/gray current owner correction supersedes historical blue note; not a global blue ban."
+  ],
+  "textCandidateReview": {
+    "video769": "Normal title/duration rectangles fully contained and screenshot verified; internal scrollHeight padding is not evidence of hidden text.",
+    "sourceClamps": [
+      "speaker name/description",
+      "news description",
+      "live-preview title/description",
+      "mosaic description"
+    ],
+    "visuallyHiddenStatuses": [
+      "report-filter",
+      "image-filter",
+      "logo-filter"
+    ],
+    "fontScalingCandidates": [
+      "folded decorative plus/minus",
+      "pagination icon pseudo-elements",
+      "elevator title with full accessible name"
+    ],
+    "boundary": "Retain candidate inventory; no blanket zoom/AT/source-visual pass."
+  },
+  "protectedPresentation": {
+    "protectedFunctions": 43,
+    "protectedCssFiles": 4,
+    "protectedOriginalTokens": 1781,
+    "phaseByteIdenticalFoundationFamilies": 16,
+    "labelNormalRenderAstEquivalent": true,
+    "originalOwnerSampleApprovals": 19,
+    "newOwnerApprovals": 0,
+    "byteIdenticalProtectedFunctions": 42,
+    "focusHelperOnlyRepair": 1,
+    "addedContainmentRule": ".hc-page{overflow-wrap:anywhere}"
+  },
+  "remaining": [
+    "Finish source-by-source visual comparisons for all adopted supported branches; original product/developer owner styles remain protected.",
+    "Finish supported non-default states and per-family text/zoom/keyboard/accessibility coverage; current62-kind long-content run is bounded configured content.",
+    "Real screen reader, physical phone touch/soft keyboard and true browser zoom remain unverified. User has no device records; no approval is fabricated.",
+    "Retain original-source known contrast failures; do not silently restyle them to pass axe.",
+    "Complete current static1.3.3 review and Creator/expanded release gates before formal publication."
+  ],
+  "formalRelease": false,
+  "score": "Last frozen RC7 static review90.2; current changes are not a new formal score.",
+  "updatedDate": "2026-10-25",
+  "nativeInteractions": {
+    "recorded": 166,
+    "passed": 147,
+    "nativePassed": 144,
+    "structuralPassed": 3,
+    "historicalNonPass": 19,
+    "sourceBranches": 66,
+    "floorBindings": 62,
+    "registeredPositions": 128,
+    "allSupportedStatesPassed": false
+  },
+  "videoCorrections": {
+    "decodeFailure": "Non-permission failures remain failed; stale and aborted requests ignored.",
+    "longText": "Original source says unrestricted; card grows naturally using original aspect minimum. Verified1280/375.",
+    "unchangedFoundationImplementations": 17,
+    "newOwnerApprovals": 0
+  },
+  "assistantCountCorrection": {
+    "attributeOnly": "role=group on existing count span",
+    "unchangedCssFiles": 182,
+    "unchangedFoundationFamilies": 17,
+    "currentAutomatedIncomplete": 0,
+    "manualAT": false
+  },
+  "sourceAutomaticScan": {
+    "sources": 66,
+    "widthChecks": 1056,
+    "axeChecks": 132,
+    "renderErrors": 0,
+    "rootOverflowSources": 0,
+    "violationSources": [
+      {
+        "id": "pix-001-2-65031",
+        "name": "下一步"
+      },
+      {
+        "id": "pix-002-26-7351",
+        "name": "直播预告"
+      }
+    ],
+    "incompleteSources": 20,
+    "manualAT": false,
+    "snapshotFolder": "storybook-v19",
+    "scope": "Last full source-default scan remains V19. V20 bounded scroll-control fix and V21 test-only fixture addition are separately proved; not relabelled as a fresh V21 source scan."
+  },
+  "sceneTrackCorrection": {
+    "actualWidths": [
+      1280,
+      954,
+      1920
+    ],
+    "startAndEndControlsPassed": true,
+    "unchangedCssFiles": 182,
+    "unchangedFoundationFamilies": 17
+  },
+  "clipboardBoundary": "Native feedback and tool switching verified; exact OS clipboard roundtrip remains unverified. Bare native reference also cannot independently return contents through this surface.",
+  "localSilentVideo": "Exact browser-loaded2903-byte WebM has one VP8 video track and no audio track; spoken production captions still required separately.",
+  "environmentLimitations": {
+    "realScreenReader": "unverified; owner has no records/devices",
+    "physicalTouch": "unverified",
+    "softKeyboard": "unverified",
+    "realBrowserZoom": "unverified; native shortcut had no effect",
+    "exactClipboardRoundtrip": "unverified",
+    "gatesWaived": false
+  },
+  "currentSupplement": {
+    "snapshot": "storybook-v21",
+    "sourceBranchesWithNamedConfiguredEvidence": 66,
+    "floorBindingsWithNamedConfiguredEvidence": 62,
+    "productImplementationOrCssChanges": 0,
+    "addedHostTestSourceFiles": 1,
+    "additionalBindingsOfExistingDocumentStories": 4,
+    "ownerApprovalsAdded": 0,
+    "remainingFocusObservation": "Old solution track focused next becomes disabled at end; activeElement BODY observed. Functional edge only passed, keyboard continuity remains pending accessibility."
+  },
+  "latestPhase": "2026-10-25-focus-assets-and-long-content",
+  "phaseFixes": [
+    {
+      "issue": "PortalSolutionCards edge control lost keyboard focus",
+      "result": "Fixed only update helper; native checks passed954/1280/1920 and Tab continuation",
+      "wholeAccessibilityApproval": false
+    },
+    {
+      "issue": "Generated live-preview page crashed on missing implicit status asset",
+      "result": "Generator now includes product-v1-live-status and selected authorized GIF first-frame dependencies; all62 configured generation kinds mount",
+      "businessBackendClaim": false
+    },
+    {
+      "issue": "Long indivisible URL text expanded generated page",
+      "result": "Exact inherited overflow-wrap rule, no source color/spacing/dimension changes;32 viewport/content combinations x62 kinds=1984 observations, root/section overflow0"
+    }
+  ],
+  "longContent": {
+    "generationKinds": 62,
+    "modes": [
+      "long Chinese",
+      "long unbreakable URL"
+    ],
+    "requestedWidths": [
+      1920,
+      1905,
+      1776,
+      1775,
+      1440,
+      1026,
+      1025,
+      1024,
+      954,
+      769,
+      768,
+      565,
+      390,
+      376,
+      375,
+      320
+    ],
+    "observations": 1984,
+    "rootOverflow": 0,
+    "sectionOverflow": 0,
+    "intentionalClampsAndSrOnlyRetained": true,
+    "wholeSourceStateOrZoomApproval": false
+  },
+  "normalContainmentContinuity": {
+    "kinds": 62,
+    "widths": 16,
+    "sectionComparisons": 992,
+    "geometryFontColorDifferencesAfterExistingTransitionsSettled": 0,
+    "newOwnerApprovals": 0
+  },
+  "currentInputLineage": {
+    "reboundPreviousBoundedCheckPositions": 744,
+    "preservedPriorRecordArchive": true,
+    "snapshotFiles": 706,
+    "newPassedGatePositions": 0,
+    "currentSnapshot": "references/release-evidence/acceptance-2026-10-24/source-inputs-v23.json",
+    "derivedStateContractDigestBindingsVerified": 128
+  },
+  "realBrowserZoomAttempt": {
+    "verified": false,
+    "iabShortcutProducedZoomChange": false,
+    "desktopChromeAttempt": "Computer Use stopped because it could not determine the current browser URL with sufficient confidence to enforce policy; no further Windows app input issued",
+    "doNotInferFromViewportOrFontScaling": true
+  }
+}

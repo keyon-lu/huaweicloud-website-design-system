@@ -1,0 +1,8 @@
+/* PIX-015 651:6453 / 629:5011; content-driven height, original white card. */
+.source-card.por-card{box-sizing:border-box;display:block;max-width:var(--hc-t-review-54294504b91f);min-width:0;padding:var(--hc-t-review-f05465287895);border:0;border-radius:var(--hc-t-review-f92ca8bb1e38);background:var(--hc-t-review-d74c46160329);box-shadow:none;text-decoration:none;color:var(--hc-t-review-bd7e2f2a89fc);overflow-wrap:anywhere}
+.source-card.por-card .por-card-content{display:flex;flex-direction:column;align-items:center;gap:var(--hc-t-review-540d999cb951);padding:0}
+.source-card.por-card-align-left .por-card-content{align-items:flex-start;text-align:left}
+.source-card-logo{width:var(--hc-t-review-a6ef13524941);height:var(--hc-t-review-e5e0f0455f3c);flex-shrink:0}.source-card-logo>*{width:var(--hc-t-review-cc9cc6e5147d);height:var(--hc-t-review-d568612ea747);object-fit:contain}
+.source-card-copy{width:var(--hc-t-review-cc9cc6e5147d)}.source-card.por-card .por-card-content .source-card-copy .por-text-title-t3{font-size:var(--hc-t-review-705a9c1364ff);line-height:var(--hc-t-review-8e4a8c0e19c0);font-weight:var(--hc-t-review-f949813eb52e);color:var(--hc-t-review-bd7e2f2a89fc);margin:var(--hc-t-review-bf0e9fb3b177)}
+.source-card.por-card .por-card-content .source-card-copy .por-text-body-t1{padding:0;font-size:var(--hc-t-review-956e15892f69);line-height:var(--hc-t-review-0a9f5e0c27cf);color:var(--hc-t-review-766d58ee93a1);margin:0}
+.source-card:focus-visible{outline:var(--hc-t-review-2737de3ab776);outline-offset:var(--hc-t-review-b4e874792632)}

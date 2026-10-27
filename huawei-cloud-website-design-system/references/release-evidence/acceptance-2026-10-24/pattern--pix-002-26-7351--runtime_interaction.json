@@ -1,0 +1,67 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-24",
+  "check": "pattern/pix-002-26-7351/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "sourceId": "pix-002-26-7351",
+    "floorId": "live-preview-v1",
+    "actualPassedCases": [
+      {
+        "name": "live-preview/native-select-upcoming",
+        "date": "2026-10-25T04:18:30.465Z",
+        "scope": "Configured upcoming session selection updates hero; statuses are fixture data, not current real schedule"
+      },
+      {
+        "name": "live-preview/native-local-reservation",
+        "date": "2026-10-25T04:18:57.841Z",
+        "scope": "Native Space marks selected session consistently in hero/card only; explicit local-only notice remains"
+      },
+      {
+        "name": "live-preview/native-local-cancel",
+        "date": "2026-10-25T04:19:10.081Z",
+        "scope": "Native Enter on card cancels same local session in hero and card; does not call a production reservation service"
+      }
+    ],
+    "historicalObservations": [],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-interactions-v20.json",
+    "wholeSourceApproval": false,
+    "scope": "Only listed native keys, pointer actions, timer/media and configured local fixture branches. No blanket all-state, source-visual, screen-reader, physical-touch, real-browser-zoom, production service or owner approval."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/pattern--pix-002-26-7351--runtime_interaction.json",
+    "recordSha256": "4eb06e28fc86569a4cb1baa5ba8c1393883db59b8c85970cf772bbada7a71a5d",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs.json",
+      "sha256": "aebef1e53ebf675c7b1c4bae76724a4f6701652d4a3d71cd29dc9092318e053e"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/pattern--pix-002-26-7351--runtime_interaction.json",
+    "sha256": "17eaacdf6e6cf96bca01855c8a8976bba253eebeb00b1d19239b337455549cfe"
+  }
+}

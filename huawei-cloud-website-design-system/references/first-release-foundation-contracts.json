@@ -1,0 +1,748 @@
+{
+  "kind": "reviewed-foundation-state-contracts",
+  "date": "2026-10-24",
+  "scopeId": "first-release-66-2026-10-22",
+  "authority": "Current component-specific owner correction supersedes earlier source migration notes;17-family finite first release scope retained",
+  "reviewedFamilies": 17,
+  "newOwnerApprovals": 0,
+  "rows": [
+    {
+      "family": "anchor",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-anchor.md",
+      "specSha256": "d7488345d06bc8c6b502c48de18c7aac31453221804432cf010af39eea0e5972",
+      "publicEntry": "assets/search-workspace/src/components/source-anchor/index.ts",
+      "exports": [
+        "SourceAnchorNavigation"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-anchor/source-anchor.tsx",
+          "sha256": "09596fd9614d774408a03ce00ba502d2f8cdd8bb76b84a72f4276b5272db9e6c"
+        }
+      ],
+      "namedStates": [
+        "active-target",
+        "inactive-target",
+        "overflow-before",
+        "overflow-middle",
+        "overflow-after",
+        "phone-hidden"
+      ],
+      "rules": [
+        "owner-approveddesign-80 spacing",
+        "explicit1920/1536/1280 source size profiles",
+        "native local targets, current tracking and keyboard reachability"
+      ],
+      "unsupportedOrHostOwned": [
+        "old gap profiles compatibility only",
+        "no inferred continuous font breakpoints",
+        "not a mobile process carousel"
+      ],
+      "ownerVisualScope": "黑灰文字、2px选中线、80px标准间距；1920/1536/1280三个设计尺寸显式选择，尚未推断连续区间断点。",
+      "ownerStoryIds": [
+        "sourcefamilies-anchornavigation--default"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "breadcrumb",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-breadcrumb.md",
+      "specSha256": "1c23ca3723cff92ddecfd08cdce4f206b565c4d607d354583807b35e26edc124",
+      "publicEntry": "assets/search-workspace/src/components/source-breadcrumb/index.ts",
+      "exports": [
+        "SourceBreadcrumb"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.tsx",
+          "sha256": "dc658ac3c07d8a9b5656542fe932ee594ac86c141d4ce1723042562af94c959f"
+        }
+      ],
+      "namedStates": [
+        "ancestor-link",
+        "current-text",
+        "current-link"
+      ],
+      "rules": [
+        "nonempty ordered path",
+        "named nav and current-page semantics",
+        "long path wraps without separator loss"
+      ],
+      "unsupportedOrHostOwned": [
+        "no intrinsic async/selected/error skin",
+        "not a process-step component"
+      ],
+      "ownerVisualScope": "已列样本；不声称所有长路径和反白场景完成。",
+      "ownerStoryIds": [
+        "sourcefamilies-breadcrumb--matrix",
+        "sourcefamilies-breadcrumb--playground",
+        "sourcefamilies-breadcrumb--long-content"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "button",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-button.md",
+      "specSha256": "9951f5c97bd2f220556d64d2f950e4f053c2cd43ca7fa4a16eb7c5fb848c11c7",
+      "publicEntry": "assets/search-workspace/src/components/source-button/index.ts",
+      "exports": [
+        "SourceButton",
+        "SourceDesignAction"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-button/source-button.tsx",
+          "sha256": "cdcc4648f7a5f75a19aa744fb7a95bee52bdcc7dd78b76f8b9075031ae40b965"
+        },
+        {
+          "path": "assets/search-workspace/src/components/source-button/design-actions.tsx",
+          "sha256": "3142b9a118bddf0c21cca4814b20ae6991c3dd6596aa4851bc465a0e32fddc7c"
+        }
+      ],
+      "namedStates": [
+        "enabled",
+        "disabled",
+        "hover",
+        "focus-visible"
+      ],
+      "rules": [
+        "six source variants and four source sizes",
+        "native Enter/Space activation",
+        "SourceDesignAction text/image-text/link/basic-dropdown"
+      ],
+      "unsupportedOrHostOwned": [
+        "host owns async/loading/error/duplicate submission",
+        "download/menu variants outside adopted sample scope"
+      ],
+      "ownerVisualScope": "原按钮样本已获认可，本次仅复验新增图文、纯文本、链接和基础下拉按钮；未完整覆盖的下载/菜单按钮继续列为缺口。",
+      "ownerStoryIds": [
+        "sourcepilots-sourcebutton--matrix",
+        "sourcepilots-sourcebutton--playground",
+        "sourcepilots-sourcebutton--disabled",
+        "sourcefamilies-button--icon-and-block",
+        "sourcefamilies-button--disabled-activation",
+        "designcorrections-actions--text-and-image",
+        "designcorrections-actions--dropdown"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "card",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-card.md",
+      "specSha256": "f8f39c7481031e924688f5b6278a004154e4b7fec94e0054c3dde0032d88aeae",
+      "publicEntry": "assets/search-workspace/src/components/source-card/index.ts",
+      "exports": [
+        "SourceCard"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-card/source-card.tsx",
+          "sha256": "c41b8abd63e416bb6d3a60b16f0daa4d3e5b2c1f0e8e199ca65d9d5d9997927b"
+        }
+      ],
+      "namedStates": [
+        "static-article",
+        "whole-card-link"
+      ],
+      "rules": [
+        "owner-approved2026-10-21 original logo/card layout",
+        "explicit heading level, title and description",
+        "one navigation action and natural text wrapping"
+      ],
+      "unsupportedOrHostOwned": [
+        "legacy size values are compatibility, not new visual variants",
+        "no nested actions",
+        "not an arbitrary image/product/price floor"
+      ],
+      "ownerVisualScope": "原始GECCO Logo与文案样本：80px Logo、28px图文间距、32/32/40/32px内距；其他业务卡片不得据此自行扩展。",
+      "ownerStoryIds": [
+        "sourcefamilies-card--original-design"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "checkbox",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-choice.md",
+      "specSha256": "d1e272d6ac13a993d3f8b03335fb86a24ec626ce4ef25ebf3b52ccc7f59179a1",
+      "publicEntry": "assets/search-workspace/src/components/source-choice/index.ts",
+      "exports": [
+        "SourceChoice",
+        "SourceChoiceGroup"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-choice/source-choice.tsx",
+          "sha256": "67160376ad35ecf661a0b95fa24e62537909b9d99e9c2b8ed773ab2f40e94ed4"
+        }
+      ],
+      "namedStates": [
+        "unchecked",
+        "checked",
+        "mixed",
+        "disabled",
+        "group-controlled",
+        "group-uncontrolled",
+        "reset",
+        "options-changed",
+        "card-group-collapsed",
+        "card-group-expanded"
+      ],
+      "rules": [
+        "native checkbox/radio; mixed only basic checkbox",
+        "current owner-approved black/gray selected state",
+        "group unique values, fieldset/legend, radio mutual exclusion",
+        "measured row-based expansion, hidden items inert"
+      ],
+      "unsupportedOrHostOwned": [
+        "host owns loading and business empty/error content",
+        "earlier blue source notes do not override owner-approved black/gray"
+      ],
+      "ownerVisualScope": "已列Choice样本；radio属于此实现的选项，不另算完成家族。",
+      "ownerStoryIds": [
+        "sourcereference-choice--card-overflow",
+        "sourcereference-choice--states",
+        "sourcereference-choice--form-reset"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "collapse",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-collapse.md",
+      "specSha256": "01bb8fd09ad1e1093f378eede1da11c305d0a220033ba04421a9ae05bdd8e7e0",
+      "publicEntry": "assets/search-workspace/src/components/source-collapse/index.ts",
+      "exports": [
+        "SourceCollapse",
+        "SourceCollapseGroup"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-collapse/source-collapse.tsx",
+          "sha256": "5d1e8e2c2adb510b3ef4fa8539f05c7d4af59a90dca935200cf1f01308278ee9"
+        }
+      ],
+      "namedStates": [
+        "closed",
+        "open",
+        "disabled",
+        "controlled",
+        "uncontrolled",
+        "cancelled-change",
+        "single-group",
+        "multiple-group"
+      ],
+      "rules": [
+        "Enter/Space and associated region",
+        "same-value requests do not duplicate callbacks",
+        "hidden content retains state and returns focus on collapse",
+        "head/footer/persistent-content are distinct source branches"
+      ],
+      "unsupportedOrHostOwned": [
+        "no jQuery six-stage animation compatibility",
+        "host owns asynchronous content"
+      ],
+      "ownerVisualScope": "已列折叠样本；不代表所有皮肤、嵌套和状态组合完成。",
+      "ownerStoryIds": [
+        "sourcereference-collapse--interaction",
+        "sourcereference-collapse--footer-control"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "countdown",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-countdown.md",
+      "specSha256": "a56b70c0492781dcabf6d862236946b1d03c22f24e2fb0df2b6bf2aa165421c5",
+      "publicEntry": "assets/search-workspace/src/components/source-countdown/index.ts",
+      "exports": [
+        "SourceCountdown"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-countdown/source-countdown.tsx",
+          "sha256": "4c1c28c6ac864b5515347a34cdc88985678bd22a80480194dd2568fc61ced137"
+        }
+      ],
+      "namedStates": [
+        "before-start-hidden",
+        "running",
+        "day-to-hours",
+        "completed",
+        "zero-visible",
+        "page-hidden",
+        "page-restored",
+        "configuration-changed"
+      ],
+      "rules": [
+        "explicit epoch times and unit labels",
+        "completion once per configured deadline",
+        "visibility-based scheduling pause; restore recomputes real time",
+        "live announcements off"
+      ],
+      "unsupportedOrHostOwned": [
+        "not a transaction deadline or server authority",
+        "no invented purchase/loading/error state"
+      ],
+      "ownerVisualScope": "固定时钟/短倒计时用例；无活动后端和线上时钟保证。",
+      "ownerStoryIds": [
+        "sourcefamilies-countdown--fixed",
+        "sourcefamilies-countdown--completion-once",
+        "sourcefamilies-countdown--day-to-hours",
+        "sourcefamilies-countdown--vertical-black"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "fixed-table",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-fixed-table.md",
+      "specSha256": "e0032e8204b2135ffa8b7979f107cac550acc3be3c928a4e2654a01864a896d9",
+      "publicEntry": "assets/search-workspace/src/components/source-fixed-table/index.ts",
+      "exports": [
+        "SourceFixedTable"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.tsx",
+          "sha256": "379e849fcf67e36f76843d7a347109190c8863a84ba144d71811f1ca3c32c566"
+        }
+      ],
+      "namedStates": [
+        "static-data",
+        "striped-data",
+        "scrollable-data",
+        "sticky-header"
+      ],
+      "rules": [
+        "actual table/caption/headers and consistent column count",
+        "unique row/column IDs",
+        "named focusable local scrolling container",
+        "SourceServiceTable is compatibility adapter"
+      ],
+      "unsupportedOrHostOwned": [
+        "no sorting/editing/complex merged cells",
+        "no independent red activity-column or mobile folded skin"
+      ],
+      "ownerVisualScope": "对应1272:22091的1600px六列、八行原始文案、价格及按钮样本。服务表格调用统一到此实现；其余图标/灰底/其他列数变体仍待补齐。",
+      "ownerStoryIds": [
+        "designcorrections-unifiedtable--original-six-column"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "input",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/search-input.md",
+      "specSha256": "b43ebed0c08ba7371641b372b07354655a694695bb9f2fb1c101282ed87fe18f",
+      "publicEntry": "assets/search-workspace/src/components/search-input/index.ts",
+      "exports": [
+        "SearchInput",
+        "SourceInputField",
+        "SourceTextarea",
+        "SourceAutocomplete"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/search-input/search-input.tsx",
+          "sha256": "0136f5ff2bbcc957c28622d1ff67d23268a43bfe3ed791b81f02444cec1b58a0"
+        },
+        {
+          "path": "assets/search-workspace/src/components/search-input/input-family.tsx",
+          "sha256": "0938732ea11c1beca3b56e30a21ec8292a9fb913f361eadb6c5839fde8d105e3"
+        }
+      ],
+      "namedStates": [
+        "editable",
+        "disabled",
+        "readOnly",
+        "invalid",
+        "textarea-limit",
+        "suggestions-open",
+        "suggestions-selected",
+        "suggestions-empty",
+        "suggestions-closed",
+        "IME-composing"
+      ],
+      "rules": [
+        "native field label/error association",
+        "controlled/uncontrolled textarea and native maxLength",
+        "ArrowUp/Down/Enter/Escape and nested-modal first Escape"
+      ],
+      "unsupportedOrHostOwned": [
+        "host owns remote loading/error",
+        "external controlled values are not silently truncated",
+        "real soft keyboard not yet verified"
+      ],
+      "ownerVisualScope": "已列输入样本；尚未覆盖所有输入控件、组合表单和错误组合。",
+      "ownerStoryIds": [
+        "sourcepilots-searchinput--matrix",
+        "sourcefamilies-input--matrix",
+        "sourcepilots-searchinput--playground",
+        "sourcepilots-searchinput--disabled",
+        "sourcefamilies-input--textarea",
+        "sourcefamilies-input--error-field",
+        "sourcefamilies-input--autocomplete"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "label",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-label.md",
+      "specSha256": "104951b670a00f438ed54a5d1fe54c3da4865e312da82160641b89719cdfbc12",
+      "publicEntry": "assets/search-workspace/src/components/source-label/index.ts",
+      "exports": [
+        "SourceLabel"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-label/source-label.tsx",
+          "sha256": "5586833ecbf32bbd294a229f4533d4a67893f1f7f6cbc48248fbf0feff6eb43c"
+        }
+      ],
+      "namedStates": [
+        "static",
+        "disabled",
+        "removable",
+        "remove-disabled",
+        "corner"
+      ],
+      "rules": [
+        "ordinary label is noninteractive",
+        "removal is native named button, parent owns deletion/focus",
+        "medium and source corner dimensions stay distinct"
+      ],
+      "unsupportedOrHostOwned": [
+        "no pressed/selected/loading semantics invented",
+        "corner rejects unsupported icon/removal/disabled combinations",
+        "source low-contrast combinations are not all AA certified"
+      ],
+      "ownerVisualScope": "基础标签保留；新增角标仅覆盖原文件5色、18/24px两尺寸及0/8/16px对角圆角。",
+      "ownerStoryIds": [
+        "sourcereference-label--matrix",
+        "sourcereference-label--interaction",
+        "sourcereference-label--corner-badges"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "link",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-link.md",
+      "specSha256": "cc618a623490f0311616c80fbdf80a43d98915d96abcf3c3f60ed8d7f8c2366f",
+      "publicEntry": "assets/search-workspace/src/components/source-link/index.ts",
+      "exports": [
+        "SourceLink"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-link/source-link.tsx",
+          "sha256": "7fdd7d54688366a35f13e14d944602c6e632175fbdf7af20c46af9b8b3af1c94"
+        }
+      ],
+      "namedStates": [
+        "enabled",
+        "disabled",
+        "hover",
+        "focus-visible"
+      ],
+      "rules": [
+        "native safe href and new-window rel",
+        "disabled span has no href/Tab/callback",
+        "light is local source skin"
+      ],
+      "unsupportedOrHostOwned": [
+        "no intrinsic loading/error/selected state",
+        "host owns actual navigation destination"
+      ],
+      "ownerVisualScope": "已列链接样本；不扩展为所有业务链接行为。",
+      "ownerStoryIds": [
+        "sourcefamilies-link--matrix",
+        "sourcefamilies-link--playground",
+        "sourcefamilies-link--disabled-activation",
+        "sourcefamilies-link--long-content"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "modal",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-modal.md",
+      "specSha256": "393e8cea8c29a920989901416799b78025ee4b194bf2509939404649ee2749c3",
+      "publicEntry": "assets/search-workspace/src/components/source-modal/index.ts",
+      "exports": [
+        "SourceModal"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-modal/source-modal.tsx",
+          "sha256": "079c2e8e3199e3e4a3eb75dc1aac2f82093665fcc304fd0cf9aff84b49813883"
+        }
+      ],
+      "namedStates": [
+        "closed",
+        "open",
+        "initial-focus",
+        "contained-focus",
+        "closing",
+        "restored-focus"
+      ],
+      "rules": [
+        "one controlled active modal",
+        "four source widths and source status-icon axis",
+        "Escape/backdrop/corner/footer close, backdropClose optional",
+        "custom footer must retain named close action"
+      ],
+      "unsupportedOrHostOwned": [
+        "no modal stacking",
+        "no raw HTML/jQuery animation callback compatibility",
+        "host owns business loading/error"
+      ],
+      "ownerVisualScope": "当前对话框分支；不包含所有业务弹窗和动画。",
+      "ownerStoryIds": [
+        "sourcepilots-sourcemodal--playground",
+        "sourcepilots-sourcemodal--middle",
+        "sourcepilots-sourcemodal--close-actions",
+        "sourcepilots-sourcemodal--x-large",
+        "sourcepilots-sourcemodal--large",
+        "sourcepilots-sourcemodal--nested-autocomplete",
+        "sourcepilots-sourcemodal--status-matrix",
+        "sourcepilots-sourcemodal--backdrop-locked",
+        "sourcepilots-sourcemodal--long-content"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "pagination",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-pagination.md",
+      "specSha256": "c3a847c16a1324eb87dfeef286a346b759a7eaa349623ed52f1ac6b640355a3a",
+      "publicEntry": "assets/search-workspace/src/components/source-pagination/index.ts",
+      "exports": [
+        "SourcePagination"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-pagination/source-pagination.tsx",
+          "sha256": "ad0e88f7e74c50668369d1b0175de398db57f056490b51792177fb448dc3521f"
+        }
+      ],
+      "namedStates": [
+        "zero-pages",
+        "first",
+        "middle",
+        "last",
+        "valid-target",
+        "invalid-target",
+        "controlled",
+        "uncontrolled",
+        "static-links",
+        "native-select"
+      ],
+      "rules": [
+        "source page window and native boundary-disabled controls",
+        "Enter/submit and associated invalid-page message",
+        "page-count changes clamp display",
+        "select has explicit1000-option limit"
+      ],
+      "unsupportedOrHostOwned": [
+        "host owns query loading/error/empty results",
+        "native select is engineering compatibility, not Pixso custom-select certification"
+      ],
+      "ownerVisualScope": "已列分页模式；业务API不在本次范围。",
+      "ownerStoryIds": [
+        "sourcefamilies-pagination--select-pages",
+        "sourcefamilies-pagination--dynamic",
+        "sourcefamilies-pagination--static-links"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "price",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-price.md",
+      "specSha256": "fed63a9e1ec29b903479d0485f0738c0c4c261f6d7078c7e0ca2081a579dc14c",
+      "publicEntry": "assets/search-workspace/src/components/source-price/index.ts",
+      "exports": [
+        "SourcePrice"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-price/source-price.tsx",
+          "sha256": "a7217d00d7bf3d34b21e1a97b439fbf6e2037bae1b8d085a774a1b4455e1c8e7"
+        }
+      ],
+      "namedStates": [
+        "valid-value",
+        "zero-value",
+        "long-unit"
+      ],
+      "rules": [
+        "nonnegative decimal string and explicit symbol/unit",
+        "preserve supplied precision and leading zeros",
+        "amount cannot be visually ellipsized"
+      ],
+      "unsupportedOrHostOwned": [
+        "no intrinsic hover/disabled/loading/selected state",
+        "no currency conversion/rounding/production pricing"
+      ],
+      "ownerVisualScope": "已列静态价格展示；不含计费、报价或业务套餐。",
+      "ownerStoryIds": [
+        "sourcefamilies-price--sizes",
+        "sourcefamilies-price--long-unit"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "scrollbar",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-scrollbar.md",
+      "specSha256": "d9a014f862967d36b39bc3cfa53bc677503b4a54ce2478e5ec45b187581719ee",
+      "publicEntry": "assets/search-workspace/src/components/source-scrollbar/index.ts",
+      "exports": [
+        "SourceScrollbar"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-scrollbar/source-scrollbar.tsx",
+          "sha256": "ef3391ad9deaddf7bf901a7fc456358b7842d671ba14416c85fd65c194d5e963"
+        }
+      ],
+      "namedStates": [
+        "short-content",
+        "scrollable-content",
+        "focused-region"
+      ],
+      "rules": [
+        "source small/medium native overflow",
+        "named keyboard entry and exit",
+        "positive finite maxHeight required"
+      ],
+      "unsupportedOrHostOwned": [
+        "no custom drag algorithm",
+        "OS scrollbar visibility remains native",
+        "physical touch and cross-OS appearance remain unverified"
+      ],
+      "ownerVisualScope": "已列滚动样本；依赖系统滚动条的外观可能随平台变化。",
+      "ownerStoryIds": [
+        "sourcefamilies-scrollbar--keyboard"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "tab",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-tabs.md",
+      "specSha256": "b34df6dc3b25e49d76d782d71a09f6e170a880ca32cb14f76e4bdf1a765bc0c4",
+      "publicEntry": "assets/search-workspace/src/components/source-tabs/index.ts",
+      "exports": [
+        "SourceTabs"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-tabs/source-tabs.tsx",
+          "sha256": "b0739acbc7abb17ba6dad10fd773eefd664d162059ed2f6fee815c80487d3855"
+        }
+      ],
+      "namedStates": [
+        "selected",
+        "unselected",
+        "disabled",
+        "controlled",
+        "uncontrolled",
+        "cancelled-change",
+        "removed-active-item",
+        "overflow-before",
+        "overflow-middle",
+        "overflow-after"
+      ],
+      "rules": [
+        "one ordinary Tab entry",
+        "Arrow/Home/End skips disabled and synchronizes panel/focus",
+        "panel state retained; hidden-panel focus is restored",
+        "scroll mode preserves last-tab reachability"
+      ],
+      "unsupportedOrHostOwned": [
+        "no autoplay",
+        "no eight-phase jQuery event compatibility",
+        "host owns panel loading/error"
+      ],
+      "ownerVisualScope": "已列页签样本；其他风格和完整来源变体待补。",
+      "ownerStoryIds": [
+        "sourcefamilies-tabs--scroll-overflow",
+        "sourcefamilies-tabs--keyboard-and-retention"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    },
+    {
+      "family": "tips",
+      "scope": "Only adopted current public branches and explicitly declared compatibility; not the historical full source family",
+      "spec": "assets/search-workspace/src/components-specs/source-tips.md",
+      "specSha256": "bf3d357e62f295cb8bce08fa02db4a28d749d2f3ad879427842fb8faeb469eb2",
+      "publicEntry": "assets/search-workspace/src/components/source-tips/index.ts",
+      "exports": [
+        "SourceNotice"
+      ],
+      "implementationFiles": [
+        {
+          "path": "assets/search-workspace/src/components/source-tips/source-tips.tsx",
+          "sha256": "330028d9ae0f3eaf32c3817cc9f35a540fadd0f6802e76398acf1db4f0ad1b04"
+        }
+      ],
+      "namedStates": [
+        "gray-visible",
+        "blue-visible",
+        "closed",
+        "controlled",
+        "uncontrolled",
+        "gray-suppression",
+        "legacy-timer-running",
+        "legacy-timer-paused"
+      ],
+      "rules": [
+        "current global notice is role=status",
+        "only gray/blue appearances for new source scenes",
+        "suppression choice gray only",
+        "default duration0; optional compatibility timer pauses on hover/focus"
+      ],
+      "unsupportedOrHostOwned": [
+        "legacy tone does not generate success/warning/error colors",
+        "not tooltip or InfoNotice animation",
+        "new source scenes do not auto-dismiss"
+      ],
+      "ownerVisualScope": "灰底与10%蓝底全局提示、灰底不再显示勾选及关闭行为；各移动分支仍待视觉复验。",
+      "ownerStoryIds": [
+        "sourcefamilies-tips--tones",
+        "sourcefamilies-tips--close-keyboard"
+      ],
+      "reviewStatus": "source-contract-reviewed",
+      "acceptanceBoundary": "This is specification/state-model review. Runtime, responsive text, source visual, pointer/AT/device tests remain separate records."
+    }
+  ],
+  "notClaimed": [
+    "whole-family Pixso certification",
+    "new visual approval",
+    "screen reader/physical touch/soft keyboard passes"
+  ]
+}

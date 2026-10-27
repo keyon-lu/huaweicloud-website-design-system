@@ -1,0 +1,126 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "v1折叠图文楼层验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "folded-media-v1",
+      "id": "v1-folded",
+      "title": "为什么选择Flexus",
+      "background": "grey",
+      "items": [
+        {
+          "id": "feature-1",
+          "title": "算力规格随心配",
+          "paragraphs": [
+            [
+              {
+                "text": "按业务需求配置资源，查看对应的功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-v1-folded-image",
+            "mobileAsset": "product-v1-folded-image",
+            "alt": "原稿Flexus产品展示"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-folded",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "feature-2",
+          "title": "一直加速一直快",
+          "paragraphs": [
+            [
+              {
+                "text": "按业务需求配置资源，查看对应的功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-v1-folded-image",
+            "mobileAsset": "product-v1-folded-image",
+            "alt": "原稿Flexus产品展示"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-folded",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "feature-3",
+          "title": "性能极速6倍强",
+          "paragraphs": [
+            [
+              {
+                "text": "按业务需求配置资源，查看对应的功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-v1-folded-image",
+            "mobileAsset": "product-v1-folded-image",
+            "alt": "原稿Flexus产品展示"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-folded",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "feature-4",
+          "title": "极致体验零门槛",
+          "paragraphs": [
+            [
+              {
+                "text": "按业务需求配置资源，查看对应的功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-v1-folded-image",
+            "mobileAsset": "product-v1-folded-image",
+            "alt": "原稿Flexus产品展示"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-folded",
+              "variant": "text"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "actions": "功能入口",
+        "video": {
+          "play": "播放视频",
+          "close": "关闭视频",
+          "failed": "视频加载失败",
+          "retry": "重新加载",
+          "blocked": "请手动播放",
+          "actions": "视频入口"
+        },
+        "copyScroll": "功能说明滚动区域"
+      },
+      "cardBackground": "white"
+    }
+  ]
+}

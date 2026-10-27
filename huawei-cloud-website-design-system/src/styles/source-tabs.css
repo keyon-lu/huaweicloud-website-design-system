@@ -1,0 +1,14 @@
+.source-tabs{min-width:0;max-width:var(--hc-t-input-available-width)}
+.source-tabs .por-tab>ul{display:flex;justify-content:safe center;margin:0;padding:0;list-style:none}
+.source-tabs .por-tab.por-tab-left>ul{justify-content:flex-start}
+.source-tabs .por-tab.por-tab-scroll>ul{display:flex;overflow:auto;width:var(--hc-t-input-available-width);max-width:var(--hc-t-input-available-width);justify-content:flex-start;scrollbar-width:none}
+.source-tabs .por-tab.por-tab-scroll>ul::-webkit-scrollbar{display:none}
+.source-tabs .por-tab.por-tab-scroll>ul>li{flex-shrink:0}
+.source-tabs .por-tab a[aria-disabled=true]{color:var(--por-tab-text-color-disabled);cursor:default}
+.source-tabs .por-tab a:focus-visible,.source-tabs .por-tab button:focus-visible,.source-tabs [role=tabpanel]:focus-visible{outline:var(--hc-t-control-focus-width) solid var(--por-color-border-input-active);outline-offset:var(--hc-t-control-focus-offset)}
+.source-tabs .por-tab button{border:0;padding:0}
+.source-tabs [role=tabpanel][hidden]{display:none}
+.source-tabs [role=tabpanel]{overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){.source-tabs .por-tab a,.source-tabs .por-tab a:after{transition:none}}
+
+.source-tabs .por-tab a:focus-visible,.source-tabs .por-tab button:focus-visible{outline-offset:calc(-1 * var(--hc-t-control-focus-width))}

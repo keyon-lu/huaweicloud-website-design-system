@@ -1,0 +1,6 @@
+{
+  "action": "native pointer click on inert disabled span; force skips driver disabled guard only",
+  "activationCount": "0",
+  "navigationUnchanged": true,
+  "noHref": true
+}

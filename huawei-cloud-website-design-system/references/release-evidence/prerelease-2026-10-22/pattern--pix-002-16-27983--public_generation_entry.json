@@ -1,0 +1,23 @@
+{
+  "kind": "source-release-check",
+  "check": "pattern/pix-002-16-27983/public_generation_entry",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "patternId": "pix-002-16-27983",
+    "targets": [
+      {
+        "entry": "src/components/portal-components.tsx",
+        "export": "PortalProductV1Solutions",
+        "generationKind": "featured-solutions-v1",
+        "validationScripts": [
+          "scripts/product-2026-content.mjs"
+        ]
+      }
+    ],
+    "scope": "Existing JSON kind or explicitly callable component/page/variant target. Does not claim every source variant is supported."
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "kind": "scoped-owner-re-review",
+  "observedDate": "2026-10-21",
+  "packId": "foundation-owner-remediation-2026-10-21-final",
+  "snapshotId": "e65bc6e191d04097ce91b52e021525596a4b7296b86d40a12fc912fe2b552ad1",
+  "confirmationMethod": "explicit-user-message-and-visible-owner-records",
+  "userStatement": "这些都通过复验了",
+  "authorType": "owner-entered",
+  "canImportAsOwnerReview": true,
+  "wholeFamilyAcceptance": false,
+  "formalRelease": false,
+  "items": [
+    {
+      "id": "button",
+      "name": "按钮",
+      "scope": "原按钮样本已获认可，本次仅复验新增图文、纯文本、链接和基础下拉按钮；未完整覆盖的下载/菜单按钮继续列为缺口。",
+      "storyIds": [
+        "sourcepilots-sourcebutton--matrix",
+        "sourcepilots-sourcebutton--playground",
+        "sourcepilots-sourcebutton--disabled",
+        "sourcefamilies-button--icon-and-block",
+        "sourcefamilies-button--disabled-activation",
+        "designcorrections-actions--text-and-image",
+        "designcorrections-actions--dropdown"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "input",
+      "name": "输入框",
+      "scope": "已列输入样本；尚未覆盖所有输入控件、组合表单和错误组合。",
+      "storyIds": [
+        "sourcepilots-searchinput--matrix",
+        "sourcefamilies-input--matrix",
+        "sourcepilots-searchinput--playground",
+        "sourcepilots-searchinput--disabled",
+        "sourcefamilies-input--textarea",
+        "sourcefamilies-input--error-field",
+        "sourcefamilies-input--autocomplete"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "link",
+      "name": "文字链接",
+      "scope": "已列链接样本；不扩展为所有业务链接行为。",
+      "storyIds": [
+        "sourcefamilies-link--matrix",
+        "sourcefamilies-link--playground",
+        "sourcefamilies-link--disabled-activation",
+        "sourcefamilies-link--long-content"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "breadcrumb",
+      "name": "面包屑",
+      "scope": "已列样本；不声称所有长路径和反白场景完成。",
+      "storyIds": [
+        "sourcefamilies-breadcrumb--matrix",
+        "sourcefamilies-breadcrumb--playground",
+        "sourcefamilies-breadcrumb--long-content"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "checkbox",
+      "name": "复选与单选",
+      "scope": "已列Choice样本；radio属于此实现的选项，不另算完成家族。",
+      "storyIds": [
+        "sourcereference-choice--card-overflow",
+        "sourcereference-choice--states",
+        "sourcereference-choice--form-reset"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "label",
+      "name": "标签",
+      "scope": "基础标签保留；新增角标仅覆盖原文件5色、18/24px两尺寸及0/8/16px对角圆角。",
+      "storyIds": [
+        "sourcereference-label--matrix",
+        "sourcereference-label--interaction",
+        "sourcereference-label--corner-badges"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "collapse",
+      "name": "折叠面板",
+      "scope": "已列折叠样本；不代表所有皮肤、嵌套和状态组合完成。",
+      "storyIds": [
+        "sourcereference-collapse--interaction",
+        "sourcereference-collapse--footer-control"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "tab",
+      "name": "页签",
+      "scope": "已列页签样本；其他风格和完整来源变体待补。",
+      "storyIds": [
+        "sourcefamilies-tabs--scroll-overflow",
+        "sourcefamilies-tabs--keyboard-and-retention"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "modal",
+      "name": "弹窗",
+      "scope": "当前对话框分支；不包含所有业务弹窗和动画。",
+      "storyIds": [
+        "sourcepilots-sourcemodal--playground",
+        "sourcepilots-sourcemodal--middle",
+        "sourcepilots-sourcemodal--close-actions",
+        "sourcepilots-sourcemodal--x-large",
+        "sourcepilots-sourcemodal--large",
+        "sourcepilots-sourcemodal--nested-autocomplete",
+        "sourcepilots-sourcemodal--status-matrix",
+        "sourcepilots-sourcemodal--backdrop-locked",
+        "sourcepilots-sourcemodal--long-content"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "pagination",
+      "name": "分页",
+      "scope": "已列分页模式；业务API不在本次范围。",
+      "storyIds": [
+        "sourcefamilies-pagination--select-pages",
+        "sourcefamilies-pagination--dynamic",
+        "sourcefamilies-pagination--static-links"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "card",
+      "name": "基础卡片",
+      "scope": "原始GECCO Logo与文案样本：80px Logo、28px图文间距、32/32/40/32px内距；其他业务卡片不得据此自行扩展。",
+      "storyIds": [
+        "sourcefamilies-card--original-design"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "anchor",
+      "name": "页内锚点",
+      "scope": "黑灰文字、2px选中线、80px标准间距；1920/1536/1280三个设计尺寸显式选择，尚未推断连续区间断点。",
+      "storyIds": [
+        "sourcefamilies-anchornavigation--default"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "scrollbar",
+      "name": "滚动区域",
+      "scope": "已列滚动样本；依赖系统滚动条的外观可能随平台变化。",
+      "storyIds": [
+        "sourcefamilies-scrollbar--keyboard"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "price",
+      "name": "价格展示",
+      "scope": "已列静态价格展示；不含计费、报价或业务套餐。",
+      "storyIds": [
+        "sourcefamilies-price--sizes",
+        "sourcefamilies-price--long-unit"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "countdown",
+      "name": "倒计时",
+      "scope": "固定时钟/短倒计时用例；无活动后端和线上时钟保证。",
+      "storyIds": [
+        "sourcefamilies-countdown--fixed",
+        "sourcefamilies-countdown--completion-once",
+        "sourcefamilies-countdown--day-to-hours",
+        "sourcefamilies-countdown--vertical-black"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "tips",
+      "name": "消息提示",
+      "scope": "灰底与10%蓝底全局提示、灰底不再显示勾选及关闭行为；各移动分支仍待视觉复验。",
+      "storyIds": [
+        "sourcefamilies-tips--tones",
+        "sourcefamilies-tips--close-keyboard"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "fixed-table",
+      "name": "表格（合并参数与服务）",
+      "scope": "对应1272:22091的1600px六列、八行原始文案、价格及按钮样本。服务表格调用统一到此实现；其余图标/灰底/其他列数变体仍待补齐。",
+      "storyIds": [
+        "designcorrections-unifiedtable--original-six-column"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "foundation-palette",
+      "name": "基础Design Token：颜色、文字、阴影",
+      "scope": "266颜色、32文字、4阴影原始值及透明度，文字家族/字重由本次read_styles补齐；本机字体缺失时回退不算字形验收。",
+      "storyIds": [
+        "raw-tokens"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    },
+    {
+      "id": "foundation-icons",
+      "name": "2026图标分类与规范",
+      "scope": "直接显示原始类别、网格及5类规范导出和原文；不等于所有图标资产已制作成可调用组件。",
+      "storyIds": [
+        "raw-icon-norms"
+      ],
+      "status": "passed",
+      "checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "note": ""
+    }
+  ],
+  "excluded": [
+    "日期选择器独立实现",
+    "独立轮播家族",
+    "独立播放器家族",
+    "完整2026图标资产库",
+    "完整插画资产库与渲染验证",
+    "全部来源变体与完整人工无障碍认证",
+    "暗色与多语言（用户暂缓）",
+    "图片查看器已按要求退出本次基础验收。",
+    "评分、原生下拉选择未找到对应设计，暂停新页面推荐，不使用导航面板冒充依据。",
+    "服务表格合并到表格，不再作为另一独立家族计数。",
+    "下载下拉、菜单按钮及表格复杂分支、锚点完整适配仍待补齐，不宣称全部修复。"
+  ],
+  "browserEvidence": "re-review-browser-observed.json",
+  "scopePolicy": "Approval covers only the listed sample scopes and immutable snapshot. Preserve approved presentation when generating; unshown variants require matching design evidence and separate review."
+}

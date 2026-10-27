@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "entry": "source-storybook-v28",
+  "end": {
+    "focus": "region",
+    "left": 540,
+    "nextDisabled": true,
+    "reduced": false
+  },
+  "phone": {
+    "controls": 0,
+    "focus": "region",
+    "overflow": false
+  },
+  "passed": true,
+  "normalMotionDeadline": "Normal-motion endpoint eventually reached; background-tab time-to-completion remains unverified. Does not claim a timing threshold pass."
+}

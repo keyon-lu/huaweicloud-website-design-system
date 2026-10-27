@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-26",
+  "rows": [
+    {
+      "cards": [
+        {
+          "imageHeight": 174.765625,
+          "width": 284
+        },
+        {
+          "imageHeight": 174.765625,
+          "width": 284
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 320
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 208.609375,
+          "width": 339
+        },
+        {
+          "imageHeight": 208.609375,
+          "width": 339
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 375
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 196.921875,
+          "width": 320
+        },
+        {
+          "imageHeight": 196.921875,
+          "width": 320
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 376
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 334.1484375,
+          "width": 543
+        },
+        {
+          "imageHeight": 334.1484375,
+          "width": 543
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 599
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 132.296875,
+          "width": 268
+        },
+        {
+          "imageHeight": 132.296875,
+          "width": 268
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 600
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 173.765625,
+          "width": 352
+        },
+        {
+          "imageHeight": 173.765625,
+          "width": 352
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 768
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 174.4765625,
+          "width": 353.4296875
+        },
+        {
+          "imageHeight": 174.4765625,
+          "width": 353.4296875
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 769
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 190.71875,
+          "width": 386.328125
+        },
+        {
+          "imageHeight": 190.71875,
+          "width": 386.328125
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 839
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 190.9453125,
+          "width": 386.796875
+        },
+        {
+          "imageHeight": 190.9453125,
+          "width": 386.796875
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 840
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 233.640625,
+          "width": 473.2734375
+        },
+        {
+          "imageHeight": 233.640625,
+          "width": 473.28125
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1024
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 223.75,
+          "width": 453.25
+        },
+        {
+          "imageHeight": 223.75,
+          "width": 453.25
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1025
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 280.3984375,
+          "width": 568
+        },
+        {
+          "imageHeight": 280.3984375,
+          "width": 568
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1280
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 349.7109375,
+          "width": 708.3984375
+        },
+        {
+          "imageHeight": 349.7109375,
+          "width": 708.3984375
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1600
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 387.6015625,
+          "width": 785.1484375
+        },
+        {
+          "imageHeight": 387.6015625,
+          "width": 785.1484375
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1775
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 390,
+          "width": 790
+        },
+        {
+          "imageHeight": 390,
+          "width": 790
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1776
+    },
+    {
+      "cards": [
+        {
+          "imageHeight": 390,
+          "width": 790
+        },
+        {
+          "imageHeight": 390,
+          "width": 790
+        }
+      ],
+      "rootOverflow": false,
+      "sectionOverflow": false,
+      "width": 1920
+    }
+  ],
+  "failures": 0,
+  "settle": "Screenshot compositor capture after each viewport update, before measuring responsive component state",
+  "immediatePreviousSamples": "models-two-responsive.json retains five transient root-overflow measurements; none were silently deleted",
+  "scope": "Two-card390 branch; browser viewport containment, not physical-device acceptance"
+}

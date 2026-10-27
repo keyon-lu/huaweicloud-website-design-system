@@ -1,0 +1,97 @@
+{
+  "kind": "source-backed-scoped-correction-continuity",
+  "date": "2026-10-26",
+  "previousCandidate": "2.6.0-rc16-draft",
+  "changes": [
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.css",
+      "beforeSha256": "420f59bd98d652b264c71ce0b4b1c3e48217875eb7a0cdd078b7988eb09597cd",
+      "afterSha256": "3147a2313f156aa1a2b08bfb28bad078b6f9289a434dc82c8c13a81597b8370a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-models/product-2026-models.tsx",
+      "beforeSha256": "1c32be97d4533a712d38a1d5c510e694bda4f05f9a48a93a3f975b7153cc541c",
+      "afterSha256": "e971678fa247019b95cd867022827fc634ad4cdb249f51d1faff8e253454a54e"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7",
+      "afterSha256": "0dc663120854cf312453f4144d9e6dc216813cdad43726dded261a0a648d962c"
+    },
+    {
+      "path": "assets/search-workspace/template-manifest.json",
+      "beforeSha256": "8607aa0e63d3640510a653559d841b5587550529c6fc44ccdd724483bdb3f769",
+      "afterSha256": "c4e124e735f9842143f171abc3ec1d96dd901ed71d6eb13948d14b251266e26c"
+    },
+    {
+      "path": "references/component-registry.json",
+      "beforeSha256": "1fc4c2d4fac7a2bd02c388c054aad47e7f0fe1dddaa9f7943bfbf0310afbf81d",
+      "afterSha256": "ae7b4ff1e54cf273e4e02e62f5ab88bc64a9d4657644b347d1ad88fd916faf15"
+    },
+    {
+      "path": "references/consumer-token-map.json",
+      "beforeSha256": "96c0843262dac9e875e1248e7764617d042544a3aa24d712c6303b85e7d7a50e",
+      "afterSha256": "2c1f7eb056a7b7fe0f2a3f33700e745c36258db3903fa318d062df4502897c97"
+    },
+    {
+      "path": "references/expanded-release-profile.json",
+      "beforeSha256": "c16a5b0a15ae901003728eeb972ea28594563b326433004dcd8b9abb11c4b48d",
+      "afterSha256": "30b3928fc3f50a75f4b80c4d3b31433bd10b0c14944dcfa44eaf4d50218c6bcd"
+    },
+    {
+      "path": "references/first-release-contract-index.json",
+      "beforeSha256": "7bf7a325e2e7e04a20f151dfa458160a3cde0c068ec44b845aab823224abac62",
+      "afterSha256": "4978a322732b13dd2a38ec28e08539c4f53afef8d2916c88eeae9235946baf37"
+    },
+    {
+      "path": "references/first-release-floor-family-contracts.json",
+      "beforeSha256": "789239cc492149b9bd74340429134a11a89832b31f4f164516108bfc6ab1f079",
+      "afterSha256": "e5c867477d168f6aa919cfaf51f80a94d17c435e6656c5600d25b0bcbca485af"
+    },
+    {
+      "path": "references/first-release-floor-state-contracts.json",
+      "beforeSha256": "94349e0dea09068ecb05b96559140d3c8457bb3de2fb21f39a21c2576f594c14",
+      "afterSha256": "bf9580cf580aa1d36414148e8194a4a1dc0934ef224c717ea958490dc03e46ad"
+    },
+    {
+      "path": "references/first-release-state-media-matrix.json",
+      "beforeSha256": "da5ff454130819971356455539a0bc45a467cd772bb964527cc07619cbec46fc",
+      "afterSha256": "d47435d539d514831eeb40173ed511544c43a4169f33b0fbbf98457aa6281bec"
+    },
+    {
+      "path": "references/product-2026-models.md",
+      "beforeSha256": "b5957d981472f4c4f92ab35167b111a707b068ccd60a3122c42b7715506aa9fc",
+      "afterSha256": "bea4b0bc5afe3257c6d59a3f50e65c10a6fccf798485f45c23e06efbf9f19462"
+    },
+    {
+      "path": "references/source-component-plan.json",
+      "beforeSha256": "f10190cc64bcc4c218e5aead437e7ef61ded36a7dbebacf7d0f9030189f095df",
+      "afterSha256": "a8708f71a08083c22851440de2389089d9d82ad01ae286b32e6c5e84bce853b7"
+    },
+    {
+      "path": "src/components-specs/components.json",
+      "beforeSha256": "cb69a541708b18606991bcb65204e70b9824701794ae1464e98c3af4b7905778",
+      "afterSha256": "bbff3a612f17dcfaa744a1d88800ea71d0ff8cbf15c532d5b019f72f9979bdae"
+    },
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "e264eeb874c44be3e9999629ec09506e7740257f377204c949c4bfe3764615ba",
+      "afterSha256": "32aa402d435a7f0218d41a441bc4433c462be92cf0011847f425a5405af5c813"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "a7e3c80200852bb2c7494cfcf5f73ddbb281f5b0b43bbaba5907a266ba9e59f7",
+      "afterSha256": "0dc663120854cf312453f4144d9e6dc216813cdad43726dded261a0a648d962c"
+    },
+    {
+      "path": "src/styles/product-2026-models.css",
+      "beforeSha256": "420f59bd98d652b264c71ce0b4b1c3e48217875eb7a0cdd078b7988eb09597cd",
+      "afterSha256": "3147a2313f156aa1a2b08bfb28bad078b6f9289a434dc82c8c13a81597b8370a"
+    }
+  ],
+  "changeProof": "references/release-evidence/models-repair-2026-10-26.json",
+  "scope": "Models only: two-card390 image ratio and two existing keyboard focus paths. Source and generated return JSX is unchanged. Other145 exported functions, prior protected presentation and default three-card CSS unchanged. Prior checks keep their bounded scope; no whole-family or visual/device approval added. Current complete engineering run follows.",
+  "newOwnerApprovals": 0,
+  "newPassedGatePositions": 0,
+  "formalRelease": false
+}

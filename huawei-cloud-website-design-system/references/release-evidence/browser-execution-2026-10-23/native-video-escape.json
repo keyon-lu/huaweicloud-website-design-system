@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "snapshot": "storybook-v8",
+  "storyId": "product2026-videocards--default",
+  "steps": [
+    "CUA click 播放视频 产品介绍",
+    "AX: dialog open; focus 关闭视频",
+    "CUA locator.press Escape on focused 关闭视频",
+    "AX: dialog hidden; trigger 播放视频 产品介绍 focused"
+  ],
+  "observed": {
+    "focused": "播放视频 产品介绍",
+    "openDialogs": 0
+  },
+  "scope": "Real browser input for one video default sample; not all modal or keyboard acceptance"
+}

@@ -1,0 +1,31 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "楼层规范验证",
+    "description": "规范验证内容，不是正式业务宣传。"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "general-banner",
+      "id": "overview",
+      "title": "面向业务场景构建页面",
+      "description": "由已有设计规范楼层组成页面，保留各组件的结构、尺寸和响应式规则。",
+      "mobileTitle": "业务场景与实践",
+      "height": 350,
+      "textWidth": 80,
+      "items": [
+        {
+          "label": "查看资料",
+          "href": "#overview",
+          "variant": "primary"
+        },
+        {
+          "label": "了解动态",
+          "href": "#overview",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}

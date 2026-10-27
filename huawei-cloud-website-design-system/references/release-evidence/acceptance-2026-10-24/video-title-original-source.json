@@ -1,0 +1,17 @@
+{
+  "kind": "pixso-original-title-rules",
+  "date": "2026-10-24",
+  "fileKey": "BJujt3v6eM8T222KRhMq2Q",
+  "method": "Pixso MCP design_to_code, original text nodes",
+  "nodes": [
+    {
+      "guid": "2:193875",
+      "sourceCode": "import \"@/styles/Paragraph2193875.css\";\nconst Paragraph2193875 = () => {\n    return (\n        <div className=\"scroll-container\">\n            <p\n                id=\"2_193875\"\n                className=\"Pixso-paragraph-2_193875 pixso-relative-no-shrink pixso-h-auto\"\n            >\n                {\"必选；文本不限，需带图标；\"}\n            </p>\n        </div>\n    );\n};\nexport default Paragraph2193875;\n"
+    },
+    {
+      "guid": "2:193873",
+      "sourceCode": "import \"@/styles/Paragraph2193873.css\";\nconst Paragraph2193873 = () => {\n    return (\n        <div className=\"scroll-container\">\n            <p\n                id=\"2_193873\"\n                className=\"Pixso-paragraph-2_193873 pixso-relative-no-shrink pixso-h-auto\"\n            >\n                {\"必选；文本不做限制，建议最多两行；\"}\n            </p>\n        </div>\n    );\n};\nexport default Paragraph2193873;\n"
+    }
+  ],
+  "interpretation": "No hard title text limit. Suggested two lines is not a truncation ceiling. Natural content height is an engineering containment adaptation; original font, padding, radius and default ratio remain."
+}

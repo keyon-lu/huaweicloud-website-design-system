@@ -1,0 +1,896 @@
+{
+  "breadcrumbItems": 6,
+  "differences": [],
+  "linkPairs": 24,
+  "pairs": [
+    {
+      "id": "primary-none-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(25, 25, 25)",
+          "source": "rgb(25, 25, 25)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "primary-none-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "primary-more-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(25, 25, 25)",
+          "source": "rgb(25, 25, 25)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "primary-more-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "primary-change-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(25, 25, 25)",
+          "source": "rgb(25, 25, 25)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "primary-change-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "secondary-none-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(89, 89, 89)",
+          "source": "rgb(89, 89, 89)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "secondary-none-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "secondary-more-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(89, 89, 89)",
+          "source": "rgb(89, 89, 89)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "secondary-more-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "secondary-change-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(89, 89, 89)",
+          "source": "rgb(89, 89, 89)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "secondary-change-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "light-none-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(255, 255, 255)",
+          "source": "rgb(255, 255, 255)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "light-none-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "light-more-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(255, 255, 255)",
+          "source": "rgb(255, 255, 255)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "light-more-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "light-change-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(255, 255, 255)",
+          "source": "rgb(255, 255, 255)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "light-change-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "blue-none-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(25, 25, 25)",
+          "source": "rgb(25, 25, 25)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "blue-none-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "blue-more-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(25, 25, 25)",
+          "source": "rgb(25, 25, 25)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "blue-more-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "blue-change-false",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(25, 25, 25)",
+          "source": "rgb(25, 25, 25)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    },
+    {
+      "id": "blue-change-true",
+      "props": {
+        "borderRadius": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "color": {
+          "actual": "rgb(194, 194, 194)",
+          "source": "rgb(194, 194, 194)"
+        },
+        "fontSize": {
+          "actual": "14px",
+          "source": "14px"
+        },
+        "fontWeight": {
+          "actual": "400",
+          "source": "400"
+        },
+        "height": {
+          "actual": "auto",
+          "source": "auto"
+        },
+        "lineHeight": {
+          "actual": "21px",
+          "source": "21px"
+        },
+        "padding": {
+          "actual": "0px",
+          "source": "0px"
+        },
+        "textDecorationLine": {
+          "actual": "none",
+          "source": "none"
+        }
+      }
+    }
+  ],
+  "scope": "current-owner palette applied to both source fixture and implementation; default styles only; manual visual/AT review separate"
+}

@@ -1,0 +1,1462 @@
+{
+  "kind": "verified-storybook-browser-execution",
+  "snapshotId": "fb56cc79d2edce4a82344f2f2a52387479a5dcca742ee34c377754ae35b6d0ff",
+  "scope": "Real iframe navigation without embed=true executes existing play when declared. Pure render stories counted separately. Sandbox prevents preview top navigation, so this does not prove link destination navigation, true pointer, touch or screen reader.",
+  "rows": [
+    {
+      "id": "sourcefamilies-button--disabled-activation",
+      "name": "SourceFamilies/Button/Disabled Activation",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-button--disabled-activation",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "273930569cb4f"
+      },
+      "visibleText": "之前禁用操作启用{\"label\":\"button-activation\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:27.845Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"button-name\",\"color-contrast",
+      "sourceFile": "assets/search-workspace/src/components/source-button/button-family.stories.tsx",
+      "sourceSha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-button--icon-and-block",
+      "name": "SourceFamilies/Button/Icon And Block",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-button--icon-and-block",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "b60688024de508"
+      },
+      "visibleText": "收藏禁用收藏块级按钮响应式按钮用于检查窄屏与文字放大后按钮是否可以自然换行并显示完整的操作名称",
+      "sourceFile": "assets/search-workspace/src/components/source-button/button-family.stories.tsx",
+      "sourceSha256": "6c73e63af29085d8aae58e89bbd5ecade6ba888d23ba7ebd1a208b5083c7091d",
+      "hasPlay": false
+    },
+    {
+      "id": "designcorrections-actions--text-and-image",
+      "name": "DesignCorrections/Actions/Text And Image",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "designcorrections-actions--text-and-image",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "cbcd0d31ef58a8"
+      },
+      "visibleText": "文本按钮图标按钮图标按钮文本链接本地交互目标（仅演示链接行为）",
+      "sourceFile": "assets/search-workspace/src/components/source-button/design-actions.stories.tsx",
+      "sourceSha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8",
+      "hasPlay": false
+    },
+    {
+      "id": "designcorrections-actions--dropdown",
+      "name": "DesignCorrections/Actions/Dropdown",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "designcorrections-actions--dropdown",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "4fab17bc7196c"
+      },
+      "visibleText": "下拉按钮",
+      "sourceFile": "assets/search-workspace/src/components/source-button/design-actions.stories.tsx",
+      "sourceSha256": "0ad51300c35c2b98e7f3e0178fff8702fcd191ae4c547e81e82513635b6b13d8",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcebutton--playground",
+      "name": "SourcePilots/SourceButton/Playground",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcebutton--playground",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "10074671679058"
+      },
+      "visibleText": "搜索{\"keyboardFocus\":true,\"outline\":\"solid\",\"hover\":\"requires real browser pointer; synthetic event is not evidence\"}",
+      "sourceFile": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+      "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-sourcebutton--disabled",
+      "name": "SourcePilots/SourceButton/Disabled",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcebutton--disabled",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "15bdb1cd8d5b7"
+      },
+      "visibleText": "搜索",
+      "sourceFile": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+      "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcebutton--matrix",
+      "name": "SourcePilots/SourceButton/Matrix",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcebutton--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "8c24342015b9b8"
+      },
+      "visibleText": "primary small enabledprimary small disabledprimary default enabledprimary default disabledprimary middle enabledprimary middle disabledprimary large enabledprimary large disabledsecondary small enabledsecondary small disabledsecondary default enabledsecondary default disabledsecondary middle enabled",
+      "sourceFile": "assets/search-workspace/src/components/source-button/source-button.stories.tsx",
+      "sourceSha256": "dd7fe2472b72d3d23340d7ed840f6756dc7d6aab1a27215d794ba360625f3a05",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcereference-button--matrix",
+      "name": "SourceReference/Button/Matrix",
+      "family": "button",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-button--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "4b9a72ebd2c3d8"
+      },
+      "visibleText": "操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作操作{\"baseline\":\"PortalUI3.0.17 source markup; same CSS and fallback font\",\"pairs\":48,\"properties\":[\"color\",\"bac",
+      "sourceFile": "assets/search-workspace/src/components/source-button/source-reference.stories.tsx",
+      "sourceSha256": "d1a585ffd8bd7a872bad007700c0b23eac277d27bf1ac3f69c1f3dc6ed920764",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-input--error-field",
+      "name": "SourceFamilies/Input/Error Field",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-input--error-field",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "9af8624ca74ac8"
+      },
+      "visibleText": "名称请填写名称{\"label\":\"input-error\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:29.889Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\",\"aria-conditiona",
+      "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+      "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-input--textarea",
+      "name": "SourceFamilies/Input/Textarea",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-input--textarea",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "2741fbf6eedc1"
+      },
+      "visibleText": "介绍0/12{\"label\":\"textarea\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:30.273Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[{\"id\":\"color-contrast\",\"impact\":\"serious\",\"description\":\"",
+      "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+      "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-input--autocomplete",
+      "name": "SourceFamilies/Input/Autocomplete",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-input--autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "124d88e66ed1a"
+      },
+      "visibleText": "关联内容其它操作{\"filter\":true,\"keyboardSelect\":true,\"empty\":true,\"escape\":true}",
+      "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+      "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-input--matrix",
+      "name": "SourceFamilies/Input/Matrix",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-input--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "abb2f1a25aaca"
+      },
+      "visibleText": "默认大号禁用只读错误字段校验失败多行0/200禁用多行0/200禁用关联",
+      "sourceFile": "assets/search-workspace/src/components/search-input/input-family.stories.tsx",
+      "sourceSha256": "8ce0d836ff717e694cf1f698953fb232b4db6f7e0ce38efb6c8a71852356d5d3",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-searchinput--playground",
+      "name": "SourcePilots/SearchInput/Playground",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-searchinput--playground",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "b849c505fdd2"
+      },
+      "visibleText": "{\"before\":\"rgb(194, 194, 194)\",\"focusedBorder\":\"rgb(25, 25, 25)\",\"focus\":true,\"value\":\"栅格\",\"hover\":\"requires real browser pointer\"}",
+      "sourceFile": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+      "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-searchinput--disabled",
+      "name": "SourcePilots/SearchInput/Disabled",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-searchinput--disabled",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "0ddaca59acbff"
+      },
+      "visibleText": "",
+      "sourceFile": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+      "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-searchinput--matrix",
+      "name": "SourcePilots/SearchInput/Matrix",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-searchinput--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "663b42cb613b98"
+      },
+      "visibleText": "",
+      "sourceFile": "assets/search-workspace/src/components/search-input/search-input.stories.tsx",
+      "sourceSha256": "81969fd9b4e2f1845edb4f6d062f6fb055a05039efbfadcc301c0cdf51b3324f",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcereference-input--matrix",
+      "name": "SourceReference/Input/Matrix",
+      "family": "input",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-input--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "6de352d500ab78"
+      },
+      "visibleText": "错误错误提示多行0/200{\"baseline\":\"PortalUI3.0.17 source markup; same CSS and fallback font\",\"pairs\":6,\"properties\":[\"color\",\"backgroundColor\",\"borderColor\",\"borderRadius\",\"fontSize\",\"lineHeight\",\"height\",\"paddingTop\",\"paddingRight\"],\"differences\":[]}",
+      "sourceFile": "assets/search-workspace/src/components/search-input/source-reference.stories.tsx",
+      "sourceSha256": "fa2372fecb9e41686db914c4de5b6a4034ec1479d1d01bafad7d49a378f82371",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-sourcemodal--playground",
+      "name": "SourcePilots/SourceModal/Playground",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--playground",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "9e0a1c8b2291e8"
+      },
+      "visibleText": "打开弹窗{\"audit\":{\"label\":\"modal-open\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:32.334Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\",\"aria-condi",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-sourcemodal--middle",
+      "name": "SourcePilots/SourceModal/Middle",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--middle",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "01b17f38800b98"
+      },
+      "visibleText": "打开弹窗",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcemodal--large",
+      "name": "SourcePilots/SourceModal/Large",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--large",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "ed364465bda8d"
+      },
+      "visibleText": "打开弹窗",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcemodal--x-large",
+      "name": "SourcePilots/SourceModal/X Large",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--x-large",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "9e6586f4776fe"
+      },
+      "visibleText": "打开弹窗",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcemodal--long-content",
+      "name": "SourcePilots/SourceModal/Long Content",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--long-content",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "e7a8d441a7b818"
+      },
+      "visibleText": "打开长内容",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcemodal--close-actions",
+      "name": "SourcePilots/SourceModal/Close Actions",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--close-actions",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "8cbe213d58577"
+      },
+      "visibleText": "打开弹窗{\"insideClickKeepsOpen\":true,\"footerClose\":true,\"backdropClose\":true,\"focusRestored\":true}",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-sourcemodal--status-matrix",
+      "name": "SourcePilots/SourceModal/Status Matrix",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--status-matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "912e651dde33f8"
+      },
+      "visibleText": "打开弹窗",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcepilots-sourcemodal--backdrop-locked",
+      "name": "SourcePilots/SourceModal/Backdrop Locked",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--backdrop-locked",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "4f77336e2cbce"
+      },
+      "visibleText": "打开弹窗",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete",
+      "family": "modal",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "c1e64c0706eab"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:34.964Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\"",
+      "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+      "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcereference-navigation--matrix",
+      "name": "SourceReference/Navigation/Matrix",
+      "family": "link",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-navigation--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "00b0a0c7d824b8"
+      },
+      "visibleText": "链接与面包屑源码皮肤对照资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口资料入口首页文档当前资料首页文档当前资料首页文档当前资料首页文档当前资料对照目标",
+      "sourceFile": "assets/search-workspace/src/components/source-link/navigation-reference.stories.tsx",
+      "sourceSha256": "81e0fc1ca90f52aec939ac2c51aed351f5b99d59c043dbf24d59fc3252dd978b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-link--playground",
+      "name": "SourceFamilies/Link/Playground",
+      "family": "link",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-link--playground",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "7fe0540b2ff5f8"
+      },
+      "visibleText": "资料入口资料目标{\"label\":\"link-default\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:35.541Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"color-contrast\",\"link-name\"]}",
+      "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+      "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-link--matrix",
+      "name": "SourceFamilies/Link/Matrix",
+      "family": "link",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-link--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "142d53645488e"
+      },
+      "visibleText": "primary-none primary-none-disabledprimary-more primary-more-disabledprimary-change primary-change-disabledsecondary-none secondary-none-disabledsecondary-more secondary-more-disabledsecondary-change secondary-change-disabledlight-none light-none-disabledlight-more light-more-disabledlight-change lig",
+      "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+      "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-link--disabled-activation",
+      "name": "SourceFamilies/Link/Disabled Activation",
+      "family": "link",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-link--disabled-activation",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "058943f9275518"
+      },
+      "visibleText": "不可用入口可用入口0目标{\"label\":\"link-disabled\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:36.322Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\",\"aria-com",
+      "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+      "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-link--long-content",
+      "name": "SourceFamilies/Link/Long Content",
+      "family": "link",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-link--long-content",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "aab664b32c934"
+      },
+      "visibleText": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMN",
+      "sourceFile": "assets/search-workspace/src/components/source-link/source-link.stories.tsx",
+      "sourceSha256": "1079868d191db1df88a4cb240762c4aac9d10d1139e2e3af8751f1ef1cafb851",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-breadcrumb--playground",
+      "name": "SourceFamilies/Breadcrumb/Playground",
+      "family": "breadcrumb",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-breadcrumb--playground",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "fd2e2d193f76"
+      },
+      "visibleText": "首页开发资源当前资料{\"label\":\"breadcrumb-default\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:36.945Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\",\"aria-",
+      "sourceFile": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.stories.tsx",
+      "sourceSha256": "6a79e402993abe94ba49b07187974cb672dad73adc441952fd5d0df4d1b8078b",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-breadcrumb--matrix",
+      "name": "SourceFamilies/Breadcrumb/Matrix",
+      "family": "breadcrumb",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-breadcrumb--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "e845d9b74cfde"
+      },
+      "visibleText": "当前位置首页开发资源当前资料首页开发资源当前资料{\"label\":\"breadcrumb-matrix\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-22T10:26:37.353Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed",
+      "sourceFile": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.stories.tsx",
+      "sourceSha256": "6a79e402993abe94ba49b07187974cb672dad73adc441952fd5d0df4d1b8078b",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-breadcrumb--long-content",
+      "name": "SourceFamilies/Breadcrumb/Long Content",
+      "family": "breadcrumb",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-breadcrumb--long-content",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "27ddeb6b2824c"
+      },
+      "visibleText": "产品文档导航产品文档导航产品文档导航产品文档导航产品文档导航产品文档导航产品文档导航产品文档导航ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题完整当前内容标题",
+      "sourceFile": "assets/search-workspace/src/components/source-breadcrumb/source-breadcrumb.stories.tsx",
+      "sourceSha256": "6a79e402993abe94ba49b07187974cb672dad73adc441952fd5d0df4d1b8078b",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcereference-label--matrix",
+      "name": "SourceReference/Label/Matrix",
+      "family": "label",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-label--matrix",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "9b2fabc5e56d58"
+      },
+      "visibleText": "default / small禁用标签default / medium禁用标签default / default禁用标签default / large禁用标签red / small禁用标签red / medium禁用标签red / default禁用标签red / large禁用标签orange / small禁用标签orange / medium禁用标签orange / default禁用标签orange / large禁用标签yellow / small禁用标签yellow / medium禁用标签yellow / default禁用标签yellow / large禁用标签lemon / ",
+      "sourceFile": "assets/search-workspace/src/components/source-label/source-label.stories.tsx",
+      "sourceSha256": "fc837f5c1043bf604598e61682b162b716b355e175b132b65fb7c9193588f536",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcereference-label--interaction",
+      "name": "SourceReference/Label/Interaction",
+      "family": "label",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-label--interaction",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "716efd14bc4be8"
+      },
+      "visibleText": "可用标签禁用标签已发出移除请求0",
+      "sourceFile": "assets/search-workspace/src/components/source-label/source-label.stories.tsx",
+      "sourceSha256": "fc837f5c1043bf604598e61682b162b716b355e175b132b65fb7c9193588f536",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcereference-label--corner-badges",
+      "name": "SourceReference/Label/Corner Badges",
+      "family": "label",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-label--corner-badges",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "beba9f55c8b388"
+      },
+      "visibleText": "标签标签标签标签标签标签标签标签标签标签",
+      "sourceFile": "assets/search-workspace/src/components/source-label/source-label.stories.tsx",
+      "sourceSha256": "fc837f5c1043bf604598e61682b162b716b355e175b132b65fb7c9193588f536",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcereference-choice--states",
+      "name": "SourceReference/Choice/States",
+      "family": "checkbox",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-choice--states",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "12598af6fd90f8"
+      },
+      "visibleText": "未选已选半选禁用未选禁用已选禁用半选单选A单选B错误状态请选择可用项",
+      "sourceFile": "assets/search-workspace/src/components/source-choice/source-choice.stories.tsx",
+      "sourceSha256": "d990abc30f3e17f49914476f8aa843b6684814e63db8dcee6da2e87f2d8ceab1",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcereference-choice--form-reset",
+      "name": "SourceReference/Choice/Form Reset",
+      "family": "checkbox",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-choice--form-reset",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "0abef83f919c08"
+      },
+      "visibleText": "课程方向方向A方向B禁用方向重置选择",
+      "sourceFile": "assets/search-workspace/src/components/source-choice/source-choice.stories.tsx",
+      "sourceSha256": "d990abc30f3e17f49914476f8aa843b6684814e63db8dcee6da2e87f2d8ceab1",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcereference-choice--card-overflow",
+      "name": "SourceReference/Choice/Card Overflow",
+      "family": "checkbox",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-choice--card-overflow",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "bdbf67d66ea29"
+      },
+      "visibleText": "卡片选项选项0：支持长文案自然换行选项1：支持长文案自然换行选项2：支持长文案自然换行选项3：支持长文案自然换行选项4：支持长文案自然换行选项5：支持长文案自然换行选项6：支持长文案自然换行选项7：支持长文案自然换行选项8：支持长文案自然换行选项9：支持长文案自然换行选项10：支持长文案自然换行选项11：支持长文案自然换行选项12：支持长文案自然换行选项13：支持长文案自然换行选项14：支持长文案自然换行选项15：支持长文案自然换行选项16：支持长文案自然换行选项17：支持长文案自然换行",
+      "sourceFile": "assets/search-workspace/src/components/source-choice/source-choice.stories.tsx",
+      "sourceSha256": "d990abc30f3e17f49914476f8aa843b6684814e63db8dcee6da2e87f2d8ceab1",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcereference-collapse--interaction",
+      "name": "SourceReference/Collapse/Interaction",
+      "family": "collapse",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-collapse--interaction",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "274a35db8cc9"
+      },
+      "visibleText": "展开详情内容输入禁止展开被取消的内容禁用触发器禁用内容分组A内容A分组B内容B",
+      "sourceFile": "assets/search-workspace/src/components/source-collapse/source-collapse.stories.tsx",
+      "sourceSha256": "f7b40490860977dc09a26d40a1cfc72f7c789b7e9170dc4062ee713daed84212",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcereference-collapse--footer-control",
+      "name": "SourceReference/Collapse/Footer Control",
+      "family": "collapse",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcereference-collapse--footer-control",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "f444e25679a61"
+      },
+      "visibleText": "外部关闭始终显示持久输入底部展开",
+      "sourceFile": "assets/search-workspace/src/components/source-collapse/source-collapse.stories.tsx",
+      "sourceSha256": "f7b40490860977dc09a26d40a1cfc72f7c789b7e9170dc4062ee713daed84212",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-scrollbar--keyboard",
+      "name": "SourceFamilies/Scrollbar/Keyboard",
+      "family": "scrollbar",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-scrollbar--keyboard",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "49883fd4b7c18"
+      },
+      "visibleText": "第1项内容，保持自然换行第2项内容，保持自然换行第3项内容，保持自然换行第4项内容，保持自然换行第5项内容，保持自然换行第6项内容，保持自然换行第7项内容，保持自然换行第8项内容，保持自然换行第9项内容，保持自然换行第10项内容，保持自然换行第11项内容，保持自然换行第12项内容，保持自然换行第13项内容，保持自然换行第14项内容，保持自然换行第15项内容，保持自然换行第16项内容，保持自然换行第17项内容，保持自然换行第18项内容，保持自然换行第19项内容，保持自然换行第20项内容，保持自然换行第21项内容，保持自然换行第22项内容，保持自然换行第23项内容，保持自然换行第24项内容，保持自",
+      "sourceFile": "assets/search-workspace/src/components/source-scrollbar/source-scrollbar.stories.tsx",
+      "sourceSha256": "a49f92c4d52efcbcc45ea2c06547e604e237fb537578009c5abe9ff5eaf59af5",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-tabs--keyboard-and-retention",
+      "name": "SourceFamilies/Tabs/Keyboard And Retention",
+      "family": "tab",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tabs--keyboard-and-retention",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "2f30ef88a13a08"
+      },
+      "visibleText": "课程一未开放课程三保留输入禁用内容第三项内容",
+      "sourceFile": "assets/search-workspace/src/components/source-tabs/source-tabs.stories.tsx",
+      "sourceSha256": "9d3f83a16f0a65fc8dfdb6000dabdd7449a2189eb1e0d0338ee739815aad64b6",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-tabs--scroll-overflow",
+      "name": "SourceFamilies/Tabs/Scroll Overflow",
+      "family": "tab",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tabs--scroll-overflow",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "f8ddd24eac0898"
+      },
+      "visibleText": "分类0长标题分类1长标题分类2长标题分类3长标题分类4长标题分类5长标题分类6长标题分类7长标题分类8长标题分类9长标题分类10长标题分类11长标题分类12长标题分类内容0分类内容1分类内容2分类内容3分类内容4分类内容5分类内容6分类内容7分类内容8分类内容9分类内容10分类内容11分类内容12",
+      "sourceFile": "assets/search-workspace/src/components/source-tabs/source-tabs.stories.tsx",
+      "sourceSha256": "9d3f83a16f0a65fc8dfdb6000dabdd7449a2189eb1e0d0338ee739815aad64b6",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-price--sizes",
+      "name": "SourceFamilies/Price/Sizes",
+      "family": "price",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-price--sizes",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "36400b207e5668"
+      },
+      "visibleText": "以下为虚构验证金额，不是产品报价。¥4221.00/年起¥4221.00/年起¥4221.00/年起",
+      "sourceFile": "assets/search-workspace/src/components/source-price/source-price.stories.tsx",
+      "sourceSha256": "514f2633c4bf0560f2d6d1ec4cb4f776241f5de859da68921fe9fa05cc3dede0",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-price--long-unit",
+      "name": "SourceFamilies/Price/Long Unit",
+      "family": "price",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-price--long-unit",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "8fe33134139b5"
+      },
+      "visibleText": "¥0.00/月起（计费方式由业务明确提供，长文案自然换行）",
+      "sourceFile": "assets/search-workspace/src/components/source-price/source-price.stories.tsx",
+      "sourceSha256": "514f2633c4bf0560f2d6d1ec4cb4f776241f5de859da68921fe9fa05cc3dede0",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-pagination--dynamic",
+      "name": "SourceFamilies/Pagination/Dynamic",
+      "family": "pagination",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-pagination--dynamic",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "10217bda2d2ba"
+      },
+      "visibleText": "总条数：100/301...14151617...30跳转",
+      "sourceFile": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+      "sourceSha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-pagination--static-links",
+      "name": "SourceFamilies/Pagination/Static Links",
+      "family": "pagination",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-pagination--static-links",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "9294bda1d6662"
+      },
+      "visibleText": "总条数：3/3123跳转",
+      "sourceFile": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+      "sourceSha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-pagination--select-pages",
+      "name": "SourceFamilies/Pagination/Select Pages",
+      "family": "pagination",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-pagination--select-pages",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "68331674394138"
+      },
+      "visibleText": "总条数：100/301/302/303/304/305/306/307/308/309/3010/3011/3012/3013/3014/3015/3016/3017/3018/3019/3020/3021/3022/3023/3024/3025/3026/3027/3028/3029/3030/30",
+      "sourceFile": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+      "sourceSha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-countdown--fixed",
+      "name": "SourceFamilies/Countdown/Fixed",
+      "family": "countdown",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-countdown--fixed",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "f90bd245c23528"
+      },
+      "visibleText": "距本次活动结束：01天01时01分01秒",
+      "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+      "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-countdown--day-to-hours",
+      "name": "SourceFamilies/Countdown/Day To Hours",
+      "family": "countdown",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-countdown--day-to-hours",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "8ba77a03ee5be"
+      },
+      "visibleText": "距本次活动结束：01时00分00秒",
+      "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+      "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-countdown--completion-once",
+      "name": "SourceFamilies/Countdown/Completion Once",
+      "family": "countdown",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-countdown--completion-once",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "fd7c2cb1057298"
+      },
+      "visibleText": "00时00分00秒推进时间1",
+      "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+      "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-countdown--vertical-black",
+      "name": "SourceFamilies/Countdown/Vertical Black",
+      "family": "countdown",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-countdown--vertical-black",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "8cea6e2e72df88"
+      },
+      "visibleText": "距本次活动结束：01天01时01分01秒",
+      "sourceFile": "assets/search-workspace/src/components/source-countdown/source-countdown.stories.tsx",
+      "sourceSha256": "8de474ac0a5381fc5fb0a9367df57fb4c7af4ca7fc06ff3b9eadd70b76d21146",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-card--sizes",
+      "name": "SourceFamilies/Card/Sizes",
+      "family": "card",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-card--sizes",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "7f1a86973ceb7"
+      },
+      "visibleText": "开发资源业务提供的卡片正文，使用原始规范样式。开发资源业务提供的卡片正文，使用原始规范样式。开发资源业务提供的卡片正文，使用原始规范样式。开发资源业务提供的卡片正文，使用原始规范样式。",
+      "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+      "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-card--linked",
+      "name": "SourceFamilies/Card/Linked",
+      "family": "card",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-card--linked",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "17bf60f8f6ef98"
+      },
+      "visibleText": "开发资源业务提供的卡片正文，使用原始规范样式。目标楼层",
+      "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+      "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-card--long-text",
+      "name": "SourceFamilies/Card/Long Text",
+      "family": "card",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-card--long-text",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "4f71b093f42b"
+      },
+      "visibleText": "包含长名称的业务资源卡片LongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrappingLongUnbrokenResourceNameForWrapping",
+      "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+      "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-card--original-design",
+      "name": "SourceFamilies/Card/Original Design",
+      "family": "card",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-card--original-design",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "780e82db3f8648"
+      },
+      "visibleText": "OCP与USCP运筹优化算法赛道第一名在GECCO 2020国际会议中，华为云擎天架构的调度算法团队同时获得OCP与USCP运筹优化算法赛道第一名。",
+      "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+      "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-tips--tones",
+      "name": "SourceFamilies/Tips/Tones",
+      "family": "tips",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tips--tones",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "698954bdb107a"
+      },
+      "visibleText": "用于非关键性问题的规范提示。不再显示此消息用于非关键性问题的规范提示。",
+      "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+      "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-tips--close-keyboard",
+      "name": "SourceFamilies/Tips/Close Keyboard",
+      "family": "tips",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tips--close-keyboard",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "809d9a8556c858"
+      },
+      "visibleText": "",
+      "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+      "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-tips--auto-hide",
+      "name": "SourceFamilies/Tips/Auto Hide",
+      "family": "tips",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tips--auto-hide",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "3b3e3ffe27ab3"
+      },
+      "visibleText": "",
+      "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+      "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-tips--controlled-state",
+      "name": "SourceFamilies/Tips/Controlled State",
+      "family": "tips",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tips--controlled-state",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "eb1f93ec4187e"
+      },
+      "visibleText": "受控提示重新显示提示",
+      "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+      "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-tips--long-text",
+      "name": "SourceFamilies/Tips/Long Text",
+      "family": "tips",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-tips--long-text",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "40d8ec88b12168"
+      },
+      "visibleText": "LongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbrokenNoticeContentForWrappingLongUnbroken",
+      "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+      "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-anchornavigation--default",
+      "name": "SourceFamilies/AnchorNavigation/Default",
+      "family": "anchor",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-anchornavigation--default",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "b8cc4e459a1db8"
+      },
+      "visibleText": "规范导航项1规范导航项2规范导航项3规范导航项4规范导航项5规范导航项6规范导航项7规范导航项8规范导航项9规范导航项10规范导航项11规范导航项12规范导航项13规范导航项14规范导航项15规范导航项1锚点目标验证内容。规范导航项2锚点目标验证内容。规范导航项3锚点目标验证内容。规范导航项4锚点目标验证内容。规范导航项5锚点目标验证内容。规范导航项6锚点目标验证内容。规范导航项7锚点目标验证内容。规范导航项8锚点目标验证内容。规范导航项9锚点目标验证内容。规范导航项10锚点目标验证内容。规范导航项11锚点目标验证内容。规范导航项12锚点目标验证内容。规范导航项13锚点目标验证内容。规范导航项",
+      "sourceFile": "assets/search-workspace/src/components/source-anchor/source-anchor.stories.tsx",
+      "sourceSha256": "494f1c7a9a38a7a87b2d99a27ef272d724be94f084417805e3aefbc30ad1ce97",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-anchornavigation--documentation-gap",
+      "name": "SourceFamilies/AnchorNavigation/Documentation Gap",
+      "family": "anchor",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-anchornavigation--documentation-gap",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "e651628c2a494"
+      },
+      "visibleText": "规范导航项1规范导航项2规范导航项3规范导航项4规范导航项5规范导航项6规范导航项7规范导航项8规范导航项9规范导航项10规范导航项11规范导航项12规范导航项13规范导航项14规范导航项15规范导航项1锚点目标验证内容。规范导航项2锚点目标验证内容。规范导航项3锚点目标验证内容。规范导航项4锚点目标验证内容。规范导航项5锚点目标验证内容。规范导航项6锚点目标验证内容。规范导航项7锚点目标验证内容。规范导航项8锚点目标验证内容。规范导航项9锚点目标验证内容。规范导航项10锚点目标验证内容。规范导航项11锚点目标验证内容。规范导航项12锚点目标验证内容。规范导航项13锚点目标验证内容。规范导航项",
+      "sourceFile": "assets/search-workspace/src/components/source-anchor/source-anchor.stories.tsx",
+      "sourceSha256": "494f1c7a9a38a7a87b2d99a27ef272d724be94f084417805e3aefbc30ad1ce97",
+      "hasPlay": false
+    },
+    {
+      "id": "designcorrections-unifiedtable--original-six-column",
+      "name": "DesignCorrections/UnifiedTable/Original Six Column",
+      "family": "fixed-table",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "designcorrections-unifiedtable--original-six-column",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "6df27ce0d5932"
+      },
+      "visibleText": "原始设计表格（静态文案示例，未配置真实购买行为）共5个版本基础版企业版旗舰版容器版网页防篡改版基线检查基线检查基线检查基线检查弱口令 | 口令复杂度弱口令 | 口令复杂度主机基线弱口令 | 口令复杂度弱口令 | 口令复杂度主机基线容器镜像基线弱口令 | 口令复杂度主机基线漏洞检测支持检测系统漏洞支持一键修复Web-CMS漏洞应用漏洞容器镜像漏洞这里是文字链接这里是文字链接这里是文字链接这里是文字链接支持检测系统漏洞支持一键修复Web-CMS漏洞应用漏洞支持检测系统漏洞支持一键修复Web-CMS漏洞应用漏洞容器镜像漏洞支持检测系统漏洞支持一键修复Web-CMS漏洞应用漏洞入侵检测2 项主机入侵检",
+      "sourceFile": "assets/search-workspace/src/components/source-fixed-table/original-table.stories.tsx",
+      "sourceSha256": "ce4f6203f52d6aa746c4e5b638879539f7051ac73b53cf23aa1b04d22f2ace0e",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-fixedtable--default",
+      "name": "SourceFamilies/FixedTable/Default",
+      "family": "fixed-table",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-fixedtable--default",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "32a621c6986ed"
+      },
+      "visibleText": "参数比较验证参数基础型专业型服务项目0标准支持增强支持服务项目1标准支持增强支持服务项目2标准支持增强支持服务项目3标准支持增强支持服务项目4标准支持增强支持服务项目5标准支持增强支持服务项目6标准支持增强支持服务项目7标准支持增强支持服务项目8标准支持增强支持服务项目9标准支持增强支持服务项目10标准支持增强支持服务项目11标准支持增强支持服务项目12标准支持增强支持服务项目13标准支持增强支持服务项目14标准支持增强支持服务项目15标准支持增强支持服务项目16标准支持增强支持服务项目17标准支持增强支持服务项目18标准支持增强支持服务项目19标准支持增强支持",
+      "sourceFile": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+      "sourceSha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e",
+      "hasPlay": true
+    },
+    {
+      "id": "sourcefamilies-fixedtable--groups",
+      "name": "SourceFamilies/FixedTable/Groups",
+      "family": "fixed-table",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-fixedtable--groups",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "9f29e47e37e108"
+      },
+      "visibleText": "参数比较验证参数基础型专业型计算规格CPU2核4核",
+      "sourceFile": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+      "sourceSha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e",
+      "hasPlay": false
+    },
+    {
+      "id": "sourcefamilies-fixedtable--long-content",
+      "name": "SourceFamilies/FixedTable/Long Content",
+      "family": "fixed-table",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcefamilies-fixedtable--long-content",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "b2bd958ee2781"
+      },
+      "visibleText": "参数比较验证参数基础型专业型长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称长参数名称LongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescriptionLongUnbrokenDescrip",
+      "sourceFile": "assets/search-workspace/src/components/source-fixed-table/source-fixed-table.stories.tsx",
+      "sourceSha256": "aad2e90eaec121df953320361e92cc4a6168f806b5c0d8373a636d6c22e48f0e",
+      "hasPlay": false
+    }
+  ],
+  "renderedStories": 68,
+  "playStories": 42,
+  "pureRenderStories": 26,
+  "families": [
+    "anchor",
+    "breadcrumb",
+    "button",
+    "card",
+    "checkbox",
+    "collapse",
+    "countdown",
+    "fixed-table",
+    "input",
+    "label",
+    "link",
+    "modal",
+    "pagination",
+    "price",
+    "scrollbar",
+    "tab",
+    "tips"
+  ],
+  "runner": {
+    "path": "prerelease-2026-10-22/review/foundation-runner.js",
+    "sha256": "9091b5098aa397224d220a4e97098cf9173be5a46fa43555a882cd1361a00dbe"
+  },
+  "manualAcceptance": false
+}

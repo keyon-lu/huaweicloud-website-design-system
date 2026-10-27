@@ -1,0 +1,16 @@
+{
+  "kind": "source-release-check",
+  "check": "website-palette",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "checks": [
+      "verify-website-palette",
+      "test-palette-source"
+    ],
+    "scope": "Current declared palette rules and guarded source overrides, including button-only blue restriction; not universal color replacement."
+  }
+}

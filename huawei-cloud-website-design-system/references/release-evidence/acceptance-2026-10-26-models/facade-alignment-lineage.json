@@ -1,0 +1,8 @@
+{
+  "kind": "type-annotation-alignment",
+  "date": "2026-10-26",
+  "sourceArchive": "references/release-evidence/acceptance-2026-10-26-models/before-facade-type-fix.json",
+  "currentCorrection": "references/release-evidence/models-repair-2026-10-26.json",
+  "scope": "Align HTMLButtonElement querySelector generic across source/offline facades. No runtime behavior or JSX changes; current full engineering build follows. Previous scoped native dimensions/focus observations retained; no added whole-component acceptance.",
+  "formalRelease": false
+}

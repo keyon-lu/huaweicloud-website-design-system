@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-24T06:13:28.572Z",
+  "done": 1,
+  "kind": "foundation-sample-responsive-text-stress",
+  "rows": [
+    {
+      "checks": [
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1920,
+          "viewport": 1920,
+          "width": 1920
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "text-spacing",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1920,
+          "viewport": 1920,
+          "width": 1920
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "font-200-percent",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1920,
+          "viewport": 1920,
+          "width": 1920
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1905,
+          "viewport": 1905,
+          "width": 1905
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1776,
+          "viewport": 1776,
+          "width": 1776
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1775,
+          "viewport": 1775,
+          "width": 1775
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1440,
+          "viewport": 1440,
+          "width": 1440
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1026,
+          "viewport": 1026,
+          "width": 1026
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1025,
+          "viewport": 1025,
+          "width": 1025
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 1024,
+          "viewport": 1024,
+          "width": 1024
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 954,
+          "viewport": 954,
+          "width": 954
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 769,
+          "viewport": 769,
+          "width": 769
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 768,
+          "viewport": 768,
+          "width": 768
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "text-spacing",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 768,
+          "viewport": 768,
+          "width": 768
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "font-200-percent",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 768,
+          "viewport": 768,
+          "width": 768
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 565,
+          "viewport": 565,
+          "width": 565
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 390,
+          "viewport": 390,
+          "width": 390
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 376,
+          "viewport": 376,
+          "width": 376
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 375,
+          "viewport": 375,
+          "width": 375
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "normal",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 320,
+          "viewport": 320,
+          "width": 320
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "text-spacing",
+          "overflow": false,
+          "overflowElements": [],
+          "rootWidth": 320,
+          "viewport": 320,
+          "width": 320
+        },
+        {
+          "clippedText": [],
+          "controlOverflow": [],
+          "controls": 10,
+          "mode": "font-200-percent",
+          "overflow": true,
+          "overflowElements": [
+            {
+              "className": "",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": null,
+              "right": 376.5,
+              "tag": "SPAN",
+              "width": 366.5
+            },
+            {
+              "className": "por-text-input",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": "middle-false",
+              "right": 376.5,
+              "tag": "INPUT",
+              "width": 366.5
+            },
+            {
+              "className": "",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": null,
+              "right": 376.5,
+              "tag": "SPAN",
+              "width": 366.5
+            },
+            {
+              "className": "por-text-input",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": "middle-true",
+              "right": 376.5,
+              "tag": "INPUT",
+              "width": 366.5
+            },
+            {
+              "className": "",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": null,
+              "right": 376.5,
+              "tag": "SPAN",
+              "width": 366.5
+            },
+            {
+              "className": "por-text-input-l",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": "large-false",
+              "right": 376.5,
+              "tag": "INPUT",
+              "width": 366.5
+            },
+            {
+              "className": "",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": null,
+              "right": 376.5,
+              "tag": "SPAN",
+              "width": 366.5
+            },
+            {
+              "className": "por-text-input-l",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": "large-true",
+              "right": 376.5,
+              "tag": "INPUT",
+              "width": 366.5
+            },
+            {
+              "className": "por-text-input",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": "error",
+              "right": 376.5,
+              "tag": "INPUT",
+              "width": 366.5
+            },
+            {
+              "className": "por-textarea-wrap",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": null,
+              "right": 331,
+              "tag": "DIV",
+              "width": 321
+            },
+            {
+              "className": "por-textarea por-scrollbar-s",
+              "fontSize": "28px",
+              "implementation": null,
+              "inertAncestor": true,
+              "reference": "textarea",
+              "right": 331,
+              "tag": "TEXTAREA",
+              "width": 321
+            }
+          ],
+          "rootWidth": 377,
+          "viewport": 320,
+          "width": 320
+        }
+      ],
+      "family": "input",
+      "id": "sourcereference-input--matrix",
+      "name": "SourceReference/Input/Matrix",
+      "storyId": "sourcereference-input--matrix"
+    }
+  ],
+  "scope": "default rendered branches only; font scaling is NOT browser zoom; clipped text is an inventory, not automatically a defect; no manual or visual approvals",
+  "snapshotFolder": "storybook-v13",
+  "snapshotId": "4c6524f4cda13039656100379758d52dfbc4bc229a28a5206ed133002a97b08e"
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "source-release-check",
+  "check": "card/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "card",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-card--sizes",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+        "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8"
+      },
+      {
+        "id": "sourcefamilies-card--linked",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+        "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8"
+      },
+      {
+        "id": "sourcefamilies-card--long-text",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+        "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8"
+      },
+      {
+        "id": "sourcefamilies-card--original-design",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-card/source-card.stories.tsx",
+        "sourceSha256": "bbac21859c43427e4dbe6fc1919ed3f2a62de072c8185ffed6898d94fd5f13f8"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

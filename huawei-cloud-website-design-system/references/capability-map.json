@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "active_profile": "source-backed-public-website-prototype",
+  "routes": [
+    {
+      "intent": "public cloud product page",
+      "page_type": "website-product-floor",
+      "truth": "references/product-pages.md",
+      "template": "src/pages/portal-product/index.tsx",
+      "components": "references/component-registry.json"
+    },
+    {
+      "intent": "developer homepage",
+      "page_type": "developer-portal",
+      "truth": "references/developer-pages.md",
+      "template": "src/pages/portal-developer/index.tsx",
+      "components": "references/component-registry.json"
+    },
+    {
+      "intent": "public solution/campaign/resource/article composition",
+      "page_type": "website-composed",
+      "truth": "references/composed-pages.md",
+      "template": "src/pages/portal-composed/index.tsx",
+      "components": "references/component-registry.json",
+      "status": "prototype compositions; no scene-specific official visual acceptance"
+    }
+  ],
+  "unsupported": [
+    "authenticated console",
+    "Pixso-to-code conversion",
+    "production backend/AI runtime",
+    "RTL/dark mode",
+    "CMS/comments/full-text search",
+    "production registration/payment",
+    "arbitrary unmodeled page structures"
+  ],
+  "recovery": "Use supported source-backed route or retain missing branch evidence; no claim of formal conversion.",
+  "business_workflows": [
+    {
+      "id": "local-search-validation",
+      "workflow": "skills/search/SKILL.md",
+      "generator": "scripts/generate-search-project.mjs",
+      "template": "assets/search-workspace",
+      "scope": "runnable local search and content retrieval, not deployed production backend"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+import React from 'react';
+import {PortalAsset} from '@/components/portal-asset';
+import './product-v1-logos.css';
+export type ProductV1LogoCard={id:string;logo:string;alt:string;title?:string;description?:string;href?:string};
+export type ProductV1LogoFloor={kind:'logo-cards-v1';id:string;title:string;subtitle?:string;columns:2|3|4|5|6;mode:'logos'|'described';align:'left'|'center';background:'white'|'grey';backgroundAsset?:string;cardBackground:'white'|'grey'|'transparent';mobileMode:'wall'|'hidden';items:readonly ProductV1LogoCard[];mobileItems?:readonly ProductV1LogoCard[]};
+export function SourceProductV1LogoCards({data}:{data:ProductV1LogoFloor}){
+ const [phone,setPhone]=React.useState(()=>typeof matchMedia!=='undefined'&&matchMedia('(max-width:768px)').matches);React.useEffect(()=>{const q=matchMedia('(max-width:768px)'),update=()=>setPhone(q.matches);q.addEventListener('change',update);return()=>q.removeEventListener('change',update)},[]);const items=phone&&data.mobileItems?data.mobileItems:data.items;
+ const card=(i:ProductV1LogoCard)=><><div className="hc-pv1-logo-image"><PortalAsset assetId={i.logo} alt={i.alt}/></div>{data.mode==='described'&&<div className="hc-pv1-logo-copy">{i.title&&<h3>{i.title}</h3>}{i.description&&<p>{i.description}</p>}</div>}</>;
+ return <section id={data.id} className={'hc-pv1-logos hc-pv1-logos-'+data.background+' hc-pv1-logos-'+data.mode+' hc-pv1-logos-align-'+data.align+' hc-pv1-logos-mobile-'+data.mobileMode} data-source-pattern="pix-002-16-27208">{data.backgroundAsset&&<PortalAsset className="hc-pv1-logos-background" assetId={data.backgroundAsset} alt=""/>}<div className="por-container"><header><h2>{data.title}</h2>{data.subtitle&&<p>{data.subtitle}</p>}</header><div className={'hc-pv1-logo-grid hc-pv1-logo-cols-'+data.columns+' hc-pv1-logo-card-'+data.cardBackground+(data.columns>4?' hc-pv1-logo-many':'')}>{items.map(i=>i.href?<a className="hc-pv1-logo-card" key={i.id} href={i.href}>{card(i)}</a>:<article className="hc-pv1-logo-card" key={i.id}>{card(i)}</article>)}</div></div></section>
+}

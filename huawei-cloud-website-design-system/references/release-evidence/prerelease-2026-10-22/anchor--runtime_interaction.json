@@ -1,0 +1,29 @@
+{
+  "kind": "source-release-check",
+  "check": "anchor/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "anchor",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-anchornavigation--default",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-anchor/source-anchor.stories.tsx",
+        "sourceSha256": "494f1c7a9a38a7a87b2d99a27ef272d724be94f084417805e3aefbc30ad1ce97"
+      },
+      {
+        "id": "sourcefamilies-anchornavigation--documentation-gap",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-anchor/source-anchor.stories.tsx",
+        "sourceSha256": "494f1c7a9a38a7a87b2d99a27ef272d724be94f084417805e3aefbc30ad1ce97"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

@@ -1,0 +1,1250 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "1829:41685",
+      "name": "1024楼层",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1829:40305",
+          "name": "一排个数=1",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 892,
+          "properties": {
+            "一排个数": "1"
+          }
+        },
+        {
+          "id": "1829:41380",
+          "name": "一排个数=2",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 892,
+          "properties": {
+            "一排个数": "2"
+          }
+        },
+        {
+          "id": "1829:41683",
+          "name": "一排个数=3",
+          "type": "COMPONENT",
+          "width": 1040,
+          "height": 970,
+          "properties": {
+            "一排个数": "3"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1829:41685",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1665:34047",
+      "name": "组合卡片",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1639:30701",
+          "name": "一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 878,
+          "properties": {
+            "一排个数": "1/4"
+          }
+        },
+        {
+          "id": "1665:34143",
+          "name": "一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 828,
+          "properties": {
+            "一排个数": "1/3"
+          }
+        },
+        {
+          "id": "1680:31526",
+          "name": "一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 696,
+          "properties": {
+            "一排个数": "1/2"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/4",
+          "1/3",
+          "1/2"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1665:34047",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1795:31504",
+      "name": "tab",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1795:31503",
+          "name": "背景=无",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 170,
+          "properties": {
+            "背景": "无"
+          }
+        },
+        {
+          "id": "1795:31521",
+          "name": "背景=有",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 164,
+          "properties": {
+            "背景": "有"
+          }
+        }
+      ],
+      "axes": {
+        "背景": [
+          "无",
+          "有"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1795:31504",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1842:34804",
+      "name": "楼层",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1784:31601",
+          "name": "一排个数=1",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 980,
+          "properties": {
+            "一排个数": "1"
+          }
+        },
+        {
+          "id": "1842:34240",
+          "name": "一排个数=3",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1162,
+          "properties": {
+            "一排个数": "3"
+          }
+        },
+        {
+          "id": "1842:34483",
+          "name": "一排个数=2",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1030,
+          "properties": {
+            "一排个数": "2"
+          }
+        },
+        {
+          "id": "1842:34802",
+          "name": "一排个数=4",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1212,
+          "properties": {
+            "一排个数": "4"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1842:34804",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1852:41951",
+      "name": "1价格",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1705:31460",
+          "name": "价格=活动价,状态=悬停,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 72,
+          "properties": {
+            "一排个数": "1/1",
+            "价格": "活动价",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1705:31470",
+          "name": "价格=活动价,状态=默认,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 72,
+          "properties": {
+            "一排个数": "1/1",
+            "价格": "活动价",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1705:31480",
+          "name": "价格=原价,状态=默认,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 72,
+          "properties": {
+            "一排个数": "1/1",
+            "价格": "原价",
+            "状态": "默认"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/1"
+        ],
+        "价格": [
+          "活动价",
+          "原价"
+        ],
+        "状态": [
+          "悬停",
+          "默认"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1852:41951",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1615:29561",
+      "name": "亮点卡片原子组件",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1601:29281",
+          "name": "个数=大于4,状态=收起,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 194,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "大于4",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1655:29700",
+          "name": "个数=4,状态=全铺开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 170,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "4",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1655:29712",
+          "name": "个数=3,状态=全铺开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 140,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "3",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1655:29721",
+          "name": "个数=2,状态=全铺开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 110,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "2",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1655:29728",
+          "name": "个数=1,状态=全铺开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 80,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "1",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1655:30505",
+          "name": "个数=大于4,状态=展开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 224,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "大于4",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1680:29887",
+          "name": "个数=大于6,状态=展开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 224,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "大于6",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1680:29983",
+          "name": "个数=大于6,状态=收起,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 164,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "大于6",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1680:30002",
+          "name": "个数=6,状态=全铺开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 140,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "6",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30030",
+          "name": "个数=5,状态=全铺开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 140,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "5",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30044",
+          "name": "个数=4,状态=全铺开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 110,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "4",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30056",
+          "name": "个数=3,状态=全铺开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 110,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "3",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30069",
+          "name": "个数=2,状态=全铺开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 80,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "2",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30076",
+          "name": "个数=1,状态=全铺开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 80,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "1",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1689:31338",
+          "name": "个数=大于4,状态=展开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 164,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "大于4",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1697:30738",
+          "name": "个数=大于4,状态=收起,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 134,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "大于4",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1697:30753",
+          "name": "个数=4,状态=全铺开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 110,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "4",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1698:30766",
+          "name": "个数=3,状态=全铺开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 110,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "3",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1698:30775",
+          "name": "个数=2,状态=全铺开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 80,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "2",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1698:30782",
+          "name": "个数=1,状态=全铺开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 80,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "1",
+            "状态": "全铺开"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/4",
+          "1/2",
+          "1/1"
+        ],
+        "个数": [
+          "4",
+          "3",
+          "2",
+          "1",
+          "大于4",
+          "大于6",
+          "6",
+          "5"
+        ],
+        "状态": [
+          "展开",
+          "收起",
+          "全铺开"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1615:29561",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1629:29387",
+      "name": "规格卡片",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1601:29341",
+          "name": "个数=大于4,状态=展开,加价购=开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 350,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "大于4",
+            "加价购": "开",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1665:29940",
+          "name": "个数=大于4,状态=收起,加价购=开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 300,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "大于4",
+            "加价购": "开",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1665:30123",
+          "name": "个数=4,状态=全铺开,加价购=开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 276,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "4",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:30210",
+          "name": "个数=3,状态=全铺开,加价购=开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 226,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "3",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:30245",
+          "name": "个数=2,状态=全铺开,加价购=开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 176,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "2",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:30272",
+          "name": "个数=1,状态=全铺开,加价购=开,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 126,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "1",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:31050",
+          "name": "个数=大于4,状态=展开,加价购=关,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 274,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "大于4",
+            "加价购": "关",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1665:31096",
+          "name": "个数=大于4,状态=收起,加价购=关,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 224,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "大于4",
+            "加价购": "关",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1665:31840",
+          "name": "个数=4,状态=全铺开,加价购=关,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 208,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "4",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:31875",
+          "name": "个数=3,状态=全铺开,加价购=关,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 158,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "3",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:31902",
+          "name": "个数=2,状态=全铺开,加价购=关,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 108,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "2",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1665:31921",
+          "name": "个数=1,状态=全铺开,加价购=关,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 58,
+          "properties": {
+            "一排个数": "1/4",
+            "个数": "1",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30125",
+          "name": "个数=大于6,状态=展开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 350,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "大于6",
+            "加价购": "开",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1680:30244",
+          "name": "个数=大于6,状态=展开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 274,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "大于6",
+            "加价购": "关",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1680:30774",
+          "name": "个数=大于6,状态=收起,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 250,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "大于6",
+            "加价购": "开",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1680:30831",
+          "name": "个数=大于6,状态=收起,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 174,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "大于6",
+            "加价购": "关",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1680:30887",
+          "name": "个数=6,状态=全铺开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 218,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "6",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:30947",
+          "name": "个数=6,状态=全铺开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 158,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "6",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31000",
+          "name": "个数=5,状态=全铺开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 218,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "5",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31046",
+          "name": "个数=4,状态=全铺开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 168,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "4",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31092",
+          "name": "个数=5,状态=全铺开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 158,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "5",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31131",
+          "name": "个数=4,状态=全铺开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 108,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "4",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31170",
+          "name": "个数=3,状态=全铺开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 168,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "3",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31202",
+          "name": "个数=3,状态=全铺开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 108,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "3",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31234",
+          "name": "个数=2,状态=全铺开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 118,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "2",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31259",
+          "name": "个数=2,状态=全铺开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 118,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "2",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31284",
+          "name": "个数=1,状态=全铺开,加价购=开,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 118,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "1",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1680:31302",
+          "name": "个数=1,状态=全铺开,加价购=关,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 58,
+          "properties": {
+            "一排个数": "1/2",
+            "个数": "1",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1703:30866",
+          "name": "个数=大于4,状态=展开,加价购=开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 250,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "大于4",
+            "加价购": "开",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1703:30922",
+          "name": "个数=大于4,状态=收起,加价购=开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 200,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "大于4",
+            "加价购": "开",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1703:30965",
+          "name": "个数=4,状态=全铺开,加价购=开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 168,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "4",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1703:31005",
+          "name": "个数=3,状态=全铺开,加价购=开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 168,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "3",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1705:31037",
+          "name": "个数=2,状态=全铺开,加价购=开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 118,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "2",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1705:31062",
+          "name": "个数=1,状态=全铺开,加价购=开,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 118,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "1",
+            "加价购": "开",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1705:31118",
+          "name": "个数=大于4,状态=展开,加价购=关,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 174,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "大于4",
+            "加价购": "关",
+            "状态": "展开"
+          }
+        },
+        {
+          "id": "1705:31160",
+          "name": "个数=大于4,状态=收起,加价购=关,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 124,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "大于4",
+            "加价购": "关",
+            "状态": "收起"
+          }
+        },
+        {
+          "id": "1705:31199",
+          "name": "个数=4,状态=全铺开,加价购=关,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 108,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "4",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1705:31231",
+          "name": "个数=3,状态=全铺开,加价购=关,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 108,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "3",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1705:31256",
+          "name": "个数=2,状态=全铺开,加价购=关,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 58,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "2",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        },
+        {
+          "id": "1705:31274",
+          "name": "个数=1,状态=全铺开,加价购=关,一排个数=1/1",
+          "type": "COMPONENT",
+          "width": 800,
+          "height": 58,
+          "properties": {
+            "一排个数": "1/1",
+            "个数": "1",
+            "加价购": "关",
+            "状态": "全铺开"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/4",
+          "1/2",
+          "1/1"
+        ],
+        "个数": [
+          "大于4",
+          "4",
+          "3",
+          "2",
+          "1",
+          "大于6",
+          "6",
+          "5"
+        ],
+        "加价购": [
+          "开",
+          "关"
+        ],
+        "状态": [
+          "展开",
+          "收起",
+          "全铺开"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1629:29387",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1665:30427",
+      "name": "价格",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1615:29408",
+          "name": "价格=活动价,状态=悬停,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 124,
+          "properties": {
+            "一排个数": "1/4",
+            "价格": "活动价",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1665:30438",
+          "name": "价格=原价,状态=默认,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 124,
+          "properties": {
+            "一排个数": "1/4",
+            "价格": "原价",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1665:30449",
+          "name": "价格=活动价,状态=默认,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 124,
+          "properties": {
+            "一排个数": "1/4",
+            "价格": "活动价",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1680:31737",
+          "name": "价格=活动价,状态=悬停,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 72,
+          "properties": {
+            "一排个数": "1/2",
+            "价格": "活动价",
+            "状态": "悬停"
+          }
+        },
+        {
+          "id": "1680:31757",
+          "name": "价格=活动价,状态=默认,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 72,
+          "properties": {
+            "一排个数": "1/2",
+            "价格": "活动价",
+            "状态": "默认"
+          }
+        },
+        {
+          "id": "1680:31766",
+          "name": "价格=原价,状态=默认,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 72,
+          "properties": {
+            "一排个数": "1/2",
+            "价格": "原价",
+            "状态": "默认"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/4",
+          "1/2"
+        ],
+        "价格": [
+          "活动价",
+          "原价"
+        ],
+        "状态": [
+          "默认",
+          "悬停"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1665:30427",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1665:33849",
+      "name": "中间内容",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1634:29828",
+          "name": "一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 494,
+          "properties": {
+            "一排个数": "1/4"
+          }
+        },
+        {
+          "id": "1677:29913",
+          "name": "一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 414,
+          "properties": {
+            "一排个数": "1/2"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/4",
+          "1/2"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1665:33849",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1655:29551",
+      "name": "亮点原子组件",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1655:29534",
+          "name": "类型=点",
+          "type": "COMPONENT",
+          "width": 324,
+          "height": 22,
+          "properties": {
+            "类型": "点"
+          }
+        },
+        {
+          "id": "1655:29549",
+          "name": "类型=勾",
+          "type": "COMPONENT",
+          "width": 324,
+          "height": 22,
+          "properties": {
+            "类型": "勾"
+          }
+        },
+        {
+          "id": "1655:29550",
+          "name": "类型=叉",
+          "type": "COMPONENT",
+          "width": 324,
+          "height": 22,
+          "properties": {
+            "类型": "叉"
+          }
+        }
+      ],
+      "axes": {
+        "类型": [
+          "点",
+          "勾",
+          "叉"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1655:29551",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

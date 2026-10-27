@@ -1,0 +1,18 @@
+import React from 'react';
+import {PortalAsset} from '@/components/portal-asset';
+import './product-2026-scenarios.css';
+export type Product2026ScenarioAction={kind:'link';label:string;href:string}|{kind:'architecture';label:string;asset:string;alt:string;closeLabel:string};
+export type Product2026ScenarioItem={id:string;title:string;description:string;asset:string;hoverAsset?:string;tone:'ink'|'white';action:Product2026ScenarioAction};
+export type Product2026ScenarioFloor={kind:'scenario-solutions-2026';id:string;title:string;description?:string;mobileTitle?:string;mobileDescription?:string;columns:2|3|4;items:readonly Product2026ScenarioItem[];mobileItems?:readonly Product2026ScenarioItem[];scrollLabel:string};
+export function SourceProduct2026ScenarioCard({item}: {item:Product2026ScenarioItem}){
+ const [open,setOpen]=React.useState(false),dialog=React.useRef<HTMLDialogElement>(null),trigger=React.useRef<HTMLButtonElement>(null),title=React.useId(),action=item.action;
+ React.useEffect(()=>{if(open&&!dialog.current?.open)dialog.current?.showModal();if(!open&&dialog.current?.open)dialog.current.close();return()=>{if(dialog.current?.open)dialog.current.close()}},[open]);
+ const close=()=>{dialog.current?.close();setOpen(false);trigger.current?.focus()};
+ return <article className={'hc-p26-scenario-card hc-p26-scenario-tone-'+item.tone}><div className="hc-p26-scenario-background" aria-hidden="true"><PortalAsset assetId={item.asset} alt=""/>{item.hoverAsset&&<span className="hc-p26-scenario-hover"><PortalAsset assetId={item.hoverAsset} alt=""/></span>}</div><div className="hc-p26-scenario-copy"><h3>{item.title}</h3><p>{item.description}</p></div>{action.kind==='link'?<a className="hc-p26-scenario-action" href={action.href} aria-label={action.label}><PortalAsset assetId={item.tone==='white'?'solution-arrow-white':'solution-arrow-dark'} alt=""/></a>:<><button type="button" className="hc-p26-scenario-action" ref={trigger} aria-label={action.label} aria-haspopup="dialog" onClick={()=>setOpen(true)}><PortalAsset assetId="product-2026-scenario-plus" alt=""/></button><dialog className="hc-p26-scenario-dialog" ref={dialog} aria-labelledby={title} onCancel={e=>{e.preventDefault();close()}} onClose={()=>setOpen(false)} onClick={e=>{if(e.target===e.currentTarget)close()}}><h3 id={title}>{action.alt}</h3><PortalAsset assetId={action.asset} alt={action.alt}/><button type="button" onClick={close}>{action.closeLabel}</button></dialog></>}</article>;
+}
+export function SourceProduct2026Scenarios({data}: {data:Product2026ScenarioFloor}){
+ const [mobile,setMobile]=React.useState(()=>typeof window!=='undefined'&&matchMedia('(max-width:599px)').matches);
+ React.useEffect(()=>{const m=matchMedia('(max-width:599px)'),change=()=>setMobile(m.matches);change();m.addEventListener('change',change);return()=>m.removeEventListener('change',change)},[]);
+ const items=mobile?data.mobileItems??data.items:data.items;
+ return <section id={data.id} className="hc-p26-scenarios" data-source-pattern="pix-001-2-59964"><div className="por-container"><header className="hc-p26-scenario-heading"><h2>{mobile?data.mobileTitle??data.title:data.title}</h2>{(mobile?data.mobileDescription??data.description:data.description)&&<p>{mobile?data.mobileDescription??data.description:data.description}</p>}</header><div className={'hc-p26-scenario-grid hc-p26-scenario-columns-'+data.columns} tabIndex={mobile?0:undefined} role={mobile?'region':undefined} aria-label={mobile?data.scrollLabel:undefined}>{items.map(item=><SourceProduct2026ScenarioCard key={(mobile?'mobile:':'pc:')+item.id} item={item}/>)}</div></div></section>;
+}

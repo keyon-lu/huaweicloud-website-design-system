@@ -1,0 +1,304 @@
+{
+  "kind": "storybook-real-browser-execution",
+  "snapshotId": "13654eaa9235d55db2795dba75c057295ecadfa2c437ea118daee4d418da18c2",
+  "scope": "Existing render/play only; not human acceptance",
+  "rows": [
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 1",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "finished",
+      "event": {
+        "type": "storyFinished",
+        "args": [
+          {
+            "storyId": "sourcepilots-sourcemodal--nested-autocomplete",
+            "status": "success",
+            "reporters": []
+          }
+        ],
+        "from": "48e1113adf0528"
+      },
+      "visibleText": "打开关联输入弹窗{\"audit\":{\"label\":\"modal-autocomplete\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-26T03:28:29.266Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\""
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 2",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "failed",
+      "event": {
+        "type": "playFunctionThrewException",
+        "args": [
+          {
+            "name": "TestingLibraryElementError",
+            "message": "Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>",
+            "stack": "Error: Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n    at pp (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:130:3288)\n    at http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:138:183\n    at YP.invoke (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:9407)\n    at YP.intercept (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6908)\n    at YP.track (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6640)\n    at Object.findByRole (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:5960)\n    at play (http://127.0.0.1:6030/storybook-v25/assets/source-modal.stories-TFvD3XJz.js:1:7068)\n    at async UG.runPhase (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:607)\n    at async UG.render (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:3467)"
+          }
+        ],
+        "from": "9cc396901c7d2"
+      },
+      "diagnostic": {
+        "focus": "<input id=\"_r_1_\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"true\" class=\"por-text-input source-input  \" value=\"华为云\" aria-controls=\"_r_1_-options\" aria-activedescendant=\"_r_1_-options-0\">",
+        "options": [
+          {
+            "text": "华为云",
+            "display": "list-item",
+            "visibility": "visible",
+            "rect": {
+              "x": 441.5,
+              "y": 381,
+              "width": 334,
+              "height": 32,
+              "top": 381,
+              "right": 775.5,
+              "bottom": 413,
+              "left": 441.5
+            },
+            "ancestors": [
+              {
+                "tag": "UL",
+                "class": "por-input-option-list por-scrollbar-s source-autocomplete-options",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "block",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 3",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "failed",
+      "event": {
+        "type": "playFunctionThrewException",
+        "args": [
+          {
+            "name": "TestingLibraryElementError",
+            "message": "Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>",
+            "stack": "Error: Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n    at pp (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:130:3288)\n    at http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:138:183\n    at YP.invoke (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:9407)\n    at YP.intercept (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6908)\n    at YP.track (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6640)\n    at Object.findByRole (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:5960)\n    at play (http://127.0.0.1:6030/storybook-v25/assets/source-modal.stories-TFvD3XJz.js:1:7068)\n    at async UG.runPhase (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:607)\n    at async UG.render (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:3467)"
+          }
+        ],
+        "from": "7ec68a7034377"
+      },
+      "diagnostic": {
+        "focus": "<input id=\"_r_1_\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"true\" class=\"por-text-input source-input  \" value=\"华为云\" aria-controls=\"_r_1_-options\" aria-activedescendant=\"_r_1_-options-0\">",
+        "options": [
+          {
+            "text": "华为云",
+            "display": "list-item",
+            "visibility": "visible",
+            "rect": {
+              "x": 441.5,
+              "y": 381,
+              "width": 334,
+              "height": 32,
+              "top": 381,
+              "right": 775.5,
+              "bottom": 413,
+              "left": 441.5
+            },
+            "ancestors": [
+              {
+                "tag": "UL",
+                "class": "por-input-option-list por-scrollbar-s source-autocomplete-options",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "block",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 4",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "failed",
+      "event": {
+        "type": "playFunctionThrewException",
+        "args": [
+          {
+            "name": "TestingLibraryElementError",
+            "message": "Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>",
+            "stack": "Error: Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n    at pp (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:130:3288)\n    at http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:138:183\n    at YP.invoke (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:9407)\n    at YP.intercept (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6908)\n    at YP.track (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6640)\n    at Object.findByRole (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:5960)\n    at play (http://127.0.0.1:6030/storybook-v25/assets/source-modal.stories-TFvD3XJz.js:1:7068)\n    at async UG.runPhase (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:607)\n    at async UG.render (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:3467)"
+          }
+        ],
+        "from": "b0fd167d0a7e8"
+      },
+      "diagnostic": {
+        "focus": "<input id=\"_r_1_\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"true\" class=\"por-text-input source-input  \" value=\"华为云\" aria-controls=\"_r_1_-options\" aria-activedescendant=\"_r_1_-options-0\">",
+        "options": [
+          {
+            "text": "华为云",
+            "display": "list-item",
+            "visibility": "visible",
+            "rect": {
+              "x": 441.5,
+              "y": 381,
+              "width": 334,
+              "height": 32,
+              "top": 381,
+              "right": 775.5,
+              "bottom": 413,
+              "left": 441.5
+            },
+            "ancestors": [
+              {
+                "tag": "UL",
+                "class": "por-input-option-list por-scrollbar-s source-autocomplete-options",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "block",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sourcepilots-sourcemodal--nested-autocomplete",
+      "name": "SourcePilots/SourceModal/Nested Autocomplete / isolated 5",
+      "family": "modal",
+      "sourceId": null,
+      "sourceIds": [],
+      "sourceFile": "./src/components/source-modal/source-modal.stories.tsx",
+      "status": "failed",
+      "event": {
+        "type": "playFunctionThrewException",
+        "args": [
+          {
+            "name": "TestingLibraryElementError",
+            "message": "Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>",
+            "stack": "Error: Unable to find role=\"option\" and name \"华为云\"\n\nIgnored nodes: comments, script, style\n<div\n  aria-describedby=\"_r_0_-body\"\n  aria-labelledby=\"_r_0_-title\"\n  aria-modal=\"true\"\n  class=\"por-modal show\"\n  role=\"dialog\"\n  tabindex=\"-1\"\n>\n  <div\n    class=\"por-modal-dialog por-modal-dialog-small\"\n  >\n    <div\n      class=\"por-modal-inner\"\n    >\n      <div\n        class=\"por-modal-head\"\n      >\n        <h2\n          class=\"por-modal-title\"\n          id=\"_r_0_-title\"\n        >\n          源码基准弹窗\n        </h2>\n      </div>\n      <div\n        class=\"por-modal-body\"\n        id=\"_r_0_-body\"\n      >\n        <div\n          class=\"por-input-dropdown source-autocomplete open\"\n        >\n          <label\n            for=\"_r_1_\"\n          >\n            关联内容\n          </label>\n          <input\n            aria-activedescendant=\"_r_1_-options-0\"\n            aria-autocomplete=\"list\"\n            aria-controls=\"_r_1_-options\"\n            aria-expanded=\"true\"\n            class=\"por-text-input source-input  \"\n            id=\"_r_1_\"\n            role=\"combobox\"\n            value=\"华为云\"\n          />\n        </div>\n      </div>\n      <div\n        class=\"por-modal-footer\"\n      >\n        <button\n          class=\"por-btn source-button por-btn-primary   \"\n          type=\"button\"\n        >\n          关闭\n        </button>\n      </div>\n    </div>\n    <button\n      aria-label=\"关闭弹窗\"\n      class=\"por-modal-close\"\n      type=\"button\"\n    >\n      <i\n        aria-hidden=\"true\"\n        class=\"u-icon u-icon-cancel\"\n      />\n    </button>\n  </div>\n  <ul\n    aria-label=\"关联内容\"\n    class=\"por-input-option-list por-scrollbar-s source-autocomplete-options\"\n    id=\"_r_1_-options\"\n    role=\"listbox\"\n    style=\"visibility: visible; left: 440.5px; top: 372px; width: 336px; max-height: 50px;\"\n  >\n    <li\n      aria-selected=\"true\"\n      class=\"selected\"\n      id=\"_r_1_-options-0\"\n      role=\"option\"\n    >\n      华为云\n    </li>\n  </ul>\n</div>\n    at pp (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:130:3288)\n    at http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:138:183\n    at YP.invoke (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:9407)\n    at YP.intercept (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6908)\n    at YP.track (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:6640)\n    at Object.findByRole (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:720:5960)\n    at play (http://127.0.0.1:6030/storybook-v25/assets/source-modal.stories-TFvD3XJz.js:1:7068)\n    at async UG.runPhase (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:607)\n    at async UG.render (http://127.0.0.1:6030/storybook-v25/assets/iframe-Dqv0l18J.js:904:3467)"
+          }
+        ],
+        "from": "a20b86307c606"
+      },
+      "diagnostic": {
+        "focus": "<input id=\"_r_1_\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"true\" class=\"por-text-input source-input  \" value=\"华为云\" aria-controls=\"_r_1_-options\" aria-activedescendant=\"_r_1_-options-0\">",
+        "options": [
+          {
+            "text": "华为云",
+            "display": "list-item",
+            "visibility": "visible",
+            "rect": {
+              "x": 441.5,
+              "y": 381,
+              "width": 334,
+              "height": 32,
+              "top": 381,
+              "right": 775.5,
+              "bottom": 413,
+              "left": 441.5
+            },
+            "ancestors": [
+              {
+                "tag": "UL",
+                "class": "por-input-option-list por-scrollbar-s source-autocomplete-options",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "block",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              },
+              {
+                "tag": "DIV",
+                "class": "por-modal show",
+                "inert": false,
+                "hidden": false,
+                "ariaHidden": null,
+                "display": "flex",
+                "visibility": "visible"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

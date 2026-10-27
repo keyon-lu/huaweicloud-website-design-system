@@ -1,0 +1,88 @@
+{
+  "scene": "campaign",
+  "hero": {
+    "title": "直播预告楼层来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "live-preview-v1",
+      "id": "v1-live-preview",
+      "title": "看直播，领优惠",
+      "background": "grey",
+      "reservationMode": "local",
+      "groups": [
+        {
+          "id": "online",
+          "label": "线上直播",
+          "items": [
+            {
+              "id": "stream-0",
+              "title": "CDN专场",
+              "subtitle": "可编辑的直播主题说明",
+              "banner": "product-v1-live-preview-background",
+              "mobileBanner": "product-v1-live-preview-background",
+              "date": "2026-10-20",
+              "time": "2026/10/20 20:00",
+              "status": "ended",
+              "replayHref": "https://www.huaweicloud.com/"
+            },
+            {
+              "id": "stream-1",
+              "title": "云服务直播专场",
+              "subtitle": "可编辑的直播主题说明",
+              "banner": "product-v1-live-preview-background",
+              "mobileBanner": "product-v1-live-preview-background",
+              "date": "2026-10-21",
+              "time": "2026/10/21 20:00",
+              "status": "live",
+              "roomHref": "https://www.huaweicloud.com/"
+            },
+            {
+              "id": "stream-2",
+              "title": "云存储专场",
+              "subtitle": "可编辑的直播主题说明",
+              "banner": "product-v1-live-preview-background",
+              "mobileBanner": "product-v1-live-preview-background",
+              "date": "2026-10-22",
+              "time": "2026/10/22 20:00",
+              "status": "upcoming"
+            },
+            {
+              "id": "stream-3",
+              "title": "云数据库专场",
+              "subtitle": "可编辑的直播主题说明",
+              "banner": "product-v1-live-preview-background",
+              "mobileBanner": "product-v1-live-preview-background",
+              "date": "2026-10-23",
+              "time": "2026/10/23 20:00",
+              "status": "upcoming"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "tabs": "直播分类",
+        "previous": "之前的分类",
+        "next": "之后的分类",
+        "agenda": "直播场次",
+        "upcoming": "未开始",
+        "live": "直播中",
+        "ended": "已结束",
+        "reserve": "预约直播",
+        "cancel": "取消预约",
+        "enter": "进入直播间",
+        "replay": "直播回放",
+        "localNotice": "预约仅在当前页面验证，不会提交真实预约。",
+        "reserved": "已在当前页面标记预约",
+        "cancelled": "已取消本页预约标记",
+        "countdown": {
+          "days": "天",
+          "hours": "时",
+          "minutes": "分",
+          "seconds": "秒"
+        }
+      }
+    }
+  ]
+}

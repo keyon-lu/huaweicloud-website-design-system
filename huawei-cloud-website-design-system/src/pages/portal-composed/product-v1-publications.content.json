@@ -1,0 +1,110 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "图书奖项楼层来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "publication-cards-v1",
+      "id": "v1-publications",
+      "title": "图书与奖项展示",
+      "background": "grey",
+      "cardBackground": "white",
+      "columns": 2,
+      "copyAlign": "left",
+      "mobileCopyAlign": "center",
+      "items": [
+        {
+          "id": "publication-0",
+          "title": "来源展示卡片示例 1",
+          "asset": "product-v1-publication-image",
+          "alt": "设计规范中的证书图示例",
+          "paragraphs": [
+            [
+              {
+                "text": "可编辑标题与正文，"
+              },
+              {
+                "text": "支持重点加粗",
+                "strong": true
+              },
+              {
+                "text": "与段落链接。",
+                "href": "#v1-publications"
+              }
+            ]
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-publications",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "publication-1",
+          "title": "来源展示卡片示例 2",
+          "asset": "product-v1-publication-image",
+          "alt": "设计规范中的证书图示例",
+          "paragraphs": [
+            [
+              {
+                "text": "可编辑标题与正文，"
+              },
+              {
+                "text": "支持重点加粗",
+                "strong": true
+              },
+              {
+                "text": "与段落链接。",
+                "href": "#v1-publications"
+              }
+            ]
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-publications",
+              "variant": "secondary"
+            }
+          ]
+        },
+        {
+          "id": "publication-2",
+          "title": "来源展示卡片示例 3",
+          "asset": "product-v1-publication-image",
+          "alt": "设计规范中的证书图示例",
+          "paragraphs": [
+            [
+              {
+                "text": "可编辑标题与正文，"
+              },
+              {
+                "text": "支持重点加粗",
+                "strong": true
+              },
+              {
+                "text": "与段落链接。",
+                "href": "#v1-publications"
+              }
+            ]
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-publications",
+              "variant": "secondary"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "actions": "卡片操作",
+        "slides": "展示切换",
+        "slide": "展示卡片"
+      }
+    }
+  ]
+}

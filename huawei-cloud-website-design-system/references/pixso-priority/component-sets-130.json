@@ -1,0 +1,52 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "1122:19485",
+      "name": "多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1122:19438",
+          "name": "属性 1=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 400,
+          "properties": {
+            "属性 1": "1536"
+          }
+        },
+        {
+          "id": "1122:19462",
+          "name": "属性 1=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 334,
+          "properties": {
+            "属性 1": "1280"
+          }
+        },
+        {
+          "id": "1122:19484",
+          "name": "属性 1=1024",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 334,
+          "properties": {
+            "属性 1": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "属性 1": [
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1122:19485",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

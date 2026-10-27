@@ -1,0 +1,71 @@
+{
+  "kind": "source-release-check",
+  "check": "modal/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "modal",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcepilots-sourcemodal--playground",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--middle",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--large",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--x-large",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--long-content",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--close-actions",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--status-matrix",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--backdrop-locked",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      },
+      {
+        "id": "sourcepilots-sourcemodal--nested-autocomplete",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-modal/source-modal.stories.tsx",
+        "sourceSha256": "1b7c5ed3d46f3614d50bc7572b7e8d51a39d9d1d656503bac332008bb9d3a04b"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

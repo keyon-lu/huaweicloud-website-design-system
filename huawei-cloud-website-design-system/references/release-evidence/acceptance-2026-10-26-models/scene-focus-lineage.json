@@ -1,0 +1,7 @@
+{
+  "kind": "nonvisual-scene-focus-repair",
+  "date": "2026-10-26",
+  "changeProof": "references/release-evidence/scene-focus-repair-2026-10-26.json",
+  "scope": "Boundary focus and band-remount focus only. Source CSS unchanged, returned content equivalent apart from a root ref, other144 functions byte-identical. Existing scroll algorithm retained. Native generated proof passed; source component and normal-motion test follow with current full build. Previous scoped records keep their old approval boundaries.",
+  "formalRelease": false
+}

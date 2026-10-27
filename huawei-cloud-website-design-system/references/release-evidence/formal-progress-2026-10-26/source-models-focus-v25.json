@@ -1,0 +1,11 @@
+{
+  "end": {
+    "disabled": true,
+    "focus": "region"
+  },
+  "phone": {
+    "controls": 0,
+    "focus": "region"
+  },
+  "passed": true
+}

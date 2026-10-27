@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-16",
+  "version": "2.5.0-draft",
+  "baselineVersion": "2.4.1-draft",
+  "counts": {
+    "dedicated-partial": 5,
+    "no-dedicated-family-implementation": 12,
+    "related-page-wrapper-only": 7
+  },
+  "fullyAcceptedFamilies": 0,
+  "families": [
+    {
+      "id": "anchor",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalAnchor",
+        "PortalProductNavigation"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "breadcrumb",
+      "classification": "dedicated-partial",
+      "publicComponentIds": [
+        "source-breadcrumb"
+      ],
+      "relatedPageExports": [
+        "PortalBreadcrumb"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "button",
+      "classification": "dedicated-partial",
+      "publicComponentIds": [
+        "source-button"
+      ],
+      "relatedPageExports": [
+        "PortalButton"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "card",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalCards",
+        "PortalSolutionCards"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "carousel",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalPracticeCarousel",
+        "PortalDeveloperBanner"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "checkbox",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "collapse",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalFAQ",
+        "PortalFoldedMedia"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "countdown",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "datepicker",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "fixed-table",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "img-viewer",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "input",
+      "classification": "dedicated-partial",
+      "publicComponentIds": [
+        "search-input"
+      ],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "label",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "link",
+      "classification": "dedicated-partial",
+      "publicComponentIds": [
+        "source-link"
+      ],
+      "relatedPageExports": [
+        "PortalLink"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "modal",
+      "classification": "dedicated-partial",
+      "publicComponentIds": [
+        "source-modal"
+      ],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "pagination",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "player",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalGaussVideos"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "price",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalGaussPricing"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "rate",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "scrollbar",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "select",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "service-table",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    },
+    {
+      "id": "tab",
+      "classification": "related-page-wrapper-only",
+      "publicComponentIds": [],
+      "relatedPageExports": [
+        "PortalFoldedMedia"
+      ],
+      "fullAcceptance": false
+    },
+    {
+      "id": "tips",
+      "classification": "no-dedicated-family-implementation",
+      "publicComponentIds": [],
+      "relatedPageExports": [],
+      "fullAcceptance": false
+    }
+  ],
+  "requiredFloors": [
+    "process-steps",
+    "text",
+    "cards",
+    "folded-media",
+    "solution-cards",
+    "customer-cases",
+    "resources",
+    "faq"
+  ],
+  "additionalStyleCandidates": [
+    "activity-process",
+    "process-tabs",
+    "process-guide"
+  ],
+  "formalRelease": false
+}

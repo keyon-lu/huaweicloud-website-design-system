@@ -1,0 +1,1218 @@
+{
+  "schema_version": 1,
+  "source": "src/components/portal-components.tsx",
+  "source_sha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c",
+  "status": "source export spec index; not formal Pixso component conversion",
+  "components": [
+    {
+      "id": "PortalButton",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalButton({children,href,onClick,variant=\"primary\",disabled=false,size=\"middle\"}:{children:React.ReactNode;href?:string;onClick?:()=>void;variant?:\"primary\"|\"secondary\"|\"dark\"|\"primary-light\"|\"light\";disabled?:boolean;size?:\"middle\"|\"default\"|\"small\"})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "resolvePortalHeaderLayout",
+      "tier": "helper",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function resolvePortalHeaderLayout({viewport,available,logo,nav,actions,fullSearch=160,iconSearch=32,gap=24}:{viewport:number;available:number;logo:number;nav:number;actions:number;fullSearch?:number;iconSearch?:number;gap?:number})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalHeader",
+      "tier": "shared-framework",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalHeader({scene=\"product\",links,variant=\"compact\",actionEntries,searchEnabled,mobileMenu}:{scene?:\"product\"|\"developer\";links:Link[];variant?:\"compact\"|\"site\";actionEntries?:Link[];searchEnabled?:boolean;mobileMenu?:PortalMobileMenuGroup[]})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "mobileMenu is optional; default differs by scene",
+        "onSearch callback is not exposed here"
+      ]
+    },
+    {
+      "id": "PortalMobileMenu",
+      "tier": "shared-framework",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalMobileMenu({id,groups,onNavigate,onClose}:{id:string;groups:PortalMobileMenuGroup[];onNavigate:()=>void;onClose:()=>void})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "nonempty groups with unique category labels",
+        "scroll/inert/focus lifecycle owned by parent Header"
+      ]
+    },
+    {
+      "id": "PortalMobileMenuBranch",
+      "tier": "helper",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalMobileMenuBranch({item,onNavigate,accordionName}:{item:PortalMobileMenuItem;onNavigate:()=>void;accordionName?:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalNavigationGlyph",
+      "tier": "helper",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalNavigationGlyph({kind}:{kind:\"search\"|\"user\"|\"menu\"|\"close\"})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalFooter",
+      "tier": "legacy-compatible",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalFooter({scene=\"product\"}:{scene?:\"product\"|\"developer\"})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalHero",
+      "tier": "legacy-compatible",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalHero({title,description,eyebrow,actions,scene=\"product\"}:{title:string;description:string;eyebrow?:string;actions:Link[];scene?:\"product\"|\"developer\"})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalSection",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalSection({id,title,description,bg=\"white\",children}:{id:string;title:string;description?:string;bg?:\"white\"|\"grey\"|\"dark\"|\"light\";children:React.ReactNode})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalCards",
+      "tier": "legacy-compatible",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCards({items,kind=\"product\"}:{items:Card[];kind?:\"product\"|\"skills\"|\"practice\"})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalAnchor",
+      "tier": "legacy-compatible",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalAnchor({items}:{items:Link[]})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalFAQ",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalFAQ({items,indicator=\"native\"}:{items:{question:string;answer:string}[];indicator?:\"native\"|\"chevron\"})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalCopyCommand",
+      "tier": "legacy-compatible",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCopyCommand({command}:{command:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalAbility",
+      "tier": "legacy-compatible",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalAbility({title,description,href}:{title:string;description:string;href:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalAsset",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalAsset({assetId,alt,className=\"\"}:{assetId:AssetId;alt:string;className?:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductNavigation",
+      "tier": "shared-framework",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductNavigation({title,links}:{title:string;links:Link[]})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussHero",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussHero({title,description,actions}:{title:string;description:string;actions:Link[]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussNews",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussNews({items}:{items:{title:string;description:string;href:string;tag?:string}[]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussPricing",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussPricing({items}:{items:GaussContentData[\"pricing\"]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussBenefits",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussBenefits({items}:{items:GaussItem[]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussCases",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussCases({items,logos}:{items:GaussItem[];logos:(string|null)[]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussRecognition",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussRecognition({items}:{items:GaussItem[]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussPartners",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussPartners({items}:{items:GaussContentData[\"partners\"]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussVideos",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussVideos({items}:{items:GaussContentData[\"videos\"]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussResources",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussResources({items}:{items:GaussItem[]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussQuestions",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussQuestions({items}:{items:GaussContentData[\"faq\"]})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGaussFinalAction",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussFinalAction({asset}:{asset:string})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalWebsiteFooter",
+      "tier": "shared-framework",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalWebsiteFooter({groups,variant=\"product\"}:{groups:GaussContentData[\"footer\"];variant?:\"product\"|\"developer\"})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "only groups and variant configurable",
+        "contact, social and legal snapshot fixed"
+      ]
+    },
+    {
+      "id": "PortalGaussFullContent",
+      "tier": "gauss-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGaussFullContent({data}:{data:GaussContentData})",
+      "spec": "references/gaussdb-fullpage-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductHero",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductHero({title,description,actions,iconAsset,breadcrumb=[]}:{title:string;description:string;actions:Link[];iconAsset?:string;breadcrumb:Link[]})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "breadcrumb TypeScript property is required even though destructuring defaults to []"
+      ]
+    },
+    {
+      "id": "PortalCustomerCases",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCustomerCases({items,logos,names,id,title}:{items:GaussItem[];logos:(string|null)[];names:string[];id:string;title:string})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "items nonempty",
+        "logos and names parallel to items; null logo uses name fallback"
+      ]
+    },
+    {
+      "id": "PortalProductResources",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductResources({items,id=\"resources\"}:{items:GaussItem[];id?:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductFinalAction",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductFinalAction({asset,title,href,label,id}:{asset:string;title:string;href:string;label:string;id?:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductQuestions",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductQuestions({items,id=\"faq\"}:{items:{question:string;answer:string}[];id?:string})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalFoldedMedia",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalFoldedMedia({id,title,items,backgroundAsset,defaultIndex=0}:{id:string;title:string;items:FoldedMediaItem[];backgroundAsset?:string;defaultIndex?:number})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "items nonempty; every item has asset and paragraphs",
+        "defaultIndex clamped initially; items update does not reset active"
+      ]
+    },
+    {
+      "id": "PortalSolutionCards",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalSolutionCards({id,title,items}:{id:string;title:string;items:SolutionMediaItem[]})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductPage",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductPage({data}:{data:PortalProductPageData})",
+      "spec": "references/component-contract.md",
+      "constraints": [
+        "six registered floor kinds including process-steps; ordered list",
+        "header configuration not exposed in data",
+        "resources and FAQ titles are fixed"
+      ]
+    },
+    {
+      "id": "PortalDeveloperBanner",
+      "tier": "developer-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDeveloperBanner({assets}:{assets:string[]})",
+      "spec": "references/developer-reference-calibration.md",
+      "constraints": [
+        "current reference supports two supplied posters with fixed corresponding copy"
+      ]
+    },
+    {
+      "id": "PortalDeveloperAnnouncement",
+      "tier": "developer-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDeveloperAnnouncement()",
+      "spec": "references/developer-reference-calibration.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalPracticeCarousel",
+      "tier": "developer-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalPracticeCarousel({items}:{items:{title:string;description:string;asset:string;href:string}[]})",
+      "spec": "references/developer-reference-calibration.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalDeveloperSkills",
+      "tier": "developer-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDeveloperSkills({items,command}:{items:{title:string;description:string;href:string;copies?:number;views?:number;updatedAt?:string}[];command:string})",
+      "spec": "references/developer-reference-calibration.md",
+      "constraints": [
+        "one instance per page: fixed developer-copy-command id",
+        "label and intro fixed; metadata optional",
+        "copy never executes command"
+      ]
+    },
+    {
+      "id": "PortalDeveloperSpace",
+      "tier": "developer-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDeveloperSpace({title,description,asset}:{title:string;description:string;asset:string})",
+      "spec": "references/developer-reference-calibration.md",
+      "constraints": [
+        "title argument currently unused",
+        "subcard copy, links and secondary assets fixed"
+      ]
+    },
+    {
+      "id": "PortalDeveloperOpenAbility",
+      "tier": "developer-reference",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDeveloperOpenAbility({asset,backgroundAsset,mobileAsset=\"developer-ability-mobile\"}:{asset?:string;backgroundAsset?:string;mobileAsset?:string})",
+      "spec": "references/developer-reference-calibration.md",
+      "constraints": [
+        "copy and links fixed",
+        "backgroundAsset takes precedence over asset alias"
+      ]
+    },
+    {
+      "id": "PortalHeaderActions",
+      "tier": "shared-framework",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalHeaderActions({full=false,entries,searchEnabled=false,onSearch,compactSearch=false}:{full?:boolean;entries?:Link[];searchEnabled?:boolean;compactSearch?:boolean;onSearch?:(query:string)=>void})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalCopyGlyph",
+      "tier": "helper",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCopyGlyph()",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "resolveWebsiteGrid",
+      "tier": "helper",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function resolveWebsiteGrid(viewport:number)",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProcessSteps",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProcessSteps({items,label}:{items:{title:string;description:string;href?:string;action?:string;icon?:1|2|3|4}[];label?:string})",
+      "spec": "references/process-steps.md",
+      "constraints": [
+        "3 to4 ordered steps; partners process-v2",
+        "official gold numbering1..4; no progress/completion state claimed"
+      ]
+    },
+    {
+      "id": "PortalTextContent",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalTextContent({paragraphs,asset,alt=\"\",links=[]}:{paragraphs:string[];asset?:string;alt?:string;links?:Link[]})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalComposedPage",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalComposedPage({data}:{data:PortalComposedPageData})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalLink",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalLink({href,variant='primary',icon='none',disabled=false,children,className='',ref,...props}:PortalLinkProps)",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalBreadcrumb",
+      "tier": "shared",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalBreadcrumb({items,label,light=false}:{items:readonly PortalBreadcrumbItem[];label:string;light?:boolean})",
+      "spec": "references/component-contract.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalLabel",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalLabel({corner=false,color='default',size='default',icon,disabled=false,onRemove,removeLabel,children,className='',...props}:PortalLabelProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-label.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalChoice",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalChoice({kind='checkbox',appearance='basic',label,mixed=false,ref,className='',...props}:PortalChoiceProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-choice.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalChoiceGroup",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalChoiceGroup({label,options,name,kind='checkbox',appearance='basic',value,defaultValue=[],onValueChange,disabled=false,expandLabel,collapseLabel,ref}:PortalChoiceGroupProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-choice.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalCollapse",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCollapse({summary,children,open,defaultOpen=false,onOpenChange,onBeforeOpenChange,onAfterOpenChange,disabled=false,skin='dark-light',triggerPosition='head',openSummary,persistentContent,ref}:PortalCollapseProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-collapse.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalCollapseGroup",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCollapseGroup({items,multiple=false,value,defaultValue=[],onValueChange,skin='dark-light',label}:PortalCollapseGroupProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-collapse.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalLearningLinks",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalLearningLinks({id,title,description,items,mobileItems}:PortalLearningLinksProps)",
+      "spec": "references/learning-links.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalSelect",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalSelect({label,options,value,defaultValue,appearance='default',ref,className='',...props}:PortalSelectProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-select.md",
+      "constraints": [
+        "2026-10-21 owner review: do not generate this widget without matching design; retained historical API only"
+      ]
+    },
+    {
+      "id": "PortalScrollbar",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalScrollbar({label,maxHeight,size='medium',ref,className='',style,children,...props}:PortalScrollbarProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-scrollbar.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalTabs",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalTabs({label,items,value,defaultValue,align='center',scroll=false,previousLabel,nextLabel,onValueChange,onBeforeChange,onAfterChange,ref}:PortalTabsProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-tabs.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalPrice",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalPrice({amount,symbol,unit,size='default',className=''}:PortalPriceProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-price.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalPagination",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalPagination(props:PortalPaginationProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-pagination.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalCountdown",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCountdown({label,endTime,startTime,now,format='D/H/M',fontColor='red',backgroundOpacity=1,preContent,vertical=false,alignLeft=false,autoShow=true,labels,onComplete}:PortalCountdownProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-countdown.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalRate",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalRate({label,options,value,defaultValue=null,onValueChange,readOnly=false,disabled=false,textType='text',unit='',name,form,valueText,ref}:PortalRateProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-rate.md",
+      "constraints": [
+        "2026-10-21 owner review: do not generate this widget without matching design; retained historical API only"
+      ]
+    },
+    {
+      "id": "PortalCard",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalCard({logo,title,description,size='large',align='center',headingLevel=3,href,newWindow=false}:PortalCardProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-card.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalNotice",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalNotice({appearance='gray',suppressLabel,onSuppressChange,message,closeLabel,tone='info',open,defaultOpen=true,onOpenChange,duration=0}:PortalNoticeProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-tips.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProcessFlow",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProcessFlow({id,title,description,items,showNumbers=true,cta,ctaProfile,labels}:PortalProcessFlowProps)",
+      "spec": "assets/search-workspace/src/components-specs/process-flow.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalAnchorNavigation",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalAnchorNavigation({label,items,previousLabel,nextLabel,sizeProfile='1920',gapProfile='design-80',scrollRoot}:PortalAnchorNavigationProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-anchor.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalFixedTable",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalFixedTable({designProfile,caption,columns,rows,striped=true,maxHeight}:PortalFixedTableProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-fixed-table.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalServiceTable",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalServiceTable({label,rowHeading,columns,rows}:PortalServiceTableProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-service-table.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalImageViewer",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalImageViewer({assetId,alt,openLabel,closeLabel}:PortalImageViewerProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-img-viewer.md",
+      "constraints": [
+        "2026-10-21 owner review: do not generate this widget without matching design; retained historical API only"
+      ]
+    },
+    {
+      "id": "PortalDocumentPager",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDocumentPager({label,previous,next}:PortalDocumentPagerProps)",
+      "spec": "assets/search-workspace/src/components-specs/document-pager.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalSceneMedia",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalSceneMedia({id,title,description,mobileTitle,mobileDescription,items,navigationLabel,scrollLabel,mediumHeadingProfile,mobileImageProfile}:SceneMediaProps)",
+      "spec": "references/pixso-scene-media.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalRecommendedDocs",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalRecommendedDocs({id,title,description,items,columns,mobileEnabled,bg='white'}:RecommendedDocsProps)",
+      "spec": "references/pixso-recommended-docs.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalLatestUpdates",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalLatestUpdates({id,title,items,notice,bg='white',noticeTone='grey'}:LatestUpdatesProps)",
+      "spec": "references/pixso-latest-updates.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalGeneralBanner",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalGeneralBanner({id,title,description,mobileTitle,mobileDescription,items,height,textWidth}:GeneralBannerProps)",
+      "spec": "references/pixso-general-banner.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalIconTextCards",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalIconTextCards({id,title,description,items,columns,iconProfile,bg='grey'}:IconTextCardsProps)",
+      "spec": "references/pixso-icon-text-cards.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalFaqList",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalFaqList({id,title,mobileTitle,description,mobileDescription,items,desktopExpanded=false}:FaqListProps)",
+      "spec": "references/pixso-faq-list.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Actions",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Actions({items,label,placement}:Product2026ActionProps)",
+      "spec": "references/product-2026-commands.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026CommandCard",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026CommandCard({item,labels,syntaxProfile,onCopy}:{item:Product2026CommandItem;labels:Product2026CopyLabels;syntaxProfile:'source'|'accessible';onCopy?:(command:string)=>Promise<void>})",
+      "spec": "references/product-2026-commands.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Commands",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Commands({data}:{data:Product2026CommandFloor})",
+      "spec": "references/product-2026-commands.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026TabContainer",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026TabContainer({id,label,items,value,defaultValue,onValueChange,previousLabel,nextLabel}:Product2026TabsProps)",
+      "spec": "references/product-2026-tabs.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Next",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Next({data}: {data:Product2026NextFloor})",
+      "spec": "references/product-2026-next.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Faq",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Faq({data}: {data:Product2026FaqFloor})",
+      "spec": "references/product-2026-faq.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026ScenarioCard",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026ScenarioCard({item}: {item:Product2026ScenarioItem})",
+      "spec": "references/product-2026-scenarios.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Scenarios",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Scenarios({data}: {data:Product2026ScenarioFloor})",
+      "spec": "references/product-2026-scenarios.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026InPageNavigation",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026InPageNavigation({id,label,title,entries,actions=[],moreLabel,mobileActions,sticky=true,visibleLimit=8,allowStaticEntries=false,mobileBreakpoint=599,className=''}:Product2026NavigationProps)",
+      "spec": "references/product-2026-navigation.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026VideoDialog",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026VideoDialog({title,video,poster,labels,children}:Product2026VideoDialogProps)",
+      "spec": "references/product-2026-video.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Videos",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Videos({data}: {data:Product2026VideoFloor})",
+      "spec": "references/product-2026-video.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026AgentCard",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026AgentCard({item,mobile,labels}: {item:Product2026AgentItem;mobile:boolean;labels:Product2026AgentLabels})",
+      "spec": "references/product-2026-agents.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Agents",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Agents({data}: {data:Product2026AgentFloor})",
+      "spec": "references/product-2026-agents.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026SplitCard",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026SplitCard({item,mobile,labels}: {item:Product2026SplitItem;mobile:boolean;labels:Product2026SplitLabels})",
+      "spec": "references/product-2026-split.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Split",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Split({data}: {data:Product2026SplitFloor})",
+      "spec": "references/product-2026-split.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Folded",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Folded({data}:{data:Product2026FoldedFloor})",
+      "spec": "references/product-2026-folded.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026News",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026News({data}:{data:Product2026NewsFloor})",
+      "spec": "references/product-2026-news.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026PricingTable",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026PricingTable({table,mobile,layout,labels}:{table:Product2026PricingTable;mobile:boolean;layout:'rows'|'columns';labels:Product2026PricingFloor['labels']})",
+      "spec": "references/product-2026-pricing.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Pricing",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Pricing({data}:{data:Product2026PricingFloor})",
+      "spec": "references/product-2026-pricing.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Assistant",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Assistant({data,onSearch}:{data:Product2026AssistantFloor;onSearch?:(query:string)=>Promise<readonly Product2026AssistantRecord[]>})",
+      "spec": "references/product-2026-assistant.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Hover",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Hover({data}:{data:Product2026HoverFloor})",
+      "spec": "references/product-2026-hover.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026DemoMedia",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026DemoMedia({items,labels}:{items:readonly Product2026DemoMedia[];labels:Product2026DemoFloor['labels']})",
+      "spec": "references/product-2026-demo.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Demo",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Demo({data}:{data:Product2026DemoFloor})",
+      "spec": "references/product-2026-demo.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Cases",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Cases({data}:{data:Product2026CasesFloor})",
+      "spec": "references/product-2026-cases.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Advantages",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Advantages({data}:{data:Product2026AdvantagesFloor})",
+      "spec": "references/product-2026-advantages.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Wide",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Wide({data}:{data:Product2026WideFloor})",
+      "spec": "references/product-2026-wide.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026FloorFrame",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026FloorFrame({id,title,description,align,background,spacing,children}:Product2026FloorFrameProps)",
+      "spec": "references/product-2026-floor-frame.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026SceneCarouselTrack",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026SceneCarouselTrack({group,band,labels}:{group:Product2026SceneCarouselGroup;band:number;labels:Product2026SceneCarouselFloor['labels']})",
+      "spec": "references/product-2026-scene-carousel.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026SceneCarousel",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026SceneCarousel({data}:{data:Product2026SceneCarouselFloor})",
+      "spec": "references/product-2026-scene-carousel.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Models",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Models({data}:{data:Product2026ModelsFloor})",
+      "spec": "references/product-2026-models.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026PackageCard",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026PackageCard({item,labels,mobilePurchase}:{item:Product2026PackageCard;labels:Product2026PackagesFloor['labels'];mobilePurchase:'inline'|'stacked'})",
+      "spec": "references/product-2026-commands.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Packages",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Packages({data}:{data:Product2026PackagesFloor})",
+      "spec": "references/product-2026-packages.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026BannerSlide",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026BannerSlide({slide,band,headingLevel,labels}:{slide:Product2026BannerSlide;band:number;headingLevel:1|2;labels:Product2026BannerFloor['labels']})",
+      "spec": "references/product-2026-banner-responsive.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProduct2026Banner",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProduct2026Banner({data}:{data:Product2026BannerFloor})",
+      "spec": "references/product-2026-banner-responsive.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1InPageNavigation",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1InPageNavigation({mobileHeightProfile,...props}:ProductV1NavigationProps)",
+      "spec": "references/product-v1-navigation.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1AnchorNavigation",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1AnchorNavigation({id,label,items,align,background,backgroundAsset,sticky=true,stickyOffset}:ProductV1AnchorProps)",
+      "spec": "references/product-v1-anchor.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1AnchoredCatalog",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1AnchoredCatalog({data}:{data:ProductV1CatalogFloor})",
+      "spec": "references/product-v1-catalog.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1TabStrip",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1TabStrip({id,label,items,value,defaultValue,onValueChange,previousLabel,nextLabel}:ProductV1TabsPrimitiveProps)",
+      "spec": "references/product-v1-tabs.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1TabContainer",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1TabContainer({title,subtitle,align,background,backgroundAsset,tone,more,...tabs}:ProductV1TabsProps)",
+      "spec": "references/product-v1-tabs.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Elevator",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Elevator({id,label,items,stickyOffset,minViewportWidth}:ProductV1ElevatorProps)",
+      "spec": "references/product-v1-elevator.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1ContactDropdown",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1ContactDropdown({id,label,items,panelWidth=240,align}:ProductV1ContactProps)",
+      "spec": "references/product-v1-contact.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Recommendations",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Recommendations({data}:{data:ProductV1RecommendationsFloor})",
+      "spec": "references/product-v1-cards.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1GenericCards",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1GenericCards({data}:{data:ProductV1GenericCardsFloor})",
+      "spec": "references/product-v1-cards.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Speakers",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Speakers({data}:{data:ProductV1SpeakersFloor})",
+      "spec": "references/product-v1-speakers.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1LogoCards",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1LogoCards({data}:{data:ProductV1LogoFloor})",
+      "spec": "references/product-v1-logos.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1PhotoWall",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1PhotoWall({data}:{data:ProductV1PhotoWallFloor})",
+      "spec": "references/product-v1-photo-wall.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Editorial",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Editorial({data}:{data:ProductV1EditorialFloor})",
+      "spec": "references/product-v1-editorial.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1NewsList",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1NewsList({data}:{data:ProductV1NewsListFloor})",
+      "spec": "references/product-v1-news-list.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Quote",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Quote({data}:{data:ProductV1QuoteFloor})",
+      "spec": "references/product-v1-quote.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Publications",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Publications({data}:{data:ProductV1PublicationsFloor})",
+      "spec": "references/product-v1-publications.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Architecture",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Architecture({data}:{data:ProductV1ArchitectureFloor})",
+      "spec": "references/product-v1-architecture.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Folded",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Folded({data}:{data:ProductV1FoldedFloor})",
+      "spec": "references/product-v1-folded.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Live",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Live({data}:{data:ProductV1LiveFloor})",
+      "spec": "references/product-v1-live.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Advantages",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Advantages({data}:{data:ProductV1AdvantagesFloor})",
+      "spec": "references/product-v1-advantages.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Cases",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Cases({data}:{data:ProductV1CasesFloor})",
+      "spec": "references/product-v1-cases.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Activities",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Activities({data}:{data:ProductV1ActivitiesFloor})",
+      "spec": "references/product-v1-activities.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Solutions",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Solutions({data}:{data:ProductV1SolutionsFloor})",
+      "spec": "references/product-v1-solutions.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Sessions",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Sessions({data}:{data:ProductV1SessionsFloor})",
+      "spec": "references/product-v1-sessions.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1LivePreview",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1LivePreview({data}:{data:ProductV1LivePreviewFloor})",
+      "spec": "references/product-v1-live-preview.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Mosaic",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Mosaic({data}:{data:ProductV1MosaicFloor})",
+      "spec": "references/product-v1-mosaic.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Benefits",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Benefits({data}:{data:ProductV1BenefitsFloor})",
+      "spec": "references/product-v1-benefits.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1AIArchitecture",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1AIArchitecture({data}:{data:ProductV1AIArchitectureFloor})",
+      "spec": "references/product-v1-ai-architecture.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1Information",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1Information({data}:{data:ProductV1InformationFloor})",
+      "spec": "references/product-v1-information.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1ImageFilter",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1ImageFilter({data}:{data:ProductV1ImageFilterFloor})",
+      "spec": "references/product-v1-filters.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1LogoFilter",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1LogoFilter({data}:{data:ProductV1LogoFilterFloor})",
+      "spec": "references/product-v1-filters.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalProductV1ReportFilter",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalProductV1ReportFilter({data}:{data:ProductV1ReportFilterFloor})",
+      "spec": "references/product-v1-report-filter.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalFoundationGraphic",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalFoundationGraphic({asset,alt,decorative=false}:FoundationGraphicProps)",
+      "spec": "references/visual-foundations-2026.md",
+      "constraints": []
+    },
+    {
+      "id": "PortalDesignAction",
+      "tier": "source-backed-prototype",
+      "entry": "src/components/portal-components.tsx",
+      "signature": "function PortalDesignAction({kind,label,href,icon,iconPosition='before',options}:PortalDesignActionProps)",
+      "spec": "assets/search-workspace/src/components-specs/source-button.md",
+      "constraints": []
+    }
+  ]
+}

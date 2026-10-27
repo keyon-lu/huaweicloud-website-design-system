@@ -1,0 +1,42 @@
+{
+  "kind": "owner-source-nonconformance-decision",
+  "date": "2026-10-26",
+  "authority": {
+    "type": "direct-user-reply",
+    "question": "你此前把“下一步”和“直播预告”的原稿对比度裁定为“保持待定”。这两项现在是否按原稿保留，并明确作为未达标的已知限制？此决定只处理这两项冲突，其他正式验收仍继续执行。",
+    "answer": "按原稿保留并记录未达标限制"
+  },
+  "items": [
+    {
+      "id": "next-contrast",
+      "title": "下一步原稿文字与背景对比度",
+      "floorKind": "next-step-2026",
+      "component": "PortalProduct2026Next",
+      "contract": "references/product-2026-next.md",
+      "supersedes": "references/owner-decisions-2026-10-22.json#next-contrast",
+      "decisionStatus": "resolved",
+      "riskDisposition": "owner-accepted-known-limitation",
+      "designTreatment": "retain-original-source-colors-without-recoloring-or-overlay",
+      "conformance": "not-met",
+      "wcagAaPass": false,
+      "notice": "按原稿保留文字和背景配色；存在已知对比度未达标限制，不声明WCAG AA通过。"
+    },
+    {
+      "id": "live-contrast",
+      "title": "直播预告原稿灰色文字对比度",
+      "floorKind": "live-preview-v1",
+      "component": "PortalProductV1LivePreview",
+      "contract": "references/product-v1-live-preview.md",
+      "supersedes": "references/owner-decisions-2026-10-22.json#live-contrast",
+      "decisionStatus": "resolved",
+      "riskDisposition": "owner-accepted-known-limitation",
+      "designTreatment": "retain-original-source-colors-without-recoloring-or-overlay",
+      "conformance": "not-met",
+      "wcagAaPass": false,
+      "notice": "按原稿保留灰色文字及背景配色；存在已知对比度未达标限制，不声明WCAG AA通过。"
+    }
+  ],
+  "newWholeComponentApprovals": 0,
+  "otherAcceptanceWaived": false,
+  "formalRelease": false
+}

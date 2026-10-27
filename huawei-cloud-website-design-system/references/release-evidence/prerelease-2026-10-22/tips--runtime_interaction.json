@@ -1,0 +1,47 @@
+{
+  "kind": "source-release-check",
+  "check": "tips/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "tips",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-tips--tones",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--close-keyboard",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--auto-hide",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--controlled-state",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      },
+      {
+        "id": "sourcefamilies-tips--long-text",
+        "hasPlay": false,
+        "sourceFile": "assets/search-workspace/src/components/source-tips/source-tips.stories.tsx",
+        "sourceSha256": "4bead81d8b49757a784f495d2d9eccf6ea6c920fbcbc759c86763edf1df78364"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

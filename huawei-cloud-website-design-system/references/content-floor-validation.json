@@ -1,0 +1,257 @@
+{
+  "observedAt": "2026-10-17T15:26:40.558059+00:00",
+  "floorKinds": [
+    "recommended-docs",
+    "latest-updates",
+    "general-banner",
+    "icon-text-cards",
+    "faq-list"
+  ],
+  "stage": "source-scoped-prototypes",
+  "formalRelease": false,
+  "engineering": {
+    "observedAt": "2026-10-17T15:19:54.054Z",
+    "allChecksPassed": true,
+    "checks": [
+      {
+        "name": "verify-token-consumption",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-copy-resources",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-required-resources",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-contract-docs",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-component-behavior",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-responsive-source",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-composed-scenes",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-p2-model",
+        "exitCode": 0
+      },
+      {
+        "name": "portal-verify-package",
+        "exitCode": 0
+      },
+      {
+        "name": "test-required-resources",
+        "exitCode": 0
+      },
+      {
+        "name": "test-expanded-release",
+        "exitCode": 0
+      },
+      {
+        "name": "test-pattern-conversions",
+        "exitCode": 0
+      },
+      {
+        "name": "test-process-flow",
+        "exitCode": 0
+      },
+      {
+        "name": "test-scene-media",
+        "exitCode": 0
+      },
+      {
+        "name": "test-content-floors",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-search-template",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-website-palette",
+        "exitCode": 0
+      },
+      {
+        "name": "test-palette-source",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-process-steps",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-family-public-entries",
+        "exitCode": 0
+      },
+      {
+        "name": "test-foundation-facades",
+        "exitCode": 0
+      },
+      {
+        "name": "test-foundation-batch",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-pattern-execution-queue",
+        "exitCode": 0
+      },
+      {
+        "name": "test-pixso-generation",
+        "exitCode": 0
+      },
+      {
+        "name": "test-pixso-import",
+        "exitCode": 0
+      },
+      {
+        "name": "verify-script-syntax",
+        "exitCode": 0
+      },
+      {
+        "name": "template-type-build-api",
+        "exitCode": 0
+      }
+    ],
+    "dataTests": {
+      "ok": true,
+      "kinds": [
+        "recommended-docs",
+        "latest-updates",
+        "general-banner",
+        "icon-text-cards",
+        "faq-list"
+      ],
+      "validConfigurations": 78,
+      "negativeCases": 60,
+      "composedScenes": 4,
+      "scope": "Data contracts, configured variants and missing anchor checks; browser/source visual acceptance separate"
+    }
+  },
+  "browser": {
+    "componentWidthSamples": 55,
+    "stableCompositionWidths": [
+      1920,
+      1776,
+      1775,
+      1536,
+      1280,
+      1025,
+      1024,
+      769,
+      768,
+      375,
+      320
+    ],
+    "productWidths": [
+      1920,
+      1025,
+      1024,
+      768,
+      375,
+      320
+    ],
+    "rootOverflow": false,
+    "allImagesLoaded": true,
+    "mobileDocumentAccordionKeyboard": [
+      {
+        "expanded": "true",
+        "label": "快速入门"
+      },
+      {
+        "expanded": "false",
+        "label": "最佳实践"
+      },
+      {
+        "expanded": "false",
+        "label": "常见问题"
+      }
+    ],
+    "documentsMobileOff": {
+      "display": "none"
+    },
+    "faqDesktopExpanded": [
+      "true",
+      "true",
+      "true"
+    ],
+    "faqMobileInitiallyClosed": [
+      "false",
+      "false",
+      "false"
+    ],
+    "faqMultipleOpen": [
+      "true",
+      "true",
+      "false"
+    ],
+    "standaloneFaqExpanded": "true"
+  },
+  "accessibility": {
+    "engine": "axe-core4.10.3",
+    "initialFindings": [
+      "recommended-docs mobile target-size",
+      "icon-text-cards red label contrast"
+    ],
+    "targetedRechecks": "resolved, no remaining violations/incomplete for corrected rules; FAQ named controls/alt/ARIA/target/contrast scoped checks also passed",
+    "scope": "Other initial scoped checks had no violations; this is not a full manual accessibility acceptance"
+  },
+  "sourceEvidence": {
+    "onlineFileKey": "AnKaOlIL6H1GEhIQeH4mrQ",
+    "screenshotsRead": [
+      "26:8578",
+      "26:10108",
+      "3:1673",
+      "16:37289",
+      "16:37364",
+      "16:37573"
+    ],
+    "assetsExported": [
+      "16:37295",
+      "26:10372"
+    ],
+    "geometry": [
+      "references/pixso-priority/content-floor-geometry.json",
+      "references/pixso-priority/icon-text-geometry.json",
+      "references/pixso-priority/faq-list-geometry.json"
+    ]
+  },
+  "remaining": [
+    "All source variants beyond the documented scoped profiles",
+    "Icon rule62/example56 owner decision",
+    "Complete visual and manual accessibility acceptance",
+    "All other required source records and release gates"
+  ],
+  "hashes": {
+    "assets/search-workspace/src/components/faq-list/faq-list.tsx": "8d714a29c6acd66b1091f02324c544d2aeb4edc4d4dc99b4964f7db5aa790309",
+    "assets/search-workspace/src/components/general-banner/general-banner.tsx": "a7e55f3ac337db764b946b622501fafc6f39533cc796e6e1fbcaeac4a832a224",
+    "assets/search-workspace/src/components/icon-text-cards/icon-text-cards.tsx": "333753c059512d05cbc44ffec1d58203b26db2a27d2d71b91019f15f485a6959",
+    "assets/search-workspace/src/components/latest-updates/latest-updates.tsx": "24c7cc4ce8a1457ab8a5b179dc92a13972b0e9ac267c557d3162a66da5def1fb",
+    "assets/search-workspace/src/components/recommended-docs/recommended-docs.tsx": "3e8268fbee9376e80aecc27b75efd0079d3fe1e743dd089202799a661d8f9e9c",
+    "references/pixso-faq-list.md": "c9fb385281fd42885b669762b34b2e899f3e6612b7f5f959fd92549c8bd90bc6",
+    "references/pixso-general-banner.md": "eccd99c3e6463130b8534ad6e8f1dfee275ccdc28434405cf530b36ffd3e166e",
+    "references/pixso-icon-text-cards.md": "431cecd8efb236f95ff62a1a4892f90932cb0b5cd62dfbb6ff559f160217f07e",
+    "references/pixso-latest-updates.md": "ea06b3027a1ed944260dfd55b9a60b7425fcab4c3de9f843151a0bb99a76492a",
+    "references/pixso-recommended-docs.md": "242642e05c7fc213d14cbc8f9482b6f102b0dcc3729a9dd8d446fc61a081865b",
+    "scripts/composed-content.mjs": "b1858bac1d84c14ea9ceb85a24f70e59f222d4df05a7df24be1eebe00580e613",
+    "scripts/content-floor-content.mjs": "1b2bce859fc715ce66400315c0b2b4ac87d19b089055d86bb1f6abfa95b46478",
+    "scripts/portal-generate-page.mjs": "11bee53f83008cc37cccc9b531a87041e9a6bd5056882f8188d82fe9fe1a6dc5",
+    "scripts/test-content-floors.mjs": "1ff9135d3516efd05100f674a5d29d25058b90a2ce0ced74b3fbbd6148ebe795",
+    "src/components/portal-components.tsx": "1fd99e8681b4dce6632101da8afce50cc68b7afcf9f676ac643a730be9904b96",
+    "src/styles/component-tokens.css": "c6d7bdac7fdaddbc83d5d3174ca317fbbb7cd6a8941471ec65b460c3bc592705",
+    "src/styles/faq-list.css": "118fab4643061244ff0e990440c6d6ea1a88d17a27f3912fe56c6676560661af",
+    "src/styles/general-banner.css": "47a360f05f818d788a9ee203ebc9fb67aeed93fb77c26c73654c8749a43153df",
+    "src/styles/icon-text-cards.css": "ab5e7160cf4701a5517c945e525ccf3491009f9145451f44838f2dd56bf2f73f",
+    "src/styles/latest-updates.css": "6b3199d388e40384b2de29e1f422e80abb068c3156b2a4ca9b9c4f6ccb89aec5",
+    "src/styles/recommended-docs.css": "7e6ab16403e3bae136b5d21141281a96a0043427727bbadfb83dd158d08bd9ec"
+  }
+}

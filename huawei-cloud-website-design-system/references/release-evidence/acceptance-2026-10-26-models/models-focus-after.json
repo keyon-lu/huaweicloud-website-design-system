@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26",
+  "entry": "generated-offline",
+  "end": {
+    "focus": "region",
+    "left": 540,
+    "max": 540,
+    "nextDisabled": true
+  },
+  "start": {
+    "focus": "region",
+    "left": 0,
+    "previousDisabled": true
+  },
+  "beforeMobile": "后一组模型",
+  "mobile": {
+    "controls": 0,
+    "focus": "region",
+    "overflow": false
+  },
+  "passed": true
+}

@@ -1,0 +1,1434 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "685:8443",
+      "name": "客户案例logo墙/多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "680:7342",
+          "name": "分辨率=1920,描述=带",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 560,
+          "properties": {
+            "分辨率": "1920",
+            "描述": "带"
+          }
+        },
+        {
+          "id": "680:7550",
+          "name": "分辨率=1536,描述=带",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 474,
+          "properties": {
+            "分辨率": "1536",
+            "描述": "带"
+          }
+        },
+        {
+          "id": "685:7825",
+          "name": "分辨率=1280,描述=带",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 398,
+          "properties": {
+            "分辨率": "1280",
+            "描述": "带"
+          }
+        },
+        {
+          "id": "685:8442",
+          "name": "分辨率=1920,描述=不带",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 426,
+          "properties": {
+            "分辨率": "1920",
+            "描述": "不带"
+          }
+        },
+        {
+          "id": "678:7904",
+          "name": "分辨率=1600,描述=不带",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 426,
+          "properties": {
+            "分辨率": "1600",
+            "描述": "不带"
+          }
+        },
+        {
+          "id": "680:7411",
+          "name": "分辨率=1536,描述=不带",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 348,
+          "properties": {
+            "分辨率": "1536",
+            "描述": "不带"
+          }
+        },
+        {
+          "id": "685:7610",
+          "name": "分辨率=1280,描述=不带",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 292,
+          "properties": {
+            "分辨率": "1280",
+            "描述": "不带"
+          }
+        },
+        {
+          "id": "685:8260",
+          "name": "分辨率=1024,描述=不带",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 272,
+          "properties": {
+            "分辨率": "1024",
+            "描述": "不带"
+          }
+        },
+        {
+          "id": "685:8374",
+          "name": "分辨率=769,描述=不带",
+          "type": "COMPONENT",
+          "width": 769,
+          "height": 272,
+          "properties": {
+            "分辨率": "769",
+            "描述": "不带"
+          }
+        },
+        {
+          "id": "713:13750",
+          "name": "分辨率=1600,描述=带",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 560,
+          "properties": {
+            "分辨率": "1600",
+            "描述": "带"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1920",
+          "1536",
+          "1280",
+          "1600",
+          "1024",
+          "769"
+        ],
+        "描述": [
+          "不带",
+          "带"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=685:8443",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "685:8417",
+      "name": "客户案例logo墙/logo+描述",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "674:6702",
+          "name": "对齐方式=左对齐,底=白底,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "左对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "675:6749",
+          "name": "对齐方式=居中对齐,底=白底,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "居中对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:10826",
+          "name": "对齐方式=左对齐,底=灰底,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "左对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:10834",
+          "name": "对齐方式=居中对齐,底=灰底,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "居中对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:10842",
+          "name": "对齐方式=左对齐,底=透明底,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "左对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:10850",
+          "name": "对齐方式=居中对齐,底=透明底,一排个数=1/3",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/3",
+            "对齐方式": "居中对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:10866",
+          "name": "对齐方式=左对齐,底=白底,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 242,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "左对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:10874",
+          "name": "对齐方式=左对齐,底=灰底,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 242,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "左对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:10882",
+          "name": "对齐方式=左对齐,底=透明底,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 242,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "左对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:10890",
+          "name": "对齐方式=居中对齐,底=白底,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 242,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "居中对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:10906",
+          "name": "对齐方式=居中对齐,底=灰底,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 242,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "居中对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:10914",
+          "name": "对齐方式=居中对齐,底=透明底,一排个数=1/2",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 242,
+          "properties": {
+            "一排个数": "1/2",
+            "对齐方式": "居中对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:10938",
+          "name": "对齐方式=左对齐,底=白底,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "左对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:10995",
+          "name": "对齐方式=居中对齐,底=白底,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "居中对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:11003",
+          "name": "对齐方式=左对齐,底=灰底,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "左对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:11011",
+          "name": "对齐方式=左对齐,底=透明底,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "左对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:11019",
+          "name": "对齐方式=居中对齐,底=灰底,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "居中对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:11027",
+          "name": "对齐方式=居中对齐,底=透明底,一排个数=1/4",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 266,
+          "properties": {
+            "一排个数": "1/4",
+            "对齐方式": "居中对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:11035",
+          "name": "对齐方式=左对齐,底=白底,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 290,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "左对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:11043",
+          "name": "对齐方式=居中对齐,底=白底,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 290,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "居中对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:11051",
+          "name": "对齐方式=左对齐,底=灰底,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 290,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "左对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:11059",
+          "name": "对齐方式=居中对齐,底=灰底,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 290,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "居中对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:11067",
+          "name": "对齐方式=左对齐,底=透明底,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 290,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "左对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:11075",
+          "name": "对齐方式=居中对齐,底=透明底,一排个数=1/5",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 290,
+          "properties": {
+            "一排个数": "1/5",
+            "对齐方式": "居中对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:11083",
+          "name": "对齐方式=左对齐,底=白底,一排个数=1/6",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 314,
+          "properties": {
+            "一排个数": "1/6",
+            "对齐方式": "左对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:11091",
+          "name": "对齐方式=居中对齐,底=白底,一排个数=1/6",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 314,
+          "properties": {
+            "一排个数": "1/6",
+            "对齐方式": "居中对齐",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:11225",
+          "name": "对齐方式=左对齐,底=灰底,一排个数=1/6",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 314,
+          "properties": {
+            "一排个数": "1/6",
+            "对齐方式": "左对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:11233",
+          "name": "对齐方式=左对齐,底=透明底,一排个数=1/6",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 314,
+          "properties": {
+            "一排个数": "1/6",
+            "对齐方式": "左对齐",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:11241",
+          "name": "对齐方式=居中对齐,底=灰底,一排个数=1/6",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 314,
+          "properties": {
+            "一排个数": "1/6",
+            "对齐方式": "居中对齐",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:11249",
+          "name": "对齐方式=居中对齐,底=透明底,一排个数=1/6",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 314,
+          "properties": {
+            "一排个数": "1/6",
+            "对齐方式": "居中对齐",
+            "底": "透明底"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5",
+          "1/6"
+        ],
+        "对齐方式": [
+          "左对齐",
+          "居中对齐"
+        ],
+        "底": [
+          "透明底",
+          "白底",
+          "灰底"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=685:8417",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "713:13084",
+      "name": "客户案例logo墙/纯logo",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "713:13033",
+          "name": "一排个数=2,底=白底",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 180,
+          "properties": {
+            "一排个数": "2",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:13039",
+          "name": "一排个数=3,底=白底",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 180,
+          "properties": {
+            "一排个数": "3",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:13045",
+          "name": "一排个数=4,底=白底",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 180,
+          "properties": {
+            "一排个数": "4",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:13051",
+          "name": "一排个数=5,底=白底",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 180,
+          "properties": {
+            "一排个数": "5",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:13057",
+          "name": "一排个数=6,底=白底",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 180,
+          "properties": {
+            "一排个数": "6",
+            "底": "白底"
+          }
+        },
+        {
+          "id": "713:13089",
+          "name": "一排个数=2,底=灰底",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 180,
+          "properties": {
+            "一排个数": "2",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:13094",
+          "name": "一排个数=2,底=透明底",
+          "type": "COMPONENT",
+          "width": 788,
+          "height": 180,
+          "properties": {
+            "一排个数": "2",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:13109",
+          "name": "一排个数=3,底=灰底",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 180,
+          "properties": {
+            "一排个数": "3",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:13114",
+          "name": "一排个数=4,底=灰底",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 180,
+          "properties": {
+            "一排个数": "4",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:13119",
+          "name": "一排个数=5,底=灰底",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 180,
+          "properties": {
+            "一排个数": "5",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:13124",
+          "name": "一排个数=6,底=灰底",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 180,
+          "properties": {
+            "一排个数": "6",
+            "底": "灰底"
+          }
+        },
+        {
+          "id": "713:13129",
+          "name": "一排个数=3,底=透明底",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 180,
+          "properties": {
+            "一排个数": "3",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:13134",
+          "name": "一排个数=4,底=透明底",
+          "type": "COMPONENT",
+          "width": 388,
+          "height": 180,
+          "properties": {
+            "一排个数": "4",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:13139",
+          "name": "一排个数=5,底=透明底",
+          "type": "COMPONENT",
+          "width": 307,
+          "height": 180,
+          "properties": {
+            "一排个数": "5",
+            "底": "透明底"
+          }
+        },
+        {
+          "id": "713:13144",
+          "name": "一排个数=6,底=透明底",
+          "type": "COMPONENT",
+          "width": 253,
+          "height": 180,
+          "properties": {
+            "一排个数": "6",
+            "底": "透明底"
+          }
+        }
+      ],
+      "axes": {
+        "一排个数": [
+          "6",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "底": [
+          "透明底",
+          "灰底",
+          "白底"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=713:13084",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1089:17077",
+      "name": "单卡",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1089:14995",
+          "name": "尺寸=1920,个数=一个",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 648,
+          "properties": {
+            "个数": "一个",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:14996",
+          "name": "尺寸=1920,个数=两个2:1",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 648,
+          "properties": {
+            "个数": "两个2:1",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:15060",
+          "name": "尺寸=1920,个数=两个1:2",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 648,
+          "properties": {
+            "个数": "两个1:2",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:15061",
+          "name": "尺寸=1920,个数=三个1:1:1",
+          "type": "COMPONENT",
+          "width": 517,
+          "height": 648,
+          "properties": {
+            "个数": "三个1:1:1",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:15949",
+          "name": "尺寸=1536,个数=一个",
+          "type": "COMPONENT",
+          "width": 444,
+          "height": 564,
+          "properties": {
+            "个数": "一个",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16016",
+          "name": "尺寸=1536,个数=两个2:1",
+          "type": "COMPONENT",
+          "width": 444,
+          "height": 564,
+          "properties": {
+            "个数": "两个2:1",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16018",
+          "name": "尺寸=1536,个数=三个1:1:1",
+          "type": "COMPONENT",
+          "width": 444,
+          "height": 564,
+          "properties": {
+            "个数": "三个1:1:1",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16017",
+          "name": "尺寸=1536,个数=两个1:2",
+          "type": "COMPONENT",
+          "width": 444,
+          "height": 564,
+          "properties": {
+            "个数": "两个1:2",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16495",
+          "name": "尺寸=1280,个数=一个",
+          "type": "COMPONENT",
+          "width": 368,
+          "height": 468,
+          "properties": {
+            "个数": "一个",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:16496",
+          "name": "尺寸=1280,个数=两个2:1",
+          "type": "COMPONENT",
+          "width": 368,
+          "height": 469,
+          "properties": {
+            "个数": "两个2:1",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:16497",
+          "name": "尺寸=1280,个数=两个1:2",
+          "type": "COMPONENT",
+          "width": 368,
+          "height": 469,
+          "properties": {
+            "个数": "两个1:2",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:16498",
+          "name": "尺寸=1280,个数=三个1:1:1",
+          "type": "COMPONENT",
+          "width": 368,
+          "height": 468,
+          "properties": {
+            "个数": "三个1:1:1",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:16785",
+          "name": "尺寸=1024,个数=一个",
+          "type": "COMPONENT",
+          "width": 304,
+          "height": 468,
+          "properties": {
+            "个数": "一个",
+            "尺寸": "1024"
+          }
+        },
+        {
+          "id": "1089:16786",
+          "name": "尺寸=1024,个数=两个2:1",
+          "type": "COMPONENT",
+          "width": 304,
+          "height": 469,
+          "properties": {
+            "个数": "两个2:1",
+            "尺寸": "1024"
+          }
+        },
+        {
+          "id": "1089:16823",
+          "name": "尺寸=1024,个数=两个1:2",
+          "type": "COMPONENT",
+          "width": 304,
+          "height": 469,
+          "properties": {
+            "个数": "两个1:2",
+            "尺寸": "1024"
+          }
+        },
+        {
+          "id": "1089:16860",
+          "name": "尺寸=1024,个数=两个1:1:1",
+          "type": "COMPONENT",
+          "width": 304,
+          "height": 468,
+          "properties": {
+            "个数": "两个1:1:1",
+            "尺寸": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "一个",
+          "两个2:1",
+          "两个1:2",
+          "三个1:1:1",
+          "两个1:1:1"
+        ],
+        "尺寸": [
+          "1920",
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1089:17077",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1089:17076",
+      "name": "楼层",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1089:15421",
+          "name": "尺寸=1920,个数=5个",
+          "type": "COMPONENT",
+          "width": 1919,
+          "height": 894,
+          "properties": {
+            "个数": "5个",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:15561",
+          "name": "尺寸=1920,个数=6个",
+          "type": "COMPONENT",
+          "width": 1919,
+          "height": 894,
+          "properties": {
+            "个数": "6个",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:15702",
+          "name": "尺寸=1920,个数=7个",
+          "type": "COMPONENT",
+          "width": 1919,
+          "height": 894,
+          "properties": {
+            "个数": "7个",
+            "尺寸": "1920"
+          }
+        },
+        {
+          "id": "1089:16164",
+          "name": "尺寸=1536,个数=5个",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 764,
+          "properties": {
+            "个数": "5个",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16345",
+          "name": "尺寸=1536,个数=6个",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 764,
+          "properties": {
+            "个数": "6个",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16346",
+          "name": "尺寸=1536,个数=7个",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 764,
+          "properties": {
+            "个数": "7个",
+            "尺寸": "1536"
+          }
+        },
+        {
+          "id": "1089:16664",
+          "name": "尺寸=1280,个数=5个",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 643,
+          "properties": {
+            "个数": "5个",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:16665",
+          "name": "尺寸=1280,个数=6个",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 643,
+          "properties": {
+            "个数": "6个",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:16666",
+          "name": "尺寸=1280,个数=7个",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 643,
+          "properties": {
+            "个数": "7个",
+            "尺寸": "1280"
+          }
+        },
+        {
+          "id": "1089:17039",
+          "name": "尺寸=1024,个数=5个",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 643,
+          "properties": {
+            "个数": "5个",
+            "尺寸": "1024"
+          }
+        },
+        {
+          "id": "1089:17040",
+          "name": "尺寸=1024,个数=6个",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 643,
+          "properties": {
+            "个数": "6个",
+            "尺寸": "1024"
+          }
+        },
+        {
+          "id": "1089:17041",
+          "name": "尺寸=1024,个数=7个",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 643,
+          "properties": {
+            "个数": "7个",
+            "尺寸": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "5个",
+          "6个",
+          "7个"
+        ],
+        "尺寸": [
+          "1920",
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1089:17076",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1233:22238",
+      "name": "单卡片",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1233:20852",
+          "name": "属性 1=1280，基础",
+          "type": "COMPONENT",
+          "width": 373,
+          "height": 284,
+          "properties": {
+            "属性 1": "1280，基础"
+          }
+        },
+        {
+          "id": "1233:18941",
+          "name": "属性 1=1920，基础",
+          "type": "COMPONENT",
+          "width": 522,
+          "height": 361,
+          "properties": {
+            "属性 1": "1920，基础"
+          }
+        },
+        {
+          "id": "1233:18942",
+          "name": "属性 1=1920，hover",
+          "type": "COMPONENT",
+          "width": 522,
+          "height": 429,
+          "properties": {
+            "属性 1": "1920，hover"
+          }
+        },
+        {
+          "id": "1233:21447",
+          "name": "属性 1=1024，基础",
+          "type": "COMPONENT",
+          "width": 474,
+          "height": 327,
+          "properties": {
+            "属性 1": "1024，基础"
+          }
+        },
+        {
+          "id": "1233:21446",
+          "name": "属性 1=1024，hover",
+          "type": "COMPONENT",
+          "width": 474,
+          "height": 395,
+          "properties": {
+            "属性 1": "1024，hover"
+          }
+        }
+      ],
+      "axes": {
+        "属性 1": [
+          "1280，基础",
+          "1920，基础",
+          "1920，hover",
+          "1024，基础",
+          "1024，hover"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1233:22238",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1233:22237",
+      "name": "解决方案实践",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1233:19695",
+          "name": "分辨率=1920",
+          "type": "COMPONENT",
+          "width": 1924,
+          "height": 1733,
+          "properties": {
+            "分辨率": "1920"
+          }
+        },
+        {
+          "id": "1233:21147",
+          "name": "分辨率=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 1273,
+          "properties": {
+            "分辨率": "1280"
+          }
+        },
+        {
+          "id": "1233:22236",
+          "name": "分辨率=1024",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 1301,
+          "properties": {
+            "分辨率": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1920",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1233:22237",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1116:17146",
+      "name": "单卡样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1116:16830",
+          "name": "类别=单卡片,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 784,
+          "height": 648,
+          "properties": {
+            "卡片底": "灰",
+            "类别": "单卡片"
+          }
+        },
+        {
+          "id": "1116:17144",
+          "name": "类别=插画宽卡,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 916,
+          "height": 648,
+          "properties": {
+            "卡片底": "灰",
+            "类别": "插画宽卡"
+          }
+        },
+        {
+          "id": "1116:17145",
+          "name": "类别=插画窄卡,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 652,
+          "height": 648,
+          "properties": {
+            "卡片底": "灰",
+            "类别": "插画窄卡"
+          }
+        },
+        {
+          "id": "1116:17032",
+          "name": "类别=通卡,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 1592,
+          "height": 456,
+          "properties": {
+            "卡片底": "灰",
+            "类别": "通卡"
+          }
+        },
+        {
+          "id": "1120:17907",
+          "name": "类别=通卡,卡片底=白",
+          "type": "COMPONENT",
+          "width": 1592,
+          "height": 456,
+          "properties": {
+            "卡片底": "白",
+            "类别": "通卡"
+          }
+        },
+        {
+          "id": "1120:17964",
+          "name": "类别=单卡片,卡片底=白",
+          "type": "COMPONENT",
+          "width": 784,
+          "height": 648,
+          "properties": {
+            "卡片底": "白",
+            "类别": "单卡片"
+          }
+        },
+        {
+          "id": "1120:18021",
+          "name": "类别=插画宽卡,卡片底=白",
+          "type": "COMPONENT",
+          "width": 916,
+          "height": 648,
+          "properties": {
+            "卡片底": "白",
+            "类别": "插画宽卡"
+          }
+        },
+        {
+          "id": "1120:18075",
+          "name": "类别=插画窄卡,卡片底=白",
+          "type": "COMPONENT",
+          "width": 652,
+          "height": 648,
+          "properties": {
+            "卡片底": "白",
+            "类别": "插画窄卡"
+          }
+        }
+      ],
+      "axes": {
+        "卡片底": [
+          "灰",
+          "白"
+        ],
+        "类别": [
+          "单卡片",
+          "插画宽卡",
+          "插画窄卡",
+          "通卡"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1116:17146",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1120:19958",
+      "name": "楼层样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1120:18725",
+          "name": "个数=3,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1374,
+          "properties": {
+            "个数": "3",
+            "卡片底": "灰"
+          }
+        },
+        {
+          "id": "1120:19328",
+          "name": "个数=5,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 2045.9990234375,
+          "properties": {
+            "个数": "5",
+            "卡片底": "灰"
+          }
+        },
+        {
+          "id": "1120:19957",
+          "name": "个数=4,卡片底=灰",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1566,
+          "properties": {
+            "个数": "4",
+            "卡片底": "灰"
+          }
+        },
+        {
+          "id": "1120:21332",
+          "name": "个数=4,卡片底=白",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1566,
+          "properties": {
+            "个数": "4",
+            "卡片底": "白"
+          }
+        },
+        {
+          "id": "1120:21727",
+          "name": "个数=3,卡片底=白",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 1374,
+          "properties": {
+            "个数": "3",
+            "卡片底": "白"
+          }
+        },
+        {
+          "id": "1120:22177",
+          "name": "个数=5,卡片底=白",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 2045.9990234375,
+          "properties": {
+            "个数": "5",
+            "卡片底": "白"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "3",
+          "4",
+          "5"
+        ],
+        "卡片底": [
+          "灰",
+          "白"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1120:19958",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1122:17651",
+      "name": "多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1120:23146",
+          "name": "分辨率=1536-4个",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 1340,
+          "properties": {
+            "分辨率": "1536-4个"
+          }
+        },
+        {
+          "id": "1120:23718",
+          "name": "分辨率=1536-3个",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 1182,
+          "properties": {
+            "分辨率": "1536-3个"
+          }
+        },
+        {
+          "id": "1122:17306",
+          "name": "分辨率=1280-3个",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 1010,
+          "properties": {
+            "分辨率": "1280-3个"
+          }
+        },
+        {
+          "id": "1122:17649",
+          "name": "分辨率=1024-3个",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 930,
+          "properties": {
+            "分辨率": "1024-3个"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1536-4个",
+          "1536-3个",
+          "1280-3个",
+          "1024-3个"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1122:17651",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

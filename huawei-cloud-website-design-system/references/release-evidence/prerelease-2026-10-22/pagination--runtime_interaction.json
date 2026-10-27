@@ -1,0 +1,35 @@
+{
+  "kind": "source-release-check",
+  "check": "pagination/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "family": "pagination",
+    "execution": "references/release-evidence/prerelease-2026-10-22/foundation-execution-verified.json",
+    "stories": [
+      {
+        "id": "sourcefamilies-pagination--dynamic",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+        "sourceSha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe"
+      },
+      {
+        "id": "sourcefamilies-pagination--static-links",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+        "sourceSha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe"
+      },
+      {
+        "id": "sourcefamilies-pagination--select-pages",
+        "hasPlay": true,
+        "sourceFile": "assets/search-workspace/src/components/source-pagination/source-pagination.stories.tsx",
+        "sourceSha256": "03c32c02a1d57d38d8b7d32c187883451603ada1cc60e383e024ddcec46431fe"
+      }
+    ],
+    "wholeFamilyAcceptance": false,
+    "scope": "Only the listed source samples: declared play ran in a real browser; pure display stories are render-only. Sandbox excludes real link destination navigation. True hover/touch, source visuals and screen reader remain separate."
+  }
+}

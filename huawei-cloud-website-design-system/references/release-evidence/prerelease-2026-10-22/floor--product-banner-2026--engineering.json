@@ -1,0 +1,13 @@
+{
+  "kind": "source-release-check",
+  "check": "floor/product-banner-2026/engineering",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/prerelease-2026-10-22/source-inputs.json",
+    "sha256": "1c42a27051267cd339e45cb2c95cfe51a278621554a70b3a733af64ca4855df0"
+  },
+  "result": {
+    "floor": "product-banner-2026",
+    "scope": "Current compilation/build/source tests only; manual source appearance and interaction acceptance remain separate."
+  }
+}

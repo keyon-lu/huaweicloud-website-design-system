@@ -1,0 +1,39 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "下一步源规范验证"
+  },
+  "sections": [
+    {
+      "kind": "next-step-2026",
+      "id": "next-step",
+      "title": "下一步",
+      "description": "从开发工具到实践资源",
+      "items": [
+        {
+          "id": "tools",
+          "title": "让创意变为现实的开发工具及资源",
+          "asset": "product-2026-next-clean-background",
+          "tone": "white",
+          "action": {
+            "label": "立即前往",
+            "href": "#next-step",
+            "variant": "button"
+          }
+        },
+        {
+          "id": "practice",
+          "title": "开启应用开发实践之旅",
+          "description": "连接资源与实践",
+          "asset": "product-2026-next-clean-background",
+          "tone": "white",
+          "action": {
+            "label": "查看实践",
+            "href": "#next-step",
+            "variant": "text"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "source-release-check",
+  "check": "floor/process-steps/engineering",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/source-inputs.json",
+    "sha256": "1db00c33d25a137265e26fce561bfd435befef05ea54c0e3c57ca1a3482b0feb"
+  },
+  "result": {
+    "checks": [
+      {
+        "name": "typecheck",
+        "exitCode": 0
+      },
+      {
+        "name": "react-build",
+        "exitCode": 0
+      },
+      {
+        "name": "storybook-build",
+        "exitCode": 0
+      },
+      {
+        "name": "search-tests",
+        "exitCode": 0
+      }
+    ],
+    "publicAssetDependency": true
+  }
+}

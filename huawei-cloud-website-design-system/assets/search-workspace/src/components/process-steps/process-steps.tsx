@@ -1,0 +1,6 @@
+import {PortalAsset} from '@/components/portal-asset';
+export function PortalProcessSteps({items,label}:{items:{title:string;description:string;href?:string;action?:string;icon?:1|2|3|4}[];label?:string}){
+ if(items.length<3||items.length>4)throw new Error("Process steps require 3 to 4 items; other counts need a verified floor variant");
+ if(items.some(item=>item.icon!=null&&(!Number.isInteger(item.icon)||item.icon<1||item.icon>4)))throw new Error("Process icon must be1..4");
+ return <div className="hc-process-steps" data-floor-source="partners-process-v2"><ol className="hc-process-list" role="list" data-cols={items.length} aria-label={label}>{items.map((item,i)=><li key={i} className="hc-process-item" role="listitem"><div className="hc-process-number" aria-hidden="true"><PortalAsset assetId={`process-number-0${item.icon??i+1}`} alt=""/></div><div className="hc-process-text"><h3 className="por-text-title-t8 hc-process-title">{item.title}</h3><p className="por-text-body-t2 hc-process-desc">{item.description}</p></div>{item.href&&<div className="hc-process-actions"><a className="por-btn por-btn-middle por-btn-md-default por-btn-secondary" href={item.href}>{item.action||item.title}</a></div>}{i<items.length-1&&<span className="hc-process-arrow" aria-hidden="true"><PortalAsset assetId="process-arrow" alt=""/></span>}</li>)}</ol></div>;
+}

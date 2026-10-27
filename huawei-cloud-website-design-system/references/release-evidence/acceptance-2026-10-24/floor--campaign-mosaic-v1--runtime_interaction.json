@@ -1,0 +1,57 @@
+{
+  "kind": "source-release-check",
+  "date": "2026-10-25",
+  "check": "floor/campaign-mosaic-v1/runtime_interaction",
+  "status": "passed",
+  "snapshot": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/source-inputs.json",
+    "sha256": "2eae365b4a170f61a614d2b5ab8dab09b75ffff01e7bc511938b87c59eca6cd3"
+  },
+  "result": {
+    "actualPassedCases": [
+      {
+        "name": "mosaic/mobile-native-four-card-track",
+        "date": "2026-10-25T07:41:14.309Z",
+        "scope": "375 reduced motion: Enter fourth manual source card reaches actual end; Space returns first selected dot. Four-card configuration only; five/six layouts and physical swipe not claimed.",
+        "observationType": "native-interaction"
+      }
+    ],
+    "historicalObservations": [],
+    "rawEvidence": "references/release-evidence/acceptance-2026-10-24/native-host-checks-v21.json",
+    "continuityProof": "references/release-evidence/acceptance-2026-10-24/host-fixture-continuity-v21.json",
+    "wholeSourceApproval": false,
+    "scope": "Configured named runtime or pure structural fixture observations only, not every supported state. Visual, manual AT/touch/keyboard, real zoom, clipboard roundtrip and production integrations remain separate. Old solution track keyboard focus continuity explicitly not passed."
+  },
+  "previousBoundedResult": {
+    "archive": {
+      "path": "references/release-evidence/acceptance-2026-10-24/pre-v22-records.json",
+      "sha256": "84c395248afcef36b46f135d92668a842f79f33dc953b11052ff8c16431c50da"
+    },
+    "recordKey": "references/release-evidence/acceptance-2026-10-24/floor--campaign-mosaic-v1--runtime_interaction.json",
+    "recordSha256": "1de67a2a6197c4bdb7e17dc4e72a1e1c076b5f4799484fda2cecdbcb9f7c339d",
+    "previousSnapshot": {
+      "path": "references/release-evidence/acceptance-2026-10-24/source-inputs-v21.json",
+      "sha256": "21c80166498cc4a4101beb4e07b051a10cd5f5ae012af4bc7ff955fd57b00275"
+    }
+  },
+  "inputContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/phase-continuity-v22.json",
+    "sha256": "e7195a21c1683fef3e899688ef4d8c93df906d3d84ae2035c0737bef928ed03f"
+  },
+  "derivedMetadataContinuity": {
+    "path": "references/release-evidence/acceptance-2026-10-24/state-contract-input-lineage-v23.json",
+    "sha256": "126137829728979d35dab7b692eed374057d6cfb0fd51251076b42403cc5fffc"
+  },
+  "currentPhaseContinuity": {
+    "path": "references/release-evidence/owner-contrast-2026-10-26/decision-lineage.json",
+    "sha256": "538ce770e635bcd050087b0ed645882d8db5ec2ec8d9b900990e87c2d07176b7"
+  },
+  "previousPhaseArchive": {
+    "file": {
+      "path": "references/release-evidence/owner-contrast-2026-10-26/rc17-records.json",
+      "sha256": "25b554a40bd5c996b6dbbb34d15af315abf38c10c0f3c86d7ae57d295b3724df"
+    },
+    "key": "references/release-evidence/acceptance-2026-10-24/floor--campaign-mosaic-v1--runtime_interaction.json",
+    "sha256": "19fb0390f1bda0de81e69782ae507a2888743186b974d58a8cda9c04b3b60f5c"
+  }
+}

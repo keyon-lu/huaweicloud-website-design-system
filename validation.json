@@ -1,0 +1,89 @@
+{
+  "version": "2.6.0",
+  "publicationStatus": "released-with-known-limitations",
+  "formalRelease": true,
+  "fullAcceptanceGatePassed": false,
+  "checks": [
+    {
+      "script": "verify-standalone-package.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"files\": 2397,\n  \"pageTypes\": [\n    \"website-product-floor\",\n    \"developer-portal\",\n    \"website-composed\"\n  ],\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"referenceQuality\": \"not-certified\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify-required-resources.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"requiredDistributionFiles\": 2397,\n  \"markdownDocuments\": 193,\n  \"localLinks\": 439,\n  \"coreBranches\": [\n    \"website-product-floor\",\n    \"developer-portal\",\n    \"website-composed\",\n    \"local-search-validation\"\n  ],\n  \"optional\": [\n    {\n      \"resource\": \"HuaweiSans font binary\",\n      \"localPath\": null,\n      \"branches\": [\n        \"website-product-floor\",\n        \"developer-portal\",\n        \"website-composed\",\n        \"local-search-validation\"\n      ],\n      \"reason\": \"Not bundled or needed for operation; use documented system font fallback and disclose reference-quality difference.\"\n    },\n    {\n      \"resource\": \"External website URLs and original documentation links\",\n      \"localPath\": null,\n      \"branches\": [\n        \"website-product-floor\",\n        \"developer-portal\",\n        \"website-composed\",\n        \"local-search-validation\"\n      ],\n      \"reason\": \"Reference/navigation destinations, not runtime library dependencies; no online availability claim or automatic fetching.\"\n    },\n    {\n      \"resource\": \"Pixso connector and exact-node design assets\",\n      \"localPath\": null,\n      \"branches\": [],\n      \"reason\": \"Future separate Pixso certification only; user confirmed current PortalUI source baseline. Never claim Pixso conversion from source checks.\"\n    }\n  ],\n  \"scope\": \"all packaged Markdown local references and distribution resources, plus explicit workflow roots; external URLs not fetched\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify-contract-docs.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"exportedFunctions\": 146,\n  \"maintainedDocuments\": 33,\n  \"localLinks\": 186,\n  \"routes\": [\n    \"website-product-floor\",\n    \"developer-portal\",\n    \"website-composed\"\n  ],\n  \"scope\": \"documentation and actual signature consistency; no browser/runtime state acceptance\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify-release-contract-index.mjs",
+      "exitCode": 0,
+      "stdout": "{\"ok\":true,\"adoptedPatterns\":66,\"scopedFoundationFamilies\":17,\"scope\":\"Static contract/source traceability only; no automatic owner approval or runtime acceptance\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify-approved-presentation.mjs",
+      "exitCode": 0,
+      "stdout": "{\"ok\":true,\"protectedFiles\":4,\"protectedFunctions\":43,\"protectedTokens\":1781,\"behaviorRepairs\":1,\"scope\":\"Owner2026-10-19 fixed presentation anchors retained; a named repair permits only its recorded update helper with identical remaining AST/JSX. No new owner approval.\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify-template-asset-registration.mjs",
+      "exitCode": 0,
+      "stdout": "{\"ok\":true,\"registeredAssets\":102,\"checkedLiteralConsumers\":36,\"originalArrowAssets\":3,\"scope\":\"Template registration and byte identity, not visual approval of other component variants\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "generate-page.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"pageType\": \"website-product-floor\",\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\skill-distribution-2.6.0-2026-10-26\\\\smoke-generated\\\\agentarts.shadcn.html\",\n  \"template\": \"src/pages/portal-product/index.tsx\",\n  \"variant\": \"default\",\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"smBreakpoint\": 1024,\n  \"referenceQuality\": \"not-certified\",\n  \"knownLimitations\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "generate-page.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"pageType\": \"developer-portal\",\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\skill-distribution-2.6.0-2026-10-26\\\\smoke-generated\\\\developer.shadcn.html\",\n  \"template\": \"src/pages/portal-developer/index.tsx\",\n  \"variant\": \"default\",\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"smBreakpoint\": 1024,\n  \"referenceQuality\": \"not-certified\",\n  \"knownLimitations\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "generate-page.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"pageType\": \"website-composed\",\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\skill-distribution-2.6.0-2026-10-26\\\\smoke-generated\\\\composition.shadcn.html\",\n  \"template\": \"src/pages/portal-composed/index.tsx\",\n  \"variant\": \"default\",\n  \"baseline\": \"PortalUI 3.0.17\",\n  \"smBreakpoint\": 1024,\n  \"referenceQuality\": \"not-certified\",\n  \"knownLimitations\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "validate-source-fast.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\skill-distribution-2.6.0-2026-10-26\\\\smoke-generated\\\\agentarts.shadcn.html\",\n  \"editableTSX\": true,\n  \"portaluiBaseline\": \"3.0.17\",\n  \"scope\": \"offline prototype; no official visual certification\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "validate-source-fast.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\skill-distribution-2.6.0-2026-10-26\\\\smoke-generated\\\\developer.shadcn.html\",\n  \"editableTSX\": true,\n  \"portaluiBaseline\": \"3.0.17\",\n  \"scope\": \"offline prototype; no official visual certification\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "validate-source-fast.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"file\": \"C:\\\\Users\\\\23519\\\\Desktop\\\\b2b-design-system-skill-creator\\\\skill-distribution-2.6.0-2026-10-26\\\\smoke-generated\\\\composition.shadcn.html\",\n  \"editableTSX\": true,\n  \"portaluiBaseline\": \"3.0.17\",\n  \"scope\": \"offline prototype; no official visual certification\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "skill-creator/quick_validate.py",
+      "exitCode": 0,
+      "stdout": "Skill is valid!\n"
+    }
+  ],
+  "files": 2398,
+  "archiveSha256": "fc66145a9165d1371d6525a982eeb8def9b6d93dac4e06bad15d20615ec6dd8e",
+  "archiveMB": 85.78,
+  "implementationAndEvidenceUnchanged": true
+}

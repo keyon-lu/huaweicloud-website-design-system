@@ -1,0 +1,37 @@
+{
+  "kind": "actual-cua-browser-flow",
+  "date": "2026-10-22",
+  "environment": "127.0.0.1:4317",
+  "checks": [
+    {
+      "action": "search 栅格",
+      "observed": "5 results; query in URL"
+    },
+    {
+      "action": "open 响应式栅格规范 and return",
+      "observed": "detail source text and query restored"
+    },
+    {
+      "action": "pageSize2 then next",
+      "observed": "page2/3 and query preserved",
+      "tree": "Browser tab: 7, Title: \"官网内容检索 · 本地验证\", URL: \"http://127.0.0.1:4317/?q=%E6%A0%85%E6%A0%BC&category=all&page=2&pageSize=2&sort=relevance\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 1 AXWebArea 官网内容检索 · 本地验证, URL: 127.0.0.1:4317/?q=%E6%A0%85%E6%A0%BC&category=all&page=2&pageSize=2&sort=relevance"
+    },
+    {
+      "action": "search unique unmatched phrase",
+      "observed": "0 results and recovery advice; no error state"
+    },
+    {
+      "action": "stop owned loopback service and search",
+      "observed": "input 栅格 retained; error and retry button"
+    },
+    {
+      "action": "restart owned service and retry",
+      "observed": "results recovered; same query and pageSize"
+    }
+  ],
+  "notTested": [
+    "manual screen reader",
+    "real phone keyboard"
+  ],
+  "formalRelease": false
+}

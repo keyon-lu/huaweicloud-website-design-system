@@ -1,0 +1,466 @@
+{
+  "fileKey": "OSwDgV4w7GYGv4tACFCJFw",
+  "sourceId": "PIX-015",
+  "sets": [
+    {
+      "id": "796:12240",
+      "name": "应用场景架构图/二级标题+正文",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "782:14956",
+          "name": "类别=二级标题-要点+正文",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 80,
+          "properties": {
+            "类别": "二级标题-要点+正文"
+          }
+        },
+        {
+          "id": "782:14957",
+          "name": "类别=二级标题+正文-要点",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 88,
+          "properties": {
+            "类别": "二级标题+正文-要点"
+          }
+        }
+      ],
+      "axes": {
+        "类别": [
+          "二级标题-要点+正文",
+          "二级标题+正文-要点"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=796:12240",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "796:12239",
+      "name": "应用场景架构图/正文",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "782:14951",
+          "name": "类别=正文-要点",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 56,
+          "properties": {
+            "类别": "正文-要点"
+          }
+        },
+        {
+          "id": "782:14952",
+          "name": "类别=正文（数字）",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 56,
+          "properties": {
+            "类别": "正文（数字）"
+          }
+        }
+      ],
+      "axes": {
+        "类别": [
+          "正文-要点",
+          "正文（数字）"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=796:12239",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "783:23193",
+      "name": "应用场景架构图/内容区",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "782:15236",
+          "name": "类别=左图右文-6:4",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 760,
+          "properties": {
+            "类别": "左图右文-6:4"
+          }
+        },
+        {
+          "id": "783:17271",
+          "name": "类别=左图右文-5:5",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 760,
+          "properties": {
+            "类别": "左图右文-5:5"
+          }
+        },
+        {
+          "id": "783:22850",
+          "name": "类别=左文右图-5:5",
+          "type": "COMPONENT",
+          "width": 1600,
+          "height": 760,
+          "properties": {
+            "类别": "左文右图-5:5"
+          }
+        }
+      ],
+      "axes": {
+        "类别": [
+          "左文右图-5:5",
+          "左图右文-6:4",
+          "左图右文-5:5"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=783:23193",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "798:14316",
+      "name": "应用场景架构图/多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "798:13487",
+          "name": "属性 1=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 856,
+          "properties": {
+            "属性 1": "1536"
+          }
+        },
+        {
+          "id": "798:14036",
+          "name": "属性 1=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 720,
+          "properties": {
+            "属性 1": "1280"
+          }
+        },
+        {
+          "id": "798:14315",
+          "name": "属性 1=1024",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 720,
+          "properties": {
+            "属性 1": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "属性 1": [
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=798:14316",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "783:16598",
+      "name": "应用场景架构图/服务",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "783:16117",
+          "name": "个数=6",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 140,
+          "properties": {
+            "个数": "6"
+          }
+        },
+        {
+          "id": "783:16435",
+          "name": "个数=5",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 140,
+          "properties": {
+            "个数": "5"
+          }
+        },
+        {
+          "id": "783:16474",
+          "name": "个数=4",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 88,
+          "properties": {
+            "个数": "4"
+          }
+        },
+        {
+          "id": "783:16513",
+          "name": "个数=3",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 88,
+          "properties": {
+            "个数": "3"
+          }
+        },
+        {
+          "id": "783:16552",
+          "name": "个数=2",
+          "type": "COMPONENT",
+          "width": 544,
+          "height": 36,
+          "properties": {
+            "个数": "2"
+          }
+        },
+        {
+          "id": "783:15726",
+          "name": "个数=1",
+          "type": "COMPONENT",
+          "width": 264,
+          "height": 36,
+          "properties": {
+            "个数": "1"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "6",
+          "5",
+          "4",
+          "3",
+          "2",
+          "1"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=783:16598",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "783:21267",
+      "name": "应用场景架构图/视频排列",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "783:21116",
+          "name": "个数=3",
+          "type": "COMPONENT",
+          "width": 537,
+          "height": 114,
+          "properties": {
+            "个数": "3"
+          }
+        },
+        {
+          "id": "783:21234",
+          "name": "个数=2",
+          "type": "COMPONENT",
+          "width": 354,
+          "height": 114,
+          "properties": {
+            "个数": "2"
+          }
+        },
+        {
+          "id": "783:21124",
+          "name": "个数=1",
+          "type": "COMPONENT",
+          "width": 171,
+          "height": 114,
+          "properties": {
+            "个数": "1"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=783:21267",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "783:21906",
+      "name": "应用场景架构图/机型",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "783:21877",
+          "name": "个数=3",
+          "type": "COMPONENT",
+          "width": 178,
+          "height": 24,
+          "properties": {
+            "个数": "3"
+          }
+        },
+        {
+          "id": "783:21894",
+          "name": "个数=2",
+          "type": "COMPONENT",
+          "width": 115,
+          "height": 24,
+          "properties": {
+            "个数": "2"
+          }
+        },
+        {
+          "id": "783:21905",
+          "name": "个数=1",
+          "type": "COMPONENT",
+          "width": 44,
+          "height": 24,
+          "properties": {
+            "个数": "1"
+          }
+        }
+      ],
+      "axes": {
+        "个数": [
+          "1",
+          "3",
+          "2"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=783:21906",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "760:10725",
+      "name": "场景&案例展示/多分辨率",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "753:14512",
+          "name": "分辨率=1536",
+          "type": "COMPONENT",
+          "width": 1536,
+          "height": 658,
+          "properties": {
+            "分辨率": "1536"
+          }
+        },
+        {
+          "id": "753:14644",
+          "name": "分辨率=1280",
+          "type": "COMPONENT",
+          "width": 1280,
+          "height": 560,
+          "properties": {
+            "分辨率": "1280"
+          }
+        },
+        {
+          "id": "753:14749",
+          "name": "分辨率=1024",
+          "type": "COMPONENT",
+          "width": 1024,
+          "height": 542,
+          "properties": {
+            "分辨率": "1024"
+          }
+        }
+      ],
+      "axes": {
+        "分辨率": [
+          "1536",
+          "1280",
+          "1024"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=760:10725",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1116:16714",
+      "name": "内容",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1096:14446",
+          "name": "辅助说明=开",
+          "type": "COMPONENT",
+          "width": 1008,
+          "height": 316,
+          "properties": {
+            "辅助说明": "开"
+          }
+        },
+        {
+          "id": "1116:16713",
+          "name": "辅助说明=关",
+          "type": "COMPONENT",
+          "width": 392,
+          "height": 232,
+          "properties": {
+            "辅助说明": "关"
+          }
+        }
+      ],
+      "axes": {
+        "辅助说明": [
+          "关",
+          "开"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1116:16714",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    },
+    {
+      "id": "1122:19473",
+      "name": "楼层样式",
+      "type": "COMPONENT_SET",
+      "variants": [
+        {
+          "id": "1107:14648",
+          "name": "类型=背景无图片",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 468,
+          "properties": {
+            "类型": "背景无图片"
+          }
+        },
+        {
+          "id": "1122:19331",
+          "name": "类型=变主按钮",
+          "type": "COMPONENT",
+          "width": 1916,
+          "height": 392,
+          "properties": {
+            "类型": "变主按钮"
+          }
+        },
+        {
+          "id": "1116:16694",
+          "name": "类型=背景有图片",
+          "type": "COMPONENT",
+          "width": 1920,
+          "height": 468,
+          "properties": {
+            "类型": "背景有图片"
+          }
+        }
+      ],
+      "axes": {
+        "类型": [
+          "背景无图片",
+          "变主按钮",
+          "背景有图片"
+        ]
+      },
+      "url": "https://pixso.cn/app/design/OSwDgV4w7GYGv4tACFCJFw?item-id=1122:19473",
+      "adoption": "source-inventory; not automatic runtime implementation or accepted state coverage"
+    }
+  ]
+}

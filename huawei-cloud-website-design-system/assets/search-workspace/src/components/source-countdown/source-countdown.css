@@ -1,0 +1,7 @@
+.source-countdown[hidden]{display:none}
+.source-countdown{max-width:var(--hc-t-input-available-width)}
+.source-countdown .count-down{min-width:0;max-width:var(--hc-t-input-available-width)}
+.source-countdown .count-down-holder{position:relative;isolation:isolate;background:transparent;flex-wrap:wrap;height:auto;min-height:var(--hc-t-countdown-min-height);max-width:var(--hc-t-input-available-width);box-sizing:border-box}
+.source-countdown .count-down-holder:before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--hc-t-countdown-background);opacity:var(--source-countdown-opacity,1)}
+.source-countdown .count-down-time-elements{display:inline-flex;flex-wrap:wrap;max-width:var(--hc-t-input-available-width)}
+.source-countdown .count-down-pre-content{overflow-wrap:anywhere;max-width:var(--hc-t-input-available-width)}

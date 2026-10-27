@@ -1,0 +1,12 @@
+import {mkdtemp,readFile,writeFile,mkdir} from 'node:fs/promises';import os from 'node:os';import path from 'node:path';import assert from 'node:assert/strict';import {fileURLToPath} from 'node:url';
+import {generateSearchProject} from './generate-search-project.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url));const template=path.join(root,'assets/search-workspace');const out=await mkdtemp(path.join(os.tmpdir(),'website-search-template-'));
+const manifest=JSON.parse(await readFile(path.join(template,'template-manifest.json'),'utf8'));
+const result=await generateSearchProject(template,path.join(out,'project'));assert.equal(result.files,manifest.files.length);
+for(const row of manifest.files)assert.deepEqual(await readFile(path.join(out,'project',row.path)),await readFile(path.join(template,row.path)),row.path);
+await assert.rejects(()=>generateSearchProject(template,path.join(out,'project')),/empty/);
+const occupied=path.join(out,'occupied');await mkdir(occupied);await writeFile(path.join(occupied,'keep.txt'),'preserve me');await assert.rejects(()=>generateSearchProject(template,occupied),/empty/);assert.equal(await readFile(path.join(occupied,'keep.txt'),'utf8'),'preserve me');
+await assert.rejects(()=>generateSearchProject(template,path.join(template,'nested')),/outside/);
+const invalid=path.join(out,'invalid-template');await mkdir(invalid);await writeFile(path.join(invalid,'template-manifest.json'),JSON.stringify({files:[{path:'../escape',sha256:'wrong'}]}));await assert.rejects(()=>generateSearchProject(invalid,path.join(out,'invalid-output')),/Invalid template path/);
+await writeFile(path.join(invalid,'content.txt'),'actual');await writeFile(path.join(invalid,'template-manifest.json'),JSON.stringify({files:[{path:'content.txt',sha256:'wrong'}]}));await assert.rejects(()=>generateSearchProject(invalid,path.join(out,'bad-hash-output')),/hash mismatch/);
+console.log(JSON.stringify({ok:true,files:result.files,negativeCases:5,scope:'template extraction, integrity and preserve-existing-file checks; generated application runtime tested separately'}));

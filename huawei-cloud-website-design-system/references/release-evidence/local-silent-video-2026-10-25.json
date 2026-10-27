@@ -1,0 +1,19 @@
+{
+  "kind": "exact-local-webm-track-inspection",
+  "date": "2026-10-25",
+  "mediaSha256": "2c27583434158ebbec08f186b27fd81905446598796b972577d3580ef46e62d7",
+  "mediaBytes": 2903,
+  "tracks": [
+    {
+      "type": 1,
+      "codec": "V_VP8"
+    }
+  ],
+  "actualBrowserSourceMatches": true,
+  "audioTracks": 0,
+  "declaredContent": "silent",
+  "disposition": "The video-caption incomplete result is not a missing-speech-caption defect for these exact silent local fixture bytes. No invented captions or source changes. Production spoken media still requires host-supplied accessible captions and separate acceptance.",
+  "wholeSourceAccessibilityPassed": false,
+  "manualAT": false,
+  "formalRelease": false
+}

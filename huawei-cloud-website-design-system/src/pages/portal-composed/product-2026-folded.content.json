@@ -1,0 +1,126 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "2026折叠图文验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "folded-media-2026",
+      "id": "folded-2026",
+      "title": "多种智能办公场景，等你探索",
+      "background": "grey",
+      "items": [
+        {
+          "id": "feature-1",
+          "title": "快速生成专业PPT",
+          "paragraphs": [
+            [
+              {
+                "text": "通过可配置的能力支持业务场景，查看功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-folded-desktop",
+            "mobileAsset": "product-2026-folded-mobile",
+            "alt": "产品能力示意图"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#folded-2026",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "feature-2",
+          "title": "每日定时新闻推送",
+          "paragraphs": [
+            [
+              {
+                "text": "通过可配置的能力支持业务场景，查看功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-folded-desktop",
+            "mobileAsset": "product-2026-folded-mobile",
+            "alt": "产品能力示意图"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#folded-2026",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "feature-3",
+          "title": "一键生成深度报告",
+          "paragraphs": [
+            [
+              {
+                "text": "通过可配置的能力支持业务场景，查看功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-folded-desktop",
+            "mobileAsset": "product-2026-folded-mobile",
+            "alt": "产品能力示意图"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#folded-2026",
+              "variant": "text"
+            }
+          ]
+        },
+        {
+          "id": "feature-4",
+          "title": "本地文件智能整理",
+          "paragraphs": [
+            [
+              {
+                "text": "通过可配置的能力支持业务场景，查看功能说明。"
+              }
+            ]
+          ],
+          "media": {
+            "kind": "image",
+            "asset": "product-2026-folded-desktop",
+            "mobileAsset": "product-2026-folded-mobile",
+            "alt": "产品能力示意图"
+          },
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#folded-2026",
+              "variant": "text"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "actions": "功能入口",
+        "pause": "暂停自动切换",
+        "resume": "继续自动切换",
+        "video": {
+          "play": "播放视频",
+          "close": "关闭视频",
+          "failed": "视频加载失败",
+          "retry": "重新加载",
+          "blocked": "请手动播放",
+          "actions": "视频入口"
+        }
+      }
+    }
+  ]
+}

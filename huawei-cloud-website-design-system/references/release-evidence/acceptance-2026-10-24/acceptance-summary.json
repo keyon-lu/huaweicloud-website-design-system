@@ -1,0 +1,100 @@
+{
+  "kind": "current-scoped-acceptance-progress",
+  "date": "2026-10-24",
+  "snapshotId": "3b2547b2f6f5440f6bf728cc5956222bea5318c00044eb655a42bcc0a56e96c4",
+  "snapshotFolder": "storybook-v14",
+  "engineering": {
+    "groups": 31,
+    "allPassed": true,
+    "newLabelBoundaryTests": 2
+  },
+  "browser": {
+    "stories": 189,
+    "declaredPlay": 59,
+    "renderOnly": 130,
+    "failures": 0
+  },
+  "responsive": {
+    "foundationSamples": 68,
+    "foundationChecks": 1496,
+    "foundationErrors": 0,
+    "foundationRootOverflow": 1,
+    "foundationOverflowExplanation": "Only inert original source-reference inputs at320px/font200%; implementation stories do not overflow. Kept raw evidence; not filtered into a pass.",
+    "floorSources": 66,
+    "floorChecks": 1452,
+    "floorErrors": 0,
+    "floorRootOverflow": 0,
+    "widths": 16,
+    "stressWidths": 3,
+    "actualBrowserZoomTest": false
+  },
+  "contractReviews": {
+    "foundationFamilies": 17,
+    "sourceRecords": 66,
+    "sourceAndFoundationStateDefinitions": 451,
+    "requiredFloorFamilyBindings": 62,
+    "exactSourceBindings": 54,
+    "protectedExistingBindings": 8,
+    "additionalProtectedLegacyStateDefinitions": 22,
+    "completedCheckPositions": 290,
+    "newComponentCount": 0
+  },
+  "gate": {
+    "beforePendingCheckPositions": 840,
+    "currentPendingCheckPositions": 550,
+    "remainingByBucket": {
+      "responsive_long_text": 145,
+      "accessibility": 145,
+      "runtime_interaction": 128,
+      "source_visual_comparison": 128,
+      "static-review-133": 1,
+      "creator-release-gates": 1,
+      "priority-design-adoption": 1,
+      "adopted-source-pattern-conversion": 1
+    },
+    "meaning": "Positions include repeated source/floor/family registration; not unique code defects. Formal gate remains false."
+  },
+  "sourceDecisions": [
+    "Information mobile original groups134:936/975 use343/182; online exports match local evidence.",
+    "Next-step/live source colors preserved; both observed contrast failures remain.",
+    "Choice black/gray current owner correction supersedes historical blue note; not a global blue ban."
+  ],
+  "textCandidateReview": {
+    "video769": "Normal title/duration rectangles fully contained and screenshot verified; internal scrollHeight padding is not evidence of hidden text.",
+    "sourceClamps": [
+      "speaker name/description",
+      "news description",
+      "live-preview title/description",
+      "mosaic description"
+    ],
+    "visuallyHiddenStatuses": [
+      "report-filter",
+      "image-filter",
+      "logo-filter"
+    ],
+    "fontScalingCandidates": [
+      "folded decorative plus/minus",
+      "pagination icon pseudo-elements",
+      "elevator title with full accessible name"
+    ],
+    "boundary": "Retain candidate inventory; no blanket zoom/AT/source-visual pass."
+  },
+  "protectedPresentation": {
+    "protectedFunctions": 43,
+    "protectedCssFiles": 4,
+    "protectedOriginalTokens": 1781,
+    "phaseByteIdenticalFoundationFamilies": 16,
+    "labelNormalRenderAstEquivalent": true,
+    "originalOwnerSampleApprovals": 19,
+    "newOwnerApprovals": 0
+  },
+  "remaining": [
+    "Execute all supported non-default interactions, with native keyboard/pointer evidence.",
+    "Complete actual long-content and browser-zoom coverage; default fixture/font scaling is partial.",
+    "Complete source visual checks for adopted branches, retaining original product/developer styles.",
+    "Complete manual screen-reader, physical touch/soft-keyboard evidence and retain known contrast failures.",
+    "Close expanded/Creator gates, freeze final candidate and perform final static review."
+  ],
+  "formalRelease": false,
+  "score": "Last frozen RC7 static review90.2; current changes are not a new formal score."
+}

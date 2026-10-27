@@ -1,0 +1,123 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "新闻推荐来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "editorial-grid-v1",
+      "id": "v1-editorial",
+      "title": "新闻与博客推荐",
+      "background": "grey",
+      "columns": [
+        {
+          "id": "one",
+          "layout": "large",
+          "items": [
+            {
+              "id": "news-1",
+              "category": "产品资讯",
+              "title": "来源不规则推荐卡片 1",
+              "description": "可编辑内容与背景独立配置，长文自然换行。",
+              "background": "white",
+              "tone": "ink",
+              "href": "#v1-editorial"
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "layout": "small-medium",
+          "items": [
+            {
+              "id": "news-2",
+              "category": "产品资讯",
+              "title": "来源不规则推荐卡片 2",
+              "description": "可编辑内容与背景独立配置，长文自然换行。",
+              "background": "white",
+              "tone": "ink",
+              "href": "#v1-editorial"
+            },
+            {
+              "id": "news-3",
+              "category": "产品资讯",
+              "title": "来源不规则推荐卡片 3",
+              "description": "可编辑内容与背景独立配置，长文自然换行。",
+              "background": "white",
+              "tone": "ink",
+              "href": "#v1-editorial"
+            }
+          ]
+        },
+        {
+          "id": "three",
+          "layout": "three-small",
+          "items": [
+            {
+              "id": "news-4",
+              "category": "产品资讯",
+              "title": "来源不规则推荐卡片 4",
+              "description": "可编辑内容与背景独立配置，长文自然换行。",
+              "background": "white",
+              "tone": "ink",
+              "href": "#v1-editorial"
+            },
+            {
+              "id": "news-5",
+              "category": "产品资讯",
+              "title": "来源不规则推荐卡片 5",
+              "description": "可编辑内容与背景独立配置，长文自然换行。",
+              "background": "white",
+              "tone": "ink",
+              "href": "#v1-editorial"
+            },
+            {
+              "id": "news-6",
+              "category": "产品资讯",
+              "title": "来源不规则推荐卡片 6",
+              "description": "可编辑内容与背景独立配置，长文自然换行。",
+              "background": "white",
+              "tone": "ink",
+              "href": "#v1-editorial"
+            }
+          ]
+        }
+      ],
+      "mobileCards": [
+        {
+          "id": "news-1",
+          "category": "产品资讯",
+          "title": "来源不规则推荐卡片 1",
+          "description": "可编辑内容与背景独立配置，长文自然换行。",
+          "background": "white",
+          "tone": "ink",
+          "href": "#v1-editorial"
+        },
+        {
+          "id": "news-3",
+          "category": "产品资讯",
+          "title": "来源不规则推荐卡片 3",
+          "description": "可编辑内容与背景独立配置，长文自然换行。",
+          "background": "white",
+          "tone": "ink",
+          "href": "#v1-editorial"
+        },
+        {
+          "id": "news-4",
+          "category": "产品资讯",
+          "title": "来源不规则推荐卡片 4",
+          "description": "可编辑内容与背景独立配置，长文自然换行。",
+          "background": "white",
+          "tone": "ink",
+          "href": "#v1-editorial"
+        }
+      ],
+      "labels": {
+        "actions": "推荐卡片操作",
+        "slides": "资讯切换",
+        "slide": "资讯"
+      }
+    }
+  ]
+}

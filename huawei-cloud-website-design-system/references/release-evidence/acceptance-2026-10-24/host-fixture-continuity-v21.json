@@ -1,0 +1,34 @@
+{
+  "kind": "additive-host-fixture-continuity",
+  "date": "2026-10-25",
+  "baseCandidate": "2.6.0-rc12-draft",
+  "previousManagedFilesCompared": 2243,
+  "previousFilesChanged": [
+    "assets/search-workspace/template-manifest.json"
+  ],
+  "previousProductImplementationAndStylesByteIdentical": true,
+  "onlyNewSourceFixture": {
+    "path": "assets/search-workspace/src/components/product-v1-anchor/anchor-scroll-targets.stories.tsx",
+    "sha256": "ee6d4483ce4f0eea9b96a928c134fa303348787dfb0a23241eb9123844b14371"
+  },
+  "sourceSnapshotsPreserved": {
+    "oldInputs": 691,
+    "newInputs": 692
+  },
+  "generatedLegacyHost": {
+    "sourceContentSha256": "e1b56566636ccca90dc2667daf04492e3d05668e35f8f26de0660f34e4823fa5",
+    "htmlSha256": "31186a117b3559082480775469fe740fe9e69cb4504a6459ca21311dd6c60d9f",
+    "generationScript": "scripts/generate-page.mjs",
+    "scope": "Existing8 protected floor functions, explicit test copy and existing registered assets; no new design skin"
+  },
+  "remainingAccessibilityObservation": {
+    "component": "PortalSolutionCards",
+    "observation": "At end after focused next control becomes disabled, document.activeElement was BODY",
+    "disposition": "Functional track edge passes only; keyboard focus continuity not accepted. Remains pending accessibility review; CSS and protected function unchanged."
+  },
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "comparisonPhase": "Before registering new evidence: all RC12 files except template-manifest matched. Subsequent ledger/profile/summary/readiness changes are documentation and evidence only.",
+  "existingImplementationFilesByteIdentical": 770,
+  "readinessDocUpdated": "references/readiness.md"
+}

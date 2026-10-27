@@ -1,0 +1,1067 @@
+{
+  "kind": "unmodified-original-pixso-node-excerpts",
+  "date": "2026-10-26",
+  "sourceId": "PIX-001",
+  "sourceArchiveSha256": "62a9b75cd86fd395290f1b9e46bd9203b614ff7d91b12918bf8840e8a7e41088",
+  "decodedFileSha256": "1c67f372dd752dd20999faebfec9da27f95227eacc744cba5fbb307d31535ff4",
+  "sourceUrl": "https://pixso.cn/app/design/BJujt3v6eM8T222KRhMq2Q?item-id=2:73017",
+  "rows": [
+    {
+      "id": "2:73289",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:73107",
+      "visible": null,
+      "size": {
+        "x": 1932,
+        "y": 520
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 160,
+        "m10": 0,
+        "m11": 1,
+        "m12": 198
+      },
+      "text": null,
+      "rawNodeSha256": "64e91a282bde8d8b0d73a4fd76b946f45d59f316018e0478333efc01a2c4f2b4",
+      "children": [
+        {
+          "id": "2:73363",
+          "name": "蒙版",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 1620,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "2ff35be84365e78f40494979b6c7ecf8e52d24984ffebf2694f1ba411ec17201"
+        },
+        {
+          "id": "2:73342",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 956,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "08b1b004a0c65483c206447a70cfef38707e9d9482a7e946e2f2bafdeaa0b077"
+        },
+        {
+          "id": "2:73351",
+          "name": "容器 91333920",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 1288,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "6add7f2236810e8ecd466aa6c16d5896f4a63d131d77466f67c816230b35b559"
+        },
+        {
+          "id": "2:73317",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 624,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "70a09df21e84c337dc72ccd6a491d8c60366d2eae0b8ef25fd7f4c372785dbd4"
+        },
+        {
+          "id": "2:73290",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 604,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "0ed768253859a021a212bb790cb5b0c78c4905e5b5e98b735c167365d53438f8"
+        }
+      ]
+    },
+    {
+      "id": "2:75760",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:75578",
+      "visible": null,
+      "size": {
+        "x": 1600,
+        "y": 520
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 160,
+        "m10": 0,
+        "m11": 1,
+        "m12": 198
+      },
+      "text": null,
+      "rawNodeSha256": "d6d2a9afd7d6ef96197ae3b91551fcd38767646831df250ac6b91ec74a64cb5a",
+      "children": [
+        {
+          "id": "2:75843",
+          "name": "容器 91333920",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 1288,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "a0d0bc47c448e323f58f08916d64bf468ce46895ec66a01d10fa0a3cf7ba4481"
+        },
+        {
+          "id": "2:75809",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 624,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "f8ee0a538253efb131091031ae566d57940900660709f06c61804774523ecc21"
+        },
+        {
+          "id": "2:75834",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 312,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 956,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "4391fe30dbbc344c93c3c95b666723c18285c79f712dc3193296d7718d7cf832"
+        },
+        {
+          "id": "2:75761",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 604,
+            "y": 520
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "27fd546e6dea9ed4e18940a5df17aab54771f16eb2b3534ace91635b7bd67ef0"
+        }
+      ]
+    },
+    {
+      "id": "2:74020",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:73838",
+      "visible": null,
+      "size": {
+        "x": 1382,
+        "y": 450
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 77,
+        "m10": 0,
+        "m11": 1,
+        "m12": 170
+      },
+      "text": null,
+      "rawNodeSha256": "3837b797a94cfb9b17f97a1546e822ca40699b72028a0f324880d6e664c4e14e",
+      "children": [
+        {
+          "id": "2:74082",
+          "name": "蒙版",
+          "visible": null,
+          "size": {
+            "x": 270,
+            "y": 450
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 1112,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "5aa9b2220be17da6d5cff295f2b309ada3f1192dc5e0033f9a5f6d1645756638"
+        },
+        {
+          "id": "2:74073",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 270,
+            "y": 450
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 826,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "1a490e17aeedbddfa8d07e3cfae0abe2aecb3b873f99006cf4519949337e0bd3"
+        },
+        {
+          "id": "2:74048",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 270,
+            "y": 450
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 540,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "7f237648294d5084cb1d94e2bf1ad5e56dace6f44afff7bb165df4edc2b9ed02"
+        },
+        {
+          "id": "2:74021",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 524,
+            "y": 450
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "b3528daf9e07d91b9ae86e2d9736cd4fe00ffb75d19f4ab9a5e307d43815764e"
+        }
+      ]
+    },
+    {
+      "id": "2:74278",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:74096",
+      "visible": null,
+      "size": {
+        "x": 1152,
+        "y": 375
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 64,
+        "m10": 0,
+        "m11": 1,
+        "m12": 146
+      },
+      "text": null,
+      "rawNodeSha256": "47017db853cb07fac5ac5f11b98ebdc7811a90634aca3b18eb43ec82415f712a",
+      "children": [
+        {
+          "id": "2:74279",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 441,
+            "y": 375
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "46f992ad5dab562c6ce8b1599b6a82fa96866e8a5d811deebda0a43b217ecd11"
+        },
+        {
+          "id": "2:74306",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 225,
+            "y": 375
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 453,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "076abc3220bb5f9baceb1bdf5cc0d03418f66b73c358fd203f4b25b215085a97"
+        },
+        {
+          "id": "2:74340",
+          "name": "蒙版",
+          "visible": null,
+          "size": {
+            "x": 225,
+            "y": 375
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 927,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "0d11bda23ff70dc675a4467fd7df448cae3d02990f0a4a39bd7aa810c81cf68f"
+        },
+        {
+          "id": "2:74331",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 225,
+            "y": 375
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 690,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "15a62850b95f8ccfb971ad764fca8473c2fc73f43eed7aa675a82c858dcfa2e0"
+        }
+      ]
+    },
+    {
+      "id": "2:74536",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:74354",
+      "visible": null,
+      "size": {
+        "x": 960.0001220703125,
+        "y": 312.50006103515625
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 31.99993896484375,
+        "m10": 0,
+        "m11": 1,
+        "m12": 134
+      },
+      "text": null,
+      "rawNodeSha256": "a9173d7d29526d055c684853e3e7acbbb34e75cac30108d1887316343738ae90",
+      "children": [
+        {
+          "id": "2:74598",
+          "name": "蒙版",
+          "visible": null,
+          "size": {
+            "x": 187.50001525878906,
+            "y": 312.5000305175781
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 772.5001220703125,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "e632a28653860e1b293fb5d1eb8b965052eafe182249f1f93fb12aaee4c09c58"
+        },
+        {
+          "id": "2:74589",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 187.50001525878906,
+            "y": 312.50006103515625
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 575.0001220703125,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "5fc6d84f16f50b4ea3079021b09f146ffe7742a0a65e09129bf4877904b2eb96"
+        },
+        {
+          "id": "2:74537",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 367.50006103515625,
+            "y": 312.50006103515625
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "70bcc013d26dee6bb53126de24a772514bea76e1a2490a14993827bd31c103ad"
+        },
+        {
+          "id": "2:74564",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 187.50001525878906,
+            "y": 312.50006103515625
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 377.5000915527344,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "aa2af4ae571f497595320961b29fa55c7f3b3f2b71f32d4a53f3b5f13e5f803c"
+        }
+      ]
+    },
+    {
+      "id": "2:74794",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:74612",
+      "visible": null,
+      "size": {
+        "x": 960.0001220703125,
+        "y": 312.50006103515625
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 31.99993896484375,
+        "m10": 0,
+        "m11": 1,
+        "m12": 122
+      },
+      "text": null,
+      "rawNodeSha256": "9ee7d10ab8cfaf6da92a4558aeec6f6d90d53e50bbfd6c91acf6da3fa9f59776",
+      "children": [
+        {
+          "id": "2:74856",
+          "name": "蒙版",
+          "visible": null,
+          "size": {
+            "x": 187.50001525878906,
+            "y": 312.5000305175781
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 772.5001220703125,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "5f4531a9a34ab21431afea0369c521afa5d9c2526160da269fe9a5e66b962ac2"
+        },
+        {
+          "id": "2:74847",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 187.50001525878906,
+            "y": 312.50006103515625
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 575.0001220703125,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "e15a09ef80a808811228654c82d1484afc454d0cab484be43d10474d4a234d3a"
+        },
+        {
+          "id": "2:74795",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 367.50006103515625,
+            "y": 312.50006103515625
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "3ec7559090676b348e20956939894d274cd432e9bcd3e9a7b16feea5d9472814"
+        },
+        {
+          "id": "2:74822",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 187.50001525878906,
+            "y": 312.50006103515625
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 377.5000915527344,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "746a350406321b83813aef07af82c6bce3525b3ba30ab06242b5d53ee6df71d9"
+        }
+      ]
+    },
+    {
+      "id": "2:73194",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:73107",
+      "visible": false,
+      "size": {
+        "x": 1600,
+        "y": 580
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 362.5,
+        "m10": 0,
+        "m11": 1,
+        "m12": 215.99951171875
+      },
+      "text": null,
+      "rawNodeSha256": "495edc4cd4617a9c31b2cd50ed91fc4f951a95a00959437989607544e34f7ff6",
+      "children": [
+        {
+          "id": "2:73195",
+          "name": "容器 91333911",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "3d8aa7097290acdb0dfbeab662922ef7231a57e4dafef7ef7c76cc72290cbbc9"
+        },
+        {
+          "id": "2:73267",
+          "name": "容器 91333920",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 1215,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "e17e4654fa565c738478859bf8b0a09576047d54db645317c8c65dbf5424df2a"
+        },
+        {
+          "id": "2:73215",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 405,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "dacb73f686af99a0d343b8515ab3278d1d334c6e0adf0f6262f04ffca3f1f139"
+        },
+        {
+          "id": "2:73239",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 810,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "80ea631bfc9a3f50b692759ad3ed3a9309239f0cc83b98f5d366a0671e538e3e"
+        }
+      ]
+    },
+    {
+      "id": "2:73112",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:73107",
+      "visible": false,
+      "size": {
+        "x": 1600,
+        "y": 580
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 160,
+        "m10": 0,
+        "m11": 1,
+        "m12": 215.99951171875
+      },
+      "text": null,
+      "rawNodeSha256": "a544984d6970a97018d7a0c368914412ff331d7327b7f240977f8360b39db10f",
+      "children": [
+        {
+          "id": "2:73181",
+          "name": "容器 91333920",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 1215,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "e945ea34d6a91c476eb60af1b8d17d7520711872b4d6d8aca2c528f49bb184b9"
+        },
+        {
+          "id": "2:73170",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 810,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "0f9ded97b8a8506caab0f25bd472e729c7cb8bb1a88dc6024e3b1f4dee718072"
+        },
+        {
+          "id": "2:73143",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 405,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "5d7d34f66ab69a2f6e915b9d02a0f5f13f1d84e3e41a0b53a47c9edfd4a31444"
+        },
+        {
+          "id": "2:73113",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 385,
+            "y": 580
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "8cb4cb355cf925ddc97cd781b0c43c69ff7fc10573bbdd3dae2194c9e6c0ddc8"
+        }
+      ]
+    },
+    {
+      "id": "2:73925",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:73838",
+      "visible": false,
+      "size": {
+        "x": 1280,
+        "y": 464
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 290,
+        "m10": 0,
+        "m11": 1,
+        "m12": 172.798828125
+      },
+      "text": null,
+      "rawNodeSha256": "3aa87581d48e972e9d9d8817c4627996fd22e9f9dc71b706902fada9331d1e84",
+      "children": [
+        {
+          "id": "2:73926",
+          "name": "容器 91333911",
+          "visible": null,
+          "size": {
+            "x": 308,
+            "y": 464
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "d0fe2d55304480b12fd809ad2df42cb39b4a0732f467497025e0fbc90230129e"
+        },
+        {
+          "id": "2:73970",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 308,
+            "y": 464
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 648,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "5443e347c9ab7a69280751143f4f2da9072ca70004dcef3ac0bd5283a431f379"
+        },
+        {
+          "id": "2:73998",
+          "name": "容器 91333920",
+          "visible": null,
+          "size": {
+            "x": 308,
+            "y": 464
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 972,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "f81cac709db3f427fbc263b7e2af925332396c919867a4b3a5034162778ca163"
+        },
+        {
+          "id": "2:73946",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 308,
+            "y": 464
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 324,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "46427542c0ec6aef1766d78f135c4f952ad9e9017ffe0e21744ab15a90bae651"
+        }
+      ]
+    },
+    {
+      "id": "2:74101",
+      "name": "CARD",
+      "type": "FRAME",
+      "parentId": "2:74096",
+      "visible": false,
+      "size": {
+        "x": 1066.6666259765625,
+        "y": 386.6666564941406
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 106.66665649414062,
+        "m10": 0,
+        "m11": 1,
+        "m12": 143.9990234375
+      },
+      "text": null,
+      "rawNodeSha256": "564ad4baada1b5ada66d584acb92eead8f50ceb29af5f3e3686aede13e541f78",
+      "children": [
+        {
+          "id": "2:74102",
+          "name": "容器 91334140",
+          "visible": null,
+          "size": {
+            "x": 256.6666564941406,
+            "y": 386.6666564941406
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "45f2dc41d1dd5185a09d7fee1d13fb2b395d87bf812202117b3b6652c3a4b824"
+        },
+        {
+          "id": "2:74159",
+          "name": "容器 91333919",
+          "visible": null,
+          "size": {
+            "x": 256.6666564941406,
+            "y": 386.6666564941406
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 540,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "b3f75795c975b1601b823e907902e1332bc4a53d6f6c33bbff084dcd7aafec83"
+        },
+        {
+          "id": "2:74170",
+          "name": "容器 91333920",
+          "visible": null,
+          "size": {
+            "x": 256.6666564941406,
+            "y": 386.6666564941406
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 810,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "72258039535b49bd8118dcbc67ad63ccc7a9a2c03f605b59571b4fa4f8c451f0"
+        },
+        {
+          "id": "2:74132",
+          "name": "容器 91333918",
+          "visible": null,
+          "size": {
+            "x": 256.6666564941406,
+            "y": 386.6666564941406
+          },
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 270,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "rawNodeSha256": "2cba90bd1e8a99fb7f71de1f85879350c4236fef4c97567c7a47f127125ddb15"
+        }
+      ]
+    },
+    {
+      "id": "2:73427",
+      "name": "",
+      "type": "TEXT",
+      "parentId": "2:73106",
+      "visible": null,
+      "size": {
+        "x": 1918,
+        "y": 57
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 120,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2354
+      },
+      "text": "必须；支持深浅两种背景可选。可选择上传1张或2张图片：1张时，宽度是604@2x，静态图默认截取中心部分；2张时，宽度是604@2x和312@2x。卡片高度适配图片高度\n默认状态显示静态图，hover状态图片会拉宽至604px，展开时支持视频。默认卡片数量小于等于4个的时候固定宽度；大于4个横向滚动。",
+      "rawNodeSha256": "89fffb73573710be712b94c736ed429c4814b68924209af1b34436d7cb85edf9",
+      "children": []
+    },
+    {
+      "id": "2:73506",
+      "name": "Title Copy 13备份 5",
+      "type": "TEXT",
+      "parentId": "2:73106",
+      "visible": null,
+      "size": {
+        "x": 345,
+        "y": 32
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 120,
+        "m10": 0,
+        "m11": 1,
+        "m12": 8223
+      },
+      "text": "分辨率在1600～1281px样式",
+      "rawNodeSha256": "6f1beab300989374ae8154f52a0c9160b375b1864a4bf3eafe4f4efb11687744",
+      "children": []
+    },
+    {
+      "id": "2:73507",
+      "name": "Title Copy 13备份 6",
+      "type": "TEXT",
+      "parentId": "2:73106",
+      "visible": null,
+      "size": {
+        "x": 345,
+        "y": 32
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 120,
+        "m10": 0,
+        "m11": 1,
+        "m12": 9130
+      },
+      "text": "分辨率在1280～1025px样式",
+      "rawNodeSha256": "2a27194d1f7ee83d0fe1a7232b50d89534adac32ebc070785a8e3e339e92a809",
+      "children": []
+    },
+    {
+      "id": "2:73508",
+      "name": "Title Copy 13备份 9",
+      "type": "TEXT",
+      "parentId": "2:73106",
+      "visible": null,
+      "size": {
+        "x": 345,
+        "y": 32
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 120,
+        "m10": 0,
+        "m11": 1,
+        "m12": 9921
+      },
+      "text": "分辨率在1024～840px样式",
+      "rawNodeSha256": "817fe20f3dd24c5e3cc90ba184026bcf9b6d0824f308b36b739ec25505d6ace0",
+      "children": []
+    }
+  ],
+  "boundary": "Visible and hidden records are distinguished; measurements do not approve arbitrary new media or whole-component variants."
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "scene-carousel-existing-focus-path-repair",
+  "date": "2026-10-26",
+  "scope": "Boundary disable focuses existing region; responsive band remount transfers control focus to newly visible existing region. Only a nonvisual section ref and effect/update helpers added. No scroll algorithm, JSX content, styles, source artwork or approval changed.",
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "d9ec1cf511cad79e957da40bcc66c0de701a68cae7e0cd7a7facb66bb35a14e5",
+      "afterSha256": "f8cd6d9630e0e1aba3671f4c9dea4ff25bde4f949aa2ae3f968946eb9d065e2c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.tsx",
+      "beforeSha256": "6d95e63d01c900d78b11be25f9f879821d9e6439d9708b417d19c39923556651",
+      "afterSha256": "bac417a50ece85920867bcffb89b485d9e2c5b9b493f46a1e5eb20d8f88c55dc"
+    },
+    {
+      "path": "references/product-2026-scene-carousel.md",
+      "beforeSha256": "4ca4597d0efe41abce9b4c8390605a71ea9caf5da06bd7f26104bab55c2e9dea",
+      "afterSha256": "643dd8bc5dd9a8efbbead11e1993b10778cd0b9eb17d3e2c34cf18e5302fecad"
+    }
+  ],
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "unrelatedExportedFunctionsByteIdentical": 144,
+  "returnedContentEquivalentIgnoringOnlyRefs": true,
+  "sceneStylesByteIdenticalToRc16": true
+}

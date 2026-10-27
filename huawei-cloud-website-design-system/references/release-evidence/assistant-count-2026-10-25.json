@@ -1,0 +1,23 @@
+{
+  "kind": "scoped-assistant-count-semantic-correction",
+  "date": "2026-10-25",
+  "baseline": "2.6.0-rc9",
+  "normalModuleAstEquivalentAfterOneSemanticAttributeRemoval": true,
+  "addedAttribute": "role=group on existing named count span only",
+  "visualCssByteIdentical": 182,
+  "foundationFamiliesByteIdentical": 17,
+  "newOwnerApprovals": 0,
+  "formalRelease": false,
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "3486a77334869fee48dd1ecbfa0e549849119c62b73274b49ed22649b9936c66",
+      "afterSha256": "09567706dcf5c8894f6d0202ca6e4d97b532722998232430655759b86e5b935e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.tsx",
+      "beforeSha256": "0ee81ea3dc2145b6481599f48690c206ae24f3ab4ac07e2b4f8f2d42e489224b",
+      "afterSha256": "ae37bf3623f2320eb13bdbfda65e5b0b681dfca9a9a062d2d3b2e3b0a18ad1c9"
+    }
+  ]
+}

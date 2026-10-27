@@ -1,0 +1,1529 @@
+{
+  "sourceId": "PIX-014",
+  "fileKey": "J_f7HMBXcQYmbTo6Cjgz6Q",
+  "scope": "MCP shared styles, not an implicit global token override",
+  "styles": {
+    "$style/--por-text-10xl-normal": {
+      "type": "text",
+      "desc": "页面大数字/页面大文字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 52,
+      "lineHeight": "78px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/orange/Extend-color-orange-50": {
+      "type": "color",
+      "fillPaints": "#FF9A2E"
+    },
+    "$style/Background/--por-color-bg-tag-green": {
+      "type": "color",
+      "desc": "绿色标签背景色",
+      "fillPaints": "#029931"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-10": {
+      "type": "color",
+      "fillPaints": "#FFFFE6"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-80": {
+      "type": "color",
+      "fillPaints": "#A38F08"
+    },
+    "$style/--por-text-5xl-normal": {
+      "type": "text",
+      "desc": "标题文字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": "48px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-130": {
+      "type": "color",
+      "fillPaints": "#BBB8E6"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-50": {
+      "type": "color",
+      "fillPaints": "#82CC33"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-80": {
+      "type": "color",
+      "fillPaints": "#A67711"
+    },
+    "$style/Text/--por-color-text-weak-1": {
+      "type": "color",
+      "desc": "文本弱化色/输入框",
+      "fillPaints": "#808080"
+    },
+    "$style/--por-text-l-bold": {
+      "type": "text",
+      "desc": "小标题-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeight": "24px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/gray/Extend-color-gray-5": {
+      "type": "color",
+      "desc": "--por-base-gray-5",
+      "fillPaints": "#FAFAFA"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-10": {
+      "type": "color",
+      "fillPaints": "#F0EBFF"
+    },
+    "$style/Background/--por-color-bg-button-pic": {
+      "type": "color",
+      "desc": "图片底按钮背景色-默认/禁用",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-100": {
+      "type": "color",
+      "fillPaints": "#0E004D"
+    },
+    "$style/--por-text-m-normal": {
+      "type": "text",
+      "desc": "正文",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": "24px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/gray/Extend-color-gray-40": {
+      "type": "color",
+      "desc": "--por-base-gray-40",
+      "fillPaints": "#DBDBDB"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-90": {
+      "type": "color",
+      "fillPaints": "#756202"
+    },
+    "$style/Extend/orange/Extend-color-orange-20": {
+      "type": "color",
+      "fillPaints": "#FFEBD1"
+    },
+    "$style/Extend/blue/Extend-color-blue-20": {
+      "type": "color",
+      "fillPaints": "#DEECFF"
+    },
+    "$style/Background/--por-color-bg-active": {
+      "type": "color",
+      "desc": "楼层背景色_灰色/分页",
+      "fillPaints": "#F5F5F5"
+    },
+    "$style/Extend/pink/Extend-color-pink-70": {
+      "type": "color",
+      "fillPaints": "#B50FB8"
+    },
+    "$style/Extend/mint/Extend-color-mint-120": {
+      "type": "color",
+      "fillPaints": "#77C7C2"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-20": {
+      "type": "color",
+      "fillPaints": "#E2D9FC"
+    },
+    "$style/Text/--por-color-text-tab": {
+      "type": "color",
+      "desc": "Tab文本色_默认",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-70": {
+      "type": "color",
+      "fillPaints": "#D9C816"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-80": {
+      "type": "color",
+      "fillPaints": "#3C8001"
+    },
+    "$style/Extend/mint/Extend-color-mint-10": {
+      "type": "color",
+      "fillPaints": "#E6FCFA"
+    },
+    "$style/Extend/blue/Extend-color-blue-50": {
+      "type": "color",
+      "fillPaints": "#4191FA"
+    },
+    "$style/Extend/green/Extend-color-green-10": {
+      "type": "color",
+      "fillPaints": "#E8F7EC"
+    },
+    "$style/Extend/gray/Extend-color-gray-10": {
+      "type": "color",
+      "desc": "--por-base-gray-10",
+      "fillPaints": "#F5F5F5"
+    },
+    "$style/--por-text-xl-bold": {
+      "type": "text",
+      "desc": "文字大标题/描述文字/tab页签文字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeight": "28px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/rose/Extend-color-rose-90": {
+      "type": "color",
+      "fillPaints": "#70033F"
+    },
+    "$style/Extend/green/Extend-color-green-20": {
+      "type": "color",
+      "fillPaints": "#D5F2DC"
+    },
+    "$style/Extend/lime/Extend-color-lime-90": {
+      "type": "color",
+      "fillPaints": "#576E05"
+    },
+    "$style/Extend/pink/Extend-color-pink-50": {
+      "type": "color",
+      "fillPaints": "#E848E5"
+    },
+    "$style/Text/--por-color-text-tag-red": {
+      "type": "color",
+      "desc": "标签文本_红色",
+      "fillPaints": "#F23030"
+    },
+    "$style/Extend/green/Extend-color-green-80": {
+      "type": "color",
+      "fillPaints": "#01802B"
+    },
+    "$style/Extend/mint/Extend-color-mint-110": {
+      "type": "color",
+      "fillPaints": "#3D9996"
+    },
+    "$style/--por-text-2xl-bold": {
+      "type": "text",
+      "desc": "文字标题/banner文字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 20,
+      "lineHeight": "30px",
+      "letterSpacing": "0px"
+    },
+    "$style/--por-text-5xl-bold": {
+      "type": "text",
+      "desc": "标题文字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 32,
+      "lineHeight": "48px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/purple/Extend-color-purple-70": {
+      "type": "color",
+      "fillPaints": "#841EB0"
+    },
+    "$style/Border/--por-color-border-white": {
+      "type": "color",
+      "desc": "边框色_白色",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/--por-text-m-normal#2": {
+      "type": "text",
+      "desc": "正文",
+      "fontFamily": "PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": "22px",
+      "letterSpacing": "0px"
+    },
+    "$style/Background/--por-color-bg-control-video": {
+      "type": "color",
+      "desc": "视频播放按钮背景色-默认/禁用",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Text/--por-color-text-tag-orange": {
+      "type": "color",
+      "desc": "标签文本_橙色",
+      "fillPaints": "#D96900"
+    },
+    "$style/Extend/pink/Extend-color-pink-120": {
+      "type": "color",
+      "fillPaints": "#C97ACC"
+    },
+    "$style/Extend/sky/Extend-color-sky-90": {
+      "type": "color",
+      "fillPaints": "#065278"
+    },
+    "$style/Extend/green/Extend-color-green-100": {
+      "type": "color",
+      "fillPaints": "#004A1B"
+    },
+    "$style/Extend/sky/Extend-color-sky-10": {
+      "type": "color",
+      "fillPaints": "#E8FAFF"
+    },
+    "$style/--por-text-s-lighter": {
+      "type": "text",
+      "desc": "辅助文字-细体",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 300,
+      "fontSize": 12,
+      "lineHeight": "18px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-100": {
+      "type": "color",
+      "fillPaints": "#1F4700"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-60": {
+      "type": "color",
+      "fillPaints": "#512FD6"
+    },
+    "$style/Extend/orange/Extend-color-orange-80": {
+      "type": "color",
+      "fillPaints": "#A64D00"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-120": {
+      "type": "color",
+      "fillPaints": "#847ACC"
+    },
+    "$style/Background/--por-color-bg-control-default": {
+      "type": "color",
+      "desc": "背景色_灰色/开关-关背景色",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Background/--por-color-bg-container-2": {
+      "type": "color",
+      "desc": "背景色_悬浮",
+      "fillPaints": "#FAFAFA"
+    },
+    "$style/Background/--por-color-bg--primary": {
+      "type": "color",
+      "desc": "重要按钮背景色/步骤条选中背景色、页签",
+      "fillPaints": "#191919"
+    },
+    "$style/Extend/pink/Extend-color-pink-100": {
+      "type": "color",
+      "fillPaints": "#47004D"
+    },
+    "$style/Extend/sky/Extend-color-sky-120": {
+      "type": "color",
+      "fillPaints": "#7AB8CC"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-130": {
+      "type": "color",
+      "fillPaints": "#E6D3B8"
+    },
+    "$style/Extend/purple/Extend-color-purple-80": {
+      "type": "color",
+      "desc": "--por-base-purple-80",
+      "fillPaints": "#6B1091"
+    },
+    "$style/Extend/red/Extend-color-red-130": {
+      "type": "color",
+      "fillPaints": "#F2C5C2"
+    },
+    "$style/Extend/blue/Extend-color-blue-110": {
+      "type": "color",
+      "fillPaints": "#3D6899"
+    },
+    "$style/Extend/lime/Extend-color-lime-80": {
+      "type": "color",
+      "fillPaints": "#728C0A"
+    },
+    "$style/Fuctional/--por-color-success-subtle": {
+      "type": "color",
+      "desc": "功能色_成功色_背景色",
+      "fillPaints": "#5CB300"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-90": {
+      "type": "color",
+      "fillPaints": "#2E6600"
+    },
+    "$style/Extend/purple/Extend-color-purple-40": {
+      "type": "color",
+      "fillPaints": "#CC78F0"
+    },
+    "$style/Extend/mint/Extend-color-mint-80": {
+      "type": "color",
+      "fillPaints": "#048C8C"
+    },
+    "$style/--por-text-9xl-bold": {
+      "type": "text",
+      "desc": "楼层大标题/活动标题/品牌页大数字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 48,
+      "lineHeight": "72px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-120": {
+      "type": "color",
+      "fillPaints": "#D6C581"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-20": {
+      "type": "color",
+      "fillPaints": "#FCF0C2"
+    },
+    "$style/--por-text-11xl-bold": {
+      "type": "text",
+      "desc": "官网banner大标题-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 60,
+      "lineHeight": "84px",
+      "letterSpacing": "0px"
+    },
+    "$style/Border/--por-color-border-secondary": {
+      "type": "color",
+      "desc": "次要边框色",
+      "fillPaints": "#595959"
+    },
+    "$style/Extend/pink/Extend-color-pink-90": {
+      "type": "color",
+      "fillPaints": "#6B0370"
+    },
+    "$style/--por-text-7xl-normal": {
+      "type": "text",
+      "desc": "楼层大标题/页面数字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 40,
+      "lineHeight": "60px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/red/Extend-color-red-110": {
+      "type": "color",
+      "fillPaints": "#A64242"
+    },
+    "$style/--por-text-s-bold": {
+      "type": "text",
+      "desc": "辅助文字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": "18px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/rose/Extend-color-rose-110": {
+      "type": "color",
+      "fillPaints": "#993D6E"
+    },
+    "$style/Text/--por-color-text-weak": {
+      "type": "color",
+      "desc": "文本弱化色_浅色",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Extend/red/Extend-color-red-60": {
+      "type": "color",
+      "desc": "--por-base-red-60",
+      "fillPaints": "#F23030"
+    },
+    "$style/Border/--por-color-icon-border-control-video-disable": {
+      "type": "color",
+      "desc": "视频播放按钮图标描边色_禁用",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/gray/Extend-color-gray-20": {
+      "type": "color",
+      "desc": "--por-base-gray-20",
+      "fillPaints": "#F0F0F0"
+    },
+    "$style/Extend/mint/Extend-color-mint-130": {
+      "type": "color",
+      "fillPaints": "#B8E6E1"
+    },
+    "$style/Extend/rose/Extend-color-rose-30": {
+      "type": "color",
+      "fillPaints": "#FAA0CB"
+    },
+    "$style/Extend/gray/Extend-color-gray-60": {
+      "type": "color",
+      "desc": "--por-base-gray-60",
+      "fillPaints": "#808080"
+    },
+    "$style/Text/--por-color-text-link-blue": {
+      "type": "color",
+      "desc": "文本链接色_默认/悬浮",
+      "fillPaints": "#1476FF"
+    },
+    "$style/Extend/orange/Extend-color-orange-60": {
+      "type": "color",
+      "desc": "--por-base-orange-60",
+      "fillPaints": "#FF8800"
+    },
+    "$style/Fuctional/--por-color--alert-ordinary": {
+      "type": "color",
+      "desc": "功能色_普通告警色",
+      "fillPaints": "#F2E70C"
+    },
+    "$style/Extend/lime/Extend-color-lime-20": {
+      "type": "color",
+      "fillPaints": "#F0F5C9"
+    },
+    "$style/Extend/mint/Extend-color-mint-50": {
+      "type": "color",
+      "fillPaints": "#38D6CE"
+    },
+    "$style/Extend/rose/Extend-color-rose-60": {
+      "type": "color",
+      "fillPaints": "#E61C81"
+    },
+    "$style/Extend/red/Extend-color-red-80": {
+      "type": "color",
+      "fillPaints": "#A3171C"
+    },
+    "$style/--por-text-s-normal": {
+      "type": "text",
+      "desc": "辅助文字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": "18px",
+      "letterSpacing": "0px"
+    },
+    "$style/Fuctional/--por-color-none": {
+      "type": "color",
+      "desc": "功能色_失效色",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Fuctional/--por-color-error-subtle": {
+      "type": "color",
+      "desc": "功能色_错误色_背景色",
+      "fillPaints": "#F23030"
+    },
+    "$style/Extend/lime/Extend-color-lime-50": {
+      "type": "color",
+      "fillPaints": "#C6DE3E"
+    },
+    "$style/Extend/green/Extend-color-green-120": {
+      "type": "color",
+      "fillPaints": "#77C78F"
+    },
+    "$style/Extend/sky/Extend-color-sky-130": {
+      "type": "color",
+      "fillPaints": "#B6E5F2"
+    },
+    "$style/Extend/purple/Extend-color-purple-30": {
+      "type": "color",
+      "fillPaints": "#DEA3F7"
+    },
+    "$style/Extend/lime/Extend-color-lime-60": {
+      "type": "color",
+      "fillPaints": "#B2D119"
+    },
+    "$style/--por-base-shadow-s": {
+      "type": "effect",
+      "desc": "输入框阴影",
+      "effects": [
+        {
+          "color": "#00000014",
+          "offset": {},
+          "progressiveStops": {},
+          "radius": 4,
+          "showShadowBehindNode": true,
+          "spread": 0,
+          "type": "drop_shadow"
+        }
+      ]
+    },
+    "$style/Extend/yellow/Extend-color-yellow-50": {
+      "type": "color",
+      "fillPaints": "#FAC532"
+    },
+    "$style/Extend/mint/Extend-color-mint-90": {
+      "type": "color",
+      "fillPaints": "#046466"
+    },
+    "$style/Extend/red/Extend-color-red-10": {
+      "type": "color",
+      "fillPaints": "#FFF1F0"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-50": {
+      "type": "color",
+      "fillPaints": "#FAEE46"
+    },
+    "$style/Text/--por-color-text-link-white": {
+      "type": "color",
+      "desc": "文本链接色_白色",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-40": {
+      "type": "color",
+      "fillPaints": "#F7D56F"
+    },
+    "$style/Extend/blue/Extend-color-blue-90": {
+      "type": "color",
+      "fillPaints": "#022E7A"
+    },
+    "$style/Background/--por-color-icon-control-video-hover": {
+      "type": "color",
+      "desc": "视频播放按钮图标色_悬浮",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/--por-text-4xl-normal": {
+      "type": "text",
+      "desc": "楼层标题/卡片里标题文字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 28,
+      "lineHeight": "40px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/blue/Extend-color-blue-40": {
+      "type": "color",
+      "fillPaints": "#7EB7FC"
+    },
+    "$style/Extend/green/Extend-color-green-50": {
+      "type": "color",
+      "fillPaints": "#25C251"
+    },
+    "$style/Extend/purple/Extend-color-purple-120": {
+      "type": "color",
+      "fillPaints": "#B47ACC"
+    },
+    "$style/--por-text-s-English tag": {
+      "type": "text",
+      "desc": "辅助文字-英文标签",
+      "fontFamily": "Huawei Sans",
+      "fontWeight": 700,
+      "fontSize": 10,
+      "lineHeight": "14px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-50": {
+      "type": "color",
+      "fillPaints": "#6E51E0"
+    },
+    "$style/Border/--por-color-border-disabled": {
+      "type": "color",
+      "desc": "输入框边框色_禁用/边框色_禁用",
+      "fillPaints": "#DBDBDB"
+    },
+    "$style/Background/--por-color-bg-disable-1": {
+      "type": "color",
+      "desc": "单选/复选/滚动条背景色/开关-关",
+      "fillPaints": "#DBDBDB"
+    },
+    "$style/Extend/rose/Extend-color-rose-130": {
+      "type": "color",
+      "fillPaints": "#E6B8D2"
+    },
+    "$style/Background/--por-color-bg-carousel-hover": {
+      "type": "color",
+      "desc": "轮播按钮背景色_悬浮/tab分割线灰色",
+      "fillPaints": "#000000"
+    },
+    "$style/Extend/sky/Extend-color-sky-100": {
+      "type": "color",
+      "fillPaints": "#00304A"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-40": {
+      "type": "color",
+      "fillPaints": "#FCF26A"
+    },
+    "$style/--por-text-3xl-bold": {
+      "type": "text",
+      "desc": "卡片里标题/价格数字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 24,
+      "lineHeight": "36px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/sky/Extend-color-sky-40": {
+      "type": "color",
+      "fillPaints": "#79D8F7"
+    },
+    "$style/Extend/pink/Extend-color-pink-30": {
+      "type": "color",
+      "fillPaints": "#F7A1F3"
+    },
+    "$style/Extend/lime/Extend-color-lime-110": {
+      "type": "color",
+      "fillPaints": "#808C46"
+    },
+    "$style/Extend/purple/Extend-color-purple-50": {
+      "type": "color",
+      "fillPaints": "#BA53E6"
+    },
+    "$style/Brand/--por-color-brand-1": {
+      "type": "color",
+      "desc": "主色",
+      "fillPaints": "#191919"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-100": {
+      "type": "color",
+      "fillPaints": "#4D3200"
+    },
+    "$style/Extend/blue/Extend-color-blue-120": {
+      "type": "color",
+      "fillPaints": "#7FA6D4"
+    },
+    "$style/Background/--por-color-mask-pic-carousel": {
+      "type": "color",
+      "desc": "图片轮播缩略图蒙层色",
+      "fillPaints": "#000000"
+    },
+    "$style/Extend/lime/Extend-color-lime-40": {
+      "type": "color",
+      "fillPaints": "#D5E66A"
+    },
+    "$style/Extend/lime/Extend-color-lime-120": {
+      "type": "color",
+      "fillPaints": "#C1CC7A"
+    },
+    "$style/Extend/red/Extend-color-red-20": {
+      "type": "color",
+      "fillPaints": "#FCE2E0"
+    },
+    "$style/Extend/lime/Extend-color-lime-130": {
+      "type": "color",
+      "fillPaints": "#E0E6AC"
+    },
+    "$style/Extend/rose/Extend-color-rose-10": {
+      "type": "color",
+      "fillPaints": "#FFEBF3"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-10": {
+      "type": "color",
+      "fillPaints": "#FFFAE6"
+    },
+    "$style/Extend/rose/Extend-color-rose-70": {
+      "type": "color",
+      "desc": "--por-color-alert-fatal",
+      "fillPaints": "#B50E65"
+    },
+    "$style/Extend/gray/Extend-color-gray-30": {
+      "type": "color",
+      "fillPaints": "#E6E6E6"
+    },
+    "$style/Extend/green/Extend-color-green-70": {
+      "type": "color",
+      "desc": "--por-base-green-70",
+      "fillPaints": "#029931"
+    },
+    "$style/Extend/mint/Extend-color-mint-100": {
+      "type": "color",
+      "fillPaints": "#004547"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-20": {
+      "type": "color",
+      "fillPaints": "#E6F2D5"
+    },
+    "$style/Border/--por-color-border-default": {
+      "type": "color",
+      "desc": "默认/输入框边框色",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-80": {
+      "type": "color",
+      "fillPaints": "#27108F"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-130": {
+      "type": "color",
+      "fillPaints": "#EDDFB2"
+    },
+    "$style/Background/--por-color-bg-tag-purple": {
+      "type": "color",
+      "desc": "紫色标签背景色",
+      "fillPaints": "#832FD6"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-60": {
+      "type": "color",
+      "desc": "--por-base-kelly-60",
+      "fillPaints": "#5CB300"
+    },
+    "$style/Extend/rose/Extend-color-rose-50": {
+      "type": "color",
+      "fillPaints": "#F24998"
+    },
+    "$style/Extend/blue/Extend-color-blue-60": {
+      "type": "color",
+      "desc": "--por-base-blue-60",
+      "fillPaints": "#1476FF"
+    },
+    "$style/Extend/green/Extend-color-green-90": {
+      "type": "color",
+      "fillPaints": "#006624"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-30": {
+      "type": "color",
+      "fillPaints": "#C7E6A1"
+    },
+    "$style/Border/--por-color-border-divider-2": {
+      "type": "color",
+      "desc": "边框色_分隔符",
+      "fillPaints": "#000000"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-60": {
+      "type": "color",
+      "desc": "--por-color--alert-ordinary",
+      "fillPaints": "#F2E70C"
+    },
+    "$style/Extend/blue/Extend-color-blue-30": {
+      "type": "color",
+      "fillPaints": "#B3D6FF"
+    },
+    "$style/Extend/orange/Extend-color-orange-90": {
+      "type": "color",
+      "fillPaints": "#733400"
+    },
+    "$style/Extend/sky/Extend-color-sky-60": {
+      "type": "color",
+      "fillPaints": "#33BCF2"
+    },
+    "$style/Extend/orange/Extend-color-orange-100": {
+      "type": "color",
+      "fillPaints": "#4D2201"
+    },
+    "$style/Extend/sky/Extend-color-sky-70": {
+      "type": "color",
+      "fillPaints": "#1F9ACF"
+    },
+    "$style/Background/--por-color-bg-control-video-hover": {
+      "type": "color",
+      "desc": "视频播放按钮背景色_悬浮",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Background/--por-color-bg-primary-hover": {
+      "type": "color",
+      "desc": "重要按钮背景色_悬浮/次要背景色",
+      "fillPaints": "#595959"
+    },
+    "$style/Extend/red/Extend-color-red-30": {
+      "type": "color",
+      "fillPaints": "#FAA7A3"
+    },
+    "$style/Extend/pink/Extend-color-pink-20": {
+      "type": "color",
+      "fillPaints": "#FCD4FA"
+    },
+    "$style/Extend/purple/Extend-color-purple-10": {
+      "type": "color",
+      "fillPaints": "#FAEDFF"
+    },
+    "$style/--por-text-m-bold": {
+      "type": "text",
+      "desc": "正文-加粗/小标题-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeight": "22px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/gray/Extend-color-gray-70": {
+      "type": "color",
+      "desc": "--por-base-gray-70",
+      "fillPaints": "#595959"
+    },
+    "$style/Extend/purple/Extend-color-purple-130": {
+      "type": "color",
+      "fillPaints": "#D8B8E6"
+    },
+    "$style/Extend/green/Extend-color-green-60": {
+      "type": "color",
+      "fillPaints": "#00B336"
+    },
+    "$style/Extend/rose/Extend-color-rose-40": {
+      "type": "color",
+      "fillPaints": "#F56EAD"
+    },
+    "$style/Extend/lime/Extend-color-lime-30": {
+      "type": "color",
+      "fillPaints": "#E3ED9A"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-120": {
+      "type": "color",
+      "fillPaints": "#D4B57F"
+    },
+    "$style/Extend/mint/Extend-color-mint-30": {
+      "type": "color",
+      "fillPaints": "#97E8E1"
+    },
+    "$style/Extend/green/Extend-color-green-30": {
+      "type": "color",
+      "fillPaints": "#92E0A5"
+    },
+    "$style/Background/--por-color-bg-footer": {
+      "type": "color",
+      "desc": "楼层背景色_页尾",
+      "fillPaints": "#F0F0F0"
+    },
+    "$style/Text/--por-color-text-huawei": {
+      "type": "color",
+      "desc": "文本色_华为红",
+      "fillPaints": "#C7000B"
+    },
+    "$style/Extend/purple/Extend-color-purple-90": {
+      "type": "color",
+      "fillPaints": "#520673"
+    },
+    "$style/Extend/lime/Extend-color-lime-10": {
+      "type": "color",
+      "fillPaints": "#FDFFE6"
+    },
+    "$style/Extend/orange/Extend-color-orange-70": {
+      "type": "color",
+      "desc": "--por-base-orange-70",
+      "fillPaints": "#D96900"
+    },
+    "$style/Extend/mint/Extend-color-mint-20": {
+      "type": "color",
+      "fillPaints": "#D0F5F1"
+    },
+    "$style/Extend/mint/Extend-color-mint-60": {
+      "type": "color",
+      "fillPaints": "#10C7C1"
+    },
+    "$style/Extend/pink/Extend-color-pink-80": {
+      "type": "color",
+      "fillPaints": "#8F0A94"
+    },
+    "$style/Background/--por-color-bg-tag-gold": {
+      "type": "color",
+      "desc": "金色标签背景色",
+      "fillPaints": [
+        {
+          "type": "gradient_linear",
+          "blendMode": "normal",
+          "opacity": 1,
+          "visible": true,
+          "colors": [
+            {
+              "color": "#E8CDA4",
+              "position": 0
+            },
+            {
+              "color": "#F8EDDB",
+              "position": 1
+            }
+          ]
+        }
+      ]
+    },
+    "$style/Extend/blue/Extend-color-blue-130": {
+      "type": "color",
+      "fillPaints": "#B6D4F2"
+    },
+    "$style/Extend/orange/Extend-color-orange-10": {
+      "type": "color",
+      "fillPaints": "#FFF4E8"
+    },
+    "$style/Extend/pink/Extend-color-pink-60": {
+      "type": "color",
+      "fillPaints": "#D91AD9"
+    },
+    "$style/Border/--por-color-icon-border-control-video-hover": {
+      "type": "color",
+      "desc": "视频播放按钮图标描边色_悬浮",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Text/--por-color-text-secondary": {
+      "type": "color",
+      "desc": "次要文本色/灰色标签文本",
+      "fillPaints": "#595959"
+    },
+    "$style/Border/--por-color-border-secondary-active": {
+      "type": "color",
+      "desc": "次要边框色_悬浮",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-30": {
+      "type": "color",
+      "fillPaints": "#B9A6F7"
+    },
+    "$style/Extend/red/Extend-color-red-40": {
+      "type": "color",
+      "fillPaints": "#FA8682"
+    },
+    "$style/Text/--por-color-text-primary": {
+      "type": "color",
+      "desc": "重要文本色",
+      "fillPaints": "#191919"
+    },
+    "$style/Extend/rose/Extend-color-rose-120": {
+      "type": "color",
+      "fillPaints": "#CC7AA6"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-110": {
+      "type": "color",
+      "fillPaints": "#628C38"
+    },
+    "$style/Text/--por-color-text-inverse": {
+      "type": "color",
+      "desc": "文本反色",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/gray/Extend-color-gray-80": {
+      "type": "color",
+      "desc": "--por-base-gray-80",
+      "fillPaints": "#333333"
+    },
+    "$style/Extend/orange/Extend-color-orange-120": {
+      "type": "color",
+      "fillPaints": "#D6A981"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-60": {
+      "type": "color",
+      "desc": "--por-color-alert-secondary",
+      "fillPaints": "#FFB700"
+    },
+    "$style/Fuctional/--por-color-warning": {
+      "type": "color",
+      "desc": "功能色_告警色",
+      "fillPaints": "#FF8800"
+    },
+    "$style/--por-text-8xl-bold": {
+      "type": "text",
+      "desc": "产品页产品名标题-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 44,
+      "lineHeight": "66px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-90": {
+      "type": "color",
+      "fillPaints": "#7A5202"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-90": {
+      "type": "color",
+      "fillPaints": "#19056E"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-10": {
+      "type": "color",
+      "fillPaints": "#F1F7E8"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-120": {
+      "type": "color",
+      "fillPaints": "#A2C777"
+    },
+    "$style/Extend/mint/Extend-color-mint-70": {
+      "type": "color",
+      "fillPaints": "#0BB8B2"
+    },
+    "$style/Extend/lime/Extend-color-lime-100": {
+      "type": "color",
+      "fillPaints": "#3B4D00"
+    },
+    "$style/--por-base-shadow-l": {
+      "type": "effect",
+      "desc": "弹窗阴影",
+      "effects": [
+        {
+          "color": "#00000014",
+          "offset": {},
+          "progressiveStops": {},
+          "radius": 22,
+          "showShadowBehindNode": true,
+          "spread": 0,
+          "type": "drop_shadow"
+        }
+      ]
+    },
+    "$style/Extend/pink/Extend-color-pink-130": {
+      "type": "color",
+      "fillPaints": "#E2B8E6"
+    },
+    "$style/Extend/sky/Extend-color-sky-20": {
+      "type": "color",
+      "fillPaints": "#D6F6FF"
+    },
+    "$style/Fuctional/--por-color-alert-secondary": {
+      "type": "color",
+      "desc": "功能色_次要告警色",
+      "fillPaints": "#FFB700"
+    },
+    "$style/--por-text-9xl-normal": {
+      "type": "text",
+      "desc": "楼层大标题/活动标题/品牌页大数字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 48,
+      "lineHeight": "72px",
+      "letterSpacing": "0px"
+    },
+    "$style/Background/--por-color-bg-mask": {
+      "type": "color",
+      "desc": "页面级背景遮罩色",
+      "fillPaints": "#000000"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-20": {
+      "type": "color",
+      "fillPaints": "#FCFCC2"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-70": {
+      "type": "color",
+      "fillPaints": "#E0A210"
+    },
+    "$style/--por-text-11xl-normal": {
+      "type": "text",
+      "desc": "官网banner大标题-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 60,
+      "lineHeight": "84px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/gray/Extend-color-gray-90": {
+      "type": "color",
+      "desc": "--por-base-gray-90",
+      "fillPaints": "#191919"
+    },
+    "$style/Extend/mint/Extend-color-mint-40": {
+      "type": "color",
+      "fillPaints": "#64DED6"
+    },
+    "$style/--por-text-10xl-bold": {
+      "type": "text",
+      "desc": "页面大数字/页面大文字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 52,
+      "lineHeight": "78px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/blue/Extend-color-blue-70": {
+      "type": "color",
+      "fillPaints": "#0F5ED4"
+    },
+    "$style/Extend/purple/Extend-color-purple-20": {
+      "type": "color",
+      "fillPaints": "#F4E0FC"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-100": {
+      "type": "color",
+      "fillPaints": "#4D3C00"
+    },
+    "$style/Border/--por-color-border-primary": {
+      "type": "color",
+      "desc": "按钮重要边框色_默认",
+      "fillPaints": "#191919"
+    },
+    "$style/--por-text-m-bold#2": {
+      "type": "text",
+      "desc": "正文-加粗/小标题-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeight": "24px",
+      "letterSpacing": "0px"
+    },
+    "$style/--por-text-2xl-normal": {
+      "type": "text",
+      "desc": "文字标题/banner文字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 20,
+      "lineHeight": "30px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/rose/Extend-color-rose-20": {
+      "type": "color",
+      "fillPaints": "#FFD6E8"
+    },
+    "$style/Extend/blue/Extend-color-blue-80": {
+      "type": "color",
+      "fillPaints": "#0845A6"
+    },
+    "$style/Background/--por-color-bg-tag-orange": {
+      "type": "color",
+      "desc": "橙色标签背景色",
+      "fillPaints": "#D96900"
+    },
+    "$style/Background/--por-color-bg-tag-gray": {
+      "type": "color",
+      "desc": "灰色标签背景色",
+      "fillPaints": "#595959"
+    },
+    "$style/Fuctional/--por-color-info-subtle": {
+      "type": "color",
+      "desc": "功能色_提示色_背景色",
+      "fillPaints": "#1476FF"
+    },
+    "$style/Text/--por-color-text-link-active": {
+      "type": "color",
+      "desc": "文本链接色_悬浮",
+      "fillPaints": "#191919"
+    },
+    "$style/Extend/red/Extend-color-red-100": {
+      "type": "color",
+      "fillPaints": "#4D0005"
+    },
+    "$style/Text/--por-color-text-tag-gold": {
+      "type": "color",
+      "desc": "标签文本_金色",
+      "fillPaints": "#8F3C00"
+    },
+    "$style/Extend/sky/Extend-color-sky-30": {
+      "type": "color",
+      "fillPaints": "#A5E6FA"
+    },
+    "$style/Fuctional/--por-color-alert-fatal": {
+      "type": "color",
+      "desc": "功能色_致命告警色",
+      "fillPaints": "#B50E65"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-130": {
+      "type": "color",
+      "fillPaints": "#D2E6B8"
+    },
+    "$style/Text/--por-color-text-link-default": {
+      "type": "color",
+      "desc": "文本链接色_默认",
+      "fillPaints": "#191919"
+    },
+    "$style/Brand/--por-color-brand-2": {
+      "type": "color",
+      "desc": "辅助色",
+      "fillPaints": "#1476FF"
+    },
+    "$style/Fuctional/--por-color-info": {
+      "type": "color",
+      "desc": "功能色_提示色",
+      "fillPaints": "#1476FF"
+    },
+    "$style/--por-text-6xl-bold": {
+      "type": "text",
+      "desc": "官网产品详情页标题-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 36,
+      "lineHeight": "54px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/red/Extend-color-red-70": {
+      "type": "color",
+      "fillPaints": "#BF0A1C"
+    },
+    "$style/--por-text-6xl-normal": {
+      "type": "text",
+      "desc": "官网产品详情页标题-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 36,
+      "lineHeight": "54px",
+      "letterSpacing": "0px"
+    },
+    "$style/Fuctional/--por-color-success": {
+      "type": "color",
+      "desc": "功能色_成功色",
+      "fillPaints": "#5CB300"
+    },
+    "$style/Extend/orange/Extend-color-orange-130": {
+      "type": "color",
+      "fillPaints": "#F2D8C2"
+    },
+    "$style/Extend/purple/Extend-color-purple-110": {
+      "type": "color",
+      "fillPaints": "#7D3D99"
+    },
+    "$style/Background/--por-color-bg-tag-red": {
+      "type": "color",
+      "desc": "红色标签背景色",
+      "fillPaints": "#F23030"
+    },
+    "$style/Extend/lime/Extend-color-lime-70": {
+      "type": "color",
+      "fillPaints": "#95B312"
+    },
+    "$style/Extend/orange/Extend-color-orange-40": {
+      "type": "color",
+      "fillPaints": "#FCBC72"
+    },
+    "$style/Extend/red/Extend-color-red-90": {
+      "type": "color",
+      "fillPaints": "#78080E"
+    },
+    "$style/Extend/purple/Extend-color-purple-60": {
+      "type": "color",
+      "fillPaints": "#A42FD6"
+    },
+    "$style/--por-base-shadow-none": {
+      "type": "effect",
+      "desc": "无阴影",
+      "effects": [
+        {
+          "color": "#00000000",
+          "offset": {},
+          "progressiveStops": {},
+          "radius": 0,
+          "spread": 0,
+          "type": "drop_shadow"
+        }
+      ]
+    },
+    "$style/Background/--por-color-bg--disable": {
+      "type": "color",
+      "desc": "禁用色",
+      "fillPaints": "#000000"
+    },
+    "$style/Fuctional/--por-color-aler-warning": {
+      "type": "color",
+      "desc": "功能色_告警色",
+      "fillPaints": "#FF8800"
+    },
+    "$style/Extend/green/Extend-color-green-110": {
+      "type": "color",
+      "fillPaints": "#3D995C"
+    },
+    "$style/Extend/rose/Extend-color-rose-80": {
+      "type": "color",
+      "fillPaints": "#940A54"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-70": {
+      "type": "color",
+      "fillPaints": "#391EB0"
+    },
+    "$style/Extend/sky/Extend-color-sky-50": {
+      "type": "color",
+      "fillPaints": "#58CBF5"
+    },
+    "$style/Extend/orange/Extend-color-orange-110": {
+      "type": "color",
+      "fillPaints": "#9E6D3F"
+    },
+    "$style/Fuctional/--por-color-error": {
+      "type": "color",
+      "desc": "功能色_错误色",
+      "fillPaints": "#F23030"
+    },
+    "$style/Extend/red/Extend-color-red-50": {
+      "type": "color",
+      "desc": "--por-base-red-50",
+      "fillPaints": "#F76360"
+    },
+    "$style/Extend/blue/Extend-color-blue-100": {
+      "type": "color",
+      "fillPaints": "#001A4A"
+    },
+    "$style/Background/--por-color-bg-tag-blue": {
+      "type": "color",
+      "desc": "蓝色标签背景色",
+      "fillPaints": "#1476FF"
+    },
+    "$style/--por-base-shadow-m": {
+      "type": "effect",
+      "desc": "卡片、Tips、下拉阴影",
+      "effects": [
+        {
+          "color": "#00000014",
+          "offset": {},
+          "progressiveStops": {},
+          "radius": 12,
+          "showShadowBehindNode": true,
+          "spread": 0,
+          "type": "drop_shadow"
+        }
+      ]
+    },
+    "$style/Extend/pink/Extend-color-pink-110": {
+      "type": "color",
+      "fillPaints": "#993D99"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-30": {
+      "type": "color",
+      "fillPaints": "#FAE49D"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-30": {
+      "type": "color",
+      "fillPaints": "#FAF78E"
+    },
+    "$style/Extend/yellow/Extend-color-yellow-110": {
+      "type": "color",
+      "fillPaints": "#9E7E3F"
+    },
+    "$style/Background/--por-color-bg-tag-huawei": {
+      "type": "color",
+      "desc": "华为红标签背景色",
+      "fillPaints": "#C7000B"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-40": {
+      "type": "color",
+      "fillPaints": "#9479F2"
+    },
+    "$style/Text/--por-color-text-link-disabled": {
+      "type": "color",
+      "desc": "文本链接色_禁用",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Extend/green/Extend-color-green-40": {
+      "type": "color",
+      "fillPaints": "#60D680"
+    },
+    "$style/Extend/sky/Extend-color-sky-80": {
+      "type": "color",
+      "fillPaints": "#1075A3"
+    },
+    "$style/Extend/sky/Extend-color-sky-110": {
+      "type": "color",
+      "fillPaints": "#3D7F99"
+    },
+    "$style/Border/--por-color-border-hover": {
+      "type": "color",
+      "desc": "输入框边框色_悬浮",
+      "fillPaints": "#191919"
+    },
+    "$style/Extend/gray/Extend-color-gray-100": {
+      "type": "color",
+      "desc": "--por-base-gray-100",
+      "fillPaints": "#000000"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-70": {
+      "type": "color",
+      "fillPaints": "#4B9902"
+    },
+    "$style/--por-text-8xl-normal": {
+      "type": "text",
+      "desc": "产品页产品名标题-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 44,
+      "lineHeight": "66px",
+      "letterSpacing": "0px"
+    },
+    "$style/--por-text-3xl-normal": {
+      "type": "text",
+      "desc": "卡片里标题/价格数字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 24,
+      "lineHeight": "36px",
+      "letterSpacing": "0px"
+    },
+    "$style/Background/--por-color-bg-control-active": {
+      "type": "color",
+      "desc": "辅助背景色/用于日期选择悬浮背景色/开关背景",
+      "fillPaints": "#1476FF"
+    },
+    "$style/Fuctional/--por-color-aler-error": {
+      "type": "color",
+      "desc": "功能色_错误色_文本色",
+      "fillPaints": "#F23030"
+    },
+    "$style/Extend/kelly/Extend-color-kelly-40": {
+      "type": "color",
+      "fillPaints": "#A8DB6E"
+    },
+    "$style/Background/--por-color-bg-container-1": {
+      "type": "color",
+      "desc": "背景色_白色",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/pink/Extend-color-pink-40": {
+      "type": "color",
+      "fillPaints": "#EB75E7"
+    },
+    "$style/Extend/gray/Extend-color-gray-0": {
+      "type": "color",
+      "desc": "--por-base-gray-0",
+      "fillPaints": "#FFFFFF"
+    },
+    "$style/Extend/red/Extend-color-red-120": {
+      "type": "color",
+      "fillPaints": "#D4827F"
+    },
+    "$style/--por-text-xl-normal": {
+      "type": "text",
+      "desc": "文字大标题/描述文字/tab页签文字-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": "28px",
+      "letterSpacing": "0px"
+    },
+    "$style/Text/--por-color-text-tag-blue": {
+      "type": "color",
+      "desc": "文本按钮色",
+      "fillPaints": "#1476FF"
+    },
+    "$style/--por-text-7xl-bold": {
+      "type": "text",
+      "desc": "楼层大标题/页面数字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 40,
+      "lineHeight": "60px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/lemon/Extend-color-lemon-110": {
+      "type": "color",
+      "fillPaints": "#9E8F46"
+    },
+    "$style/Extend/blue/Extend-color-blue-10": {
+      "type": "color",
+      "fillPaints": "#F0F7FF"
+    },
+    "$style/Extend/purple/Extend-color-purple-100": {
+      "type": "color",
+      "fillPaints": "#36004D"
+    },
+    "$style/Extend/orange/Extend-color-orange-30": {
+      "type": "color",
+      "fillPaints": "#FCD5A4"
+    },
+    "$style/Text/--por-color-text-tag-purple": {
+      "type": "color",
+      "desc": "标签文本_紫色",
+      "fillPaints": "#832FD6"
+    },
+    "$style/Extend/green/Extend-color-green-130": {
+      "type": "color",
+      "fillPaints": "#B8E6C7"
+    },
+    "$style/Text/--por-color-text-disabled": {
+      "type": "color",
+      "desc": "文本禁用色",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Extend/indigo/Extend-color-indigo-110": {
+      "type": "color",
+      "fillPaints": "#584D99"
+    },
+    "$style/Border/--por-color-border-gray": {
+      "type": "color",
+      "desc": "表格边框色_分隔符",
+      "fillPaints": "#000000"
+    },
+    "$style/Extend/rose/Extend-color-rose-100": {
+      "type": "color",
+      "fillPaints": "#4D002B"
+    },
+    "$style/--por-text-l-normal": {
+      "type": "text",
+      "desc": "小标题-常规",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": "24px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/gray/Extend-color-gray-50": {
+      "type": "color",
+      "desc": "--por-base-gray-50",
+      "fillPaints": "#C2C2C2"
+    },
+    "$style/Fuctional/--por-color-warining-subtle": {
+      "type": "color",
+      "desc": "功能色_告警色_背景色",
+      "fillPaints": "#FF8800"
+    },
+    "$style/--por-text-4xl-bold": {
+      "type": "text",
+      "desc": "楼层标题/卡片里标题文字-加粗",
+      "fontFamily": ".PingFang SC",
+      "fontWeight": 500,
+      "fontSize": 28,
+      "lineHeight": "40px",
+      "letterSpacing": "0px"
+    },
+    "$style/Extend/pink/Extend-color-pink-10": {
+      "type": "color",
+      "fillPaints": "#FCE8FB"
+    },
+    "$style/Border/--por-color-border-primary-active": {
+      "type": "color",
+      "desc": "按钮重要边框色_悬浮",
+      "fillPaints": "#595959"
+    },
+    "$style/Text/--por-color-text-tag-green": {
+      "type": "color",
+      "desc": "标签文本_绿色",
+      "fillPaints": "#029931"
+    }
+  }
+}

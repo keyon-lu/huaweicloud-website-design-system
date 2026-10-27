@@ -1,0 +1,552 @@
+{
+  "scene": "campaign",
+  "hero": {
+    "title": "上图下文综合信息来源验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "information-cards-v1",
+      "id": "v1-information",
+      "title": "场景与活动资讯",
+      "background": "grey",
+      "cardBackground": "white",
+      "columns": 3,
+      "gapProfile": "compact",
+      "context": "marketing",
+      "mobileMode": "grid",
+      "pcInitialRows": 1,
+      "mobileInitialRows": 2,
+      "now": 1792368000000,
+      "items": [
+        {
+          "id": "information-0",
+          "title": "综合信息卡片 1",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792364400000,
+            "endsAt": 1792368000000
+          }
+        },
+        {
+          "id": "information-1",
+          "title": "综合信息卡片 2",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792368000000,
+            "endsAt": 1792371600000
+          }
+        },
+        {
+          "id": "information-2",
+          "title": "综合信息卡片 3",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792371600000,
+            "endsAt": 1792375200000
+          }
+        },
+        {
+          "id": "information-3",
+          "title": "综合信息卡片 4",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792375200000,
+            "endsAt": 1792378800000
+          }
+        },
+        {
+          "id": "information-4",
+          "title": "综合信息卡片 5",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792378800000,
+            "endsAt": 1792382400000
+          }
+        },
+        {
+          "id": "information-5",
+          "title": "综合信息卡片 6",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792382400000,
+            "endsAt": 1792386000000
+          }
+        },
+        {
+          "id": "information-6",
+          "title": "综合信息卡片 7",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792386000000,
+            "endsAt": 1792389600000
+          }
+        }
+      ],
+      "labels": {
+        "actions": "信息卡片操作",
+        "showMore": "展开更多",
+        "showLess": "收起内容",
+        "slides": "内容切换",
+        "slide": "内容卡片",
+        "upcoming": "未开始",
+        "live": "进行中",
+        "ended": "已结束",
+        "video": {
+          "play": "播放视频",
+          "close": "关闭视频",
+          "failed": "视频加载失败",
+          "retry": "重新播放",
+          "blocked": "请点击播放或重试",
+          "actions": "更多视频"
+        }
+      }
+    },
+    {
+      "kind": "information-cards-v1",
+      "id": "v1-information-carousel",
+      "title": "手机横滑内容",
+      "background": "grey",
+      "cardBackground": "white",
+      "columns": 3,
+      "gapProfile": "compact",
+      "context": "marketing",
+      "mobileMode": "carousel",
+      "pcInitialRows": 1,
+      "now": 1792368000000,
+      "items": [
+        {
+          "id": "information-0",
+          "title": "综合信息卡片 1",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792364400000,
+            "endsAt": 1792368000000
+          }
+        },
+        {
+          "id": "information-1",
+          "title": "综合信息卡片 2",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792368000000,
+            "endsAt": 1792371600000
+          }
+        },
+        {
+          "id": "information-2",
+          "title": "综合信息卡片 3",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792371600000,
+            "endsAt": 1792375200000
+          }
+        },
+        {
+          "id": "information-3",
+          "title": "综合信息卡片 4",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792375200000,
+            "endsAt": 1792378800000
+          }
+        },
+        {
+          "id": "information-4",
+          "title": "综合信息卡片 5",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792378800000,
+            "endsAt": 1792382400000
+          }
+        },
+        {
+          "id": "information-5",
+          "title": "综合信息卡片 6",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792382400000,
+            "endsAt": 1792386000000
+          }
+        },
+        {
+          "id": "information-6",
+          "title": "综合信息卡片 7",
+          "description": "可编辑的活动、场景或内容说明。",
+          "image": "product-v1-information-image",
+          "mobileImage": "product-v1-information-mobile",
+          "alt": "原稿活动宣传图",
+          "href": "#v1-information-carousel",
+          "tags": [
+            {
+              "text": "内容标签",
+              "color": "default"
+            }
+          ],
+          "points": [
+            {
+              "text": "完整保留的信息说明"
+            },
+            {
+              "text": "按业务配置入口"
+            }
+          ],
+          "actions": [
+            {
+              "label": "了解详情",
+              "href": "#v1-information-carousel",
+              "variant": "secondary"
+            }
+          ],
+          "activity": {
+            "startsAt": 1792386000000,
+            "endsAt": 1792389600000
+          }
+        }
+      ],
+      "labels": {
+        "actions": "信息卡片操作",
+        "showMore": "展开更多",
+        "showLess": "收起内容",
+        "slides": "内容切换",
+        "slide": "内容卡片",
+        "upcoming": "未开始",
+        "live": "进行中",
+        "ended": "已结束",
+        "video": {
+          "play": "播放视频",
+          "close": "关闭视频",
+          "failed": "视频加载失败",
+          "retry": "重新播放",
+          "blocked": "请点击播放或重试",
+          "actions": "更多视频"
+        }
+      }
+    }
+  ]
+}

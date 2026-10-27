@@ -1,0 +1,179 @@
+{
+  "audit": [
+    {
+      "data": "{\"label\":\"link-matrix\",\"engine\":{\"name\":\"axe-core\",\"version\":\"4.10.3\"},\"at\":\"2026-10-16T07:54:47.666Z\",\"scope\":\"rendered widget WCAG rules only; screen-reader/manual keyboard/usability reviews remain separate\",\"violations\":[],\"incomplete\":[],\"passedRules\":[\"aria-allowed-attr\",\"aria-command-name\",\"aria-conditional-attr\",\"aria-deprecated-role\",\"aria-hidden-focus\",\"aria-prohibited-attr\",\"aria-required-attr\",\"aria-roles\",\"aria-valid-attr-value\",\"aria-valid-attr\",\"color-contrast\",\"link-name\",\"target-size\"]}",
+      "key": "link-matrix"
+    }
+  ],
+  "links": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "disabled": null,
+      "href": "https://storybook.js.org/docs/writing-stories/decorators",
+      "text": "Decorators documentation"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "disabled": null,
+      "href": "https://storybook.js.org/docs/builders/webpack",
+      "text": "Webpack"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "disabled": null,
+      "href": "https://storybook.js.org/docs/builders/vite",
+      "text": "Vite"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "disabled": null,
+      "href": "https://storybook.js.org/docs/configure/environment-variables",
+      "text": "Environment Variables documentation"
+    },
+    {
+      "color": "rgb(25, 25, 25)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "primary-none"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "primary-none-disabled"
+    },
+    {
+      "color": "rgb(25, 25, 25)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "primary-more"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "primary-more-disabled"
+    },
+    {
+      "color": "rgb(25, 25, 25)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "primary-change"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "primary-change-disabled"
+    },
+    {
+      "color": "rgb(89, 89, 89)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "secondary-none"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "secondary-none-disabled"
+    },
+    {
+      "color": "rgb(89, 89, 89)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "secondary-more"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "secondary-more-disabled"
+    },
+    {
+      "color": "rgb(89, 89, 89)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "secondary-change"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "secondary-change-disabled"
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "light-none"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "light-none-disabled"
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "light-more"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "light-more-disabled"
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "light-change"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "light-change-disabled"
+    },
+    {
+      "color": "rgb(25, 25, 25)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "blue-none"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "blue-none-disabled"
+    },
+    {
+      "color": "rgb(25, 25, 25)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "blue-more"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "blue-more-disabled"
+    },
+    {
+      "color": "rgb(25, 25, 25)",
+      "disabled": null,
+      "href": "#matrix-target",
+      "text": "blue-change"
+    },
+    {
+      "color": "rgb(194, 194, 194)",
+      "disabled": "true",
+      "href": null,
+      "text": "blue-change-disabled"
+    }
+  ],
+  "overflow": false
+}

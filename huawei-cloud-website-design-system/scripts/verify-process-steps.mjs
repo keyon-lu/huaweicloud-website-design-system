@@ -1,0 +1,16 @@
+import fs from 'node:fs';import {join} from 'node:path';import {createHash} from 'node:crypto';import assert from 'node:assert/strict';import {root,Babel} from './portal-source.mjs';import {validateComposedContent} from './composed-content.mjs';
+const source=fs.readFileSync(join(root,'src/components/portal-components.tsx'),'utf8'),ast=Babel.packages.parser.parse(source,{sourceType:'module',plugins:['typescript','jsx']}),declaration=ast.program.body.find(node=>node.type==='ExportNamedDeclaration'&&node.declaration?.id?.name==='PortalProcessSteps').declaration;
+const implementation='export '+source.slice(declaration.start,declaration.end);
+assert.equal(fs.readFileSync(join(root,'assets/search-workspace/src/components/process-steps/process-steps.tsx'),'utf8').replace(/^import[^\n]+\n/,'').trim(),implementation.trim(),'Storybook must exercise the exact public function');
+const module={exports:{}},React={createElement:(type,props,...children)=>({type,props:{...props,children}})};
+const code=Babel.transform(implementation,{filename:'steps.tsx',presets:[['typescript',{allExtensions:true,isTSX:true}],['react',{runtime:'classic'}]],plugins:['transform-modules-commonjs']}).code;new Function('React','PortalAsset','module','exports',code)(React,'PortalAsset',module,module.exports);
+const render=module.exports.PortalProcessSteps,make=n=>Array.from({length:n},(_,i)=>({title:'Step '+i,description:'Description '+i}));
+for(const count of [3,4]){const view=render({items:make(count),label:'Steps'}),list=view.props.children[0];assert.equal(list.type,'ol');assert.equal(list.props['data-cols'],count);assert.equal(list.props.children[0].length,count)}
+assert.throws(()=>render({items:make(2)}),/3 to 4/);assert.throws(()=>render({items:make(7)}),/3 to 4/);
+for(const count of [5,6])assert.throws(()=>render({items:make(count)}),/3 to 4/);
+assert.throws(()=>render({items:make(4).map((item,i)=>({...item,icon:i===0?5:1}))}),/icon/);
+const provenance=JSON.parse(fs.readFileSync(join(root,'references/process-steps-source.json'),'utf8')),assets=JSON.parse(fs.readFileSync(join(root,'src/assets/assets.json'),'utf8')).assets;
+for(const row of provenance.files){const file=row.name.endsWith('.css')?'references/source-assets/process-v2-2.4.31.css':assets.find(asset=>asset.source_url===row.url)?.path;assert.ok(file,'Official process asset must be registered');assert.equal(createHash('sha256').update(fs.readFileSync(join(root,file))).digest('hex'),row.sha256,'Reference asset changed: '+row.name)}
+const base={scene:'resource',hero:{title:'Test'},sections:[{kind:'process-steps',id:'steps',title:'Steps',items:make(4)}]};validateComposedContent(base,new Set());
+for(const mutate of [d=>d.sections[0].items=make(2),d=>d.sections[0].items[0].icon=7,d=>d.sections[0].items[0].action='No target',d=>{d.sections[0].kind='cards';d.sections[0].items[0].tag='STEP 01'}]){const input=structuredClone(base);mutate(input);assert.throws(()=>validateComposedContent(input,new Set()))}
+console.log(JSON.stringify({ok:true,sourceFunctionEquality:true,counts:[3,4],negativeCases:9,referenceAssetHashes:6,orderedList:true,scope:'source/route constraints only; viewport and real link interaction checked in Storybook'}));

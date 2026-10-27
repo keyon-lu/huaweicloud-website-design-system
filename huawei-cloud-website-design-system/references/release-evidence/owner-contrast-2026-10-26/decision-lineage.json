@@ -1,0 +1,79 @@
+{
+  "kind": "direct-user-decision-and-nonvisual-metadata-continuity",
+  "date": "2026-10-26",
+  "previousCandidate": "RC17",
+  "decision": "references/owner-decisions-2026-10-26.json",
+  "changeProof": "references/release-evidence/owner-contrast-2026-10-26/change-proof.json",
+  "changes": [
+    {
+      "path": "SKILL.md",
+      "beforeSha256": "043847d715ba772a712681abac7c4cc408a9d50cd1ae966b3aa8a9f0dcc8c57b",
+      "afterSha256": "b8b64e4d1993fc838084fe153e01e669518361d0d2b051ff99d5b11d392a70b4"
+    },
+    {
+      "path": "references/component-registry.json",
+      "beforeSha256": "e8cd609502b0a24b5c947a981bd9996cfdb19337da6cd83191e83f879aa71e66",
+      "afterSha256": "d6a79f081b7280c715185f1b5acd7a0b6ceef71acb7e9dea9a22536fd39635f8"
+    },
+    {
+      "path": "references/expanded-release-profile.json",
+      "beforeSha256": "36699059ee080a5032aac21a407fb015d8e15724a62a02ba3f9558eb67ffe94f",
+      "afterSha256": "97b04bf20d38ac7a55a025457de1ccbacde671c64f7d4dd5234a87865094cf66"
+    },
+    {
+      "path": "references/first-release-contract-index.json",
+      "beforeSha256": "e75f022e24542f26d5f76c74a042fef392a75e8da49361b3cead7f774edd5631",
+      "afterSha256": "d972cfa6c46c65d7545879adf24bed3f274d4a0ff1d2c6288b4738bf07a6856e"
+    },
+    {
+      "path": "references/first-release-execution-protocol.md",
+      "beforeSha256": "291539a2baa5466617207c877293e28ead1d7b6d889405cabcf68279eb82564e",
+      "afterSha256": "bc9dfa7a05b18ae1fe63ce132158dca6762e7c78f536078211d2c1813d4f0fe0"
+    },
+    {
+      "path": "references/first-release-floor-family-contracts.json",
+      "beforeSha256": "1cdc4d49af5d845aaff15c9c93102ac7823e6f8f68585cfa32caed3bce98c07d",
+      "afterSha256": "dd924fc0ff36dc4b01ed58a0997d8d8696d11299bf4443ee292574e71c20e56f"
+    },
+    {
+      "path": "references/first-release-floor-state-contracts.json",
+      "beforeSha256": "ba0454c928b937e58c67b902d8e69163a2c92ee06191ac4cd6bcee427941d9ba",
+      "afterSha256": "9c0e6949c72971c091708e311ed4745f28fe043368e0f2bc894f0916a9e37152"
+    },
+    {
+      "path": "references/first-release-state-media-matrix.json",
+      "beforeSha256": "aae984e7e26782c4c07b21f636f9b5cf9992293905da98246839a0233b5f183a",
+      "afterSha256": "9a24267ab98a09745288412152e742a4f0fac88ba341ebf412f971f4a1bcedcf"
+    },
+    {
+      "path": "references/product-2026-next.md",
+      "beforeSha256": "e007029a5dbf25c38a5f0ba92de831e0fdc95d5f8eed128bcfc38e5a868bb1cd",
+      "afterSha256": "efa6009abbbeb5cdeedfd6896291e60b683721a4428da809dc621e96d5417068"
+    },
+    {
+      "path": "references/product-v1-live-preview.md",
+      "beforeSha256": "8cab5f8e01b8826b6e963ed37402afd6954a4f521954e4720c5e055539ed75ea",
+      "afterSha256": "96e04caddae6e88c3ce9e5d7d498e304d73f92b5c3f24fd0af15e454e8343130"
+    },
+    {
+      "path": "scripts/portal-generate-page.mjs",
+      "beforeSha256": "bdb7d162d85fb8c7c8bafb489576f2077c2ca020c087817a90ba3d38773fd35d",
+      "afterSha256": "40ffcf026e47b41018517982d45fcc78a3514a0c36ac33022bd57f30c0a855e8"
+    },
+    {
+      "path": "scripts/test-expanded-release.mjs",
+      "beforeSha256": "0bc25e854bf56d612776599e40f0a85b8696fe96a8423a9e429d1bc3aa070e4b",
+      "afterSha256": "269973237339b666381b68eae237a2313f94f1fb694f419a9a84b1ae26c62a07"
+    },
+    {
+      "path": "scripts/verify-expanded-release.mjs",
+      "beforeSha256": "1671abad8bc911eec5f4611a0d2b671b85ee7af2e467ff97e9e7037017e86707",
+      "afterSha256": "12b06407b779070c9ba5ba8cb56546ab341dfa5c02006d1aa15fc784323f5292"
+    }
+  ],
+  "scope": "Only next/live contrast design disposition becomes resolved as owner-accepted known nonconformance. No existing acceptance status is promoted; no accessibility pass or general waiver. UI source/style files unchanged and three generated page HTML outputs byte-identical. Generator stdout and release report disclose selected limitations. Current source contract metadata hashes are updated, old decisions and test failures remain archived.",
+  "newDesignDecisions": 2,
+  "newWholeComponentApprovals": 0,
+  "newAccessibilityPasses": 0,
+  "formalRelease": false
+}

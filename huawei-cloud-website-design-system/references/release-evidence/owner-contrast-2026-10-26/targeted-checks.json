@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "scope": "Targeted owner-disposition, metadata, release-gate negative tests and source integrity; UI sources unchanged from previously tested RC17",
+  "checks": [
+    {
+      "name": "test-accepted-source-limitations",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-adopted-state-contracts",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-contract-docs",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-approved-presentation",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-search-template",
+      "exitCode": 0
+    },
+    {
+      "name": "test-expanded-release",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-token-consumption",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-required-resources",
+      "exitCode": 0
+    },
+    {
+      "name": "verify-script-syntax",
+      "exitCode": 0
+    }
+  ],
+  "ok": true,
+  "newAccessibilityPasses": 0,
+  "formalRelease": false
+}

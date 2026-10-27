@@ -1,0 +1,25 @@
+{
+  "kind": "scoped-scene-track-boundary-correction",
+  "date": "2026-10-25",
+  "baseline": "2.6.0-rc10",
+  "changedSharedFunctions": [
+    "PortalProduct2026SceneCarouselTrack"
+  ],
+  "normalReturnJsxEquivalentExceptTwoDisabledExpressions": true,
+  "visualCssByteIdentical": 182,
+  "foundationFamiliesByteIdentical": 17,
+  "files": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "09567706dcf5c8894f6d0202ca6e4d97b532722998232430655759b86e5b935e",
+      "afterSha256": "3b15f16431bbf567226ce48c91066623e552b852078213d1358064d4c0fec70b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.tsx",
+      "beforeSha256": "1bc27f012493bc57e39b9fe332fcfb8f2cb1d0e5d1da6fe07bf7e64dd2b9e593",
+      "afterSha256": "6d95e63d01c900d78b11be25f9f879821d9e6439d9708b417d19c39923556651"
+    }
+  ],
+  "newOwnerApprovals": 0,
+  "formalRelease": false
+}

@@ -1,0 +1,5 @@
+.source-price{max-width:var(--hc-t-input-available-width);min-width:0}
+.source-price .por-current-price{max-width:var(--hc-t-input-available-width);overflow-wrap:anywhere;white-space:normal;height:auto;min-height:var(--por-price-height)}
+.source-price.por-price-s .por-current-price{min-height:var(--por-price-height-s)}
+.source-price.por-price-l .por-current-price{min-height:var(--por-price-height-l)}
+.source-price .por-price-unit{white-space:normal;overflow-wrap:anywhere}

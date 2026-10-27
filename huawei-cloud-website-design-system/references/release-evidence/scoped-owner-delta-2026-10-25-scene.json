@@ -1,0 +1,202 @@
+{
+  "kind": "scoped-owner-source-delta",
+  "date": "2026-10-24",
+  "approvedScopes": 19,
+  "unchangedReviewedFoundationFamilies": 16,
+  "newOwnerApprovals": 0,
+  "changedInputs": [
+    {
+      "path": "src/components/portal-components.tsx",
+      "beforeSha256": "ef80265255d6f3f3c7d76b6a33dc2396ca605cb2676ccbb0ee249e8b77c19240",
+      "afterSha256": "3b15f16431bbf567226ce48c91066623e552b852078213d1358064d4c0fec70b"
+    },
+    {
+      "path": "src/styles/product-v1-photo-wall.css",
+      "beforeSha256": "a5b18e02ee75737696fe1328cb0228c4ea24d7779e71ecbe06280a09c8cb0e67",
+      "afterSha256": "49739ae8841e770e99f43b0c7d122662f11ad47927b6cefaad46918f83de9391"
+    },
+    {
+      "path": "assets/search-workspace/src/components/portal-asset/portal-asset.tsx",
+      "beforeSha256": "dcd7e0f77bf01e7a3b98528f085641c615a01083ea147c59cd73370aca977621",
+      "afterSha256": "5d50123bc6172003671cd38a2200d49d80ab2a57c26943e56e0ea036df83f7ce"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.stories.tsx",
+      "beforeSha256": "b198c2e14f2ec1de74e310cc7102fdf3029e14c11ccc2bf03caaf069fc34d8a0",
+      "afterSha256": "49e946acb99dde3c42672531932d3021c02702e6710f374bf4a470259ceedeb1"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.tsx",
+      "beforeSha256": "7d423b04a156d7aeb39bc6cccad2219439e19c3a31cd35ef896e3323ed7c6533",
+      "afterSha256": "97cc1d0fe0633701dfbda4618d66f0330b530de8dbbfd3df0b728111b05e5391"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-photo-wall/product-v1-photo-wall.css",
+      "beforeSha256": "a5b18e02ee75737696fe1328cb0228c4ea24d7779e71ecbe06280a09c8cb0e67",
+      "afterSha256": "49739ae8841e770e99f43b0c7d122662f11ad47927b6cefaad46918f83de9391"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-photo-wall/product-v1-photo-wall.tsx",
+      "beforeSha256": "bcbb20e4d0fd000424a0092459f28f85d033c089bda70385516c25bdd942206b",
+      "afterSha256": "9027e6349c360e305366fb9af2b07df0eaa487529b95fdcf2d4824c79745530f"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-anchor/source-anchor.stories.tsx",
+      "beforeSha256": "03db4b41a288eaa77c99b3f28c130ece63dccac73a8f87634d188c74b32ddaba",
+      "afterSha256": "494f1c7a9a38a7a87b2d99a27ef272d724be94f084417805e3aefbc30ad1ce97"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-choice/source-choice.stories.tsx",
+      "beforeSha256": "158c50e35f2d2170e9ee87756a9efd3fd690b75513aeb0089a8dee3ea3122103",
+      "afterSha256": "d990abc30f3e17f49914476f8aa843b6684814e63db8dcee6da2e87f2d8ceab1"
+    },
+    {
+      "path": "src/styles/component-tokens.css",
+      "beforeSha256": "3fa6a3889fa8cd5d55cddf382c6de578ef0a83a842972639cf6896bc8bb58e46",
+      "afterSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20"
+    },
+    {
+      "path": "src/styles/product-2026-next.css",
+      "beforeSha256": "5aca2cf02f3a7e4f7cf9d5bf62d581a6b79461e30c81084f23dda5c3b9a6f26f",
+      "afterSha256": "54f71e86fd6eb56c6323192443c8d5aa8c90c48460c61c68d8007ab7a1a6883e"
+    },
+    {
+      "path": "src/styles/product-v1-information.css",
+      "beforeSha256": "54b99485eef38e3d2470983b5b1a59777dec1197c588930c5ea73fa1121c920d",
+      "afterSha256": "6ccb3aa02331c65d3ba89cadff00dedd3092ad0c64a14707fa18995283ae2abe"
+    },
+    {
+      "path": "src/styles/product-v1-live-preview.css",
+      "beforeSha256": "aa159fa0aff7316332efc2d9c8002309f1389bb0f81ca5551e69cfb103f496cb",
+      "afterSha256": "fc977ff59661746f196ecca79178118cb2023f6fa0c1b7be790e1f9cd67a259d"
+    },
+    {
+      "path": "src/styles/product-v1-mosaic.css",
+      "beforeSha256": "932339d77e43fff8b70167e2df3a6017f889fb8a2a7edc5d86f779a47fc9f247",
+      "afterSha256": "5fc0345f45568fe6964647c424f892b5c722acb3ce2925807d09be62ff19d76a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-next/product-2026-next.css",
+      "beforeSha256": "5aca2cf02f3a7e4f7cf9d5bf62d581a6b79461e30c81084f23dda5c3b9a6f26f",
+      "afterSha256": "54f71e86fd6eb56c6323192443c8d5aa8c90c48460c61c68d8007ab7a1a6883e"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.stories.tsx",
+      "beforeSha256": "378c519c39c7f6c60284b718de5465b7366514cc969f22662a5163d6952b950c",
+      "afterSha256": "19402a7b98b9e28cc40fc0b0d95d44ddfd4a7c73ad49c5d76a9b609c2dd9520a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-information/product-v1-information.css",
+      "beforeSha256": "54b99485eef38e3d2470983b5b1a59777dec1197c588930c5ea73fa1121c920d",
+      "afterSha256": "6ccb3aa02331c65d3ba89cadff00dedd3092ad0c64a14707fa18995283ae2abe"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-information/product-v1-information.tsx",
+      "beforeSha256": "bf2b6c2c082b5c38dd8adb119b4b83ebdbe198aedcfc87a4527406a48c0f882a",
+      "afterSha256": "72c93b1850c4c10193f11f91e36bf6ae9b6bcadb14d133bd93f4341fd15315db"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live-preview/product-v1-live-preview.css",
+      "beforeSha256": "aa159fa0aff7316332efc2d9c8002309f1389bb0f81ca5551e69cfb103f496cb",
+      "afterSha256": "fc977ff59661746f196ecca79178118cb2023f6fa0c1b7be790e1f9cd67a259d"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-live-preview/product-v1-live-preview.tsx",
+      "beforeSha256": "c1b5dd695c7d184211cdb1166a963aba6def963db57a9bd14bbed4b7d5c1f862",
+      "afterSha256": "a97945afb74db2843d5376f751fea74ee6a94622743d924c051c212f1ce88488"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-v1-mosaic/product-v1-mosaic.css",
+      "beforeSha256": "932339d77e43fff8b70167e2df3a6017f889fb8a2a7edc5d86f779a47fc9f247",
+      "afterSha256": "5fc0345f45568fe6964647c424f892b5c722acb3ce2925807d09be62ff19d76a"
+    },
+    {
+      "path": "assets/search-workspace/src/styles/component-tokens.css",
+      "beforeSha256": "3fa6a3889fa8cd5d55cddf382c6de578ef0a83a842972639cf6896bc8bb58e46",
+      "afterSha256": "58e2a635278f1cea4dc7e1a1cf35ffe219ddbf78ef787ad43fe4bfb01c69fc20"
+    },
+    {
+      "path": "assets/search-workspace/src/components/search-input/input-family.css",
+      "beforeSha256": "e29fd0ad53fa6f13cbb108467f389f04233001c7d5ac43206cd6b56e90c5886d",
+      "afterSha256": "0f3ad6a456f9f083d81c48ca56dee346a298d69a6b322bb3876968d1ecd249c0"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/source-label.stories.tsx",
+      "beforeSha256": "fc837f5c1043bf604598e61682b162b716b355e175b132b65fb7c9193588f536",
+      "afterSha256": "39e44afc5561c86b7d5bb60ee8ad7aa8da484dc8cc7c3038d258161b8071f944"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-label/source-label.tsx",
+      "beforeSha256": "22fbe30d144d26445739b0a5ca91d29437043b79ea7ddb870b0ef97fa2017b3d",
+      "afterSha256": "5586833ecbf32bbd294a229f4533d4a67893f1f7f6cbc48248fbf0feff6eb43c"
+    },
+    {
+      "path": "assets/search-workspace/src/components/source-tabs/source-tabs.stories.tsx",
+      "beforeSha256": "9d3f83a16f0a65fc8dfdb6000dabdd7449a2189eb1e0d0338ee739815aad64b6",
+      "afterSha256": "4b249d7586cbfd2c2fb6fb0f47102fa4465dd75bc8dbf16d0d9e29280957789b"
+    },
+    {
+      "path": "src/styles/product-2026-video.css",
+      "beforeSha256": "84b68f8b7231b535d389ffc799f9fff64c1099da687e349d032bbcc360b3b427",
+      "afterSha256": "1abd0c79ff1fee954a3713cd8109b95ba2818baaeb7a43695c68ffb5d8f9790b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.css",
+      "beforeSha256": "84b68f8b7231b535d389ffc799f9fff64c1099da687e349d032bbcc360b3b427",
+      "afterSha256": "1abd0c79ff1fee954a3713cd8109b95ba2818baaeb7a43695c68ffb5d8f9790b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-video/product-2026-video.tsx",
+      "beforeSha256": "cf81de7578cef252e4732c8eb0e958c37ffa8df4ae59641b04f6916886e51ea0",
+      "afterSha256": "2029e201aac8373324f58590b63bca849ee99fb1e186b74a428d4b6e5596132a"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.stories.tsx",
+      "beforeSha256": "bfbda61739c8795f1e0e2d800e0707e168d8d6a7bf0e20fca1ef98baacffcd85",
+      "afterSha256": "e313f4d9d870f659bcc1bcbe7a0d2b82b167f7f026ba9198281c06d60cbaf54b"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-assistant/product-2026-assistant.tsx",
+      "beforeSha256": "0ee81ea3dc2145b6481599f48690c206ae24f3ab4ac07e2b4f8f2d42e489224b",
+      "afterSha256": "ae37bf3623f2320eb13bdbfda65e5b0b681dfca9a9a062d2d3b2e3b0a18ad1c9"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.stories.tsx",
+      "beforeSha256": "3a5a4ca771ea1aab7e7bd3be8f3bdba110583916dc3bc58fb92bfbc882d948c7",
+      "afterSha256": "ef5bb3e8f5e84f4d35df0fca90b8c7efbbb18a3bf6e63a5306c352536b95de50"
+    },
+    {
+      "path": "assets/search-workspace/src/components/product-2026-scene-carousel/product-2026-scene-carousel.tsx",
+      "beforeSha256": "1bc27f012493bc57e39b9fe332fcfb8f2cb1d0e5d1da6fe07bf7e64dd2b9e593",
+      "afterSha256": "6d95e63d01c900d78b11be25f9f879821d9e6439d9708b417d19c39923556651"
+    }
+  ],
+  "changedSharedFunctions": [
+    "PortalAsset",
+    "PortalProduct2026Next",
+    "PortalProductV1Information",
+    "PortalProductV1LivePreview",
+    "PortalProductV1PhotoWall",
+    "PortalLabel",
+    "PortalProduct2026VideoDialog",
+    "PortalProduct2026Assistant",
+    "PortalProduct2026SceneCarouselTrack"
+  ],
+  "currentOwnerRepairFunctions": [
+    "PortalProduct2026Next",
+    "PortalProductV1Information",
+    "PortalProductV1LivePreview"
+  ],
+  "ownerDecisions": "references/owner-decisions-2026-10-22.json",
+  "reason": "Source-scoped corrections on four unreviewed floors and prior PhotoWall fix; approved17 foundation implementation files unchanged. All91 original asset URLs and their renderer functions remain unchanged. Scoped owner decisions do not approve whole floors or resolve pending contrast. Owner explicitly allowed three original GIF first frames. Generic renderer normal branch AST verified equal;17 reviewed family implementations unchanged. Exact source table subtitle font correction at1536/1280; protected accepted product/developer presentations and17 foundation implementation files unchanged. No new owner visual approval. Current addition: empty-content label guard only; narrow input containment; test-wrapper layout. Valid-label full-module AST equivalence and current input source-comparison play required; no new owner approval. V17: native decode failure classification and stale request cancellation; unrestricted video text keeps original ratio minimum with natural growth. No new owner approval. V19: existing count span gains valid named group semantics; all182 CSS files and17 foundation families unchanged. No new owner approval. V20: scene track controls derive disabled state from actual scroll bounds and ResizeObserver; all182 CSS files and17 foundation families unchanged. No new owner approval.",
+  "authorizedMotionProof": "references/release-evidence/motion-fallback-2026-10-23.json",
+  "nextSubtitleSourceCorrection": "references/release-evidence/next-subtitle-source-correction-2026-10-23.json",
+  "guardOnlyReviewedFoundationFamilies": [
+    "label"
+  ],
+  "labelContinuityProof": "references/release-evidence/label-empty-content-2026-10-24.json",
+  "narrowInputProof": "references/release-evidence/foundation-narrow-container-2026-10-24.json",
+  "videoContinuityProof": "references/release-evidence/video-correction-2026-10-24.json",
+  "assistantContinuityProof": "references/release-evidence/assistant-count-2026-10-25.json",
+  "sceneTrackContinuityProof": "references/release-evidence/scene-track-edges-2026-10-25.json"
+}

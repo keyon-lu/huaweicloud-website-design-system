@@ -1,0 +1,624 @@
+{
+  "kind": "test-only-text-stress",
+  "snapshotId": "e510a7929bd90418230154b0858d7d1c5f3d108d6296235a1fa7241aaf2c3461",
+  "snapshotFolder": "storybook-v12",
+  "scope": "default rendered branches only; font scaling is NOT browser zoom; clipped text is an inventory, not automatically a defect; no manual or visual approvals",
+  "date": "2026-10-23T15:27:28.183Z",
+  "done": 4,
+  "rows": [
+    {
+      "id": "pix-001-2-155205",
+      "name": "折叠左右图文",
+      "storyId": "product2026-foldedmedia--default",
+      "checks": [
+        {
+          "width": 1920,
+          "mode": "normal",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "text-spacing",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "font-200-percent",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [
+            {
+              "tag": "BUTTON",
+              "className": "",
+              "ownText": "快速生成专业PPT\n−",
+              "decorativeChildren": [
+                {
+                  "className": "hc-p26-folded-arrow",
+                  "text": "−"
+                }
+              ],
+              "before": "none",
+              "title": "",
+              "role": null,
+              "text": "快速生成专业PPT\n−",
+              "width": 577,
+              "scrollWidth": 593
+            },
+            {
+              "tag": "BUTTON",
+              "className": "",
+              "ownText": "每日定时新闻推送\n+",
+              "decorativeChildren": [
+                {
+                  "className": "hc-p26-folded-arrow",
+                  "text": "+"
+                }
+              ],
+              "before": "none",
+              "title": "",
+              "role": null,
+              "text": "每日定时新闻推送\n+",
+              "width": 577,
+              "scrollWidth": 593
+            },
+            {
+              "tag": "BUTTON",
+              "className": "",
+              "ownText": "一键生成深度报告\n+",
+              "decorativeChildren": [
+                {
+                  "className": "hc-p26-folded-arrow",
+                  "text": "+"
+                }
+              ],
+              "before": "none",
+              "title": "",
+              "role": null,
+              "text": "一键生成深度报告\n+",
+              "width": 577,
+              "scrollWidth": 593
+            },
+            {
+              "tag": "BUTTON",
+              "className": "",
+              "ownText": "本地文件智能整理\n+",
+              "decorativeChildren": [
+                {
+                  "className": "hc-p26-folded-arrow",
+                  "text": "+"
+                }
+              ],
+              "before": "none",
+              "title": "",
+              "role": null,
+              "text": "本地文件智能整理\n+",
+              "width": 577,
+              "scrollWidth": 593
+            }
+          ],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "normal",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "text-spacing",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "font-200-percent",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "normal",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "text-spacing",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "font-200-percent",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 5,
+          "controlOverflow": [],
+          "clippedText": []
+        }
+      ]
+    },
+    {
+      "id": "pix-001-2-65031",
+      "name": "下一步",
+      "storyId": "product2026-nextstep--default",
+      "checks": [
+        {
+          "width": 1920,
+          "mode": "normal",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "text-spacing",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "font-200-percent",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "normal",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "text-spacing",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "font-200-percent",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "normal",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "text-spacing",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "font-200-percent",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 2,
+          "controlOverflow": [],
+          "clippedText": []
+        }
+      ]
+    },
+    {
+      "id": "pix-002-16-30923",
+      "name": "新闻列表",
+      "storyId": "releasescope-pix-002-16-30923--default",
+      "checks": [
+        {
+          "width": 1920,
+          "mode": "normal",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 15,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "text-spacing",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 15,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "font-200-percent",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 15,
+          "controlOverflow": [
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-left",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "上一页",
+              "width": 32,
+              "scrollWidth": 44
+            },
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-right",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "下一页",
+              "width": 32,
+              "scrollWidth": 44
+            }
+          ],
+          "clippedText": [
+            {
+              "tag": "P",
+              "className": "",
+              "text": "开发工具与实践内容检索样例",
+              "overflow": "hidden",
+              "lineClamp": "2"
+            },
+            {
+              "tag": "P",
+              "className": "",
+              "text": "云容器与应用开发相关内容",
+              "overflow": "hidden",
+              "lineClamp": "2"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "mode": "normal",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 15,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "text-spacing",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 15,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "font-200-percent",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 15,
+          "controlOverflow": [
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-left",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "上一页",
+              "width": 32,
+              "scrollWidth": 44
+            },
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-right",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "下一页",
+              "width": 32,
+              "scrollWidth": 44
+            }
+          ],
+          "clippedText": [
+            {
+              "tag": "P",
+              "className": "",
+              "text": "开发工具与实践内容检索样例",
+              "overflow": "hidden",
+              "lineClamp": "2"
+            },
+            {
+              "tag": "P",
+              "className": "",
+              "text": "云容器与应用开发相关内容",
+              "overflow": "hidden",
+              "lineClamp": "2"
+            }
+          ]
+        },
+        {
+          "width": 320,
+          "mode": "normal",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 13,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "text-spacing",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 13,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "font-200-percent",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 13,
+          "controlOverflow": [
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-double-left",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "第一页",
+              "width": 32,
+              "scrollWidth": 36
+            },
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-left",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "上一页",
+              "width": 32,
+              "scrollWidth": 44
+            },
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-right",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "下一页",
+              "width": 32,
+              "scrollWidth": 44
+            },
+            {
+              "tag": "BUTTON",
+              "className": "por-page-link u-icon u-icon-double-right",
+              "ownText": "",
+              "decorativeChildren": [],
+              "before": "\"\"",
+              "title": "",
+              "role": null,
+              "text": "最后一页",
+              "width": 32,
+              "scrollWidth": 36
+            }
+          ],
+          "clippedText": [
+            {
+              "tag": "P",
+              "className": "",
+              "text": "开发工具与实践内容检索样例",
+              "overflow": "hidden",
+              "lineClamp": "2"
+            },
+            {
+              "tag": "P",
+              "className": "",
+              "text": "云容器与应用开发相关内容",
+              "overflow": "hidden",
+              "lineClamp": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pix-002-12-53827",
+      "name": "电梯导航",
+      "storyId": "releasescope-pix-002-12-53827--default",
+      "checks": [
+        {
+          "width": 1920,
+          "mode": "normal",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 3,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "text-spacing",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 3,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 1920,
+          "mode": "font-200-percent",
+          "viewport": 1920,
+          "rootWidth": 1920,
+          "overflow": false,
+          "controls": 3,
+          "controlOverflow": [
+            {
+              "tag": "A",
+              "className": "",
+              "ownText": "解决方案",
+              "decorativeChildren": [],
+              "before": "none",
+              "title": "解决方案",
+              "role": null,
+              "text": "解决方案",
+              "width": 112,
+              "scrollWidth": 136
+            }
+          ],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "normal",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 0,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "text-spacing",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 0,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 768,
+          "mode": "font-200-percent",
+          "viewport": 768,
+          "rootWidth": 768,
+          "overflow": false,
+          "controls": 0,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "normal",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 0,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "text-spacing",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 0,
+          "controlOverflow": [],
+          "clippedText": []
+        },
+        {
+          "width": 320,
+          "mode": "font-200-percent",
+          "viewport": 320,
+          "rootWidth": 320,
+          "overflow": false,
+          "controls": 0,
+          "controlOverflow": [],
+          "clippedText": []
+        }
+      ]
+    }
+  ]
+}

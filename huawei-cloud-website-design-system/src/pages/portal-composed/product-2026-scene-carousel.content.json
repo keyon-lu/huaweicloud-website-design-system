@@ -1,0 +1,123 @@
+{
+  "scene": "solution",
+  "hero": {
+    "title": "2026场景轮播验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "scene-carousel-2026",
+      "id": "scene-carousel-2026",
+      "title": "多种业务场景",
+      "background": "white",
+      "groups": [
+        {
+          "id": "ai-scenes",
+          "label": "应用场景",
+          "columns": 3,
+          "items": [
+            {
+              "id": "use-0",
+              "type": "ai",
+              "title": "协同开发",
+              "description": "将能力用于实际业务场景",
+              "asset": "product-2026-carousel-scene-0",
+              "tone": "ink",
+              "tags": [
+                "场景介绍"
+              ],
+              "overlay": {
+                "title": "协同开发",
+                "description": "查看使用方式与部署入口",
+                "actions": [
+                  {
+                    "label": "了解详情",
+                    "href": "#scene-carousel-2026",
+                    "variant": "secondary"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "use-1",
+              "type": "ai",
+              "title": "智能分析",
+              "description": "将能力用于实际业务场景",
+              "asset": "product-2026-carousel-scene-1",
+              "tone": "ink",
+              "tags": [
+                "场景介绍"
+              ],
+              "overlay": {
+                "title": "智能分析",
+                "description": "查看使用方式与部署入口",
+                "actions": [
+                  {
+                    "label": "了解详情",
+                    "href": "#scene-carousel-2026",
+                    "variant": "secondary"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "use-2",
+              "type": "ai",
+              "title": "业务自动化",
+              "description": "将能力用于实际业务场景",
+              "asset": "product-2026-carousel-scene-2",
+              "tone": "ink",
+              "tags": [
+                "场景介绍"
+              ],
+              "overlay": {
+                "title": "业务自动化",
+                "description": "查看使用方式与部署入口",
+                "actions": [
+                  {
+                    "label": "了解详情",
+                    "href": "#scene-carousel-2026",
+                    "variant": "secondary"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "use-3",
+              "type": "ai",
+              "title": "内容创作",
+              "description": "将能力用于实际业务场景",
+              "asset": "product-2026-carousel-scene-0",
+              "tone": "ink",
+              "tags": [
+                "场景介绍"
+              ],
+              "overlay": {
+                "title": "内容创作",
+                "description": "查看使用方式与部署入口",
+                "actions": [
+                  {
+                    "label": "了解详情",
+                    "href": "#scene-carousel-2026",
+                    "variant": "secondary"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "actions": "场景入口",
+        "pauseBackground": "暂停背景视频",
+        "resumeBackground": "继续背景视频",
+        "tabs": "场景分类",
+        "previousTab": "前一分类",
+        "nextTab": "后一分类",
+        "track": "场景卡片",
+        "previous": "上一场景",
+        "next": "下一场景"
+      }
+    }
+  ]
+}

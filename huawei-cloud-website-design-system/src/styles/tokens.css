@@ -1,0 +1,4 @@
+/* Token source entry, not an extra runtime theme. Existing generator loads
+ * portalui-offline.css directly; this forwarding entry keeps the canonical semantic
+ * token source discoverable without duplicating accepted values. */
+@import "./portalui-offline.css";

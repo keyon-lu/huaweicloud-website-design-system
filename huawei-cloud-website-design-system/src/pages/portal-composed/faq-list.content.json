@@ -1,0 +1,100 @@
+{
+  "scene": "resource",
+  "hero": {
+    "title": "FAQ来源规范验证"
+  },
+  "footer": false,
+  "sections": [
+    {
+      "kind": "faq-list",
+      "id": "questions",
+      "title": "常见问题",
+      "mobileTitle": "常见问题",
+      "description": "规范验证内容，支持逐项展开与富文本链接",
+      "desktopExpanded": false,
+      "items": [
+        {
+          "id": "question-0",
+          "question": "如何开始使用相关能力？",
+          "blocks": [
+            {
+              "tone": "primary",
+              "segments": [
+                {
+                  "text": "此处为主要答案说明。",
+                  "strong": true
+                }
+              ]
+            },
+            {
+              "tone": "secondary",
+              "segments": [
+                {
+                  "text": "此处为补充说明，完整保留正文并支持资料链接。"
+                },
+                {
+                  "text": "查看相关资料",
+                  "href": "#questions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "question-1",
+          "question": "如何选择适合场景的开发资源？",
+          "blocks": [
+            {
+              "tone": "primary",
+              "segments": [
+                {
+                  "text": "此处为主要答案说明。",
+                  "strong": true
+                }
+              ]
+            },
+            {
+              "tone": "secondary",
+              "segments": [
+                {
+                  "text": "此处为补充说明，完整保留正文并支持资料链接。"
+                },
+                {
+                  "text": "查看相关资料",
+                  "href": "#questions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "question-2",
+          "question": "遇到问题时如何获得支持？",
+          "blocks": [
+            {
+              "tone": "primary",
+              "segments": [
+                {
+                  "text": "此处为主要答案说明。",
+                  "strong": true
+                }
+              ]
+            },
+            {
+              "tone": "secondary",
+              "segments": [
+                {
+                  "text": "此处为补充说明，完整保留正文并支持资料链接。"
+                },
+                {
+                  "text": "查看相关资料",
+                  "href": "#questions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

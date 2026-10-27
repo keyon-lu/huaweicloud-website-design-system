@@ -1,0 +1,14 @@
+import React from 'react';
+import {PortalAsset} from '@/components/portal-asset';
+import {SourceProduct2026Actions} from '@/components/product-2026-commands';
+import type {Product2026Action} from '@/components/product-2026-commands';
+import './product-v1-benefits.css';
+export type ProductV1Benefit={id:string;title:string;body:{kind:'paragraphs'|'bullets';items:readonly string[]};image?:{asset:string;mobileAsset:string;alt:string};action?:Product2026Action};
+export type ProductV1BenefitsFloor={kind:'illustrated-benefits-v1';id:string;title:string;showTitle:boolean;background:'white'|'grey';cardBackground:'white'|'grey'|'transparent';layout:'staggered'|'equal'|'feature'|'single';items:readonly ProductV1Benefit[];mobileOrder:readonly string[];labels:{actions:string}};
+export function SourceProductV1Benefits({data}:{data:ProductV1BenefitsFloor}){
+ const [phone,setPhone]=React.useState(()=>typeof matchMedia!=='undefined'&&matchMedia('(max-width:768px)').matches),[open,setOpen]=React.useState(()=>new Set(data.mobileOrder.slice(0,1)));
+ React.useEffect(()=>{const q=matchMedia('(max-width:768px)'),update=()=>setPhone(q.matches);q.addEventListener('change',update);return()=>q.removeEventListener('change',update)},[]);
+ const content=(i:ProductV1Benefit)=><><div className="hc-pv1-benefit-body">{i.body.kind==='paragraphs'?i.body.items.map((s,j)=><p key={j}>{s}</p>):<ul>{i.body.items.map((s,j)=><li key={j}>{s}</li>)}</ul>}{i.action&&<SourceProduct2026Actions items={[i.action]} placement="card" label={data.labels.actions}/>}</div>{i.image&&<PortalAsset className="hc-pv1-benefit-image" assetId={phone?i.image.mobileAsset:i.image.asset} alt={i.image.alt}/>}</>;
+ const card=(i:ProductV1Benefit,index:number)=> <article key={i.id} className={'hc-pv1-benefit-card hc-pv1-benefit-index-'+index}><h3>{i.title}</h3>{content(i)}</article>;
+ return <section id={data.id} className={'hc-pv1-benefits hc-pv1-benefits-'+data.background+' hc-pv1-benefits-card-'+data.cardBackground+' hc-pv1-benefits-'+data.layout} data-source-pattern="pix-002-16-38905"><div className="por-container">{data.showTitle&&<h2>{data.title}</h2>}{phone?<div className="hc-pv1-benefits-accordion">{data.mobileOrder.map(id=>{const i=data.items.find(i=>i.id===id);if(!i)return null;return <details key={i.id} open={open.has(i.id)} className="hc-pv1-benefit-card" onToggle={e=>{const value=e.currentTarget.open;setOpen(previous=>{if(previous.has(i.id)===value)return previous;const next=new Set(previous);if(value)next.add(i.id);else next.delete(i.id);return next})}}><summary>{i.title}</summary><div className="hc-pv1-benefit-mobile-content">{content(i)}</div></details>})}</div>:data.layout==='staggered'?<div className="hc-pv1-benefits-columns"><div>{data.items.slice(0,2).map(card)}</div><div>{data.items.slice(2).map((i,j)=>card(i,j+2))}</div></div>:<div className="hc-pv1-benefits-grid">{data.items.map(card)}</div>}</div></section>
+}
